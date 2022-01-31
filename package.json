@@ -1,0 +1,20 @@
+{
+  "name": "canidevtools",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "post-update": "yarn upgrade --latest"
+  },
+  "dependencies": {
+    "fuse.js": "6.5.3",
+    "marked": "4.0.12",
+    "next": "^12.1.4",
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
+  },
+  "license": "MIT",
+  "keywords": [],
+  "description": ""
+}

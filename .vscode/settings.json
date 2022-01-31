@@ -1,0 +1,434 @@
+{
+	"editor.insertSpaces": false,
+	"editor.detectIndentation": false
+  // "editor.theme": "vs-dark",
+  /**
+   * Render vertical lines at the specified columns.
+   * Defaults to empty array.
+   */
+  // "editor.rulers": [],
+  /**
+   * A string containing the word separators used when doing word navigation.
+   * Defaults to `~!@#$%^&*()-=+[{]}\\|;:\'",.<>/?
+   */
+  // "editor.wordSeparators": "`~!@#$%^&*()-=+[{]}\\\\|;:\\'\",.<>/?",
+  /**
+   * Enable Linux primary clipboard.
+   * Defaults to true.
+   */
+  // "editor.selectionClipboard": true,
+  /**
+   * Control the rendering of line numbers.
+   * If it is a function, it will be invoked when rendering a line number and the return value will be rendered.
+   * Otherwise, if it is a truey, line numbers will be rendered normally (equivalent of using an identity function).
+   * Otherwise, line numbers will not be rendered.
+   * Defaults to true.
+   */
+  // "editor.lineNumbers": "on",
+  /**
+   * Should the corresponding line be selected when clicking on the line number?
+   * Defaults to true.
+   */
+  // "editor.selectOnLineNumbers": true,
+  /**
+   * Control the width of line numbers, by reserving horizontal space for rendering at least an amount of digits.
+   * Defaults to 5.
+   */
+  // "editor.lineNumbersMinChars": 5,
+  /**
+   * Enable the rendering of the glyph margin.
+   * Defaults to true in vscode and to false in monaco-editor.
+   */
+  // "editor.glyphMargin": false,
+  /**
+   * The width reserved for line decorations (in px).
+   * Line decorations are placed between line numbers and the editor content.
+   * You can pass in a string in the format floating point followed by "ch". e.g. 1.3ch.
+   * Defaults to 10.
+   */
+  // "editor.lineDecorationsWidth": 10,
+  /**
+   * When revealing the cursor, a virtual padding (px) is added to the cursor, turning it into a rectangle.
+   * This virtual padding ensures that the cursor gets revealed before hitting the edge of the viewport.
+   * Defaults to 30 (px).
+   */
+  // "editor.revealHorizontalRightPadding": 30,
+  /**
+   * Render the editor selection with rounded borders.
+   * Defaults to true.
+   */
+  // "editor.roundedSelection": true,
+  /**
+   * Control the behavior and rendering of the minimap.
+   */
+  // "editor.minimap": {
+  //  "enabled": false
+  // },
+  /**
+   * Display overflow widgets as `fixed`.
+   * Defaults to `false`.
+   */
+  // "editor.fixedOverflowWidgets": false,
+  /**
+   * The number of vertical lanes the overview ruler should render.
+   * Defaults to 2.
+   */
+  // "editor.overviewRulerLanes": 2,
+  /**
+   * Controls if a border should be drawn around the overview ruler.
+   * Defaults to `true`.
+   */
+  // "editor.overviewRulerBorder": true,
+  /**
+   * Control the cursor animation style, possible values are 'blink', 'smooth', 'phase', 'expand' and 'solid'.
+   * Defaults to 'blink'.
+   */
+  // "editor.cursorBlinking": "blink",
+  /**
+   * Zoom the font in the editor when using the mouse wheel in combination with holding Ctrl.
+   * Defaults to false.
+   */
+  // "editor.mouseWheelZoom": false,
+  /**
+   * Control the cursor style, either 'block' or 'line'.
+   * Defaults to 'line'.
+   */
+  // "editor.cursorStyle": "line",
+  /**
+   * Control the width of the cursor when cursorStyle is set to 'line'
+   */
+  // "editor.cursorWidth": 2,
+  /**
+   * Enable font ligatures.
+   * Defaults to false.
+   */
+  // "editor.fontLigatures": false,
+  /**
+   * Disable the use of `will-change` for the editor margin and lines layers.
+   * The usage of `will-change` acts as a hint for browsers to create an extra layer.
+   * Defaults to false.
+   */
+  // "editor.disableLayerHinting": false,
+  /**
+   * Disable the optimizations for monospace fonts.
+   * Defaults to false.
+   */
+  // "editor.disableMonospaceOptimizations": false,
+  /**
+   * Should the cursor be hidden in the overview ruler.
+   * Defaults to false.
+   */
+  // "editor.hideCursorInOverviewRuler": false,
+  /**
+   * Enable that scrolling can go one screen size after the last line.
+   * Defaults to true.
+   */
+  // "editor.scrollBeyondLastLine": true,
+  /**
+   * Enable that scrolling can go beyond the last column by a number of columns.
+   * Defaults to 5.
+   */
+  // "editor.scrollBeyondLastColumn": 5,
+  /**
+   * Enable that the editor animates scrolling to a position.
+   * Defaults to false.
+   */
+  // "editor.smoothScrolling": false,
+  /**
+   * Enable that the editor will install an interval to check if its container dom node size has changed.
+   * Enabling this might have a severe performance impact.
+   * Defaults to false.
+   */
+  // "editor.automaticLayout": false,
+  /**
+   * Control the wrapping of the editor.
+   * When `wordWrap` = "off", the lines will never wrap.
+   * When `wordWrap` = "on", the lines will wrap at the viewport width.
+   * When `wordWrap` = "wordWrapColumn", the lines will wrap at `wordWrapColumn`.
+   * When `wordWrap` = "bounded", the lines will wrap at min(viewport width, wordWrapColumn).
+   * Defaults to "off".
+   */
+  // "editor.wordWrap": "on",
+  /**
+   * Control the wrapping of the editor.
+   * When `wordWrap` = "off", the lines will never wrap.
+   * When `wordWrap` = "on", the lines will wrap at the viewport width.
+   * When `wordWrap` = "wordWrapColumn", the lines will wrap at `wordWrapColumn`.
+   * When `wordWrap` = "bounded", the lines will wrap at min(viewport width, wordWrapColumn).
+   * Defaults to 80.
+   */
+  // "editor.wordWrapColumn": 0,
+  /**
+   * Force word wrapping when the text appears to be of a minified/generated file.
+   * Defaults to true.
+   */
+  // "editor.wordWrapMinified": true,
+  /**
+   * Control indentation of wrapped lines. Can be: 'none', 'same', 'indent' or 'deepIndent'.
+   * Defaults to 'same' in vscode and to 'none' in monaco-editor.
+   */
+  // "editor.wrappingIndent": "same",
+  /**
+   * Configure word wrapping characters. A break will be introduced before these characters.
+   * Defaults to '{([+'.
+   */
+  // "editor.wordWrapBreakBeforeCharacters": "{([+",
+  /**
+   * Configure word wrapping characters. A break will be introduced after these characters.
+   * Defaults to ' \t})]?|&,;'.
+   */
+  // "editor.wordWrapBreakAfterCharacters": " \t})]?|&,;",
+  /**
+   * Configure word wrapping characters. A break will be introduced after these characters only if no `wordWrapBreakBeforeCharacters` or `wordWrapBreakAfterCharacters` were found.
+   * Defaults to '.'.
+   */
+  // "editor.wordWrapBreakObtrusiveCharacters": ".",
+  /**
+   * Performance guard: Stop rendering a line after x characters.
+   * Defaults to 10000.
+   * Use -1 to never stop rendering
+   */
+  // "editor.stopRenderingLineAfter": -1,
+  /**
+   * Configure the editor's hover.
+   */
+  // "editor.hover": {
+  /**
+   * Enable the hover.
+   * Defaults to true.
+   */
+  // "enabled": true,
+  /**
+   * Delay for showing the hover.
+   * Defaults to 300.
+   */
+  // "delay": 300,
+  /**
+   * Is the hover sticky such that it can be clicked and its contents selected?
+   * Defaults to true.
+   */
+  // "sticky": true
+  // },
+  /**
+   * Enable detecting links and making them clickable.
+   * Defaults to true.
+   */
+  // "editor.links": true,
+  /**
+   * Enable inline color decorators and color picker rendering.
+   */
+  // "editor.colorDecorators": true,
+  /**
+   * Enable custom contextmenu.
+   * Defaults to true.
+   */
+  // "editor.contextmenu": true,
+  /**
+   * A multiplier to be used on the `deltaX` and `deltaY` of mouse wheel scroll events.
+   * Defaults to 1.
+   */
+  // "editor.mouseWheelScrollSensitivity": 1,
+  /**
+   * The modifier to be used to add multiple cursors with the mouse.
+   * Defaults to 'alt'
+   */
+  // "editor.multiCursorModifier": "alt",
+  /**
+   * Merge overlapping selections.
+   * Defaults to true
+   */
+  // "editor.multiCursorMergeOverlapping": true,
+  /**
+   * Configure the editor's accessibility support.
+   * Defaults to 'auto'. It is best to leave this to 'auto'.
+   */
+  // "editor.accessibilitySupport": "auto",
+  /**
+   * Suggest options.
+   */
+  // "editor.suggest": {
+  /**
+   * Enable graceful matching. Defaults to true.
+   */
+  // "filterGraceful": true,
+  /**
+   * Prevent quick suggestions when a snippet is active. Defaults to true.
+   */
+  // "snippetsPreventQuickSuggestions": true
+  // },
+  /**
+   * Enable quick suggestions (shadow suggestions)
+   * Defaults to true.
+   */
+  // "editor.quickSuggestions": true,
+  /**
+   * Quick suggestions show delay (in ms)
+   * Defaults to 500 (ms)
+   */
+  // "editor.quickSuggestionsDelay": 10,
+  /**
+   * Parameter hint options.
+   */
+  // "editor.parameterHints": true,
+  /**
+   * Render icons in suggestions box.
+   * Defaults to true.
+   */
+  // "editor.iconsInSuggestions": true,
+  /**
+   * Options for auto closing brackets.
+   * Defaults to language defined behavior.
+   */
+  // "editor.autoClosingBrackets": true,
+  /**
+   * Controls whether the editor should automatically adjust the indentation
+   * when users type, paste, move or indent lines.
+   * Defaults to advanced.
+   */
+  // "editor.autoIndent": "full",
+  /**
+   * Enable format on type.
+   * Defaults to false.
+   */
+  // "editor.formatOnType": false,
+  /**
+   * Enable format on paste.
+   * Defaults to false.
+   */
+  // "editor.formatOnPaste": false,
+  /**
+   * Enable format on save.
+   * Defaults to true.
+   */
+  // "editor.formatOnSave": true,
+  /**
+   * Controls if the editor should allow to move selections via drag and drop.
+   * Defaults to false.
+   */
+  // "editor.dragAndDrop": false,
+  /**
+   * Enable the suggestion box to pop-up on trigger characters.
+   * Defaults to true.
+   */
+  // "editor.suggestOnTriggerCharacters": true,
+  /**
+   * Accept suggestions on ENTER.
+   * Defaults to 'on'.
+   */
+  // "editor.acceptSuggestionOnEnter": "on",
+  /**
+   * Accept suggestions on provider defined characters.
+   * Defaults to true.
+   */
+  // "editor.acceptSuggestionOnCommitCharacter": true,
+  /**
+   * Enable snippet suggestions. Default to 'true'.
+   */
+  // "editor.snippetSuggestions": "top",
+  /**
+   * Copying without a selection copies the current line.
+   */
+  // "editor.emptySelectionClipboard": true,
+  /**
+   * Enable word based suggestions. Defaults to 'true'
+   */
+  // "editor.wordBasedSuggestions": true,
+  /**
+   * The history mode for suggestions.
+   */
+  // "editor.suggestSelection": "recentlyUsedByPrefix",
+  /**
+   * Enable selection highlight.
+   * Defaults to true.
+   */
+  // "editor.selectionHighlight": true,
+  /**
+   * Enable semantic occurrences highlight.
+   * Defaults to true.
+   */
+  // "editor.occurrencesHighlight": true,
+  /**
+   * Show code lens
+   * Defaults to true.
+   */
+  // "editor.codeLens": true,
+  /**
+   * Control the behavior and rendering of the code action lightbulb.
+   */
+  // "editor.lightbulb": {
+  //   "enabled": true
+  // },
+  /**
+   * Enable code folding
+   * Defaults to true.
+   */
+  // "editor.folding": true,
+  /**
+   * Selects the folding strategy. 'auto' uses the strategies contributed for the current document, 'indentation' uses the indentation based folding strategy.
+   * Defaults to 'auto'.
+   */
+  // "editor.foldingStrategy": "auto",
+  /**
+   * Controls whether the fold actions in the gutter stay always visible or hide unless the mouse is over the gutter.
+   * Defaults to 'mouseover'.
+   */
+  // "editor.showFoldingControls": "mouseover",
+  /**
+   * Enable highlighting of matching brackets.
+   * Defaults to true.
+   */
+  // "editor.matchBrackets": true,
+  /**
+   * Enable rendering of whitespace.
+   * Defaults to none.
+   */
+  // "editor.renderWhitespace": "none",
+  /**
+   * Enable rendering of control characters.
+   * Defaults to false.
+   */
+  // "editor.renderControlCharacters": false,
+  /**
+   * Enable rendering of indent guides.
+   * Defaults to true.
+   */
+  // "editor.renderIndentGuides": true,
+  /**
+   * Enable highlighting of the active indent guide.
+   * Defaults to true.
+   */
+  // "editor.highlightActiveIndentGuide": true,
+  /**
+   * Enable rendering of current line highlight.
+   * Defaults to all.
+   */
+  // "editor.renderLineHighlight": "all",
+  /**
+   * Inserting and deleting whitespace follows tab stops.
+   */
+  // "editor.useTabStops": true,
+  /**
+   * The font family
+   */
+  // "editor.fontFamily": "Menlo, Cascadia Code, Consolas, Liberation Mono, monospace",
+  /**
+   * The font weight
+   */
+  // "editor.fontWeight": "normal",
+  /**
+   * The font size
+   */
+  // "editor.fontSize": 12,
+  /**
+   * The line height
+   */
+  // "editor.lineHeight": 18,
+  /**
+   * The letter spacing
+   */
+  // "editor.letterSpacing": 0,
+  /**
+   * Controls fading out of unused variables.
+   */
+  // "editor.showUnused": true
+}
