@@ -76,7 +76,7 @@ export function Footer() {
               <dd className={`mb_1em`}>
                 <a href="https://twitter.com/CanIDevTools">@CanIDevTools</a>
               </dd>
-              <dd className={``}>
+              {/* <dd className={``}>
                 <a
                   role="button"
                   onClick={() =>
@@ -87,7 +87,7 @@ export function Footer() {
                 >
                   Top↑
                 </a>
-              </dd>
+              </dd> */}
             </dl>
           </div>
         </div>
