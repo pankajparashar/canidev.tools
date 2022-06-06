@@ -94,7 +94,9 @@ export function Details({ details, id }) {
             </a>
             {" | "}
             <a
-              href={`https://twitter.com/intent/tweet?text=${Share}&via=canidev_tools`}
+              href={`https://twitter.com/intent/tweet?text=${
+                Share ? Share : ""
+              }&via=canidev_tools`}
               rel="noreferrer"
               target="_blank"
             >
