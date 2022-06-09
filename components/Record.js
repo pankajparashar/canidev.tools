@@ -16,13 +16,6 @@ export function Record({ record, color }) {
       Browser
     };
     setDetails((prevDetails) => {
-      if (prevDetails?.Browser !== Browser) {
-        window.goatcounter.count({
-          path: `id=${Slug}&browser=${Browser}`,
-          title: `${fields.Name} / ${Browser}`,
-          event: true
-        });
-      }
       return prevDetails?.Browser === Browser ? null : details;
     });
     setActiveBrowser((prevBrowser) =>
