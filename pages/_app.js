@@ -7,7 +7,7 @@ export default function MyApp({ Component, pageProps }) {
   useEffect(() => {
     window.goatcounter = { no_onload: true };
 
-    window.addEventListener("hashchange", function (e) {
+    window.addEventListener("pushstate", function (e) {
       console.log(e);
       window.goatcounter.count({
         path:
