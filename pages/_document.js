@@ -83,21 +83,11 @@ class MyDocument extends Document {
             data-goatcounter="https://canidevtools.goatcounter.com/count"
             async
             src="//gc.zgo.at/count.js"
-          ></script>{" "}
+          ></script>
         </Head>
         <body>
           <Main />
           <NextScript />
-          <script>
-            window.addEventListener('hashchange', function(e){" "}
-            {window.goatcounter.count({
-              path:
-                window.location.pathname +
-                window.location.search +
-                window.location.hash
-            })}
-            )
-          </script>
         </body>
       </Html>
     );
