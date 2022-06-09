@@ -4,6 +4,7 @@ import { getData } from "../lib/fetch";
 import { Header } from "../components/Header";
 import { Footer } from "../components/Footer";
 import { Category } from "../components/Category";
+import { CarbonAds } from "../components/CarbonAds";
 
 export async function getStaticProps() {
   const records = await getData();
@@ -57,6 +58,7 @@ export default function IndexPage(props) {
           color={colors[idx]}
         />
       ))}
+      <CarbonAds />
       <Footer />
     </>
   );
