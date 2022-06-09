@@ -88,6 +88,16 @@ class MyDocument extends Document {
         <body>
           <Main />
           <NextScript />
+          <script>
+            window.addEventListener('hashchange', function(e){" "}
+            {window.goatcounter.count({
+              path:
+                window.location.pathname +
+                window.location.search +
+                window.location.hash
+            })}
+            )
+          </script>
         </body>
       </Html>
     );
