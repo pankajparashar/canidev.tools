@@ -35,6 +35,7 @@ button {
   background: none;
   font-size: inherit;
   color: currentColor;
+  padding: 0;
 }
 
 button[disabled] {
@@ -197,6 +198,9 @@ input:focus-visible {
 .c_fff {
   color: white;
 }
+.c_gold {
+  color: goldenrod;
+}
 
 .d_grid {
   display: grid;
@@ -208,6 +212,10 @@ input:focus-visible {
 
 .jc_sb {
   justify-content: space-between;
+}
+
+.jc_center {
+  justify-content: center;
 }
 
 .ai_center {
@@ -246,6 +254,9 @@ input:focus-visible {
 }
 .pt_0 {
   padding-top: 0;
+}
+.pl_0 {
+  padding-left: 0;
 }
 .pt_2em {
   padding-top: 2em;

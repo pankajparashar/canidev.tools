@@ -6,6 +6,7 @@ const browsers = ["Chrome", "Firefox", "Safari", "Edge"];
 export function Record({ record, color }) {
   const [details, setDetails] = useState(null);
   const [activeBrowser, setActiveBrowser] = useState();
+  const [isFavorite, setIsFavorite] = useState(false);
 
   const { fields } = record;
   const { Slug } = fields;
@@ -54,6 +55,10 @@ export function Record({ record, color }) {
     }
   });
 
+  const onFavorite = () => {
+    setIsFavorite(!isFavorite);
+    console.log(record.id);
+  };
   return (
     <>
       <div
@@ -62,7 +67,18 @@ export function Record({ record, color }) {
         id={Slug || record.id}
         style={{ borderLeft: `.25em solid ${color}` }}
       >
-        <div className={`p_05em br_1px bb_1px`} data-color={color}>
+        <div className={`p_05em br_1px bb_1px pl_0`} data-color={color}>
+          <button
+            style={{
+              width: "auto",
+              outline: "0px solid",
+              textAlign: "left",
+              padding: "0 .5em"
+            }}
+            onClick={onFavorite}
+          >
+            {isFavorite ? <span className="c_gold">★</span> : "☆"}
+          </button>
           {fields.Name}
         </div>
         <div className={`d_grid gtc_4fr mh_3em`}>
