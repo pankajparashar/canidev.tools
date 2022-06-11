@@ -102,6 +102,15 @@ export function Details({ details, id }) {
             >
               Share
             </a>
+            <br />
+            <a
+              href={`https://live.browserstack.com/dashboard#os=OS+X&os_version=Monterey&browser=${Browser}`}
+              target="_blank"
+              rel="noreferrer"
+            >
+              Try?
+            </a>{" "}
+            (via BrowserStack)
           </dt>
         </dl>
       </div>
