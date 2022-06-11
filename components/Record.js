@@ -3,10 +3,10 @@ import { Details } from "./Details";
 
 const browsers = ["Chrome", "Firefox", "Safari", "Edge"];
 
-export function Record({ record, color }) {
+export function Record({ record, color, isFavorite: isFav }) {
   const [details, setDetails] = useState(null);
   const [activeBrowser, setActiveBrowser] = useState();
-  const [isFavorite, setIsFavorite] = useState(false);
+  const [isFavorite, setIsFavorite] = useState(isFav || false);
 
   const { fields } = record;
   const { Slug } = fields;
@@ -57,7 +57,17 @@ export function Record({ record, color }) {
 
   const onFavorite = () => {
     setIsFavorite(!isFavorite);
-    console.log(record.id);
+
+    let favorites = localStorage.getItem("cid_Favorites") || "[]";
+    favorites = new Set(JSON.parse(favorites));
+
+    if (favorites.has(record.id)) {
+      favorites.delete(record.id);
+    } else {
+      favorites.add(record.id);
+    }
+
+    localStorage.setItem("cid_Favorites", JSON.stringify([...favorites]));
   };
   return (
     <>
@@ -69,6 +79,8 @@ export function Record({ record, color }) {
       >
         <div className={`p_05em br_1px bb_1px pl_0`} data-color={color}>
           <button
+            aria-label="Set as Favorite"
+            title="Set as Favorite"
             style={{
               width: "auto",
               outline: "0px solid",
