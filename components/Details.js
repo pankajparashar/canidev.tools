@@ -108,9 +108,9 @@ export function Details({ details, id }) {
               target="_blank"
               rel="noreferrer"
             >
-              Try?
-            </a>{" "}
-            (via BrowserStack)
+              Test
+            </a>
+            {"? (via BrowserStack)"}
           </dt>
         </dl>
       </div>
