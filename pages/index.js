@@ -5,7 +5,6 @@ import { Header } from "../components/Header";
 import { Footer } from "../components/Footer";
 import { Category } from "../components/Category";
 import { Favorites } from "../components/Favorites";
-import { CarbonAds } from "../components/CarbonAds";
 
 export async function getStaticProps() {
   const records = await getData();
@@ -71,7 +70,6 @@ export default function IndexPage(props) {
           favorites={favorites}
         />
       ))}
-      <CarbonAds />
       <Footer />
     </>
   );

@@ -1,7 +1,7 @@
 /* Carbon Ad */
 .carbon-cad {
   background: white;
-  border-radius: 10px;
+  /*border-radius: 10px;*/
   box-shadow: 1px 1px 5px 5px rgb(0 0 0 / 10%);
   display: block;
   overflow: hidden;

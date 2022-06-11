@@ -1,4 +1,5 @@
 /* eslint:disable:* */
+import { CarbonAds } from "../components/CarbonAds";
 
 export function Footer() {
   return (
@@ -12,23 +13,31 @@ export function Footer() {
           +Add
         </a>
       </div>
-      <details>
-        <summary className={`p_1em bgc_000`}>Info</summary>
-        <div className={`p_1em d_grid gtc_320px gap_1em`}>
-          <div className={``}>
+      <details open>
+        <summary className={`p_1em bgc_000`}>About</summary>
+        <div className={`d_grid gtc_320px`}>
+          <div className="p_1em bb_1px_dark br_1px_dark pb_0">
             <p className="mt_0">
-              Can I DevTools is like{" "}
-              <a href="https://caniuse.com/">caniuse.com</a> but for the browser
-              devtools, created and curated by{" "}
-              <a href="https://pankajparashar.com/">Pankaj Parashar</a>.
+              <a href="https://twitter.com/CanIDevTools">@CanIDevTools</a> is
+              like <a href="https://twitter.com/caniuse">@CanIUse</a> but for
+              the browser devtools. It's created by{" "}
+              <a href="https://twitter.com/pankajparashar">Pankaj Parashar</a>{" "}
+              and curated by the community.
             </p>
-            <p>
-              There is a lot of coverage on browser devtools just exclusively
-              focussed on Chrome. This tool attempts to fix that by comparing
-              and contrasting devtool features across all major browsers.
-            </p>
+            <dl>
+              <dt>
+                <strong>Github</strong> | <strong>Twitter:</strong>
+              </dt>
+              <dd className={`mb_1em`}>
+                <a href="https://github.com/pankajparashar/canidev.tools">
+                  canidev.tools
+                </a>
+                {" | "}
+                <a href="https://twitter.com/CanIDevTools">@CanIDevTools</a>
+              </dd>
+            </dl>
           </div>
-          <div className="mr_1em">
+          <div className="p_1em bb_1px_dark br_1px_dark">
             <dl>
               <dt className="fw_bold">Newsletter:</dt>
               <dd>
@@ -41,8 +50,9 @@ export function Footer() {
               id="revue-form"
               name="revue-form"
               target="_blank"
+              style={{ overflow: "hidden" }}
             >
-              <div className="pt_1em mr_1em">
+              <div className="pt_1em">
                 <input
                   placeholder="Enter your Email Id..."
                   type="email"
@@ -59,36 +69,28 @@ export function Footer() {
                 />
               </div>
             </form>
+            <div className="mt_1em">
+              <button
+                style={{ width: "auto" }}
+                className="bb_1px_dashed"
+                onClick={() => {}}
+              >
+                Day/Night
+              </button>
+              {" | "}
+              <button
+                style={{ width: "auto" }}
+                className="bb_1px_dashed"
+                onClick={() =>
+                  document.body.scrollIntoView({ behavior: "smooth" })
+                }
+              >
+                Top ↑
+              </button>
+            </div>
           </div>
-          <div className={``}>
-            <dl>
-              <dt>
-                <strong>Github:</strong>
-              </dt>
-              <dd className={`mb_1em`}>
-                <a href="https://github.com/pankajparashar/canidev.tools">
-                  canidev.tools
-                </a>
-              </dd>
-              <dt>
-                <strong>Twitter:</strong>
-              </dt>
-              <dd className={`mb_1em`}>
-                <a href="https://twitter.com/CanIDevTools">@CanIDevTools</a>
-              </dd>
-              {/* <dd className={``}>
-                <a
-                  role="button"
-                  onClick={() =>
-                    document.body.scrollIntoView({ behavior: "smooth" })
-                  }
-                  href="javascript:void(0)"
-                  rel="noreferrer"
-                >
-                  Top↑
-                </a>
-              </dd> */}
-            </dl>
+          <div className="p_1em bb_1px_dark d_flex jc_center ai_center">
+            <CarbonAds />
           </div>
         </div>
       </details>

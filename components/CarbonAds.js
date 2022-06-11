@@ -18,20 +18,11 @@ export function CarbonAds() {
   };
 
   return (
-    <div
-      className="carbon-cad-container"
-      ref={adContainerRef}
-      style={{
-        position: "fixed",
-        bottom: "1em",
-        right: "1em",
-        zIndex: 2
-      }}
-    >
+    <div className="carbon-cad-container" ref={adContainerRef}>
       <div ref={adRef} className="carbon-cad" />
-      <div className="carbon-cad_close-btn" onClick={onClick}>
+      {/* <div className="carbon-cad_close-btn" onClick={onClick}>
         Hide
-      </div>
+      </div> */}
     </div>
   );
 }

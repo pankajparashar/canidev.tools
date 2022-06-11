@@ -121,7 +121,7 @@ export function Header({ records, setRecords }) {
           </button>
         </div>
       </div>
-      <div className={`d_grid gtc_4fr bgc_333`}>
+      <div className={`d_grid gtc_4fr bgc_333 bb_1px_dark`}>
         {Object.entries(browsers).map(([browser, count]) => (
           <div
             key={browser}
