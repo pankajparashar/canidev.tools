@@ -38,7 +38,7 @@ export default function IndexPage(props) {
     "#f57c00", // orange
     "#019267", // green
     "#f50057", // pink
-    "#7fffd4", // aquamarine
+    "#00ced1", // darkturquoise
     "#2962ff", // blue
     "#5d4037", // brown
     "#0d8091" // cyan
