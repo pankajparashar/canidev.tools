@@ -138,6 +138,9 @@ input[type="search"] {
 	font-family: inherit;
 	font-size: 1em;
 	border-radius: 0;
+	background-color: #333;
+	color: white;
+	border-color: var(--border-color-dark);
 }
 
 input[type="email"] {
