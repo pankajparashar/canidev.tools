@@ -31,6 +31,11 @@ export function Record({ record, color, isFavorite: isFav }) {
         params.set("id", Slug);
         params.set("browser", Browser);
         document.title = `${fields.Name} | ${Browser}`;
+        document.head.querySelector(
+          'meta[property="twitter:title"]'
+        ).content = `${fields.Name} | ${Browser}`;
+        document.head.querySelector('meta[property="twitter:url"]').content =
+          window.location.href;
       }
 
       window.history.pushState({}, fields.Name, url);

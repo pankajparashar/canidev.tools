@@ -71,7 +71,7 @@ class MyDocument extends Document {
           <meta property="twitter:title" content="Can I Devtools?" />
           <meta
             property="twitter:description"
-            content="It's like @CanIUse but for the browser devtools. Created and curated by Pankaj Parashar."
+            content="It's like @CanIUse but for the browser devtools. Created by Pankaj Parashar & curated by community."
           />
           <meta
             property="twitter:image"
