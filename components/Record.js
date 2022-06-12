@@ -27,6 +27,10 @@ export function Record({ record, color, isFavorite: isFav }) {
         params.delete("id");
         params.delete("browser");
         document.title = `Can I Devtools?`;
+        document.head.querySelector('meta[property="twitter:title"]').content =
+          "Can I DevTools?";
+        document.head.querySelector('meta[property="twitter:url"]').content =
+          "https://canidev.tools/";
       } else {
         params.set("id", Slug);
         params.set("browser", Browser);

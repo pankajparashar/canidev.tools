@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import Head from "next/head";
 
 import { getData } from "../lib/fetch";
 import { Header } from "../components/Header";
@@ -31,6 +32,7 @@ export default function IndexPage(props) {
   const [records, setRecords] = useState(props.records);
   const [categories, setCategories] = useState({});
   const [favorites, setFavorites] = useState([]);
+  const [meta, setMeta] = useState({});
 
   const colors = [
     "#d50000", // red
@@ -53,10 +55,33 @@ export default function IndexPage(props) {
   useEffect(() => {
     const categories = groupByCategory(records.filter((r) => r.display));
     setCategories(categories);
+
+    const params = new URLSearchParams(window.location.search);
+    const id = params.get("id");
+    const browser = params.get("browser");
+    const record = records.find((r) => r.fields.Slug === id);
+
+    if (record) {
+      setMeta({
+        title: record.fields.Name + " | " + browser,
+        url: window.location.href
+      });
+    }
   }, [records]);
 
   return (
     <>
+      <Head>
+        <title>{meta.title ? meta.title : "Can I DevTools?"} </title>
+        <meta
+          property="twitter:url"
+          content={meta.url ? meta.url : "https://canidev.tools/"}
+        />
+        <meta
+          property="twitter:title"
+          content={meta.title ? meta.title : "Can I Devtools?"}
+        />
+      </Head>
       <Header records={records} setRecords={setRecords} />
       {favorites.size > 0 ? (
         <Favorites records={records} favorites={favorites} />

@@ -67,8 +67,7 @@ class MyDocument extends Document {
             content="https://res.cloudinary.com/canidevtools/image/upload/v1652023254/social-media-image.png"
           />
           <meta property="twitter:card" content="summary_large_image" />
-          <meta property="twitter:url" content="https://canidev.tools/" />
-          <meta property="twitter:title" content="Can I Devtools?" />
+
           <meta
             property="twitter:description"
             content="It's like @CanIUse but for the browser devtools. Created by Pankaj Parashar & curated by community."
