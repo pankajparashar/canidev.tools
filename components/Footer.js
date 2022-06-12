@@ -16,23 +16,31 @@ export function Footer() {
       <details open>
         <summary className={`p_1em bgc_000`}>About</summary>
         <div className={`d_grid gtc_320px`}>
-          <div className="p_1em bb_1px_dark br_1px_dark pb_0">
-            <p className="mt_0">
-              <a href="https://twitter.com/CanIDevTools">@CanIDevTools</a> is
-              like <a href="https://twitter.com/caniuse">@CanIUse</a> but for
-              the browser devtools. It's created by{" "}
-              <a href="https://twitter.com/pankajparashar">Pankaj Parashar</a>{" "}
-              and curated by the community.
-            </p>
+          <div className="p_1em bb_1px_dark br_1px_dark pb_0 pt_0">
+            <ol>
+              <li>
+                <strong>Can I Devtools?</strong> is like{" "}
+                <a href="https://twitter.com/caniuse">@CanIUse</a> but for the
+                browser devtools. It is created by{" "}
+                <a href="https://twitter.com/pankajparashar">Pankaj Parashar</a>{" "}
+                and curated by the community.
+              </li>
+              <li>
+                There is a lot of coverage on browser devtools just exclusively
+                focused on Chrome. <strong>Can I Devtools</strong> attempts to
+                fix that by comparing and contrasting devtool features across
+                all major browsers.
+              </li>
+            </ol>
             <dl>
               <dt>
-                <strong>Github</strong> | <strong>Twitter:</strong>
+                <strong>Github</strong> / <strong>Twitter:</strong>
               </dt>
               <dd className={`mb_1em`}>
                 <a href="https://github.com/pankajparashar/canidev.tools">
                   canidev.tools
                 </a>
-                {" | "}
+                {" / "}
                 <a href="https://twitter.com/CanIDevTools">@CanIDevTools</a>
               </dd>
             </dl>
@@ -59,6 +67,7 @@ export function Footer() {
                   name="member[email]"
                   id="member_email"
                   className="mr_1em"
+                  autoComplete="off"
                 />
                 <input
                   type="submit"
