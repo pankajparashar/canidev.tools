@@ -103,6 +103,9 @@ export function Record({ record, color, isFavorite: isFav }) {
                   className={`p_05em but_1 ${
                     activeBrowser === browser ? "bgc_ws" : "bb_1px"
                   }`}
+                  data-goatcounter-click={`id=${Slug}&browser=${browser}`}
+                  data-goatcounter-title={fields.Name + " / " + browser}
+                  data-goatcounter-referrer={document.location.search || "/"}
                   onClick={() => onClick(browser)}
                 >
                   {fields[browser] ? (

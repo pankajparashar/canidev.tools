@@ -3,7 +3,7 @@ import { Record } from "../components/Record";
 
 export function Favorites(props) {
   const category = "Favorites";
-  const color = "goldenrod";
+  const color = "#f1c40f";
   const [records, setRecords] = useState([]);
 
   useEffect(() => {
