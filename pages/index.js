@@ -70,7 +70,7 @@ export default function IndexPage(props) {
           favorites={favorites}
         />
       ))}
-      <Footer />
+      {records.length > 0 ? <Footer /> : null}
     </>
   );
 }
