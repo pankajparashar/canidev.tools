@@ -3,10 +3,10 @@ import { Details } from "./Details";
 
 const browsers = ["Chrome", "Firefox", "Safari", "Edge"];
 
-export function Record({ record, color, isFavorite: isFav }) {
+export function Record({ record, color }) {
   const [details, setDetails] = useState(null);
   const [activeBrowser, setActiveBrowser] = useState();
-  const [isFavorite, setIsFavorite] = useState(isFav || false);
+  const [isFavorite, setIsFavorite] = useState(false);
 
   const { fields } = record;
   const { Slug } = fields;
@@ -47,6 +47,13 @@ export function Record({ record, color, isFavorite: isFav }) {
     });
   };
 
+  useEffect(() => {
+    const favorites = new Set(
+      JSON.parse(window.localStorage.getItem("cid_Favorites") || "[]")
+    );
+    setIsFavorite(favorites.has(record.id));
+  }, [record.id]);
+
   const isMounted = useRef();
   useEffect(() => {
     if (!isMounted.current) {
@@ -86,6 +93,7 @@ export function Record({ record, color, isFavorite: isFav }) {
 
     localStorage.setItem("cid_Favorites", JSON.stringify([...favorites]));
   };
+
   return (
     <>
       <div
@@ -122,7 +130,6 @@ export function Record({ record, color, isFavorite: isFav }) {
                   }`}
                   data-goatcounter-click={`id=${Slug}&browser=${browser}`}
                   data-goatcounter-title={fields.Name + " / " + browser}
-                  data-goatcounter-referrer={document.location.search || "/"}
                   onClick={() => onClick(browser)}
                 >
                   {fields[browser] ? (

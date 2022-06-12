@@ -7,7 +7,10 @@ export function Favorites(props) {
   const [records, setRecords] = useState([]);
 
   useEffect(() => {
-    const newRecords = props.records.filter((r) => props.favorites.has(r.id));
+    const favorites = new Set(
+      JSON.parse(window.localStorage.getItem("cid_Favorites") || "[]")
+    );
+    const newRecords = props.records.filter((r) => favorites.has(r.id));
     setRecords(newRecords);
   }, [props.records, props.favorites]);
 
@@ -21,12 +24,7 @@ export function Favorites(props) {
             </strong>
           </summary>
           {records.map((record) => (
-            <Record
-              key={record.id}
-              record={record}
-              color={color}
-              isFavorite={props.favorites.has(record.id)}
-            />
+            <Record key={record.id} record={record} color={color} />
           ))}
         </details>
       ) : null}

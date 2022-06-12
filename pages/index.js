@@ -41,22 +41,18 @@ export default function IndexPage(props) {
     "#0d8091" // cyan
   ];
 
-  const favorites = new Set(
-    JSON.parse(localStorage.getItem("cid_Favorites") || "[]")
-  );
   const categories = groupByCategory(props.records.filter((r) => r.display));
 
   return (
     <>
       <Header records={records} setRecords={setRecords} />
-      <Favorites records={records} favorites={favorites} />
+      <Favorites records={records} />
       {Object.entries(categories).map(([category, records], idx) => (
         <Category
           key={category}
           category={category}
           records={records}
           color={colors[idx]}
-          favorites={favorites}
         />
       ))}
       <Footer />
