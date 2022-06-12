@@ -12,22 +12,30 @@ export function Record({ record, color, isFavorite: isFav }) {
   const { Slug } = fields;
 
   const onClick = async (Browser) => {
-    const details = {
-      ...fields[Browser],
-      Browser
-    };
     setDetails((prevDetails) => {
+      const details = {
+        ...fields[Browser],
+        Browser
+      };
       return prevDetails?.Browser === Browser ? null : details;
     });
-    setActiveBrowser((prevBrowser) =>
-      prevBrowser === Browser ? null : Browser
-    );
+    setActiveBrowser((prevBrowser) => {
+      const url = new URL(window.location.href);
+      const params = url.searchParams;
 
-    const url = new URL(window.location.href);
-    const params = url.searchParams;
-    params.set("id", Slug);
-    params.set("browser", Browser);
-    window.history.pushState({}, fields.Name, url);
+      if (prevBrowser === Browser) {
+        params.delete("id");
+        params.delete("browser");
+        document.title = `Can I Devtools?`;
+      } else {
+        params.set("id", Slug);
+        params.set("browser", Browser);
+        document.title = `${fields.Name} | ${Browser}`;
+      }
+
+      window.history.pushState({}, fields.Name, url);
+      return prevBrowser === Browser ? null : Browser;
+    });
   };
 
   const isMounted = useRef();
