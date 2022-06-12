@@ -23,7 +23,6 @@ class MyDocument extends Document {
     return (
       <Html lang="en">
         <Head>
-          <title>"Can I DevTools?</title>
           <meta property="twitter:url" content="https://canidev.tools/" />
           <meta property="twitter:title" content="Can I Devtools?" />
 
