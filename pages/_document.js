@@ -23,6 +23,10 @@ class MyDocument extends Document {
     return (
       <Html lang="en">
         <Head>
+          <title>"Can I DevTools?</title>
+          <meta property="twitter:url" content="https://canidev.tools/" />
+          <meta property="twitter:title" content="Can I Devtools?" />
+
           <meta
             name="description"
             content="Can I DevTools is like Can I Use but for the browser devtools. It's created and curated by Pankaj Parashar."
