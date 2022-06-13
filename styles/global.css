@@ -391,10 +391,6 @@ input:focus-visible {
 	width: 100%
 }
 
-@media (max-width: 480px) {
-	body {}
-}
-
 @font-face {
 	font-family: "Source Code Pro";
 	src: url(https://fonts.gstatic.com/s/sourcecodepro/v11/HI_XiYsKILxRpg3hIP6sJ7fM7Pqths7ztO0rzmmkDQ.ttf);
