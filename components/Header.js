@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useState } from "react";
 import Fuse from "fuse.js";
 
 import { BROWSERS } from "../lib/fetch";
@@ -7,7 +7,7 @@ export function Header({ records, setRecords }) {
 	const [browsers, setBrowsers] = useState({});
 	const [search, setSearch] = useState(false);
 	const [fuse, setFuse] = useState(null);
-	const inputRef = useRef(null);
+	const [query, setQuery] = useState("")
 
 	useEffect(() => {
 		const browsers = Object.fromEntries(BROWSERS.map(b => [b, 0]));
@@ -22,7 +22,7 @@ export function Header({ records, setRecords }) {
 		const options = {
 			includeScore: false,
 			minMatchCharLength: 3,
-			threshold: 0.5,
+			threshold: 0.25,
 			keys: ["fields.Name"]
 		};
 
@@ -30,17 +30,19 @@ export function Header({ records, setRecords }) {
 		setBrowsers(browsers);
 	}, [records]);
 
+	const runQuery = q => {
+		console.log(q)
+		const result = fuse.search(q).map((r) => r.item);
+		filterResults(result);
+	}
+
 	const onKeyDown = (event) => {
 		if (event.key === "Enter") {
-			const { value } = inputRef.current;
-			if (value.trim()) {
-				const result = fuse.search(value).map((r) => r.item);
-				filterResults(result);
+			if (query) {
+				runQuery(query)
 			} else clearResults();
 		} else if (event.keyCode === 27) {
 			clearResults();
-			inputRef.current.value = "";
-			setSearch(false);
 		}
 	};
 
@@ -55,13 +57,11 @@ export function Header({ records, setRecords }) {
 	};
 
 	const clearResults = () => {
+		setQuery("")
+		setSearch(false);
 		records.forEach((record) => (record.display = true));
 		setRecords([...records]);
 	};
-
-	useEffect(() => {
-		!search && clearResults();
-	}, [search]); // eslint-disable-line react-hooks/exhaustive-deps
 
 	return (
 		<div className={`d_grid gtc_320px c_fff pos_sticky top_0`} id="header">
@@ -70,18 +70,19 @@ export function Header({ records, setRecords }) {
 					{search ? (
 						<input
 							autoFocus
-							ref={inputRef}
 							type="search"
+							value={query}
+							onChange={e => setQuery(e.target.value.trim())}
 							className={`pl_05em`}
 							placeholder="Can I ...? (Enter ↲)"
 							onKeyDown={onKeyDown}
 						/>
 					) : (
-						<div className={`pl_05em d_flex jc_sb w_100pct pr_05em`}>
+						<div className={`pl_05em d_flex jc_sb w_100pct`}>
 							<div>Can I DevTools?</div>
-							<div>(<a href="/">{records.length}</a>)</div>
 						</div>
 					)}
+					<div className="pl_05em pr_05em">(<a href="/">{records.length}</a>)</div>
 				</div>
 				<div className={``}>
 					<button
