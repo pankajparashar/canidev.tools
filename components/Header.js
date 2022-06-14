@@ -63,6 +63,10 @@ export function Header({ records, setRecords }) {
 		setRecords([...records]);
 	};
 
+	useEffect(() => {
+		!search && clearResults()
+	}, [search])
+
 	return (
 		<div className={`d_grid gtc_320px c_fff pos_sticky top_0`} id="header">
 			<div className={`d_grid gtc_35em bgc_000`}>
