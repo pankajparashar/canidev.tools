@@ -5,7 +5,7 @@
     "dev": "next",
     "build": "next build",
     "start": "next start",
-    "post-update": "yarn upgrade --latest"
+    "export": "node ./lib/export.mjs"
   },
   "dependencies": {
     "fuse.js": "6.5.3",

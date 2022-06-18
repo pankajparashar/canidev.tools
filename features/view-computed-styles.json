@@ -1,0 +1,106 @@
+{
+  "Safari": {
+    "Name": "View computed CSS properties",
+    "Platform": [
+      "MacOS"
+    ],
+    "Main": [
+      "recabNrdsN0n2JZyH"
+    ],
+    "Notes": "1. Inspect the element > Navigate to the Computed tab in the panel next to the DOM tree.\n2. Click the filter icon > Select \"Show All\" to see all the inherited values.\n\n",
+    "LastModified": "2022-05-02T14:58:53.000Z",
+    "Category": [
+      "CSS"
+    ]
+  },
+  "Slug": "view-computed-styles",
+  "Opera": {
+    "Main": [
+      "recabNrdsN0n2JZyH"
+    ],
+    "Platform": [
+      "MacOS",
+      "Windows",
+      "Linux"
+    ],
+    "Notes": "1. Inspect the element > Navigate to the Computed tab in the panel next to the DOM tree.\n2. Click the \"Show All\" checkbox to see all the inherited values.\n",
+    "Name": "View computed CSS properties",
+    "LastModified": "2022-06-12T13:22:41.000Z",
+    "Category": [
+      "CSS"
+    ]
+  },
+  "Name": "View computed styles",
+  "Category": "CSS",
+  "Firefox": {
+    "Platform": [
+      "MacOS",
+      "Windows",
+      "Linux"
+    ],
+    "Notes": "1. Inspect the element > Navigate to the Computed tab in the panel next to the DOM tree.\n2. Click the \"Browser Styles\" checkbox to see all the values inherited from the user agent.\n\n",
+    "Name": "View computed CSS properties",
+    "Main": [
+      "recabNrdsN0n2JZyH"
+    ],
+    "LastModified": "2022-05-08T16:31:19.000Z",
+    "Category": [
+      "CSS"
+    ]
+  },
+  "Edge": {
+    "Notes": "1. Inspect the element > Navigate to the Computed tab in the panel next to the DOM tree.\n2. Click the \"Show All\" checkbox to see all the inherited values.\n\n",
+    "Platform": [
+      "MacOS",
+      "Windows",
+      "Linux"
+    ],
+    "Main": [
+      "recabNrdsN0n2JZyH"
+    ],
+    "Name": "View computed CSS properties",
+    "LastModified": "2022-05-08T16:30:51.000Z",
+    "Category": [
+      "CSS"
+    ]
+  },
+  "Chrome": {
+    "Notes": "1. Inspect the element > Navigate to the Computed tab in the panel next to the DOM tree.\n2. Click the \"Show All\" checkbox to see all the inherited values.\n",
+    "Main": [
+      "recabNrdsN0n2JZyH"
+    ],
+    "Name": "View computed CSS properties",
+    "Platform": [
+      "MacOS",
+      "Windows",
+      "Linux"
+    ],
+    "LastModified": "2022-05-08T16:31:42.000Z",
+    "Category": [
+      "CSS"
+    ],
+    "Created By": {
+      "id": "usr04Pxk58m8j0N70",
+      "email": "parashar.p.pankaj@gmail.com",
+      "name": "Pankaj Parashar"
+    },
+    "Created": "2022-02-08T13:38:03.000Z",
+    "Last Modified By": {
+      "id": "usr04Pxk58m8j0N70",
+      "email": "parashar.p.pankaj@gmail.com",
+      "name": "Pankaj Parashar"
+    }
+  },
+  "CreatedTime": "2022-02-08T13:33:39.000Z",
+  "LastModifiedTime": "2022-06-12T13:22:41.000Z",
+  "Created By": {
+    "id": "usr04Pxk58m8j0N70",
+    "email": "parashar.p.pankaj@gmail.com",
+    "name": "Pankaj Parashar"
+  },
+  "Last Modified By": {
+    "id": "usr04Pxk58m8j0N70",
+    "email": "parashar.p.pankaj@gmail.com",
+    "name": "Pankaj Parashar"
+  }
+}

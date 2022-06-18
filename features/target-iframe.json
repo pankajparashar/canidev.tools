@@ -1,0 +1,73 @@
+{
+  "Slug": "target-iframe",
+  "Opera": {
+    "Main": [
+      "recgJuaQxhwa6P9JK"
+    ],
+    "Platform": [
+      "MacOS",
+      "Windows",
+      "Linux"
+    ],
+    "Notes": "1. Open Console using `Cmd+Shift+J `(on Mac) or `Ctrl+Shift+J` (on Windows/Linux).\n2. Next to the \"Clear console\" icon in the toolbar, click the \"top\" menu, and select the iframe to target.\n",
+    "Name": "Target iframe",
+    "LastModified": "2022-06-12T13:22:41.000Z",
+    "Category": [
+      "Console"
+    ]
+  },
+  "Name": "Target iframe",
+  "Category": "Console",
+  "Edge": {
+    "Notes": "1. Open Console using `Cmd+Shift+J `(on Mac) or `Ctrl+Shift+J` (on Windows/Linux).\n2. Next to the \"Clear console\" icon in the toolbar, click the \"top\" menu, and select the iframe to target.\n\n",
+    "Main": [
+      "recgJuaQxhwa6P9JK"
+    ],
+    "Name": "Target iframe",
+    "LastModified": "2022-06-04T04:46:04.000Z",
+    "Category": [
+      "Console"
+    ]
+  },
+  "Chrome": {
+    "Notes": "1. Open Console using `Cmd+Shift+J `(on Mac) or `Ctrl+Shift+J` (on Windows/Linux).\n2. Next to the \"Clear console\" icon in the toolbar, click the \"top\" menu, and select the iframe to target.\n",
+    "Main": [
+      "recgJuaQxhwa6P9JK"
+    ],
+    "Name": "Target iframe",
+    "Platform": [
+      "MacOS",
+      "Windows",
+      "Linux"
+    ],
+    "LastModified": "2022-05-02T10:28:17.000Z",
+    "Category": [
+      "Console"
+    ],
+    "Created By": {
+      "id": "usr04Pxk58m8j0N70",
+      "email": "parashar.p.pankaj@gmail.com",
+      "name": "Pankaj Parashar"
+    },
+    "Created": "2022-05-02T10:22:49.000Z",
+    "Last Modified By": {
+      "id": "usr04Pxk58m8j0N70",
+      "email": "parashar.p.pankaj@gmail.com",
+      "name": "Pankaj Parashar"
+    }
+  },
+  "CreatedTime": "2022-05-02T10:22:16.000Z",
+  "LastModifiedTime": "2022-06-12T13:22:41.000Z",
+  "Created By": {
+    "id": "usr04Pxk58m8j0N70",
+    "email": "parashar.p.pankaj@gmail.com",
+    "name": "Pankaj Parashar"
+  },
+  "Last Modified By": {
+    "id": "usr04Pxk58m8j0N70",
+    "email": "parashar.p.pankaj@gmail.com",
+    "name": "Pankaj Parashar"
+  },
+  "Firefox": null,
+  "Safari": null
+}

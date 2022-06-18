@@ -1,0 +1,98 @@
+{
+  "Safari": {
+    "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1651503030/Images/audit-full-page-safari_vubvjs.png",
+    "Share": "https://twitter.com/CanIDevTools/status/1521142135642529792",
+    "Name": "Audit full page",
+    "Platform": [
+      "MacOS"
+    ],
+    "References": "1. \"Audits in Web Inspector\" by [Webkit](https://webkit.org/blog/8935/audits-in-web-inspector/)\n",
+    "Main": [
+      "recxadwtRH4DkIiGT"
+    ],
+    "Notes": "1. Open devtools using `Cmd+Opt+I` (on Mac) or `Ctrl+Shift+I` (on Windows) > Click the \"Audit\" tab.\n2. Under the Audit section, click the \"Start\" button in the left side panel to trigger the full page audit for DOM, Accessibility etc.\n",
+    "LastModified": "2022-05-02T15:01:12.000Z",
+    "Category": [
+      "Audit"
+    ]
+  },
+  "Slug": "audit-full-page",
+  "Opera": {
+    "Main": [
+      "recxadwtRH4DkIiGT"
+    ],
+    "Platform": [
+      "MacOS",
+      "Windows",
+      "Linux"
+    ],
+    "Notes": "1. Open devtools using `Cmd+Opt+I` (on Mac) or `Ctrl+Shift+I` (on Windows/Linux) > Click the \"Lighthouse\" tab.\n2. Configure the categories, devices, and plugins before hitting the \"Generate report\" button.\n",
+    "Name": "Audit full page",
+    "LastModified": "2022-06-12T13:31:09.000Z",
+    "Category": [
+      "Audit"
+    ]
+  },
+  "Name": "Audit full page",
+  "Category": "Audit",
+  "Edge": {
+    "Notes": "1. Open devtools using `Cmd+Opt+I` (on Mac) or `Ctrl+Shift+I` (on Windows/Linux) > Click the \"Lighthouse\" tab.\n2. Configure the categories, devices, and plugins before hitting the \"Generate report\" button.\n",
+    "Platform": [
+      "MacOS",
+      "Windows",
+      "Linux"
+    ],
+    "Main": [
+      "recxadwtRH4DkIiGT"
+    ],
+    "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1651503030/Images/audit-full-page-edge_hm7xj1.png",
+    "Share": "https://twitter.com/CanIDevTools/status/1521142619589742593",
+    "Name": "Audit full page",
+    "LastModified": "2022-05-02T15:04:34.000Z",
+    "Category": [
+      "Audit"
+    ]
+  },
+  "Chrome": {
+    "Share": "https://twitter.com/CanIDevTools/status/1521141790245810181",
+    "Notes": "1. Open devtools using `Cmd+Opt+I` (on Mac) or `Ctrl+Shift+I` (on Windows/Linux) > Click the \"Lighthouse\" tab.\n2. Configure the categories, devices, and plugins before hitting the \"Generate report\" button.\n",
+    "Main": [
+      "recxadwtRH4DkIiGT"
+    ],
+    "Name": "Audit full page",
+    "Video": "https://res.cloudinary.com/canidevtools/video/upload/v1651503068/Videos/audit-full-page-chrome_lvneyf.mp4",
+    "Platform": [
+      "MacOS",
+      "Windows",
+      "Linux"
+    ],
+    "LastModified": "2022-05-02T15:01:25.000Z",
+    "Category": [
+      "Audit"
+    ],
+    "Created By": {
+      "id": "usr04Pxk58m8j0N70",
+      "email": "parashar.p.pankaj@gmail.com",
+      "name": "Pankaj Parashar"
+    },
+    "Created": "2022-05-02T10:30:27.000Z",
+    "Last Modified By": {
+      "id": "usr04Pxk58m8j0N70",
+      "email": "parashar.p.pankaj@gmail.com",
+      "name": "Pankaj Parashar"
+    }
+  },
+  "CreatedTime": "2022-02-19T11:22:02.000Z",
+  "LastModifiedTime": "2022-06-12T13:30:01.000Z",
+  "Created By": {
+    "id": "usr04Pxk58m8j0N70",
+    "email": "parashar.p.pankaj@gmail.com",
+    "name": "Pankaj Parashar"
+  },
+  "Last Modified By": {
+    "id": "usr04Pxk58m8j0N70",
+    "email": "parashar.p.pankaj@gmail.com",
+    "name": "Pankaj Parashar"
+  },
+  "Firefox": null
+}

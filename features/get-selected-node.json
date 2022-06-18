@@ -1,0 +1,111 @@
+{
+  "Safari": {
+    "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1654325593/Images/get-selected-node-safari_i3ktlm.png",
+    "Name": "Get selected node",
+    "Platform": [
+      "MacOS"
+    ],
+    "Main": [
+      "recYF6vGxXHJPmha6"
+    ],
+    "Notes": "1. Inspect > Select a DOM node.\n2. Open Console > Use $0 to access the currently selected node.\n\n",
+    "LastModified": "2022-06-04T07:07:42.000Z",
+    "Category": [
+      "Console"
+    ]
+  },
+  "Slug": "get-selected-node",
+  "Opera": {
+    "Main": [
+      "recYF6vGxXHJPmha6"
+    ],
+    "Platform": [
+      "MacOS",
+      "Windows",
+      "Linux"
+    ],
+    "Notes": "1. Inspect > Select a DOM node.\n2. Open Console > Use $0 to access the currently selected node. Additionally, $1, $2, $3, ... will give you the last selected nodes in the reverse chronological order.\n",
+    "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1654325592/Images/get-selected-node-chrome_khtsjk.png",
+    "Name": "Get selected node",
+    "LastModified": "2022-06-12T13:22:41.000Z",
+    "Category": [
+      "Console"
+    ]
+  },
+  "Name": "Get selected node",
+  "Category": "Console",
+  "Firefox": {
+    "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1654325592/Images/get-selected-node-firefox_pevlj6.png",
+    "Platform": [
+      "MacOS",
+      "Windows",
+      "Linux"
+    ],
+    "Notes": "1. Inspect > Select a DOM node.\n2. Open Console > Use $0 to access the currently selected node.\n",
+    "Name": "Get selected node",
+    "Main": [
+      "recYF6vGxXHJPmha6"
+    ],
+    "LastModified": "2022-06-04T07:07:29.000Z",
+    "Category": [
+      "Console"
+    ]
+  },
+  "Edge": {
+    "Notes": "1. Inspect > Select a DOM node.\n2. Open Console > Use $0 to access the currently selected node. Additionally, $1, $2, $3, ... will give you the last selected nodes in the reverse chronological order.\n",
+    "Platform": [
+      "MacOS",
+      "Windows",
+      "Linux"
+    ],
+    "Main": [
+      "recYF6vGxXHJPmha6"
+    ],
+    "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1654325593/Images/get-selected-node-edge_n4wiw9.png",
+    "Name": "Get selected node",
+    "LastModified": "2022-06-04T07:07:53.000Z",
+    "Category": [
+      "Console"
+    ]
+  },
+  "Chrome": {
+    "Notes": "1. Inspect > Select a DOM node.\n2. Open Console > Use $0 to access the currently selected node. Additionally, $1, $2, $3, ... will give you the last selected nodes in the reverse chronological order.\n",
+    "Main": [
+      "recYF6vGxXHJPmha6"
+    ],
+    "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1654325592/Images/get-selected-node-chrome_khtsjk.png",
+    "Name": "Get selected node",
+    "Platform": [
+      "MacOS",
+      "Windows",
+      "Linux"
+    ],
+    "LastModified": "2022-06-04T07:06:58.000Z",
+    "Category": [
+      "Console"
+    ],
+    "Created By": {
+      "id": "usr04Pxk58m8j0N70",
+      "email": "parashar.p.pankaj@gmail.com",
+      "name": "Pankaj Parashar"
+    },
+    "Created": "2022-06-04T06:43:58.000Z",
+    "Last Modified By": {
+      "id": "usr04Pxk58m8j0N70",
+      "email": "parashar.p.pankaj@gmail.com",
+      "name": "Pankaj Parashar"
+    }
+  },
+  "CreatedTime": "2022-02-19T11:53:16.000Z",
+  "LastModifiedTime": "2022-06-12T13:22:41.000Z",
+  "Created By": {
+    "id": "usr04Pxk58m8j0N70",
+    "email": "parashar.p.pankaj@gmail.com",
+    "name": "Pankaj Parashar"
+  },
+  "Last Modified By": {
+    "id": "usr04Pxk58m8j0N70",
+    "email": "parashar.p.pankaj@gmail.com",
+    "name": "Pankaj Parashar"
+  }
+}

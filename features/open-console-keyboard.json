@@ -1,0 +1,106 @@
+{
+  "Safari": {
+    "Name": "Open Console with keyboard",
+    "Platform": [
+      "MacOS"
+    ],
+    "Main": [
+      "recwbW20rOkuG5tlF"
+    ],
+    "Notes": "1. Press `Command+Option+C` (Mac) to jump straight into the Console panel.\n",
+    "LastModified": "2022-05-02T14:58:53.000Z",
+    "Category": [
+      "Console"
+    ]
+  },
+  "Slug": "open-console-keyboard",
+  "Opera": {
+    "Main": [
+      "recwbW20rOkuG5tlF"
+    ],
+    "Platform": [
+      "MacOS",
+      "Windows",
+      "Linux"
+    ],
+    "Notes": "1. Press `Command+Option+J` (Mac) or `Control+Shift+J` (Windows, Linux, Chrome OS) to jump straight into the Console panel.\n",
+    "Name": "Open Console with keyboard",
+    "LastModified": "2022-06-12T13:22:41.000Z",
+    "Category": [
+      "Console"
+    ]
+  },
+  "Name": "Open Console with keyboard",
+  "Category": "Console",
+  "Firefox": {
+    "Platform": [
+      "MacOS",
+      "Windows",
+      "Linux"
+    ],
+    "Notes": "1. Press `Command+Shift+K` (Mac) or `Control+Shift+K` (Windows, Linux, Chrome OS) to jump straight into the Console panel.\n",
+    "Name": "Open Console with keyboard",
+    "Main": [
+      "recwbW20rOkuG5tlF"
+    ],
+    "LastModified": "2022-05-08T16:31:19.000Z",
+    "Category": [
+      "Console"
+    ]
+  },
+  "Edge": {
+    "Notes": "1. Press `Command+Option+J` (Mac) or `Control+Shift+J` (Windows, Linux, Chrome OS) to jump straight into the Console panel.\n",
+    "Platform": [
+      "MacOS",
+      "Windows",
+      "Linux"
+    ],
+    "Main": [
+      "recwbW20rOkuG5tlF"
+    ],
+    "Name": "Open Console with keyboard",
+    "LastModified": "2022-05-08T16:30:51.000Z",
+    "Category": [
+      "Console"
+    ]
+  },
+  "Chrome": {
+    "Notes": "1. Press `Command+Option+J` (Mac) or `Control+Shift+J` (Windows, Linux, Chrome OS) to jump straight into the Console panel.\n",
+    "Main": [
+      "recwbW20rOkuG5tlF"
+    ],
+    "Name": "Open Console with keyboard",
+    "Platform": [
+      "MacOS",
+      "Windows",
+      "Linux"
+    ],
+    "LastModified": "2022-05-08T16:31:42.000Z",
+    "Category": [
+      "Console"
+    ],
+    "Created By": {
+      "id": "usr04Pxk58m8j0N70",
+      "email": "parashar.p.pankaj@gmail.com",
+      "name": "Pankaj Parashar"
+    },
+    "Created": "2022-02-02T13:56:10.000Z",
+    "Last Modified By": {
+      "id": "usr04Pxk58m8j0N70",
+      "email": "parashar.p.pankaj@gmail.com",
+      "name": "Pankaj Parashar"
+    }
+  },
+  "CreatedTime": "2022-02-02T13:51:32.000Z",
+  "LastModifiedTime": "2022-06-12T13:22:41.000Z",
+  "Created By": {
+    "id": "usr04Pxk58m8j0N70",
+    "email": "parashar.p.pankaj@gmail.com",
+    "name": "Pankaj Parashar"
+  },
+  "Last Modified By": {
+    "id": "usr04Pxk58m8j0N70",
+    "email": "parashar.p.pankaj@gmail.com",
+    "name": "Pankaj Parashar"
+  }
+}
