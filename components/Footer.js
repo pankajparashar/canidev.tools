@@ -19,7 +19,7 @@ export function Footer() {
           <div className="p_1em bb_1px_dark br_1px_dark pb_0 pt_0">
             <ol>
               <li>
-                <strong>Can I Devtools?</strong> is like{" "}
+                <strong>Can I DevTools?</strong> is like{" "}
                 <a href="https://twitter.com/caniuse">@CanIUse</a> but for the
                 browser devtools. It is created by{" "}
                 <a href="https://twitter.com/pankajparashar">Pankaj Parashar</a>{" "}
@@ -27,7 +27,7 @@ export function Footer() {
               </li>
               <li>
                 There is a lot of coverage on browser devtools just exclusively
-                focused on Chrome. <strong>Can I Devtools</strong> attempts to
+                focused on Chrome. <strong>Can I DevTools</strong> attempts to
                 fix that by comparing and contrasting devtool features across
                 all major browsers.
               </li>
@@ -82,7 +82,7 @@ export function Footer() {
               <button
                 style={{ width: "auto" }}
                 className="bb_1px_dashed"
-                onClick={() => {}}
+                onClick={() => { }}
               >
                 Day/Night
               </button>

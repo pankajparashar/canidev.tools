@@ -83,7 +83,7 @@ export function Header({ records, setRecords }) {
 						/>
 					) : (
 						<div className={`pl_05em d_flex jc_sb w_100pct`}>
-							<div>Can I DevTools?</div>
+							<div><strong>Can I DevTools?</strong></div>
 						</div>
 					)}
 					<div className="pl_05em pr_05em">(<a href="/">{records.length}</a>)</div>

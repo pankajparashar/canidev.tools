@@ -79,6 +79,7 @@ class MyDocument extends Document {
             property="twitter:image"
             content="https://res.cloudinary.com/canidevtools/image/upload/v1652023254/social-media-image.png"
           />
+          <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
           <meta name="twitter:site" content="@CanIDevTools" />
           <meta name="twitter:creator" content="@pankajparashar" />
           <script

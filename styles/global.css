@@ -20,7 +20,7 @@
 body {
 	font-size: 1em;
 	line-height: 1.75;
-	font-family: "Source Code Pro", MonoLisa, monospace;
+	font-family: 'iA Writer Duospace', monospace;
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
@@ -29,7 +29,6 @@ body {
 	font-variant-numeric: slashed-zero;
 	font-variation-settings: "wght" 400;
 	word-spacing: -3px;
-
 }
 
 button {
@@ -392,16 +391,32 @@ input:focus-visible {
 }
 
 @font-face {
-	font-family: "Source Code Pro";
-	src: url(https://fonts.gstatic.com/s/sourcecodepro/v11/HI_XiYsKILxRpg3hIP6sJ7fM7Pqths7ztO0rzmmkDQ.ttf);
+	font-family: 'iA Writer Duospace';
+	src: url('iAWriterDuospace-Italic.woff2') format('woff2');
+	font-weight: normal;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'iA Writer Duospace';
+	src: url('iAWriterDuospace-Bold.woff2') format('woff2');
 	font-weight: bold;
 	font-style: normal;
 	font-display: swap;
 }
 
 @font-face {
-	font-family: "Source Code Pro";
-	src: url(https://fonts.gstatic.com/s/sourcecodepro/v11/HI_SiYsKILxRpg3hIP6sJ7fM7PqVOuHXvMY3xw.ttf);
+	font-family: 'iA Writer Duospace';
+	src: url('iAWriterDuospace-BoldItalic.woff2') format('woff2');
+	font-weight: bold;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'iA Writer Duospace';
+	src: url('iAWriterDuospace-Regular.woff2') format('woff2');
 	font-weight: normal;
 	font-style: normal;
 	font-display: swap;
