@@ -1,37 +1,16 @@
 {
-  "Safari": {
+  "Chrome": {
+    "Notes": "1. Launch devtools > Open \"Command Menu\" using `Cmd+Shift+P` (Mac) or `Ctrl+Shift+P` (Windows, Linux, Chrome OS).\n2. Search for \"Show Rendering\" and press Enter (this will open the Rendering panel next to the Console).\n3. Scroll down to the section \"Emulate CSS Media Type\" and select \"print\".\n",
     "Name": "Emulate print styles",
-    "Platform": [
-      "MacOS"
-    ],
-    "Main": [
-      "recc5ekFvKjr6lq2w"
-    ],
-    "Notes": "1. Launch devtools > Select the body `DOM` element, and click on the \"Printer\" icon to force the page to use print media styles\n",
-    "LastModified": "2022-06-05T14:56:03.000Z",
-    "Category": [
-      "CSS"
-    ]
-  },
-  "Slug": "emulate-print-styles",
-  "Opera": {
-    "Main": [
-      "recc5ekFvKjr6lq2w"
-    ],
     "Platform": [
       "MacOS",
       "Windows",
       "Linux"
     ],
-    "Notes": "1. Launch devtools > Open \"Command Menu\" using `Cmd+Shift+P` (Mac) or `Ctrl+Shift+P` (Windows, Linux, Chrome OS).\n2. Search for \"Show Rendering\" and press Enter (this will open the Rendering panel next to the Console).\n3. Scroll down to the section \"Emulate CSS Media Type\" and select \"print\".\n",
-    "Name": "Emulate print styles",
-    "LastModified": "2022-06-12T13:22:41.000Z",
     "Category": [
       "CSS"
     ]
   },
-  "Name": "Emulate print styles",
-  "Category": "CSS",
   "Firefox": {
     "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1654441224/Images/emulate-print-styles-firefox_acydt8.png",
     "Platform": [
@@ -42,10 +21,6 @@
     "Notes": "1. Inspect > In the \"Filter Styles\" section on the right, look for the icon with the title, \"Toggle print media simulation for the page\".\n",
     "References": "1. \"Examine and edit CSS\" - [Firefox Source Docs](https://firefox-source-docs.mozilla.org/devtools-user/page_inspector/how_to/examine_and_edit_css/index.html#view-media-rules-for-print)\n2. \"Issue #8\" - Nicolas ([@nclm](https://github.com/pankajparashar/canidev.tools/issues/8))\n",
     "Name": "Emulate print styles",
-    "Main": [
-      "recc5ekFvKjr6lq2w"
-    ],
-    "LastModified": "2022-06-05T15:03:15.000Z",
     "Category": [
       "CSS"
     ]
@@ -57,52 +32,31 @@
       "Windows",
       "Linux"
     ],
-    "Main": [
-      "recc5ekFvKjr6lq2w"
-    ],
     "Name": "Emulate print styles",
-    "LastModified": "2022-06-05T14:56:07.000Z",
     "Category": [
       "CSS"
     ]
   },
-  "Chrome": {
-    "Notes": "1. Launch devtools > Open \"Command Menu\" using `Cmd+Shift+P` (Mac) or `Ctrl+Shift+P` (Windows, Linux, Chrome OS).\n2. Search for \"Show Rendering\" and press Enter (this will open the Rendering panel next to the Console).\n3. Scroll down to the section \"Emulate CSS Media Type\" and select \"print\".\n",
-    "Main": [
-      "recc5ekFvKjr6lq2w"
-    ],
+  "Safari": {
     "Name": "Emulate print styles",
+    "Platform": [
+      "MacOS"
+    ],
+    "Notes": "1. Launch devtools > Select the body `DOM` element, and click on the \"Printer\" icon to force the page to use print media styles\n",
+    "Category": [
+      "CSS"
+    ]
+  },
+  "Opera": {
     "Platform": [
       "MacOS",
       "Windows",
       "Linux"
     ],
-    "LastModified": "2022-06-05T14:55:59.000Z",
+    "Notes": "1. Launch devtools > Open \"Command Menu\" using `Cmd+Shift+P` (Mac) or `Ctrl+Shift+P` (Windows, Linux, Chrome OS).\n2. Search for \"Show Rendering\" and press Enter (this will open the Rendering panel next to the Console).\n3. Scroll down to the section \"Emulate CSS Media Type\" and select \"print\".\n",
+    "Name": "Emulate print styles",
     "Category": [
       "CSS"
-    ],
-    "Created By": {
-      "id": "usr04Pxk58m8j0N70",
-      "email": "parashar.p.pankaj@gmail.com",
-      "name": "Pankaj Parashar"
-    },
-    "Created": "2022-02-08T13:52:07.000Z",
-    "Last Modified By": {
-      "id": "usr04Pxk58m8j0N70",
-      "email": "parashar.p.pankaj@gmail.com",
-      "name": "Pankaj Parashar"
-    }
-  },
-  "CreatedTime": "2022-02-08T13:51:27.000Z",
-  "LastModifiedTime": "2022-06-12T13:22:41.000Z",
-  "Created By": {
-    "id": "usr04Pxk58m8j0N70",
-    "email": "parashar.p.pankaj@gmail.com",
-    "name": "Pankaj Parashar"
-  },
-  "Last Modified By": {
-    "id": "usr04Pxk58m8j0N70",
-    "email": "parashar.p.pankaj@gmail.com",
-    "name": "Pankaj Parashar"
+    ]
   }
 }

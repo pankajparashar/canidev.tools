@@ -1,37 +1,16 @@
 {
-  "Safari": {
+  "Chrome": {
+    "Notes": "1. Open devtools. Press `Shift+Cmd+P` on Mac or `Ctrl+Shit+P` on Windows/Linux/Chrome OS to open the Command Menu.\n2. Search for \"Disable JavaScript\" and press `Enter` to execute the command.\n3. The yellow warning icon next to the Sources panel is the indicator that the JavaScript is disabled. It will continue to be disabled until the devtools is closed.\n",
     "Name": "Disable JavaScript",
-    "Platform": [
-      "MacOS"
-    ],
-    "Main": [
-      "recgD4hUSCDVKpelI"
-    ],
-    "Notes": "1. In the menu bar, navigate to Safari > Preferences.\n2. Click on the Security tab. Under the Web Content section, uncheck the \"Enable JavaScript\" checkbox.\n",
-    "LastModified": "2022-05-02T14:58:53.000Z",
-    "Category": [
-      "JavaScript"
-    ]
-  },
-  "Slug": "disable-javascript",
-  "Opera": {
-    "Main": [
-      "recgD4hUSCDVKpelI"
-    ],
     "Platform": [
       "MacOS",
       "Windows",
       "Linux"
     ],
-    "Notes": "1. Open devtools. Press `Shift+Cmd+P` on Mac or `Ctrl+Shit+P` on Windows/Linux/Chrome OS to open the Command Menu.\n2. Search for \"Disable JavaScript\" and press `Enter` to execute the command.\n3. The yellow warning icon next to the Sources panel is the indicator that the JavaScript is disabled. It will continue to be disabled until the devtools is closed.\n",
-    "Name": "Disable JavaScript",
-    "LastModified": "2022-06-13T07:24:31.000Z",
     "Category": [
       "JavaScript"
     ]
   },
-  "Name": "Disable JavaScript",
-  "Category": "JavaScript",
   "Firefox": {
     "Platform": [
       "MacOS",
@@ -40,10 +19,6 @@
     ],
     "Notes": "1. Navigate to `about:config` in the address bar. Click on \"Accept the Risk and Continue\" while proceeding with caution.\n2. Search for \"javascript.enabled\" in the preference textbox.\n3. Toggle the boolean value to False, using the `⇋` button.\n\n",
     "Name": "Disable JavaScript",
-    "Main": [
-      "recgD4hUSCDVKpelI"
-    ],
-    "LastModified": "2022-05-08T16:31:19.000Z",
     "Category": [
       "JavaScript"
     ]
@@ -55,52 +30,31 @@
       "Windows",
       "Linux"
     ],
-    "Main": [
-      "recgD4hUSCDVKpelI"
-    ],
     "Name": "Disable JavaScript",
-    "LastModified": "2022-05-08T16:30:51.000Z",
     "Category": [
       "JavaScript"
     ]
   },
-  "Chrome": {
-    "Notes": "1. Open devtools. Press `Shift+Cmd+P` on Mac or `Ctrl+Shit+P` on Windows/Linux/Chrome OS to open the Command Menu.\n2. Search for \"Disable JavaScript\" and press `Enter` to execute the command.\n3. The yellow warning icon next to the Sources panel is the indicator that the JavaScript is disabled. It will continue to be disabled until the devtools is closed.\n",
-    "Main": [
-      "recgD4hUSCDVKpelI"
-    ],
+  "Safari": {
     "Name": "Disable JavaScript",
+    "Platform": [
+      "MacOS"
+    ],
+    "Notes": "1. In the menu bar, navigate to Safari > Preferences.\n2. Click on the Security tab. Under the Web Content section, uncheck the \"Enable JavaScript\" checkbox.\n",
+    "Category": [
+      "JavaScript"
+    ]
+  },
+  "Opera": {
     "Platform": [
       "MacOS",
       "Windows",
       "Linux"
     ],
-    "LastModified": "2022-05-08T16:31:42.000Z",
+    "Notes": "1. Open devtools. Press `Shift+Cmd+P` on Mac or `Ctrl+Shit+P` on Windows/Linux/Chrome OS to open the Command Menu.\n2. Search for \"Disable JavaScript\" and press `Enter` to execute the command.\n3. The yellow warning icon next to the Sources panel is the indicator that the JavaScript is disabled. It will continue to be disabled until the devtools is closed.\n",
+    "Name": "Disable JavaScript",
     "Category": [
       "JavaScript"
-    ],
-    "Created By": {
-      "id": "usr04Pxk58m8j0N70",
-      "email": "parashar.p.pankaj@gmail.com",
-      "name": "Pankaj Parashar"
-    },
-    "Created": "2022-02-05T11:26:46.000Z",
-    "Last Modified By": {
-      "id": "usr04Pxk58m8j0N70",
-      "email": "parashar.p.pankaj@gmail.com",
-      "name": "Pankaj Parashar"
-    }
-  },
-  "CreatedTime": "2022-02-05T11:26:32.000Z",
-  "LastModifiedTime": "2022-06-13T07:24:31.000Z",
-  "Created By": {
-    "id": "usr04Pxk58m8j0N70",
-    "email": "parashar.p.pankaj@gmail.com",
-    "name": "Pankaj Parashar"
-  },
-  "Last Modified By": {
-    "id": "usr04Pxk58m8j0N70",
-    "email": "parashar.p.pankaj@gmail.com",
-    "name": "Pankaj Parashar"
+    ]
   }
 }

@@ -1,37 +1,16 @@
 {
-  "Safari": {
+  "Chrome": {
+    "Notes": "1. Open devtools > Launch the command menu\n2. Search for \"Capture full size screenshot\" and press Enter\n",
     "Name": "Capture full page screenshot",
-    "Platform": [
-      "MacOS"
-    ],
-    "Main": [
-      "recnUGZcWwJTP98oT"
-    ],
-    "Notes": "1. Open devtools > Locate the `html` node in the DOM tree.\n2. Right click on the node and select \"Capture Screenshot\"\n",
-    "LastModified": "2022-05-02T14:58:53.000Z",
-    "Category": [
-      "Other"
-    ]
-  },
-  "Slug": "capture-full-page-screenshot",
-  "Opera": {
-    "Main": [
-      "recnUGZcWwJTP98oT"
-    ],
     "Platform": [
       "MacOS",
       "Windows",
       "Linux"
     ],
-    "Notes": "1. Open devtools > Launch the command menu\n2. Search for \"Capture full size screenshot\" and press Enter\n",
-    "Name": "Capture full page screenshot",
-    "LastModified": "2022-06-12T13:25:23.000Z",
     "Category": [
       "Other"
     ]
   },
-  "Name": "Capture full page screenshot",
-  "Category": "Other",
   "Firefox": {
     "Platform": [
       "MacOS",
@@ -40,10 +19,6 @@
     ],
     "Notes": "1. Right click on the empty portion of the page > Click on \"Take Screenshot\"\n2. Select the \"Choose full page\" option in the top right of the page\n",
     "Name": "Capture full page screenshot",
-    "Main": [
-      "recnUGZcWwJTP98oT"
-    ],
-    "LastModified": "2022-05-08T16:31:19.000Z",
     "Category": [
       "Other"
     ]
@@ -55,52 +30,31 @@
       "Windows",
       "Linux"
     ],
-    "Main": [
-      "recnUGZcWwJTP98oT"
-    ],
     "Name": "Capture full page screenshot",
-    "LastModified": "2022-05-08T16:30:51.000Z",
     "Category": [
       "Other"
     ]
   },
-  "Chrome": {
-    "Notes": "1. Open devtools > Launch the command menu\n2. Search for \"Capture full size screenshot\" and press Enter\n",
-    "Main": [
-      "recnUGZcWwJTP98oT"
-    ],
+  "Safari": {
     "Name": "Capture full page screenshot",
+    "Platform": [
+      "MacOS"
+    ],
+    "Notes": "1. Open devtools > Locate the `html` node in the DOM tree.\n2. Right click on the node and select \"Capture Screenshot\"\n",
+    "Category": [
+      "Other"
+    ]
+  },
+  "Opera": {
     "Platform": [
       "MacOS",
       "Windows",
       "Linux"
     ],
-    "LastModified": "2022-05-08T16:31:42.000Z",
+    "Notes": "1. Open devtools > Launch the command menu\n2. Search for \"Capture full size screenshot\" and press Enter\n",
+    "Name": "Capture full page screenshot",
     "Category": [
       "Other"
-    ],
-    "Created By": {
-      "id": "usr04Pxk58m8j0N70",
-      "email": "parashar.p.pankaj@gmail.com",
-      "name": "Pankaj Parashar"
-    },
-    "Created": "2022-03-01T07:45:34.000Z",
-    "Last Modified By": {
-      "id": "usr04Pxk58m8j0N70",
-      "email": "parashar.p.pankaj@gmail.com",
-      "name": "Pankaj Parashar"
-    }
-  },
-  "CreatedTime": "2022-02-19T11:15:50.000Z",
-  "LastModifiedTime": "2022-06-12T13:25:23.000Z",
-  "Created By": {
-    "id": "usr04Pxk58m8j0N70",
-    "email": "parashar.p.pankaj@gmail.com",
-    "name": "Pankaj Parashar"
-  },
-  "Last Modified By": {
-    "id": "usr04Pxk58m8j0N70",
-    "email": "parashar.p.pankaj@gmail.com",
-    "name": "Pankaj Parashar"
+    ]
   }
 }

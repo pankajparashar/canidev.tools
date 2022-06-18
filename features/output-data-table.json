@@ -1,43 +1,20 @@
 {
-  "Safari": {
-    "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1654693611/Images/output-data-table-safari_rnxkvl.png",
-    "Share": "https://twitter.com/CanIDevTools/status/1534524241693253632",
-    "Version": "7-",
+  "Chrome": {
+    "Share": "https://twitter.com/CanIDevTools/status/1534520264482242560",
+    "References": "1. \"console.table()\" - [MDN Docs](https://developer.mozilla.org/en-US/docs/Web/API/console/table)\n2. \"console API: table\" - [Can I Use](https://caniuse.com/mdn-api_console_table)\n\n",
+    "Notes": "1. Open console using `Cmd+Opt+J` or `Ctrl+Shift+J`.\n2. Use `console.table()` to output an array of arrays, or array of objects in a sortable, tabular format. For example, \n```\nconsole.table([[10, true, \"blue\"],[5, false]])\n```\n1. If the number of elements in each object is not equal, the table will display `undefined` in cells for which there is no data.\n2. There is an optional second argument which allows you to explicitly specify which columns to output.\n```\nconsole.table([\n  {population:8173194, country:\"UK\", elevation:\"24m\"},\n  {population:8336697, country:\"USA\", elevation:\"10m\"}\n],[\"population\", \"country\"])\n```\n",
+    "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1654692778/Images/output-data-table-chrome_fe7emu.png",
     "Name": "Output data as table",
-    "Platform": [
-      "MacOS"
-    ],
-    "References": "1. \"console.table()\" - [MDN Docs](https://developer.mozilla.org/en-US/docs/Web/API/console/table)\n2. \"console API: table\" - [Can I Use](https://caniuse.com/mdn-api_console_table)\n",
-    "Main": [
-      "rec39CUpqCU6joAby"
-    ],
-    "Notes": "Open **Console** using `Cmd+Opt+C`. Use `console.table()` to output arrays of array or array of objects in a sortable, tabular format.\n",
-    "LastModified": "2022-06-08T13:14:59.000Z",
-    "Category": [
-      "Console"
-    ]
-  },
-  "Slug": "output-data-table",
-  "Opera": {
-    "Main": [
-      "rec39CUpqCU6joAby"
-    ],
-    "References": "\n",
+    "Version": "27-",
     "Platform": [
       "MacOS",
       "Windows",
       "Linux"
     ],
-    "Notes": "1. Open console using `Cmd+Opt+J` or `Ctrl+Shift+J`.\n2. Use `console.table()` to output an array of arrays, or array of objects in a sortable, tabular format. For example, \n```\nconsole.table([[10, true, \"blue\"],[5, false]])\n```\n1. If the number of elements in each object is not equal, the table will display `undefined` in cells for which there is no data.\n2. There is an optional second argument which allows you to explicitly specify which columns to output.\n```\nconsole.table([\n  {population:8173194, country:\"UK\", elevation:\"24m\"},\n  {population:8336697, country:\"USA\", elevation:\"10m\"}\n],[\"population\", \"country\"])\n```\n",
-    "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1654692778/Images/output-data-table-chrome_fe7emu.png",
-    "Name": "Output data as table",
-    "LastModified": "2022-06-12T13:22:41.000Z",
     "Category": [
       "Console"
     ]
   },
-  "Name": "Output data as table",
-  "Category": "Console",
   "Firefox": {
     "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1654692283/Images/output-data-table-firefox_w9humo.png",
     "Version": "34-",
@@ -50,10 +27,6 @@
     "Notes": "Open **Console** using `Cmd+Opt+K` or `Ctrl+Shift+K` > Use `console.table()` to output the object in tabulated format.\n\nExample:\n```\nconsole.table([\n  {population:8173194, country:\"UK\", elevation:\"24m\"},\n  {population:8336697, country:\"USA\", elevation:\"10m\"}\n],[\"population\", \"country\"])\n```\n",
     "References": "1. \"console.table()\" - [MDN Docs](https://developer.mozilla.org/en-US/docs/Web/API/console/table)\n2. \"console API: table\" - [Can I Use](https://caniuse.com/mdn-api_console_table)\n",
     "Name": "Output data as table",
-    "Main": [
-      "rec39CUpqCU6joAby"
-    ],
-    "LastModified": "2022-06-08T12:55:16.000Z",
     "Category": [
       "Console"
     ]
@@ -65,60 +38,41 @@
       "Windows",
       "Linux"
     ],
-    "Main": [
-      "rec39CUpqCU6joAby"
-    ],
     "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1654694876/Images/output-data-table-edge_skgazo.png",
     "Share": "https://twitter.com/CanIDevTools/status/1534531329580486656",
     "Version": "13-",
     "Name": "Output data as table",
     "References": "1. \"console.table()\" - [MDN Docs](https://developer.mozilla.org/en-US/docs/Web/API/console/table)\n2. \"console API: table\" - [Can I Use](https://caniuse.com/mdn-api_console_table)\n",
-    "LastModified": "2022-06-08T13:42:52.000Z",
     "Category": [
       "Console"
     ]
   },
-  "Chrome": {
-    "Share": "https://twitter.com/CanIDevTools/status/1534520264482242560",
-    "References": "1. \"console.table()\" - [MDN Docs](https://developer.mozilla.org/en-US/docs/Web/API/console/table)\n2. \"console API: table\" - [Can I Use](https://caniuse.com/mdn-api_console_table)\n\n",
-    "Notes": "1. Open console using `Cmd+Opt+J` or `Ctrl+Shift+J`.\n2. Use `console.table()` to output an array of arrays, or array of objects in a sortable, tabular format. For example, \n```\nconsole.table([[10, true, \"blue\"],[5, false]])\n```\n1. If the number of elements in each object is not equal, the table will display `undefined` in cells for which there is no data.\n2. There is an optional second argument which allows you to explicitly specify which columns to output.\n```\nconsole.table([\n  {population:8173194, country:\"UK\", elevation:\"24m\"},\n  {population:8336697, country:\"USA\", elevation:\"10m\"}\n],[\"population\", \"country\"])\n```\n",
-    "Main": [
-      "rec39CUpqCU6joAby"
-    ],
-    "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1654692778/Images/output-data-table-chrome_fe7emu.png",
+  "Safari": {
+    "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1654693611/Images/output-data-table-safari_rnxkvl.png",
+    "Share": "https://twitter.com/CanIDevTools/status/1534524241693253632",
+    "Version": "7-",
     "Name": "Output data as table",
-    "Version": "27-",
+    "Platform": [
+      "MacOS"
+    ],
+    "References": "1. \"console.table()\" - [MDN Docs](https://developer.mozilla.org/en-US/docs/Web/API/console/table)\n2. \"console API: table\" - [Can I Use](https://caniuse.com/mdn-api_console_table)\n",
+    "Notes": "Open **Console** using `Cmd+Opt+C`. Use `console.table()` to output arrays of array or array of objects in a sortable, tabular format.\n",
+    "Category": [
+      "Console"
+    ]
+  },
+  "Opera": {
+    "References": "\n",
     "Platform": [
       "MacOS",
       "Windows",
       "Linux"
     ],
-    "LastModified": "2022-06-08T13:26:05.000Z",
+    "Notes": "1. Open console using `Cmd+Opt+J` or `Ctrl+Shift+J`.\n2. Use `console.table()` to output an array of arrays, or array of objects in a sortable, tabular format. For example, \n```\nconsole.table([[10, true, \"blue\"],[5, false]])\n```\n1. If the number of elements in each object is not equal, the table will display `undefined` in cells for which there is no data.\n2. There is an optional second argument which allows you to explicitly specify which columns to output.\n```\nconsole.table([\n  {population:8173194, country:\"UK\", elevation:\"24m\"},\n  {population:8336697, country:\"USA\", elevation:\"10m\"}\n],[\"population\", \"country\"])\n```\n",
+    "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1654692778/Images/output-data-table-chrome_fe7emu.png",
+    "Name": "Output data as table",
     "Category": [
       "Console"
-    ],
-    "Created By": {
-      "id": "usr04Pxk58m8j0N70",
-      "email": "parashar.p.pankaj@gmail.com",
-      "name": "Pankaj Parashar"
-    },
-    "Created": "2022-05-02T05:09:20.000Z",
-    "Last Modified By": {
-      "id": "usr04Pxk58m8j0N70",
-      "email": "parashar.p.pankaj@gmail.com",
-      "name": "Pankaj Parashar"
-    }
-  },
-  "CreatedTime": "2022-05-02T05:08:58.000Z",
-  "LastModifiedTime": "2022-06-12T13:22:41.000Z",
-  "Created By": {
-    "id": "usr04Pxk58m8j0N70",
-    "email": "parashar.p.pankaj@gmail.com",
-    "name": "Pankaj Parashar"
-  },
-  "Last Modified By": {
-    "id": "usr04Pxk58m8j0N70",
-    "email": "parashar.p.pankaj@gmail.com",
-    "name": "Pankaj Parashar"
+    ]
   }
 }

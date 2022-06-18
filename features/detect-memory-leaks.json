@@ -1,9 +1,32 @@
 {
-  "Slug": "detect-memory-leaks",
-  "Opera": {
-    "Main": [
-      "recZ8vHAxa23OG2rl"
+  "Chrome": {
+    "Share": "https://twitter.com/mgechev/status/1519534448227803138",
+    "References": "1. Minko Gechev (@mgechev) on [Twitter](https://twitter.com/mgechev/status/1519534448227803138).\n",
+    "Notes": "1. Open devtools using `Cmd+Opt+I` (on Mac) or `Ctrl+Shift+I` (on Windows/Linux) > Memory.\n2. Check memory usage > Memory going only ⬆️ is a bad sign! > Capture snapshot to preview memory allocation > Find redundant objects > Navigate to where you allocated them.\n",
+    "Name": "Detect memory leaks",
+    "Video": "https://res.cloudinary.com/canidevtools/video/upload/v1652111060/Videos/detect-memory-leaks-chrome_eoycbd.mp4",
+    "Platform": [
+      "MacOS",
+      "Windows",
+      "Linux"
     ],
+    "Category": [
+      "Other"
+    ]
+  },
+  "Edge": {
+    "Notes": "1. Open devtools using `Cmd+Opt+I` (on Mac) or `Ctrl+Shift+I` (on Windows/Linux) > Memory.\n2. Check memory usage > Memory going only ⬆️ is a bad sign! > Capture snapshot to preview memory allocation > Find redundant objects > Navigate to where you allocated them.\n\n",
+    "Platform": [
+      "MacOS",
+      "Windows",
+      "Linux"
+    ],
+    "Name": "Detect memory leaks",
+    "Category": [
+      "Other"
+    ]
+  },
+  "Opera": {
     "References": "\n",
     "Platform": [
       "MacOS",
@@ -12,71 +35,8 @@
     ],
     "Notes": "1. Open devtools using `Cmd+Opt+I` (on Mac) or `Ctrl+Shift+I` (on Windows/Linux) > Memory.\n2. Check memory usage > Memory going only ⬆️ is a bad sign! > Capture snapshot to preview memory allocation > Find redundant objects > Navigate to where you allocated them.\n",
     "Name": "Detect memory leaks",
-    "LastModified": "2022-06-12T13:27:11.000Z",
     "Category": [
       "Other"
     ]
-  },
-  "Name": "Detect memory leaks",
-  "Category": "Other",
-  "Edge": {
-    "Notes": "1. Open devtools using `Cmd+Opt+I` (on Mac) or `Ctrl+Shift+I` (on Windows/Linux) > Memory.\n2. Check memory usage > Memory going only ⬆️ is a bad sign! > Capture snapshot to preview memory allocation > Find redundant objects > Navigate to where you allocated them.\n\n",
-    "Platform": [
-      "MacOS",
-      "Windows",
-      "Linux"
-    ],
-    "Main": [
-      "recZ8vHAxa23OG2rl"
-    ],
-    "Name": "Detect memory leaks",
-    "LastModified": "2022-06-04T04:41:18.000Z",
-    "Category": [
-      "Other"
-    ]
-  },
-  "Chrome": {
-    "Share": "https://twitter.com/mgechev/status/1519534448227803138",
-    "References": "1. Minko Gechev (@mgechev) on [Twitter](https://twitter.com/mgechev/status/1519534448227803138).\n",
-    "Notes": "1. Open devtools using `Cmd+Opt+I` (on Mac) or `Ctrl+Shift+I` (on Windows/Linux) > Memory.\n2. Check memory usage > Memory going only ⬆️ is a bad sign! > Capture snapshot to preview memory allocation > Find redundant objects > Navigate to where you allocated them.\n",
-    "Main": [
-      "recZ8vHAxa23OG2rl"
-    ],
-    "Name": "Detect memory leaks",
-    "Video": "https://res.cloudinary.com/canidevtools/video/upload/v1652111060/Videos/detect-memory-leaks-chrome_eoycbd.mp4",
-    "Platform": [
-      "MacOS",
-      "Windows",
-      "Linux"
-    ],
-    "LastModified": "2022-05-09T15:45:36.000Z",
-    "Category": [
-      "Other"
-    ],
-    "Created By": {
-      "id": "usr04Pxk58m8j0N70",
-      "email": "parashar.p.pankaj@gmail.com",
-      "name": "Pankaj Parashar"
-    },
-    "Created": "2022-05-09T15:37:57.000Z",
-    "Last Modified By": {
-      "id": "usr04Pxk58m8j0N70",
-      "email": "parashar.p.pankaj@gmail.com",
-      "name": "Pankaj Parashar"
-    }
-  },
-  "CreatedTime": "2022-05-09T15:37:38.000Z",
-  "LastModifiedTime": "2022-06-12T13:25:05.000Z",
-  "Created By": {
-    "id": "usr04Pxk58m8j0N70",
-    "email": "parashar.p.pankaj@gmail.com",
-    "name": "Pankaj Parashar"
-  },
-  "Last Modified By": {
-    "id": "usr04Pxk58m8j0N70",
-    "email": "parashar.p.pankaj@gmail.com",
-    "name": "Pankaj Parashar"
-  },
-  "Firefox": null,
-  "Safari": null
+  }
 }

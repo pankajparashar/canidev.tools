@@ -1,23 +1,16 @@
 {
-  "Slug": "find-element-css-selector",
-  "Opera": {
-    "Main": [
-      "recViJQyn9120gTWT"
-    ],
+  "Chrome": {
+    "Notes": "1. Open devtools > Click the \"Elements\" panel > Press `Cmd+F` (on Mac) or `Ctrl+F` (on Windows/Linux/Chrome OS) to open the search bar.\n2. Enter the CSS selector to search an element in the DOM tree.\n",
+    "Name": "Find element using CSS selector",
     "Platform": [
       "MacOS",
       "Windows",
       "Linux"
     ],
-    "Notes": "1. Open devtools > Click the \"Elements\" panel > Press `Cmd+F` (on Mac) or `Ctrl+F` (on Windows/Linux/Chrome OS) to open the search bar.\n2. Enter the CSS selector to search an element in the DOM tree.\n",
-    "Name": "Find element using CSS selector",
-    "LastModified": "2022-06-12T13:28:37.000Z",
     "Category": [
       "Elements"
     ]
   },
-  "Name": "Find element with CSS selector",
-  "Category": "Elements",
   "Firefox": {
     "Platform": [
       "MacOS",
@@ -26,63 +19,27 @@
     ],
     "Notes": "1. Open devtools > Click the \"Inspector\" tab to open the DOM tree > Under the Inspector tab, locate the \"Search HTML\" field.\n2. Enter the CSS selector to search the element in the DOM tree.\n",
     "Name": "Find element using CSS selector",
-    "Main": [
-      "recViJQyn9120gTWT"
-    ],
-    "LastModified": "2022-05-08T16:31:19.000Z",
     "Category": [
       "Elements"
     ]
   },
   "Edge": {
     "Notes": "1. Open devtools > Click the \"Elements\" panel > Press `Cmd+F` (on Mac) or `Ctrl+F` (on Windows/Linux/Chrome OS) to open the search bar.\n2. Enter the CSS selector to search an element in the DOM tree.\n\n",
-    "Main": [
-      "recViJQyn9120gTWT"
-    ],
     "Name": "Find element using CSS selector",
-    "LastModified": "2022-06-04T04:47:24.000Z",
     "Category": [
       "Elements"
     ]
   },
-  "Chrome": {
-    "Notes": "1. Open devtools > Click the \"Elements\" panel > Press `Cmd+F` (on Mac) or `Ctrl+F` (on Windows/Linux/Chrome OS) to open the search bar.\n2. Enter the CSS selector to search an element in the DOM tree.\n",
-    "Main": [
-      "recViJQyn9120gTWT"
-    ],
-    "Name": "Find element using CSS selector",
+  "Opera": {
     "Platform": [
       "MacOS",
       "Windows",
       "Linux"
     ],
-    "LastModified": "2022-05-08T16:31:42.000Z",
+    "Notes": "1. Open devtools > Click the \"Elements\" panel > Press `Cmd+F` (on Mac) or `Ctrl+F` (on Windows/Linux/Chrome OS) to open the search bar.\n2. Enter the CSS selector to search an element in the DOM tree.\n",
+    "Name": "Find element using CSS selector",
     "Category": [
       "Elements"
-    ],
-    "Created By": {
-      "id": "usr04Pxk58m8j0N70",
-      "email": "parashar.p.pankaj@gmail.com",
-      "name": "Pankaj Parashar"
-    },
-    "Created": "2022-03-06T15:07:30.000Z",
-    "Last Modified By": {
-      "id": "usr04Pxk58m8j0N70",
-      "email": "parashar.p.pankaj@gmail.com",
-      "name": "Pankaj Parashar"
-    }
-  },
-  "CreatedTime": "2022-02-19T11:54:32.000Z",
-  "LastModifiedTime": "2022-06-12T13:28:37.000Z",
-  "Created By": {
-    "id": "usr04Pxk58m8j0N70",
-    "email": "parashar.p.pankaj@gmail.com",
-    "name": "Pankaj Parashar"
-  },
-  "Last Modified By": {
-    "id": "usr04Pxk58m8j0N70",
-    "email": "parashar.p.pankaj@gmail.com",
-    "name": "Pankaj Parashar"
-  },
-  "Safari": null
+    ]
+  }
 }

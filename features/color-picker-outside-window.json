@@ -1,9 +1,32 @@
 {
-  "Slug": "color-picker-outside-window",
-  "Opera": {
-    "Main": [
-      "recvq4MXyObaBiXsz"
+  "Chrome": {
+    "Share": "https://twitter.com/yisibl/status/1513834953104310279",
+    "References": "1. @ysibil on [Twitter](https://twitter.com/yisibl/status/1513834953104310279)\n",
+    "Notes": "1. Open settings > Experiments > Filter on \"color\".\n2. Check \"Enable color picking outside the browser window\" checkbox.\n",
+    "Name": "Use color picker outside window",
+    "Video": "https://res.cloudinary.com/canidevtools/video/upload/v1649914703/Videos/color-picker-outside-window-chrome.mp4",
+    "Platform": [
+      "MacOS",
+      "Windows",
+      "Linux"
     ],
+    "Category": [
+      "CSS"
+    ]
+  },
+  "Edge": {
+    "Notes": "1. Open settings > Experiments > Filter on \"color\".\n2. Check \"Enable color picking outside the browser window\" checkbox.\n\n",
+    "Platform": [
+      "MacOS",
+      "Windows",
+      "Linux"
+    ],
+    "Name": "Use color picker outside window",
+    "Category": [
+      "CSS"
+    ]
+  },
+  "Opera": {
     "References": "\n",
     "Video": "https://res.cloudinary.com/canidevtools/video/upload/v1649914703/Videos/color-picker-outside-window-chrome.mp4",
     "Platform": [
@@ -13,71 +36,8 @@
     ],
     "Notes": "1. Open settings > Experiments > Filter on \"color\".\n2. Check \"Enable color picking outside the browser window\" checkbox.\n",
     "Name": "Use color picker outside window",
-    "LastModified": "2022-06-12T13:22:41.000Z",
     "Category": [
       "CSS"
     ]
-  },
-  "Name": "Use color picker outside window",
-  "Category": "CSS",
-  "Edge": {
-    "Notes": "1. Open settings > Experiments > Filter on \"color\".\n2. Check \"Enable color picking outside the browser window\" checkbox.\n\n",
-    "Platform": [
-      "MacOS",
-      "Windows",
-      "Linux"
-    ],
-    "Main": [
-      "recvq4MXyObaBiXsz"
-    ],
-    "Name": "Use color picker outside window",
-    "LastModified": "2022-06-04T04:41:25.000Z",
-    "Category": [
-      "CSS"
-    ]
-  },
-  "Chrome": {
-    "Share": "https://twitter.com/yisibl/status/1513834953104310279",
-    "References": "1. @ysibil on [Twitter](https://twitter.com/yisibl/status/1513834953104310279)\n",
-    "Notes": "1. Open settings > Experiments > Filter on \"color\".\n2. Check \"Enable color picking outside the browser window\" checkbox.\n",
-    "Main": [
-      "recvq4MXyObaBiXsz"
-    ],
-    "Name": "Use color picker outside window",
-    "Video": "https://res.cloudinary.com/canidevtools/video/upload/v1649914703/Videos/color-picker-outside-window-chrome.mp4",
-    "Platform": [
-      "MacOS",
-      "Windows",
-      "Linux"
-    ],
-    "LastModified": "2022-05-08T16:31:42.000Z",
-    "Category": [
-      "CSS"
-    ],
-    "Created By": {
-      "id": "usr04Pxk58m8j0N70",
-      "email": "parashar.p.pankaj@gmail.com",
-      "name": "Pankaj Parashar"
-    },
-    "Created": "2022-04-13T14:43:41.000Z",
-    "Last Modified By": {
-      "id": "usr04Pxk58m8j0N70",
-      "email": "parashar.p.pankaj@gmail.com",
-      "name": "Pankaj Parashar"
-    }
-  },
-  "CreatedTime": "2022-04-13T14:35:20.000Z",
-  "LastModifiedTime": "2022-06-14T04:01:45.000Z",
-  "Created By": {
-    "id": "usr04Pxk58m8j0N70",
-    "email": "parashar.p.pankaj@gmail.com",
-    "name": "Pankaj Parashar"
-  },
-  "Last Modified By": {
-    "id": "usr04Pxk58m8j0N70",
-    "email": "parashar.p.pankaj@gmail.com",
-    "name": "Pankaj Parashar"
-  },
-  "Firefox": null,
-  "Safari": null
+  }
 }

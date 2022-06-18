@@ -1,37 +1,16 @@
 {
-  "Safari": {
+  "Chrome": {
+    "Notes": "1. `$_` returns the value of the most recently evaluated expression.\n",
     "Name": "Get last return value in console",
-    "Platform": [
-      "MacOS"
-    ],
-    "Main": [
-      "recj9gMAfvdcc8UVm"
-    ],
-    "Notes": "1. `$_` returns the value of the most recently evaluated expression. Additionally, Safari also lets you access multiple values in chronological order, using `$1, $2, $3`, ...\n",
-    "LastModified": "2022-05-02T14:58:53.000Z",
-    "Category": [
-      "Console"
-    ]
-  },
-  "Slug": "get-last-return-value",
-  "Opera": {
-    "Main": [
-      "recj9gMAfvdcc8UVm"
-    ],
     "Platform": [
       "MacOS",
       "Windows",
       "Linux"
     ],
-    "Notes": "1. `$_` returns the value of the most recently evaluated expression.\n",
-    "Name": "Get last return value in console",
-    "LastModified": "2022-06-12T13:22:41.000Z",
     "Category": [
       "Console"
     ]
   },
-  "Name": "Get last return value",
-  "Category": "Console",
   "Firefox": {
     "Platform": [
       "MacOS",
@@ -40,10 +19,6 @@
     ],
     "Notes": "1. `$_` returns the value of the most recently evaluated expression.\n",
     "Name": "Get last return value in console",
-    "Main": [
-      "recj9gMAfvdcc8UVm"
-    ],
-    "LastModified": "2022-05-08T16:31:19.000Z",
     "Category": [
       "Console"
     ]
@@ -55,52 +30,31 @@
       "Windows",
       "Linux"
     ],
-    "Main": [
-      "recj9gMAfvdcc8UVm"
-    ],
     "Name": "Get last return value in console",
-    "LastModified": "2022-05-08T16:30:51.000Z",
     "Category": [
       "Console"
     ]
   },
-  "Chrome": {
-    "Notes": "1. `$_` returns the value of the most recently evaluated expression.\n",
-    "Main": [
-      "recj9gMAfvdcc8UVm"
-    ],
+  "Safari": {
     "Name": "Get last return value in console",
+    "Platform": [
+      "MacOS"
+    ],
+    "Notes": "1. `$_` returns the value of the most recently evaluated expression. Additionally, Safari also lets you access multiple values in chronological order, using `$1, $2, $3`, ...\n",
+    "Category": [
+      "Console"
+    ]
+  },
+  "Opera": {
     "Platform": [
       "MacOS",
       "Windows",
       "Linux"
     ],
-    "LastModified": "2022-05-08T16:31:42.000Z",
+    "Notes": "1. `$_` returns the value of the most recently evaluated expression.\n",
+    "Name": "Get last return value in console",
     "Category": [
       "Console"
-    ],
-    "Created By": {
-      "id": "usr04Pxk58m8j0N70",
-      "email": "parashar.p.pankaj@gmail.com",
-      "name": "Pankaj Parashar"
-    },
-    "Created": "2022-02-02T14:05:30.000Z",
-    "Last Modified By": {
-      "id": "usr04Pxk58m8j0N70",
-      "email": "parashar.p.pankaj@gmail.com",
-      "name": "Pankaj Parashar"
-    }
-  },
-  "CreatedTime": "2022-02-02T14:05:09.000Z",
-  "LastModifiedTime": "2022-06-12T13:22:41.000Z",
-  "Created By": {
-    "id": "usr04Pxk58m8j0N70",
-    "email": "parashar.p.pankaj@gmail.com",
-    "name": "Pankaj Parashar"
-  },
-  "Last Modified By": {
-    "id": "usr04Pxk58m8j0N70",
-    "email": "parashar.p.pankaj@gmail.com",
-    "name": "Pankaj Parashar"
+    ]
   }
 }

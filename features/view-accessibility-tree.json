@@ -1,25 +1,19 @@
 {
-  "Slug": "view-accessibility-tree",
-  "Opera": {
-    "Main": [
-      "reclXtgZseGWB14ZD"
-    ],
-    "References": "\n",
+  "Chrome": {
+    "Share": "https://twitter.com/jecfish/status/1512088763198951431",
+    "References": "1. Jecelyn Yeen on [Twitter](https://twitter.com/jecfish/status/1512088763198951431)\n2. Full Accessibility Tree by [Chrome Developers](https://developer.chrome.com/blog/full-accessibility-tree/)\n",
+    "Notes": "1. Inspect > Open the Accessibility pane on the right (Click the >> icon to show more tabs, if hidden) > Check \"Enable full-page accessibility tree\" > Reload Devtools.\n2. Click on the floating icon in the top right in the Elements panel which says, \"Switch to Accessibility tree view\".\n",
+    "Name": "View accessibility tree",
     "Video": "https://res.cloudinary.com/canidevtools/video/upload/v1649521456/Videos/view-accessibility-tree-chrome.mp4",
     "Platform": [
       "MacOS",
       "Windows",
       "Linux"
     ],
-    "Notes": "1. Inspect > Open the Accessibility pane on the right (Click the >> icon to show more tabs, if hidden) > Check \"Enable full-page accessibility tree\" > Reload Devtools.\n2. Click on the floating icon in the top right in the Elements panel which says, \"Switch to Accessibility tree view\".\n",
-    "Name": "View accessibility tree",
-    "LastModified": "2022-06-12T13:29:48.000Z",
     "Category": [
       "Accessibility"
     ]
   },
-  "Name": "View accessibility tree",
-  "Category": "Accessibility",
   "Firefox": {
     "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1654356411/Images/view-accessibility-tree-firefox_jfw9tz.png",
     "Platform": [
@@ -30,10 +24,6 @@
     "Notes": "1. Open devtools > Accessibility (Click >> icon to open more tabs if hidden).\n2. The main section shows the accessibility tree under the Role section.\n",
     "References": "1. \"Accessibility Inspector\" by [Firefox](https://firefox-source-docs.mozilla.org/devtools-user/accessibility_inspector/)\n2. \"Issue #2\" by [Nicolas](https://github.com/pankajparashar/canidev.tools/issues/2).\n\n",
     "Name": "View accessibility tree",
-    "Main": [
-      "reclXtgZseGWB14ZD"
-    ],
-    "LastModified": "2022-06-04T15:31:41.000Z",
     "Category": [
       "Accessibility"
     ]
@@ -45,56 +35,23 @@
       "Windows",
       "Linux"
     ],
-    "Main": [
-      "reclXtgZseGWB14ZD"
-    ],
     "Name": "View accessibility tree",
-    "LastModified": "2022-06-04T06:09:49.000Z",
     "Category": [
       "Accessibility"
     ]
   },
-  "Chrome": {
-    "Share": "https://twitter.com/jecfish/status/1512088763198951431",
-    "References": "1. Jecelyn Yeen on [Twitter](https://twitter.com/jecfish/status/1512088763198951431)\n2. Full Accessibility Tree by [Chrome Developers](https://developer.chrome.com/blog/full-accessibility-tree/)\n",
-    "Notes": "1. Inspect > Open the Accessibility pane on the right (Click the >> icon to show more tabs, if hidden) > Check \"Enable full-page accessibility tree\" > Reload Devtools.\n2. Click on the floating icon in the top right in the Elements panel which says, \"Switch to Accessibility tree view\".\n",
-    "Main": [
-      "reclXtgZseGWB14ZD"
-    ],
-    "Name": "View accessibility tree",
+  "Opera": {
+    "References": "\n",
     "Video": "https://res.cloudinary.com/canidevtools/video/upload/v1649521456/Videos/view-accessibility-tree-chrome.mp4",
     "Platform": [
       "MacOS",
       "Windows",
       "Linux"
     ],
-    "LastModified": "2022-06-04T06:09:36.000Z",
+    "Notes": "1. Inspect > Open the Accessibility pane on the right (Click the >> icon to show more tabs, if hidden) > Check \"Enable full-page accessibility tree\" > Reload Devtools.\n2. Click on the floating icon in the top right in the Elements panel which says, \"Switch to Accessibility tree view\".\n",
+    "Name": "View accessibility tree",
     "Category": [
       "Accessibility"
-    ],
-    "Created By": {
-      "id": "usr04Pxk58m8j0N70",
-      "email": "parashar.p.pankaj@gmail.com",
-      "name": "Pankaj Parashar"
-    },
-    "Created": "2022-04-09T16:23:06.000Z",
-    "Last Modified By": {
-      "id": "usr04Pxk58m8j0N70",
-      "email": "parashar.p.pankaj@gmail.com",
-      "name": "Pankaj Parashar"
-    }
-  },
-  "CreatedTime": "2022-04-09T16:22:35.000Z",
-  "LastModifiedTime": "2022-06-12T13:29:48.000Z",
-  "Created By": {
-    "id": "usr04Pxk58m8j0N70",
-    "email": "parashar.p.pankaj@gmail.com",
-    "name": "Pankaj Parashar"
-  },
-  "Last Modified By": {
-    "id": "usr04Pxk58m8j0N70",
-    "email": "parashar.p.pankaj@gmail.com",
-    "name": "Pankaj Parashar"
-  },
-  "Safari": null
+    ]
+  }
 }
