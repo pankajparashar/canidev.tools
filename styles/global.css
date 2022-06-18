@@ -20,7 +20,7 @@
 body {
 	font-size: 1em;
 	line-height: 1.75;
-	font-family: 'iA Writer Duospace', monospace;
+	font-family: 'InputMono', monospace;
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
@@ -391,33 +391,17 @@ input:focus-visible {
 }
 
 @font-face {
-	font-family: 'iA Writer Duospace';
-	src: url('iAWriterDuospace-Italic.woff2') format('woff2');
+	font-family: 'InputMono';
+	src: url('InputMono-Regular.woff2') format('woff2');
 	font-weight: normal;
-	font-style: italic;
-	font-display: swap;
-}
-
-@font-face {
-	font-family: 'iA Writer Duospace';
-	src: url('iAWriterDuospace-Bold.woff2') format('woff2');
-	font-weight: bold;
 	font-style: normal;
 	font-display: swap;
 }
 
 @font-face {
-	font-family: 'iA Writer Duospace';
-	src: url('iAWriterDuospace-BoldItalic.woff2') format('woff2');
+	font-family: 'InputMono';
+	src: url('InputMono-Bold.woff2') format('woff2');
 	font-weight: bold;
-	font-style: italic;
-	font-display: swap;
-}
-
-@font-face {
-	font-family: 'iA Writer Duospace';
-	src: url('iAWriterDuospace-Regular.woff2') format('woff2');
-	font-weight: normal;
 	font-style: normal;
 	font-display: swap;
 }
