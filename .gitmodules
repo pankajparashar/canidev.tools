@@ -1,4 +1,0 @@
-[submodule "features"]
-	path = features
-	url = https://github.com/pankajparashar/canidev.tools.git
-	branch = features
