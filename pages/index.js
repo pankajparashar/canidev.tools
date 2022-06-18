@@ -30,6 +30,8 @@ function groupByCategory(records) {
 
 export default function IndexPage(props) {
 	const [records, setRecords] = useState(props.records);
+	const [showFavorites, setShowFavorites] = useState(true)
+
 	const colors = [
 		"#d50000", // red
 		"#aa00ff", // purple
@@ -49,8 +51,8 @@ export default function IndexPage(props) {
 			<Head>
 				<title>Can I DevTools?</title>
 			</Head>
-			<Header records={records} setRecords={setRecords} />
-			<Favorites records={records} />
+			<Header records={records} setRecords={setRecords} setShowFavorites={setShowFavorites} />
+			{showFavorites ? <Favorites records={records} /> : null}
 			{Object.entries(categories).map(([category, records], idx) => (
 				<Category
 					key={category}

@@ -3,7 +3,7 @@ import Fuse from "fuse.js";
 
 import { BROWSERS } from "../lib/fetch";
 
-export function Header({ records, setRecords }) {
+export function Header({ records, setRecords, setShowFavorites }) {
 	const [browsers, setBrowsers] = useState({});
 	const [search, setSearch] = useState(false);
 	const [fuse, setFuse] = useState(null);
@@ -31,9 +31,19 @@ export function Header({ records, setRecords }) {
 	}, [records]);
 
 	const runQuery = q => {
-		console.log(q)
-		const result = fuse.search(q).map((r) => r.item);
-		filterResults(result);
+		let result = [];
+		if (q.startsWith("id:")) {
+			let match = /id:(.*)/.exec(q)
+			if (match && match[1]) {
+				match = records.find(r => r.fields.Slug === match[1])
+				result = match === undefined ? [] : [match]
+			}
+		} else {
+			result = fuse.search(q).map((r) => r.item);
+		}
+		if (result && result.length !== 0) {
+			filterResults(result);
+		}
 	}
 
 	const onKeyDown = (event) => {
@@ -54,6 +64,7 @@ export function Header({ records, setRecords }) {
 			}
 		});
 		setRecords([...records]);
+		setShowFavorites(false)
 	};
 
 	const clearResults = () => {
@@ -61,6 +72,7 @@ export function Header({ records, setRecords }) {
 		setSearch(false);
 		records.forEach((record) => (record.display = true));
 		setRecords([...records]);
+		setShowFavorites(true)
 	};
 
 	useEffect(() => {
