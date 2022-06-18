@@ -94,7 +94,7 @@ code {
 	font-family: inherit;
 	background-color: white;
 	color: #333;
-	padding: 2px 5px;
+	padding: 0 5px;
 	border: 1px dashed var(--border-color-light);
 }
 
