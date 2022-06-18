@@ -15,7 +15,8 @@ export function Record({ record, color }) {
 		setDetails((prevDetails) => {
 			const details = {
 				...fields[Browser],
-				Browser
+				Browser,
+				Slug
 			};
 			return prevDetails?.Browser === Browser ? null : details;
 		});

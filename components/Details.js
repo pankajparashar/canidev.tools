@@ -12,7 +12,8 @@ export function Details({ details, id }) {
 		Category,
 		LastModified,
 		Share,
-		Version
+		Version,
+		Slug
 	} = details;
 
 	const countOfReferences = References
@@ -90,11 +91,11 @@ export function Details({ details, id }) {
 
 					<dt>
 						<a
-							href={`https://github.com/pankajparashar/canidev.tools/issues/new?&labels=Improve&template=custom.md&title=${Name}`}
+							href={`https://github.com/pankajparashar/canidev.tools/edit/master/features/${Slug}.json`}
 							rel="noreferrer"
 							target="_blank"
 						>
-							Issue
+							Edit
 						</a>
 						{" | "}
 						<a
