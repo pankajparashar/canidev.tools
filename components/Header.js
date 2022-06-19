@@ -88,7 +88,7 @@ export function Header({ records, setRecords, setShowFavorites }) {
 							autoFocus
 							type="search"
 							value={query}
-							onChange={e => setQuery(e.target.value.trim())}
+							onChange={e => setQuery(e.target.value)}
 							className={`pl_05em`}
 							placeholder="Can I ...? (Enter ↲)"
 							onKeyDown={onKeyDown}
