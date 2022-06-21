@@ -9,6 +9,7 @@ export default function MyApp({ Component, pageProps }) {
       <Head>
         <title>Can I Devtools?</title>
         <meta name="title" content="Can I Devtools?" />
+        <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
       </Head>
       <Component {...pageProps} />
     </>

@@ -15,6 +15,7 @@
 	--border-color-light: #bdc3c7;
 	--border-color-dark: #666;
 	--background-color-light: #f5f7f7;
+	--background-color-dark: #333;
 }
 
 body {
@@ -55,8 +56,15 @@ button[disabled] {
 }
 
 .but_2:hover:enabled,
+.but_2:focus,
 .but_2:active:enabled {
 	background-color: #333;
+}
+
+.but_1_dark:hover:enabled,
+.but_1_dark:focus,
+.but_1_dark:active:enabled {
+	background-color: var(--background-color-dark);
 }
 
 input[type="checkbox"] {
@@ -231,6 +239,10 @@ input:focus-visible {
 	display: flex;
 }
 
+.fg_1 {
+	flex-grow: 1;
+}
+
 .jc_sb {
 	justify-content: space-between;
 }
@@ -325,6 +337,10 @@ input:focus-visible {
 	border-top: 1px solid var(--border-color-light);
 }
 
+.bt_1px_dark {
+	border-top: 1px solid var(--border-color-dark);
+}
+
 .br_1px {
 	border-right: 1px dashed var(--border-color-light);
 }
@@ -389,6 +405,11 @@ input:focus-visible {
 .w_100pct {
 	width: 100%
 }
+
+.h_100pct {
+	height: 100%
+}
+
 
 @font-face {
 	font-family: 'InputMono';

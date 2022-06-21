@@ -43,14 +43,10 @@ export default function IndexPage(props) {
 		"#5d4037", // brown
 		"#0d8091" // cyan
 	];
-
 	const categories = groupByCategory(props.records.filter((r) => r.display));
 
 	return (
 		<>
-			<Head>
-				<title>Can I DevTools?</title>
-			</Head>
 			<Header records={records} setRecords={setRecords} setShowFavorites={setShowFavorites} />
 			{showFavorites ? <Favorites records={records} /> : null}
 			{Object.entries(categories).map(([category, records], idx) => (

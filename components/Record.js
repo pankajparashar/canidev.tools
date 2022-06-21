@@ -65,17 +65,6 @@ export function Record({ record, color }) {
 
 			if (id === record.id || id === Slug) {
 				onClick(browser);
-
-				const target = document.getElementById(id);
-				var headerOffset = document.getElementById("header").clientHeight;
-				var elementPosition = target.getBoundingClientRect().top;
-				var offsetPosition =
-					elementPosition + window.pageYOffset - headerOffset;
-
-				window.scrollTo({
-					top: offsetPosition,
-					behavior: "smooth"
-				});
 			}
 		}
 	});
