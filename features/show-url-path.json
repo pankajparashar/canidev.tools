@@ -1,0 +1,46 @@
+{
+  "Chrome": {
+    "Share": "https://twitter.com/CanIDevTools/status/1539480314241683456",
+    "References": "[1] \"Network features reference\" - [Chrome Developers](https://developer.chrome.com/docs/devtools/network/reference/#request-rows)\n",
+    "Notes": "1. In the **Network** tab, open \"Network settings\" (top-right).\n2. Check the option \"Use large request rows\" to show the URL path under the resource name<sup>[1]</sup>\n",
+    "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1655875057/Images/show-url-path-chrome_otky23.png",
+    "Name": "Show URL path",
+    "Version": "58-",
+    "Platform": [
+      "MacOS",
+      "Windows",
+      "Linux"
+    ],
+    "Category": [
+      "Network"
+    ]
+  },
+  "Edge": {
+    "Name": "Show URL path",
+    "Category": [
+      "Network"
+    ],
+    "Notes": "1. In the **Network** tab, open \"Network settings\" (top-right).\n2. Check the option \"Use large request rows\" to show the URL path under the resource name.\n\n",
+    "Platform": [
+      "MacOS",
+      "Windows",
+      "Linux"
+    ],
+    "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1655879457/Images/show-url-path-edge_rzfxev.png",
+    "Share": "https://twitter.com/CanIDevTools/status/1539496921173139456"
+  },
+  "Opera": {
+    "Name": "Show URL path",
+    "Category": [
+      "Network"
+    ],
+    "Notes": "1. In the **Network** tab, open \"Network settings\" (top-right).\n2. Check the option \"Use large request rows\" to show the URL path under the resource name.\n",
+    "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1655879457/Images/show-url-path-opera_mxnzmi.png",
+    "Platform": [
+      "MacOS",
+      "Windows",
+      "Linux"
+    ],
+    "Share": "https://twitter.com/CanIDevTools/status/1539497780003016706"
+  }
+}
