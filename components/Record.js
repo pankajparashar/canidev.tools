@@ -63,7 +63,7 @@ export function Record({ record, color }) {
 			const id = params.get("id");
 			const browser = params.get("browser");
 
-			if (id === record.id || id === Slug) {
+			if (id === record.id || id === Slug && browser) {
 				onClick(browser);
 			}
 		}
