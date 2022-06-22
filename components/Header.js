@@ -91,11 +91,12 @@ export function Header({ records, setRecords, setShowFavorites }) {
 							placeholder="Can I ...? (Enter ↲)"
 						/>
 					) : (
-						<div className={`pl_05em d_flex jc_sb w_100pct`}>
+						<div className={`pl_05em d_flex jc_sb w_100pct h_100pct ai_center`}>
 							<div><strong>Can I DevTools?</strong></div>
+							<button style={{ width: "auto" }} className="but_2 pl_05em pr_05em" onClick={onClose} title="/home">({records.filter((r) => r.display).length})</button>
 						</div>
 					)}
-					<div style={{ width: "3.5em", textAlign: "center" }}>({records.filter((r) => r.display).length})</div>
+
 				</div>
 				<div className={`br_1px_dark`}>
 					{showSearch ? (
@@ -116,12 +117,12 @@ export function Header({ records, setRecords, setShowFavorites }) {
 					)}
 				</div>
 			</div>
-			<div className={`d_grid gtc_5fr bgc_000 bb_1px_dark`}>
+			<div className={`d_grid gtc_5fr bgc_000 bb_1px_dark bt_1px_dark`}>
 				{Object.entries(browsers).map(([browser, count]) => (
-					<button key={browser} className={`but_2`} onClick={() => onBrowserClick(browser)}>
+					<button key={browser} className={`but_2 br_1px_dark`} onClick={() => onBrowserClick(browser)}>
 						<div
 
-							className={`br_1px_dark p_05em`}
+							className={`p_05em`}
 							style={{
 								display: "flex",
 								justifyContent: "space-between",
