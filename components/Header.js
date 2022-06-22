@@ -103,7 +103,7 @@ export function Header({ records, setRecords, setShowFavorites }) {
 					) : (
 						<div className={`pl_05em d_flex jc_sb w_100pct h_100pct ai_center`}>
 							<div><strong>Can I DevTools?</strong></div>
-							<button style={{ width: "auto" }} className="but_2 pl_05em pr_05em" onClick={onClose} title="/home">({records.filter((r) => r.display).length})</button>
+							<button style={{ width: "auto" }} className="but_2 pl_05em pr_05em" onClick={() => window.location.href = "/"} title="/home">({records.filter((r) => r.display).length})</button>
 						</div>
 					)}
 
