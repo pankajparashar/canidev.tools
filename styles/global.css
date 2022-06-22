@@ -1,3 +1,5 @@
+html { color-scheme: dark light; }
+
 ::selection {
 	background-color: #79ffe1;
 	color: black;
