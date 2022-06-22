@@ -13,14 +13,14 @@
     ]
   },
   "Edge": {
-    "Name": "Open devtools with new tab",
-    "Category": [
-      "Other"
-    ],
     "Notes": "1. **MacOS**: In the terminal, pass the `--auto-open-devtools-for-tabs` flag to while launching Edge.\n```\n/Applications/Microsoft\\ Edge.app/Contents/MacOS/Microsoft\\ Edge --auto-open-devtools-for-tabs https://web.dev\n```\n1. **Windows**: Right-click the Edge shortcut > Properties and add the flag at the end of the Target line. Alternatively, run the following from your command-line,\n```\n\"C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\edge.exe\" -auto-open-devtools-for-tabs\n```\n",
     "Platform": [
       "MacOS",
       "Windows"
+    ],
+    "Name": "Open devtools with new tab",
+    "Category": [
+      "Other"
     ]
   }
 }
