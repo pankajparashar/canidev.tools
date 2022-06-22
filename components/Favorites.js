@@ -18,7 +18,7 @@ export function Favorites(props) {
     <>
       {records.length > 0 ? (
         <details open id={category}>
-          <summary className={`p_05em bgc_ws bb_1px pt_2em`}>
+          <summary className={`p_05em bb_1px pt_2em`}>
             <strong>
               {category} ({records.length})
             </strong>

@@ -22,6 +22,15 @@ html {
 	--background-color-dark: #333;
 }
 
+@media (prefers-color-scheme: dark) {
+	:root {
+		--border-color-light: #666;
+		--border-color-dark: #bdc3c7;
+		--background-color-light: #333;
+		--background-color-dark: #f5f7f7;
+	}
+}
+
 body {
 	font-size: 1em;
 	line-height: 1.75;
@@ -110,9 +119,7 @@ code {
 
 pre {
 	white-space: pre-wrap;
-	font-size: 1em;
 	font-family: inherit;
-	background-color: #fff;
 	padding: 1px 5px 5px;
 	border: 1px dashed var(--border-color-light);
 }
@@ -221,8 +228,12 @@ input:focus-visible {
 	background-color: #333;
 }
 
-.bgc_ws {
+.bgc_light {
 	background-color: var(--background-color-light);
+}
+
+.bgc_dark {
+	background-color: var(--background-color-dark);
 }
 
 .c_fff {

@@ -9,7 +9,7 @@ export function Header({ records, setRecords, setShowFavorites }) {
 	const [fuse, setFuse] = useState(new Fuse(records, {
 		includeScore: false,
 		minMatchCharLength: 3,
-		threshold: 0.25,
+		threshold: 0,
 		keys: ["fields.Name", "fields.Slug"]
 	}));
 

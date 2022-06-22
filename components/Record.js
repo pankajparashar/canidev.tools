@@ -115,7 +115,7 @@ export function Record({ record, color }) {
 								<button
 									aria-label="Exists or not"
 									disabled={!Boolean(fields[browser])}
-									className={`p_05em but_1 ${activeBrowser === browser ? "bgc_ws" : "bb_1px"
+									className={`p_05em but_1 ${activeBrowser === browser ? "bgc_light" : "bb_1px"
 										}`}
 									data-goatcounter-click={`id=${Slug}&browser=${browser}`}
 									data-goatcounter-title={fields.Name + " / " + browser}

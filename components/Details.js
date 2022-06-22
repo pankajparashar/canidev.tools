@@ -21,7 +21,7 @@ export function Details({ details, id }) {
 		: 0;
 
 	return (
-		<div className={`d_grid gtc_320px`}>
+		<div className={`d_grid gtc_320px bgc_light`}>
 			<div className={`br_1px bb_1px p_1em`}>
 				{Video ? (
 					<details open>
