@@ -10,7 +10,7 @@ export function Header({ records, setRecords, setShowFavorites }) {
 		includeScore: false,
 		minMatchCharLength: 3,
 		threshold: 0,
-		keys: ["fields.Name", "fields.Slug"]
+		keys: ["fields.Name"]
 	}));
 
 	const browsers = Object.fromEntries(BROWSERS.map(b => [b, 0]));
@@ -27,9 +27,19 @@ export function Header({ records, setRecords, setShowFavorites }) {
 		const params = url.searchParams;
 		const id = params.get("id")
 		if (id) {
-			setQuery(id)
-			setShowSearch(true)
-			runQuery(id)
+			const target = document.getElementById(id)
+			if (target) {
+				const element = document.getElementById(id);
+				const headerOffset = document.getElementById("header").offsetHeight;
+				const elementPosition = element.getBoundingClientRect().top;
+				const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+
+				console.log(offsetPosition)
+				window.scrollTo({
+					top: offsetPosition,
+					behavior: "smooth"
+				});
+			}
 		}
 	}, [])
 
