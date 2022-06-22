@@ -1,4 +1,6 @@
-html { color-scheme: dark light; }
+html {
+	color-scheme: dark light;
+}
 
 ::selection {
 	background-color: #79ffe1;
@@ -102,8 +104,6 @@ a:hover {
 
 code {
 	font-family: inherit;
-	background-color: white;
-	color: #333;
 	padding: 0 5px;
 	border: 1px dashed var(--border-color-light);
 }
