@@ -82,7 +82,7 @@ export function Header({ records, setRecords, setShowFavorites }) {
 
 	return (
 		<div className={`d_grid gtc_320px c_fff pos_sticky top_0`} id="header">
-			<div className={`d_grid gtc_35em bgc_000 bb_1px_dark`}>
+			<div className={`d_grid gtc_35em bgc_000 bb_1px`}>
 				<div className={`br_1px_dark bl_025em_dark d_flex ai_center mh_35em`}>
 					{showSearch ? (
 						<input
@@ -127,7 +127,7 @@ export function Header({ records, setRecords, setShowFavorites }) {
 					)}
 				</div>
 			</div>
-			<div className={`d_grid gtc_5fr bgc_000 bb_1px_dark`}>
+			<div className={`d_grid gtc_5fr bgc_000 bb_1px`}>
 				{Object.entries(browsers).map(([browser, count]) => (
 					<button key={browser} className={`but_2 br_1px_dark`} onClick={() => onBrowserClick(browser)}>
 						<div
