@@ -5,13 +5,7 @@ export function Footer() {
   return (
     <div className={`c_fff bot_0 bgc_333`}>
       <div className={`pos_abs right_0 p_1em`}>
-        <a
-          target="_blank"
-          rel="noreferrer"
-          href="https://github.com/pankajparashar/canidev.tools/issues/new?&labels=Add&template=custom.md"
-        >
-          +Add
-        </a>
+        <button data-tally-open="3XxGGP">+Add</button>
       </div>
       <details open>
         <summary className={`p_1em bgc_000`}>About</summary>

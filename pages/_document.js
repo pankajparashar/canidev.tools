@@ -86,6 +86,7 @@ class MyDocument extends Document {
             async
             src="//gc.zgo.at/count.js"
           ></script>
+          <script async src="https://tally.so/widgets/embed.js"></script>
         </Head>
         <body>
           <Main />
