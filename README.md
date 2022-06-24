@@ -1,5 +1,11 @@
-## How to Contribute?
+### How to Contribute?
+---
 
-The data is maintained in [Airtable](https://airtable.com/shribstjEIVm2gw3o/tblVZ0IZTaIpMHbAU/viwivqMmv1n2q7DxL) exposed at the endpoint [data.json](https://www.canidev.tools/api/data.json). Use the "Add" or "File Issue" links in the web app to propose addition of new features or improve existing features using the Github issue tracker.
+All the features are available under the [features/](https://github.com/pankajparashar/canidev.tools/tree/master/features) directory in the JSON format labelled with the filename format `[slug].json`. 
 
-![image](https://user-images.githubusercontent.com/38640616/151989996-9618c401-edb0-4ce8-9206-0e54a7bf2cce.png)
+- To **Improve/Correct** existing features, edit the corresponding JSON file, and send a PR or just directly file an [Issue](https://github.com/pankajparashar/canidev.tools/issues/new) here.
+- To **Add** a new feature, create a new file in the features directory with [slug].json filename format. Refer any of the existing JSON structure to format the data. Optionally you can also [file an issue](https://github.com/pankajparashar/canidev.tools/issues/new), or use this form to propose the addition of a new feature.
+
+In public interest, all the features are also exposed at the endpoint: [/api/data.json](https://www.canidev.tools/api/data.json) in the JSON format for other apps to consume this data.
+
+![image](https://res.cloudinary.com/canidevtools/image/upload/v1656077422/social-media-1_uvqp1p.png)
