@@ -1,0 +1,71 @@
+{
+  "Chrome": {
+    "Notes": "1. In the **Console**, use `console.time(\"label\")` to start the timer and stop it with `console.timeEnd(\"label\")` using the same label. \n2. The browser will output the time, in milliseconds, that elapsed since the timer was started. \n",
+    "Name": "Use labelled timer",
+    "Version": "1-",
+    "Platform": [
+      "MacOS",
+      "Windows",
+      "Linux"
+    ],
+    "Category": [
+      "Console"
+    ],
+    "References": "[1] \"Console API reference\" - [Chrome DevTools Docs](https://developer.chrome.com/docs/devtools/console/api/#time) \n",
+    "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1656049800/Images/use-labelled-timer-chrome_a2iyjk.png"
+  },
+  "Firefox": {
+    "Name": "Use labelled timer",
+    "Category": [
+      "Console"
+    ],
+    "Notes": "1. In the Console, use `console.time(\"label\")` to start the timer and stop it with `console.timeEnd(\"label\")` using the same label. \n2. The browser will output the time, in milliseconds, that elapsed since the timer was started. \n",
+    "Platform": [
+      "MacOS",
+      "Windows",
+      "Linux"
+    ],
+    "Version": "10-",
+    "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1656049800/Images/use-labelled-timer-firefox_sfntq6.png"
+  },
+  "Edge": {
+    "Name": "Use labelled timer",
+    "Category": [
+      "Console"
+    ],
+    "Notes": "1. In the Console, use `console.time(\"label\")` to start the timer and stop it with `console.timeEnd(\"label\")` using the same label. \n2. The browser will output the time, in milliseconds, that elapsed since the timer was started. \n",
+    "Platform": [
+      "MacOS",
+      "Windows",
+      "Linux"
+    ],
+    "Version": "12-",
+    "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1656049800/Images/use-labelled-timer-edge_i1ygcg.png"
+  },
+  "Safari": {
+    "Name": "Use labelled timer",
+    "Category": [
+      "Console"
+    ],
+    "Notes": "1. In the Console, use `console.time(\"label\")` to start the timer and stop it with `console.timeEnd(\"label\")` using the same label. \n2. The browser will output the time, in milliseconds, that elapsed since the timer was started. \n",
+    "Platform": [
+      "MacOS"
+    ],
+    "Version": "4-",
+    "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1656049800/Images/use-labelled-timer-safari_gls3os.png"
+  },
+  "Opera": {
+    "Name": "Use labelled timer",
+    "Category": [
+      "Console"
+    ],
+    "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1656049800/Images/use-labelled-timer-opera_kve80l.png",
+    "Notes": "1. In the Console, use `console.time(\"label\")` to start the timer and stop it with `console.timeEnd(\"label\")` using the same label. \n2. The browser will output the time, in milliseconds, that elapsed since the timer was started. \n",
+    "Version": "11-",
+    "Platform": [
+      "MacOS",
+      "Windows",
+      "Linux"
+    ]
+  }
+}

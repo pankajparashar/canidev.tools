@@ -1,6 +1,7 @@
 {
   "Chrome": {
-    "Notes": "1. Press `Command+Option+J` (Mac) or `Control+Shift+J` (Windows, Linux, Chrome OS) to jump straight into the Console panel.\n",
+    "References": "[1] \"Keyboard shortcuts\" - [Chrome Developers](https://developer.chrome.com/docs/devtools/shortcuts/#open)\n",
+    "Notes": "Use `Cmd+Opt+J` or `Ctrl+Shift+J` to directly open the **Console** tab.\n",
     "Name": "Open Console with keyboard",
     "Platform": [
       "MacOS",
@@ -17,14 +18,14 @@
       "Windows",
       "Linux"
     ],
-    "Notes": "1. Press `Command+Shift+K` (Mac) or `Control+Shift+K` (Windows, Linux, Chrome OS) to jump straight into the Console panel.\n",
+    "Notes": "Use `Cmd+Opt+K` or `Ctrl+Shift+K` to directly open the **Console** tab.\n",
     "Name": "Open Console with keyboard",
     "Category": [
       "Console"
     ]
   },
   "Edge": {
-    "Notes": "1. Press `Command+Option+J` (Mac) or `Control+Shift+J` (Windows, Linux, Chrome OS) to jump straight into the Console panel.\n",
+    "Notes": "Use `Cmd+Opt+J` or `Ctrl+Shift+J` to directly open the **Console** tab.\n",
     "Platform": [
       "MacOS",
       "Windows",
@@ -40,7 +41,7 @@
     "Platform": [
       "MacOS"
     ],
-    "Notes": "1. Press `Command+Option+C` (Mac) to jump straight into the Console panel.\n",
+    "Notes": "Use Cmd+Opt+C to directly open the **Console** tab.\n",
     "Category": [
       "Console"
     ]
@@ -51,7 +52,7 @@
       "Windows",
       "Linux"
     ],
-    "Notes": "1. Press `Command+Option+J` (Mac) or `Control+Shift+J` (Windows, Linux, Chrome OS) to jump straight into the Console panel.\n",
+    "Notes": "Use `Cmd+Opt+J` or `Ctrl+Shift+J` to directly open the **Console** tab.\n",
     "Name": "Open Console with keyboard",
     "Category": [
       "Console"
