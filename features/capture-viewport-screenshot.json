@@ -1,50 +1,87 @@
 {
-  "Chrome": {
-    "Notes": "1. Open devtools > Launch Command menu > Search for \"Capture screenshot\".\n2. Press Enter to capture the screenshot of the viewport.\n",
+  "id": "recRnDUi5RrfW38MM",
+  "createdTime": "2022-02-19T15:47:43.000Z",
+  "fields": {
+    "Slug": "capture-viewport-screenshot",
+    "Opera": {
+      "Main": [
+        "recRnDUi5RrfW38MM"
+      ],
+      "Platform": [
+        "MacOS",
+        "Windows",
+        "Linux"
+      ],
+      "Notes": "1. Open devtools > Launch Command menu > Search for \"Capture screenshot\".\n2. Press Enter to capture the screenshot of the viewport.\n",
+      "Name": "Capture viewport screenshot",
+      "LastModified": "2022-06-12T13:25:17.000Z",
+      "Category": [
+        "Other"
+      ]
+    },
     "Name": "Capture viewport screenshot",
-    "Platform": [
-      "MacOS",
-      "Windows",
-      "Linux"
-    ],
-    "Category": [
-      "Other"
-    ]
+    "Category": "Other",
+    "Firefox": {
+      "Platform": [
+        "MacOS",
+        "Windows",
+        "Linux"
+      ],
+      "Notes": "1. Right click on the page > Click \"Take screenshot\"\n",
+      "Name": "Capture viewport screenshot",
+      "Main": [
+        "recRnDUi5RrfW38MM"
+      ],
+      "LastModified": "2022-05-08T16:31:19.000Z",
+      "Category": [
+        "Other"
+      ]
+    },
+    "Edge": {
+      "Notes": "1. Open devtools > Open command menu > Search for \"Capture  screenshot\"\n",
+      "Platform": [
+        "MacOS",
+        "Windows",
+        "Linux"
+      ],
+      "Main": [
+        "recRnDUi5RrfW38MM"
+      ],
+      "Name": "Capture viewport screenshot",
+      "LastModified": "2022-06-04T04:42:47.000Z",
+      "Category": [
+        "Other"
+      ]
+    },
+    "Chrome": {
+      "Notes": "1. Open devtools > Launch Command menu > Search for \"Capture screenshot\".\n2. Press Enter to capture the screenshot of the viewport.\n",
+      "Main": [
+        "recRnDUi5RrfW38MM"
+      ],
+      "Name": "Capture viewport screenshot",
+      "Platform": [
+        "MacOS",
+        "Windows",
+        "Linux"
+      ],
+      "LastModified": "2022-05-08T16:31:42.000Z",
+      "Category": [
+        "Other"
+      ]
+    },
+    "CreatedTime": "2022-02-19T15:47:43.000Z",
+    "LastModifiedTime": "2022-06-12T13:25:17.000Z",
+    "Created By": {
+      "id": "usr04Pxk58m8j0N70",
+      "email": "parashar.p.pankaj@gmail.com",
+      "name": "Pankaj Parashar"
+    },
+    "Last Modified By": {
+      "id": "usr04Pxk58m8j0N70",
+      "email": "parashar.p.pankaj@gmail.com",
+      "name": "Pankaj Parashar"
+    },
+    "Safari": null
   },
-  "Firefox": {
-    "Platform": [
-      "MacOS",
-      "Windows",
-      "Linux"
-    ],
-    "Notes": "1. Right click on the page > Click \"Take screenshot\"\n",
-    "Name": "Capture viewport screenshot",
-    "Category": [
-      "Other"
-    ]
-  },
-  "Edge": {
-    "Notes": "1. Open devtools > Open command menu > Search for \"Capture  screenshot\"\n",
-    "Platform": [
-      "MacOS",
-      "Windows",
-      "Linux"
-    ],
-    "Name": "Capture viewport screenshot",
-    "Category": [
-      "Other"
-    ]
-  },
-  "Opera": {
-    "Platform": [
-      "MacOS",
-      "Windows",
-      "Linux"
-    ],
-    "Notes": "1. Open devtools > Launch Command menu > Search for \"Capture screenshot\".\n2. Press Enter to capture the screenshot of the viewport.\n",
-    "Name": "Capture viewport screenshot",
-    "Category": [
-      "Other"
-    ]
-  }
+  "display": true
 }

@@ -1,60 +1,100 @@
 {
-  "Chrome": {
-    "Notes": "1. Open devtools > Click on the Sources tab. In the File Navigator pane on the left (under Page), locate the source file. \n2. Select the file (this will open the code in the Code Editor pane).\n3. On the right of the Code Editor pane, you'll find all the debugging tools in the JavaScript debug pane. \n",
+  "id": "rec2u79pmx6z63lXC",
+  "createdTime": "2022-02-05T11:11:12.000Z",
+  "fields": {
+    "Safari": {
+      "Name": "Debug JavaScript",
+      "Platform": [
+        "MacOS"
+      ],
+      "Main": [
+        "rec2u79pmx6z63lXC"
+      ],
+      "Notes": "1. Open devtools > Click on the Sources tab. In the File Navigator pane on the bottom left, locate the source file. \n2. Select the file (this will open the code in the Code Editor pane).\n3. You'll find all the debugging tools in the JavaScript debug pane in the top left of the tab. \n\n",
+      "LastModified": "2022-05-02T14:58:53.000Z",
+      "Category": [
+        "JavaScript"
+      ]
+    },
+    "Slug": "debug-javascript",
+    "Opera": {
+      "Main": [
+        "rec2u79pmx6z63lXC"
+      ],
+      "Platform": [
+        "MacOS",
+        "Windows",
+        "Linux"
+      ],
+      "Notes": "1. Open devtools > Click on the Sources tab. In the File Navigator pane on the left (under Page), locate the source file. \n2. Select the file (this will open the code in the Code Editor pane).\n3. On the right of the Code Editor pane, you'll find all the debugging tools in the JavaScript debug pane. \n",
+      "Name": "Debug JavaScript",
+      "LastModified": "2022-06-12T13:22:41.000Z",
+      "Category": [
+        "JavaScript"
+      ]
+    },
     "Name": "Debug JavaScript",
-    "Platform": [
-      "MacOS",
-      "Windows",
-      "Linux"
-    ],
-    "Category": [
-      "JavaScript"
-    ]
+    "Category": "JavaScript",
+    "Firefox": {
+      "Platform": [
+        "MacOS",
+        "Windows",
+        "Linux"
+      ],
+      "Notes": "1. Open devtools > Click on the Debugger tab. In the File Navigator pane on the left (under Sources), locate the source file. \n2. Select the file (this will open the code in the Code Editor pane).\n3. On the right of the Code Editor pane, you'll find all the debugging tools in the JavaScript debug pane. \n\n",
+      "Name": "Debug JavaScript",
+      "Main": [
+        "rec2u79pmx6z63lXC"
+      ],
+      "LastModified": "2022-05-08T16:31:19.000Z",
+      "Category": [
+        "JavaScript"
+      ]
+    },
+    "Edge": {
+      "Notes": "1. Open devtools > Click on the Sources tab. In the File Navigator pane on the left (under Page), locate the source file. \n2. Select the file (this will open the code in the Code Editor pane).\n3. On the right of the Code Editor pane, you'll find all the debugging tools in the JavaScript debug pane. \n\n",
+      "Platform": [
+        "MacOS",
+        "Windows",
+        "Linux"
+      ],
+      "Main": [
+        "rec2u79pmx6z63lXC"
+      ],
+      "Name": "Debug JavaScript",
+      "LastModified": "2022-05-08T16:30:51.000Z",
+      "Category": [
+        "JavaScript"
+      ]
+    },
+    "Chrome": {
+      "Notes": "1. Open devtools > Click on the Sources tab. In the File Navigator pane on the left (under Page), locate the source file. \n2. Select the file (this will open the code in the Code Editor pane).\n3. On the right of the Code Editor pane, you'll find all the debugging tools in the JavaScript debug pane. \n",
+      "Main": [
+        "rec2u79pmx6z63lXC"
+      ],
+      "Name": "Debug JavaScript",
+      "Platform": [
+        "MacOS",
+        "Windows",
+        "Linux"
+      ],
+      "LastModified": "2022-05-08T16:31:42.000Z",
+      "Category": [
+        "JavaScript"
+      ]
+    },
+    "CreatedTime": "2022-02-05T11:11:12.000Z",
+    "LastModifiedTime": "2022-06-12T13:22:41.000Z",
+    "Created By": {
+      "id": "usr04Pxk58m8j0N70",
+      "email": "parashar.p.pankaj@gmail.com",
+      "name": "Pankaj Parashar"
+    },
+    "Last Modified By": {
+      "id": "usr04Pxk58m8j0N70",
+      "email": "parashar.p.pankaj@gmail.com",
+      "name": "Pankaj Parashar"
+    }
   },
-  "Firefox": {
-    "Platform": [
-      "MacOS",
-      "Windows",
-      "Linux"
-    ],
-    "Notes": "1. Open devtools > Click on the Debugger tab. In the File Navigator pane on the left (under Sources), locate the source file. \n2. Select the file (this will open the code in the Code Editor pane).\n3. On the right of the Code Editor pane, you'll find all the debugging tools in the JavaScript debug pane. \n\n",
-    "Name": "Debug JavaScript",
-    "Category": [
-      "JavaScript"
-    ]
-  },
-  "Edge": {
-    "Notes": "1. Open devtools > Click on the Sources tab. In the File Navigator pane on the left (under Page), locate the source file. \n2. Select the file (this will open the code in the Code Editor pane).\n3. On the right of the Code Editor pane, you'll find all the debugging tools in the JavaScript debug pane. \n\n",
-    "Platform": [
-      "MacOS",
-      "Windows",
-      "Linux"
-    ],
-    "Name": "Debug JavaScript",
-    "Category": [
-      "JavaScript"
-    ]
-  },
-  "Safari": {
-    "Name": "Debug JavaScript",
-    "Platform": [
-      "MacOS"
-    ],
-    "Notes": "1. Open devtools > Click on the Sources tab. In the File Navigator pane on the bottom left, locate the source file. \n2. Select the file (this will open the code in the Code Editor pane).\n3. You'll find all the debugging tools in the JavaScript debug pane in the top left of the tab. \n\n",
-    "Category": [
-      "JavaScript"
-    ]
-  },
-  "Opera": {
-    "Platform": [
-      "MacOS",
-      "Windows",
-      "Linux"
-    ],
-    "Notes": "1. Open devtools > Click on the Sources tab. In the File Navigator pane on the left (under Page), locate the source file. \n2. Select the file (this will open the code in the Code Editor pane).\n3. On the right of the Code Editor pane, you'll find all the debugging tools in the JavaScript debug pane. \n",
-    "Name": "Debug JavaScript",
-    "Category": [
-      "JavaScript"
-    ]
-  }
+  "display": true
 }

@@ -1,26 +1,57 @@
 {
-  "Chrome": {
-    "References": "[1] \"Automatically open Devtools with new tab\" - [Addy Osmani](https://addyosmani.com/blog/automatically-open-chrome-devtools-in-each-new-tab/)\n",
-    "Notes": "1. **MacOS**: In the terminal, pass the `--auto-open-devtools-for-tabs` flag to while launching Chrome<sup>[1]</sup>\n```\n/Applications/Google\\ Chrome.app/Contents/MacOS/Google\\ Chrome --auto-open-devtools-for-tabs https://web.dev\n```\n1. **Windows**: Right-click the Chrome shortcut > Properties and add the flag at the end of the Target line. Alternatively, run the following from your command-line,\n```\n\"C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe\" -auto-open-devtools-for-tabs\n```\n",
+  "id": "recz73kWYyOcne8WZ",
+  "createdTime": "2022-06-22T11:15:52.000Z",
+  "fields": {
+    "Slug": "open-devtools-new-tab",
     "Name": "Open devtools with new tab",
-    "Video": "https://res.cloudinary.com/canidevtools/video/upload/v1655896879/Videos/open-devtools-new-tab_om8hgo.mp4",
-    "Platform": [
-      "MacOS",
-      "Windows"
-    ],
-    "Category": [
-      "Other"
-    ]
+    "Category": "Other",
+    "Edge": {
+      "Notes": "1. **MacOS**: In the terminal, pass the `--auto-open-devtools-for-tabs` flag to while launching Edge.\n```\n/Applications/Microsoft\\ Edge.app/Contents/MacOS/Microsoft\\ Edge --auto-open-devtools-for-tabs https://web.dev\n```\n1. **Windows**: Right-click the Edge shortcut > Properties and add the flag at the end of the Target line. Alternatively, run the following from your command-line,\n```\n\"C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\edge.exe\" -auto-open-devtools-for-tabs\n```\n",
+      "Platform": [
+        "MacOS",
+        "Windows"
+      ],
+      "Main": [
+        "recz73kWYyOcne8WZ"
+      ],
+      "Name": "Open devtools with new tab",
+      "LastModified": "2022-06-22T12:39:10.000Z",
+      "Category": [
+        "Other"
+      ]
+    },
+    "Chrome": {
+      "References": "[1] \"Automatically open Devtools with new tab\" - [Addy Osmani](https://addyosmani.com/blog/automatically-open-chrome-devtools-in-each-new-tab/)\n",
+      "Notes": "1. **MacOS**: In the terminal, pass the `--auto-open-devtools-for-tabs` flag to while launching Chrome<sup>[1]</sup>\n```\n/Applications/Google\\ Chrome.app/Contents/MacOS/Google\\ Chrome --auto-open-devtools-for-tabs https://web.dev\n```\n1. **Windows**: Right-click the Chrome shortcut > Properties and add the flag at the end of the Target line. Alternatively, run the following from your command-line,\n```\n\"C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe\" -auto-open-devtools-for-tabs\n```\n",
+      "Main": [
+        "recz73kWYyOcne8WZ"
+      ],
+      "Name": "Open devtools with new tab",
+      "Video": "https://res.cloudinary.com/canidevtools/video/upload/v1655896879/Videos/open-devtools-new-tab_om8hgo.mp4",
+      "Platform": [
+        "MacOS",
+        "Windows"
+      ],
+      "LastModified": "2022-06-22T12:34:06.000Z",
+      "Category": [
+        "Other"
+      ]
+    },
+    "CreatedTime": "2022-06-22T11:15:52.000Z",
+    "LastModifiedTime": "2022-06-22T12:38:08.000Z",
+    "Created By": {
+      "id": "usr04Pxk58m8j0N70",
+      "email": "parashar.p.pankaj@gmail.com",
+      "name": "Pankaj Parashar"
+    },
+    "Last Modified By": {
+      "id": "usr04Pxk58m8j0N70",
+      "email": "parashar.p.pankaj@gmail.com",
+      "name": "Pankaj Parashar"
+    },
+    "Firefox": null,
+    "Safari": null,
+    "Opera": null
   },
-  "Edge": {
-    "Notes": "1. **MacOS**: In the terminal, pass the `--auto-open-devtools-for-tabs` flag to while launching Edge.\n```\n/Applications/Microsoft\\ Edge.app/Contents/MacOS/Microsoft\\ Edge --auto-open-devtools-for-tabs https://web.dev\n```\n1. **Windows**: Right-click the Edge shortcut > Properties and add the flag at the end of the Target line. Alternatively, run the following from your command-line,\n```\n\"C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\edge.exe\" -auto-open-devtools-for-tabs\n```\n",
-    "Platform": [
-      "MacOS",
-      "Windows"
-    ],
-    "Name": "Open devtools with new tab",
-    "Category": [
-      "Other"
-    ]
-  }
+  "display": true
 }

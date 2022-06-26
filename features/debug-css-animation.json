@@ -1,65 +1,105 @@
 {
-  "Chrome": {
-    "References": "1. [Inspect animations](https://developer.chrome.com/docs/devtools/css/animations/) by Chrome Developers\n",
-    "Notes": "1. Run **Command Menu** > Search for \"Show Animations\" and press `Enter`.\n2. (Or) Click on the \"Customise and control Devtools\" button in the top right > More Tools > Animations.\n",
+  "id": "rec06NlvA5WJKSGVu",
+  "createdTime": "2022-02-19T11:05:41.000Z",
+  "fields": {
+    "Safari": {
+      "Name": "Debug CSS animations",
+      "Platform": [
+        "MacOS"
+      ],
+      "Main": [
+        "rec06NlvA5WJKSGVu"
+      ],
+      "Notes": "1. Open devtools > Open the \"Timelines\" tab > Ensure that \"Media and Animations\" is enabled in the left panel.\n2. Now reload the page or trigger the animation to see the timeline in the bottom panel. \n",
+      "LastModified": "2022-05-02T14:58:53.000Z",
+      "Category": [
+        "CSS"
+      ]
+    },
+    "Slug": "debug-css-animation",
+    "Opera": {
+      "Main": [
+        "rec06NlvA5WJKSGVu"
+      ],
+      "References": "\n",
+      "Video": "https://res.cloudinary.com/canidevtools/video/upload/v1647789160/Videos/debug-css-animation-chrome.mp4",
+      "Platform": [
+        "MacOS",
+        "Windows",
+        "Linux"
+      ],
+      "Notes": "1. Run **Command Menu** > Search for \"Show Animations\" and press `Enter`.\n2. (Or) Click on the \"Customise and control Devtools\" button in the top right > More Tools > Animations.\n",
+      "Name": "Debug CSS animation",
+      "LastModified": "2022-06-12T13:22:41.000Z",
+      "Category": [
+        "CSS"
+      ]
+    },
     "Name": "Debug CSS animation",
-    "Video": "https://res.cloudinary.com/canidevtools/video/upload/v1647789160/Videos/debug-css-animation-chrome.mp4",
-    "Platform": [
-      "MacOS",
-      "Windows",
-      "Linux"
-    ],
-    "Category": [
-      "CSS"
-    ]
+    "Category": "CSS",
+    "Firefox": {
+      "Platform": [
+        "MacOS",
+        "Windows",
+        "Linux"
+      ],
+      "Notes": "1. Inspect the element which uses CSS animation. Click on the \"Animations\" tab next to the DOM tree in the side panel.\n",
+      "Name": "Debug CSS animations",
+      "Main": [
+        "rec06NlvA5WJKSGVu"
+      ],
+      "LastModified": "2022-05-08T16:31:19.000Z",
+      "Category": [
+        "CSS"
+      ]
+    },
+    "Edge": {
+      "Notes": "1. Launch Devtools > Open \"Command Menu\" by using Cmd+Shit+P (on Mac) or Ctrl+Shift+P (on Windows/Linux/Chrome OS).\n2. Search for \"Show Animations\" and press Enter (this will open the \"Animations\" drawer next to the Console).\n",
+      "Platform": [
+        "MacOS",
+        "Windows",
+        "Linux"
+      ],
+      "Main": [
+        "rec06NlvA5WJKSGVu"
+      ],
+      "Name": "Debug CSS animation",
+      "Video": "https://res.cloudinary.com/canidevtools/video/upload/v1647789160/Videos/debug-css-animation-chrome.mp4",
+      "LastModified": "2022-05-08T16:30:51.000Z",
+      "Category": [
+        "CSS"
+      ]
+    },
+    "Chrome": {
+      "References": "1. [Inspect animations](https://developer.chrome.com/docs/devtools/css/animations/) by Chrome Developers\n",
+      "Notes": "1. Run **Command Menu** > Search for \"Show Animations\" and press `Enter`.\n2. (Or) Click on the \"Customise and control Devtools\" button in the top right > More Tools > Animations.\n",
+      "Main": [
+        "rec06NlvA5WJKSGVu"
+      ],
+      "Name": "Debug CSS animation",
+      "Video": "https://res.cloudinary.com/canidevtools/video/upload/v1647789160/Videos/debug-css-animation-chrome.mp4",
+      "Platform": [
+        "MacOS",
+        "Windows",
+        "Linux"
+      ],
+      "LastModified": "2022-06-11T04:50:50.000Z",
+      "Category": [
+        "CSS"
+      ]
+    },
+    "CreatedTime": "2022-02-19T11:05:41.000Z",
+    "LastModifiedTime": "2022-06-12T13:22:41.000Z",
+    "Created By": {
+      "id": "usr04Pxk58m8j0N70",
+      "email": "parashar.p.pankaj@gmail.com",
+      "name": "Pankaj Parashar"
+    },
+    "Last Modified By": {
+      "id": "usr04Pxk58m8j0N70",
+      "email": "parashar.p.pankaj@gmail.com",
+      "name": "Pankaj Parashar"
+    }
   },
-  "Firefox": {
-    "Platform": [
-      "MacOS",
-      "Windows",
-      "Linux"
-    ],
-    "Notes": "1. Inspect the element which uses CSS animation. Click on the \"Animations\" tab next to the DOM tree in the side panel.\n",
-    "Name": "Debug CSS animations",
-    "Category": [
-      "CSS"
-    ]
-  },
-  "Edge": {
-    "Notes": "1. Launch Devtools > Open \"Command Menu\" by using Cmd+Shit+P (on Mac) or Ctrl+Shift+P (on Windows/Linux/Chrome OS).\n2. Search for \"Show Animations\" and press Enter (this will open the \"Animations\" drawer next to the Console).\n",
-    "Platform": [
-      "MacOS",
-      "Windows",
-      "Linux"
-    ],
-    "Name": "Debug CSS animation",
-    "Video": "https://res.cloudinary.com/canidevtools/video/upload/v1647789160/Videos/debug-css-animation-chrome.mp4",
-    "Category": [
-      "CSS"
-    ]
-  },
-  "Safari": {
-    "Name": "Debug CSS animations",
-    "Platform": [
-      "MacOS"
-    ],
-    "Notes": "1. Open devtools > Open the \"Timelines\" tab > Ensure that \"Media and Animations\" is enabled in the left panel.\n2. Now reload the page or trigger the animation to see the timeline in the bottom panel. \n",
-    "Category": [
-      "CSS"
-    ]
-  },
-  "Opera": {
-    "References": "\n",
-    "Video": "https://res.cloudinary.com/canidevtools/video/upload/v1647789160/Videos/debug-css-animation-chrome.mp4",
-    "Platform": [
-      "MacOS",
-      "Windows",
-      "Linux"
-    ],
-    "Notes": "1. Run **Command Menu** > Search for \"Show Animations\" and press `Enter`.\n2. (Or) Click on the \"Customise and control Devtools\" button in the top right > More Tools > Animations.\n",
-    "Name": "Debug CSS animation",
-    "Category": [
-      "CSS"
-    ]
-  }
+  "display": true
 }

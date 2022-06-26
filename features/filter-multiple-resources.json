@@ -1,73 +1,113 @@
 {
-  "Chrome": {
-    "Share": "https://twitter.com/CanIDevTools/status/1510248523178348546",
-    "References": "1. \"Filter request by Type\" by [Chrome Developers](https://developer.chrome.com/docs/devtools/network/reference/#filter-by-type) \n2. \"Tips & Tricks #1\" of the [Newsletter](https://www.getrevue.co/profile/CanIDevTools/issues/tips-tricks-1-1155265)\n",
-    "Notes": "Open devtools > Open the \"Network\" tab. Hold `Cmd` or `Ctrl` key while clicking on the Resource type.\n",
+  "id": "recJFpCQAqwMDv4tt",
+  "createdTime": "2022-04-02T13:15:10.000Z",
+  "fields": {
+    "Safari": {
+      "Share": "https://twitter.com/CanIDevTools/status/1510289220757176323",
+      "Name": "Filter multiple resources",
+      "Video": "https://res.cloudinary.com/canidevtools/video/upload/v1648915688/filter-multiple-resources-safari.mp4",
+      "Platform": [
+        "MacOS"
+      ],
+      "References": "1. \"Tips & Tricks #1\" of the [Newsletter](https://www.getrevue.co/profile/CanIDevTools/issues/tips-tricks-1-1155265)\n\n",
+      "Main": [
+        "recJFpCQAqwMDv4tt"
+      ],
+      "Notes": "Open devtools > Open the Network tab. Hold `Cmd` or `Ctrl` key while clicking on the Resource type.\n",
+      "LastModified": "2022-05-03T15:57:08.000Z",
+      "Category": [
+        "Network"
+      ]
+    },
+    "Slug": "filter-multiple-resources",
+    "Opera": {
+      "Main": [
+        "recJFpCQAqwMDv4tt"
+      ],
+      "References": "\n",
+      "Video": "https://res.cloudinary.com/canidevtools/video/upload/v1648905592/Videos/filter-multiple-resources-chrome.mp4",
+      "Platform": [
+        "MacOS",
+        "Windows",
+        "Linux"
+      ],
+      "Notes": "Open devtools > Open the \"Network\" tab. Hold `Cmd` or `Ctrl` key while clicking on the Resource type.\n",
+      "Name": "Filter multiple resources",
+      "LastModified": "2022-06-12T13:27:54.000Z",
+      "Category": [
+        "Network"
+      ]
+    },
     "Name": "Filter multiple resources",
-    "Video": "https://res.cloudinary.com/canidevtools/video/upload/v1648905592/Videos/filter-multiple-resources-chrome.mp4",
-    "Platform": [
-      "MacOS",
-      "Windows",
-      "Linux"
-    ],
-    "Category": [
-      "Network"
-    ]
+    "Category": "Network",
+    "Firefox": {
+      "Platform": [
+        "MacOS",
+        "Windows",
+        "Linux"
+      ],
+      "Share": "https://twitter.com/CanIDevTools/status/1510251619841372166",
+      "Notes": "Open devtools > Open the Network tab. Hold `Cmd` or `Ctrl` key while clicking on the Resource type.\n",
+      "References": "1. \"Tips & Tricks #1\" of the [Newsletter](https://www.getrevue.co/profile/CanIDevTools/issues/tips-tricks-1-1155265)\n\n",
+      "Name": "Filter multiple resources",
+      "Video": "https://res.cloudinary.com/canidevtools/video/upload/v1648906779/filter-multiple-resources-firefox.mp4",
+      "Main": [
+        "recJFpCQAqwMDv4tt"
+      ],
+      "LastModified": "2022-05-08T16:31:19.000Z",
+      "Category": [
+        "Network"
+      ]
+    },
+    "Edge": {
+      "Notes": "Open devtools > Open the Network tab. Hold `Cmd` or `Ctrl` key while clicking on the Resource type.\n",
+      "Platform": [
+        "MacOS",
+        "Windows",
+        "Linux"
+      ],
+      "Main": [
+        "recJFpCQAqwMDv4tt"
+      ],
+      "Name": "Filter multiple resources",
+      "Video": "https://res.cloudinary.com/canidevtools/video/upload/v1649059426/Videos/filter-multiple-resources-edge.mp4",
+      "References": "1. \"Tips & Tricks #1\" of the [Newsletter](https://www.getrevue.co/profile/CanIDevTools/issues/tips-tricks-1-1155265)\n",
+      "LastModified": "2022-05-08T16:30:51.000Z",
+      "Category": [
+        "Network"
+      ]
+    },
+    "Chrome": {
+      "Share": "https://twitter.com/CanIDevTools/status/1510248523178348546",
+      "References": "1. \"Filter request by Type\" by [Chrome Developers](https://developer.chrome.com/docs/devtools/network/reference/#filter-by-type) \n2. \"Tips & Tricks #1\" of the [Newsletter](https://www.getrevue.co/profile/CanIDevTools/issues/tips-tricks-1-1155265)\n",
+      "Notes": "Open devtools > Open the \"Network\" tab. Hold `Cmd` or `Ctrl` key while clicking on the Resource type.\n",
+      "Main": [
+        "recJFpCQAqwMDv4tt"
+      ],
+      "Name": "Filter multiple resources",
+      "Video": "https://res.cloudinary.com/canidevtools/video/upload/v1648905592/Videos/filter-multiple-resources-chrome.mp4",
+      "Platform": [
+        "MacOS",
+        "Windows",
+        "Linux"
+      ],
+      "LastModified": "2022-05-08T16:31:42.000Z",
+      "Category": [
+        "Network"
+      ]
+    },
+    "CreatedTime": "2022-04-02T13:15:10.000Z",
+    "LastModifiedTime": "2022-06-12T13:27:54.000Z",
+    "Created By": {
+      "id": "usr04Pxk58m8j0N70",
+      "email": "parashar.p.pankaj@gmail.com",
+      "name": "Pankaj Parashar"
+    },
+    "Last Modified By": {
+      "id": "usr04Pxk58m8j0N70",
+      "email": "parashar.p.pankaj@gmail.com",
+      "name": "Pankaj Parashar"
+    }
   },
-  "Firefox": {
-    "Platform": [
-      "MacOS",
-      "Windows",
-      "Linux"
-    ],
-    "Share": "https://twitter.com/CanIDevTools/status/1510251619841372166",
-    "Notes": "Open devtools > Open the Network tab. Hold `Cmd` or `Ctrl` key while clicking on the Resource type.\n",
-    "References": "1. \"Tips & Tricks #1\" of the [Newsletter](https://www.getrevue.co/profile/CanIDevTools/issues/tips-tricks-1-1155265)\n\n",
-    "Name": "Filter multiple resources",
-    "Video": "https://res.cloudinary.com/canidevtools/video/upload/v1648906779/filter-multiple-resources-firefox.mp4",
-    "Category": [
-      "Network"
-    ]
-  },
-  "Edge": {
-    "Notes": "Open devtools > Open the Network tab. Hold `Cmd` or `Ctrl` key while clicking on the Resource type.\n",
-    "Platform": [
-      "MacOS",
-      "Windows",
-      "Linux"
-    ],
-    "Name": "Filter multiple resources",
-    "Video": "https://res.cloudinary.com/canidevtools/video/upload/v1649059426/Videos/filter-multiple-resources-edge.mp4",
-    "References": "1. \"Tips & Tricks #1\" of the [Newsletter](https://www.getrevue.co/profile/CanIDevTools/issues/tips-tricks-1-1155265)\n",
-    "Category": [
-      "Network"
-    ]
-  },
-  "Safari": {
-    "Share": "https://twitter.com/CanIDevTools/status/1510289220757176323",
-    "Name": "Filter multiple resources",
-    "Video": "https://res.cloudinary.com/canidevtools/video/upload/v1648915688/filter-multiple-resources-safari.mp4",
-    "Platform": [
-      "MacOS"
-    ],
-    "References": "1. \"Tips & Tricks #1\" of the [Newsletter](https://www.getrevue.co/profile/CanIDevTools/issues/tips-tricks-1-1155265)\n\n",
-    "Notes": "Open devtools > Open the Network tab. Hold `Cmd` or `Ctrl` key while clicking on the Resource type.\n",
-    "Category": [
-      "Network"
-    ]
-  },
-  "Opera": {
-    "References": "\n",
-    "Video": "https://res.cloudinary.com/canidevtools/video/upload/v1648905592/Videos/filter-multiple-resources-chrome.mp4",
-    "Platform": [
-      "MacOS",
-      "Windows",
-      "Linux"
-    ],
-    "Notes": "Open devtools > Open the \"Network\" tab. Hold `Cmd` or `Ctrl` key while clicking on the Resource type.\n",
-    "Name": "Filter multiple resources",
-    "Category": [
-      "Network"
-    ]
-  }
+  "display": true
 }

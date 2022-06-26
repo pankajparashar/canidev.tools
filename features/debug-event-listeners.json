@@ -1,16 +1,44 @@
 {
-  "Firefox": {
-    "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1654360804/Images/debug-event-listeners-firefox_p5ttn8.png",
-    "Platform": [
-      "MacOS",
-      "Windows",
-      "Linux"
-    ],
-    "Notes": "1. Open devtools > Debugger > Find and expand the Event Listener Breakpoints section in the right hand column.\n2. To break when event listeners are hit, check the boxes next the events you are interested in. All of the standard events supported in your version of Firefox are listed, arranged by which API or API area they’re part of.\n",
-    "References": "1. \"Set event listener breakpoints\" by [Firefox](https://firefox-source-docs.mozilla.org/devtools-user/debugger/set_event_listener_breakpoints/index.html).\n2. \"Examine Event Listeners\" by [Firefox](https://firefox-source-docs.mozilla.org/devtools-user/page_inspector/how_to/examine_event_listeners/index.html#examine-event-listeners).\n3. \"Issue #5\" by [@nclm](https://github.com/pankajparashar/canidev.tools/issues/5).\n",
+  "id": "rec6Q6hMQt0koaFDY",
+  "createdTime": "2022-06-04T16:36:19.000Z",
+  "fields": {
+    "Slug": "debug-event-listeners",
     "Name": "Debug Event Listeners",
-    "Category": [
-      "JavaScript"
-    ]
-  }
+    "Category": "JavaScript",
+    "Firefox": {
+      "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1654360804/Images/debug-event-listeners-firefox_p5ttn8.png",
+      "Platform": [
+        "MacOS",
+        "Windows",
+        "Linux"
+      ],
+      "Notes": "1. Open devtools > Debugger > Find and expand the Event Listener Breakpoints section in the right hand column.\n2. To break when event listeners are hit, check the boxes next the events you are interested in. All of the standard events supported in your version of Firefox are listed, arranged by which API or API area they’re part of.\n",
+      "References": "1. \"Set event listener breakpoints\" by [Firefox](https://firefox-source-docs.mozilla.org/devtools-user/debugger/set_event_listener_breakpoints/index.html).\n2. \"Examine Event Listeners\" by [Firefox](https://firefox-source-docs.mozilla.org/devtools-user/page_inspector/how_to/examine_event_listeners/index.html#examine-event-listeners).\n3. \"Issue #5\" by [@nclm](https://github.com/pankajparashar/canidev.tools/issues/5).\n",
+      "Name": "Debug Event Listeners",
+      "Main": [
+        "rec6Q6hMQt0koaFDY"
+      ],
+      "LastModified": "2022-06-04T16:43:01.000Z",
+      "Category": [
+        "JavaScript"
+      ]
+    },
+    "CreatedTime": "2022-06-04T16:36:19.000Z",
+    "LastModifiedTime": "2022-06-12T13:16:52.000Z",
+    "Created By": {
+      "id": "usr04Pxk58m8j0N70",
+      "email": "parashar.p.pankaj@gmail.com",
+      "name": "Pankaj Parashar"
+    },
+    "Last Modified By": {
+      "id": "usr04Pxk58m8j0N70",
+      "email": "parashar.p.pankaj@gmail.com",
+      "name": "Pankaj Parashar"
+    },
+    "Chrome": null,
+    "Edge": null,
+    "Safari": null,
+    "Opera": null
+  },
+  "display": true
 }

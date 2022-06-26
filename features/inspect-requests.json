@@ -1,60 +1,100 @@
 {
-  "Chrome": {
-    "Notes": "1. Open devtools > Click on the Network panel (This will show a section containing table of network requests).\n",
+  "id": "recBB8IV2AR78HQSj",
+  "createdTime": "2022-02-02T14:56:37.000Z",
+  "fields": {
+    "Safari": {
+      "Name": "Inspect requests",
+      "Platform": [
+        "MacOS"
+      ],
+      "Main": [
+        "recBB8IV2AR78HQSj"
+      ],
+      "Notes": "1. Open devtools > Click on the Network panel (This will show a section containing table of network requests).\n",
+      "LastModified": "2022-06-11T04:12:18.000Z",
+      "Category": [
+        "Network"
+      ]
+    },
+    "Slug": "inspect-requests",
+    "Opera": {
+      "Main": [
+        "recBB8IV2AR78HQSj"
+      ],
+      "Platform": [
+        "MacOS",
+        "Windows",
+        "Linux"
+      ],
+      "Notes": "1. Open devtools > Click on the Network panel (This will show a section containing table of network requests).\n",
+      "Name": "Inspect requests",
+      "LastModified": "2022-06-13T07:24:36.000Z",
+      "Category": [
+        "Network"
+      ]
+    },
     "Name": "Inspect requests",
-    "Platform": [
-      "MacOS",
-      "Windows",
-      "Linux"
-    ],
-    "Category": [
-      "Network"
-    ]
+    "Category": "Network",
+    "Firefox": {
+      "Platform": [
+        "MacOS",
+        "Windows",
+        "Linux"
+      ],
+      "Notes": "1. Open devtools > Click on the Network panel (This will show a section containing table of network requests).\n",
+      "Name": "Inspect requests",
+      "Main": [
+        "recBB8IV2AR78HQSj"
+      ],
+      "LastModified": "2022-06-11T04:12:14.000Z",
+      "Category": [
+        "Network"
+      ]
+    },
+    "Edge": {
+      "Notes": "1. Open devtools > Click on the Network panel (This will show a section containing table of network requests).\n",
+      "Platform": [
+        "MacOS",
+        "Windows",
+        "Linux"
+      ],
+      "Main": [
+        "recBB8IV2AR78HQSj"
+      ],
+      "Name": "Inspect requests",
+      "LastModified": "2022-06-11T04:12:22.000Z",
+      "Category": [
+        "Network"
+      ]
+    },
+    "Chrome": {
+      "Notes": "1. Open devtools > Click on the Network panel (This will show a section containing table of network requests).\n",
+      "Main": [
+        "recBB8IV2AR78HQSj"
+      ],
+      "Name": "Inspect requests",
+      "Platform": [
+        "MacOS",
+        "Windows",
+        "Linux"
+      ],
+      "LastModified": "2022-06-11T04:12:11.000Z",
+      "Category": [
+        "Network"
+      ]
+    },
+    "CreatedTime": "2022-02-02T14:56:37.000Z",
+    "LastModifiedTime": "2022-06-13T07:24:36.000Z",
+    "Created By": {
+      "id": "usr04Pxk58m8j0N70",
+      "email": "parashar.p.pankaj@gmail.com",
+      "name": "Pankaj Parashar"
+    },
+    "Last Modified By": {
+      "id": "usr04Pxk58m8j0N70",
+      "email": "parashar.p.pankaj@gmail.com",
+      "name": "Pankaj Parashar"
+    }
   },
-  "Firefox": {
-    "Platform": [
-      "MacOS",
-      "Windows",
-      "Linux"
-    ],
-    "Notes": "1. Open devtools > Click on the Network panel (This will show a section containing table of network requests).\n",
-    "Name": "Inspect requests",
-    "Category": [
-      "Network"
-    ]
-  },
-  "Edge": {
-    "Notes": "1. Open devtools > Click on the Network panel (This will show a section containing table of network requests).\n",
-    "Platform": [
-      "MacOS",
-      "Windows",
-      "Linux"
-    ],
-    "Name": "Inspect requests",
-    "Category": [
-      "Network"
-    ]
-  },
-  "Safari": {
-    "Name": "Inspect requests",
-    "Platform": [
-      "MacOS"
-    ],
-    "Notes": "1. Open devtools > Click on the Network panel (This will show a section containing table of network requests).\n",
-    "Category": [
-      "Network"
-    ]
-  },
-  "Opera": {
-    "Platform": [
-      "MacOS",
-      "Windows",
-      "Linux"
-    ],
-    "Notes": "1. Open devtools > Click on the Network panel (This will show a section containing table of network requests).\n",
-    "Name": "Inspect requests",
-    "Category": [
-      "Network"
-    ]
-  }
+  "display": true
 }

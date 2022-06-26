@@ -1,59 +1,96 @@
 {
-  "Chrome": {
-    "Share": "https://twitter.com/CanIDevTools/status/1521512622541385729",
-    "References": "1. Tips & Tricks #3 of the [Newsletter](https://www.getrevue.co/profile/CanIDevTools/issues/tips-tricks-3-1160422)\n",
-    "Notes": "1. Open devtools using `Cmd+Opt+I `(on Mac) or `Ctrl+Shift+I` (on Windows/Linux) > Click the triple dot icon in top right > More tools > Rendering.\n2. (Or) Run the command menu using `Cmd+Shift+P` (on Mac) or `Ctrl+Shift+P` (on Windows/Linux) > Search for \"Show Rendering\" > Press `Enter` to open the Rendering drawer.\n3. Scroll down to the section called \"Emulate vision deficiencies\" and select the type of deficiency to test your website.\n",
+  "id": "recm8QnaPeAmNXNHh",
+  "createdTime": "2022-04-09T16:32:08.000Z",
+  "fields": {
+    "Slug": "simulate-vision-deficiencies",
+    "Opera": {
+      "Main": [
+        "recm8QnaPeAmNXNHh"
+      ],
+      "References": "\n",
+      "Platform": [
+        "MacOS",
+        "Windows",
+        "Linux"
+      ],
+      "Notes": "1. Open devtools using `Cmd+Opt+I `(on Mac) or `Ctrl+Shift+I` (on Windows/Linux) > Click the triple dot icon in top right > More tools > Rendering.\n2. (Or) Run the command menu using `Cmd+Shift+P` (on Mac) or `Ctrl+Shift+P` (on Windows/Linux) > Search for \"Show Rendering\" > Press `Enter` to open the Rendering drawer.\n3. Scroll down to the section called \"Emulate vision deficiencies\" and select the type of deficiency to test your website.\n",
+      "Name": "Simulate vision deficiencies",
+      "LastModified": "2022-06-12T13:30:31.000Z",
+      "Category": [
+        "Accessibility"
+      ]
+    },
     "Name": "Simulate vision deficiencies",
-    "Video": "https://res.cloudinary.com/canidevtools/video/upload/v1651591650/Videos/simulate-vision-deficiencies-chrome_y6niys.mp4",
-    "Platform": [
-      "MacOS",
-      "Windows",
-      "Linux"
-    ],
-    "Category": [
-      "Accessibility"
-    ]
+    "Category": "Accessibility",
+    "Firefox": {
+      "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1654356162/Images/simulate-vision-deficiencies-firefox_tja12d.png",
+      "Platform": [
+        "MacOS",
+        "Windows",
+        "Linux"
+      ],
+      "Notes": "1. Open devtools > Accessibility (Click >> icon for more tabs if hidden).\n2. Click the Simulate dropdown to test the website against different vision deficiencies.\n",
+      "References": "1. \"Accessibility Inspector\" by [Firefox source docs](https://firefox-source-docs.mozilla.org/devtools-user/accessibility_inspector/).\n2. \"Issue #2\" by [Nicolas](https://github.com/pankajparashar/canidev.tools/issues/2).\n",
+      "Name": "Simulate vision deficiencies",
+      "Main": [
+        "recm8QnaPeAmNXNHh"
+      ],
+      "LastModified": "2022-06-04T15:31:28.000Z",
+      "Category": [
+        "Accessibility"
+      ]
+    },
+    "Edge": {
+      "Notes": "1. Open devtools using `Cmd+Opt+I `(on Mac) or `Ctrl+Shift+I` (on Windows/Linux) > Click the triple dot icon in top right > More tools > Rendering.\n2. (Or) Run the command menu using `Cmd+Shift+P` (on Mac) or `Ctrl+Shift+P` (on Windows/Linux) > Search for \"Show Rendering\" > Press `Enter` to open the Rendering drawer.\n3. Scroll down to the section called \"Emulate vision deficiencies\" and select the type of deficiency to test your website.\n\n",
+      "Platform": [
+        "MacOS",
+        "Windows",
+        "Linux"
+      ],
+      "Main": [
+        "recm8QnaPeAmNXNHh"
+      ],
+      "Share": "https://twitter.com/CanIDevTools/status/1521513006978695168",
+      "Name": "Simulate vision deficiencies",
+      "Video": "https://res.cloudinary.com/canidevtools/video/upload/v1651591652/Videos/simulate-vision-deficiencies-edge_jxa6w5.mp4",
+      "References": "1. DevTools Tips by [Patrick Brosset](https://devtoolstips.org/tips/en/simulate-color-vision-deficiencies/)\n2. Tips & Tricks #3 of the [Newsletter](https://www.getrevue.co/profile/CanIDevTools/issues/tips-tricks-3-1160422)\n\n",
+      "LastModified": "2022-05-08T16:30:51.000Z",
+      "Category": [
+        "Accessibility"
+      ]
+    },
+    "Chrome": {
+      "Share": "https://twitter.com/CanIDevTools/status/1521512622541385729",
+      "References": "1. Tips & Tricks #3 of the [Newsletter](https://www.getrevue.co/profile/CanIDevTools/issues/tips-tricks-3-1160422)\n",
+      "Notes": "1. Open devtools using `Cmd+Opt+I `(on Mac) or `Ctrl+Shift+I` (on Windows/Linux) > Click the triple dot icon in top right > More tools > Rendering.\n2. (Or) Run the command menu using `Cmd+Shift+P` (on Mac) or `Ctrl+Shift+P` (on Windows/Linux) > Search for \"Show Rendering\" > Press `Enter` to open the Rendering drawer.\n3. Scroll down to the section called \"Emulate vision deficiencies\" and select the type of deficiency to test your website.\n",
+      "Main": [
+        "recm8QnaPeAmNXNHh"
+      ],
+      "Name": "Simulate vision deficiencies",
+      "Video": "https://res.cloudinary.com/canidevtools/video/upload/v1651591650/Videos/simulate-vision-deficiencies-chrome_y6niys.mp4",
+      "Platform": [
+        "MacOS",
+        "Windows",
+        "Linux"
+      ],
+      "LastModified": "2022-05-03T15:55:20.000Z",
+      "Category": [
+        "Accessibility"
+      ]
+    },
+    "CreatedTime": "2022-04-09T16:32:08.000Z",
+    "LastModifiedTime": "2022-06-12T13:29:46.000Z",
+    "Created By": {
+      "id": "usr04Pxk58m8j0N70",
+      "email": "parashar.p.pankaj@gmail.com",
+      "name": "Pankaj Parashar"
+    },
+    "Last Modified By": {
+      "id": "usr04Pxk58m8j0N70",
+      "email": "parashar.p.pankaj@gmail.com",
+      "name": "Pankaj Parashar"
+    },
+    "Safari": null
   },
-  "Firefox": {
-    "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1654356162/Images/simulate-vision-deficiencies-firefox_tja12d.png",
-    "Platform": [
-      "MacOS",
-      "Windows",
-      "Linux"
-    ],
-    "Notes": "1. Open devtools > Accessibility (Click >> icon for more tabs if hidden).\n2. Click the Simulate dropdown to test the website against different vision deficiencies.\n",
-    "References": "1. \"Accessibility Inspector\" by [Firefox source docs](https://firefox-source-docs.mozilla.org/devtools-user/accessibility_inspector/).\n2. \"Issue #2\" by [Nicolas](https://github.com/pankajparashar/canidev.tools/issues/2).\n",
-    "Name": "Simulate vision deficiencies",
-    "Category": [
-      "Accessibility"
-    ]
-  },
-  "Edge": {
-    "Notes": "1. Open devtools using `Cmd+Opt+I `(on Mac) or `Ctrl+Shift+I` (on Windows/Linux) > Click the triple dot icon in top right > More tools > Rendering.\n2. (Or) Run the command menu using `Cmd+Shift+P` (on Mac) or `Ctrl+Shift+P` (on Windows/Linux) > Search for \"Show Rendering\" > Press `Enter` to open the Rendering drawer.\n3. Scroll down to the section called \"Emulate vision deficiencies\" and select the type of deficiency to test your website.\n\n",
-    "Platform": [
-      "MacOS",
-      "Windows",
-      "Linux"
-    ],
-    "Share": "https://twitter.com/CanIDevTools/status/1521513006978695168",
-    "Name": "Simulate vision deficiencies",
-    "Video": "https://res.cloudinary.com/canidevtools/video/upload/v1651591652/Videos/simulate-vision-deficiencies-edge_jxa6w5.mp4",
-    "References": "1. DevTools Tips by [Patrick Brosset](https://devtoolstips.org/tips/en/simulate-color-vision-deficiencies/)\n2. Tips & Tricks #3 of the [Newsletter](https://www.getrevue.co/profile/CanIDevTools/issues/tips-tricks-3-1160422)\n\n",
-    "Category": [
-      "Accessibility"
-    ]
-  },
-  "Opera": {
-    "References": "\n",
-    "Platform": [
-      "MacOS",
-      "Windows",
-      "Linux"
-    ],
-    "Notes": "1. Open devtools using `Cmd+Opt+I `(on Mac) or `Ctrl+Shift+I` (on Windows/Linux) > Click the triple dot icon in top right > More tools > Rendering.\n2. (Or) Run the command menu using `Cmd+Shift+P` (on Mac) or `Ctrl+Shift+P` (on Windows/Linux) > Search for \"Show Rendering\" > Press `Enter` to open the Rendering drawer.\n3. Scroll down to the section called \"Emulate vision deficiencies\" and select the type of deficiency to test your website.\n",
-    "Name": "Simulate vision deficiencies",
-    "Category": [
-      "Accessibility"
-    ]
-  }
+  "display": true
 }

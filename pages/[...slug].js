@@ -1,9 +1,10 @@
 import Head from "next/head";
-import { getData, BROWSERS } from "../lib/fetch";
+import { BROWSERS } from "../lib/fetch";
 import { Record } from "../components/Record";
 import { Header } from "../components/Header";
 import { Footer } from "../components/Footer";
 
+import * as fs from "fs"
 
 const Feature = props => {
     const { record, browser } = props
@@ -37,10 +38,10 @@ const Feature = props => {
 export default Feature
 
 export async function getStaticProps({ params }) {
-    const records = await getData();
     const [slug, browser] = params.slug
+    const filename = `features/${slug}.json`
 
-    const record = records.find(r => r.fields.Slug === slug)
+    const record = JSON.parse(fs.readFileSync(filename))
 
     return {
         props: { record, browser: browser || "" },
@@ -49,20 +50,20 @@ export async function getStaticProps({ params }) {
 }
 
 export async function getStaticPaths() {
-    const records = await getData();
     const paths = []
 
-    records.forEach(r => {
-        const path = { params: { slug: [r.fields.Slug] } }
-        paths.push(path)
+    fs.readdirSync("features").forEach(file => {
+        const [slug, _] = file.split(".")
+        const path = { params: { slug: [slug] } }
 
+        paths.push(path)
         BROWSERS.forEach(b => {
-            paths.push({ params: { slug: [r.fields.Slug, b.toLowerCase()] } })
+            paths.push({ params: { slug: [slug, b.toLowerCase()] } })
         })
     })
 
     return {
         paths,
-        fallback: true
+        fallback: false
     }
 }

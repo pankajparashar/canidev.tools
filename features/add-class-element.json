@@ -1,60 +1,100 @@
 {
-  "Chrome": {
-    "Notes": "1. Inspect the element > Look for \".cls\" button in the Styles pane next to the Filter field.\n2. Click the button and search for the existing class names to add to the element.\n",
+  "id": "recWMjzSPSPKqqemX",
+  "createdTime": "2022-02-19T11:13:05.000Z",
+  "fields": {
+    "Safari": {
+      "Name": "Add class to element",
+      "Platform": [
+        "MacOS"
+      ],
+      "Main": [
+        "recWMjzSPSPKqqemX"
+      ],
+      "Notes": "1. Inspect the element > Look for \"Classes\" button in bottom row of the styles section next to the Filter field.\n2. Click the button and search for the existing class names to add to the element.\n\n",
+      "LastModified": "2022-05-02T14:58:53.000Z",
+      "Category": [
+        "CSS"
+      ]
+    },
+    "Slug": "add-class-element",
+    "Opera": {
+      "Main": [
+        "recWMjzSPSPKqqemX"
+      ],
+      "Platform": [
+        "MacOS",
+        "Windows",
+        "Linux"
+      ],
+      "Notes": "1. Inspect the element > Look for \".cls\" button in the Styles pane next to the Filter field.\n2. Click the button and search for the existing class names to add to the element.\n",
+      "Name": "Add class to element",
+      "LastModified": "2022-06-12T13:22:41.000Z",
+      "Category": [
+        "CSS"
+      ]
+    },
     "Name": "Add class to element",
-    "Platform": [
-      "MacOS",
-      "Windows",
-      "Linux"
-    ],
-    "Category": [
-      "CSS"
-    ]
+    "Category": "CSS",
+    "Firefox": {
+      "Platform": [
+        "MacOS",
+        "Windows",
+        "Linux"
+      ],
+      "Notes": "1. Inspect the element > Look for \".cls\" button in the styles section next to the Filter Styles field.\n2. Click the button and search for the existing class names to add to the element.\n",
+      "Name": "Add class to element",
+      "Main": [
+        "recWMjzSPSPKqqemX"
+      ],
+      "LastModified": "2022-05-08T16:31:19.000Z",
+      "Category": [
+        "CSS"
+      ]
+    },
+    "Edge": {
+      "Notes": "1. Inspect the element > Look for \".cls\" button in the Styles pane next to the Filter field.\n2. Click the button and search for the existing class names to add to the element.\n",
+      "Platform": [
+        "MacOS",
+        "Windows",
+        "Linux"
+      ],
+      "Main": [
+        "recWMjzSPSPKqqemX"
+      ],
+      "Name": "Add class to element",
+      "LastModified": "2022-05-08T16:30:51.000Z",
+      "Category": [
+        "CSS"
+      ]
+    },
+    "Chrome": {
+      "Notes": "1. Inspect the element > Look for \".cls\" button in the Styles pane next to the Filter field.\n2. Click the button and search for the existing class names to add to the element.\n",
+      "Main": [
+        "recWMjzSPSPKqqemX"
+      ],
+      "Name": "Add class to element",
+      "Platform": [
+        "MacOS",
+        "Windows",
+        "Linux"
+      ],
+      "LastModified": "2022-05-08T16:31:42.000Z",
+      "Category": [
+        "CSS"
+      ]
+    },
+    "CreatedTime": "2022-02-19T11:13:05.000Z",
+    "LastModifiedTime": "2022-06-12T13:22:41.000Z",
+    "Created By": {
+      "id": "usr04Pxk58m8j0N70",
+      "email": "parashar.p.pankaj@gmail.com",
+      "name": "Pankaj Parashar"
+    },
+    "Last Modified By": {
+      "id": "usr04Pxk58m8j0N70",
+      "email": "parashar.p.pankaj@gmail.com",
+      "name": "Pankaj Parashar"
+    }
   },
-  "Firefox": {
-    "Platform": [
-      "MacOS",
-      "Windows",
-      "Linux"
-    ],
-    "Notes": "1. Inspect the element > Look for \".cls\" button in the styles section next to the Filter Styles field.\n2. Click the button and search for the existing class names to add to the element.\n",
-    "Name": "Add class to element",
-    "Category": [
-      "CSS"
-    ]
-  },
-  "Edge": {
-    "Notes": "1. Inspect the element > Look for \".cls\" button in the Styles pane next to the Filter field.\n2. Click the button and search for the existing class names to add to the element.\n",
-    "Platform": [
-      "MacOS",
-      "Windows",
-      "Linux"
-    ],
-    "Name": "Add class to element",
-    "Category": [
-      "CSS"
-    ]
-  },
-  "Safari": {
-    "Name": "Add class to element",
-    "Platform": [
-      "MacOS"
-    ],
-    "Notes": "1. Inspect the element > Look for \"Classes\" button in bottom row of the styles section next to the Filter field.\n2. Click the button and search for the existing class names to add to the element.\n\n",
-    "Category": [
-      "CSS"
-    ]
-  },
-  "Opera": {
-    "Platform": [
-      "MacOS",
-      "Windows",
-      "Linux"
-    ],
-    "Notes": "1. Inspect the element > Look for \".cls\" button in the Styles pane next to the Filter field.\n2. Click the button and search for the existing class names to add to the element.\n",
-    "Name": "Add class to element",
-    "Category": [
-      "CSS"
-    ]
-  }
+  "display": true
 }
