@@ -62,18 +62,6 @@ class MyDocument extends Document {
             property="og:image"
             content="https://res.cloudinary.com/canidevtools/image/upload/v1652023254/social-media-image.png"
           />
-          <meta property="twitter:card" content="summary_large_image" />
-
-          <meta
-            property="twitter:description"
-            content="It's like @CanIUse but for the browser devtools. Created by Pankaj Parashar & curated by community."
-          />
-          <meta
-            property="twitter:image"
-            content="https://res.cloudinary.com/canidevtools/image/upload/v1652023254/social-media-image.png"
-          />
-          <meta name="twitter:site" content="@CanIDevTools" />
-          <meta name="twitter:creator" content="@pankajparashar" />
           <script
             data-goatcounter="https://canidevtools.goatcounter.com/count"
             async

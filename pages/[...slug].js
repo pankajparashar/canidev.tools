@@ -7,15 +7,32 @@ import { Footer } from "../components/Footer";
 import * as fs from "fs"
 
 const Feature = props => {
-    const { record, browser } = props
+    const { record, browser, slug } = props
+    const title = record.fields.Name.toLowerCase()
+        .split(' ')
+        .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+        .join(' ') + " | " + browser.charAt(0).toUpperCase() + browser.slice(1)
 
+    console.log(record.fields.Notes)
     return (
         <>
             <Head>
-                <title>{record.fields.Name.toLowerCase()
-                    .split(' ')
-                    .map(word => word.charAt(0).toUpperCase() + word.slice(1))
-                    .join(' ')} | {browser.charAt(0).toUpperCase() + browser.slice(1)}</title>
+                <title>{title}</title>
+                <meta
+                    name="description"
+                    content={record.fields.Notes}
+                />
+
+                <meta property="twitter:url" content={`https://canidev.tools/${slug}/${browser}`} />
+                <meta property="twitter:title" content={title} />
+                <meta
+                    property="twitter:description"
+                    content={record.fields.Notes}
+                />
+                <meta
+                    property="twitter:image"
+                    content={record.fields.Image || "https://res.cloudinary.com/canidevtools/image/upload/v1652023254/social-media-image.png"}
+                />
             </Head>
             <Header />
             <details open>
@@ -44,7 +61,7 @@ export async function getStaticProps({ params }) {
     const record = JSON.parse(fs.readFileSync(filename))
 
     return {
-        props: { record, browser: browser || "" },
+        props: { record, slug, browser: browser || "" },
         revalidate: 10
     };
 }
