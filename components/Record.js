@@ -3,7 +3,7 @@ import { Details } from "./Details";
 
 import { BROWSERS } from "../lib/fetch";
 
-export function Record({ record, color }) {
+export function Record({ record, color, browser: currentBrowser }) {
 	const [details, setDetails] = useState(null);
 	const [activeBrowser, setActiveBrowser] = useState();
 	const [isFavorite, setIsFavorite] = useState(false);
@@ -21,29 +21,6 @@ export function Record({ record, color }) {
 			return prevDetails?.Browser === Browser ? null : details;
 		});
 		setActiveBrowser((prevBrowser) => {
-			const url = new URL(window.location.href);
-			const params = url.searchParams;
-
-			if (prevBrowser === Browser) {
-				params.delete("id");
-				params.delete("browser");
-				document.title = `Can I Devtools?`;
-				document.head.querySelector('meta[property="twitter:title"]').content =
-					"Can I DevTools?";
-				document.head.querySelector('meta[property="twitter:url"]').content =
-					"https://canidev.tools/";
-			} else {
-				params.set("id", Slug);
-				params.set("browser", Browser);
-				document.title = `${fields.Name} | ${Browser}`;
-				document.head.querySelector(
-					'meta[property="twitter:title"]'
-				).content = `${fields.Name} | ${Browser}`;
-				document.head.querySelector('meta[property="twitter:url"]').content =
-					window.location.href;
-			}
-
-			window.history.pushState({}, fields.Name, url);
 			return prevBrowser === Browser ? null : Browser;
 		});
 	};
@@ -59,12 +36,10 @@ export function Record({ record, color }) {
 	useEffect(() => {
 		if (!isMounted.current) {
 			isMounted.current = true;
-			const params = new URLSearchParams(window.location.search);
-			const id = params.get("id");
-			const browser = params.get("browser");
-
-			if (id === record.id || id === Slug && browser) {
-				onClick(browser);
+			if (currentBrowser) {
+				console.log(currentBrowser)
+				const b = currentBrowser.charAt(0).toUpperCase() + currentBrowser.slice(1)
+				onClick(b);
 			}
 		}
 	});
@@ -113,12 +88,9 @@ export function Record({ record, color }) {
 						return (
 							<div key={record.id + browser} className={`br_1px`}>
 								<button
-									aria-label="Exists or not"
 									disabled={!Boolean(fields[browser])}
 									className={`p_05em but_1 ${activeBrowser === browser ? "bgc_light" : "bb_1px"
 										}`}
-									data-goatcounter-click={`id=${Slug}&browser=${browser}`}
-									data-goatcounter-title={fields.Name + " / " + browser}
 									onClick={() => onClick(browser)}
 								>
 									{fields[browser] ? (

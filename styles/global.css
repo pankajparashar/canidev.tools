@@ -215,6 +215,10 @@ input:focus-visible {
 	width: 3em;
 }
 
+.w_35em {
+	width: 3.5em;
+}
+
 .mh_35em {
 	min-height: 3.5em;
 }
@@ -303,6 +307,10 @@ input:focus-visible {
 
 .p_1em {
 	padding: 1em;
+}
+
+.pl_1em {
+	padding-left: 1em;
 }
 
 .pt_1em {
@@ -423,10 +431,20 @@ input:focus-visible {
 	width: 100%
 }
 
+.w_auto {
+	width: auto
+}
+
 .h_100pct {
 	height: 100%
 }
 
+.logo {
+	background-image: url(/android-chrome-512x512.png);
+	background-size: 50%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
 
 @font-face {
 	font-family: 'InputMono';

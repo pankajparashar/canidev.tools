@@ -1,4 +1,5 @@
 import { marked } from "marked";
+import Link from "next/link";
 
 export function Details({ details, id }) {
 	const {
@@ -105,14 +106,15 @@ export function Details({ details, id }) {
 						>
 							Share
 						</a>
-						{" | "}
-						<a
-							href={`https://live.browserstack.com/dashboard#os=OS+X&os_version=Monterey&browser=${Browser}`}
-							target="_blank"
-							rel="noreferrer"
+						<br />
+						<Link
+							href={{
+								pathname: '[...slug]',
+								query: { slug: [Slug, Browser.toLowerCase()] },
+							}}
 						>
-							Test?
-						</a>
+							<a target="_blank" rel="noopener noreferrer">Permalink</a>
+						</Link>
 					</dt>
 				</dl>
 			</div>

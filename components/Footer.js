@@ -3,7 +3,7 @@ import { CarbonAds } from "../components/CarbonAds";
 
 export function Footer() {
   return (
-    <div className={`c_fff bot_0 bgc_333`}>
+    <div className={`c_fff bot_0 bgc_333 bt_1px`} style={{ marginTop: "2.5em" }}>
       <div className={`pos_abs right_0 p_1em`}>
         <button data-tally-open="3XxGGP">+Add</button>
       </div>

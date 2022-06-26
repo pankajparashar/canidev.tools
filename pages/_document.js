@@ -23,13 +23,6 @@ class MyDocument extends Document {
     return (
       <Html lang="en">
         <Head>
-          <meta property="twitter:url" content="https://canidev.tools/" />
-          <meta property="twitter:title" content="Can I Devtools?" />
-
-          <meta
-            name="description"
-            content="Can I DevTools is like Can I Use but for the browser devtools. It's created and curated by Pankaj Parashar."
-          />
           <link
             rel="apple-touch-icon"
             sizes="180x180"
