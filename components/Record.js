@@ -37,7 +37,6 @@ export function Record({ record, color, browser: currentBrowser }) {
 		if (!isMounted.current) {
 			isMounted.current = true;
 			if (currentBrowser) {
-				console.log(currentBrowser)
 				const b = currentBrowser.charAt(0).toUpperCase() + currentBrowser.slice(1)
 				onClick(b);
 			}

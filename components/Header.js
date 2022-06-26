@@ -4,64 +4,7 @@ import Image from 'next/image'
 
 import { BROWSERS } from "../lib/fetch";
 
-export function Header({ records, setRecords, setShowFavorites }) {
-	const [showSearch, setShowSearch] = useState(false)
-	const [query, setQuery] = useState("")
-	const [fuse, setFuse] = useState(new Fuse(records, {
-		includeScore: false,
-		minMatchCharLength: 3,
-		threshold: 0,
-		keys: ["fields.Name"]
-	}));
-
-
-	useEffect(() => {
-		const url = new URL(window.location.href);
-		const params = url.searchParams;
-		const id = params.get("id")
-		if (id) {
-			const target = document.getElementById(id)
-			if (target) {
-				const element = document.getElementById(id);
-				const headerOffset = document.getElementById("header").offsetHeight;
-				const elementPosition = element.getBoundingClientRect().top;
-				const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
-
-				console.log(offsetPosition)
-				window.scrollTo({
-					top: offsetPosition,
-					behavior: "smooth"
-				});
-			}
-		}
-	}, [])
-
-	const runQuery = q => {
-		const result = fuse.search(q).map((r) => r.item);
-		if (result && result.length !== 0) {
-			const ids = result.map((r) => r.id);
-			records.forEach((record) => {
-				if (!ids.includes(record.id)) {
-					record.display = false;
-				}
-			});
-			setRecords([...records]);
-		} else {
-			clearResults()
-		}
-	}
-
-	const clearResults = () => {
-		records.forEach((record) => (record.display = true));
-		setRecords([...records]);
-	}
-
-	const onClose = () => {
-		setQuery("")
-		setShowSearch(false)
-		clearResults()
-	}
-
+export function Header({ records, setRecords }) {
 	const onBrowserClick = browser => {
 		records.forEach((record) => {
 			if (record.fields[browser]) {
