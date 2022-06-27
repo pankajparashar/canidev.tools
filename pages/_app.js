@@ -13,7 +13,7 @@ export default function MyApp({ Component, pageProps }) {
         <title>{title}</title>
 
         <meta name="title" content={title} />
-        <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+        <meta name="viewport" content="width=device-width, initial-scale=0.9" />
         <meta
           name="description"
           content={description}
