@@ -12,23 +12,13 @@ const Feature = props => {
         .split(' ')
         .map(word => word.charAt(0).toUpperCase() + word.slice(1))
         .join(' ') + " | " + browser.charAt(0).toUpperCase() + browser.slice(1)
-    const notes = record.fields[browser]?.Notes
 
     return (
         <>
             <Head>
                 <title>{title}</title>
-                {notes ? <meta
-                    name="description"
-                    content={notes}
-                /> : null}
-
                 <meta property="twitter:url" content={`https://canidev.tools/${slug}/${browser}`} />
                 <meta property="twitter:title" content={title} />
-                {notes ? <meta
-                    property="twitter:description"
-                    content={notes}
-                /> : null}
                 <meta
                     property="twitter:image"
                     content={record.fields.Image || "https://res.cloudinary.com/canidevtools/image/upload/v1652023254/social-media-image.png"}
