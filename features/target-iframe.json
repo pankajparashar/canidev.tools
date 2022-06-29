@@ -49,7 +49,7 @@
       ]
     },
     "CreatedTime": "2022-05-02T10:22:16.000Z",
-    "LastModifiedTime": "2022-06-12T13:22:41.000Z",
+    "LastModifiedTime": "2022-06-29T06:36:27.000Z",
     "Created By": {
       "id": "usr04Pxk58m8j0N70",
       "email": "parashar.p.pankaj@gmail.com",
@@ -60,7 +60,24 @@
       "email": "parashar.p.pankaj@gmail.com",
       "name": "Pankaj Parashar"
     },
-    "Firefox": null,
+    "Firefox": {
+      "Name": "Target iframe",
+      "LastModified": "2022-06-29T06:39:19.000Z",
+      "Main": [
+        "recgJuaQxhwa6P9JK"
+      ],
+      "Category": [
+        "Console"
+      ],
+      "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1656484568/Images/target-iframe-firefox_dbok2o.png",
+      "Platform": [
+        "MacOS",
+        "Windows",
+        "Linux"
+      ],
+      "References": "[1] \"Working with iframes\" - [Firefox Source Docs](https://firefox-source-docs.mozilla.org/devtools-user/working_with_iframes/index.html)\n",
+      "Notes": "1. In the **Console** tab, click the \"iframe context picker button\" (top right) to launch a popup listing all the iframes in the document (and the main document itself). \n2. Select an entry to make it the target iframe. Note that the button is only displayed if the page includes iframes!\n"
+    },
     "Safari": null
   },
   "display": true
