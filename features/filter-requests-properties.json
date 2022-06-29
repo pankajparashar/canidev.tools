@@ -24,7 +24,7 @@
       ]
     },
     "CreatedTime": "2022-06-26T13:51:50.000Z",
-    "LastModifiedTime": "2022-06-26T13:52:22.000Z",
+    "LastModifiedTime": "2022-06-29T07:54:24.000Z",
     "Created By": {
       "id": "usr04Pxk58m8j0N70",
       "email": "parashar.p.pankaj@gmail.com",
@@ -35,7 +35,23 @@
       "email": "parashar.p.pankaj@gmail.com",
       "name": "Pankaj Parashar"
     },
-    "Firefox": null,
+    "Firefox": {
+      "Name": "Filter requests by properties",
+      "LastModified": "2022-06-29T07:57:15.000Z",
+      "Main": [
+        "recUiqkPEntApKzSg"
+      ],
+      "Category": [
+        "Network"
+      ],
+      "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1656489294/Images/filter-requests-properties-firefox_rrd2gy.png",
+      "Notes": "1. In the **Network** panel, use the \"Filter URLs\" field to filter network requests by properties such as domain, mime-type, size etc.,\n",
+      "Platform": [
+        "MacOS",
+        "Windows",
+        "Linux"
+      ]
+    },
     "Edge": null,
     "Safari": null,
     "Opera": null
