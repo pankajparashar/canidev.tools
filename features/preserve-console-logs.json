@@ -58,7 +58,7 @@
       ]
     },
     "CreatedTime": "2022-05-02T04:59:52.000Z",
-    "LastModifiedTime": "2022-06-12T13:22:41.000Z",
+    "LastModifiedTime": "2022-06-29T03:17:20.000Z",
     "Created By": {
       "id": "usr04Pxk58m8j0N70",
       "email": "parashar.p.pankaj@gmail.com",
@@ -69,7 +69,23 @@
       "email": "parashar.p.pankaj@gmail.com",
       "name": "Pankaj Parashar"
     },
-    "Firefox": null,
+    "Firefox": {
+      "Main": [
+        "recvAUaZLu97PHSDv"
+      ],
+      "LastModified": "2022-06-29T03:20:02.000Z",
+      "Category": [
+        "Console"
+      ],
+      "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1656472576/Images/preserve-console-logs-firefox_ojwlok.png",
+      "Notes": "Open **Console Settings** from the toolbar in top right > Click \"Persist Logs\" to preserve the console output each time you visit a new page.\n",
+      "Platform": [
+        "MacOS",
+        "Windows",
+        "Linux"
+      ],
+      "Name": "Preserve console logs"
+    },
     "Safari": null
   },
   "display": true
