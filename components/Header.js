@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 import { BROWSERS } from "../lib/fetch";
 
-export function Header({ records, setRecords }) {
+export function Header({ records }) {
 	return (
 		<div className={`d_grid gtc_320px c_fff bgc_000 pos_sticky top_0`} id="header">
 			<div className="br_1px_dark bb_1px_dark d_flex mh_35em ai_center">
