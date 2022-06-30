@@ -19,10 +19,13 @@ const Feature = props => {
                 <title>{title}</title>
                 <meta property="twitter:url" content={`https://canidev.tools/${slug}/${browser}`} />
                 <meta property="twitter:title" content={title} />
-                <meta
+                {record.fields.Description ? 
+                    <meta property="twitter:description" content={record.fields.Description} /> 
+                : null}
+                {record.fields.Image ? <meta
                     property="twitter:image"
-                    content={record.fields.Image || "https://res.cloudinary.com/canidevtools/image/upload/v1652023254/social-media-image.png"}
-                />
+                    content={record.fields.Image}
+                /> : null}
             </Head>
             <Header />
             <details open>
