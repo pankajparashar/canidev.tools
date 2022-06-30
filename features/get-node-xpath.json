@@ -12,7 +12,7 @@
       "Main": [
         "recv1rvhfLnFOHq1I"
       ],
-      "LastModified": "2022-06-30T14:11:24.000Z",
+      "LastModified": "2022-06-30T14:35:41.000Z",
       "Category": [
         "Elements"
       ],
@@ -24,11 +24,12 @@
         "Windows",
         "Linux"
       ],
-      "References": "\n"
+      "References": "\n",
+      "Share": "https://twitter.com/CanIDevTools/status/1542517123536539648"
     },
     "Firefox": {
       "Name": "Get node XPath",
-      "LastModified": "2022-06-30T14:16:31.000Z",
+      "LastModified": "2022-06-30T14:38:29.000Z",
       "Main": [
         "recv1rvhfLnFOHq1I"
       ],
@@ -41,11 +42,12 @@
         "MacOS",
         "Windows",
         "Linux"
-      ]
+      ],
+      "Share": "https://twitter.com/CanIDevTools/status/1542517879241076737"
     },
     "Edge": {
       "Name": "Get node XPath",
-      "LastModified": "2022-06-30T14:19:07.000Z",
+      "LastModified": "2022-06-30T14:39:50.000Z",
       "Main": [
         "recv1rvhfLnFOHq1I"
       ],
@@ -58,11 +60,12 @@
         "MacOS",
         "Windows",
         "Linux"
-      ]
+      ],
+      "Share": "https://twitter.com/CanIDevTools/status/1542518234439892992"
     },
     "Safari": {
       "Name": "Get node XPath",
-      "LastModified": "2022-06-30T14:21:33.000Z",
+      "LastModified": "2022-06-30T14:41:11.000Z",
       "Main": [
         "recv1rvhfLnFOHq1I"
       ],
@@ -73,11 +76,12 @@
       "Notes": "1. Inspect element > Right click on the node in the DOM tree > Copy > XPath.\n",
       "Platform": [
         "MacOS"
-      ]
+      ],
+      "Share": "https://twitter.com/CanIDevTools/status/1542518565508874240"
     },
     "Opera": {
       "Name": "Get node XPath",
-      "LastModified": "2022-06-30T14:23:49.000Z",
+      "LastModified": "2022-06-30T14:42:25.000Z",
       "Main": [
         "recv1rvhfLnFOHq1I"
       ],
@@ -90,7 +94,8 @@
         "MacOS",
         "Windows",
         "Linux"
-      ]
+      ],
+      "Share": "https://twitter.com/CanIDevTools/status/1542518884036911104"
     },
     "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1656599296/Images/get-node.xpath_livcrd.png"
   },
