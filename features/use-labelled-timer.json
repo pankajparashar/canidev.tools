@@ -95,17 +95,7 @@
       ]
     },
     "CreatedTime": "2022-06-24T04:50:55.000Z",
-    "LastModifiedTime": "2022-06-24T05:46:06.000Z",
-    "Created By": {
-      "id": "usr04Pxk58m8j0N70",
-      "email": "parashar.p.pankaj@gmail.com",
-      "name": "Pankaj Parashar"
-    },
-    "Last Modified By": {
-      "id": "usr04Pxk58m8j0N70",
-      "email": "parashar.p.pankaj@gmail.com",
-      "name": "Pankaj Parashar"
-    }
+    "LastModifiedTime": "2022-06-24T05:46:06.000Z"
   },
   "display": true
 }

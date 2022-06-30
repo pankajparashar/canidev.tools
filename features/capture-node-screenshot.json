@@ -18,6 +18,7 @@
         "Elements"
       ]
     },
+    "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1656571583/Images/capture-node-screenshot_hd9d5r.png",
     "Slug": "capture-node-screenshot",
     "Opera": {
       "Main": [
@@ -39,6 +40,7 @@
     },
     "Name": "Capture node screenshot",
     "Category": "Elements",
+    "Description": "Can I take a screenshot of a DOM node?",
     "Firefox": {
       "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1655908440/Images/capture-node-screenshot-firefox_wy6t4m.png",
       "Platform": [
@@ -94,19 +96,7 @@
       ]
     },
     "CreatedTime": "2022-02-19T11:16:03.000Z",
-    "LastModifiedTime": "2022-06-30T06:47:16.000Z",
-    "Created By": {
-      "id": "usr04Pxk58m8j0N70",
-      "email": "parashar.p.pankaj@gmail.com",
-      "name": "Pankaj Parashar"
-    },
-    "Last Modified By": {
-      "id": "usr04Pxk58m8j0N70",
-      "email": "parashar.p.pankaj@gmail.com",
-      "name": "Pankaj Parashar"
-    },
-    "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1656571583/Images/capture-node-screenshot_hd9d5r.png",
-    "Description": "Can I take a screenshot of a DOM node?"
+    "LastModifiedTime": "2022-06-30T06:47:16.000Z"
   },
   "display": true
 }

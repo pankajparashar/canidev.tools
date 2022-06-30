@@ -1,6 +1,4 @@
 import { useEffect, useState } from "react";
-import Fuse from "fuse.js";
-import Image from 'next/image'
 
 import { BROWSERS } from "../lib/fetch";
 
