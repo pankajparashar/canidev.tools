@@ -22,6 +22,23 @@
     },
     "Name": "Preserve console logs",
     "Category": "Console",
+    "Firefox": {
+      "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1656472576/Images/preserve-console-logs-firefox_ojwlok.png",
+      "Platform": [
+        "MacOS",
+        "Windows",
+        "Linux"
+      ],
+      "Notes": "Open **Console Settings** from the toolbar in top right > Click \"Persist Logs\" to preserve the console output each time you visit a new page.\n",
+      "Name": "Preserve console logs",
+      "Main": [
+        "recvAUaZLu97PHSDv"
+      ],
+      "LastModified": "2022-06-29T03:20:02.000Z",
+      "Category": [
+        "Console"
+      ]
+    },
     "Edge": {
       "Notes": "1. Open console using `Cmd+Opt+J` or `Ctrl+Shift+J` > Click on the gear icon in top right to open \"Console settings\".\n2. Check \"Preserve log\" to preserve log statements between page reloads.\n\n",
       "Platform": [
@@ -68,23 +85,6 @@
       "id": "usr04Pxk58m8j0N70",
       "email": "parashar.p.pankaj@gmail.com",
       "name": "Pankaj Parashar"
-    },
-    "Firefox": {
-      "Main": [
-        "recvAUaZLu97PHSDv"
-      ],
-      "LastModified": "2022-06-29T03:20:02.000Z",
-      "Category": [
-        "Console"
-      ],
-      "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1656472576/Images/preserve-console-logs-firefox_ojwlok.png",
-      "Notes": "Open **Console Settings** from the toolbar in top right > Click \"Persist Logs\" to preserve the console output each time you visit a new page.\n",
-      "Platform": [
-        "MacOS",
-        "Windows",
-        "Linux"
-      ],
-      "Name": "Preserve console logs"
     },
     "Safari": null
   },

@@ -5,6 +5,23 @@
     "Slug": "filter-requests-properties",
     "Name": "Filter requests by properties",
     "Category": "Network",
+    "Firefox": {
+      "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1656489294/Images/filter-requests-properties-firefox_rrd2gy.png",
+      "Platform": [
+        "MacOS",
+        "Windows",
+        "Linux"
+      ],
+      "Notes": "1. In the **Network** panel, use the \"Filter URLs\" field to filter network requests by properties such as domain, mime-type, size etc.,\n",
+      "Name": "Filter requests by properties",
+      "Main": [
+        "recUiqkPEntApKzSg"
+      ],
+      "LastModified": "2022-06-29T07:57:15.000Z",
+      "Category": [
+        "Network"
+      ]
+    },
     "Chrome": {
       "References": "[1] \"Filter by property\" - [Chrome DevTools Docs](https://developer.chrome.com/docs/devtools/network/reference/#filter-by-property)\n",
       "Notes": "1. Use the **Filter** text box to filter requests by properties, such as the domain or size of the request.\n2. You can use multiple properties simultaneously by separating each property with a space. For example, `mime-type:image/gif larger-than:1K` displays all GIFs that are larger than one kilobyte. These multi-property filters are equivalent to AND operations. OR operations are currently not supported.\n",
@@ -34,23 +51,6 @@
       "id": "usr04Pxk58m8j0N70",
       "email": "parashar.p.pankaj@gmail.com",
       "name": "Pankaj Parashar"
-    },
-    "Firefox": {
-      "Name": "Filter requests by properties",
-      "LastModified": "2022-06-29T07:57:15.000Z",
-      "Main": [
-        "recUiqkPEntApKzSg"
-      ],
-      "Category": [
-        "Network"
-      ],
-      "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1656489294/Images/filter-requests-properties-firefox_rrd2gy.png",
-      "Notes": "1. In the **Network** panel, use the \"Filter URLs\" field to filter network requests by properties such as domain, mime-type, size etc.,\n",
-      "Platform": [
-        "MacOS",
-        "Windows",
-        "Linux"
-      ]
     },
     "Edge": null,
     "Safari": null,

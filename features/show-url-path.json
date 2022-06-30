@@ -23,6 +23,23 @@
     },
     "Name": "Show URL path",
     "Category": "Network",
+    "Firefox": {
+      "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1656485275/Images/show-url-path-firefox_lblva4.png",
+      "Platform": [
+        "MacOS",
+        "Windows",
+        "Linux"
+      ],
+      "Notes": "1. In the **Network** panel, right click on the column header, and select URL. This will add a new column in the grid, which contains the full URL of the resource.\n",
+      "Name": "Show URL path",
+      "Main": [
+        "rec7ONnS3TEmvfNQN"
+      ],
+      "LastModified": "2022-06-29T06:50:54.000Z",
+      "Category": [
+        "Network"
+      ]
+    },
     "Edge": {
       "Notes": "1. In the **Network** tab, open \"Network settings\" (top-right).\n2. Check the option \"Use large request rows\" to show the URL path under the resource name.\n\n",
       "Platform": [
@@ -72,23 +89,6 @@
       "id": "usr04Pxk58m8j0N70",
       "email": "parashar.p.pankaj@gmail.com",
       "name": "Pankaj Parashar"
-    },
-    "Firefox": {
-      "Name": "Show URL path",
-      "LastModified": "2022-06-29T06:50:54.000Z",
-      "Main": [
-        "rec7ONnS3TEmvfNQN"
-      ],
-      "Category": [
-        "Network"
-      ],
-      "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1656485275/Images/show-url-path-firefox_lblva4.png",
-      "Platform": [
-        "MacOS",
-        "Windows",
-        "Linux"
-      ],
-      "Notes": "1. In the **Network** panel, right click on the column header, and select URL. This will add a new column in the grid, which contains the full URL of the resource.\n"
     },
     "Safari": null
   },

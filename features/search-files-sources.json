@@ -22,6 +22,23 @@
     },
     "Name": "Search files in sources",
     "Category": "Other",
+    "Firefox": {
+      "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1656489955/Images/search-files-sources-firefox_aivspt.png",
+      "Platform": [
+        "MacOS",
+        "Windows",
+        "Linux"
+      ],
+      "Notes": "1. In the **Debugger** tab, use `Cmd+Shift+F` or `Ctrl+Shift+F` to open the search panel where you can type keyword to search across all files available in the **Sources** panel (on left).\n2. Press `Enter` to trigger the search.\n",
+      "Name": "Search files in sources",
+      "Main": [
+        "rectdetXjPrPVvMX8"
+      ],
+      "LastModified": "2022-06-29T08:09:19.000Z",
+      "Category": [
+        "Other"
+      ]
+    },
     "Edge": {
       "Notes": "1. Open devtools using `Cmd+Opt+I` (on Mac) or `Ctrl+Shift+I` (on Windows/Linux) > Sources.\n2. Run Command menu using `Cmd+Shift+P` (on Mac) or `Ctrl+Shift+P` (on Windows/Linux) > Type filename to filter on the matching files > Press `Enter`.\n\n",
       "Platform": [
@@ -68,23 +85,6 @@
       "id": "usr04Pxk58m8j0N70",
       "email": "parashar.p.pankaj@gmail.com",
       "name": "Pankaj Parashar"
-    },
-    "Firefox": {
-      "Name": "Search files in sources",
-      "LastModified": "2022-06-29T08:09:19.000Z",
-      "Main": [
-        "rectdetXjPrPVvMX8"
-      ],
-      "Category": [
-        "Other"
-      ],
-      "Platform": [
-        "MacOS",
-        "Windows",
-        "Linux"
-      ],
-      "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1656489955/Images/search-files-sources-firefox_aivspt.png",
-      "Notes": "1. In the **Debugger** tab, use `Cmd+Shift+F` or `Ctrl+Shift+F` to open the search panel where you can type keyword to search across all files available in the **Sources** panel (on left).\n2. Press `Enter` to trigger the search.\n"
     },
     "Safari": null
   },

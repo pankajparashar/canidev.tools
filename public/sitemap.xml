@@ -711,6 +711,19 @@
     </url>
     
     <url>
+        <loc>https://www.canidev.tools/view-in-3d/</loc>
+        <lastmod>2022-06-30T03:54:59.000Z</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://www.canidev.tools/view-in-3d/edge</loc>
+        <lastmod>2022-06-30T04:09:09.000Z</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
         <loc>https://www.canidev.tools/hwb-color-format/</loc>
         <lastmod>2022-06-12T13:22:41.000Z</lastmod>
         <changefreq>monthly</changefreq>

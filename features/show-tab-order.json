@@ -24,6 +24,24 @@
         "Accessibility"
       ]
     },
+    "Chrome": {
+      "References": "[1] \"Source order viewer\" - [Chrome DevTools Docs](https://developer.chrome.com/blog/new-in-devtools-92/#source-order)\n",
+      "Notes": "1. **Elements** > Open **Accessibility** pane on the right. \n2. Scroll down to the Source Order Viewer section, check the option \"Show source order\" to view the order of source elements on screen.\n",
+      "Main": [
+        "recoiI4IfoGWQ7jX7"
+      ],
+      "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1656477975/Images/show-tab-order-chrome_qqzluf.png",
+      "Name": "Show tab order",
+      "Platform": [
+        "MacOS",
+        "Windows",
+        "Linux"
+      ],
+      "LastModified": "2022-06-29T04:54:28.000Z",
+      "Category": [
+        "Accessibility"
+      ]
+    },
     "CreatedTime": "2022-05-09T14:57:48.000Z",
     "LastModifiedTime": "2022-06-29T04:41:47.000Z",
     "Created By": {
@@ -35,24 +53,6 @@
       "id": "usr04Pxk58m8j0N70",
       "email": "parashar.p.pankaj@gmail.com",
       "name": "Pankaj Parashar"
-    },
-    "Chrome": {
-      "Name": "Show tab order",
-      "LastModified": "2022-06-29T04:54:28.000Z",
-      "Main": [
-        "recoiI4IfoGWQ7jX7"
-      ],
-      "Category": [
-        "Accessibility"
-      ],
-      "Notes": "1. **Elements** > Open **Accessibility** pane on the right. \n2. Scroll down to the Source Order Viewer section, check the option \"Show source order\" to view the order of source elements on screen.\n",
-      "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1656477975/Images/show-tab-order-chrome_qqzluf.png",
-      "Platform": [
-        "MacOS",
-        "Windows",
-        "Linux"
-      ],
-      "References": "[1] \"Source order viewer\" - [Chrome DevTools Docs](https://developer.chrome.com/blog/new-in-devtools-92/#source-order)\n"
     },
     "Edge": null,
     "Safari": null,
