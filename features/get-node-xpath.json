@@ -2,102 +2,102 @@
   "id": "recv1rvhfLnFOHq1I",
   "createdTime": "2022-06-30T14:01:54.000Z",
   "fields": {
-    "Category": "Elements",
-    "CreatedTime": "2022-06-30T14:01:54.000Z",
-    "LastModifiedTime": "2022-06-30T14:28:22.000Z",
-    "Name": "Get node XPath",
-    "Slug": "get-node-xpath",
-    "Description": "Can I get the xpath of a node in the DOM tree?",
-    "Chrome": {
+    "Safari": {
+      "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1656598830/Images/get-node-xpath-safari_umesel.png",
+      "Share": "https://twitter.com/CanIDevTools/status/1542518565508874240",
+      "Name": "Get node XPath",
+      "Platform": [
+        "MacOS"
+      ],
       "Main": [
         "recv1rvhfLnFOHq1I"
       ],
-      "LastModified": "2022-06-30T14:35:41.000Z",
+      "Notes": "1. Inspect element > Right click on the node in the DOM tree > Copy > XPath.\n",
+      "LastModified": "2022-06-30T14:41:11.000Z",
       "Category": [
         "Elements"
+      ]
+    },
+    "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1656599296/Images/get-node.xpath_livcrd.png",
+    "Slug": "get-node-xpath",
+    "Opera": {
+      "Main": [
+        "recv1rvhfLnFOHq1I"
       ],
-      "Name": "Get node XPath",
-      "Notes": "1. Inspect the element > Right click on the node in the DOM tree > Copy > Copy full XPath\n",
-      "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1656598177/Images/get-node-xpath-chrome_bramed.png",
+      "Share": "https://twitter.com/CanIDevTools/status/1542518884036911104",
       "Platform": [
         "MacOS",
         "Windows",
         "Linux"
       ],
-      "References": "\n",
-      "Share": "https://twitter.com/CanIDevTools/status/1542517123536539648"
-    },
-    "Firefox": {
+      "Notes": "1. Inspect the element > Right click on the node in the DOM tree > Copy > Copy full XPath\n\n",
+      "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1656598950/Images/get-node-xpath-opera_seaeta.png",
       "Name": "Get node XPath",
-      "LastModified": "2022-06-30T14:38:29.000Z",
-      "Main": [
-        "recv1rvhfLnFOHq1I"
-      ],
+      "LastModified": "2022-06-30T14:42:25.000Z",
       "Category": [
         "Elements"
-      ],
-      "Notes": "1. Inspect element > Right click on the node in the DOM tree > Copy > XPath\n",
+      ]
+    },
+    "Name": "Get node XPath",
+    "Category": "Elements",
+    "Description": "Can I get the xpath of a node in the DOM tree?",
+    "Firefox": {
       "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1656598552/Images/get-node-xpath-firefox_os1mbo.png",
       "Platform": [
         "MacOS",
         "Windows",
         "Linux"
       ],
-      "Share": "https://twitter.com/CanIDevTools/status/1542517879241076737"
+      "Share": "https://twitter.com/CanIDevTools/status/1542517879241076737",
+      "Notes": "1. Inspect element > Right click on the node in the DOM tree > Copy > XPath\n",
+      "Name": "Get node XPath",
+      "Main": [
+        "recv1rvhfLnFOHq1I"
+      ],
+      "LastModified": "2022-06-30T14:38:29.000Z",
+      "Category": [
+        "Elements"
+      ]
     },
     "Edge": {
+      "Notes": "1. Inspect element > Right click on the node in the DOM tree > Copy > Copy full XPath\n",
+      "Platform": [
+        "MacOS",
+        "Windows",
+        "Linux"
+      ],
+      "Main": [
+        "recv1rvhfLnFOHq1I"
+      ],
+      "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1656598694/Images/get-node-xpath-edge_rrg9m4.png",
+      "Share": "https://twitter.com/CanIDevTools/status/1542518234439892992",
       "Name": "Get node XPath",
       "LastModified": "2022-06-30T14:39:50.000Z",
+      "Category": [
+        "Elements"
+      ]
+    },
+    "Chrome": {
+      "Share": "https://twitter.com/CanIDevTools/status/1542517123536539648",
+      "References": "\n",
+      "Notes": "1. Inspect the element > Right click on the node in the DOM tree > Copy > Copy full XPath\n",
       "Main": [
         "recv1rvhfLnFOHq1I"
       ],
-      "Category": [
-        "Elements"
-      ],
-      "Notes": "1. Inspect element > Right click on the node in the DOM tree > Copy > Copy full XPath\n",
-      "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1656598694/Images/get-node-xpath-edge_rrg9m4.png",
+      "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1656598177/Images/get-node-xpath-chrome_bramed.png",
+      "Name": "Get node XPath",
       "Platform": [
         "MacOS",
         "Windows",
         "Linux"
       ],
-      "Share": "https://twitter.com/CanIDevTools/status/1542518234439892992"
-    },
-    "Safari": {
-      "Name": "Get node XPath",
-      "LastModified": "2022-06-30T14:41:11.000Z",
-      "Main": [
-        "recv1rvhfLnFOHq1I"
-      ],
+      "LastModified": "2022-06-30T14:35:41.000Z",
       "Category": [
         "Elements"
-      ],
-      "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1656598830/Images/get-node-xpath-safari_umesel.png",
-      "Notes": "1. Inspect element > Right click on the node in the DOM tree > Copy > XPath.\n",
-      "Platform": [
-        "MacOS"
-      ],
-      "Share": "https://twitter.com/CanIDevTools/status/1542518565508874240"
+      ]
     },
-    "Opera": {
-      "Name": "Get node XPath",
-      "LastModified": "2022-06-30T14:42:25.000Z",
-      "Main": [
-        "recv1rvhfLnFOHq1I"
-      ],
-      "Category": [
-        "Elements"
-      ],
-      "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1656598950/Images/get-node-xpath-opera_seaeta.png",
-      "Notes": "1. Inspect the element > Right click on the node in the DOM tree > Copy > Copy full XPath\n\n",
-      "Platform": [
-        "MacOS",
-        "Windows",
-        "Linux"
-      ],
-      "Share": "https://twitter.com/CanIDevTools/status/1542518884036911104"
-    },
-    "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1656599296/Images/get-node.xpath_livcrd.png"
+    "CreatedTime": "2022-06-30T14:01:54.000Z",
+    "LastModifiedTime": "2022-06-30T14:28:22.000Z"
   },
   "display": true
 }
