@@ -60,7 +60,7 @@
       "Version": "103-"
     },
     "CreatedTime": "2022-04-13T14:35:20.000Z",
-    "LastModifiedTime": "2022-07-01T06:16:02.000Z",
+    "LastModifiedTime": "2022-07-01T06:22:03.000Z",
     "Description": "Can I use the color picker to pick colors from outside the browser window?",
     "Safari": {
       "Name": "Use color picker outside window",
@@ -78,7 +78,7 @@
       ],
       "Video": "https://res.cloudinary.com/canidevtools/video/upload/v1656656002/Videos/color-picker-outside-window-safari_nciqw1.mp4"
     },
-    "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1656656142/Videos/color-picker-outside-window_kcjqk7.png",
+    "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1656656515/Images/color-picker-outside-window_mqcxur.png",
     "Firefox": null
   },
   "display": true
