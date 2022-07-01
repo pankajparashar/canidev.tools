@@ -1964,27 +1964,34 @@
     
     <url>
         <loc>https://www.canidev.tools/color-picker-outside-window/</loc>
-        <lastmod>2022-06-14T04:01:45.000Z</lastmod>
+        <lastmod>2022-07-01T06:16:02.000Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
     <url>
         <loc>https://www.canidev.tools/color-picker-outside-window/chrome</loc>
-        <lastmod>2022-05-08T16:31:42.000Z</lastmod>
+        <lastmod>2022-07-01T05:57:39.000Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
     
     <url>
         <loc>https://www.canidev.tools/color-picker-outside-window/edge</loc>
-        <lastmod>2022-06-04T04:41:25.000Z</lastmod>
+        <lastmod>2022-07-01T06:02:45.000Z</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.canidev.tools/color-picker-outside-window/safari</loc>
+        <lastmod>2022-07-01T06:16:00.000Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
     
     <url>
         <loc>https://www.canidev.tools/color-picker-outside-window/opera</loc>
-        <lastmod>2022-06-12T13:22:41.000Z</lastmod>
+        <lastmod>2022-07-01T06:04:00.000Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
