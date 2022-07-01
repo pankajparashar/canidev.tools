@@ -943,27 +943,27 @@
     
     <url>
         <loc>https://www.canidev.tools/find-unused-javascript/</loc>
-        <lastmod>2022-06-12T13:22:41.000Z</lastmod>
+        <lastmod>2022-07-01T05:09:05.000Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
     <url>
         <loc>https://www.canidev.tools/find-unused-javascript/chrome</loc>
-        <lastmod>2022-05-08T16:31:42.000Z</lastmod>
+        <lastmod>2022-07-01T05:07:02.000Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
     
     <url>
         <loc>https://www.canidev.tools/find-unused-javascript/edge</loc>
-        <lastmod>2022-05-08T16:30:51.000Z</lastmod>
+        <lastmod>2022-07-01T05:06:56.000Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
     
     <url>
         <loc>https://www.canidev.tools/find-unused-javascript/opera</loc>
-        <lastmod>2022-06-12T13:22:41.000Z</lastmod>
+        <lastmod>2022-07-01T05:07:21.000Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
@@ -2080,40 +2080,6 @@
     <url>
         <loc>https://www.canidev.tools/inspect-dialog-element/chrome</loc>
         <lastmod>2022-06-26T13:44:34.000Z</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>1.0</priority>
-    </url>
-    
-    <url>
-        <loc>https://www.canidev.tools/audit-full-page/</loc>
-        <lastmod>2022-06-12T13:30:01.000Z</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>1.0</priority>
-    </url>
-    <url>
-        <loc>https://www.canidev.tools/audit-full-page/chrome</loc>
-        <lastmod>2022-05-02T15:01:25.000Z</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>1.0</priority>
-    </url>
-    
-    <url>
-        <loc>https://www.canidev.tools/audit-full-page/edge</loc>
-        <lastmod>2022-05-02T15:04:34.000Z</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>1.0</priority>
-    </url>
-    
-    <url>
-        <loc>https://www.canidev.tools/audit-full-page/safari</loc>
-        <lastmod>2022-05-02T15:01:12.000Z</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>1.0</priority>
-    </url>
-    
-    <url>
-        <loc>https://www.canidev.tools/audit-full-page/opera</loc>
-        <lastmod>2022-06-12T13:31:09.000Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
