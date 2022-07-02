@@ -1412,6 +1412,19 @@
     </url>
     
     <url>
+        <loc>https://www.canidev.tools/jump-to-id/</loc>
+        <lastmod>2022-07-02T13:59:40.000Z</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://www.canidev.tools/jump-to-id/firefox</loc>
+        <lastmod>2022-07-02T14:07:15.000Z</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
         <loc>https://www.canidev.tools/disable-javascript/</loc>
         <lastmod>2022-06-13T07:24:31.000Z</lastmod>
         <changefreq>monthly</changefreq>

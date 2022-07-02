@@ -2,6 +2,7 @@
   "id": "recldL72ajfnJNbPw",
   "createdTime": "2022-02-06T06:41:00.000Z",
   "fields": {
+    "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1656665234/Images/find-color-contrast_slvkxi.png",
     "Slug": "find-color-contrast",
     "Opera": {
       "Main": [
@@ -23,6 +24,7 @@
     "Category": "Accessibility",
     "Description": "Can I find the contrast ratio of a color?",
     "Firefox": {
+      "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1656665110/Images/find-color-contrast-firefox_pem6ic.png",
       "Platform": [
         "MacOS",
         "Windows",
@@ -36,8 +38,7 @@
       "LastModified": "2022-07-01T08:45:30.000Z",
       "Category": [
         "Accessibility"
-      ],
-      "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1656665110/Images/find-color-contrast-firefox_pem6ic.png"
+      ]
     },
     "Edge": {
       "Notes": "1. Inspect element > In the **Styles** pane, click the color square next to the `color` property. This will open the color panel.\n2. Expand the \"Contrast Ratio\" section to see more details whether the color value meets the W3C recommendation.\n3. Use the \"reload\" icon next to AA/AAA to use the suggested color to fix the low color contrast ratio.\n",
@@ -49,12 +50,12 @@
       "Main": [
         "recldL72ajfnJNbPw"
       ],
+      "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1656665110/Images/find-color-contrast-edge_gtgxse.png",
       "Name": "Find color contrast ratio",
       "LastModified": "2022-07-01T08:45:19.000Z",
       "Category": [
         "Accessibility"
-      ],
-      "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1656665110/Images/find-color-contrast-edge_gtgxse.png"
+      ]
     },
     "Chrome": {
       "References": "[1] \"Color Picker\" - [Chrome DevTools Docs](https://developer.chrome.com/docs/devtools/css/reference/#color-picker)\n",
@@ -76,7 +77,6 @@
     },
     "CreatedTime": "2022-02-06T06:41:00.000Z",
     "LastModifiedTime": "2022-07-01T08:47:25.000Z",
-    "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1656665234/Images/find-color-contrast_slvkxi.png",
     "Safari": null
   },
   "display": true
