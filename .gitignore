@@ -4,6 +4,6 @@ node_modules/
 **/.DS_Store
 .codesandbox/
 .gitpod.yml
-**/public/workbox-*.js
+**/public/workbox-*.js*
 **/public/sw.js*
 **/public/worker-*.js

@@ -2,29 +2,29 @@
   "id": "recf8Z0fbMbaw0tVm",
   "createdTime": "2022-07-02T13:58:26.000Z",
   "fields": {
-    "Category": "Elements",
-    "CreatedTime": "2022-07-02T13:58:26.000Z",
-    "LastModifiedTime": "2022-07-02T13:59:40.000Z",
-    "Name": "Jump to Id",
     "Slug": "jump-to-id",
+    "Name": "Jump to Id",
+    "Category": "Elements",
     "Description": "Can I jump to the target element with an id?",
     "Firefox": {
+      "Platform": [
+        "MacOS",
+        "Windows",
+        "Linux"
+      ],
+      "Notes": "1. Firefox links the element referencing the ID attribute to its target element in the same DOM, highlighted with an underline.\n2. Use `Cmd+Click` or `Ctrl+Click` to jump to the target element with the identifier.\n",
+      "Name": "Jump to Id",
+      "Video": "https://res.cloudinary.com/canidevtools/video/upload/v1656770467/Videos/jump-to-id-firefox_w9h4aw.mp4",
       "Main": [
         "recf8Z0fbMbaw0tVm"
       ],
       "LastModified": "2022-07-02T14:07:15.000Z",
       "Category": [
         "Elements"
-      ],
-      "Name": "Jump to Id",
-      "Video": "https://res.cloudinary.com/canidevtools/video/upload/v1656770467/Videos/jump-to-id-firefox_w9h4aw.mp4",
-      "Platform": [
-        "MacOS",
-        "Windows",
-        "Linux"
-      ],
-      "Notes": "1. Firefox links the element referencing the ID attribute to its target element in the same DOM, highlighted with an underline.\n2. Use `Cmd+Click` or `Ctrl+Click` to jump to the target element with the identifier.\n"
+      ]
     },
+    "CreatedTime": "2022-07-02T13:58:26.000Z",
+    "LastModifiedTime": "2022-07-02T13:59:40.000Z",
     "Chrome": null,
     "Edge": null,
     "Safari": null,

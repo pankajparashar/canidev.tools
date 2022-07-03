@@ -1,0 +1,96 @@
+{
+  "id": "reci17vKkCN8ms27J",
+  "createdTime": "2022-07-03T04:28:34.000Z",
+  "fields": {
+    "Category": "Network",
+    "CreatedTime": "2022-07-03T04:28:34.000Z",
+    "LastModifiedTime": "2022-07-03T04:36:04.000Z",
+    "Name": "Copy cURL request",
+    "Slug": "copy-curl-request",
+    "Description": "Can I copy a network request as cURL?",
+    "Chrome": {
+      "Main": [
+        "reci17vKkCN8ms27J"
+      ],
+      "LastModified": "2022-07-03T04:35:45.000Z",
+      "Category": [
+        "Network"
+      ],
+      "Name": "Copy cURL request",
+      "Platform": [
+        "MacOS",
+        "Windows",
+        "Linux"
+      ],
+      "Notes": "In the **Network** tab, right click on the request, Copy > Copy as cURL will copy the request with cURL command to the clipboard.\n",
+      "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1656822935/Images/copy-curl-request-chrome_xvrodb.png"
+    },
+    "Firefox": {
+      "Name": "Copy cURL request",
+      "LastModified": "2022-07-03T04:36:59.000Z",
+      "Main": [
+        "reci17vKkCN8ms27J"
+      ],
+      "Category": [
+        "Network"
+      ],
+      "Notes": "In the **Network** tab, right click on the request, Copy > Copy as cURL will copy the request with cURL command to the clipboard.\n",
+      "Platform": [
+        "MacOS",
+        "Windows",
+        "Linux"
+      ],
+      "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1656822935/Images/copy-curl-request-firefox_prpxwj.png"
+    },
+    "Edge": {
+      "Name": "Copy cURL request",
+      "LastModified": "2022-07-03T04:37:40.000Z",
+      "Main": [
+        "reci17vKkCN8ms27J"
+      ],
+      "Category": [
+        "Network"
+      ],
+      "Notes": "In the **Network** tab, right click on the request, Copy > Copy as cURL will copy the request with cURL command to the clipboard.\n",
+      "Platform": [
+        "MacOS",
+        "Windows",
+        "Linux"
+      ],
+      "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1656822936/Images/copy-curl-request-edge_xhnhv5.png"
+    },
+    "Safari": {
+      "Name": "Copy cURL request",
+      "LastModified": "2022-07-03T04:38:32.000Z",
+      "Main": [
+        "reci17vKkCN8ms27J"
+      ],
+      "Category": [
+        "Network"
+      ],
+      "Notes": "In the **Network** tab, right click on the request, \"Copy as cURL\" will copy the request with cURL command to the clipboard.\n",
+      "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1656822935/Images/copy-curl-request-safari_uczx2g.png",
+      "Platform": [
+        "MacOS"
+      ]
+    },
+    "Opera": {
+      "Name": "Copy cURL request",
+      "LastModified": "2022-07-03T04:39:27.000Z",
+      "Main": [
+        "reci17vKkCN8ms27J"
+      ],
+      "Category": [
+        "Network"
+      ],
+      "Notes": "In the **Network** tab, right click on the request, Copy > Copy as cURL will copy the request with cURL command to the clipboard.\n",
+      "Platform": [
+        "MacOS",
+        "Windows",
+        "Linux"
+      ],
+      "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1656822935/Images/copy-curl-request-opera_dpayp2.png"
+    }
+  },
+  "display": true
+}

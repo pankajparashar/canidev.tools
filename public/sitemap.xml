@@ -1500,6 +1500,47 @@
     </url>
     
     <url>
+        <loc>https://www.canidev.tools/copy-curl-request/</loc>
+        <lastmod>2022-07-03T04:36:04.000Z</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://www.canidev.tools/copy-curl-request/chrome</loc>
+        <lastmod>2022-07-03T04:35:45.000Z</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.canidev.tools/copy-curl-request/firefox</loc>
+        <lastmod>2022-07-03T04:36:59.000Z</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.canidev.tools/copy-curl-request/edge</loc>
+        <lastmod>2022-07-03T04:37:40.000Z</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.canidev.tools/copy-curl-request/safari</loc>
+        <lastmod>2022-07-03T04:38:32.000Z</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.canidev.tools/copy-curl-request/opera</loc>
+        <lastmod>2022-07-03T04:39:27.000Z</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
         <loc>https://www.canidev.tools/get-last-return-value/</loc>
         <lastmod>2022-06-12T13:22:41.000Z</lastmod>
         <changefreq>monthly</changefreq>
