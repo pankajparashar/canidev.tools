@@ -459,6 +459,47 @@
     </url>
     
     <url>
+        <loc>https://www.canidev.tools/expand-dom-nodes-recursively/</loc>
+        <lastmod>2022-07-03T05:44:37.000Z</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://www.canidev.tools/expand-dom-nodes-recursively/chrome</loc>
+        <lastmod>2022-07-03T06:01:24.000Z</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.canidev.tools/expand-dom-nodes-recursively/firefox</loc>
+        <lastmod>2022-07-03T06:01:36.000Z</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.canidev.tools/expand-dom-nodes-recursively/edge</loc>
+        <lastmod>2022-07-03T06:01:50.000Z</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.canidev.tools/expand-dom-nodes-recursively/safari</loc>
+        <lastmod>2022-07-03T06:02:06.000Z</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.canidev.tools/expand-dom-nodes-recursively/opera</loc>
+        <lastmod>2022-07-03T06:02:18.000Z</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
         <loc>https://www.canidev.tools/debug-fetch-calls/</loc>
         <lastmod>2022-06-12T13:22:41.000Z</lastmod>
         <changefreq>monthly</changefreq>
