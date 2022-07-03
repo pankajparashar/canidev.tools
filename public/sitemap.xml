@@ -799,6 +799,47 @@
     </url>
     
     <url>
+        <loc>https://www.canidev.tools/pretty-print-js/</loc>
+        <lastmod>2022-07-03T07:04:08.000Z</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://www.canidev.tools/pretty-print-js/chrome</loc>
+        <lastmod>2022-07-03T07:13:28.000Z</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.canidev.tools/pretty-print-js/firefox</loc>
+        <lastmod>2022-07-03T07:19:53.000Z</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.canidev.tools/pretty-print-js/edge</loc>
+        <lastmod>2022-07-03T07:26:13.000Z</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.canidev.tools/pretty-print-js/safari</loc>
+        <lastmod>2022-07-03T07:46:33.000Z</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.canidev.tools/pretty-print-js/opera</loc>
+        <lastmod>2022-07-03T07:47:35.000Z</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
         <loc>https://www.canidev.tools/style-console-logs/</loc>
         <lastmod>2022-06-12T13:22:41.000Z</lastmod>
         <changefreq>monthly</changefreq>

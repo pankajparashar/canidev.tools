@@ -2,95 +2,95 @@
   "id": "rec9EB3Beg7JwJ9m8",
   "createdTime": "2022-07-03T05:43:31.000Z",
   "fields": {
-    "Category": "Elements",
-    "CreatedTime": "2022-07-03T05:43:31.000Z",
-    "LastModifiedTime": "2022-07-03T05:44:37.000Z",
-    "Name": "Expand DOM nodes recursively",
-    "Slug": "expand-dom-nodes-recursively",
-    "Description": "Can I expand DOM nodes recursively in the DOM tree?",
-    "Chrome": {
-      "Name": "Expand DOM nodes recursively",
-      "LastModified": "2022-07-03T06:01:24.000Z",
-      "Main": [
-        "rec9EB3Beg7JwJ9m8"
-      ],
-      "Category": [
-        "Elements"
-      ],
-      "Notes": "1. Right click on the node in the DOM tree, select \"Expand recursively\". \n2. (Or) Use `Opt+Click` or `Alt+Click` on the arrow preceding the node with the keyboard.\n",
-      "Platform": [
-        "MacOS",
-        "Windows",
-        "Linux"
-      ],
-      "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1656828053/Images/expand-dom-nodes-recursively-chrome_kchvdb.png"
-    },
-    "Firefox": {
-      "Name": "Expand DOM nodes recursively",
-      "LastModified": "2022-07-03T06:01:36.000Z",
-      "Main": [
-        "rec9EB3Beg7JwJ9m8"
-      ],
-      "Category": [
-        "Elements"
-      ],
-      "Notes": "1. Right click on the node in the DOM tree, select \"Expand All\". \n2. (Or) Use `Opt+Click` or `Alt+Click` on the arrow preceding the node with the keyboard.\n\n",
-      "Platform": [
-        "MacOS",
-        "Windows",
-        "Linux"
-      ],
-      "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1656828053/Images/expand-dom-nodes-recursively-firefox_zpx9ft.png"
-    },
-    "Edge": {
-      "Name": "Expand DOM nodes recursively",
-      "LastModified": "2022-07-03T06:01:50.000Z",
-      "Main": [
-        "rec9EB3Beg7JwJ9m8"
-      ],
-      "Category": [
-        "Elements"
-      ],
-      "Notes": "1. Right click on the node in the DOM tree, select \"Expand recursively\". \n2. (Or) Use `Opt+Click` or `Alt+Click` on the arrow preceding the node with the keyboard.\n",
-      "Platform": [
-        "MacOS",
-        "Windows",
-        "Linux"
-      ],
-      "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1656828057/Images/expand-dom-nodes-recursively-edge_enbrne.png"
-    },
     "Safari": {
+      "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1656828053/Images/expand-dom-nodes-recursively-safari_qfzgub.png",
       "Name": "Expand DOM nodes recursively",
-      "LastModified": "2022-07-03T06:02:06.000Z",
-      "Main": [
-        "rec9EB3Beg7JwJ9m8"
-      ],
-      "Category": [
-        "Elements"
-      ],
-      "Notes": "1. Right click on the node in the DOM tree, select \"Expand All\".\n2. (Or) Use `Opt+Click` or `Alt+Click` on the arrow preceding the node with the keyboard.\n",
       "Platform": [
         "MacOS"
       ],
-      "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1656828053/Images/expand-dom-nodes-recursively-safari_qfzgub.png"
-    },
-    "Opera": {
-      "Name": "Expand DOM nodes recursively",
-      "LastModified": "2022-07-03T06:02:18.000Z",
       "Main": [
         "rec9EB3Beg7JwJ9m8"
       ],
+      "Notes": "1. Right click on the node in the DOM tree, select \"Expand All\".\n2. (Or) Use `Opt+Click` or `Alt+Click` on the arrow preceding the node with the keyboard.\n",
+      "LastModified": "2022-07-03T06:02:06.000Z",
       "Category": [
         "Elements"
+      ]
+    },
+    "Slug": "expand-dom-nodes-recursively",
+    "Opera": {
+      "Main": [
+        "rec9EB3Beg7JwJ9m8"
       ],
+      "Platform": [
+        "MacOS",
+        "Windows",
+        "Linux"
+      ],
+      "Notes": "1. Right click on the node in the DOM tree, select \"Expand recursively\". \n2. (Or) Use `Opt+Click` or `Alt+Click` on the arrow preceding the node with the keyboard.\n",
+      "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1656828053/Images/expand-dom-nodes-recursively-opera_ac0uze.png",
+      "Name": "Expand DOM nodes recursively",
+      "LastModified": "2022-07-03T06:02:18.000Z",
+      "Category": [
+        "Elements"
+      ]
+    },
+    "Name": "Expand DOM nodes recursively",
+    "Category": "Elements",
+    "Description": "Can I expand DOM nodes recursively in the DOM tree?",
+    "Firefox": {
+      "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1656828053/Images/expand-dom-nodes-recursively-firefox_zpx9ft.png",
+      "Platform": [
+        "MacOS",
+        "Windows",
+        "Linux"
+      ],
+      "Notes": "1. Right click on the node in the DOM tree, select \"Expand All\". \n2. (Or) Use `Opt+Click` or `Alt+Click` on the arrow preceding the node with the keyboard.\n\n",
+      "Name": "Expand DOM nodes recursively",
+      "Main": [
+        "rec9EB3Beg7JwJ9m8"
+      ],
+      "LastModified": "2022-07-03T06:01:36.000Z",
+      "Category": [
+        "Elements"
+      ]
+    },
+    "Edge": {
       "Notes": "1. Right click on the node in the DOM tree, select \"Expand recursively\". \n2. (Or) Use `Opt+Click` or `Alt+Click` on the arrow preceding the node with the keyboard.\n",
       "Platform": [
         "MacOS",
         "Windows",
         "Linux"
       ],
-      "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1656828053/Images/expand-dom-nodes-recursively-opera_ac0uze.png"
-    }
+      "Main": [
+        "rec9EB3Beg7JwJ9m8"
+      ],
+      "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1656828057/Images/expand-dom-nodes-recursively-edge_enbrne.png",
+      "Name": "Expand DOM nodes recursively",
+      "LastModified": "2022-07-03T06:01:50.000Z",
+      "Category": [
+        "Elements"
+      ]
+    },
+    "Chrome": {
+      "Notes": "1. Right click on the node in the DOM tree, select \"Expand recursively\". \n2. (Or) Use `Opt+Click` or `Alt+Click` on the arrow preceding the node with the keyboard.\n",
+      "Main": [
+        "rec9EB3Beg7JwJ9m8"
+      ],
+      "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1656828053/Images/expand-dom-nodes-recursively-chrome_kchvdb.png",
+      "Name": "Expand DOM nodes recursively",
+      "Platform": [
+        "MacOS",
+        "Windows",
+        "Linux"
+      ],
+      "LastModified": "2022-07-03T06:01:24.000Z",
+      "Category": [
+        "Elements"
+      ]
+    },
+    "CreatedTime": "2022-07-03T05:43:31.000Z",
+    "LastModifiedTime": "2022-07-03T05:44:37.000Z"
   },
   "display": true
 }
