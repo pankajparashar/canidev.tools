@@ -799,6 +799,19 @@
     </url>
     
     <url>
+        <loc>https://www.canidev.tools/inspect-container-queries/</loc>
+        <lastmod>2022-07-03T05:21:53.000Z</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://www.canidev.tools/inspect-container-queries/chrome</loc>
+        <lastmod>2022-07-03T05:28:57.000Z</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
         <loc>https://www.canidev.tools/use-labelled-timer/</loc>
         <lastmod>2022-06-24T05:46:06.000Z</lastmod>
         <changefreq>monthly</changefreq>
@@ -964,6 +977,47 @@
     <url>
         <loc>https://www.canidev.tools/find-unused-javascript/opera</loc>
         <lastmod>2022-07-01T05:07:21.000Z</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.canidev.tools/reorder-tabs-panes/</loc>
+        <lastmod>2022-07-03T05:11:31.000Z</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://www.canidev.tools/reorder-tabs-panes/chrome</loc>
+        <lastmod>2022-07-03T05:09:53.000Z</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.canidev.tools/reorder-tabs-panes/firefox</loc>
+        <lastmod>2022-07-03T05:12:26.000Z</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.canidev.tools/reorder-tabs-panes/edge</loc>
+        <lastmod>2022-07-03T05:13:40.000Z</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.canidev.tools/reorder-tabs-panes/safari</loc>
+        <lastmod>2022-07-03T05:12:36.000Z</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.canidev.tools/reorder-tabs-panes/opera</loc>
+        <lastmod>2022-07-03T05:12:55.000Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
@@ -2024,7 +2078,7 @@
     </url>
     <url>
         <loc>https://www.canidev.tools/color-picker-outside-window/chrome</loc>
-        <lastmod>2022-07-01T05:57:39.000Z</lastmod>
+        <lastmod>2022-07-03T05:04:13.000Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>

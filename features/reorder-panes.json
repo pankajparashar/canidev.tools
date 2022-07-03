@@ -1,0 +1,36 @@
+{
+  "id": "recTYDh52Wynk2Rxg",
+  "createdTime": "2022-07-03T05:01:19.000Z",
+  "fields": {
+    "Category": "Elements",
+    "CreatedTime": "2022-07-03T05:01:19.000Z",
+    "LastModifiedTime": "2022-07-03T05:02:16.000Z",
+    "Name": "Reorder panes",
+    "Slug": "reorder-panes",
+    "Description": "Can I reorder panes inside main tabs?",
+    "Chrome": {
+      "Main": [
+        "recTYDh52Wynk2Rxg"
+      ],
+      "LastModified": "2022-07-03T05:07:40.000Z",
+      "Category": [
+        "Elements"
+      ],
+      "Name": "Reorder panes",
+      "Platform": [
+        "MacOS",
+        "Windows",
+        "Linux"
+      ],
+      "References": "[1] \"Reorder pane\" - [Chrome DevTools Docs](https://developer.chrome.com/blog/new-in-devtools-103/#reorder-pane)\n",
+      "Version": "103-",
+      "Notes": "1. In the main browser window, drag and drop tabs (or panes) anywhere across the tab-bar to reorder tabs (or panes) based on preference.\n2. Once re-ordered, the order will persist for future devtools sessions.\n",
+      "Video": "https://res.cloudinary.com/canidevtools/video/upload/v1656824829/Videos/reorder-panes-chrome.mp4"
+    },
+    "Firefox": null,
+    "Edge": null,
+    "Safari": null,
+    "Opera": null
+  },
+  "display": true
+}
