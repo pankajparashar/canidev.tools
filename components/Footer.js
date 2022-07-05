@@ -40,38 +40,9 @@ export function Footer() {
             </dl>
           </div>
           <div className="p_1em bb_1px_dark br_1px_dark">
-            <dl>
-              <dt className="fw_bold">Newsletter:</dt>
-              <dd>
-                Get weekly tips &amp; tricks for your favorite browser devtools,
-              </dd>
-            </dl>
-            <form
-              action="https://www.getrevue.co/profile/CanIDevTools/add_subscriber"
-              method="post"
-              id="revue-form"
-              name="revue-form"
-              target="_blank"
-              style={{ overflow: "hidden" }}
-            >
-              <div className="pt_1em">
-                <input
-                  placeholder="Enter your Email Id..."
-                  type="email"
-                  name="member[email]"
-                  id="member_email"
-                  className="mr_1em"
-                  autoComplete="off"
-                />
-                <input
-                  type="submit"
-                  value="Subscribe"
-                  name="member[subscribe]"
-                  id="member_submit"
-                  className="mt_1em"
-                />
-              </div>
-            </form>
+
+            <div className="wrapper"><iframe src="https://canidevtools.substack.com/embed" width="480" height="320" frameborder="0" scrolling="no"></iframe></div>
+
             <div className="mt_1em">
               <button
                 style={{ width: "auto" }}
