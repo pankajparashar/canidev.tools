@@ -182,6 +182,12 @@ input[type="submit"] {
 	font-weight: normal;
 }
 
+.has-dropcap:first-letter {
+  float: left;
+  font-size: 5rem;
+  line-height: 0.65;
+   margin: 0.15em 0.1em 0.2em 0;
+}
 .wrapper {
 	position: relative;
 	padding-bottom: 56.25%; /* 16:9 */

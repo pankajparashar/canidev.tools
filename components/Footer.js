@@ -11,21 +11,15 @@ export function Footer() {
         <summary className={`p_1em bgc_000`}>About</summary>
         <div className={`d_grid gtc_320px`}>
           <div className="p_1em bb_1px_dark br_1px_dark pb_0 pt_0">
-            <ol>
-              <li>
+            <p className="has-dropcap">
                 <strong>Can I DevTools?</strong> is like{" "}
                 <a href="https://twitter.com/caniuse">@CanIUse</a> but for the
                 browser devtools. It is created by{" "}
                 <a href="https://twitter.com/pankajparashar">Pankaj Parashar</a>{" "}
-                and curated by the community.
-              </li>
-              <li>
-                There is a lot of coverage on browser devtools just exclusively
-                focused on Chrome. <strong>Can I DevTools</strong> attempts to
-                fix that by comparing and contrasting devtool features across
+                and curated by the community. There is a lot of coverage on browser devtools just exclusively
+                focused on Chrome. This attempts to fix that by comparing and contrasting devtool features across
                 all major browsers.
-              </li>
-            </ol>
+              </p>
             <dl>
               <dt>
                 <strong>Github</strong> / <strong>Twitter:</strong>
