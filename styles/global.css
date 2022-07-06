@@ -7,14 +7,6 @@ html {
 	color: black;
 }
 
-::placeholder {
-	color: #aaa;
-}
-
-::-webkit-search-cancel-button {
-	display: none;
-}
-
 :root {
 	--border-color-light: #bdc3c7;
 	--border-color-dark: #666;
@@ -153,38 +145,6 @@ input {
 	border-radius: 0;
 }
 
-input[type="search"] {
-	appearance: none;
-	width: 100%;
-	height: 100%;
-	border-width: 0 0 1px 0;
-	font-family: inherit;
-	font-size: 1em;
-	border-radius: 0;
-	background-color: #333;
-	color: white;
-	border-color: var(--border-color-dark);
-}
-
-input[type="email"] {
-	appearance: none;
-	display: block;
-	width: 100%;
-	font-size: 1em;
-	border: 0;
-	padding: 0.5em 1em;
-	font-family: inherit;
-}
-
-input[type="submit"] {
-	font-family: inherit;
-	font-size: 1em;
-	border: 0;
-	border-radius: 0;
-	appearance: none;
-	font-weight: normal;
-}
-
 .has-dropcap:first-letter {
   float: left;
   font-size: 5rem;
@@ -319,6 +279,10 @@ input:focus-visible {
 	grid-template-columns: 1fr 3.5em;
 }
 
+.gtc_3em_1fr_3em {
+	grid-template-columns: 3em 1fr 3em;
+}
+
 .gap_1em {
 	gap: 1em;
 }
@@ -399,6 +363,10 @@ input:focus-visible {
 
 .bb_1px {
 	border-bottom: 1px solid var(--border-color-light);
+}
+
+.bb_1px_353939 {
+	border-bottom: 1px solid #353939;
 }
 
 .bl_1px {
