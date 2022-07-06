@@ -35,7 +35,7 @@ export function Footer() {
           </div>
           <div className="p_1em bb_1px_dark br_1px_dark">
 
-            <div className="wrapper"><iframe src="https://canidevtools.substack.com/embed" width="480" height="320" frameborder="0" scrolling="no"></iframe></div>
+            <div className="wrapper"><iframe src="https://canidevtools.substack.com/embed" width="480" height="320" frameBorder="0" scrolling="no"></iframe></div>
 
             <div className="mt_1em">
               <button

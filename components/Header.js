@@ -9,8 +9,8 @@ export function Header({ records }) {
 				<button className="w_35em but_2 br_1px_dark d_flex ai_center" onClick={e => (window.location.href = "/")} title="/">
 					<svg width="752pt" height="auto" version="1.1" viewBox="0 0 752 752">
 						<linearGradient x1="0" y1="0" x2="100%" y2="100%" id="gradient">
-							<stop stop-color="#FF1700" offset="0"/>
-							<stop stop-color="#F6F54D" offset="100%"/>
+							<stop stopColor="#FF1700" offset="0"/>
+							<stop stopColor="#F6F54D" offset="100%"/>
 						</linearGradient>
 					 	<g>
 					  		<rect width="752" height="752"/>

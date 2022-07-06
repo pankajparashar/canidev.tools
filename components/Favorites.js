@@ -10,7 +10,7 @@ export function Favorites(props) {
     const favorites = new Set(
       JSON.parse(window.localStorage.getItem("cid_Favorites") || "[]")
     );
-    const newRecords = props.records.filter((r) => favorites.has(r.id));
+    const newRecords = props.records.filter((r) => favorites.has(r.fields.Slug));
     setRecords(newRecords);
   }, [props.records, props.favorites]);
 

@@ -3,10 +3,10 @@ import { Details } from "./Details";
 
 import { BROWSERS } from "../lib/fetch";
 
-export function Record({ record, color, browser: currentBrowser }) {
+export function Record({ record, color, isFavorite: isFav, browser: currentBrowser }) {
 	const [details, setDetails] = useState(null);
 	const [activeBrowser, setActiveBrowser] = useState();
-	const [isFavorite, setIsFavorite] = useState(false);
+	const [isFavorite, setIsFavorite] = useState(isFav);
 
 	const { fields } = record;
 	const { Slug } = fields;
@@ -25,13 +25,6 @@ export function Record({ record, color, browser: currentBrowser }) {
 		});
 	};
 
-	useEffect(() => {
-		const favorites = new Set(
-			JSON.parse(window.localStorage.getItem("cid_Favorites") || "[]")
-		);
-		setIsFavorite(favorites.has(record.id));
-	}, [record.id]);
-
 	const isMounted = useRef();
 	useEffect(() => {
 		if (!isMounted.current) {
@@ -40,6 +33,9 @@ export function Record({ record, color, browser: currentBrowser }) {
 				const b = currentBrowser.charAt(0).toUpperCase() + currentBrowser.slice(1)
 				onClick(b);
 			}
+			const favs = new Set(JSON.parse(window.localStorage.getItem("cid_Favorites") || "[]"))
+			const isFav = favs.has(record.fields.Slug)
+			setIsFavorite(isFav)
 		}
 	});
 
@@ -49,10 +45,10 @@ export function Record({ record, color, browser: currentBrowser }) {
 		let favorites = localStorage.getItem("cid_Favorites") || "[]";
 		favorites = new Set(JSON.parse(favorites));
 
-		if (favorites.has(record.id)) {
-			favorites.delete(record.id);
+		if (favorites.has(Slug)) {
+			favorites.delete(Slug);
 		} else {
-			favorites.add(record.id);
+			favorites.add(Slug);
 		}
 
 		localStorage.setItem("cid_Favorites", JSON.stringify([...favorites]));
@@ -61,9 +57,7 @@ export function Record({ record, color, browser: currentBrowser }) {
 	return (
 		<>
 			<div
-				key={record.id}
 				className={`d_grid gtc_320px`}
-				id={Slug || record.id}
 				style={{ borderLeft: `.25em solid ${color}` }}
 			>
 				<div className={`p_05em br_1px bb_1px pl_0`} data-color={color}>
@@ -85,7 +79,7 @@ export function Record({ record, color, browser: currentBrowser }) {
 				<div className={`d_grid gtc_5fr mh_3em`}>
 					{BROWSERS.map((browser) => {
 						return (
-							<div key={record.id + browser} className={`br_1px`}>
+							<div key={browser} className={`br_1px`}>
 								<button
 									disabled={!Boolean(fields[browser])}
 									className={`p_05em but_1 ${activeBrowser === browser ? "bgc_light" : "bb_1px"
@@ -103,7 +97,7 @@ export function Record({ record, color, browser: currentBrowser }) {
 					})}
 				</div>
 			</div>
-			{details ? <Details details={details} id={Slug || record.id} /> : null}
+			{details ? <Details details={details} /> : null}
 		</>
 	);
 }
@@ -122,7 +116,7 @@ const Yes = ({ color }) => (
 	</svg>
 );
 
-const No = ({ color }) => (
+const No = 	({ color }) => (
 	<svg
 		version="1.0"
 		xmlns="http://www.w3.org/2000/svg"
