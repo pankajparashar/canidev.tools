@@ -2148,7 +2148,7 @@
     
     <url>
         <loc>https://www.canidev.tools/preserve-console-logs/</loc>
-        <lastmod>2022-06-29T03:17:20.000Z</lastmod>
+        <lastmod>2022-07-06T06:31:55.000Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
@@ -2169,6 +2169,13 @@
     <url>
         <loc>https://www.canidev.tools/preserve-console-logs/edge</loc>
         <lastmod>2022-06-04T16:06:09.000Z</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.canidev.tools/preserve-console-logs/safari</loc>
+        <lastmod>2022-07-06T06:32:53.000Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
