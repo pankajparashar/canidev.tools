@@ -1624,7 +1624,7 @@
     
     <url>
         <loc>https://www.canidev.tools/target-iframe/</loc>
-        <lastmod>2022-06-29T06:36:27.000Z</lastmod>
+        <lastmod>2022-07-06T06:24:05.000Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
@@ -1645,6 +1645,13 @@
     <url>
         <loc>https://www.canidev.tools/target-iframe/edge</loc>
         <lastmod>2022-06-04T04:46:04.000Z</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.canidev.tools/target-iframe/safari</loc>
+        <lastmod>2022-07-06T06:27:24.000Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
