@@ -7,7 +7,7 @@ import { Footer } from "../components/Footer";
 import * as fs from "fs"
 
 const Feature = props => {
-    const { record, browser, slug } = props
+    const { record, records, browser, slug } = props
     const title = record.fields.Name.toLowerCase()
         .split(' ')
         .map(word => word.charAt(0).toUpperCase() + word.slice(1))
@@ -27,7 +27,7 @@ const Feature = props => {
                     content={record.fields.Image}
                 /> : null}
             </Head>
-            <Header />
+            <Header records={records} />
             <details open>
                 <summary className={`p_05em bb_1px pt_2em`}>
                     <strong>
@@ -52,9 +52,10 @@ export async function getStaticProps({ params }) {
     const filename = `features/${slug}.json`
 
     const record = JSON.parse(fs.readFileSync(filename))
+    const records = fs.readdirSync("features")
 
     return {
-        props: { record, slug, browser: browser || "" },
+        props: { record, records, slug, browser: browser || "" },
         revalidate: 10
     };
 }
