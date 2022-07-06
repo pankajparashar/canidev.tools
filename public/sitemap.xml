@@ -2352,34 +2352,41 @@
     
     <url>
         <loc>https://www.canidev.tools/drag-drop-element/</loc>
-        <lastmod>2022-06-12T13:28:41.000Z</lastmod>
+        <lastmod>2022-07-06T14:35:13.000Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
     <url>
         <loc>https://www.canidev.tools/drag-drop-element/chrome</loc>
-        <lastmod>2022-05-08T14:53:59.000Z</lastmod>
+        <lastmod>2022-07-06T14:33:21.000Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
     
     <url>
         <loc>https://www.canidev.tools/drag-drop-element/firefox</loc>
-        <lastmod>2022-06-04T15:34:37.000Z</lastmod>
+        <lastmod>2022-07-06T14:33:26.000Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
     
     <url>
         <loc>https://www.canidev.tools/drag-drop-element/edge</loc>
-        <lastmod>2022-06-04T04:47:40.000Z</lastmod>
+        <lastmod>2022-07-06T14:33:30.000Z</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.canidev.tools/drag-drop-element/safari</loc>
+        <lastmod>2022-07-06T14:39:53.000Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
     
     <url>
         <loc>https://www.canidev.tools/drag-drop-element/opera</loc>
-        <lastmod>2022-06-12T13:29:23.000Z</lastmod>
+        <lastmod>2022-07-06T14:33:36.000Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>

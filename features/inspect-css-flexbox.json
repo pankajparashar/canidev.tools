@@ -2,6 +2,22 @@
   "id": "recr9H2MyVDp6aOpc",
   "createdTime": "2022-06-18T14:59:13.000Z",
   "fields": {
+    "Safari": {
+      "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1657091174/Images/inspect-css-flexbox-safari_fqocnb.png",
+      "Version": "TP",
+      "Name": "Inspect CSS Flexbox",
+      "Platform": [
+        "MacOS"
+      ],
+      "Main": [
+        "recr9H2MyVDp6aOpc"
+      ],
+      "Notes": "1. In the **Elements** tab, select the node with label \"flex\" from the DOM tree. \n2. From the right sidebar, select \"Layout\", and scroll down to the **Flexbox** section, that has few page overlay options to help visualize and debug flexbox containers.\n",
+      "LastModified": "2022-07-06T07:09:00.000Z",
+      "Category": [
+        "CSS"
+      ]
+    },
     "Slug": "inspect-css-flexbox",
     "Opera": {
       "Main": [
@@ -22,6 +38,7 @@
     },
     "Name": "Inspect CSS Flexbox",
     "Category": "CSS",
+    "Description": "Can I inspect CSS flexbox?",
     "Firefox": {
       "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1655567440/Images/inspect-css-flexbox-firefox_t5untn.png",
       "Platform": [
@@ -76,23 +93,6 @@
       ]
     },
     "CreatedTime": "2022-06-18T14:59:13.000Z",
-    "LastModifiedTime": "2022-07-06T07:04:37.000Z",
-    "Description": "Can I inspect CSS flexbox?",
-    "Safari": {
-      "Name": "Inspect CSS Flexbox",
-      "LastModified": "2022-07-06T07:09:00.000Z",
-      "Main": [
-        "recr9H2MyVDp6aOpc"
-      ],
-      "Category": [
-        "CSS"
-      ],
-      "Platform": [
-        "MacOS"
-      ],
-      "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1657091174/Images/inspect-css-flexbox-safari_fqocnb.png",
-      "Notes": "1. In the **Elements** tab, select the node with label \"flex\" from the DOM tree. \n2. From the right sidebar, select \"Layout\", and scroll down to the **Flexbox** section, that has few page overlay options to help visualize and debug flexbox containers.\n",
-      "Version": "TP"
-    }
+    "LastModifiedTime": "2022-07-06T07:04:37.000Z"
   }
 }

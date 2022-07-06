@@ -2,6 +2,22 @@
   "id": "recHthx0DRsWCXNUm",
   "createdTime": "2022-06-23T15:13:13.000Z",
   "fields": {
+    "Safari": {
+      "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1657092052/Images/capture-screenshot-console-safari_jkubvl.png",
+      "Name": "Capture screenshot from console",
+      "Platform": [
+        "MacOS"
+      ],
+      "References": "[1] \"Console Object API\" - [Webkit](https://webkit.org/web-inspector/console-object-api/#console-screenshot)\n",
+      "Main": [
+        "recHthx0DRsWCXNUm"
+      ],
+      "Notes": "1. Use `console.screenshot()` to capture the screenshot of the viewport. Alternatively, pass the target node to the function to capture screenshot of a specific node.\n",
+      "LastModified": "2022-07-06T07:21:23.000Z",
+      "Category": [
+        "Console"
+      ]
+    },
     "Slug": "capture-screenshot-console",
     "Name": "Capture screenshot from console",
     "Category": "Console",
@@ -24,22 +40,6 @@
     },
     "CreatedTime": "2022-06-23T15:13:13.000Z",
     "LastModifiedTime": "2022-07-06T07:17:24.000Z",
-    "Safari": {
-      "Name": "Capture screenshot from console",
-      "LastModified": "2022-07-06T07:21:23.000Z",
-      "Main": [
-        "recHthx0DRsWCXNUm"
-      ],
-      "Category": [
-        "Console"
-      ],
-      "Platform": [
-        "MacOS"
-      ],
-      "Notes": "1. Use `console.screenshot()` to capture the screenshot of the viewport. Alternatively, pass the target node to the function to capture screenshot of a specific node.\n",
-      "References": "[1] \"Console Object API\" - [Webkit](https://webkit.org/web-inspector/console-object-api/#console-screenshot)\n",
-      "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1657092052/Images/capture-screenshot-console-safari_jkubvl.png"
-    },
     "Chrome": null,
     "Edge": null,
     "Opera": null
