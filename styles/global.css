@@ -121,11 +121,11 @@ pre {
 	font-family: inherit;
 	padding: 1px 5px 5px;
 	border: 1px dashed var(--border-color-light);
+	background-color: var(--background-color-1);
 }
 
 pre code {
 	padding: 0;
-	background-color: unset;
 	border-width: 0;
 }
 
