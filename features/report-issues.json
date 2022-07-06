@@ -2,9 +2,25 @@
   "id": "recu90eMviYm8fl8E",
   "createdTime": "2022-04-17T14:52:49.000Z",
   "fields": {
+    "Safari": {
+      "Name": "Report issues",
+      "Platform": [
+        "MacOS"
+      ],
+      "References": "[1] \"Reporting Bugs\" - [Webkit](https://webkit.org/reporting-bugs/)\n",
+      "Main": [
+        "recu90eMviYm8fl8E"
+      ],
+      "Notes": "1. File Webkit Inspector related bugs on Webkit [Bugzilla](https://webkit.org/new-inspector-bug) or report issues on the [Github](https://github.com/WebKit/WebKit) repository.\n",
+      "LastModified": "2022-07-06T15:02:36.000Z",
+      "Category": [
+        "Other"
+      ]
+    },
     "Slug": "report-issues",
     "Name": "Report issues",
     "Category": "Other",
+    "Description": "Can I report issues related to DevTools and docs?",
     "Firefox": {
       "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1654438503/Images/report-issues-firefox_e8i9ow.png",
       "Platform": [
@@ -23,6 +39,22 @@
         "Other"
       ]
     },
+    "Edge": {
+      "Main": [
+        "recu90eMviYm8fl8E"
+      ],
+      "Name": "Report issues",
+      "LastModified": "2022-07-06T15:59:36.000Z",
+      "Category": [
+        "Other"
+      ],
+      "Platform": [
+        "MacOS",
+        "Windows",
+        "Linux"
+      ],
+      "Notes": "1. File issues on the Microsoft Edge DevTools [Github](https://github.com/MicrosoftEdge/DevTools) repository.\n2. Report Docs related bugs or issues on the Edge Developer [Github](https://github.com/MicrosoftDocs/edge-developer) repository.\n"
+    },
     "Chrome": {
       "Notes": "Use the following options to discuss the new features and changes in the docs, or anything else related to DevTools.\n1. Submit a suggestion or feedback via [crbug.com](https://crbug.com/).\n2. Report a DevTools issue using the \"More options\" > Help > Report a DevTools issues in DevTools.\n3. Tweet at [@ChromeDevTools](https://twitter.com/intent/tweet?text=@ChromeDevTools).\n4. Leave comments on \"What's new in DevTools\" [YouTube videos](https://goo.gle/devtools-youtube).\n\n",
       "Main": [
@@ -40,9 +72,7 @@
       ]
     },
     "CreatedTime": "2022-04-17T14:52:49.000Z",
-    "LastModifiedTime": "2022-06-05T13:46:42.000Z",
-    "Edge": null,
-    "Safari": null,
+    "LastModifiedTime": "2022-07-06T15:04:52.000Z",
     "Opera": null
   }
 }

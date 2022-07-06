@@ -2,6 +2,21 @@
   "id": "reczuiY6c6HtyOGOh",
   "createdTime": "2022-02-19T11:52:49.000Z",
   "fields": {
+    "Safari": {
+      "Name": "Drag & Drop element",
+      "Platform": [
+        "MacOS"
+      ],
+      "References": "[1] \"Elements Tab\" - [Webkit](https://webkit.org/web-inspector/elements-tab/)\n",
+      "Main": [
+        "reczuiY6c6HtyOGOh"
+      ],
+      "Notes": "1. Select any DOM node from the DOM tree, drag and drop anywhere in the tree to place the element.\n",
+      "LastModified": "2022-07-06T14:39:53.000Z",
+      "Category": [
+        "Elements"
+      ]
+    },
     "Slug": "drag-drop-element",
     "Opera": {
       "Main": [
@@ -21,6 +36,7 @@
     },
     "Name": "Drag & Drop element",
     "Category": "Elements",
+    "Description": "Can I drag & drop nodes anywhere inside the DOM tree?",
     "Firefox": {
       "Platform": [
         "MacOS",
@@ -69,22 +85,6 @@
       ]
     },
     "CreatedTime": "2022-02-19T11:52:49.000Z",
-    "LastModifiedTime": "2022-07-06T14:35:13.000Z",
-    "Description": "Can I drag & drop nodes anywhere inside the DOM tree?",
-    "Safari": {
-      "Name": "Drag & Drop element",
-      "LastModified": "2022-07-06T14:39:53.000Z",
-      "Main": [
-        "reczuiY6c6HtyOGOh"
-      ],
-      "Category": [
-        "Elements"
-      ],
-      "Platform": [
-        "MacOS"
-      ],
-      "References": "[1] \"Elements Tab\" - [Webkit](https://webkit.org/web-inspector/elements-tab/)\n",
-      "Notes": "1. Select any DOM node from the DOM tree, drag and drop anywhere in the tree to place the element.\n"
-    }
+    "LastModifiedTime": "2022-07-06T14:35:13.000Z"
   }
 }

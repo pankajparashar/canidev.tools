@@ -2101,7 +2101,7 @@
     
     <url>
         <loc>https://www.canidev.tools/report-issues/</loc>
-        <lastmod>2022-06-05T13:46:42.000Z</lastmod>
+        <lastmod>2022-07-06T15:04:52.000Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
@@ -2115,6 +2115,20 @@
     <url>
         <loc>https://www.canidev.tools/report-issues/firefox</loc>
         <lastmod>2022-06-05T14:15:21.000Z</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.canidev.tools/report-issues/edge</loc>
+        <lastmod>2022-07-06T15:59:36.000Z</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.canidev.tools/report-issues/safari</loc>
+        <lastmod>2022-07-06T15:02:36.000Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
