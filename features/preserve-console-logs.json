@@ -2,6 +2,21 @@
   "id": "recvAUaZLu97PHSDv",
   "createdTime": "2022-05-02T04:59:52.000Z",
   "fields": {
+    "Safari": {
+      "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1657089089/Images/preserve-console-logs-safari_ufbgus.png",
+      "Name": "Preserve console logs",
+      "Platform": [
+        "MacOS"
+      ],
+      "Main": [
+        "recvAUaZLu97PHSDv"
+      ],
+      "Notes": "1. In the **Console** tab, select the \"Preserve Log\" checkbox in the toolbar (top) to persist logs across page reloads.\n",
+      "LastModified": "2022-07-06T06:32:53.000Z",
+      "Category": [
+        "Console"
+      ]
+    },
     "Slug": "preserve-console-logs",
     "Opera": {
       "Main": [
@@ -22,6 +37,7 @@
     },
     "Name": "Preserve console logs",
     "Category": "Console",
+    "Description": "Can I preserve console logs across page reloads?",
     "Firefox": {
       "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1656472576/Images/preserve-console-logs-firefox_ojwlok.png",
       "Platform": [
@@ -75,22 +91,6 @@
       ]
     },
     "CreatedTime": "2022-05-02T04:59:52.000Z",
-    "LastModifiedTime": "2022-07-06T06:31:55.000Z",
-    "Description": "Can I preserve console logs across page reloads?",
-    "Safari": {
-      "Name": "Preserve console logs",
-      "LastModified": "2022-07-06T06:32:53.000Z",
-      "Main": [
-        "recvAUaZLu97PHSDv"
-      ],
-      "Category": [
-        "Console"
-      ],
-      "Notes": "1. In the **Console** tab, select the \"Preserve Log\" checkbox in the toolbar (top) to persist logs across page reloads.\n",
-      "Platform": [
-        "MacOS"
-      ],
-      "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1657089089/Images/preserve-console-logs-safari_ufbgus.png"
-    }
+    "LastModifiedTime": "2022-07-06T06:31:55.000Z"
   }
 }

@@ -2,9 +2,26 @@
   "id": "rec6Q6hMQt0koaFDY",
   "createdTime": "2022-06-04T16:36:19.000Z",
   "fields": {
+    "Safari": {
+      "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1657088006/Images/debug-event-listeners-safari_kvk8f9.png",
+      "Name": "Debug Event Listeners",
+      "Platform": [
+        "MacOS"
+      ],
+      "References": "[1] \"Event Breakpoints\" - [Webkit](https://webkit.org/web-inspector/event-breakpoints/)\n",
+      "Main": [
+        "rec6Q6hMQt0koaFDY"
+      ],
+      "Notes": "1. In the **Sources** tab, click the \"+\" button from the left sidebar in the **Breakpoints** section > Select \"Events Breakpoint\".\n2. Enter the name of the event in the popup form to apply a breakpoint for a specific event.\n3. Alternatively, you can set breakpoint on all the events by selecting \"All Events\" after clicking the \"+\" button.\n",
+      "LastModified": "2022-07-06T06:13:43.000Z",
+      "Category": [
+        "JavaScript"
+      ]
+    },
     "Slug": "debug-event-listeners",
     "Name": "Debug Event Listeners",
     "Category": "JavaScript",
+    "Description": "Can I debug event listeners by setting a breakpoint on all or specific events?",
     "Firefox": {
       "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1654360804/Images/debug-event-listeners-firefox_p5ttn8.png",
       "Platform": [
@@ -25,23 +42,6 @@
     },
     "CreatedTime": "2022-06-04T16:36:19.000Z",
     "LastModifiedTime": "2022-07-06T06:11:52.000Z",
-    "Safari": {
-      "Name": "Debug Event Listeners",
-      "LastModified": "2022-07-06T06:13:43.000Z",
-      "Main": [
-        "rec6Q6hMQt0koaFDY"
-      ],
-      "Category": [
-        "JavaScript"
-      ],
-      "Platform": [
-        "MacOS"
-      ],
-      "References": "[1] \"Event Breakpoints\" - [Webkit](https://webkit.org/web-inspector/event-breakpoints/)\n",
-      "Notes": "1. In the **Sources** tab, click the \"+\" button from the left sidebar in the **Breakpoints** section > Select \"Events Breakpoint\".\n2. Enter the name of the event in the popup form to apply a breakpoint for a specific event.\n3. Alternatively, you can set breakpoint on all the events by selecting \"All Events\" after clicking the \"+\" button.\n",
-      "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1657088006/Images/debug-event-listeners-safari_kvk8f9.png"
-    },
-    "Description": "Can I debug event listeners by setting a breakpoint on all or specific events?",
     "Chrome": null,
     "Edge": null,
     "Opera": null

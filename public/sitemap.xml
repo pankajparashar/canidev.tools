@@ -1937,7 +1937,7 @@
     
     <url>
         <loc>https://www.canidev.tools/inspect-css-flexbox/</loc>
-        <lastmod>2022-06-18T15:50:33.000Z</lastmod>
+        <lastmod>2022-07-06T07:04:37.000Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
@@ -1958,6 +1958,13 @@
     <url>
         <loc>https://www.canidev.tools/inspect-css-flexbox/edge</loc>
         <lastmod>2022-06-18T15:46:19.000Z</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.canidev.tools/inspect-css-flexbox/safari</loc>
+        <lastmod>2022-07-06T07:09:00.000Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>

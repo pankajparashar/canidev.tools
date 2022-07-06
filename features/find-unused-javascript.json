@@ -2,6 +2,21 @@
   "id": "recSUcbz5pV5Zuad4",
   "createdTime": "2022-02-19T11:57:41.000Z",
   "fields": {
+    "Safari": {
+      "Name": "Find unused JavaScript",
+      "Video": "https://res.cloudinary.com/canidevtools/video/upload/v1657085680/Videos/find-unused-javascript-safari_u9jd83.mp4",
+      "Platform": [
+        "MacOS"
+      ],
+      "Main": [
+        "recSUcbz5pV5Zuad4"
+      ],
+      "Notes": "1. In the **Sources** tab, open the `.js` file from the left sidebar. Click the \"C\" icon in the toolbar (top-right) to fade unexecuted code.\n",
+      "LastModified": "2022-07-06T05:44:58.000Z",
+      "Category": [
+        "JavaScript"
+      ]
+    },
     "Slug": "find-unused-javascript",
     "Opera": {
       "Main": [
@@ -58,21 +73,6 @@
     },
     "CreatedTime": "2022-02-19T11:57:41.000Z",
     "LastModifiedTime": "2022-07-06T05:55:00.000Z",
-    "Safari": {
-      "Name": "Find unused JavaScript",
-      "LastModified": "2022-07-06T05:44:58.000Z",
-      "Main": [
-        "recSUcbz5pV5Zuad4"
-      ],
-      "Category": [
-        "JavaScript"
-      ],
-      "Video": "https://res.cloudinary.com/canidevtools/video/upload/v1657085680/Videos/find-unused-javascript-safari_u9jd83.mp4",
-      "Platform": [
-        "MacOS"
-      ],
-      "Notes": "1. In the **Sources** tab, open the `.js` file from the left sidebar. Click the \"C\" icon in the toolbar (top-right) to fade unexecuted code.\n"
-    },
     "Firefox": null
   }
 }
