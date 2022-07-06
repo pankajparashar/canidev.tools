@@ -20,6 +20,7 @@ html {
 	--border-color-dark: #666;
 	--background-color-light: #f5f7f7;
 	--background-color-dark: #353939;
+	--background-color-1: #fff;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -28,6 +29,7 @@ html {
 		--border-color-dark: #bdc3c7;
 		--background-color-light: #353939;
 		--background-color-dark: #f5f7f7;
+		--background-color-1: #000;
 	}
 }
 
@@ -119,6 +121,7 @@ code {
 	font-family: inherit;
 	padding: 0 5px;
 	border: 1px dashed var(--border-color-light);
+	background-color: var(--background-color-1);
 }
 
 pre {

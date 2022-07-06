@@ -631,13 +631,20 @@
     
     <url>
         <loc>https://www.canidev.tools/capture-screenshot-console/</loc>
-        <lastmod>2022-06-23T15:13:35.000Z</lastmod>
+        <lastmod>2022-07-06T07:17:24.000Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
     <url>
         <loc>https://www.canidev.tools/capture-screenshot-console/firefox</loc>
         <lastmod>2022-06-23T15:20:00.000Z</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.canidev.tools/capture-screenshot-console/safari</loc>
+        <lastmod>2022-07-06T07:21:23.000Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
