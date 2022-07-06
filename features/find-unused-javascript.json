@@ -2,7 +2,6 @@
   "id": "recSUcbz5pV5Zuad4",
   "createdTime": "2022-02-19T11:57:41.000Z",
   "fields": {
-    "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1656652127/Videos/find-unused-javascript_k6871u.png",
     "Slug": "find-unused-javascript",
     "Opera": {
       "Main": [
@@ -58,7 +57,7 @@
       ]
     },
     "CreatedTime": "2022-02-19T11:57:41.000Z",
-    "LastModifiedTime": "2022-07-06T05:35:46.000Z",
+    "LastModifiedTime": "2022-07-06T05:55:00.000Z",
     "Safari": {
       "Name": "Find unused JavaScript",
       "LastModified": "2022-07-06T05:44:58.000Z",
