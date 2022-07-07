@@ -644,7 +644,7 @@
     
     <url>
         <loc>https://www.canidev.tools/capture-screenshot-console/safari</loc>
-        <lastmod>2022-07-06T07:21:23.000Z</lastmod>
+        <lastmod>2022-07-07T13:43:27.000Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
@@ -1045,7 +1045,7 @@
     
     <url>
         <loc>https://www.canidev.tools/capture-viewport-screenshot/</loc>
-        <lastmod>2022-06-12T13:25:17.000Z</lastmod>
+        <lastmod>2022-07-07T13:43:54.000Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
@@ -1066,6 +1066,13 @@
     <url>
         <loc>https://www.canidev.tools/capture-viewport-screenshot/edge</loc>
         <lastmod>2022-06-04T04:42:47.000Z</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.canidev.tools/capture-viewport-screenshot/safari</loc>
+        <lastmod>2022-07-07T13:44:30.000Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
@@ -1379,7 +1386,7 @@
     
     <url>
         <loc>https://www.canidev.tools/detect-memory-leaks/</loc>
-        <lastmod>2022-06-29T13:00:27.000Z</lastmod>
+        <lastmod>2022-07-07T13:43:17.000Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>

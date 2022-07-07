@@ -13,7 +13,7 @@
         "recHthx0DRsWCXNUm"
       ],
       "Notes": "1. Use `console.screenshot()` to capture the screenshot of the viewport. Alternatively, pass the target node to the function to capture screenshot of a specific node.\n",
-      "LastModified": "2022-07-06T07:21:23.000Z",
+      "LastModified": "2022-07-07T13:43:27.000Z",
       "Category": [
         "Console"
       ]

@@ -70,7 +70,22 @@
       ]
     },
     "CreatedTime": "2022-02-19T15:47:43.000Z",
-    "LastModifiedTime": "2022-06-12T13:25:17.000Z",
-    "Safari": null
+    "LastModifiedTime": "2022-07-07T13:43:54.000Z",
+    "Description": "Can I take a screenshot of the portion of the web page visible in the viewport?",
+    "Safari": {
+      "Name": "Capture viewport screenshot",
+      "LastModified": "2022-07-07T13:44:30.000Z",
+      "Main": [
+        "recRnDUi5RrfW38MM"
+      ],
+      "Category": [
+        "Other"
+      ],
+      "Notes": "Use `console.screenshot()` to capture the screenshot of the viewport. \n",
+      "Platform": [
+        "MacOS"
+      ],
+      "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1657092052/Images/capture-screenshot-console-safari_jkubvl.png"
+    }
   }
 }

@@ -3,6 +3,7 @@
   "createdTime": "2022-05-09T14:41:10.000Z",
   "fields": {
     "Safari": {
+      "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1657197452/Images/search-files-sources-safari_xhf8gr.png",
       "Name": "Go to file",
       "Platform": [
         "MacOS"
@@ -14,8 +15,7 @@
       "LastModified": "2022-07-07T13:17:06.000Z",
       "Category": [
         "Other"
-      ],
-      "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1657197452/Images/search-files-sources-safari_xhf8gr.png"
+      ]
     },
     "Slug": "go-to-file",
     "Opera": {

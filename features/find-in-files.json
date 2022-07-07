@@ -2,43 +2,43 @@
   "id": "recICXz8I9M1nuUmc",
   "createdTime": "2022-07-07T13:03:34.000Z",
   "fields": {
-    "Category": "Other",
-    "CreatedTime": "2022-07-07T13:03:34.000Z",
-    "LastModifiedTime": "2022-07-07T13:10:31.000Z",
-    "Name": "Find in files",
-    "Slug": "find-in-files",
-    "Description": "Can I find in files for a specific keyword?",
-    "Firefox": {
+    "Safari": {
       "Name": "Find in files",
-      "LastModified": "2022-07-07T13:06:18.000Z",
+      "Platform": [
+        "MacOS"
+      ],
       "Main": [
         "recICXz8I9M1nuUmc"
       ],
+      "Notes": "1. Anywhere in the web inspector, press `Cmd+Shift+F` to find in files for a specific keyword.\n",
+      "LastModified": "2022-07-07T13:17:00.000Z",
       "Category": [
         "Other"
-      ],
+      ]
+    },
+    "Slug": "find-in-files",
+    "Name": "Find in files",
+    "Category": "Other",
+    "Description": "Can I find in files for a specific keyword?",
+    "Firefox": {
+      "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1656489955/Images/search-files-sources-firefox_aivspt.png",
       "Platform": [
         "MacOS",
         "Windows",
         "Linux"
       ],
       "Notes": "1. In the **Debugger** tab, use `⇧⌘F` or `Ctrl+Shift+F` to find in files for a specific keyword.\n",
-      "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1656489955/Images/search-files-sources-firefox_aivspt.png"
-    },
-    "Safari": {
       "Name": "Find in files",
-      "LastModified": "2022-07-07T13:17:00.000Z",
       "Main": [
         "recICXz8I9M1nuUmc"
       ],
+      "LastModified": "2022-07-07T13:06:18.000Z",
       "Category": [
         "Other"
-      ],
-      "Platform": [
-        "MacOS"
-      ],
-      "Notes": "1. Anywhere in the web inspector, press `Cmd+Shift+F` to find in files for a specific keyword.\n"
+      ]
     },
+    "CreatedTime": "2022-07-07T13:03:34.000Z",
+    "LastModifiedTime": "2022-07-07T13:10:31.000Z",
     "Chrome": null,
     "Edge": null,
     "Opera": null

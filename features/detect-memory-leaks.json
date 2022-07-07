@@ -22,6 +22,7 @@
     },
     "Name": "Detect memory leaks",
     "Category": "Other",
+    "Description": "Can I detect memory leaks in my web app using devtools?",
     "Firefox": {
       "Version": "48-",
       "Platform": [
@@ -77,7 +78,7 @@
       ]
     },
     "CreatedTime": "2022-05-09T15:37:38.000Z",
-    "LastModifiedTime": "2022-06-29T13:00:27.000Z",
+    "LastModifiedTime": "2022-07-07T13:43:17.000Z",
     "Safari": null
   }
 }
