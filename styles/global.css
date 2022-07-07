@@ -169,8 +169,8 @@ input:focus-visible {
 	outline: 0;
 }
 
-.fs_15em {
-	font-size: 1.5em;
+summary {
+	font-size: inherit;
 }
 
 /* POSITION */
