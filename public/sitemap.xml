@@ -691,6 +691,26 @@
     </url>
     
     <url>
+        <loc>https://www.canidev.tools/find-in-files/</loc>
+        <lastmod>2022-07-07T13:10:31.000Z</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://www.canidev.tools/find-in-files/firefox</loc>
+        <lastmod>2022-07-07T13:06:18.000Z</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.canidev.tools/find-in-files/safari</loc>
+        <lastmod>2022-07-07T13:17:00.000Z</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
         <loc>https://www.canidev.tools/filter-multiple-resources/</loc>
         <lastmod>2022-06-12T13:27:54.000Z</lastmod>
         <changefreq>monthly</changefreq>
@@ -2073,35 +2093,42 @@
     </url>
     
     <url>
-        <loc>https://www.canidev.tools/search-files-sources/</loc>
-        <lastmod>2022-06-29T08:06:31.000Z</lastmod>
+        <loc>https://www.canidev.tools/go-to-file/</loc>
+        <lastmod>2022-07-07T13:01:23.000Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
     <url>
-        <loc>https://www.canidev.tools/search-files-sources/chrome</loc>
-        <lastmod>2022-06-08T14:13:04.000Z</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>1.0</priority>
-    </url>
-    
-    <url>
-        <loc>https://www.canidev.tools/search-files-sources/firefox</loc>
-        <lastmod>2022-06-29T08:09:19.000Z</lastmod>
+        <loc>https://www.canidev.tools/go-to-file/chrome</loc>
+        <lastmod>2022-07-07T13:01:44.000Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
     
     <url>
-        <loc>https://www.canidev.tools/search-files-sources/edge</loc>
-        <lastmod>2022-06-08T14:13:07.000Z</lastmod>
+        <loc>https://www.canidev.tools/go-to-file/firefox</loc>
+        <lastmod>2022-07-07T13:05:25.000Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
     
     <url>
-        <loc>https://www.canidev.tools/search-files-sources/opera</loc>
-        <lastmod>2022-06-12T13:27:28.000Z</lastmod>
+        <loc>https://www.canidev.tools/go-to-file/edge</loc>
+        <lastmod>2022-07-07T13:02:46.000Z</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.canidev.tools/go-to-file/safari</loc>
+        <lastmod>2022-07-07T13:17:06.000Z</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.canidev.tools/go-to-file/opera</loc>
+        <lastmod>2022-07-07T13:03:26.000Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
