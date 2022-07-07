@@ -40,6 +40,12 @@
       ]
     },
     "Edge": {
+      "Notes": "1. File issues on the Microsoft Edge DevTools [Github](https://github.com/MicrosoftEdge/DevTools) repository.\n2. Report Docs related bugs or issues on the Edge Developer [Github](https://github.com/MicrosoftDocs/edge-developer) repository.\n",
+      "Platform": [
+        "MacOS",
+        "Windows",
+        "Linux"
+      ],
       "Main": [
         "recu90eMviYm8fl8E"
       ],
@@ -47,13 +53,7 @@
       "LastModified": "2022-07-06T15:59:36.000Z",
       "Category": [
         "Other"
-      ],
-      "Platform": [
-        "MacOS",
-        "Windows",
-        "Linux"
-      ],
-      "Notes": "1. File issues on the Microsoft Edge DevTools [Github](https://github.com/MicrosoftEdge/DevTools) repository.\n2. Report Docs related bugs or issues on the Edge Developer [Github](https://github.com/MicrosoftDocs/edge-developer) repository.\n"
+      ]
     },
     "Chrome": {
       "Notes": "Use the following options to discuss the new features and changes in the docs, or anything else related to DevTools.\n1. Submit a suggestion or feedback via [crbug.com](https://crbug.com/).\n2. Report a DevTools issue using the \"More options\" > Help > Report a DevTools issues in DevTools.\n3. Tweet at [@ChromeDevTools](https://twitter.com/intent/tweet?text=@ChromeDevTools).\n4. Leave comments on \"What's new in DevTools\" [YouTube videos](https://goo.gle/devtools-youtube).\n\n",

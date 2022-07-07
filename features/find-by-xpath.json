@@ -11,8 +11,8 @@
       "Main": [
         "recIAq2KxAB7GLx7w"
       ],
-      "Notes": "1. Open devtools using Cmd+Opt+I (on MacOS) or Ctrl+Shift+I (on Windows/Linux/ChromeOS) > Elements.\n2. Press Cmd+F or Ctrl+F to open the search bar at the top of the Elements panel.\n3. Enter the xpath to find the element in the DOM node.\n\n",
-      "LastModified": "2022-06-04T05:57:57.000Z",
+      "Notes": "1. In the **Elements** tab, use `Cmd+F` or `Ctrl+F` to open the search bar at the top of the Elements panel.\n2. Enter the xpath to find the element in the DOM node.\n\n",
+      "LastModified": "2022-07-07T12:14:25.000Z",
       "Category": [
         "Elements"
       ]
@@ -85,6 +85,7 @@
       ]
     },
     "CreatedTime": "2022-06-04T05:46:44.000Z",
-    "LastModifiedTime": "2022-06-12T13:28:35.000Z"
+    "LastModifiedTime": "2022-07-07T12:14:52.000Z",
+    "Description": "Can I find elements in the DOM tree using xpath?"
   }
 }

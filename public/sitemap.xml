@@ -651,7 +651,7 @@
     
     <url>
         <loc>https://www.canidev.tools/find-by-xpath/</loc>
-        <lastmod>2022-06-12T13:28:35.000Z</lastmod>
+        <lastmod>2022-07-07T12:14:52.000Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
@@ -678,7 +678,7 @@
     
     <url>
         <loc>https://www.canidev.tools/find-by-xpath/safari</loc>
-        <lastmod>2022-06-04T05:57:57.000Z</lastmod>
+        <lastmod>2022-07-07T12:14:25.000Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
@@ -1236,7 +1236,7 @@
     
     <url>
         <loc>https://www.canidev.tools/find-element-css-selector/</loc>
-        <lastmod>2022-06-12T13:28:37.000Z</lastmod>
+        <lastmod>2022-07-07T12:01:52.000Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
@@ -1257,6 +1257,13 @@
     <url>
         <loc>https://www.canidev.tools/find-element-css-selector/edge</loc>
         <lastmod>2022-06-04T04:47:24.000Z</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.canidev.tools/find-element-css-selector/safari</loc>
+        <lastmod>2022-07-07T12:09:19.000Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
