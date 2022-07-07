@@ -170,7 +170,7 @@ input:focus-visible {
 }
 
 summary {
-	font-size: inherit;
+	font-size: 14px;
 }
 
 /* POSITION */
