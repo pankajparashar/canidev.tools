@@ -210,6 +210,8 @@ input:focus-visible {
 	min-height: 3em;
 }
 
+.h_3em { height: 3em }
+
 /* BACKGROUND */
 .bgc_000 {
 	background-color: #000;

@@ -4,11 +4,11 @@ import { CarbonAds } from "../components/CarbonAds";
 export function Footer() {
   return (
     <div className={`c_fff bot_0 bgc_333 bt_1px`} style={{ marginTop: "2.5em" }}>
-      <div className={`pos_abs right_0 p_1em`}>
+      <div className={`pos_abs right_0 h_3em pr_05em`}>
         <button data-tally-open="3XxGGP">+Add</button>
       </div>
       <details open>
-        <summary className={`p_1em bgc_000`}>About</summary>
+        <summary className={`bgc_000 h_3em d_flex ai_center pl_05em`}>About</summary>
         <div className={`d_grid gtc_320px`}>
           <div className="p_1em bb_1px_dark br_1px_dark pb_0 pt_0">
             <p className="has-dropcap">

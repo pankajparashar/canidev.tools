@@ -5,7 +5,7 @@ import { BROWSERS } from "../lib/fetch";
 export function Header({ records }) {
 	return (
 		<div className={`d_grid gtc_320px c_fff bgc_000 pos_sticky top_0`} id="header">
-			<div className="br_1px_dark bb_1px_353939 d_grid gtc_3em_1fr_3em ai_center">
+			<div className="br_1px_dark bb_1px_353939 d_grid gtc_3em_1fr_3em ai_center h_3em">
 				<button className="but_2 br_1px_dark d_grid ai_center" onClick={e => (window.location.href = "/")} title="/">
 					<svg version="1.1" viewBox="0 0 752 752" className="w_100pct">
 						<linearGradient x1="0" y1="0" x2="100%" y2="100%" id="gradient">
@@ -18,12 +18,12 @@ export function Header({ records }) {
 					 	</g>
 					</svg>		
 				</button>
-				<div className="pl_1em fg_1 br_1px_dark p_05em"><strong>Can I DevTools?</strong></div>
+				<div className="pl_1em fg_1 br_1px_dark h_3em d_flex ai_center"><strong>Can I DevTools?</strong></div>
 				{records ? <div className="p_05em c_gold d_grid jc_center">{records.length}</div> : null}
 			</div>
-			<div className={`d_grid gtc_5fr bb_1px_353939`}>
+			<div className={`d_grid gtc_5fr bb_1px_353939 h_3em`}>
 				{BROWSERS.map(browser => (
-					<button key={browser} className={`but_2 br_1px_dark p_05em`}>
+					<button key={browser} className={`but_2 br_1px_dark`}>
 						{browser}
 					</button>
 				))}

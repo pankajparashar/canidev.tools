@@ -7,4 +7,6 @@ All the features are available under the [features/](https://github.com/pankajpa
 
 In public interest, all the features are also exposed at the endpoint: [/api/data.json](https://www.canidev.tools/api/data.json) in the JSON format for other apps to consume this data.
 
-![image](https://res.cloudinary.com/canidevtools/image/upload/v1656077422/social-media-1_uvqp1p.png)
+## Screenshots
+
+![image](https://res.cloudinary.com/canidevtools/image/upload/v1657165872/social-media-original_yllyjm.png)

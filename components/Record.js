@@ -60,7 +60,7 @@ export function Record({ record, color, isFavorite: isFav, browser: currentBrows
 				className={`d_grid gtc_320px`}
 				style={{ borderLeft: `.25em solid ${color}` }}
 			>
-				<div className={`p_05em br_1px bb_1px pl_0`} data-color={color}>
+				<div className={`br_1px bb_1px pl_0 h_3em`} data-color={color}>
 					<button
 						aria-label="Set as Favorite"
 						title="Set as Favorite"
@@ -76,13 +76,13 @@ export function Record({ record, color, isFavorite: isFav, browser: currentBrows
 					</button>
 					{fields.Name}
 				</div>
-				<div className={`d_grid gtc_5fr mh_3em`}>
+				<div className={`d_grid gtc_5fr h_3em`}>
 					{BROWSERS.map((browser) => {
 						return (
 							<div key={browser} className={`br_1px`}>
 								<button
 									disabled={!Boolean(fields[browser])}
-									className={`p_05em but_1 ${activeBrowser === browser ? "bgc_light" : "bb_1px"
+									className={`but_1 ${activeBrowser === browser ? "bgc_light" : "bb_1px"
 										}`}
 									onClick={() => onClick(browser)}
 								>
