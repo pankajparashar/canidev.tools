@@ -1119,6 +1119,47 @@
     </url>
     
     <url>
+        <loc>https://www.canidev.tools/show-rulers-hover/</loc>
+        <lastmod>2022-07-08T04:59:25.000Z</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://www.canidev.tools/show-rulers-hover/chrome</loc>
+        <lastmod>2022-07-08T05:18:44.000Z</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.canidev.tools/show-rulers-hover/firefox</loc>
+        <lastmod>2022-07-08T05:23:50.000Z</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.canidev.tools/show-rulers-hover/edge</loc>
+        <lastmod>2022-07-08T05:19:30.000Z</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.canidev.tools/show-rulers-hover/safari</loc>
+        <lastmod>2022-07-08T05:26:59.000Z</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.canidev.tools/show-rulers-hover/opera</loc>
+        <lastmod>2022-07-08T05:20:13.000Z</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
         <loc>https://www.canidev.tools/reorder-tabs-panes/</loc>
         <lastmod>2022-07-03T05:11:31.000Z</lastmod>
         <changefreq>monthly</changefreq>

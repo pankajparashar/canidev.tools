@@ -1,0 +1,95 @@
+{
+  "id": "recTC2ccjtH3tPkPt",
+  "createdTime": "2022-07-08T04:55:45.000Z",
+  "fields": {
+    "Safari": {
+      "Name": "Show rulers on hover",
+      "Main": [
+        "recTC2ccjtH3tPkPt"
+      ],
+      "LastModified": "2022-07-08T05:26:59.000Z",
+      "Category": [
+        "Elements"
+      ],
+      "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1657256760/Images/show-rulers-hover-safari_mvh2th.png",
+      "Platform": [
+        "MacOS"
+      ],
+      "Notes": "1. Open **Settings** (`Cmd+,`) > Elements > Enable \"Show page rulers and node border lines\"\n"
+    },
+    "Slug": "show-rulers-hover",
+    "Opera": {
+      "Main": [
+        "recTC2ccjtH3tPkPt"
+      ],
+      "Name": "Show rulers on hover",
+      "LastModified": "2022-07-08T05:20:13.000Z",
+      "Category": [
+        "Elements"
+      ],
+      "Notes": "1. Open Settings (`Shift+?` or `F1`) > Preferences > Scroll down to the Elements section, and enable \"Show rulers on hover\".\n\n",
+      "Platform": [
+        "MacOS",
+        "Windows",
+        "Linux"
+      ],
+      "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1657256759/Images/show-rulers-hover-opera_xjjdo7.png"
+    },
+    "Name": "Show rulers on hover",
+    "Category": "Elements",
+    "Description": "Can I enable vertical and horizontal rulers on the page when I hover on the elements?",
+    "Firefox": {
+      "Name": "Show rulers on hover",
+      "Main": [
+        "recTC2ccjtH3tPkPt"
+      ],
+      "LastModified": "2022-07-08T05:23:50.000Z",
+      "Category": [
+        "Elements"
+      ],
+      "Notes": "1. Open **Settings** (`F1`) > Scroll down to the **Available Toolbox Buttons** section, and enable \"Toggle rulers for the page\"\n",
+      "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1657256760/Images/show-rulers-hover-firefox_odobg2.png",
+      "Platform": [
+        "MacOS",
+        "Windows",
+        "Linux"
+      ]
+    },
+    "Edge": {
+      "Main": [
+        "recTC2ccjtH3tPkPt"
+      ],
+      "Name": "Show rulers on hover",
+      "LastModified": "2022-07-08T05:19:30.000Z",
+      "Category": [
+        "Elements"
+      ],
+      "Notes": "1. Open **Settings** (`Shift+?` or `F1`) > **Preferences** > Scroll down to the **Elements** section, and enable \"Show rulers on hover\".\n",
+      "Platform": [
+        "MacOS",
+        "Windows",
+        "Linux"
+      ],
+      "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1657256759/Images/show-rulers-hover-edge_asl6ra.png"
+    },
+    "Chrome": {
+      "Main": [
+        "recTC2ccjtH3tPkPt"
+      ],
+      "Name": "Show rulers on hover",
+      "LastModified": "2022-07-08T05:18:44.000Z",
+      "Category": [
+        "Elements"
+      ],
+      "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1657256759/Images/show-rulers-hover-chrome_wlqsly.png",
+      "Platform": [
+        "MacOS",
+        "Windows",
+        "Linux"
+      ],
+      "Notes": "1. Open **Settings** (`Shift+?` or `F1`) > **Preferences** > Scroll down to the **Elements** section, and enable \"Show rulers on hover\".\n"
+    },
+    "CreatedTime": "2022-07-08T04:55:45.000Z",
+    "LastModifiedTime": "2022-07-08T04:59:25.000Z"
+  }
+}
