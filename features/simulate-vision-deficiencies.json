@@ -15,10 +15,11 @@
       ],
       "Notes": "1. Open devtools using `Cmd+Opt+I `(on Mac) or `Ctrl+Shift+I` (on Windows/Linux) > Click the triple dot icon in top right > More tools > Rendering.\n2. (Or) Run the command menu using `Cmd+Shift+P` (on Mac) or `Ctrl+Shift+P` (on Windows/Linux) > Search for \"Show Rendering\" > Press `Enter` to open the Rendering drawer.\n3. Scroll down to the section called \"Emulate vision deficiencies\" and select the type of deficiency to test your website.\n",
       "Name": "Simulate vision deficiencies",
-      "LastModified": "2022-06-12T13:30:31.000Z",
+      "LastModified": "2022-07-08T09:31:07.000Z",
       "Category": [
         "Accessibility"
-      ]
+      ],
+      "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1657272655/Images/simulate-vision-deficiencies-opera_sy7acv.png"
     },
     "Name": "Simulate vision deficiencies",
     "Category": "Accessibility",
