@@ -17,11 +17,11 @@
       "Name": "Detect memory leaks",
       "LastModified": "2022-06-12T13:27:11.000Z",
       "Category": [
-        "Other"
+        "JavaScript"
       ]
     },
     "Name": "Detect memory leaks",
-    "Category": "Other",
+    "Category": "JavaScript",
     "Description": "Can I detect memory leaks in my web app using devtools?",
     "Firefox": {
       "Version": "48-",
@@ -39,7 +39,7 @@
       ],
       "LastModified": "2022-06-29T13:12:36.000Z",
       "Category": [
-        "Other"
+        "JavaScript"
       ]
     },
     "Edge": {
@@ -55,7 +55,7 @@
       "Name": "Detect memory leaks",
       "LastModified": "2022-06-04T04:41:18.000Z",
       "Category": [
-        "Other"
+        "JavaScript"
       ]
     },
     "Chrome": {
@@ -74,11 +74,26 @@
       ],
       "LastModified": "2022-05-09T15:45:36.000Z",
       "Category": [
-        "Other"
+        "JavaScript"
       ]
     },
     "CreatedTime": "2022-05-09T15:37:38.000Z",
-    "LastModifiedTime": "2022-07-07T13:43:17.000Z",
-    "Safari": null
+    "LastModifiedTime": "2022-07-08T03:05:54.000Z",
+    "Safari": {
+      "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1657249512/Images/detect-memory-leaks-safari_evlvay.png",
+      "Name": "Detect memory leaks",
+      "Platform": [
+        "MacOS"
+      ],
+      "Notes": "1. Open the **Timelines** tab. In the **Events** view, enable \"JavaScript Allocations\" panel in the left sidebar, by clicking the **Edit** button.\n2. Reload the page to start recording the timeline. Perform actions that are expected to be memory neutral.\n3. Take snapshot using the **Camera** icon after each repetition. Use the **Compare** button to compare the snapshots for any visible memory spikes.\n",
+      "LastModified": "2022-07-08T03:12:28.000Z",
+      "Main": [
+        "recZ8vHAxa23OG2rl"
+      ],
+      "Category": [
+        "JavaScript"
+      ],
+      "References": "[1] \"Memory Debugging\" - [Webkit](https://webkit.org/blog/6425/memory-debugging-with-web-inspector/)\n"
+    }
   }
 }
