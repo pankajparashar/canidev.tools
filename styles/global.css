@@ -289,6 +289,7 @@ summary {
 .gap_1em {
 	gap: 1em;
 }
+.gap_5px { gap: 5px }
 
 /* PADDING */
 .p_05em {
@@ -343,9 +344,16 @@ summary {
 	padding-left: 0.5em;
 }
 
+.fs_16px { font-size: 1em }
+.ff_inherit { font-family: inherit }
+
 /* BORDER */
+
 .b_1px {
 	border: 1px solid var(--border-color-light);
+}
+.b_1px_dashed {
+	border: 1px dashed var(--border-color-light);
 }
 
 .bt_1px {

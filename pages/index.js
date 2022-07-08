@@ -8,6 +8,7 @@ import { Header } from "../components/Header";
 import { Footer } from "../components/Footer";
 import { Category } from "../components/Category";
 import { Favorites } from "../components/Favorites";
+import { AddNew } from "../components/AddNew";
 
 export async function getStaticProps() {
 	const records = []
@@ -66,6 +67,7 @@ export default function IndexPage(props) {
 					color={colors[idx]}
 				/>
 			))}
+			<AddNew />
 			<Footer />
 		</>
 	);

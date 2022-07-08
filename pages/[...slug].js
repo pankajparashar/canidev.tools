@@ -3,6 +3,7 @@ import { BROWSERS } from "../lib/fetch";
 import { Record } from "../components/Record";
 import { Header } from "../components/Header";
 import { Footer } from "../components/Footer";
+import { AddNew } from "../components/AddNew";
 
 import * as fs from "fs"
 
@@ -40,6 +41,7 @@ const Feature = props => {
                     browser={browser}
                 />
             </details>
+            <AddNew />
             <Footer />
         </>
     )
