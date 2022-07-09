@@ -8,6 +8,7 @@
     "export": "node ./lib/export.mjs"
   },
   "dependencies": {
+    "capture-website": "^2.4.0",
     "dotenv": "^16.0.1",
     "fuse.js": "6.5.3",
     "marked": "4.0.12",
