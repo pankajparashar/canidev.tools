@@ -38,6 +38,7 @@
     },
     "Name": "Emulate devices",
     "Category": "Elements",
+    "Description": "Can I emulate devices to test responsiveness of a page?",
     "Firefox": {
       "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1654528173/Videos/emulate-devices-firefox_weqgyr.png",
       "Platform": [
@@ -95,7 +96,6 @@
       ]
     },
     "CreatedTime": "2022-06-05T16:56:48.000Z",
-    "LastModifiedTime": "2022-07-09T09:11:51.000Z",
-    "Description": "Can I emulate devices to test responsiveness of a page?"
+    "LastModifiedTime": "2022-07-09T09:11:51.000Z"
   }
 }

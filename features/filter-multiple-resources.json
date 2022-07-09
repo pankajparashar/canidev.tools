@@ -40,6 +40,7 @@
     },
     "Name": "Filter multiple resources",
     "Category": "Network",
+    "Description": "Can I filter multiple resource types in the Network tab?",
     "Firefox": {
       "Platform": [
         "MacOS",
@@ -97,7 +98,6 @@
       ]
     },
     "CreatedTime": "2022-04-02T13:15:10.000Z",
-    "LastModifiedTime": "2022-07-09T09:07:56.000Z",
-    "Description": "Can I filter multiple resource types in the Network tab?"
+    "LastModifiedTime": "2022-07-09T09:07:56.000Z"
   }
 }

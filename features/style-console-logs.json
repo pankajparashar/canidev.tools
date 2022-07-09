@@ -40,6 +40,7 @@
     },
     "Name": "Style console logs",
     "Category": "Console",
+    "Description": "Can I apply style to the log statements in the console?",
     "Firefox": {
       "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1651403902/Images/style-console-logs-firefox.png",
       "Platform": [
@@ -98,7 +99,6 @@
       ]
     },
     "CreatedTime": "2022-04-30T15:52:16.000Z",
-    "LastModifiedTime": "2022-07-09T09:07:08.000Z",
-    "Description": "Can I style the logs statements in the console?"
+    "LastModifiedTime": "2022-07-09T09:24:00.000Z"
   }
 }

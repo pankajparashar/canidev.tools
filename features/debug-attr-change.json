@@ -35,6 +35,7 @@
     },
     "Name": "Debug attr change",
     "Category": "JavaScript",
+    "Description": "Can I set breakpoint and debug attr changes of a node?",
     "Firefox": {
       "Platform": [
         "MacOS",
@@ -84,7 +85,6 @@
       ]
     },
     "CreatedTime": "2022-02-19T11:19:45.000Z",
-    "LastModifiedTime": "2022-07-09T09:09:47.000Z",
-    "Description": "Can I set breakpoint and debug attr changes of a node?"
+    "LastModifiedTime": "2022-07-09T09:09:47.000Z"
   }
 }

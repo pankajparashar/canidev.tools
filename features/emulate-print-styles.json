@@ -35,6 +35,7 @@
     },
     "Name": "Emulate print styles",
     "Category": "CSS",
+    "Description": "Can I emulate print media query?",
     "Firefox": {
       "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1654441224/Images/emulate-print-styles-firefox_acydt8.png",
       "Platform": [
@@ -86,7 +87,6 @@
       ]
     },
     "CreatedTime": "2022-02-08T13:51:27.000Z",
-    "LastModifiedTime": "2022-07-09T09:02:23.000Z",
-    "Description": "Can I emulate print media query?"
+    "LastModifiedTime": "2022-07-09T09:02:23.000Z"
   }
 }

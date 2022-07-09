@@ -35,6 +35,7 @@
     },
     "Name": "Debug JavaScript",
     "Category": "JavaScript",
+    "Description": "Can I debug JavaScript using devtools?",
     "Firefox": {
       "Platform": [
         "MacOS",
@@ -84,7 +85,6 @@
       ]
     },
     "CreatedTime": "2022-02-05T11:11:12.000Z",
-    "LastModifiedTime": "2022-07-09T09:10:02.000Z",
-    "Description": "Can I debug JavaScript using devtools?"
+    "LastModifiedTime": "2022-07-09T09:10:02.000Z"
   }
 }

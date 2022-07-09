@@ -35,6 +35,7 @@
     },
     "Name": "View styles for pseudo classes",
     "Category": "CSS",
+    "Description": "Can I view the styles applied to a pseudo class like hover etc.,",
     "Firefox": {
       "Platform": [
         "MacOS",
@@ -84,7 +85,6 @@
       ]
     },
     "CreatedTime": "2022-02-19T11:11:30.000Z",
-    "LastModifiedTime": "2022-07-09T09:04:49.000Z",
-    "Description": "Can I view the styles applied to a pseudo class like hover etc.,"
+    "LastModifiedTime": "2022-07-09T09:04:49.000Z"
   }
 }

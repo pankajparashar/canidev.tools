@@ -5,6 +5,7 @@
     "Slug": "inspect-dialog-element",
     "Name": "Inspect dialog element",
     "Category": "Elements",
+    "Description": "Can I inspect the dialog element?",
     "Chrome": {
       "References": "[1] Bram Stein on [Twitter](https://twitter.com/bramus/status/1540030057720455168)\n",
       "Notes": "1. Inspect the `<dialog>` element. Scroll down to the end of the DOM tree to the `#top-layer` section, to visualise the currently active dialog elements.\n2. In the case of multiple elements, they stack on top of each other, and the last one is on top. \n",
@@ -26,7 +27,6 @@
     },
     "CreatedTime": "2022-06-26T13:35:30.000Z",
     "LastModifiedTime": "2022-07-09T09:12:01.000Z",
-    "Description": "Can I inspect the dialog element?",
     "Firefox": null,
     "Edge": null,
     "Safari": null,

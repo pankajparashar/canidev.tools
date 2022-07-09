@@ -35,6 +35,7 @@
     },
     "Name": "Locate styles in source",
     "Category": "CSS",
+    "Description": "Can I trace style declarations in the original source file?",
     "Firefox": {
       "Platform": [
         "MacOS",
@@ -84,7 +85,6 @@
       ]
     },
     "CreatedTime": "2022-02-19T11:53:55.000Z",
-    "LastModifiedTime": "2022-07-09T09:03:53.000Z",
-    "Description": "Can I trace style declarations in the original source file?"
+    "LastModifiedTime": "2022-07-09T09:03:53.000Z"
   }
 }

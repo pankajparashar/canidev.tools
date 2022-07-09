@@ -21,6 +21,7 @@
     },
     "Name": "Autocomplete styles using values",
     "Category": "CSS",
+    "Description": "Can I autocomplete style declaration just using values?",
     "Edge": {
       "Notes": "1. Inspect an element > Navigate to the styles section (next to the DOM tree).\n2. Add new styles by directly entering the values like \"bold\", \"italic\" etc., and the devtools will automatically suggest the corresponding `<attribute>: <value>` pair for the given input.\n",
       "Platform": [
@@ -55,7 +56,6 @@
     },
     "CreatedTime": "2022-02-19T11:09:26.000Z",
     "LastModifiedTime": "2022-07-09T09:01:51.000Z",
-    "Description": "Can I autocomplete style declaration just using values?",
     "Firefox": null,
     "Safari": null
   }

@@ -37,6 +37,7 @@
     },
     "Name": "Disable cache",
     "Category": "Network",
+    "Description": "Can I disable cache for the network requests?",
     "Firefox": {
       "Platform": [
         "MacOS",
@@ -86,7 +87,6 @@
       ]
     },
     "CreatedTime": "2022-02-02T14:52:27.000Z",
-    "LastModifiedTime": "2022-07-09T09:07:41.000Z",
-    "Description": "Can I disable cache for the network requests?"
+    "LastModifiedTime": "2022-07-09T09:07:41.000Z"
   }
 }

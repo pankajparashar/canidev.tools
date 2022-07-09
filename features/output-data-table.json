@@ -41,6 +41,7 @@
     },
     "Name": "Output data as table",
     "Category": "Console",
+    "Description": "Can I output data in console in the table format?",
     "Firefox": {
       "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1654692283/Images/output-data-table-firefox_w9humo.png",
       "Version": "34-",
@@ -102,7 +103,6 @@
       ]
     },
     "CreatedTime": "2022-05-02T05:08:58.000Z",
-    "LastModifiedTime": "2022-07-09T09:06:32.000Z",
-    "Description": "Can I output data in console in the table format?"
+    "LastModifiedTime": "2022-07-09T09:06:32.000Z"
   }
 }

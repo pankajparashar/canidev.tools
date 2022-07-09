@@ -37,6 +37,7 @@
     },
     "Name": "Get selected node",
     "Category": "Console",
+    "Description": "Can I refer the currently selected node in the DOM tree from the console?",
     "Firefox": {
       "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1654325592/Images/get-selected-node-firefox_pevlj6.png",
       "Platform": [
@@ -89,7 +90,6 @@
       ]
     },
     "CreatedTime": "2022-02-19T11:53:16.000Z",
-    "LastModifiedTime": "2022-07-09T09:06:01.000Z",
-    "Description": "Can I refer the currently selected node in the DOM tree from the console?"
+    "LastModifiedTime": "2022-07-09T09:06:01.000Z"
   }
 }

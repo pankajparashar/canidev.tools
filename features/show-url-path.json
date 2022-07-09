@@ -23,6 +23,7 @@
     },
     "Name": "Show URL path",
     "Category": "Network",
+    "Description": "Can I see full URL path of the network requests?",
     "Firefox": {
       "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1656485275/Images/show-url-path-firefox_lblva4.png",
       "Platform": [
@@ -80,7 +81,6 @@
     },
     "CreatedTime": "2022-06-22T05:06:09.000Z",
     "LastModifiedTime": "2022-07-09T09:09:11.000Z",
-    "Description": "Can I see full URL path of the network requests?",
     "Safari": null
   }
 }

@@ -5,6 +5,7 @@
     "Slug": "filter-requests-properties",
     "Name": "Filter requests by properties",
     "Category": "Network",
+    "Description": "Can I filter requests in the Network tab using specific properties?",
     "Firefox": {
       "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1656489294/Images/filter-requests-properties-firefox_rrd2gy.png",
       "Platform": [
@@ -42,7 +43,6 @@
     },
     "CreatedTime": "2022-06-26T13:51:50.000Z",
     "LastModifiedTime": "2022-07-09T09:08:46.000Z",
-    "Description": "Can I filter requests in the Network tab using specific properties?",
     "Edge": null,
     "Safari": null,
     "Opera": null
