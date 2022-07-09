@@ -47,7 +47,6 @@ class MyDocument extends Document {
             name="google-site-verification"
             content="2yd7PjEmLRyLyn7nmV_UuDCCeZSK-n6eQdlYuNwZBMM"
           />
-          <link rel="canonical" href="https://canidev.tools/" />
           <meta name="apple-mobile-web-app-title" content="Can I DevTools?" />
           <meta name="application-name" content="Can I DevTools?" />
           <meta name="msapplication-TileColor" content="#000000" />

@@ -17,6 +17,7 @@ export default function MyApp({ Component, pageProps }) {
           name="description"
           content={description}
         />
+        <link rel="canonical" href="https://canidev.tools/" />
 
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content="https://canidev.tools/" />

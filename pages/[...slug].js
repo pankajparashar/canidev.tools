@@ -9,20 +9,16 @@ import * as fs from "fs"
 
 const Feature = props => {
     const { record, records, browser, slug } = props
-    const title = record.fields.Name.toLowerCase()
-        .split(' ')
-        .map(word => word.charAt(0).toUpperCase() + word.slice(1))
-        .join(' ') + " | " + browser.charAt(0).toUpperCase() + browser.slice(1)
+    const title = record.fields.Name + (browser ? " | " + browser.charAt(0).toUpperCase() + browser.slice(1) : "")
 
     return (
         <>
             <Head>
                 <title>{title}</title>
+                <link rel="canonical" href={`https://canidev.tools/${slug}/${browser}`} />
                 <meta property="twitter:url" content={`https://canidev.tools/${slug}/${browser}`} />
                 <meta property="twitter:title" content={title} />
-                {record.fields.Description ? 
-                    <meta property="twitter:description" content={record.fields.Description} /> 
-                : null}
+                <meta property="twitter:description" content={record.fields.Description} /> 
                 <meta
                     property="twitter:image"
                     content={`https://canidev.tools/images/${slug}.png`}
