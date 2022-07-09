@@ -23,10 +23,10 @@ const Feature = props => {
                 {record.fields.Description ? 
                     <meta property="twitter:description" content={record.fields.Description} /> 
                 : null}
-                {record.fields.Image ? <meta
+                <meta
                     property="twitter:image"
-                    content={record.fields.Image}
-                /> : null}
+                    content={`https://canidev.tools/images/${slug}.png`}
+                />
             </Head>
             <Header records={records} />
             <details open>
