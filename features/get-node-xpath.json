@@ -18,7 +18,6 @@
         "Elements"
       ]
     },
-    "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1656599296/Images/get-node.xpath_livcrd.png",
     "Slug": "get-node-xpath",
     "Opera": {
       "Main": [
@@ -97,6 +96,6 @@
       ]
     },
     "CreatedTime": "2022-06-30T14:01:54.000Z",
-    "LastModifiedTime": "2022-06-30T14:28:22.000Z"
+    "LastModifiedTime": "2022-06-30T14:26:20.000Z"
   }
 }

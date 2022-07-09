@@ -2,7 +2,6 @@
   "id": "recldL72ajfnJNbPw",
   "createdTime": "2022-02-06T06:41:00.000Z",
   "fields": {
-    "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1656665234/Images/find-color-contrast_slvkxi.png",
     "Slug": "find-color-contrast",
     "Opera": {
       "Main": [
@@ -76,7 +75,7 @@
       ]
     },
     "CreatedTime": "2022-02-06T06:41:00.000Z",
-    "LastModifiedTime": "2022-07-01T08:47:25.000Z",
+    "LastModifiedTime": "2022-07-01T07:11:56.000Z",
     "Safari": null
   }
 }
