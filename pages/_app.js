@@ -22,10 +22,6 @@ export default function MyApp({ Component, pageProps }) {
         <meta property="twitter:url" content="https://canidev.tools/" />
         <meta property="twitter:title" content={title} />
         <meta property="twitter:description" content={description} />
-        <meta
-          property="twitter:image"
-          content="https://res.cloudinary.com/canidevtools/image/upload/v1652023254/social-media-image.png"
-        />
         <meta name="twitter:site" content="@CanIDevTools" />
         <meta name="twitter:creator" content="@pankajparashar" />
         
