@@ -84,6 +84,7 @@
       ]
     },
     "CreatedTime": "2022-02-05T11:11:12.000Z",
-    "LastModifiedTime": "2022-06-12T13:22:41.000Z"
+    "LastModifiedTime": "2022-07-09T09:10:02.000Z",
+    "Description": "Can I debug JavaScript using devtools?"
   }
 }

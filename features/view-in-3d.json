@@ -5,6 +5,7 @@
     "Slug": "view-in-3d",
     "Name": "View in 3D",
     "Category": "Other",
+    "Description": "Can I view a web page in 3D?",
     "Edge": {
       "Notes": "1. In the devtools, open the **Command** Menu using, `Cmd+Shift+P` or `Ctrl+Shift+P.` Search for \"Show 3D View\" and press `Enter`.\n2. This will open the **3D View** drawer next to the **Console**. For developers, it is useful to visualise a web page in three dimensions to,\n    - Find out how complex a web page is\n    - Spot out-of-viewport elements\n    - Debug z-index stacking issues\n    - Debug performance issues with composite layers\n",
       "Platform": [
@@ -26,7 +27,6 @@
     },
     "CreatedTime": "2022-06-30T03:54:44.000Z",
     "LastModifiedTime": "2022-07-09T08:09:51.000Z",
-    "Description": "Can I view a web page in 3D?",
     "Chrome": null,
     "Firefox": null,
     "Safari": null,

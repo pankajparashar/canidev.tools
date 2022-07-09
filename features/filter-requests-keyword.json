@@ -95,6 +95,7 @@
       ]
     },
     "CreatedTime": "2022-06-11T04:02:52.000Z",
-    "LastModifiedTime": "2022-06-26T13:52:10.000Z"
+    "LastModifiedTime": "2022-07-09T09:08:17.000Z",
+    "Description": "Can I filter requests in the Network tab with a keyword?"
   }
 }
