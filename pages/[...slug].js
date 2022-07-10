@@ -9,20 +9,28 @@ import * as fs from "fs"
 
 const Feature = props => {
     const { record, records, browser, slug } = props
+    
+    const url = `https://canidev.tools/${slug}/${browser}`
     const title = record.fields.Name + (browser ? " | " + browser.charAt(0).toUpperCase() + browser.slice(1) : "")
+    const image = `https://canidev.tools/images/${slug}.png`
 
     return (
         <>
             <Head>
                 <title>{title}</title>
-                <link rel="canonical" href={`https://canidev.tools/${slug}/${browser}`} />
-                <meta property="twitter:url" content={`https://canidev.tools/${slug}/${browser}`} />
+                <link rel="canonical" href={url} />
+                
+                /* Twitter */
+                <meta property="twitter:url" content={url} />
                 <meta property="twitter:title" content={title} />
                 <meta property="twitter:description" content={record.fields.Description} /> 
-                <meta
-                    property="twitter:image"
-                    content={`https://canidev.tools/images/${slug}.png`}
-                />
+                <meta property="twitter:image" content={image} />
+
+                /* Open Graph */                
+                <meta property="og:url" content={url} />
+                <meta property="og:title" content={title} />
+                <meta property="og:description" content={record.fields.Description} />
+                <meta property="og:image" content={image} />
             </Head>
             <Header records={records} />
             <details open>
