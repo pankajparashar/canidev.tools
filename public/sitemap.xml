@@ -976,6 +976,40 @@
     </url>
     
     <url>
+        <loc>https://www.canidev.tools/block-request-url/</loc>
+        <lastmod>2022-07-10T10:40:03.000Z</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://www.canidev.tools/block-request-url/chrome</loc>
+        <lastmod>2022-07-10T10:52:55.000Z</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.canidev.tools/block-request-url/firefox</loc>
+        <lastmod>2022-07-10T10:47:26.000Z</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.canidev.tools/block-request-url/edge</loc>
+        <lastmod>2022-07-10T10:58:00.000Z</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.canidev.tools/block-request-url/opera</loc>
+        <lastmod>2022-07-10T11:09:13.000Z</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
         <loc>https://www.canidev.tools/capture-node-screenshot/</loc>
         <lastmod>2022-06-30T06:47:16.000Z</lastmod>
         <changefreq>monthly</changefreq>
