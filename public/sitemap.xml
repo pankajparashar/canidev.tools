@@ -630,6 +630,33 @@
     </url>
     
     <url>
+        <loc>https://www.canidev.tools/inspect-devtools/</loc>
+        <lastmod>2022-07-11T13:39:26.000Z</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://www.canidev.tools/inspect-devtools/chrome</loc>
+        <lastmod>2022-07-11T13:56:37.000Z</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.canidev.tools/inspect-devtools/edge</loc>
+        <lastmod>2022-07-11T13:57:00.000Z</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.canidev.tools/inspect-devtools/opera</loc>
+        <lastmod>2022-07-11T13:57:24.000Z</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
         <loc>https://www.canidev.tools/capture-screenshot-console/</loc>
         <lastmod>2022-07-09T09:05:18.000Z</lastmod>
         <changefreq>monthly</changefreq>

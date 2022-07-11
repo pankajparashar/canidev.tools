@@ -1,0 +1,65 @@
+{
+  "id": "recHfzm5LA3rrDaOg",
+  "createdTime": "2022-07-11T13:38:56.000Z",
+  "fields": {
+    "Slug": "inspect-devtools",
+    "Opera": {
+      "Main": [
+        "recHfzm5LA3rrDaOg"
+      ],
+      "Name": "Inspect the devtools",
+      "LastModified": "2022-07-11T13:57:24.000Z",
+      "Category": [
+        "Other"
+      ],
+      "Notes": "1. With the devtools already open, press `Cmd+Shift+I `or `Ctrl+Shift+I` to  inspect the devtools panel itself using new instance of devtools.\n2. Important to note, you can keep using this shortcut to inspecting new instance of devtools recursively.\n",
+      "Video": "https://res.cloudinary.com/canidevtools/video/upload/v1657547785/Videos/inspect-devtools-opera_ixertt.mp4",
+      "Platform": [
+        "MacOS",
+        "Windows",
+        "Linux"
+      ]
+    },
+    "Name": "Inspect the devtools",
+    "Category": "Other",
+    "Description": "Can I inspect the developer tool itself?",
+    "Edge": {
+      "Main": [
+        "recHfzm5LA3rrDaOg"
+      ],
+      "Name": "Inspect the devtools",
+      "LastModified": "2022-07-11T13:57:00.000Z",
+      "Category": [
+        "Other"
+      ],
+      "Notes": "1. With the devtools already open, press `Cmd+Shift+I `or `Ctrl+Shift+I` to  inspect the devtools panel itself using new instance of devtools.\n2. Important to note, you can keep using this shortcut to inspecting new instance of devtools recursively.\n",
+      "Video": "https://res.cloudinary.com/canidevtools/video/upload/v1657547786/Videos/inspect-devtools-edge_ohfaqz.mp4",
+      "Platform": [
+        "MacOS",
+        "Windows",
+        "Linux"
+      ]
+    },
+    "Chrome": {
+      "Notes": "1. With the devtools already open, press `Cmd+Shift+I `or `Ctrl+Shift+I` to  inspect the devtools panel itself using new instance of devtools.\n2. Important to note, you can keep using this shortcut to inspecting new instance of devtools recursively.\n",
+      "Main": [
+        "recHfzm5LA3rrDaOg"
+      ],
+      "Name": "Inspect the devtools",
+      "Platform": [
+        "MacOS",
+        "Windows",
+        "Linux"
+      ],
+      "LastModified": "2022-07-11T13:56:37.000Z",
+      "Category": [
+        "Other"
+      ],
+      "Video": "https://res.cloudinary.com/canidevtools/video/upload/v1657547779/Videos/inspect-devtools-chrome_txsfxd.mp4"
+    },
+    "CreatedTime": "2022-07-11T13:38:56.000Z",
+    "LastModifiedTime": "2022-07-11T13:39:26.000Z",
+    "Firefox": null,
+    "Safari": null
+  }
+}
