@@ -1004,7 +1004,7 @@
     
     <url>
         <loc>https://www.canidev.tools/block-request-url/</loc>
-        <lastmod>2022-07-10T10:40:03.000Z</lastmod>
+        <lastmod>2022-07-12T12:15:12.000Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
@@ -1025,6 +1025,13 @@
     <url>
         <loc>https://www.canidev.tools/block-request-url/edge</loc>
         <lastmod>2022-07-10T11:49:00.000Z</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.canidev.tools/block-request-url/safari</loc>
+        <lastmod>2022-07-12T12:19:11.000Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>

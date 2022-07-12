@@ -82,7 +82,21 @@
       ]
     },
     "CreatedTime": "2022-07-10T07:23:35.000Z",
-    "LastModifiedTime": "2022-07-10T10:40:03.000Z",
-    "Safari": null
+    "LastModifiedTime": "2022-07-12T12:15:12.000Z",
+    "Safari": {
+      "Name": "Block request URL",
+      "LastModified": "2022-07-12T12:19:11.000Z",
+      "Main": [
+        "recNibTmeyFFoM1ir"
+      ],
+      "Category": [
+        "Network"
+      ],
+      "Notes": "1. In the **Network** tab, right click on the request **Name**, and select \"Block Request URL\".\n2. In the **Sources** tab, under the **Local Overrides** section in the left sidebar, you can manage the blocked request.\n",
+      "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1657628343/Images/block-request-url-safari_kjzy2s.png",
+      "Platform": [
+        "MacOS"
+      ]
+    }
   }
 }
