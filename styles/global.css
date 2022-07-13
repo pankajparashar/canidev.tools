@@ -57,7 +57,7 @@ blockquote {
 	margin: 0;
 	border-left: 1px solid;
 	padding-left: 1em;
-	background-color: antiquewhite;	
+	background-color: var(--background-color-1); 
 }
 
 button[disabled] {
