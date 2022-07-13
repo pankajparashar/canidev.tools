@@ -250,6 +250,8 @@ summary {
 	flex-grow: 1;
 }
 
+.fd_col { flex-direction: column }
+
 .jc_sb {
 	justify-content: space-between;
 }

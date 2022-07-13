@@ -1,8 +1,6 @@
 /* Carbon Ad */
 .carbon-cad {
   background: white;
-  border-radius: 10px;
-  box-shadow: 1px 1px 5px 5px rgb(0 0 0 / 10%);
   display: block;
   overflow: hidden;
   position: relative;
@@ -15,7 +13,6 @@
 
 .carbon-cad .carbon-img {
   margin-right: 10px;
-  border-radius: 6px;
   float: left;
 }
 
@@ -31,7 +28,6 @@
 
 .carbon-cad .carbon-img img {
   height: 100px;
-  border-radius: 6px;
 }
 
 .carbon-cad .carbon-text {
