@@ -1,0 +1,102 @@
+{
+  "id": "recfreyRKgYWvWaxm",
+  "createdTime": "2022-07-15T07:08:58.000Z",
+  "fields": {
+    "Category": "Console",
+    "CreatedTime": "2022-07-15T07:08:58.000Z",
+    "LastModifiedTime": "2022-07-15T07:10:07.000Z",
+    "Name": "Use console.count",
+    "Slug": "use-console-count",
+    "Description": "Can I use console.count API to count log statements?",
+    "Chrome": {
+      "Name": "Use console.count",
+      "LastModified": "2022-07-15T07:19:21.000Z",
+      "Main": [
+        "recfreyRKgYWvWaxm"
+      ],
+      "Category": [
+        "Console"
+      ],
+      "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1657869187/Images/use-console-count-chrome_khjyyj.png",
+      "Platform": [
+        "MacOS",
+        "Windows",
+        "Linux"
+      ],
+      "Version": "1-",
+      "Notes": "1. In the **Console** tab, use `console.count([label])` to count the number of times it has been called with the label. \n2. If label omitted, `count()` behaves as though it was called with the \"default\" label.\n3. The `console.countReset()` method resets counter used with `console.count()`.\n",
+      "References": "[1] \"Console API\", by Chrome DevTools [Docs](https://developer.chrome.com/docs/devtools/console/api/#count)\n"
+    },
+    "Firefox": {
+      "Name": "Use console.count",
+      "LastModified": "2022-07-15T07:19:32.000Z",
+      "Main": [
+        "recfreyRKgYWvWaxm"
+      ],
+      "Category": [
+        "Console"
+      ],
+      "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1657869187/Images/use-console-count-firefox_e4qm2o.png",
+      "Platform": [
+        "MacOS",
+        "Windows",
+        "Linux"
+      ],
+      "Version": "30-",
+      "Notes": "1. In the **Console** tab, use `console.count([label])` to count the number of times it has been called with the label. \n2. If label omitted, `count()` behaves as though it was called with the \"default\" label.\n3. The `console.countReset()` method resets counter used with `console.count()`.\n\n"
+    },
+    "Edge": {
+      "Name": "Use console.count",
+      "LastModified": "2022-07-15T07:20:31.000Z",
+      "Main": [
+        "recfreyRKgYWvWaxm"
+      ],
+      "Category": [
+        "Console"
+      ],
+      "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1657869187/Images/use-console-count-edge_yhckyk.png",
+      "Platform": [
+        "MacOS",
+        "Windows",
+        "Linux"
+      ],
+      "Version": "12-",
+      "Notes": "1. In the **Console** tab, use `console.count([label])` to count the number of times it has been called with the label. \n2. If label omitted, `count()` behaves as though it was called with the \"default\" label.\n3. The `console.countReset()` method resets counter used with `console.count()`.\n\n",
+      "References": "[1] \"Console API reference\", by Edge DevTools [Docs](https://docs.microsoft.com/en-us/microsoft-edge/devtools-guide-chromium/console/api#count)\n"
+    },
+    "Safari": {
+      "Name": "Use console.count",
+      "LastModified": "2022-07-15T07:19:44.000Z",
+      "Main": [
+        "recfreyRKgYWvWaxm"
+      ],
+      "Category": [
+        "Console"
+      ],
+      "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1657869187/Images/use-console-count-safari_grgi6m.png",
+      "Platform": [
+        "MacOS"
+      ],
+      "Version": "4-",
+      "Notes": "1. In the **Console** tab, use `console.count([label])` to count the number of times it has been called with the label. \n2. If label omitted, `count()` behaves as though it was called with the \"default\" label.\n3. The `console.countReset()` method resets counter used with `console.count()`.\n\n"
+    },
+    "Opera": {
+      "Name": "Use console.count",
+      "LastModified": "2022-07-15T07:19:55.000Z",
+      "Main": [
+        "recfreyRKgYWvWaxm"
+      ],
+      "Category": [
+        "Console"
+      ],
+      "Version": "11-",
+      "Platform": [
+        "MacOS",
+        "Windows",
+        "Linux"
+      ],
+      "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1657869187/Images/use-console-count-opera_igqhgl.png",
+      "Notes": "1. In the **Console** tab, use `console.count([label])` to count the number of times it has been called with the label. \n2. If label omitted, `count()` behaves as though it was called with the \"default\" label.\n3. The `console.countReset()` method resets counter used with `console.count()`.\n\n"
+    }
+  }
+}

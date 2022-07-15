@@ -1766,6 +1766,47 @@
     </url>
     
     <url>
+        <loc>https://www.canidev.tools/use-console-count/</loc>
+        <lastmod>2022-07-15T07:10:07.000Z</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://www.canidev.tools/use-console-count/chrome</loc>
+        <lastmod>2022-07-15T07:19:21.000Z</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.canidev.tools/use-console-count/firefox</loc>
+        <lastmod>2022-07-15T07:19:32.000Z</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.canidev.tools/use-console-count/edge</loc>
+        <lastmod>2022-07-15T07:20:31.000Z</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.canidev.tools/use-console-count/safari</loc>
+        <lastmod>2022-07-15T07:19:44.000Z</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.canidev.tools/use-console-count/opera</loc>
+        <lastmod>2022-07-15T07:19:55.000Z</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
         <loc>https://www.canidev.tools/disable-javascript/</loc>
         <lastmod>2022-07-09T09:10:21.000Z</lastmod>
         <changefreq>monthly</changefreq>
