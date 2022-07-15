@@ -10,11 +10,12 @@
       "Main": [
         "recWMjzSPSPKqqemX"
       ],
-      "Notes": "1. Inspect the element > Look for \"Classes\" button in bottom row of the styles section next to the Filter field.\n2. Click the button and search for the existing class names to add to the element.\n\n",
-      "LastModified": "2022-05-02T14:58:53.000Z",
+      "Notes": "1. Inspect the element > Look for \"Classes\" button in bottom row of the styles section next to the Filter field.\n2. Click the button and search for the existing class names to add to the element.\n",
+      "LastModified": "2022-07-15T13:14:35.000Z",
       "Category": [
         "CSS"
-      ]
+      ],
+      "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1657890790/Images/add-class-element-safari_xi1ltf.png"
     },
     "Slug": "add-class-element",
     "Opera": {
@@ -28,10 +29,11 @@
       ],
       "Notes": "1. Inspect the element > Look for \".cls\" button in the Styles pane next to the Filter field.\n2. Click the button and search for the existing class names to add to the element.\n",
       "Name": "Add class to element",
-      "LastModified": "2022-06-12T13:22:41.000Z",
+      "LastModified": "2022-07-15T13:14:47.000Z",
       "Category": [
         "CSS"
-      ]
+      ],
+      "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1657890786/Images/add-class-element-opera_hy9dzp.png"
     },
     "Name": "Add class to element",
     "Category": "CSS",
@@ -47,10 +49,11 @@
       "Main": [
         "recWMjzSPSPKqqemX"
       ],
-      "LastModified": "2022-05-08T16:31:19.000Z",
+      "LastModified": "2022-07-15T13:13:52.000Z",
       "Category": [
         "CSS"
-      ]
+      ],
+      "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1657890786/Images/add-class-element-firefox_qj5y0w.png"
     },
     "Edge": {
       "Notes": "1. Inspect the element > Look for \".cls\" button in the Styles pane next to the Filter field.\n2. Click the button and search for the existing class names to add to the element.\n",
@@ -63,10 +66,11 @@
         "recWMjzSPSPKqqemX"
       ],
       "Name": "Add class to element",
-      "LastModified": "2022-05-08T16:30:51.000Z",
+      "LastModified": "2022-07-15T13:14:03.000Z",
       "Category": [
         "CSS"
-      ]
+      ],
+      "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1657890787/Images/add-class-element-edge_m2fwla.png"
     },
     "Chrome": {
       "Notes": "1. Inspect the element > Look for \".cls\" button in the Styles pane next to the Filter field.\n2. Click the button and search for the existing class names to add to the element.\n",
@@ -79,10 +83,11 @@
         "Windows",
         "Linux"
       ],
-      "LastModified": "2022-05-08T16:31:42.000Z",
+      "LastModified": "2022-07-15T13:13:36.000Z",
       "Category": [
         "CSS"
-      ]
+      ],
+      "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1657890788/Images/add-class-element-chrome_lutspp.png"
     },
     "CreatedTime": "2022-02-19T11:13:05.000Z",
     "LastModifiedTime": "2022-07-09T09:01:08.000Z"
