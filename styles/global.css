@@ -37,6 +37,7 @@ body {
 	font-variant-numeric: slashed-zero;
 	font-variation-settings: "wght" 400;
 	word-spacing: -3px;
+	font-feature-settings: "ss01","ss02","ss12";
 }
 
 button {
