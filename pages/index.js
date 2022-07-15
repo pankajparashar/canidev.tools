@@ -58,10 +58,11 @@ export default function IndexPage(props) {
 	return (
 		<>
 			<Head>
-				<meta
-			  	property="twitter:image"
-			  	content="https://res.cloudinary.com/canidevtools/image/upload/v1652023254/social-media-image.png"
-				/>
+				<title>Can I DevTools?</title>
+				<meta property="og:url" content="https://canidev.tools/" />
+				<meta property="og:title" content="Can I DevTools?" />
+				<meta property="og:description" name="description" content="It is like @CanIUse, but for the browser devtools, created and curated by Pankaj Parashar" />
+				<meta property="og:image" content="https://res.cloudinary.com/canidevtools/image/upload/v1657885902/og-image_ujdcm3.png" />
 			</Head>
 			<Header records={records} />
 			{showFavorites ? <Favorites records={records} /> : null}

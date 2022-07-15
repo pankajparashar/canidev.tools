@@ -20,16 +20,10 @@ const Feature = props => {
                 <title>{title}</title>
                 <link rel="canonical" href={url} />
                 
-                /* Twitter */
-                <meta property="twitter:url" content={url} />
-                <meta property="twitter:title" content={title} />
-                <meta property="twitter:description" content={record.fields.Description} /> 
-                <meta property="twitter:image" content={image} />
-
                 /* Open Graph */                
                 <meta property="og:url" content={url} />
                 <meta property="og:title" content={title} />
-                <meta property="og:description" content={record.fields.Description} />
+                <meta property="og:description" name="description" content={record.fields.Description} />
                 <meta property="og:image" content={image} />
             </Head>
             <Header records={records} />
