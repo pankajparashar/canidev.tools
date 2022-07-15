@@ -2101,20 +2101,34 @@
     
     <url>
         <loc>https://www.canidev.tools/show-tab-order/</loc>
-        <lastmod>2022-07-09T09:10:38.000Z</lastmod>
+        <lastmod>2022-07-15T06:48:41.000Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
     <url>
         <loc>https://www.canidev.tools/show-tab-order/chrome</loc>
-        <lastmod>2022-06-29T04:54:28.000Z</lastmod>
+        <lastmod>2022-07-15T06:47:36.000Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
     
     <url>
         <loc>https://www.canidev.tools/show-tab-order/firefox</loc>
-        <lastmod>2022-05-09T15:09:04.000Z</lastmod>
+        <lastmod>2022-07-15T06:48:25.000Z</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.canidev.tools/show-tab-order/edge</loc>
+        <lastmod>2022-07-15T06:49:09.000Z</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.canidev.tools/show-tab-order/opera</loc>
+        <lastmod>2022-07-15T06:50:27.000Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
