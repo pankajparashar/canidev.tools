@@ -1337,6 +1337,33 @@
     </url>
     
     <url>
+        <loc>https://www.canidev.tools/copy-styles-js/</loc>
+        <lastmod>2022-07-16T05:32:46.000Z</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://www.canidev.tools/copy-styles-js/chrome</loc>
+        <lastmod>2022-07-16T05:36:37.000Z</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.canidev.tools/copy-styles-js/edge</loc>
+        <lastmod>2022-07-16T05:39:00.000Z</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.canidev.tools/copy-styles-js/opera</loc>
+        <lastmod>2022-07-16T05:39:54.000Z</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
         <loc>https://www.canidev.tools/run-previous-commands/</loc>
         <lastmod>2022-07-09T09:06:48.000Z</lastmod>
         <changefreq>monthly</changefreq>
