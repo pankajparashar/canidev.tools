@@ -168,7 +168,7 @@ input:focus-visible {
 	outline: 0;
 }
 
-summary {
+label, summary {
 	cursor: pointer;
 }
 
@@ -210,8 +210,13 @@ summary {
 }
 
 .h_3em { height: 3em }
+.mh_5em { min-height: 5em }
 
 /* BACKGROUND */
+.bgc_1 {
+	background: var(--background-color-1);
+}
+
 .bgc_000 {
 	background-color: #000;
 }
