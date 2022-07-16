@@ -27,7 +27,7 @@ export function AddNew() {
 				</div>
 				<div className={`d_grid gtc_5fr p_05em h_3em`}>
 					{BROWSERS.map((browser) => (
-						<button className="b_1px_dashed">
+						<button className="b_1px_dashed" key={browser}>
 							<input type="checkbox" />
 						</button>
 					))}
