@@ -237,10 +237,6 @@ label, summary {
 	color: white;
 }
 
-.c_gold {
-	color: goldenrod;
-}
-
 .d_grid {
 	display: grid;
 }
@@ -296,6 +292,23 @@ label, summary {
 }
 .gap_5px { gap: 5px }
 
+.fs_12px {
+	font-size: 12px
+}
+.c_9ab {
+	color: #9ab
+}
+.search {
+	text-decoration: none
+}
+.search:hover {
+	color: #07f;
+	background-color: var(--background-color-light) !important;
+}
+.search:hover div {
+	background-color: whitesmoke
+}
+
 /* PADDING */
 .p_05em {
 	padding: 0.5em;
@@ -307,6 +320,9 @@ label, summary {
 
 .pl_1em {
 	padding-left: 1em;
+}
+.pr_1em {
+	padding-right: 1em;
 }
 
 .pt_1em {
