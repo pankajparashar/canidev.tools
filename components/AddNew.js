@@ -17,7 +17,7 @@ export function AddNew() {
 			</summary>
 			<div className="d_grid gtc_320px bgc_light" style={{ borderLeft: `.25em solid var(--background-color-dark)` }}>
 				<div className="p_05em d_flex gap_5px h_3em">
-					<input type="text" className="pl_05em fs_16px ff_inherit b_1px_dashed w_100pct" placeholder="Enter name" value={title} onChange={e => setTitle(e.target.value)} />
+					<input type="text" className="pl_05em ff_inherit b_1px_dashed w_100pct" placeholder="Enter name" value={title} onChange={e => setTitle(e.target.value)} />
 					<button className="w_auto but_1 b_1px_dashed pl_05em pr_05em" title="Add" onClick={onAdd} disabled={!title}>
 						<svg x="0px" y="0px"
 						width="18" height="18"

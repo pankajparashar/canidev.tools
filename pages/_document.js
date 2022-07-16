@@ -51,17 +51,6 @@ class MyDocument extends Document {
           <meta name="application-name" content="Can I DevTools?" />
           <meta name="msapplication-TileColor" content="#000000" />
           <meta name="theme-color" content="#ffffff" />
-          <meta property="og:type" content="website" />
-          <meta property="og:url" content="https://canidev.tools/" />
-          <meta property="og:title" content="Can I Devtools?" />
-          <meta
-            property="og:description"
-            content="Can I DevTools is like Can I Use but for the browser devtools. It's created and curated by Pankaj Parashar."
-          />
-          <meta
-            property="og:image"
-            content="https://res.cloudinary.com/canidevtools/image/upload/v1652023254/social-media-image.png"
-          />
           <script
             data-goatcounter="https://canidevtools.goatcounter.com/count"
             async

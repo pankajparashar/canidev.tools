@@ -26,7 +26,7 @@ html {
 }
 
 body {
-	font-size: 15px;
+	font-size: 1em;
 	line-height: 1.75;
 	font-family: 'InputMono', monospace;
 	margin: 0;
@@ -37,7 +37,7 @@ body {
 	font-variant-numeric: slashed-zero;
 	font-variation-settings: "wght" 400;
 	word-spacing: -3px;
-	font-feature-settings: "ss01","ss02","ss12";
+	font-feature-settings: "ss01", "ss02", "ss12";
 }
 
 button {
@@ -47,11 +47,9 @@ button {
 	border: 0;
 	cursor: pointer;
 	background: none;
-	font-size: inherit;
 	color: currentColor;
 	padding: 0;
 	font-family: inherit;
-	font-size: inherit;
 }
 
 blockquote {
@@ -85,6 +83,9 @@ button[disabled] {
 input[type="checkbox"] {
 	accent-color: black;
 	background-color: black;
+}
+input[type="text"] {
+	font-size: inherit;
 }
 
 strong,
@@ -149,12 +150,6 @@ input {
 	border-radius: 0;
 }
 
-.has-dropcap:first-letter {
-  float: left;
-  font-size: 5rem;
-  line-height: 0.65;
-   margin: 0.15em 0.1em 0.2em 0;
-}
 .wrapper {
 	position: relative;
 	padding-bottom: 56.25%; /* 16:9 */
@@ -174,7 +169,6 @@ input:focus-visible {
 }
 
 summary {
-	font-size: 14px;
 	cursor: pointer;
 }
 
@@ -350,7 +344,6 @@ summary {
 	padding-left: 0.5em;
 }
 
-.fs_16px { font-size: 1em }
 .ff_inherit { font-family: inherit }
 
 /* BORDER */

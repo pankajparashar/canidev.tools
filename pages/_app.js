@@ -6,9 +6,10 @@ import "../styles/carbon.css";
 const MyApp = ({ Component, pageProps }) => (
   <>
     <Head>
-      <meta name="viewport" content="width=device-width, initial-scale=0.9, viewport-fit=cover" />
+      <meta name="viewport" content="width=device-width" />
       <link rel="canonical" href="https://canidev.tools/" />
   
+      <meta property="og:type" content="website" />
       <meta property="twitter:card" content="summary_large_image" />
       <meta name="twitter:site" content="@CanIDevTools" />
       <meta name="twitter:creator" content="@pankajparashar" />
