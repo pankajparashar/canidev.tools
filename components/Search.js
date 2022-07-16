@@ -38,25 +38,31 @@ export function Search() {
 	return (
 	  <div className="d_flex fd_col gap_1em">
 		<Input mode="suggestions" enableVoice={true} showDropdownTips={true} />
-		<Results openNewTab={true} showImage={false} resultTemplate={{
+		<div className="d_flex jc_sb">
+			<Summary />
+			<ResultsPerPage label="" size="sm" />
+		</div>
+		<div style={{ overflow: "scroll", maxHeight: "50vh" }}>
+		<Results appearance="list" openNewTab={true} showImage={false} resultTemplate={{
 			html: `
 				<a href="{{url}}" target="_blank" class="search">
-					<div class="b_1px p_05em">
+					<div class="p_05em">
 						<div class="fw_bold">{{title}}</div>
-						<div class="fs_12px c_9ab">{{url.slice(12)}}</div>
+						<div class="fs_12px c_9ab">{{url.slice(25)}}</div>
 						<div>{{description}}</div>
 					</div>
 				</a>
 			`
 		}} />
-		<Pagination />
-	  </div>
+		</div>
+		<div className="pos_sticky bot_0 p-6">
+		  <Pagination />
+		</div>	  </div>
 	);
   });
 
   return (
 	<SearchProvider
-	  viewType="list"
 	  search={{
 		pipeline,
 		fields,

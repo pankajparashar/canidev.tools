@@ -248,7 +248,7 @@ label, summary {
 .fg_1 {
 	flex-grow: 1;
 }
-
+.fl_1 {flex: 1}
 .fd_col { flex-direction: column }
 
 .jc_sb {
@@ -299,13 +299,18 @@ label, summary {
 	color: #9ab
 }
 .search {
-	text-decoration: none
+	display: block;
+	text-decoration: none;
+	border-radius: 0.375em;
+	border: 1px solid #d2d6dc;
 }
 .search:hover {
 	color: #07f;
+	border: 1px solid #07f;
+	border-radius: 0;
 	background-color: var(--background-color-light) !important;
 }
-.search:hover div {
+.search:hover > div {
 	background-color: whitesmoke
 }
 
