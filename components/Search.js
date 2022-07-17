@@ -1,75 +1,74 @@
-import * as React from "react"
-import { useSearchContext } from '@sajari/react-hooks';
+import { useEffect, useState } from "react";
+import Fuse from "fuse.js";
+import { CategoryColors } from "../lib/fetch"
 
-import {
-  FieldDictionary,
-  FilterBuilder,
-  Filter,
-  Input,
-  Pagination,
-  Pipeline,
-  RangeFilterBuilder,
-  Results,
-  ResultsPerPage,
-  SearchProvider,
-  Sorting,
-  Summary,
-  ViewType,
-} from '@sajari/react-search-ui';
-
-export function Search() {
-  const pipeline = new Pipeline(
-	{
-	  account: '1657965761834578934',
-	  collection: 'canidev-tools',
-	},
-	'website',
-  );
-
-  const fields = new FieldDictionary({
-	title: 'title',
-	description: 'description',
-	url: 'url'
-  });
-
-  const App = React.memo(() => {
-	const { searched } = useSearchContext();
-
+export function Search(props) {
+	const options = {
+		includeScore: false,
+		minMatchCharLength: 1,
+		threshold: 0.25,
+		keys: ["fields.Name"]
+	};
+	const [fuse, setFuse] = useState(new Fuse(props.records, options));
+	const [query, setQuery] = useState("");
+	const [results, setResults] = useState([])
+	
+	const onKeyDown = (event) => {
+		if (event.keyCode === 27) {
+			setResults([])
+			setQuery("")
+			props.setShowSearch(false)
+		} else {
+			const q = event.target.value
+			setQuery(q)
+			const r = fuse.search(q).map((r) => r.item)
+			setResults(r)
+		}
+	};
+	
 	return (
-	  <div className="d_flex fd_col gap_1em">
-		<Input mode="suggestions" enableVoice={true} showDropdownTips={true} />
-		<div className="d_flex jc_sb">
-			<Summary />
-			<ResultsPerPage label="" size="sm" />
-		</div>
-		<div style={{ overflow: "scroll", maxHeight: "50vh" }}>
-		<Results appearance="list" openNewTab={true} showImage={false} resultTemplate={{
-			html: `
-				<a href="{{url}}" target="_blank" class="search">
-					<div class="p_05em">
-						<div class="fw_bold">{{title}}</div>
-						<div class="fs_12px c_9ab">{{url.slice(25)}}</div>
-						<div>{{description}}</div>
-					</div>
-				</a>
-			`
-		}} />
-		</div>
-		<div className="pos_sticky bot_0 p-6">
-		  <Pagination />
-		</div>	  </div>
-	);
-  });
-
-  return (
-	<SearchProvider
-	  search={{
-		pipeline,
-		fields,
-	  }}
-	  searchOnLoad
-	>
-	  <App />
-	</SearchProvider>
-  );
+		<div className="d_flex h_100pct c_000">
+			<input 
+				autoFocus
+				autoComplete="off"
+				spellCheck="false"
+				autoCapitalize="off"
+				autoCorrect="off"
+				type="search" 
+				className="w_100pct b_0 pl_05em ff_inherit fs_inherit" 
+				placeholder="Can I ... ?" 
+				onKeyDown={onKeyDown}
+			/>
+			{query.length > 1 ? 
+				<div 
+					className="b_1px search" 
+					style={{ 
+						position: 'absolute',
+						top: '100%',
+						width: '100%',
+						left: 0,
+			    		backgroundColor: 'white',
+						maxHeight: "50vh",
+						overflow: "auto"
+				    }}
+				>
+					{results.map(r => {
+						const c = CategoryColors[r.fields.Category]
+						return (
+							<a href={`/${r.fields.Slug}`} rel="noreferrer" target="_blank">
+								<div className="p_05em bb_1px" style={{ borderLeft: `.25em solid ${c}` }}>
+									{r.fields.Name} <span>↵</span>
+								</div>
+							</a>
+						)
+					})}
+					{query.length > 0 ? 
+						<a href={`https://github.com/pankajparashar/canidev.tools/issues/new?title=${query}&labels=Add&assignees=pankajparashar`} rel="noreferrer" target="_blank">
+							<div className="p_05em bgc_light">+Add New: <strong>{query}</strong></div> 
+						</a>
+					: null} 
+				</div>
+			: null}
+		</div>	
+	)
 }

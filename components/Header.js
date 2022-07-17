@@ -1,18 +1,15 @@
 import { useEffect, useState } from "react";
-import { Button, Modal, ModalHeader, ModalFooter, ModalBody, ModalTitle, ModalCloseButton } from '@sajari/react-components';
 
 import { BROWSERS } from "../lib/fetch";
-import { Search } from "../components/Search";
+import { Search } from "./Search"
 
 export function Header({ records }) {
-	const [open, setOpen] = useState(false);
+	const [showSearch, setShowSearch] = useState(false)
+	const toggleSearch = prevState => setShowSearch(!showSearch)
 	
-	  const onOpen = () => setOpen(true);
-	  const onClose = () => setOpen(false);
-
 	return (
 		<div className={`d_grid gtc_320px c_fff bgc_000 pos_sticky top_0`} id="header">
-			<div className="br_1px_dark bb_1px_353939 d_grid gtc_3em_1fr_3em ai_center h_3em">
+			<div className="br_1px_dark bb_1px_353939 d_grid gtc_3em_1fr_3em ai_center h_3em"  style={{ position: "relative" }}>
 				<button className="but_2 br_1px_dark d_grid ai_center" onClick={e => (window.location.href = "/")} title="/">
 					<svg version="1.1" viewBox="0 0 752 752" className="w_100pct">
 						<linearGradient x1="0" y1="0" x2="100%" y2="100%" id="gradient">
@@ -25,14 +22,22 @@ export function Header({ records }) {
 					 	</g>
 					</svg>		
 				</button>
-				<div className="pl_1em fg_1 br_1px_dark h_3em d_flex ai_center jc_sb pr_1em">
-					<strong>Can I DevTools?</strong>
-					<span className="fw_bold">({records.length})</span>
-				</div>
-				<button onClick={onOpen} className="but_2 d_flex ai_center jc_center">
-					<svg height="3em" version="1.1" viewBox="0 0 752 752">
-						<path d="m198.41 198.41 138.13 157.86v157.86l78.934 39.461v-197.33l138.13-157.86h-177.59z" fill="#fff"/>
-					</svg>
+				{!showSearch ?
+					<div className="pl_05em fg_1 br_1px_dark h_3em d_flex ai_center jc_sb pr_05em">
+						<strong>Can I DevTools?</strong>
+						<span className="fw_bold">{records.length}</span>
+					</div>
+					: <Search records={records} setShowSearch={setShowSearch} />
+				}
+				<button onClick={toggleSearch} className="but_2 d_flex ai_center jc_center">
+					{!showSearch ? 
+						<svg height="3em" version="1.1" viewBox="0 0 752 752">
+							<path d="m198.41 198.41 138.13 157.86v157.86l78.934 39.461v-197.33l138.13-157.86h-177.59z" fill="#fff"/>
+						</svg> :
+						<svg height="3em" version="1.1" viewBox="0 0 752 752">
+							 <path d="m376 178.68c-108.98 0-197.32 88.344-197.32 197.32s88.348 197.32 197.32 197.32c108.98 0 197.32-88.348 197.32-197.32 0.003906-108.98-88.344-197.32-197.32-197.32zm69.766 295-69.766-69.766-69.766 69.766-27.906-27.906 69.77-69.766-69.77-69.766 27.906-27.906 69.766 69.77 69.766-69.766 27.906 27.906-69.766 69.762 69.766 69.766z" fill="#fff"/>
+						</svg>
+					}
 				</button>
 			</div>
 			<div className={`d_grid gtc_5fr bb_1px_353939 h_3em`}>
@@ -53,13 +58,6 @@ export function Header({ records }) {
 					</button>
 				))}
 			</div>
-			
-			<Modal open={open} onClose={onClose} size="screen-sm">
-				<ModalBody>
-				  <Search />
-				</ModalBody>
-			  </Modal>
-
 		</div>
 	);
 }

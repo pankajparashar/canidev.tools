@@ -7,6 +7,12 @@ html {
 	color: black;
 }
 
+::-webkit-search-cancel-button {
+
+  /* Remove default */
+  -webkit-appearance: none;
+  }
+  
 :root {
 	--border-color-light: #bdc3c7;
 	--border-color-dark: #666;
@@ -236,6 +242,9 @@ label, summary {
 .c_fff {
 	color: white;
 }
+.c_000 {
+	color: black;
+}
 
 .d_grid {
 	display: grid;
@@ -299,19 +308,35 @@ label, summary {
 	color: #9ab
 }
 .search {
-	display: block;
+  --shadow-color: 0deg 0% 62%;
+  --shadow-elevation-low:
+	0px 1px 1.1px hsl(var(--shadow-color) / 0.34),
+	0px 1.7px 1.9px -1.2px hsl(var(--shadow-color) / 0.34),
+	-0.1px 4px 4.5px -2.5px hsl(var(--shadow-color) / 0.34);
+  --shadow-elevation-medium:
+	0px 1px 1.1px hsl(var(--shadow-color) / 0.44),
+	0px 3.1px 3.5px -0.6px hsl(var(--shadow-color) / 0.44),
+	-0.1px 6.3px 7.1px -1.2px hsl(var(--shadow-color) / 0.44),
+	-0.2px 12.8px 14.4px -1.9px hsl(var(--shadow-color) / 0.44),
+	-0.3px 25px 28.1px -2.5px hsl(var(--shadow-color) / 0.44);
+  --shadow-elevation-high:
+	0px 1px 1.1px hsl(var(--shadow-color) / 0.41),
+	-0.1px 6.7px 7.5px -0.3px hsl(var(--shadow-color) / 0.41),
+	-0.2px 12.3px 13.8px -0.6px hsl(var(--shadow-color) / 0.41),
+	-0.2px 18.9px 21.3px -0.8px hsl(var(--shadow-color) / 0.41),
+	-0.4px 27.9px 31.4px -1.1px hsl(var(--shadow-color) / 0.41),
+	-0.5px 40.3px 45.3px -1.4px hsl(var(--shadow-color) / 0.41),
+	-0.7px 57.6px 64.8px -1.7px hsl(var(--shadow-color) / 0.41),
+	-1px 80.8px 90.9px -1.9px hsl(var(--shadow-color) / 0.41),
+	-1.4px 111.2px 125.1px -2.2px hsl(var(--shadow-color) / 0.41),
+	-1.9px 150px 168.8px -2.5px hsl(var(--shadow-color) / 0.41);
+	box-shadow: var(--shadow-elevation-low)
+}
+.search a {
 	text-decoration: none;
-	border-radius: 0.375em;
-	border: 1px solid #d2d6dc;
 }
-.search:hover {
-	color: #07f;
-	border: 1px solid #07f;
-	border-radius: 0;
-	background-color: var(--background-color-light) !important;
-}
-.search:hover > div {
-	background-color: whitesmoke
+.search a:hover > div {
+	background-color: whitesmoke !important;
 }
 
 /* PADDING */
@@ -371,9 +396,10 @@ label, summary {
 }
 
 .ff_inherit { font-family: inherit }
+.fs_inherit { font-size: inherit }
 
 /* BORDER */
-
+.b_0 {border: 0}
 .b_1px {
 	border: 1px solid var(--border-color-light);
 }
