@@ -1,0 +1,35 @@
+{
+  "id": "recC44aQK9UXnj4DD",
+  "createdTime": "2022-07-17T15:03:45.000Z",
+  "fields": {
+    "Slug": "zoom-inout-devtools",
+    "Name": "Zoom In & Out devtools",
+    "Category": "Accessibility",
+    "Description": "Can I zoom in and out of the devtools panel?",
+    "Chrome": {
+      "Notes": "1. Open **Command Menu** and Run > \"Zoom in\" or `Cmd+` or `Ctrl+` to increase the zoom level.\n2. Run > \"Zoom out\" or `Cmd-` or `Ctrl-` to decrease the zoom level.\n3. Run > \"Reset zoom level\" or `Cmd+0` or `Ctrl+0` to reset the zoom level.\n",
+      "Main": [
+        "recC44aQK9UXnj4DD"
+      ],
+      "Name": "Zoom In & Out devtools",
+      "LastModified": "2022-07-17T15:52:55.000Z",
+      "Category": [
+        "Accessibility"
+      ],
+      "GIF": "https://res.cloudinary.com/canidevtools/image/upload/v1658071658/GIF/zoom-inout-devtools-chrome_ne2vt3.gif",
+      "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1658072302/Images/zoom-inout-devtools-chrome_ye1g2i.png",
+      "Video": "https://res.cloudinary.com/canidevtools/video/upload/v1658071741/Videos/zoom-inout-devtools-chrome_bbzz8v.mp4",
+      "Platform": [
+        "MacOS",
+        "Windows",
+        "Linux"
+      ]
+    },
+    "CreatedTime": "2022-07-17T15:03:45.000Z",
+    "LastModifiedTime": "2022-07-17T15:09:09.000Z",
+    "Firefox": null,
+    "Edge": null,
+    "Safari": null,
+    "Opera": null
+  }
+}

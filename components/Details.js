@@ -47,6 +47,7 @@ export function Details({ details, id }) {
 	const {
 		Video,
 		Image,
+		GIF,
 		Name,
 		Notes,
 		References,
@@ -66,7 +67,7 @@ export function Details({ details, id }) {
 	return (
 		<div className={`d_grid gtc_320px bgc_light`}>
 			<div className={`br_1px bb_1px p_1em`}>
-				<Media Name={Name} Video={Video} Image={Image} />
+				<Media Name={Name} Video={Video} Image={Image} GIF={GIF} />
 			</div>
 			<div className={`br_1px bb_1px p_1em`}>
 				<details open>
@@ -98,7 +99,8 @@ export function Details({ details, id }) {
 					</dd>
 
 					<dt className={`fw_bold`}>Platform:</dt>
-					<dd className={`mb_1em`}>{Platform?.map((p) => p).join(", ")}</dd>
+					<dd className={`mb_1em`}>{Platform?.map((p) => p).join(", ")}<br />
+					</dd>
 
 					<dt className={`fw_bold`}>Category:</dt>
 					<dd className={`mb_1em`}>{Category || ""}</dd>
@@ -118,20 +120,11 @@ export function Details({ details, id }) {
 						</a>
 						{" | "}
 						<a
-							href={`https://twitter.com/intent/tweet?text=${Share || ""}&via=canidev_tools`}
+							href={`https://twitter.com/intent/tweet?text=${Share || Name}&via=canidev_tools`}
 							rel="noreferrer"
 							target="_blank"
 						>
 							Share
-						</a>
-						{" | "}
-						<a
-							href={`https://live.browserstack.com/dashboard`}
-							rel="noreferrer"
-							target="_blank"
-							title="via BrowserStack"
-						>
-							Test? 
 						</a>
 						<br />
 						<Link
@@ -140,8 +133,17 @@ export function Details({ details, id }) {
 								query: { slug: [Slug, Browser.toLowerCase()] },
 							}}
 						>
-							<a target="_blank" rel="noopener noreferrer">Permalink</a>
+							<a target="_blank" rel="noopener noreferrer">Link</a>
 						</Link>
+						{" | "}
+						<a
+							href={`https://live.browserstack.com/dashboard`}
+							rel="noreferrer"
+							target="_blank"
+							title="via BrowserStack"
+						>
+							Test
+						</a>?
 					</dt>
 				</dl>
 			</div>

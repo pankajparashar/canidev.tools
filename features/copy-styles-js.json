@@ -7,59 +7,59 @@
       "Main": [
         "recUG0CRvheKAK8zV"
       ],
-      "Name": "Copy styles as JS",
-      "LastModified": "2022-07-16T05:39:54.000Z",
-      "Category": [
-        "CSS"
-      ],
-      "Notes": "1. Inspect element > In the **Styles** pane, right click on the style declaration and select \"Copy declaration as JS\" or \"Copy all declarations as JS\" to copy one or all styles.\n",
       "Platform": [
         "MacOS",
         "Windows",
         "Linux"
       ],
-      "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1657949990/Images/copy-styles-js-opera_tmocgn.png"
+      "Notes": "1. Inspect element > In the **Styles** pane, right click on the style declaration and select \"Copy declaration as JS\" or \"Copy all declarations as JS\" to copy one or all styles.\n",
+      "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1657949990/Images/copy-styles-js-opera_tmocgn.png",
+      "Name": "Copy styles as JS",
+      "LastModified": "2022-07-16T05:39:54.000Z",
+      "Category": [
+        "CSS"
+      ]
     },
     "Name": "Copy styles as JS",
     "Category": "CSS",
     "Description": "Can I copy style declarations as JavaScript object?",
     "Edge": {
-      "Main": [
-        "recUG0CRvheKAK8zV"
-      ],
-      "Name": "Copy styles as JS",
-      "LastModified": "2022-07-16T05:39:00.000Z",
-      "Category": [
-        "CSS"
-      ],
       "Notes": "1. Inspect element > In the **Styles** pane, right click on the style declaration and select \"Copy declaration as JS\" or \"Copy all declarations as JS\" to copy one or all styles.\n",
       "Platform": [
         "MacOS",
         "Windows",
         "Linux"
+      ],
+      "Main": [
+        "recUG0CRvheKAK8zV"
       ],
       "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1657949843/Images/copy-styles-js-edge_gquocl.png",
       "Version": "93-",
-      "References": "[1] \"What's new in DevTools 93?\", by Edge Devtools [Docs](https://docs.microsoft.com/en-us/microsoft-edge/devtools-guide-chromium/whats-new/2021/07/devtools#copy-a-declaration-in-the-styles-pane-for-css-in-js-libraries)\n"
+      "Name": "Copy styles as JS",
+      "References": "[1] \"What's new in DevTools 93?\", by Edge Devtools [Docs](https://docs.microsoft.com/en-us/microsoft-edge/devtools-guide-chromium/whats-new/2021/07/devtools#copy-a-declaration-in-the-styles-pane-for-css-in-js-libraries)\n",
+      "LastModified": "2022-07-16T05:39:00.000Z",
+      "Category": [
+        "CSS"
+      ]
     },
     "Chrome": {
+      "References": "[1] \"Copy as JS\", by Chrome Devtools [Docs](https://developer.chrome.com/blog/new-in-devtools-96/#copy-as-js)\n",
+      "Notes": "1. Inspect element > In the **Styles** pane, right click on the style declaration and select \"Copy declaration as JS\" or \"Copy all declarations as JS\" to copy one or all styles.\n",
       "Main": [
         "recUG0CRvheKAK8zV"
       ],
+      "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1657949790/Images/copy-styles-js-chrome_sbkzzh.png",
       "Name": "Copy styles as JS",
-      "LastModified": "2022-07-16T05:36:37.000Z",
-      "Category": [
-        "CSS"
-      ],
+      "Version": "96-",
       "Platform": [
         "MacOS",
         "Windows",
         "Linux"
       ],
-      "Notes": "1. Inspect element > In the **Styles** pane, right click on the style declaration and select \"Copy declaration as JS\" or \"Copy all declarations as JS\" to copy one or all styles.\n",
-      "Version": "96-",
-      "References": "[1] \"Copy as JS\", by Chrome Devtools [Docs](https://developer.chrome.com/blog/new-in-devtools-96/#copy-as-js)\n",
-      "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1657949790/Images/copy-styles-js-chrome_sbkzzh.png"
+      "LastModified": "2022-07-16T05:36:37.000Z",
+      "Category": [
+        "CSS"
+      ]
     },
     "CreatedTime": "2022-07-16T04:51:24.000Z",
     "LastModifiedTime": "2022-07-16T05:32:46.000Z",

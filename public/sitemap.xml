@@ -657,6 +657,19 @@
     </url>
     
     <url>
+        <loc>https://www.canidev.tools/zoom-inout-devtools/</loc>
+        <lastmod>2022-07-17T15:09:09.000Z</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://www.canidev.tools/zoom-inout-devtools/chrome</loc>
+        <lastmod>2022-07-17T15:52:55.000Z</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
         <loc>https://www.canidev.tools/inspect-devtools/</loc>
         <lastmod>2022-07-11T13:39:26.000Z</lastmod>
         <changefreq>monthly</changefreq>
