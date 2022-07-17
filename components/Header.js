@@ -23,9 +23,9 @@ export function Header({ records }) {
 					</svg>		
 				</button>
 				{!showSearch ?
-					<div className="pl_05em fg_1 br_1px_dark h_3em d_flex ai_center jc_sb pr_05em">
+					<div className="pl_1em fg_1 br_1px_dark h_3em d_flex ai_center jc_sb pr_1em">
 						<strong>Can I DevTools?</strong>
-						<span className="fw_bold">{records.length}</span>
+						<span className="fw_bold" style={{ color: "antiquewhite" }}>{records.length}</span>
 					</div>
 					: <Search records={records} setShowSearch={setShowSearch} />
 				}
