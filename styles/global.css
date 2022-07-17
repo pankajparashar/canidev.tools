@@ -245,6 +245,9 @@ label, summary {
 .c_000 {
 	color: black;
 }
+.c_1 {
+	color: var(--background-color-dark)
+}
 
 .d_grid {
 	display: grid;
@@ -336,7 +339,7 @@ label, summary {
 	text-decoration: none;
 }
 .search a:hover > div {
-	background-color: whitesmoke !important;
+	background-color: var(--background-color-light);
 }
 
 /* PADDING */

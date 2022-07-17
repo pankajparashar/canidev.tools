@@ -27,7 +27,7 @@ export function Search(props) {
 	};
 	
 	return (
-		<div className="d_flex h_100pct c_000">
+		<div className="d_flex h_100pct c_1">
 			<input 
 				autoFocus
 				autoComplete="off"
@@ -41,13 +41,12 @@ export function Search(props) {
 			/>
 			{query.length > 1 ? 
 				<div 
-					className="b_1px search" 
+					className="b_1px search bgc_1" 
 					style={{ 
 						position: 'absolute',
 						top: '100%',
 						width: '100%',
 						left: 0,
-			    		backgroundColor: 'white',
 						maxHeight: "50vh",
 						overflow: "auto"
 				    }}
