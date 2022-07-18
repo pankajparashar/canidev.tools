@@ -2,67 +2,107 @@
   "id": "recC44aQK9UXnj4DD",
   "createdTime": "2022-07-17T15:03:45.000Z",
   "fields": {
-    "Slug": "zoom-inout-devtools",
-    "Name": "Zoom In & Out devtools",
-    "Category": "Accessibility",
-    "Description": "Can I zoom in and out of the devtools panel?",
-    "Chrome": {
-      "Notes": "1. Open **Command Menu** and Run > \"Zoom in\" or `Cmd+` or `Ctrl+` to increase the zoom level.\n2. Run > \"Zoom out\" or `Cmd-` or `Ctrl-` to decrease the zoom level.\n3. Run > \"Reset zoom level\" or `Cmd+0` or `Ctrl+0` to reset the zoom level.\n",
+    "Safari": {
+      "GIF": "https://res.cloudinary.com/canidevtools/image/upload/v1658125870/zoom-inout-devtools-safari_dgossl.gif",
+      "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1658127321/zoom-inout-devtools-safari.png",
+      "Name": "Zoom In & Out devtools",
+      "Video": "https://res.cloudinary.com/canidevtools/video/upload/v1658125721/zoom-inout-devtools-safari_ybud7x.mp4",
+      "Platform": [
+        "MacOS"
+      ],
+      "References": "[x] \"Web Inspector Settings\", by [Webkit](https://webkit.org/web-inspector/web-inspector-settings/#general)  \n[x] \"Keyboard Shortcuts\", by [Webkit](https://webkit.org/web-inspector/keyboard-shortcuts/)\n",
       "Main": [
         "recC44aQK9UXnj4DD"
       ],
-      "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1658119163/zoom-inout-devtools-chrome_dkdn0x.png",
-      "Name": "Zoom In & Out devtools",
-      "Video": "https://res.cloudinary.com/canidevtools/video/upload/v1658119164/zoom-inout-devtools-chrome_olimlc.mp4",
-      "GIF": "https://res.cloudinary.com/canidevtools/image/upload/v1658119164/zoom-inout-devtools-chrome_uy1dxj.gif",
+      "Notes": "1. In **Web Inspector** > Use `Cmd+` or `Ctrl+` to increase the zoom level. Use `Cmd-` or `Ctrl-` to decrease the zoom level. To reset the zoom level, press `Ctrl+0` or `Cmd+0`.\n2. (Or) **Settings** (`Cmd,`) > General > Zoom.\n",
+      "LastModified": "2022-07-18T06:55:32.000Z",
+      "Category": [
+        "Accessibility"
+      ]
+    },
+    "Slug": "zoom-inout-devtools",
+    "Opera": {
+      "Main": [
+        "recC44aQK9UXnj4DD"
+      ],
+      "GIF": "https://res.cloudinary.com/canidevtools/image/upload/v1658123847/zoom-inout-devtools-opera_ptsb14.gif",
+      "Video": "https://res.cloudinary.com/canidevtools/video/upload/v1658123848/zoom-inout-devtools-opera_eb4xxg.mp4",
       "Platform": [
         "MacOS",
         "Windows",
         "Linux"
       ],
-      "LastModified": "2022-07-18T04:40:01.000Z",
+      "Notes": "1. Open **Command** **Menu** and Run > \"Zoom in\" or `Cmd+` or `Ctrl+` to increase the zoom level.\n2. Run > \"Zoom out\" or `Cmd-` or `Ctrl-` to decrease the zoom level.\n3. Run > \"Reset zoom level\" or `Cmd+0` or `Ctrl+0` to reset the zoom level.\n",
+      "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1658123847/zoom-inout-devtools-opera_krkvcu.png",
+      "Name": "Zoom In & Out devtools",
+      "LastModified": "2022-07-18T05:57:48.000Z",
+      "Category": [
+        "Accessibility"
+      ]
+    },
+    "Name": "Zoom In & Out devtools",
+    "Category": "Accessibility",
+    "Description": "Can I zoom in and out of the devtools panel?",
+    "Firefox": {
+      "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1658125825/zoom-inout-devtools-firefox_zcv4yu.png",
+      "Platform": [
+        "MacOS",
+        "Windows",
+        "Linux"
+      ],
+      "Notes": "1. In **Web Developer Tools** > Use `Cmd+` or `Ctrl+` to increase the zoom level. Use `Cmd-` or `Ctrl-` to decrease the zoom level. To reset the zoom level, press `Ctrl+0` or `Cmd+0`.\n",
+      "GIF": "https://res.cloudinary.com/canidevtools/image/upload/v1658124997/zoom-inout-devtools-firefox_kycxo8.gif",
+      "References": "[1] \"All keyboard shortcuts\", by Firefox Source [Docs](https://firefox-source-docs.mozilla.org/devtools-user/keyboard_shortcuts/index.html)\n",
+      "Name": "Zoom In & Out devtools",
+      "Video": "https://res.cloudinary.com/canidevtools/video/upload/v1658124998/zoom-inout-devtools-firefox_fnggcg.mp4",
+      "Main": [
+        "recC44aQK9UXnj4DD"
+      ],
+      "LastModified": "2022-07-18T06:32:34.000Z",
+      "Category": [
+        "Accessibility"
+      ]
+    },
+    "Edge": {
+      "GIF": "https://res.cloudinary.com/canidevtools/image/upload/v1658123207/zoom-inout-devtools-edge_erwhnx.gif",
+      "Notes": "1. Open **Command Menu** and Run > \"Zoom in\" or `Cmd+` or `Ctrl+` to increase the zoom level.\n2. Run > \"Zoom out\" or `Cmd-` or `Ctrl-` to decrease the zoom level.\n3. Run > \"Reset zoom level\" or `Cmd+0` or `Ctrl+0` to reset the zoom level.\n",
+      "Platform": [
+        "MacOS",
+        "Windows",
+        "Linux"
+      ],
+      "Main": [
+        "recC44aQK9UXnj4DD"
+      ],
+      "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1658123206/zoom-inout-devtools-edge_oihsme.png",
+      "Name": "Zoom In & Out devtools",
+      "Video": "https://res.cloudinary.com/canidevtools/video/upload/v1658123207/zoom-inout-devtools-edge_cdxubb.mp4",
+      "LastModified": "2022-07-18T05:47:48.000Z",
+      "Category": [
+        "Accessibility"
+      ]
+    },
+    "Chrome": {
+      "References": "[1] \"Keyboard shortcuts\", by Chrome Devtools [Docs](https://developer.chrome.com/docs/devtools/shortcuts/#global)\n",
+      "Notes": "1. Open **Command Menu** and Run > \"Zoom in\" or `Cmd+` or `Ctrl+` to increase the zoom level.\n2. Run > \"Zoom out\" or `Cmd-` or `Ctrl-` to decrease the zoom level.\n3. Run > \"Reset zoom level\" or `Cmd+0` or `Ctrl+0` to reset the zoom level.\n",
+      "Main": [
+        "recC44aQK9UXnj4DD"
+      ],
+      "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1658123782/zoom-inout-devtools-chrome_hpytvz.png",
+      "Name": "Zoom In & Out devtools",
+      "Video": "https://res.cloudinary.com/canidevtools/video/upload/v1658123783/zoom-inout-devtools-chrome_v6g3dn.mp4",
+      "GIF": "https://res.cloudinary.com/canidevtools/image/upload/v1658123783/zoom-inout-devtools-chrome_zietjb.gif",
+      "Platform": [
+        "MacOS",
+        "Windows",
+        "Linux"
+      ],
+      "LastModified": "2022-07-18T06:24:17.000Z",
       "Category": [
         "Accessibility"
       ]
     },
     "CreatedTime": "2022-07-17T15:03:45.000Z",
-    "LastModifiedTime": "2022-07-18T04:52:29.000Z",
-    "Opera": {
-      "Name": "Zoom In & Out devtools",
-      "LastModified": "2022-07-18T04:55:50.000Z",
-      "Main": [
-        "recC44aQK9UXnj4DD"
-      ],
-      "Category": [
-        "Accessibility"
-      ],
-      "Notes": "1. Open **Command** **Menu** and Run > \"Zoom in\" or `Cmd+` or `Ctrl+` to increase the zoom level.\n2. Run > \"Zoom out\" or `Cmd-` or `Ctrl-` to decrease the zoom level.\n3. Run > \"Reset zoom level\" or `Cmd+0` or `Ctrl+0` to reset the zoom level.\n",
-      "Platform": [
-        "MacOS",
-        "Windows",
-        "Linux"
-      ],
-      "GIF": "https://res.cloudinary.com/canidevtools/image/upload/v1658119185/zoom-inout-devtools-opera_nemogp.gif",
-      "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1658119165/zoom-inout-devtools-opera_elgcij.png",
-      "Video": "https://res.cloudinary.com/canidevtools/video/upload/v1658119164/zoom-inout-devtools-opera_hhumum.mp4"
-    },
-    "Edge": {
-      "Name": "Zoom In & Out devtools",
-      "LastModified": "2022-07-18T04:52:58.000Z",
-      "Main": [
-        "recC44aQK9UXnj4DD"
-      ],
-      "Category": [
-        "Accessibility"
-      ],
-      "Notes": "1. Open **Command Menu** and Run > \"Zoom in\" or `Cmd+` or `Ctrl+` to increase the zoom level.\n2. Run > \"Zoom out\" or `Cmd-` or `Ctrl-` to decrease the zoom level.\n3. Run > \"Reset zoom level\" or `Cmd+0` or `Ctrl+0` to reset the zoom level.\n",
-      "Platform": [
-        "MacOS",
-        "Windows",
-        "Linux"
-      ]
-    },
-    "Firefox": null,
-    "Safari": null
+    "LastModifiedTime": "2022-07-18T06:30:38.000Z"
   }
 }

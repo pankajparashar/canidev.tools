@@ -63,6 +63,8 @@ export function Details({ details, id }) {
 	const countOfReferences = References
 		? (References.match(new RegExp("http", "g")) || []).length
 		: 0;
+	const params = new URLSearchParams({ text: `${Name} | ${Browser}`, url: `https://canidev.tools/${Slug}/${Browser}`, hashtags: "CanIDevTools", via: "CanIDevTools" })
+	const twURL = 'https://twitter.com/intent/tweet?' + params.toString()
 
 	return (
 		<div className={`d_grid gtc_320px bgc_light`}>
@@ -120,11 +122,11 @@ export function Details({ details, id }) {
 						</a>
 						{" | "}
 						<a
-							href={`https://twitter.com/intent/tweet?text=${Share || Name}&via=canidev_tools`}
+							href={twURL}
 							rel="noreferrer"
 							target="_blank"
 						>
-							Share
+							Tweet
 						</a>
 						<br />
 						<Link

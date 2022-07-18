@@ -658,27 +658,41 @@
     
     <url>
         <loc>https://www.canidev.tools/zoom-inout-devtools/</loc>
-        <lastmod>2022-07-18T04:52:29.000Z</lastmod>
+        <lastmod>2022-07-18T06:30:38.000Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
     <url>
         <loc>https://www.canidev.tools/zoom-inout-devtools/chrome</loc>
-        <lastmod>2022-07-18T04:40:01.000Z</lastmod>
+        <lastmod>2022-07-18T06:24:17.000Z</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.canidev.tools/zoom-inout-devtools/firefox</loc>
+        <lastmod>2022-07-18T06:32:34.000Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
     
     <url>
         <loc>https://www.canidev.tools/zoom-inout-devtools/edge</loc>
-        <lastmod>2022-07-18T04:52:58.000Z</lastmod>
+        <lastmod>2022-07-18T05:47:48.000Z</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.canidev.tools/zoom-inout-devtools/safari</loc>
+        <lastmod>2022-07-18T06:55:32.000Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
     
     <url>
         <loc>https://www.canidev.tools/zoom-inout-devtools/opera</loc>
-        <lastmod>2022-07-18T04:55:50.000Z</lastmod>
+        <lastmod>2022-07-18T05:57:48.000Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
