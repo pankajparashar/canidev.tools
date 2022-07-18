@@ -119,7 +119,7 @@ export function Details({ details, id }) {
 							target="_blank"
 						>
 							Edit
-						</a> (on Github)					
+						</a> (on <strong>Github</strong>)					
 						<br />
 						<Link
 							href={{
@@ -127,9 +127,17 @@ export function Details({ details, id }) {
 								query: { slug: [Slug, Browser.toLowerCase()] },
 							}}
 						>
-							<a target="_blank" rel="noopener noreferrer">Share</a>
+							<a target="_blank" rel="noopener noreferrer">Link</a>
 						</Link>
-						{" | "}
+						{" ⁝ "}
+						<a
+							href={Share || twURL}
+							rel="noreferrer"
+							target="_blank"
+						>
+							Share
+						</a>
+						<br />
 						<a
 							href={`https://live.browserstack.com/dashboard`}
 							rel="noreferrer"
@@ -137,7 +145,7 @@ export function Details({ details, id }) {
 							title="via BrowserStack"
 						>
 							Test
-						</a>?
+						</a> (on <strong>BrowserStack</strong>)						
 					</dt>
 				</dl>
 			</div>
