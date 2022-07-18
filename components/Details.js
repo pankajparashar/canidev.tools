@@ -69,7 +69,7 @@ export function Details({ details, id }) {
 	return (
 		<div className={`d_grid gtc_320px bgc_light`}>
 			<div className={`br_1px bb_1px p_1em`}>
-				<Media Name={Name} Video={Video} Image={Image} GIF={GIF} />
+				<Media key={Browser} Name={Name} Video={Video} Image={Image} GIF={GIF} />
 			</div>
 			<div className={`br_1px bb_1px p_1em`}>
 				<details open>
