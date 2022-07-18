@@ -11,25 +11,58 @@
       "Main": [
         "recC44aQK9UXnj4DD"
       ],
+      "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1658119163/zoom-inout-devtools-chrome_dkdn0x.png",
       "Name": "Zoom In & Out devtools",
-      "LastModified": "2022-07-17T15:52:55.000Z",
+      "Video": "https://res.cloudinary.com/canidevtools/video/upload/v1658119164/zoom-inout-devtools-chrome_olimlc.mp4",
+      "GIF": "https://res.cloudinary.com/canidevtools/image/upload/v1658119164/zoom-inout-devtools-chrome_uy1dxj.gif",
+      "Platform": [
+        "MacOS",
+        "Windows",
+        "Linux"
+      ],
+      "LastModified": "2022-07-18T04:40:01.000Z",
+      "Category": [
+        "Accessibility"
+      ]
+    },
+    "CreatedTime": "2022-07-17T15:03:45.000Z",
+    "LastModifiedTime": "2022-07-18T04:52:29.000Z",
+    "Opera": {
+      "Name": "Zoom In & Out devtools",
+      "LastModified": "2022-07-18T04:55:50.000Z",
+      "Main": [
+        "recC44aQK9UXnj4DD"
+      ],
       "Category": [
         "Accessibility"
       ],
-      "GIF": "https://res.cloudinary.com/canidevtools/image/upload/v1658071658/GIF/zoom-inout-devtools-chrome_ne2vt3.gif",
-      "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1658072302/Images/zoom-inout-devtools-chrome_ye1g2i.png",
-      "Video": "https://res.cloudinary.com/canidevtools/video/upload/v1658071741/Videos/zoom-inout-devtools-chrome_bbzz8v.mp4",
+      "Notes": "1. Open **Command** **Menu** and Run > \"Zoom in\" or `Cmd+` or `Ctrl+` to increase the zoom level.\n2. Run > \"Zoom out\" or `Cmd-` or `Ctrl-` to decrease the zoom level.\n3. Run > \"Reset zoom level\" or `Cmd+0` or `Ctrl+0` to reset the zoom level.\n",
+      "Platform": [
+        "MacOS",
+        "Windows",
+        "Linux"
+      ],
+      "GIF": "https://res.cloudinary.com/canidevtools/image/upload/v1658119185/zoom-inout-devtools-opera_nemogp.gif",
+      "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1658119165/zoom-inout-devtools-opera_elgcij.png",
+      "Video": "https://res.cloudinary.com/canidevtools/video/upload/v1658119164/zoom-inout-devtools-opera_hhumum.mp4"
+    },
+    "Edge": {
+      "Name": "Zoom In & Out devtools",
+      "LastModified": "2022-07-18T04:52:58.000Z",
+      "Main": [
+        "recC44aQK9UXnj4DD"
+      ],
+      "Category": [
+        "Accessibility"
+      ],
+      "Notes": "1. Open **Command Menu** and Run > \"Zoom in\" or `Cmd+` or `Ctrl+` to increase the zoom level.\n2. Run > \"Zoom out\" or `Cmd-` or `Ctrl-` to decrease the zoom level.\n3. Run > \"Reset zoom level\" or `Cmd+0` or `Ctrl+0` to reset the zoom level.\n",
       "Platform": [
         "MacOS",
         "Windows",
         "Linux"
       ]
     },
-    "CreatedTime": "2022-07-17T15:03:45.000Z",
-    "LastModifiedTime": "2022-07-17T15:09:09.000Z",
     "Firefox": null,
-    "Edge": null,
-    "Safari": null,
-    "Opera": null
+    "Safari": null
   }
 }
