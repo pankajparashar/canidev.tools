@@ -119,8 +119,8 @@ export function Details({ details, id }) {
 							target="_blank"
 						>
 							Edit
-						</a> (on <strong>Github</strong>)					
-						<br />
+						</a>				
+						{" ⁝ "}
 						<Link
 							href={{
 								pathname: '[...slug]',
