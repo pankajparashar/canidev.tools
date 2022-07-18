@@ -119,15 +119,7 @@ export function Details({ details, id }) {
 							target="_blank"
 						>
 							Edit
-						</a>
-						{" | "}
-						<a
-							href={twURL}
-							rel="noreferrer"
-							target="_blank"
-						>
-							Tweet
-						</a>
+						</a> (on Github)					
 						<br />
 						<Link
 							href={{
@@ -135,7 +127,7 @@ export function Details({ details, id }) {
 								query: { slug: [Slug, Browser.toLowerCase()] },
 							}}
 						>
-							<a target="_blank" rel="noopener noreferrer">Link</a>
+							<a target="_blank" rel="noopener noreferrer">Share</a>
 						</Link>
 						{" | "}
 						<a
