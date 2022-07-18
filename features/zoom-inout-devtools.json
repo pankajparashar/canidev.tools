@@ -32,10 +32,10 @@
         "Windows",
         "Linux"
       ],
-      "Notes": "1. Open **Command** **Menu** and Run > \"Zoom in\" or `Cmd+` or `Ctrl+` to increase the zoom level.\n2. Run > \"Zoom out\" or `Cmd-` or `Ctrl-` to decrease the zoom level.\n3. Run > \"Reset zoom level\" or `Cmd+0` or `Ctrl+0` to reset the zoom level.\n",
+      "Notes": "1. In **Developer** **Tools** > Open **Command** **Menu** (`Cmd+Shift+P` or `Ctrl+Shift+P`) and Run > \"Zoom in\" or `Cmd+` or `Ctrl+` to increase the zoom level.\n2. Run > \"Zoom out\" or `Cmd-` or `Ctrl-` to decrease the zoom level.\n3. Run > \"Reset zoom level\" or `Cmd+0` or `Ctrl+0` to reset the zoom level.\n",
       "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1658123847/zoom-inout-devtools-opera_krkvcu.png",
       "Name": "Zoom In & Out devtools",
-      "LastModified": "2022-07-18T05:57:48.000Z",
+      "LastModified": "2022-07-18T12:50:46.000Z",
       "Category": [
         "Accessibility"
       ]
@@ -65,7 +65,7 @@
     },
     "Edge": {
       "GIF": "https://res.cloudinary.com/canidevtools/image/upload/v1658123207/zoom-inout-devtools-edge_erwhnx.gif",
-      "Notes": "1. Open **Command Menu** and Run > \"Zoom in\" or `Cmd+` or `Ctrl+` to increase the zoom level.\n2. Run > \"Zoom out\" or `Cmd-` or `Ctrl-` to decrease the zoom level.\n3. Run > \"Reset zoom level\" or `Cmd+0` or `Ctrl+0` to reset the zoom level.\n",
+      "Notes": "1. In **Developer** **Tools** > Open **Command** **Menu** (`Cmd+Shift+P` or `Ctrl+Shift+P`) and Run > \"Zoom in\" or `Cmd+` or `Ctrl+` to increase the zoom level.\n2. Run > \"Zoom out\" or `Cmd-` or `Ctrl-` to decrease the zoom level.\n3. Run > \"Reset zoom level\" or `Cmd+0` or `Ctrl+0` to reset the zoom level.\n",
       "Platform": [
         "MacOS",
         "Windows",
@@ -77,19 +77,19 @@
       "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1658123206/zoom-inout-devtools-edge_oihsme.png",
       "Name": "Zoom In & Out devtools",
       "Video": "https://res.cloudinary.com/canidevtools/video/upload/v1658123207/zoom-inout-devtools-edge_cdxubb.mp4",
-      "LastModified": "2022-07-18T05:47:48.000Z",
+      "LastModified": "2022-07-18T12:50:28.000Z",
       "Category": [
         "Accessibility"
       ]
     },
     "Chrome": {
       "References": "[1] \"Keyboard shortcuts\", by Chrome Devtools [Docs](https://developer.chrome.com/docs/devtools/shortcuts/#global)\n",
-      "Notes": "1. Open **Command Menu** and Run > \"Zoom in\" or `Cmd+` or `Ctrl+` to increase the zoom level.\n2. Run > \"Zoom out\" or `Cmd-` or `Ctrl-` to decrease the zoom level.\n3. Run > \"Reset zoom level\" or `Cmd+0` or `Ctrl+0` to reset the zoom level.\n",
+      "Notes": "1. In **Developer Tools** > Open **Command Menu** (`Cmd+Shift+P` or `Ctrl+Shift+P`) and Run > \"Zoom in\" or `Cmd+` or `Ctrl+` to increase the zoom level.\n2. Run > \"Zoom out\" or `Cmd-` or `Ctrl-` to decrease the zoom level.\n3. Run > \"Reset zoom level\" or `Cmd+0` or `Ctrl+0` to reset the zoom level.\n",
       "Main": [
         "recC44aQK9UXnj4DD"
       ],
       "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1658123782/zoom-inout-devtools-chrome_hpytvz.png",
-      "Name": "Zoom In & Out devtools",
+      "Name": "Zoom In & Out Devtools",
       "Video": "https://res.cloudinary.com/canidevtools/video/upload/v1658123783/zoom-inout-devtools-chrome_v6g3dn.mp4",
       "GIF": "https://res.cloudinary.com/canidevtools/image/upload/v1658123783/zoom-inout-devtools-chrome_zietjb.gif",
       "Platform": [
@@ -97,7 +97,7 @@
         "Windows",
         "Linux"
       ],
-      "LastModified": "2022-07-18T06:24:17.000Z",
+      "LastModified": "2022-07-18T12:49:46.000Z",
       "Category": [
         "Accessibility"
       ]
