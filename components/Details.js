@@ -127,7 +127,7 @@ export function Details({ details, id }) {
 								query: { slug: [Slug, Browser.toLowerCase()] },
 							}}
 						>
-							<a target="_blank" rel="noopener noreferrer">Link</a>
+							<a>Link</a>
 						</Link>
 						{" ⁝ "}
 						<a
