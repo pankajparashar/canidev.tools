@@ -698,6 +698,47 @@
     </url>
     
     <url>
+        <loc>https://www.canidev.tools/override-useragent/</loc>
+        <lastmod>2022-07-19T14:26:55.000Z</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://www.canidev.tools/override-useragent/chrome</loc>
+        <lastmod>2022-07-19T07:53:12.000Z</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.canidev.tools/override-useragent/firefox</loc>
+        <lastmod>2022-07-19T14:15:53.000Z</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.canidev.tools/override-useragent/edge</loc>
+        <lastmod>2022-07-19T14:07:21.000Z</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.canidev.tools/override-useragent/safari</loc>
+        <lastmod>2022-07-19T14:29:21.000Z</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.canidev.tools/override-useragent/opera</loc>
+        <lastmod>2022-07-19T08:11:03.000Z</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
         <loc>https://www.canidev.tools/inspect-devtools/</loc>
         <lastmod>2022-07-11T13:39:26.000Z</lastmod>
         <changefreq>monthly</changefreq>

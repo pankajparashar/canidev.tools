@@ -145,7 +145,7 @@ export function Details({ details, id }) {
 							title="via BrowserStack"
 						>
 							Test
-						</a> {"→ "}<strong>BrowserStack</strong>				
+						</a> {"@"}<strong>BrowserStack</strong>				
 					</dt>
 				</dl>
 			</div>
