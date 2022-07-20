@@ -102,6 +102,23 @@ strong,
 
 ol {
 	padding-left: 2em;
+	list-style-type: none;
+	counter-reset: my-awesome-counter;
+	padding-left: 0;
+}
+
+ol li {
+	counter-increment: my-awesome-counter;
+	margin-bottom: 1em;
+}
+
+ol li::before {
+  content: counter(my-awesome-counter, decimal-leading-zero);
+border-bottom: 1px solid var(--border-color-light);
+  border-right: 1px solid var(--border-color-light);
+    padding: 0 5px 0;
+  margin-right: .5em; 
+  font-weight: bold;
 }
 
 a {
