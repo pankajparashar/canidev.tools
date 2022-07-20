@@ -123,7 +123,7 @@ a:hover {
 code {
 	font-family: inherit;
 	padding: 0 5px;
-	border: 1px dashed var(--border-color-light);
+	_border: 1px dashed var(--border-color-light);
 	background-color: var(--background-color-1);
 }
 
