@@ -116,7 +116,7 @@ ol li::before {
   content: counter(my-awesome-counter, decimal-leading-zero);
 border-bottom: 1px solid var(--border-color-light);
   border-right: 1px solid var(--border-color-light);
-    padding: 0 5px 0;
+    padding: 1px 5px 0;
   margin-right: .5em; 
   font-weight: bold;
 }
@@ -139,7 +139,7 @@ a:hover {
 
 code {
 	font-family: inherit;
-	padding: 0 5px;
+	padding: 2px 5px;
 	background-color: var(--background-color-1);
 }
 
@@ -523,7 +523,7 @@ label, summary {
 
 @font-face {
 	font-family: 'InputMono';
-	src: url('InputMono-Regular.woff2') format('woff2');
+	src: url('Input-Regular.ttf') format('truetype');
 	font-weight: normal;
 	font-style: normal;
 	font-display: swap;
@@ -531,7 +531,7 @@ label, summary {
 
 @font-face {
 	font-family: 'InputMono';
-	src: url('InputMono-Bold.woff2') format('woff2');
+	src: url('Input-Bold.ttf') format('truetype');
 	font-weight: bold;
 	font-style: normal;
 	font-display: swap;
