@@ -127,16 +127,8 @@ export function Details({ details, id }) {
 								query: { slug: [Slug, Browser.toLowerCase()] },
 							}}
 						>
-							<a>Link</a>
+							<a>Permalink</a>
 						</Link>
-						{" ⁝ "}
-						<a
-							href={Share || twURL}
-							rel="noreferrer"
-							target="_blank"
-						>
-							Share
-						</a>
 						<br />
 						<a
 							href={`https://live.browserstack.com/dashboard`}
@@ -145,7 +137,15 @@ export function Details({ details, id }) {
 							title="via BrowserStack"
 						>
 							Test
-						</a> {"@"}<strong>BrowserStack</strong>				
+						</a>		
+						{" ⁝ "}
+						<a
+							href={Share || twURL}
+							rel="noreferrer"
+							target="_blank"
+						>
+							Share
+						</a>
 					</dt>
 				</dl>
 			</div>

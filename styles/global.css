@@ -113,12 +113,12 @@ ol li {
 }
 
 ol li::before {
-  content: counter(my-awesome-counter, decimal-leading-zero);
-border-bottom: 1px solid var(--border-color-light);
-  border-right: 1px solid var(--border-color-light);
-    padding: 1px 5px 0;
-  margin-right: .5em; 
-  font-weight: bold;
+	content: counter(my-awesome-counter, decimal-leading-zero);
+	border-bottom: 1px solid var(--border-color-light);
+	border-right: 1px solid var(--border-color-light);
+	padding: 1px 5px 3px 0;
+	margin-right: .5em; 
+	font-weight: bold;
 }
 
 a {
