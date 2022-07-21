@@ -705,35 +705,35 @@
     </url>
     <url>
         <loc>https://www.canidev.tools/override-useragent/chrome</loc>
-        <lastmod>2022-07-19T07:53:12.000Z</lastmod>
+        <lastmod>2022-07-20T11:30:12.000Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
     
     <url>
         <loc>https://www.canidev.tools/override-useragent/firefox</loc>
-        <lastmod>2022-07-19T14:15:53.000Z</lastmod>
+        <lastmod>2022-07-20T11:30:46.000Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
     
     <url>
         <loc>https://www.canidev.tools/override-useragent/edge</loc>
-        <lastmod>2022-07-19T14:07:21.000Z</lastmod>
+        <lastmod>2022-07-20T11:30:19.000Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
     
     <url>
         <loc>https://www.canidev.tools/override-useragent/safari</loc>
-        <lastmod>2022-07-19T14:29:21.000Z</lastmod>
+        <lastmod>2022-07-20T11:31:05.000Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
     
     <url>
         <loc>https://www.canidev.tools/override-useragent/opera</loc>
-        <lastmod>2022-07-19T08:11:03.000Z</lastmod>
+        <lastmod>2022-07-20T11:30:25.000Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
@@ -930,13 +930,27 @@
     
     <url>
         <loc>https://www.canidev.tools/view-in-3d/</loc>
-        <lastmod>2022-07-09T08:09:51.000Z</lastmod>
+        <lastmod>2022-07-21T17:03:51.000Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
     <url>
+        <loc>https://www.canidev.tools/view-in-3d/chrome</loc>
+        <lastmod>2022-07-21T17:16:17.000Z</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
         <loc>https://www.canidev.tools/view-in-3d/edge</loc>
         <lastmod>2022-06-30T04:22:32.000Z</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.canidev.tools/view-in-3d/opera</loc>
+        <lastmod>2022-07-21T17:17:32.000Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
