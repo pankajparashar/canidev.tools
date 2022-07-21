@@ -107,12 +107,12 @@ ol {
 	padding-left: 0;
 }
 
-ol li {
+ol > li {
 	counter-increment: my-awesome-counter;
 	margin-bottom: 1em;
 }
 
-ol li::before {
+ol > li::before {
 	content: counter(my-awesome-counter, decimal-leading-zero);
 	border-bottom: 1px solid var(--border-color-light);
 	border-right: 1px solid var(--border-color-light);
