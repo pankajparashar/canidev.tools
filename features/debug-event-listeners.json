@@ -40,10 +40,65 @@
         "JavaScript"
       ]
     },
+    "Chrome": {
+      "Notes": "1. In the **Sources** tab, expand the **Event Listeners Breakpoints** section to see the list of event categories.\n2. Expand a category and enable the checkbox for the event that needs to be debugged.\n",
+      "Main": [
+        "rec6Q6hMQt0koaFDY"
+      ],
+      "Name": "Debug Event Listeners",
+      "Platform": [
+        "MacOS",
+        "Windows",
+        "Linux"
+      ],
+      "LastModified": "2022-07-22T07:21:55.000Z",
+      "Category": [
+        "JavaScript"
+      ],
+      "References": "[1] \"Event listener breakpoints\", by Chrome DevTools [Docs](https://developer.chrome.com/docs/devtools/javascript/breakpoints/#event-listeners)\n",
+      "Video": "https://res.cloudinary.com/canidevtools/video/upload/v1658474126/debug-event-listeners-chrome_sjiedd.mp4",
+      "GIF": "https://res.cloudinary.com/canidevtools/image/upload/v1658474125/debug-event-listeners-chrome_a3tfr3.gif",
+      "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1658474499/debug-event-listeners-chrome_gnzal9.png"
+    },
     "CreatedTime": "2022-06-04T16:36:19.000Z",
-    "LastModifiedTime": "2022-07-06T06:11:52.000Z",
-    "Chrome": null,
-    "Edge": null,
-    "Opera": null
+    "LastModifiedTime": "2022-07-22T07:21:59.000Z",
+    "Opera": {
+      "Name": "Debug Event Listeners",
+      "LastModified": "2022-07-22T07:21:50.000Z",
+      "Main": [
+        "rec6Q6hMQt0koaFDY"
+      ],
+      "Category": [
+        "JavaScript"
+      ],
+      "Platform": [
+        "MacOS",
+        "Windows",
+        "Linux"
+      ],
+      "Notes": "1. In the **Sources** tab, expand the **Event** **Listeners** **Breakpoints** section to see the list of event categories.\n2. Expand a category and enable the checkbox for the event that needs to be debugged.\n",
+      "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1658474499/debug-event-listeners-chrome_gnzal9.png",
+      "Video": "https://res.cloudinary.com/canidevtools/video/upload/v1658474126/debug-event-listeners-chrome_sjiedd.mp4",
+      "GIF": "https://res.cloudinary.com/canidevtools/image/upload/v1658474125/debug-event-listeners-chrome_a3tfr3.gif"
+    },
+    "Edge": {
+      "Name": "Debug Event Listeners",
+      "LastModified": "2022-07-22T07:29:20.000Z",
+      "Main": [
+        "rec6Q6hMQt0koaFDY"
+      ],
+      "Category": [
+        "JavaScript"
+      ],
+      "Platform": [
+        "MacOS",
+        "Windows",
+        "Linux"
+      ],
+      "Notes": "1. In the **Sources** tab, expand the **Event** **Listeners** **Breakpoints** section to see the list of event categories.\n2. Expand a category and enable the checkbox for the event that needs to be debugged.\n",
+      "Video": "https://res.cloudinary.com/canidevtools/video/upload/v1658474944/debug-event-listeners-edge_fksnq6.mp4",
+      "GIF": "https://res.cloudinary.com/canidevtools/image/upload/v1658474944/debug-event-listeners-edge_h8t5n0.gif",
+      "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1658474943/debug-event-listeners-edge_vupils.png"
+    }
   }
 }

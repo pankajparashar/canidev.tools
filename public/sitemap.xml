@@ -399,10 +399,17 @@
     
     <url>
         <loc>https://www.canidev.tools/debug-event-listeners/</loc>
-        <lastmod>2022-07-06T06:11:52.000Z</lastmod>
+        <lastmod>2022-07-22T07:21:59.000Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
+    <url>
+        <loc>https://www.canidev.tools/debug-event-listeners/chrome</loc>
+        <lastmod>2022-07-22T07:21:55.000Z</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
     <url>
         <loc>https://www.canidev.tools/debug-event-listeners/firefox</loc>
         <lastmod>2022-06-04T16:43:01.000Z</lastmod>
@@ -411,8 +418,22 @@
     </url>
     
     <url>
+        <loc>https://www.canidev.tools/debug-event-listeners/edge</loc>
+        <lastmod>2022-07-22T07:29:20.000Z</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
         <loc>https://www.canidev.tools/debug-event-listeners/safari</loc>
         <lastmod>2022-07-06T06:13:43.000Z</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.canidev.tools/debug-event-listeners/opera</loc>
+        <lastmod>2022-07-22T07:21:50.000Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
