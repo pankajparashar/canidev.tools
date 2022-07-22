@@ -828,13 +828,27 @@
     
     <url>
         <loc>https://www.canidev.tools/find-in-files/</loc>
-        <lastmod>2022-07-07T13:10:31.000Z</lastmod>
+        <lastmod>2022-07-22T06:16:38.000Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
     <url>
+        <loc>https://www.canidev.tools/find-in-files/chrome</loc>
+        <lastmod>2022-07-22T04:58:01.000Z</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
         <loc>https://www.canidev.tools/find-in-files/firefox</loc>
-        <lastmod>2022-07-07T13:06:18.000Z</lastmod>
+        <lastmod>2022-07-22T04:59:58.000Z</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.canidev.tools/find-in-files/edge</loc>
+        <lastmod>2022-07-22T06:16:47.000Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
@@ -842,6 +856,13 @@
     <url>
         <loc>https://www.canidev.tools/find-in-files/safari</loc>
         <lastmod>2022-07-07T13:17:00.000Z</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.canidev.tools/find-in-files/opera</loc>
+        <lastmod>2022-07-22T06:17:50.000Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
