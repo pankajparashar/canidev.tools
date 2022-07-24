@@ -1277,6 +1277,47 @@
     </url>
     
     <url>
+        <loc>https://www.canidev.tools/copy-css-selector/</loc>
+        <lastmod>2022-07-24T09:39:57.000Z</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://www.canidev.tools/copy-css-selector/chrome</loc>
+        <lastmod>2022-07-24T09:41:48.000Z</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.canidev.tools/copy-css-selector/firefox</loc>
+        <lastmod>2022-07-24T09:41:55.000Z</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.canidev.tools/copy-css-selector/edge</loc>
+        <lastmod>2022-07-24T09:42:00.000Z</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.canidev.tools/copy-css-selector/safari</loc>
+        <lastmod>2022-07-24T09:42:04.000Z</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.canidev.tools/copy-css-selector/opera</loc>
+        <lastmod>2022-07-24T09:42:10.000Z</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
         <loc>https://www.canidev.tools/capture-viewport-screenshot/</loc>
         <lastmod>2022-07-07T13:43:54.000Z</lastmod>
         <changefreq>monthly</changefreq>
@@ -2615,6 +2656,33 @@
     <url>
         <loc>https://www.canidev.tools/preserve-console-logs/opera</loc>
         <lastmod>2022-06-12T13:22:41.000Z</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.canidev.tools/copy-js-expression/</loc>
+        <lastmod>2022-07-24T09:10:10.000Z</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://www.canidev.tools/copy-js-expression/chrome</loc>
+        <lastmod>2022-07-24T09:09:40.000Z</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.canidev.tools/copy-js-expression/edge</loc>
+        <lastmod>2022-07-24T09:09:45.000Z</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.canidev.tools/copy-js-expression/opera</loc>
+        <lastmod>2022-07-24T09:09:48.000Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
