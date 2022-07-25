@@ -77,7 +77,7 @@
     },
     "Chrome": {
       "Share": "https://twitter.com/jecfish/status/1514209534566313986",
-      "References": "1. via [@jecfish](https://twitter.com/jecfish/status/1514209534566313986) on Twitter\n2. via [@Una](https://twitter.com/Una/status/1514624082909831168) on Twitter\n",
+      "References": "\n",
       "Notes": "1. Open devtools > Inside the \"Styles\" pane, right next to the \"+\" button, click the Icon \"Toggle common rendering emulations\".\n2. Choose the `prefers-color-scheme` option to emulate the corresponding color scheme.\n",
       "Main": [
         "rec6oCEfVEEPMYImZ"
@@ -90,7 +90,7 @@
         "Windows",
         "Linux"
       ],
-      "LastModified": "2022-05-08T16:31:42.000Z",
+      "LastModified": "2022-07-25T12:12:40.000Z",
       "Category": [
         "CSS"
       ]
