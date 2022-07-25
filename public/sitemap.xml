@@ -1836,6 +1836,19 @@
     </url>
     
     <url>
+        <loc>https://www.canidev.tools/record-user-journey/</loc>
+        <lastmod>2022-07-25T13:05:32.000Z</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://www.canidev.tools/record-user-journey/chrome</loc>
+        <lastmod>2022-07-25T13:11:37.000Z</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
         <loc>https://www.canidev.tools/emulate-print-styles/</loc>
         <lastmod>2022-07-09T09:02:23.000Z</lastmod>
         <changefreq>monthly</changefreq>
