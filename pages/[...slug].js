@@ -4,8 +4,10 @@ import { Record } from "../components/Record";
 import { Header } from "../components/Header";
 import { Footer } from "../components/Footer";
 import { AddNew } from "../components/AddNew";
+import { Related } from "../components/Related";
 
 import * as fs from "fs"
+import path from "path"
 
 const Feature = props => {
     const { record, records, browser, slug } = props
@@ -39,6 +41,7 @@ const Feature = props => {
                     browser={browser}
                 />
             </details>
+            <Related record={record} records={records} />
             <AddNew />
             <Footer />
         </>
@@ -52,7 +55,13 @@ export async function getStaticProps({ params }) {
     const filename = `features/${slug}.json`
 
     const record = JSON.parse(fs.readFileSync(filename))
-    const records = fs.readdirSync("features")
+    const records = []
+    fs.readdirSync("features").forEach(name => {
+        const filename = path.join("features", name)
+        const file = fs.readFileSync(filename)
+        const record = JSON.parse(file)
+        records.push(record)
+    })
 
     return {
         props: { record, records, slug, browser: browser || "" },

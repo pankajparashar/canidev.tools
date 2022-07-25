@@ -2,101 +2,101 @@
   "id": "recQqqLEdBixfOLRE",
   "createdTime": "2022-07-24T09:10:15.000Z",
   "fields": {
-    "Category": "Elements",
-    "CreatedTime": "2022-07-24T09:10:15.000Z",
-    "LastModifiedTime": "2022-07-24T09:39:57.000Z",
-    "Name": "Copy as CSS selector",
-    "Slug": "copy-css-selector",
-    "Description": "Can I copy a node's path as a CSS selector?",
-    "Firefox": {
-      "Name": "Copy as CSS selector",
-      "LastModified": "2022-07-24T09:41:55.000Z",
-      "Main": [
-        "recQqqLEdBixfOLRE"
-      ],
-      "Category": [
-        "Elements"
-      ],
-      "GIF": "https://res.cloudinary.com/canidevtools/image/upload/v1658653910/copy-css-selector-firefox_qsgvne.gif",
-      "Platform": [
-        "MacOS",
-        "Windows",
-        "Linux"
-      ],
-      "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1658653908/copy-css-selector-firefox_wdrp6c.png",
-      "Video": "https://res.cloudinary.com/canidevtools/video/upload/v1658653910/copy-css-selector-firefox_zr9o7h.mp4",
-      "Notes": "In the **Inspector** tab, right click on the element in the DOM tree > Copy > CSS Selector.\n"
-    },
     "Safari": {
-      "Name": "Copy as CSS selector",
-      "LastModified": "2022-07-24T09:42:04.000Z",
-      "Main": [
-        "recQqqLEdBixfOLRE"
-      ],
-      "Category": [
-        "Elements"
-      ],
       "GIF": "https://res.cloudinary.com/canidevtools/image/upload/v1658654529/copy-css-selector-safari_gt3snl.gif",
+      "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1658654527/copy-css-selector-safari_qif6bz.png",
+      "Name": "Copy as CSS selector",
+      "Video": "https://res.cloudinary.com/canidevtools/video/upload/v1658654528/copy-css-selector-safari_w2ncyn.mp4",
       "Platform": [
         "MacOS"
       ],
-      "Video": "https://res.cloudinary.com/canidevtools/video/upload/v1658654528/copy-css-selector-safari_w2ncyn.mp4",
-      "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1658654527/copy-css-selector-safari_qif6bz.png",
-      "Notes": "In the **Elements** tab, right click on the element in the DOM tree > Copy > Selector Path.\n"
-    },
-    "Chrome": {
-      "Name": "Copy as CSS selector",
-      "LastModified": "2022-07-24T09:41:48.000Z",
       "Main": [
         "recQqqLEdBixfOLRE"
       ],
+      "Notes": "In the **Elements** tab, right click on the element in the DOM tree > Copy > Selector Path.\n",
+      "LastModified": "2022-07-24T09:42:04.000Z",
       "Category": [
         "Elements"
-      ],
-      "Platform": [
-        "MacOS",
-        "Windows",
-        "Linux"
-      ],
-      "Notes": "In the **Elements** tab, right click on the element in the DOM tree > Copy > Copy selector.\n",
-      "Video": "https://res.cloudinary.com/canidevtools/video/upload/v1658655363/copy-css-selector-chrome_ddz9za.mp4",
-      "GIF": "https://res.cloudinary.com/canidevtools/image/upload/v1658655362/copy-css-selector-chrome_skx5s1.gif",
-      "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1658655361/copy-css-selector-chrome_pnscxq.png"
-    },
-    "Edge": {
-      "Name": "Copy as CSS selector",
-      "LastModified": "2022-07-24T09:42:00.000Z",
-      "Main": [
-        "recQqqLEdBixfOLRE"
-      ],
-      "Category": [
-        "Elements"
-      ],
-      "Notes": "In the **Elements** tab, right click on the element in the DOM tree > Copy > Copy selector.\n",
-      "Platform": [
-        "MacOS",
-        "Windows",
-        "Linux"
       ]
     },
+    "Slug": "copy-css-selector",
     "Opera": {
-      "Name": "Copy as CSS selector",
-      "LastModified": "2022-07-24T09:42:10.000Z",
       "Main": [
         "recQqqLEdBixfOLRE"
       ],
-      "Category": [
-        "Elements"
-      ],
+      "GIF": "https://res.cloudinary.com/canidevtools/image/upload/v1658655362/copy-css-selector-chrome_skx5s1.gif",
+      "Video": "https://res.cloudinary.com/canidevtools/video/upload/v1658655363/copy-css-selector-chrome_ddz9za.mp4",
       "Platform": [
         "MacOS",
         "Windows",
         "Linux"
       ],
       "Notes": "In the **Elements** tab, right click on the element in the DOM tree > Copy > Copy selector.\n",
+      "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1658655361/copy-css-selector-chrome_pnscxq.png",
+      "Name": "Copy as CSS selector",
+      "LastModified": "2022-07-24T09:42:10.000Z",
+      "Category": [
+        "Elements"
+      ]
+    },
+    "Name": "Copy as CSS selector",
+    "Category": "Elements",
+    "Description": "Can I copy a node's path as a CSS selector?",
+    "Firefox": {
+      "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1658653908/copy-css-selector-firefox_wdrp6c.png",
+      "Platform": [
+        "MacOS",
+        "Windows",
+        "Linux"
+      ],
+      "Notes": "In the **Inspector** tab, right click on the element in the DOM tree > Copy > CSS Selector.\n",
+      "GIF": "https://res.cloudinary.com/canidevtools/image/upload/v1658653910/copy-css-selector-firefox_qsgvne.gif",
+      "Name": "Copy as CSS selector",
+      "Video": "https://res.cloudinary.com/canidevtools/video/upload/v1658653910/copy-css-selector-firefox_zr9o7h.mp4",
+      "Main": [
+        "recQqqLEdBixfOLRE"
+      ],
+      "LastModified": "2022-07-24T09:41:55.000Z",
+      "Category": [
+        "Elements"
+      ]
+    },
+    "Edge": {
+      "Notes": "In the **Elements** tab, right click on the element in the DOM tree > Copy > Copy selector.\n",
+      "Platform": [
+        "MacOS",
+        "Windows",
+        "Linux"
+      ],
+      "Main": [
+        "recQqqLEdBixfOLRE"
+      ],
+      "Name": "Copy as CSS selector",
+      "LastModified": "2022-07-24T09:42:00.000Z",
+      "Category": [
+        "Elements"
+      ]
+    },
+    "Chrome": {
+      "Notes": "In the **Elements** tab, right click on the element in the DOM tree > Copy > Copy selector.\n",
+      "Main": [
+        "recQqqLEdBixfOLRE"
+      ],
+      "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1658655361/copy-css-selector-chrome_pnscxq.png",
+      "Name": "Copy as CSS selector",
       "Video": "https://res.cloudinary.com/canidevtools/video/upload/v1658655363/copy-css-selector-chrome_ddz9za.mp4",
       "GIF": "https://res.cloudinary.com/canidevtools/image/upload/v1658655362/copy-css-selector-chrome_skx5s1.gif",
-      "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1658655361/copy-css-selector-chrome_pnscxq.png"
-    }
+      "Platform": [
+        "MacOS",
+        "Windows",
+        "Linux"
+      ],
+      "LastModified": "2022-07-24T09:41:48.000Z",
+      "Category": [
+        "Elements"
+      ]
+    },
+    "CreatedTime": "2022-07-24T09:10:15.000Z",
+    "LastModifiedTime": "2022-07-24T09:39:57.000Z"
   }
 }
