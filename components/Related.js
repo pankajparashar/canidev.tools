@@ -2,9 +2,9 @@ import { Record } from "../components/Record";
 
 export function Related(props) {
 	const Records = []
-	const { Category } = props.record.fields
+	const { Category, Slug } = props.record.fields
 	props.records.forEach(r => {
-		if(r.fields.Category === props.record.fields.Category) {
+		if(r.fields.Category === Category && r.fields.Slug !== Slug) {
 			Records.push(<Record record={r} />)
 		}
 	})
