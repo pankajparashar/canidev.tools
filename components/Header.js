@@ -8,7 +8,7 @@ export function Header({ records }) {
 	const toggleSearch = prevState => setShowSearch(!showSearch)
 	
 	return (
-		<div className={`d_grid gtc_320px c_fff bgc_000 pos_sticky top_0`} id="header">
+		<div className={`d_grid gtc_320px c_fff bgc_000 pos_sticky top_0 bt_1px_353939`} id="header">
 			<div className="br_1px_dark bb_1px_353939 d_grid gtc_3em_1fr_3em ai_center h_3em"  style={{ position: "relative" }}>
 				<button className="but_2 br_1px_dark d_grid ai_center" onClick={e => (window.location.href = "/")} title="/">
 					<svg version="1.1" viewBox="0 0 752 752" className="w_100pct">

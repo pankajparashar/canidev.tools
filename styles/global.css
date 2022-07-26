@@ -90,6 +90,7 @@ input[type="checkbox"] {
 	accent-color: black;
 	background-color: black;
 }
+
 input[type="text"] {
 	font-size: inherit;
 }
@@ -447,6 +448,10 @@ label, summary {
 
 .bb_1px_353939 {
 	border-bottom: 1px solid #353939;
+}
+
+.bt_1px_353939 {
+	border-top: 1px solid #353939;
 }
 
 .bl_1px {
