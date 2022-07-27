@@ -78,6 +78,7 @@
       ]
     },
     "Chrome": {
+      "References": "\n",
       "Notes": "In the **Elements** tab, right click on the element in the DOM tree > Copy > Copy selector.\n",
       "Main": [
         "recQqqLEdBixfOLRE"
@@ -91,7 +92,7 @@
         "Windows",
         "Linux"
       ],
-      "LastModified": "2022-07-24T09:41:48.000Z",
+      "LastModified": "2022-07-26T09:38:28.000Z",
       "Category": [
         "Elements"
       ]

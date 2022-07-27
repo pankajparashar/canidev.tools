@@ -1284,7 +1284,7 @@
     </url>
     <url>
         <loc>https://www.canidev.tools/copy-css-selector/chrome</loc>
-        <lastmod>2022-07-24T09:41:48.000Z</lastmod>
+        <lastmod>2022-07-26T09:38:28.000Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
@@ -2558,35 +2558,35 @@
     </url>
     
     <url>
-        <loc>https://www.canidev.tools/report-issues/</loc>
-        <lastmod>2022-07-06T15:04:52.000Z</lastmod>
+        <loc>https://www.canidev.tools/report-feedback/</loc>
+        <lastmod>2022-07-27T05:01:36.000Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
     <url>
-        <loc>https://www.canidev.tools/report-issues/chrome</loc>
-        <lastmod>2022-05-08T16:31:42.000Z</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>1.0</priority>
-    </url>
-    
-    <url>
-        <loc>https://www.canidev.tools/report-issues/firefox</loc>
-        <lastmod>2022-06-05T14:15:21.000Z</lastmod>
+        <loc>https://www.canidev.tools/report-feedback/chrome</loc>
+        <lastmod>2022-07-27T05:02:09.000Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
     
     <url>
-        <loc>https://www.canidev.tools/report-issues/edge</loc>
-        <lastmod>2022-07-06T15:59:36.000Z</lastmod>
+        <loc>https://www.canidev.tools/report-feedback/firefox</loc>
+        <lastmod>2022-07-27T05:02:14.000Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
     
     <url>
-        <loc>https://www.canidev.tools/report-issues/safari</loc>
-        <lastmod>2022-07-06T15:02:36.000Z</lastmod>
+        <loc>https://www.canidev.tools/report-feedback/edge</loc>
+        <lastmod>2022-07-27T05:30:42.000Z</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.canidev.tools/report-feedback/safari</loc>
+        <lastmod>2022-07-27T05:02:22.000Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
