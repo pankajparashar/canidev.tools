@@ -2149,42 +2149,42 @@
     </url>
     
     <url>
-        <loc>https://www.canidev.tools/get-last-return-value/</loc>
-        <lastmod>2022-07-09T09:05:40.000Z</lastmod>
+        <loc>https://www.canidev.tools/get-last-value/</loc>
+        <lastmod>2022-07-30T12:49:03.000Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
     <url>
-        <loc>https://www.canidev.tools/get-last-return-value/chrome</loc>
-        <lastmod>2022-05-08T16:31:42.000Z</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>1.0</priority>
-    </url>
-    
-    <url>
-        <loc>https://www.canidev.tools/get-last-return-value/firefox</loc>
-        <lastmod>2022-05-08T16:31:19.000Z</lastmod>
+        <loc>https://www.canidev.tools/get-last-value/chrome</loc>
+        <lastmod>2022-07-30T12:55:18.000Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
     
     <url>
-        <loc>https://www.canidev.tools/get-last-return-value/edge</loc>
-        <lastmod>2022-05-08T16:30:51.000Z</lastmod>
+        <loc>https://www.canidev.tools/get-last-value/firefox</loc>
+        <lastmod>2022-07-30T12:49:46.000Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
     
     <url>
-        <loc>https://www.canidev.tools/get-last-return-value/safari</loc>
-        <lastmod>2022-05-02T14:58:53.000Z</lastmod>
+        <loc>https://www.canidev.tools/get-last-value/edge</loc>
+        <lastmod>2022-07-30T12:49:53.000Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
     
     <url>
-        <loc>https://www.canidev.tools/get-last-return-value/opera</loc>
-        <lastmod>2022-06-12T13:22:41.000Z</lastmod>
+        <loc>https://www.canidev.tools/get-last-value/safari</loc>
+        <lastmod>2022-07-30T12:50:00.000Z</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.canidev.tools/get-last-value/opera</loc>
+        <lastmod>2022-07-30T12:50:07.000Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>

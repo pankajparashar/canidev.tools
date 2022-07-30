@@ -1,0 +1,94 @@
+{
+  "id": "recj9gMAfvdcc8UVm",
+  "createdTime": "2022-02-02T14:05:09.000Z",
+  "fields": {
+    "Safari": {
+      "Name": "Get last value",
+      "Platform": [
+        "MacOS"
+      ],
+      "Main": [
+        "recj9gMAfvdcc8UVm"
+      ],
+      "Notes": "`$_` returns the value of the most recently evaluated expression. Additionally, Safari also lets you access multiple values in chronological order, using `$1, $2, $3`, ...\n",
+      "LastModified": "2022-07-30T12:50:00.000Z",
+      "Category": [
+        "Console"
+      ]
+    },
+    "Slug": "get-last-value",
+    "Opera": {
+      "Main": [
+        "recj9gMAfvdcc8UVm"
+      ],
+      "Platform": [
+        "MacOS",
+        "Windows",
+        "Linux"
+      ],
+      "Notes": "`$_` returns the value of the most recently evaluated expression.\n",
+      "Name": "Get last value",
+      "LastModified": "2022-07-30T12:50:07.000Z",
+      "Category": [
+        "Console"
+      ]
+    },
+    "Name": "Get last value",
+    "Category": "Console",
+    "Description": "Can I get the last return value in the console?",
+    "Firefox": {
+      "Platform": [
+        "MacOS",
+        "Windows",
+        "Linux"
+      ],
+      "Notes": "`$_` returns the value of the most recently evaluated expression.\n",
+      "Name": "Get last value",
+      "Main": [
+        "recj9gMAfvdcc8UVm"
+      ],
+      "LastModified": "2022-07-30T12:49:46.000Z",
+      "Category": [
+        "Console"
+      ]
+    },
+    "Edge": {
+      "Notes": "`$_` returns the value of the most recently evaluated expression.\n",
+      "Platform": [
+        "MacOS",
+        "Windows",
+        "Linux"
+      ],
+      "Main": [
+        "recj9gMAfvdcc8UVm"
+      ],
+      "Name": "Get last value",
+      "LastModified": "2022-07-30T12:49:53.000Z",
+      "Category": [
+        "Console"
+      ]
+    },
+    "Chrome": {
+      "Notes": "`$_` returns the value of the most recently evaluated expression.\n",
+      "Main": [
+        "recj9gMAfvdcc8UVm"
+      ],
+      "Name": "Get last value",
+      "Platform": [
+        "MacOS",
+        "Windows",
+        "Linux"
+      ],
+      "LastModified": "2022-07-30T12:55:18.000Z",
+      "Category": [
+        "Console"
+      ],
+      "GIF": "https://res.cloudinary.com/canidevtools/image/upload/v1659185439/get-last-value-chrome_mraqjv.gif",
+      "Video": "https://res.cloudinary.com/canidevtools/video/upload/v1659185438/get-last-value-chrome_udgaci.mp4",
+      "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1659185580/get-last-value-chrome_fq7gcb.png",
+      "References": "**Console Utilities** - Chrome DevTools [Docs](https://developer.chrome.com/docs/devtools/console/utilities/#recent)\n"
+    },
+    "CreatedTime": "2022-02-02T14:05:09.000Z",
+    "LastModifiedTime": "2022-07-30T12:49:03.000Z"
+  }
+}
