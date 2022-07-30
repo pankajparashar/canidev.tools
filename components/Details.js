@@ -28,7 +28,7 @@ const Media = props => {
 				{{
 					"png": 
 						props.Image ? 
-							<img src={props.Image} alt="" className={`b_1px w_100pct`} /> : <Placeholder Name={props.Name} text="+Image" />,
+							<img src={props.Image} alt="" className={`w_100pct`} /> : <Placeholder Name={props.Name} text="+Image" />,
 					"mp4":
 						props.Video ?
 							<video controls preload="metadata">
@@ -36,7 +36,7 @@ const Media = props => {
 							</video> : <Placeholder Name={props.Name} text="+Video" />,
 					"gif":
 						props.GIF ?
-							<img src={props.GIF} alt="" className={`b_1px w_100pct`} /> : <Placeholder Name={props.Name} text="+GIF" />,
+							<img src={props.GIF} alt="" className={`w_100pct`} /> : <Placeholder Name={props.Name} text="+GIF" />,
 				}[type] || <Placeholder Name={props.Name} text="+Add Media" />}
 			</div>
 		</div>
