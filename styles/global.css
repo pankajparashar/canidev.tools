@@ -506,6 +506,9 @@ label, summary {
 .w_100pct {
 	width: 100%
 }
+.mw_100pct {
+	max-width: 100%
+}
 
 .w_auto {
 	width: auto

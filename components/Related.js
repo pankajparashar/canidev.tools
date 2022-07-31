@@ -5,7 +5,7 @@ export function Related(props) {
 	const { Category, Slug } = props.record.fields
 	props.records.forEach(r => {
 		if(r.fields.Category === Category && r.fields.Slug !== Slug) {
-			Records.push(<Record record={r} />)
+			Records.push(<Record record={r} color="red" />)
 		}
 	})
 		
