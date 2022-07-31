@@ -4,7 +4,7 @@
   "fields": {
     "Category": "Other",
     "CreatedTime": "2022-07-31T11:08:43.000Z",
-    "LastModifiedTime": "2022-07-31T11:09:23.000Z",
+    "LastModifiedTime": "2022-07-31T11:26:38.000Z",
     "Name": "Toggle light & dark theme",
     "Slug": "toggle-theme",
     "Description": "Can I switch to light or dark theme in devtools?",
@@ -62,7 +62,41 @@
       "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1659265856/toggle-theme-chrome_hhevev.png",
       "Video": "https://res.cloudinary.com/canidevtools/video/upload/v1659265856/toggle-theme-chrome_a0daev.mp4"
     },
-    "Firefox": null,
-    "Safari": null
+    "Firefox": {
+      "Name": "Toggle light & dark theme",
+      "LastModified": "2022-07-31T11:23:19.000Z",
+      "Main": [
+        "rec3cWlwU9CyRFApR"
+      ],
+      "Category": [
+        "Other"
+      ],
+      "Notes": "Open **Settings** (`F1`) > Under the **Themes** section, select \"Dark\" or \"Light\" to switch themes.\n",
+      "Platform": [
+        "MacOS",
+        "Windows",
+        "Linux"
+      ],
+      "GIF": "https://res.cloudinary.com/canidevtools/image/upload/v1659266448/toggle-theme-firefox_qb7e3f.gif",
+      "Video": "https://res.cloudinary.com/canidevtools/video/upload/v1659266448/toggle-theme-firefox_q1tjns.mp4",
+      "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1659266448/toggle-theme-firefox_eoryns.png"
+    },
+    "Safari": {
+      "Name": "Toggle light & dark theme",
+      "LastModified": "2022-07-31T11:30:01.000Z",
+      "Main": [
+        "rec3cWlwU9CyRFApR"
+      ],
+      "Category": [
+        "Other"
+      ],
+      "Platform": [
+        "MacOS"
+      ],
+      "Notes": "Open **Settings** (`Cmd+,`) > General > Appearance > Select \"Dark\" or \"Light\" to change the appearance.\n",
+      "Video": "https://res.cloudinary.com/canidevtools/video/upload/v1659266982/toggle-theme-safari_gfmxlc.mp4",
+      "GIF": "https://res.cloudinary.com/canidevtools/image/upload/v1659266984/toggle-theme-safari_j3vjyo.gif",
+      "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1659266982/toggle-theme-safari_uz76au.png"
+    }
   }
 }

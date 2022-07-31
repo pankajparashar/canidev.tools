@@ -358,7 +358,7 @@
     
     <url>
         <loc>https://www.canidev.tools/toggle-theme/</loc>
-        <lastmod>2022-07-31T11:09:23.000Z</lastmod>
+        <lastmod>2022-07-31T11:26:38.000Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
@@ -370,8 +370,22 @@
     </url>
     
     <url>
+        <loc>https://www.canidev.tools/toggle-theme/firefox</loc>
+        <lastmod>2022-07-31T11:23:19.000Z</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
         <loc>https://www.canidev.tools/toggle-theme/edge</loc>
         <lastmod>2022-07-31T11:13:34.000Z</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.canidev.tools/toggle-theme/safari</loc>
+        <lastmod>2022-07-31T11:30:01.000Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
