@@ -1,0 +1,97 @@
+{
+  "id": "recNcnfk60gJMxPi3",
+  "createdTime": "2022-07-31T07:00:03.000Z",
+  "fields": {
+    "Category": "Console",
+    "CreatedTime": "2022-07-31T07:00:03.000Z",
+    "LastModifiedTime": "2022-07-31T07:00:37.000Z",
+    "Name": "Select elements",
+    "Slug": "select-elements",
+    "Description": "Can I select one or more elements from the console?",
+    "Chrome": {
+      "Name": "Select elements",
+      "LastModified": "2022-07-31T07:19:04.000Z",
+      "Main": [
+        "recNcnfk60gJMxPi3"
+      ],
+      "Category": [
+        "Console"
+      ],
+      "Notes": "1. `$(selector [, startNode])` returns the reference to the first DOM element with the specified CSS selector. This command is equivalent to calling `document.querySelector()`.\n2. `$$(selector [, startNode])` returns an array of elements that match the given CSS selector. This command is equivalent to calling `document.querySelectorAll()`.\n",
+      "Platform": [
+        "MacOS",
+        "Windows",
+        "Linux"
+      ],
+      "References": "Console Utilities - Chrome DevTools [Docs](https://developer.chrome.com/docs/devtools/console/utilities/#recent-many)\n",
+      "GIF": "https://res.cloudinary.com/canidevtools/image/upload/v1659251749/select-elements-chrome_farvxe.gif",
+      "Video": "https://res.cloudinary.com/canidevtools/video/upload/v1659251749/select-elements-chrome_fn3kde.mp4",
+      "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1659251748/select-elements-chrome_bksfwc.png"
+    },
+    "Firefox": {
+      "Name": "Select elements",
+      "LastModified": "2022-07-31T07:21:23.000Z",
+      "Main": [
+        "recNcnfk60gJMxPi3"
+      ],
+      "Category": [
+        "Console"
+      ],
+      "Notes": "1. `$(selector [, startNode])` returns the reference to the first DOM element with the specified CSS selector. This command is equivalent to calling `document.querySelector()`.\n2. `$$(selector [, startNode])` returns an array of elements that match the given CSS selector. This command is equivalent to calling `document.querySelectorAll()`.\n\n",
+      "Platform": [
+        "MacOS",
+        "Windows",
+        "Linux"
+      ]
+    },
+    "Edge": {
+      "Name": "Select elements",
+      "LastModified": "2022-07-31T07:21:33.000Z",
+      "Main": [
+        "recNcnfk60gJMxPi3"
+      ],
+      "Category": [
+        "Console"
+      ],
+      "Notes": "1. `$(selector [, startNode])` returns the reference to the first DOM element with the specified CSS selector. This command is equivalent to calling `document.querySelector()`.\n2. `$$(selector [, startNode])` returns an array of elements that match the given CSS selector. This command is equivalent to calling `document.querySelectorAll()`.\n\n",
+      "Platform": [
+        "MacOS",
+        "Windows",
+        "Linux"
+      ]
+    },
+    "Safari": {
+      "Name": "Select elements",
+      "LastModified": "2022-07-31T07:21:39.000Z",
+      "Main": [
+        "recNcnfk60gJMxPi3"
+      ],
+      "Category": [
+        "Console"
+      ],
+      "Notes": "1. `$(selector [, startNode])` returns the reference to the first DOM element with the specified CSS selector. This command is equivalent to calling `document.querySelector()`.\n2. `$$(selector [, startNode])` returns an array of elements that match the given CSS selector. This command is equivalent to calling `document.querySelectorAll()`.\n\n",
+      "Platform": [
+        "MacOS"
+      ]
+    },
+    "Opera": {
+      "Name": "Select elements",
+      "LastModified": "2022-07-31T07:20:25.000Z",
+      "Main": [
+        "recNcnfk60gJMxPi3"
+      ],
+      "Category": [
+        "Console"
+      ],
+      "Notes": "1. `$(selector [, startNode])` returns the reference to the first DOM element with the specified CSS selector. This command is equivalent to calling `document.querySelector()`.\n2. `$$(selector [, startNode])` returns an array of elements that match the given CSS selector. This command is equivalent to calling `document.querySelectorAll()`.\n",
+      "Platform": [
+        "MacOS",
+        "Windows",
+        "Linux"
+      ],
+      "GIF": "https://res.cloudinary.com/canidevtools/image/upload/v1659251749/select-elements-chrome_farvxe.gif",
+      "Video": "https://res.cloudinary.com/canidevtools/video/upload/v1659251749/select-elements-chrome_fn3kde.mp4",
+      "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1659251748/select-elements-chrome_bksfwc.png"
+    }
+  }
+}
