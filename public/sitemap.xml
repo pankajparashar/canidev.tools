@@ -1687,41 +1687,41 @@
     
     <url>
         <loc>https://www.canidev.tools/get-selected-node/</loc>
-        <lastmod>2022-07-09T09:06:01.000Z</lastmod>
+        <lastmod>2022-07-31T05:17:52.000Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
     <url>
         <loc>https://www.canidev.tools/get-selected-node/chrome</loc>
-        <lastmod>2022-07-31T04:53:08.000Z</lastmod>
+        <lastmod>2022-07-31T05:17:35.000Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
     
     <url>
         <loc>https://www.canidev.tools/get-selected-node/firefox</loc>
-        <lastmod>2022-07-31T04:41:48.000Z</lastmod>
+        <lastmod>2022-07-31T05:17:45.000Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
     
     <url>
         <loc>https://www.canidev.tools/get-selected-node/edge</loc>
-        <lastmod>2022-07-31T04:42:01.000Z</lastmod>
+        <lastmod>2022-07-31T05:17:49.000Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
     
     <url>
         <loc>https://www.canidev.tools/get-selected-node/safari</loc>
-        <lastmod>2022-07-31T04:42:48.000Z</lastmod>
+        <lastmod>2022-07-31T05:17:56.000Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
     
     <url>
         <loc>https://www.canidev.tools/get-selected-node/opera</loc>
-        <lastmod>2022-07-31T04:42:08.000Z</lastmod>
+        <lastmod>2022-07-31T05:18:01.000Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
@@ -2150,7 +2150,7 @@
     
     <url>
         <loc>https://www.canidev.tools/get-last-value/</loc>
-        <lastmod>2022-07-30T12:49:03.000Z</lastmod>
+        <lastmod>2022-07-31T05:28:46.000Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
@@ -2675,7 +2675,7 @@
     
     <url>
         <loc>https://www.canidev.tools/copy-js-expression/</loc>
-        <lastmod>2022-07-24T10:16:01.000Z</lastmod>
+        <lastmod>2022-07-24T09:10:10.000Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>

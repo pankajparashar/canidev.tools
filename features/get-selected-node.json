@@ -2,21 +2,6 @@
   "id": "recYF6vGxXHJPmha6",
   "createdTime": "2022-02-19T11:53:16.000Z",
   "fields": {
-    "Safari": {
-      "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1654325593/Images/get-selected-node-safari_i3ktlm.png",
-      "Name": "Get selected node",
-      "Platform": [
-        "MacOS"
-      ],
-      "Main": [
-        "recYF6vGxXHJPmha6"
-      ],
-      "Notes": "Use `$0` to access the currently selected node. Additionally, `$1`, `$2`, `$3`, ... will give you the last selected nodes in the reverse chronological order.\n\n",
-      "LastModified": "2022-07-31T04:42:48.000Z",
-      "Category": [
-        "Console"
-      ]
-    },
     "Slug": "get-selected-node",
     "Opera": {
       "Main": [
@@ -30,10 +15,11 @@
       "Notes": "Use `$0` to access the currently selected node. Additionally, `$1`, `$2`, `$3`, ... will give you the last selected nodes in the reverse chronological order.\n",
       "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1654325592/Images/get-selected-node-chrome_khtsjk.png",
       "Name": "Get selected node",
-      "LastModified": "2022-07-31T04:42:08.000Z",
+      "LastModified": "2022-07-31T05:18:01.000Z",
       "Category": [
         "Console"
-      ]
+      ],
+      "Share": "https://twitter.com/CanIDevTools/status/1553610736454184960"
     },
     "Name": "Get selected node",
     "Category": "Console",
@@ -50,10 +36,11 @@
       "Main": [
         "recYF6vGxXHJPmha6"
       ],
-      "LastModified": "2022-07-31T04:41:48.000Z",
+      "LastModified": "2022-07-31T05:17:45.000Z",
       "Category": [
         "Console"
-      ]
+      ],
+      "Share": "https://twitter.com/CanIDevTools/status/1553610736454184960"
     },
     "Edge": {
       "Notes": "Use `$0` to access the currently selected node. Additionally, `$1`, `$2`, `$3`, ... will give you the last selected nodes in the reverse chronological order.\n",
@@ -67,32 +54,50 @@
       ],
       "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1654325593/Images/get-selected-node-edge_n4wiw9.png",
       "Name": "Get selected node",
-      "LastModified": "2022-07-31T04:42:01.000Z",
+      "LastModified": "2022-07-31T05:17:49.000Z",
       "Category": [
         "Console"
-      ]
+      ],
+      "Share": "https://twitter.com/CanIDevTools/status/1553610736454184960"
     },
     "Chrome": {
+      "References": "Console Utilities - Chrome DevTools [Docs](https://developer.chrome.com/docs/devtools/console/utilities/#recent-many)\n",
       "Notes": "Use `$0` to access the currently selected node. Additionally, `$1`, `$2`, `$3`, ... will give you the last selected nodes in the reverse chronological order.\n",
       "Main": [
         "recYF6vGxXHJPmha6"
       ],
       "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1659243167/get-selected-node-chrome_uvtf4q.png",
       "Name": "Get selected node",
+      "Video": "https://res.cloudinary.com/canidevtools/video/upload/v1659243167/get-selected-node-chrome_uf5o4m.mp4",
+      "GIF": "https://res.cloudinary.com/canidevtools/image/upload/v1659243168/get-selected-node-chrome_cbwhzq.gif",
       "Platform": [
         "MacOS",
         "Windows",
         "Linux"
       ],
-      "LastModified": "2022-07-31T04:53:08.000Z",
+      "LastModified": "2022-07-31T05:17:35.000Z",
       "Category": [
         "Console"
       ],
-      "References": "Console Utilities - Chrome DevTools [Docs](https://developer.chrome.com/docs/devtools/console/utilities/#recent-many)\n",
-      "Video": "https://res.cloudinary.com/canidevtools/video/upload/v1659243167/get-selected-node-chrome_uf5o4m.mp4",
-      "GIF": "https://res.cloudinary.com/canidevtools/image/upload/v1659243168/get-selected-node-chrome_cbwhzq.gif"
+      "Share": "https://twitter.com/CanIDevTools/status/1553610736454184960"
     },
     "CreatedTime": "2022-02-19T11:53:16.000Z",
-    "LastModifiedTime": "2022-07-09T09:06:01.000Z"
+    "LastModifiedTime": "2022-07-31T05:17:52.000Z",
+    "Safari": {
+      "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1654325593/Images/get-selected-node-safari_i3ktlm.png",
+      "Name": "Get selected node",
+      "Platform": [
+        "MacOS"
+      ],
+      "Notes": "Use `$0` to access the currently selected node. Additionally, `$1`, `$2`, `$3`, ... will give you the last selected nodes in the reverse chronological order.\n\n",
+      "LastModified": "2022-07-31T05:17:56.000Z",
+      "Main": [
+        "recYF6vGxXHJPmha6"
+      ],
+      "Category": [
+        "Console"
+      ],
+      "Share": "https://twitter.com/CanIDevTools/status/1553610736454184960"
+    }
   }
 }
