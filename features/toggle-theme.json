@@ -1,0 +1,68 @@
+{
+  "id": "rec3cWlwU9CyRFApR",
+  "createdTime": "2022-07-31T11:08:43.000Z",
+  "fields": {
+    "Category": "Other",
+    "CreatedTime": "2022-07-31T11:08:43.000Z",
+    "LastModifiedTime": "2022-07-31T11:09:23.000Z",
+    "Name": "Toggle light & dark theme",
+    "Slug": "toggle-theme",
+    "Description": "Can I switch to light or dark theme in devtools?",
+    "Chrome": {
+      "Name": "Toggle light & dark theme",
+      "LastModified": "2022-07-31T11:12:47.000Z",
+      "Main": [
+        "rec3cWlwU9CyRFApR"
+      ],
+      "Category": [
+        "Other"
+      ],
+      "Platform": [
+        "MacOS",
+        "Windows",
+        "Linux"
+      ],
+      "Notes": "Open **Command** **Menu** (`Cmd/Ctrl+Shift+P`) & Run > \"Switch to light/dark theme\" (Appearance) > Press `Enter`.\n",
+      "GIF": "https://res.cloudinary.com/canidevtools/image/upload/v1659265858/toggle-theme-chrome_b2gdsd.gif",
+      "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1659265858/toggle-theme-chrome_b2gdsd.gif",
+      "Video": "https://res.cloudinary.com/canidevtools/video/upload/v1659265856/toggle-theme-chrome_a0daev.mp4"
+    },
+    "Edge": {
+      "Name": "Toggle light & dark theme",
+      "LastModified": "2022-07-31T11:13:34.000Z",
+      "Main": [
+        "rec3cWlwU9CyRFApR"
+      ],
+      "Category": [
+        "Other"
+      ],
+      "Notes": "Open **Command** **Menu** (`Cmd/Ctrl+Shift+P`) & Run > \"Switch to light/dark theme\" (Appearance) > Press `Enter`.\n",
+      "Platform": [
+        "MacOS",
+        "Windows",
+        "Linux"
+      ]
+    },
+    "Opera": {
+      "Name": "Toggle light & dark theme",
+      "LastModified": "2022-07-31T11:14:05.000Z",
+      "Main": [
+        "rec3cWlwU9CyRFApR"
+      ],
+      "Category": [
+        "Other"
+      ],
+      "Notes": "Open **Command** **Menu** (`Cmd/Ctrl+Shift+P`) & Run > \"Switch to light/dark theme\" (Appearance) > Press `Enter`.\n",
+      "Platform": [
+        "MacOS",
+        "Windows",
+        "Linux"
+      ],
+      "GIF": "https://res.cloudinary.com/canidevtools/image/upload/v1659265858/toggle-theme-chrome_b2gdsd.gif",
+      "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1659265856/toggle-theme-chrome_hhevev.png",
+      "Video": "https://res.cloudinary.com/canidevtools/video/upload/v1659265856/toggle-theme-chrome_a0daev.mp4"
+    },
+    "Firefox": null,
+    "Safari": null
+  }
+}
