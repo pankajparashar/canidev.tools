@@ -10,7 +10,7 @@
     "Description": "Can I switch to light or dark theme in devtools?",
     "Chrome": {
       "Name": "Toggle light & dark theme",
-      "LastModified": "2022-07-31T11:12:47.000Z",
+      "LastModified": "2022-07-31T11:16:26.000Z",
       "Main": [
         "rec3cWlwU9CyRFApR"
       ],
@@ -24,7 +24,7 @@
       ],
       "Notes": "Open **Command** **Menu** (`Cmd/Ctrl+Shift+P`) & Run > \"Switch to light/dark theme\" (Appearance) > Press `Enter`.\n",
       "GIF": "https://res.cloudinary.com/canidevtools/image/upload/v1659265858/toggle-theme-chrome_b2gdsd.gif",
-      "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1659265858/toggle-theme-chrome_b2gdsd.gif",
+      "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1659265856/toggle-theme-chrome_hhevev.png",
       "Video": "https://res.cloudinary.com/canidevtools/video/upload/v1659265856/toggle-theme-chrome_a0daev.mp4"
     },
     "Edge": {
