@@ -54,7 +54,7 @@ export function Footer(props) {
       </div>
 
       <div className={`d_grid gtc_320px`}>
-        <div className="p_1em bb_1px_dark br_1px_dark pb_0 pt_0">
+        <div className="p_1em bb_1px_353939 br_1px_dark pb_0 pt_0">
           <p style={{ textIndent: "3em" }}>
             <strong>Can I DevTools?</strong> is like{" "}
             <a href="https://twitter.com/caniuse">@CanIUse</a> but for the
@@ -68,11 +68,11 @@ export function Footer(props) {
           </p>
         </div>
 
-        <div className="p_1em bb_1px_dark br_1px_dark d_flex jc_center">
+        <div className="p_1em bb_1px_353939 br_1px_dark d_flex jc_center">
           <img src="https://res.cloudinary.com/canidevtools/image/upload/v1659284013/1541821779181801475_hzitep.png" className="mw_100pct" />
         </div>
 
-        <div className="p_1em bb_1px_dark d_flex jc_center ai_center fd_col gap_1em">
+        <div className="p_1em bb_1px_353939 d_flex jc_center ai_center fd_col gap_1em">
           <CarbonAds />
         </div>
       </div>
