@@ -8,6 +8,8 @@
   padding: 10px;
   cursor: pointer;
   text-decoration: none;
+  border: 1px solid #333;
+  border-radius: 5px;
 }
 
 .carbon-cad .carbon-img {
