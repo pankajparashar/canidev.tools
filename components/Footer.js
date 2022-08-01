@@ -74,20 +74,6 @@ export function Footer(props) {
 
         <div className="p_1em bb_1px_dark d_flex jc_center ai_center fd_col gap_1em">
           <CarbonAds />
-          <div className="d_grid gap_5px" style={{ gridTemplateColumns: "repeat(2, 1fr)" }}>
-            <button
-              onClick={() => { }}
-            >
-              Day/Night
-            </button>
-            <button
-              onClick={() =>
-                document.body.scrollIntoView({ behavior: "smooth" })
-              }
-            >
-              Top ↑
-            </button>
-          </div>
         </div>
       </div>
     </div>
