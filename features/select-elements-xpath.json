@@ -11,10 +11,11 @@
         "reccwf8HcYbqqqska"
       ],
       "Notes": "`$x(path [, startNode])` returns an array of DOM elements that match the given XPath expression. It has an optional second parameter, `startNode`, that specifies an element or Node from which to search for elements.\n",
-      "LastModified": "2022-08-04T06:44:16.000Z",
+      "LastModified": "2022-08-04T10:59:07.000Z",
       "Category": [
         "Console"
-      ]
+      ],
+      "Share": "https://twitter.com/CanIDevTools/status/1555146143608508417"
     },
     "Slug": "select-elements-xpath",
     "Opera": {
@@ -28,10 +29,11 @@
       ],
       "Notes": "`$x(path [, startNode])` returns an array of DOM elements that match the given XPath expression. It has an optional second parameter, `startNode`, that specifies an element or Node from which to search for elements.\n",
       "Name": "Select elements with xpath",
-      "LastModified": "2022-08-04T06:42:02.000Z",
+      "LastModified": "2022-08-04T10:59:12.000Z",
       "Category": [
         "Console"
-      ]
+      ],
+      "Share": "https://twitter.com/CanIDevTools/status/1555146143608508417"
     },
     "Name": "Select elements with XPath",
     "Category": "Console",
@@ -47,10 +49,11 @@
       "Main": [
         "reccwf8HcYbqqqska"
       ],
-      "LastModified": "2022-08-04T06:43:07.000Z",
+      "LastModified": "2022-08-04T10:58:55.000Z",
       "Category": [
         "Console"
-      ]
+      ],
+      "Share": "https://twitter.com/CanIDevTools/status/1555146143608508417"
     },
     "Edge": {
       "Notes": "`$x(path [, startNode])` returns an array of DOM elements that match the given XPath expression. It has an optional second parameter, `startNode`, that specifies an element or Node from which to search for elements.\n",
@@ -63,10 +66,11 @@
         "reccwf8HcYbqqqska"
       ],
       "Name": "Select elements with xpath",
-      "LastModified": "2022-08-04T06:42:11.000Z",
+      "LastModified": "2022-08-04T10:59:03.000Z",
       "Category": [
         "Console"
-      ]
+      ],
+      "Share": "https://twitter.com/CanIDevTools/status/1555146143608508417"
     },
     "Chrome": {
       "References": "Console Utilities API [reference](https://developer.chrome.com/docs/devtools/console/utilities/#clear-function) \n",
@@ -83,10 +87,11 @@
         "Windows",
         "Linux"
       ],
-      "LastModified": "2022-08-04T06:44:25.000Z",
+      "LastModified": "2022-08-04T10:58:51.000Z",
       "Category": [
         "Console"
-      ]
+      ],
+      "Share": "https://twitter.com/CanIDevTools/status/1555146143608508417"
     },
     "CreatedTime": "2022-08-04T06:17:10.000Z",
     "LastModifiedTime": "2022-08-04T06:50:30.000Z"
