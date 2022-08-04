@@ -5,6 +5,7 @@
     "Safari": {
       "GIF": "https://res.cloudinary.com/canidevtools/image/upload/v1659266984/toggle-theme-safari_j3vjyo.gif",
       "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1659266982/toggle-theme-safari_uz76au.png",
+      "Share": "https://twitter.com/CanIDevTools/status/1553711229306253314",
       "Name": "Toggle light & dark theme",
       "Video": "https://res.cloudinary.com/canidevtools/video/upload/v1659266982/toggle-theme-safari_gfmxlc.mp4",
       "Platform": [
@@ -17,8 +18,7 @@
       "LastModified": "2022-07-31T11:56:54.000Z",
       "Category": [
         "Other"
-      ],
-      "Share": "https://twitter.com/CanIDevTools/status/1553711229306253314"
+      ]
     },
     "Slug": "toggle-theme",
     "Opera": {
@@ -26,6 +26,7 @@
         "rec3cWlwU9CyRFApR"
       ],
       "GIF": "https://res.cloudinary.com/canidevtools/image/upload/v1659265858/toggle-theme-chrome_b2gdsd.gif",
+      "Share": "https://twitter.com/CanIDevTools/status/1553710371579449345",
       "Video": "https://res.cloudinary.com/canidevtools/video/upload/v1659265856/toggle-theme-chrome_a0daev.mp4",
       "Platform": [
         "MacOS",
@@ -38,8 +39,7 @@
       "LastModified": "2022-07-31T11:53:34.000Z",
       "Category": [
         "Other"
-      ],
-      "Share": "https://twitter.com/CanIDevTools/status/1553710371579449345"
+      ]
     },
     "Name": "Toggle light & dark theme",
     "Category": "Other",
@@ -51,6 +51,7 @@
         "Windows",
         "Linux"
       ],
+      "Share": "https://twitter.com/CanIDevTools/status/1553710858215165952",
       "Notes": "Open **Settings** (`F1`) > Under the **Themes** section, select \"Dark\" or \"Light\" to switch themes.\n",
       "GIF": "https://res.cloudinary.com/canidevtools/image/upload/v1659266448/toggle-theme-firefox_qb7e3f.gif",
       "Name": "Toggle light & dark theme",
@@ -61,8 +62,7 @@
       "LastModified": "2022-07-31T11:55:20.000Z",
       "Category": [
         "Other"
-      ],
-      "Share": "https://twitter.com/CanIDevTools/status/1553710858215165952"
+      ]
     },
     "Edge": {
       "Notes": "Open **Command** **Menu** (`Cmd/Ctrl+Shift+P`) & Run > \"Switch to light/dark theme\" (Appearance) > Press `Enter`.\n",
@@ -74,14 +74,15 @@
       "Main": [
         "rec3cWlwU9CyRFApR"
       ],
+      "Share": "https://twitter.com/CanIDevTools/status/1553710371579449345",
       "Name": "Toggle light & dark theme",
       "LastModified": "2022-07-31T11:53:30.000Z",
       "Category": [
         "Other"
-      ],
-      "Share": "https://twitter.com/CanIDevTools/status/1553710371579449345"
+      ]
     },
     "Chrome": {
+      "Share": "https://twitter.com/CanIDevTools/status/1553710371579449345",
       "Notes": "Open **Command** **Menu** (`Cmd/Ctrl+Shift+P`) & Run > \"Switch to light/dark theme\" (Appearance) > Press `Enter`.\n",
       "Main": [
         "rec3cWlwU9CyRFApR"
@@ -98,11 +99,10 @@
       "LastModified": "2022-07-31T11:53:27.000Z",
       "Category": [
         "Other"
-      ],
-      "Share": "https://twitter.com/CanIDevTools/status/1553710371579449345"
+      ]
     },
+    "Newsletter": "https://canidevtools.substack.com/p/tips-tricks-8",
     "CreatedTime": "2022-07-31T11:08:43.000Z",
-    "LastModifiedTime": "2022-07-31T12:07:46.000Z",
-    "Newsletter": "https://canidevtools.substack.com/p/tips-tricks-8"
+    "LastModifiedTime": "2022-07-31T12:07:46.000Z"
   }
 }
