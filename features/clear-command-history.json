@@ -10,7 +10,7 @@
     "Description": "Can I clear the command history of the console?",
     "Chrome": {
       "Name": "Clear command history",
-      "LastModified": "2022-08-05T03:11:55.000Z",
+      "LastModified": "2022-08-05T03:23:38.000Z",
       "Main": [
         "recTSHxshzWYfKUWQ"
       ],
@@ -25,11 +25,12 @@
         "Windows",
         "Linux"
       ],
-      "Notes": "In the **Console** tab, right click anywhere > select \"Clear console history\" to remove all the commands from its history.\n"
+      "Notes": "In the **Console** tab, right click anywhere > select \"Clear console history\" to remove all the commands from its history.\n",
+      "Share": "https://twitter.com/CanIDevTools/status/1555394008456646656"
     },
     "Edge": {
       "Name": "Clear command history",
-      "LastModified": "2022-08-05T03:12:45.000Z",
+      "LastModified": "2022-08-05T03:23:43.000Z",
       "Main": [
         "recTSHxshzWYfKUWQ"
       ],
@@ -41,11 +42,12 @@
         "MacOS",
         "Windows",
         "Linux"
-      ]
+      ],
+      "Share": "https://twitter.com/CanIDevTools/status/1555394008456646656"
     },
     "Opera": {
       "Name": "Clear command history",
-      "LastModified": "2022-08-05T03:12:41.000Z",
+      "LastModified": "2022-08-05T03:23:47.000Z",
       "Main": [
         "recTSHxshzWYfKUWQ"
       ],
@@ -57,7 +59,8 @@
         "MacOS",
         "Windows",
         "Linux"
-      ]
+      ],
+      "Share": "https://twitter.com/CanIDevTools/status/1555394008456646656"
     },
     "Firefox": null,
     "Safari": null
