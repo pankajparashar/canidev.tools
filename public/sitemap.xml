@@ -1475,6 +1475,33 @@
     </url>
     
     <url>
+        <loc>https://www.canidev.tools/clear-command-history/</loc>
+        <lastmod>2022-08-05T03:12:02.000Z</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://www.canidev.tools/clear-command-history/chrome</loc>
+        <lastmod>2022-08-05T03:11:55.000Z</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.canidev.tools/clear-command-history/edge</loc>
+        <lastmod>2022-08-05T03:12:45.000Z</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.canidev.tools/clear-command-history/opera</loc>
+        <lastmod>2022-08-05T03:12:41.000Z</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
         <loc>https://www.canidev.tools/reorder-tabs-panes/</loc>
         <lastmod>2022-07-03T05:11:31.000Z</lastmod>
         <changefreq>monthly</changefreq>
