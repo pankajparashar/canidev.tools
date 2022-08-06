@@ -8,7 +8,7 @@
   </a>
 
   <a aria-label="Buy me Coffee" href="https://www.buymeacoffee.com/pankajparashar">
-    <img src="https://img.shields.io/badge/Buy Me Coffee-Follow-ffdd00?style=for-the-badge&logo=BuyMeACoffee&labelColor=000">
+    <img src="https://img.shields.io/badge/Buy Me Coffee-Donate-ffdd00?style=for-the-badge&logo=BuyMeACoffee&labelColor=000">
   </a>
 </p>
 
