@@ -1,3 +1,17 @@
+<p align="center">
+  <a aria-label="Substack Newsletter" href="https://canidevtools.substack.com">
+    <img src="https://img.shields.io/badge/Substack-Newsletter-ff6719?style=for-the-badge&logo=Substack&labelColor=000">
+  </a>
+  
+  <a aria-label="Twitter" href="https://twitter.com/CanIDevTools">
+    <img src="https://img.shields.io/badge/Twitter-Follow-309bf0?style=for-the-badge&logo=Twitter&labelColor=000">
+  </a>
+
+  <a aria-label="Buy me Coffee" href="https://www.buymeacoffee.com/pankajparashar">
+    <img src="https://img.shields.io/badge/Buy Me Coffee-Follow-ffdd00?style=for-the-badge&logo=BuyMeACoffee&labelColor=000">
+  </a>
+</p>
+
 ## How to Contribute?
 
 All the features are available under the [features](https://github.com/pankajparashar/canidev.tools/tree/master/features) directory in the JSON format labelled with the filename format `[slug].json`. 
