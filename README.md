@@ -10,6 +10,10 @@
   <a aria-label="Buy me Coffee" href="https://www.buymeacoffee.com/pankajparashar">
     <img src="https://img.shields.io/badge/Buy Me Coffee-Donate-ffdd00?style=for-the-badge&logo=BuyMeACoffee&labelColor=000">
   </a>
+  
+  <a aria-label="Discord" href="https://discord.gg/WCdj6rFwcN">
+    <img src="https://img.shields.io/badge/Discord-Join-404eed?style=for-the-badge&logo=Discord&labelColor=000">
+  </a>
 </p>
 
 ## How to Contribute?
