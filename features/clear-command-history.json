@@ -2,66 +2,66 @@
   "id": "recTSHxshzWYfKUWQ",
   "createdTime": "2022-08-05T03:08:01.000Z",
   "fields": {
-    "Category": "Console",
-    "CreatedTime": "2022-08-05T03:08:01.000Z",
-    "LastModifiedTime": "2022-08-05T03:12:02.000Z",
-    "Name": "Clear command history",
     "Slug": "clear-command-history",
-    "Description": "Can I clear the command history of the console?",
-    "Chrome": {
-      "Name": "Clear command history",
-      "LastModified": "2022-08-05T03:23:38.000Z",
-      "Main": [
-        "recTSHxshzWYfKUWQ"
-      ],
-      "Category": [
-        "Console"
-      ],
-      "GIF": "https://res.cloudinary.com/canidevtools/image/upload/v1659669026/clear-command-history-chrome_ekwdfn.gif",
-      "Video": "https://res.cloudinary.com/canidevtools/video/upload/v1659669026/clear-command-history-chrome_vmlcs6.mp4",
-      "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1659669025/clear-command-history-chrome_oolew7.png",
-      "Platform": [
-        "MacOS",
-        "Windows",
-        "Linux"
-      ],
-      "Notes": "In the **Console** tab, right click anywhere > select \"Clear console history\" to remove all the commands from its history.\n",
-      "Share": "https://twitter.com/CanIDevTools/status/1555394008456646656"
-    },
-    "Edge": {
-      "Name": "Clear command history",
-      "LastModified": "2022-08-05T03:23:43.000Z",
-      "Main": [
-        "recTSHxshzWYfKUWQ"
-      ],
-      "Category": [
-        "Console"
-      ],
-      "Notes": "In the **Console** tab, right click anywhere > select \"Clear console history\" to remove all the commands from its history.\n",
-      "Platform": [
-        "MacOS",
-        "Windows",
-        "Linux"
-      ],
-      "Share": "https://twitter.com/CanIDevTools/status/1555394008456646656"
-    },
     "Opera": {
+      "Main": [
+        "recTSHxshzWYfKUWQ"
+      ],
+      "Share": "https://twitter.com/CanIDevTools/status/1555394008456646656",
+      "Platform": [
+        "MacOS",
+        "Windows",
+        "Linux"
+      ],
+      "Notes": "In the **Console** tab, right click anywhere > select \"Clear console history\" to remove all the commands from its history.\n",
       "Name": "Clear command history",
       "LastModified": "2022-08-05T03:23:47.000Z",
-      "Main": [
-        "recTSHxshzWYfKUWQ"
-      ],
       "Category": [
         "Console"
-      ],
+      ]
+    },
+    "Name": "Clear command history",
+    "Category": "Console",
+    "Description": "Can I clear the command history of the console?",
+    "Edge": {
       "Notes": "In the **Console** tab, right click anywhere > select \"Clear console history\" to remove all the commands from its history.\n",
       "Platform": [
         "MacOS",
         "Windows",
         "Linux"
       ],
-      "Share": "https://twitter.com/CanIDevTools/status/1555394008456646656"
+      "Main": [
+        "recTSHxshzWYfKUWQ"
+      ],
+      "Share": "https://twitter.com/CanIDevTools/status/1555394008456646656",
+      "Name": "Clear command history",
+      "LastModified": "2022-08-05T03:23:43.000Z",
+      "Category": [
+        "Console"
+      ]
     },
+    "Chrome": {
+      "Share": "https://twitter.com/CanIDevTools/status/1555394008456646656",
+      "Notes": "In the **Console** tab, right click anywhere > select \"Clear console history\" to remove all the commands from its history.\n",
+      "Main": [
+        "recTSHxshzWYfKUWQ"
+      ],
+      "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1659669025/clear-command-history-chrome_oolew7.png",
+      "Name": "Clear command history",
+      "Video": "https://res.cloudinary.com/canidevtools/video/upload/v1659669026/clear-command-history-chrome_vmlcs6.mp4",
+      "GIF": "https://res.cloudinary.com/canidevtools/image/upload/v1659669026/clear-command-history-chrome_ekwdfn.gif",
+      "Platform": [
+        "MacOS",
+        "Windows",
+        "Linux"
+      ],
+      "LastModified": "2022-08-05T03:23:38.000Z",
+      "Category": [
+        "Console"
+      ]
+    },
+    "CreatedTime": "2022-08-05T03:08:01.000Z",
+    "LastModifiedTime": "2022-08-05T03:12:02.000Z",
     "Firefox": null,
     "Safari": null
   }

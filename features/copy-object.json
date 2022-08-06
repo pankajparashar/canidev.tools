@@ -1,0 +1,97 @@
+{
+  "id": "recgcGeEB7sxvBX36",
+  "createdTime": "2022-08-06T05:18:09.000Z",
+  "fields": {
+    "Category": "Console",
+    "CreatedTime": "2022-08-06T05:18:09.000Z",
+    "LastModifiedTime": "2022-08-06T05:21:48.000Z",
+    "Name": "Copy object",
+    "Slug": "copy-object",
+    "Description": "Can I copy an object from console?",
+    "Chrome": {
+      "Name": "Copy object",
+      "LastModified": "2022-08-06T05:19:31.000Z",
+      "Main": [
+        "recgcGeEB7sxvBX36"
+      ],
+      "Category": [
+        "Console"
+      ],
+      "Notes": "`copy(object)` copies a string representation of the specified object to the clipboard.\n",
+      "Platform": [
+        "MacOS",
+        "Windows",
+        "Linux"
+      ],
+      "GIF": "https://res.cloudinary.com/canidevtools/image/upload/v1659762918/copy-object-chrome_r3ek7n.gif",
+      "Video": "https://res.cloudinary.com/canidevtools/video/upload/v1659762914/copy-object-chrome_pyxbyj.mp4",
+      "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1659762913/copy-object-chrome_zzbhtw.png",
+      "References": "Console utilities API [reference](https://developer.chrome.com/docs/devtools/console/utilities/#copy-function)\n"
+    },
+    "Edge": {
+      "Name": "Copy object",
+      "LastModified": "2022-08-06T05:20:09.000Z",
+      "Main": [
+        "recgcGeEB7sxvBX36"
+      ],
+      "Category": [
+        "Console"
+      ],
+      "Notes": "`copy(object)` copies a string representation of the specified object to the clipboard.\n",
+      "Platform": [
+        "MacOS",
+        "Windows",
+        "Linux"
+      ]
+    },
+    "Opera": {
+      "Name": "Copy object",
+      "LastModified": "2022-08-06T05:20:44.000Z",
+      "Main": [
+        "recgcGeEB7sxvBX36"
+      ],
+      "Category": [
+        "Console"
+      ],
+      "Notes": "`copy(object)` copies a string representation of the specified object to the clipboard.\n",
+      "Platform": [
+        "MacOS",
+        "Windows",
+        "Linux"
+      ],
+      "GIF": "https://res.cloudinary.com/canidevtools/image/upload/v1659762918/copy-object-chrome_r3ek7n.gif",
+      "Video": "https://res.cloudinary.com/canidevtools/video/upload/v1659762914/copy-object-chrome_pyxbyj.mp4",
+      "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1659762913/copy-object-chrome_zzbhtw.png"
+    },
+    "Firefox": {
+      "Name": "Copy object",
+      "LastModified": "2022-08-06T05:22:01.000Z",
+      "Main": [
+        "recgcGeEB7sxvBX36"
+      ],
+      "Category": [
+        "Console"
+      ],
+      "Notes": "`copy(object)` copies a string representation of the specified object to the clipboard.\n",
+      "Platform": [
+        "MacOS",
+        "Windows",
+        "Linux"
+      ]
+    },
+    "Safari": {
+      "Name": "Copy object",
+      "LastModified": "2022-08-06T05:22:06.000Z",
+      "Main": [
+        "recgcGeEB7sxvBX36"
+      ],
+      "Category": [
+        "Console"
+      ],
+      "Platform": [
+        "MacOS"
+      ],
+      "Notes": "`copy(object)` copies a string representation of the specified object to the clipboard.\n"
+    }
+  }
+}

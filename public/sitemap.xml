@@ -2176,6 +2176,47 @@
     </url>
     
     <url>
+        <loc>https://www.canidev.tools/copy-object/</loc>
+        <lastmod>2022-08-06T05:21:48.000Z</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://www.canidev.tools/copy-object/chrome</loc>
+        <lastmod>2022-08-06T05:19:31.000Z</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.canidev.tools/copy-object/firefox</loc>
+        <lastmod>2022-08-06T05:22:01.000Z</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.canidev.tools/copy-object/edge</loc>
+        <lastmod>2022-08-06T05:20:09.000Z</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.canidev.tools/copy-object/safari</loc>
+        <lastmod>2022-08-06T05:22:06.000Z</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.canidev.tools/copy-object/opera</loc>
+        <lastmod>2022-08-06T05:20:44.000Z</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
         <loc>https://www.canidev.tools/copy-curl-request/</loc>
         <lastmod>2022-07-03T04:36:04.000Z</lastmod>
         <changefreq>monthly</changefreq>
