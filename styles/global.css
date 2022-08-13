@@ -114,7 +114,7 @@ ol > li {
 }
 
 ol > li::before {
-	content: counter(my-awesome-counter, decimal-leading-zero) ".";
+	content: "[" counter(my-awesome-counter) "]";
 	padding: 1px 5px 3px 0;
 }
 

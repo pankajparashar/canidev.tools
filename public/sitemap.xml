@@ -2,42 +2,42 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">    
     
     <url>
-        <loc>https://www.canidev.tools/debug-css-animation/</loc>
-        <lastmod>2022-07-09T09:02:06.000Z</lastmod>
+        <loc>https://www.canidev.tools/inspect-css-animation/</loc>
+        <lastmod>2022-08-13T04:42:21.000Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
     <url>
-        <loc>https://www.canidev.tools/debug-css-animation/chrome</loc>
-        <lastmod>2022-06-11T04:50:50.000Z</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>1.0</priority>
-    </url>
-    
-    <url>
-        <loc>https://www.canidev.tools/debug-css-animation/firefox</loc>
-        <lastmod>2022-05-08T16:31:19.000Z</lastmod>
+        <loc>https://www.canidev.tools/inspect-css-animation/chrome</loc>
+        <lastmod>2022-08-13T07:32:13.000Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
     
     <url>
-        <loc>https://www.canidev.tools/debug-css-animation/edge</loc>
-        <lastmod>2022-05-08T16:30:51.000Z</lastmod>
+        <loc>https://www.canidev.tools/inspect-css-animation/firefox</loc>
+        <lastmod>2022-08-13T04:42:33.000Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
     
     <url>
-        <loc>https://www.canidev.tools/debug-css-animation/safari</loc>
-        <lastmod>2022-05-02T14:58:53.000Z</lastmod>
+        <loc>https://www.canidev.tools/inspect-css-animation/edge</loc>
+        <lastmod>2022-08-13T04:42:37.000Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
     
     <url>
-        <loc>https://www.canidev.tools/debug-css-animation/opera</loc>
-        <lastmod>2022-06-12T13:22:41.000Z</lastmod>
+        <loc>https://www.canidev.tools/inspect-css-animation/safari</loc>
+        <lastmod>2022-08-13T04:42:41.000Z</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.canidev.tools/inspect-css-animation/opera</loc>
+        <lastmod>2022-08-13T07:29:36.000Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
@@ -399,34 +399,34 @@
     
     <url>
         <loc>https://www.canidev.tools/add-custom-device/</loc>
-        <lastmod>2022-08-07T07:21:05.000Z</lastmod>
+        <lastmod>2022-08-07T07:50:19.000Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
     <url>
         <loc>https://www.canidev.tools/add-custom-device/chrome</loc>
-        <lastmod>2022-08-07T06:47:36.000Z</lastmod>
+        <lastmod>2022-08-07T07:43:53.000Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
     
     <url>
         <loc>https://www.canidev.tools/add-custom-device/firefox</loc>
-        <lastmod>2022-08-07T07:14:53.000Z</lastmod>
+        <lastmod>2022-08-07T07:46:22.000Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
     
     <url>
         <loc>https://www.canidev.tools/add-custom-device/edge</loc>
-        <lastmod>2022-08-07T07:21:46.000Z</lastmod>
+        <lastmod>2022-08-07T07:43:57.000Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
     
     <url>
         <loc>https://www.canidev.tools/add-custom-device/opera</loc>
-        <lastmod>2022-08-07T06:48:34.000Z</lastmod>
+        <lastmod>2022-08-07T07:44:00.000Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>

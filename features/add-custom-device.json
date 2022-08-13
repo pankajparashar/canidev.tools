@@ -2,89 +2,94 @@
   "id": "rec5cmj2rh2WaFkIA",
   "createdTime": "2022-08-07T06:39:03.000Z",
   "fields": {
-    "Category": "Other",
-    "CreatedTime": "2022-08-07T06:39:03.000Z",
-    "LastModifiedTime": "2022-08-07T07:21:05.000Z",
-    "Name": "Add custom device",
     "Slug": "add-custom-device",
-    "Description": "Can I add a custom device for a responsive design mode?",
-    "Chrome": {
-      "Name": "Add custom device",
-      "LastModified": "2022-08-07T06:47:36.000Z",
+    "Opera": {
       "Main": [
         "rec5cmj2rh2WaFkIA"
       ],
-      "Category": [
-        "Other"
-      ],
-      "Video": "https://res.cloudinary.com/canidevtools/video/upload/v1659854384/add-custom-device-chrome_g3ad70.mp4",
       "GIF": "https://res.cloudinary.com/canidevtools/image/upload/v1659854383/add-custom-device-chrome_kaauz8.gif",
-      "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1659854382/add-custom-device-chrome_m7wzpg.png",
+      "Share": "https://twitter.com/CanIDevTools/status/1556184233353179137",
+      "Video": "https://res.cloudinary.com/canidevtools/video/upload/v1659854384/add-custom-device-chrome_g3ad70.mp4",
       "Platform": [
         "MacOS",
         "Windows",
         "Linux"
-      ],
-      "Notes": "1. Open **Settings** (`F1` or `Shift+?`) > Devices > Click \"Add custom device...\". \n2. Enter the \"Device Name\" and other details associated with the device. Click the \"Add\" button.\n"
-    },
-    "Opera": {
-      "Name": "Add custom device",
-      "LastModified": "2022-08-07T06:48:34.000Z",
-      "Main": [
-        "rec5cmj2rh2WaFkIA"
-      ],
-      "Category": [
-        "Other"
       ],
       "Notes": "1. Open **Settings** (`F1` or `Shift+?`) > Devices > Click \"Add custom device...\". \n2. Enter the \"Device Name\" and other details associated with the device. Click the \"Add\" button.\n",
+      "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1659854382/add-custom-device-chrome_m7wzpg.png",
+      "Name": "Add custom device",
+      "LastModified": "2022-08-07T07:44:00.000Z",
+      "Category": [
+        "Other"
+      ]
+    },
+    "Name": "Add custom device",
+    "Category": "Other",
+    "Description": "Can I add a custom device for a responsive design mode?",
+    "Firefox": {
+      "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1659856469/add-custom-device-firefox_jqaa19.png",
       "Platform": [
         "MacOS",
         "Windows",
         "Linux"
       ],
-      "Video": "https://res.cloudinary.com/canidevtools/video/upload/v1659854384/add-custom-device-chrome_g3ad70.mp4",
-      "GIF": "https://res.cloudinary.com/canidevtools/image/upload/v1659854383/add-custom-device-chrome_kaauz8.gif",
-      "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1659854382/add-custom-device-chrome_m7wzpg.png"
-    },
-    "Firefox": {
+      "Share": "https://twitter.com/CanIDevTools/status/1556184931604172800",
+      "Notes": "1. Open **Responsive** **Design** **Mode** (`Cmd+Opt+M` or `Ctrl+Shift+M`) > Select \"Edit List...\" from the list of devices.\n2. In **Device** **Settings**, click \"Add Custom Device...\" > Enter the **Name** and other related details > Click \"Save\".\n",
+      "GIF": "https://res.cloudinary.com/canidevtools/image/upload/v1659856471/add-custom-device-firefox_rmzewd.gif",
+      "References": "Responsive Design Mode - [Firefox Source Docs](https://firefox-source-docs.mozilla.org/devtools-user/responsive_design_mode/)\n",
       "Name": "Add custom device",
-      "LastModified": "2022-08-07T07:14:53.000Z",
+      "Video": "https://res.cloudinary.com/canidevtools/video/upload/v1659856478/add-custom-device-firefox_uqwxrz.mp4",
       "Main": [
         "rec5cmj2rh2WaFkIA"
       ],
+      "LastModified": "2022-08-07T07:46:22.000Z",
       "Category": [
         "Other"
-      ],
-      "Notes": "1. Open **Responsive** **Design** **Mode** (`Cmd+Opt+M` or `Ctrl+Shift+M`) > Select \"Edit List...\" from the list of devices.\n2. In **Device** **Settings**, click \"Add Custom Device...\" > Enter the **Name** and other related details > Click \"Save\".\n",
-      "Platform": [
-        "MacOS",
-        "Windows",
-        "Linux"
-      ],
-      "References": "Responsive Design Mode - [Firefox Source Docs](https://firefox-source-docs.mozilla.org/devtools-user/responsive_design_mode/)\n",
-      "GIF": "https://res.cloudinary.com/canidevtools/image/upload/v1659856471/add-custom-device-firefox_rmzewd.gif",
-      "Video": "https://res.cloudinary.com/canidevtools/video/upload/v1659856478/add-custom-device-firefox_uqwxrz.mp4",
-      "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1659856469/add-custom-device-firefox_jqaa19.png"
+      ]
     },
     "Edge": {
-      "Name": "Add custom device",
-      "LastModified": "2022-08-07T07:21:46.000Z",
-      "Main": [
-        "rec5cmj2rh2WaFkIA"
-      ],
-      "Category": [
-        "Other"
-      ],
+      "GIF": "https://res.cloudinary.com/canidevtools/image/upload/v1659856864/add-custom-device-edge_x6ohtb.gif",
       "Notes": "1. Open **Settings** (`F1` or `Shift+?`) > Devices > Click \"Add custom device...\". \n2. Enter the \"Device Name\" and other details associated with the device. Click the \"Add\" button.\n",
       "Platform": [
         "MacOS",
         "Windows",
         "Linux"
       ],
-      "GIF": "https://res.cloudinary.com/canidevtools/image/upload/v1659856864/add-custom-device-edge_x6ohtb.gif",
+      "Main": [
+        "rec5cmj2rh2WaFkIA"
+      ],
+      "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1659856863/add-custom-device-edge_wt2ql3.png",
+      "Share": "https://twitter.com/CanIDevTools/status/1556184233353179137",
+      "Name": "Add custom device",
       "Video": "https://res.cloudinary.com/canidevtools/video/upload/v1659856864/add-custom-device-edge_gf1pjd.mp4",
-      "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1659856863/add-custom-device-edge_wt2ql3.png"
+      "LastModified": "2022-08-07T07:43:57.000Z",
+      "Category": [
+        "Other"
+      ]
     },
+    "Chrome": {
+      "Share": "https://twitter.com/CanIDevTools/status/1556184233353179137",
+      "Notes": "1. Open **Settings** (`F1` or `Shift+?`) > Devices > Click \"Add custom device...\". \n2. Enter the \"Device Name\" and other details associated with the device. Click the \"Add\" button.\n",
+      "Main": [
+        "rec5cmj2rh2WaFkIA"
+      ],
+      "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1659854382/add-custom-device-chrome_m7wzpg.png",
+      "Name": "Add custom device",
+      "Video": "https://res.cloudinary.com/canidevtools/video/upload/v1659854384/add-custom-device-chrome_g3ad70.mp4",
+      "GIF": "https://res.cloudinary.com/canidevtools/image/upload/v1659854383/add-custom-device-chrome_kaauz8.gif",
+      "Platform": [
+        "MacOS",
+        "Windows",
+        "Linux"
+      ],
+      "LastModified": "2022-08-07T07:43:53.000Z",
+      "Category": [
+        "Other"
+      ]
+    },
+    "Newsletter": "https://canidevtools.substack.com/p/tips-tricks-11?sd=pf",
+    "CreatedTime": "2022-08-07T06:39:03.000Z",
+    "LastModifiedTime": "2022-08-07T07:50:19.000Z",
     "Safari": null
   }
 }

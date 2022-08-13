@@ -1,0 +1,99 @@
+{
+  "id": "rec06NlvA5WJKSGVu",
+  "createdTime": "2022-02-19T11:05:41.000Z",
+  "fields": {
+    "Safari": {
+      "Name": "Inspect CSS animation",
+      "Platform": [
+        "MacOS"
+      ],
+      "Main": [
+        "rec06NlvA5WJKSGVu"
+      ],
+      "Notes": "1. Open devtools > Open the \"Timelines\" tab > Ensure that \"Media and Animations\" is enabled in the left panel.\n2. Now reload the page or trigger the animation to see the timeline in the bottom panel. \n",
+      "LastModified": "2022-08-13T04:42:41.000Z",
+      "Category": [
+        "CSS"
+      ]
+    },
+    "Slug": "inspect-css-animation",
+    "Opera": {
+      "Main": [
+        "rec06NlvA5WJKSGVu"
+      ],
+      "References": "\n",
+      "Video": "https://res.cloudinary.com/canidevtools/video/upload/v1660375651/inspect-css-animation-chrome_xz5w96.mp4",
+      "Platform": [
+        "MacOS",
+        "Windows",
+        "Linux"
+      ],
+      "Notes": "1. Open **Command** **Menu** (`Cmd+Shift+P` or `Ctrl+Shift+P`) > Run  \"Show Animations\" and press `Enter.`\n2. Trigger the animation to record it on the timeline. Now you can use the buttons in the **Controls** section to adjust the replay speed of the animation.\n3. Use the **Timeline** section to scrub the animation or jump to a specific point in animation. Use the **Details** section modify the timing & the delay of the animation.\n",
+      "Name": "Inspect CSS animation",
+      "LastModified": "2022-08-13T07:29:36.000Z",
+      "Category": [
+        "CSS"
+      ],
+      "GIF": "https://res.cloudinary.com/canidevtools/image/upload/v1660375654/inspect-css-animation-chrome_lcofus.gif",
+      "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1660375645/inspect-css-animation-chrome_ia53pf.png"
+    },
+    "Name": "Inspect CSS animation",
+    "Category": "CSS",
+    "Description": "Can I inspect CSS animations & keyframes using the devtools?",
+    "Firefox": {
+      "Platform": [
+        "MacOS",
+        "Windows",
+        "Linux"
+      ],
+      "Notes": "1. Inspect the element which uses CSS animation. Click on the \"Animations\" tab next to the DOM tree in the side panel.\n",
+      "Name": "Inspect CSS animation",
+      "Main": [
+        "rec06NlvA5WJKSGVu"
+      ],
+      "LastModified": "2022-08-13T04:42:33.000Z",
+      "Category": [
+        "CSS"
+      ]
+    },
+    "Edge": {
+      "Notes": "1. Launch Devtools > Open \"Command Menu\" by using Cmd+Shit+P (on Mac) or Ctrl+Shift+P (on Windows/Linux/Chrome OS).\n2. Search for \"Show Animations\" and press Enter (this will open the \"Animations\" drawer next to the Console).\n",
+      "Platform": [
+        "MacOS",
+        "Windows",
+        "Linux"
+      ],
+      "Main": [
+        "rec06NlvA5WJKSGVu"
+      ],
+      "Name": "Inspect CSS animation",
+      "Video": "https://res.cloudinary.com/canidevtools/video/upload/v1647789160/Videos/debug-css-animation-chrome.mp4",
+      "LastModified": "2022-08-13T04:42:37.000Z",
+      "Category": [
+        "CSS"
+      ]
+    },
+    "Chrome": {
+      "References": "[1] \"Inspect animations\", on Chrome Developers [Docs](https://developer.chrome.com/docs/devtools/css/animations/).  \n[2] \"How to inspect animations\", by Google Chrome Developer on [YouTube](https://youtu.be/lVLzkleL_CE).\n",
+      "Notes": "1. Open **Command** **Menu** (`Cmd+Shift+P` or `Ctrl+Shift+P`) > Run  \"Show Animations\" and press `Enter.`\n2. Trigger the animation to record it on the timeline. Now you can use the buttons in the **Controls** section to adjust the replay speed of the animation.\n3. Use the **Timeline** section to scrub the animation or jump to a specific point in animation. Use the **Details** section modify the timing & the delay of the animation.\n",
+      "Main": [
+        "rec06NlvA5WJKSGVu"
+      ],
+      "Name": "Inspect CSS animation",
+      "Platform": [
+        "MacOS",
+        "Windows",
+        "Linux"
+      ],
+      "LastModified": "2022-08-13T07:32:13.000Z",
+      "Category": [
+        "CSS"
+      ],
+      "Video": "https://res.cloudinary.com/canidevtools/video/upload/v1660375651/inspect-css-animation-chrome_xz5w96.mp4",
+      "GIF": "https://res.cloudinary.com/canidevtools/image/upload/v1660375654/inspect-css-animation-chrome_lcofus.gif",
+      "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1660375645/inspect-css-animation-chrome_ia53pf.png"
+    },
+    "CreatedTime": "2022-02-19T11:05:41.000Z",
+    "LastModifiedTime": "2022-08-13T04:42:21.000Z"
+  }
+}
