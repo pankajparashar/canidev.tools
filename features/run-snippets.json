@@ -70,7 +70,7 @@
     "LastModifiedTime": "2022-08-15T15:39:09.000Z",
     "Firefox": {
       "Name": "Run snippets",
-      "LastModified": "2022-08-15T15:50:47.000Z",
+      "LastModified": "2022-08-15T16:01:57.000Z",
       "Main": [
         "recfgov11mPMUKDsv"
       ],
@@ -85,7 +85,8 @@
       "Notes": "1. Open **Console** (`Cmd+Opt+K` or `Ctrl+Shift+K`) > Switch to multi-editor mode (`Cmd+B` or `Ctrl+B`).\n2. This will open the editor next to the **Console**, where you can enter the snippet and click \"Run\" to execute.\n",
       "Video": "https://res.cloudinary.com/canidevtools/video/upload/v1660578613/run-snippets-firefox_lirpn4.mp4",
       "GIF": "https://res.cloudinary.com/canidevtools/image/upload/v1660578613/run-snippets-firefox_sibus4.gif",
-      "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1660578611/run-snippets-firefox_l5txuk.png"
+      "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1660578611/run-snippets-firefox_l5txuk.png",
+      "Share": "https://twitter.com/CanIDevTools/status/1559208618762702848"
     },
     "Safari": null
   }
