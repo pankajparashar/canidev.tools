@@ -15,10 +15,10 @@
         "Windows",
         "Linux"
       ],
-      "Notes": "1. **Sources** > In the left sidebar, open **Snippets** > Click \"+ New snippet\". This will open an empty file in the main view.\n2. Enter the snippet and press `Cmd+Enter` to run the code.\n",
+      "Notes": "1. **Sources** > In the left sidebar, open **Snippets** > Click \"+ New snippet\". This will open an empty file in the main view.\n2. Enter the snippet and press `Cmd+Enter` to run the code.\n3. Additionally, you can also save the snippet and run it directly from the **Command** **Menu** using `!<script>`.\n",
       "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1660568830/run-snippets-opera_tcnovn.png",
       "Name": "Run snippets",
-      "LastModified": "2022-08-15T14:52:29.000Z",
+      "LastModified": "2022-08-15T16:22:30.000Z",
       "Category": [
         "Other"
       ]
@@ -26,9 +26,29 @@
     "Name": "Run snippets",
     "Category": "Other",
     "Description": "Can I run snippet of code in devtools?",
+    "Firefox": {
+      "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1660578611/run-snippets-firefox_l5txuk.png",
+      "Platform": [
+        "MacOS",
+        "Windows",
+        "Linux"
+      ],
+      "Share": "https://twitter.com/CanIDevTools/status/1559208618762702848",
+      "Notes": "1. Open **Console** (`Cmd+Opt+K` or `Ctrl+Shift+K`) > Switch to multi-editor mode (`Cmd+B` or `Ctrl+B`).\n2. This will open the editor next to the **Console**, where you can enter the snippet and click \"Run\" to execute.\n",
+      "GIF": "https://res.cloudinary.com/canidevtools/image/upload/v1660578613/run-snippets-firefox_sibus4.gif",
+      "Name": "Run snippets",
+      "Video": "https://res.cloudinary.com/canidevtools/video/upload/v1660578613/run-snippets-firefox_lirpn4.mp4",
+      "Main": [
+        "recfgov11mPMUKDsv"
+      ],
+      "LastModified": "2022-08-15T16:01:57.000Z",
+      "Category": [
+        "Other"
+      ]
+    },
     "Edge": {
       "GIF": "https://res.cloudinary.com/canidevtools/image/upload/v1660547896/run-snippets-edge_ki37g1.gif",
-      "Notes": "1. **Sources** > In the left sidebar, open **Snippets** > Click \"+ New snippet\". This will open an empty file in the main view.\n2. Enter the snippet and press `Cmd+Enter` to run the code.\n",
+      "Notes": "1. **Sources** > In the left sidebar, open **Snippets** > Click \"+ New snippet\". This will open an empty file in the main view.\n2. Enter the snippet and press `Cmd+Enter` to run the code.\n3. Additionally, you can also save the snippet and run it directly from the **Command** **Menu** using `!<script>`.\n",
       "Platform": [
         "MacOS",
         "Windows",
@@ -40,7 +60,7 @@
       "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1660547894/run-snippets-edge_z5dlai.png",
       "Name": "Run snippets",
       "Video": "https://res.cloudinary.com/canidevtools/video/upload/v1660547899/run-snippets-edge_ez6fe5.mp4",
-      "LastModified": "2022-08-15T12:41:21.000Z",
+      "LastModified": "2022-08-15T16:22:20.000Z",
       "Category": [
         "Other"
       ]
@@ -48,7 +68,7 @@
     "Chrome": {
       "Share": "https://twitter.com/CanIDevTools/status/1559114513370456064",
       "References": "[1] \"Run Snippets of JavaScript\", by Chrome Devtools [docs](https://developer.chrome.com/docs/devtools/javascript/snippets/).\n",
-      "Notes": "1. **Sources** > In the left sidebar, open **Snippets** > Click \"+ New snippet\". This will open an empty file in the main view.\n2. Enter the snippet and press `Cmd+Enter` to run the code.\n",
+      "Notes": "1. **Sources** > In the left sidebar, open **Snippets** > Click \"+ New snippet\". This will open an empty file in the main view.\n2. Enter the snippet and press `Cmd+Enter` to run the code.\n3. Additionally, you can also save the snippet and run it directly from the **Command** **Menu** using `!<script>`.\n",
       "Main": [
         "recfgov11mPMUKDsv"
       ],
@@ -61,33 +81,14 @@
         "Windows",
         "Linux"
       ],
-      "LastModified": "2022-08-15T09:47:35.000Z",
+      "LastModified": "2022-08-15T16:22:08.000Z",
       "Category": [
         "Other"
       ]
     },
     "CreatedTime": "2022-08-15T06:59:06.000Z",
-    "LastModifiedTime": "2022-08-15T15:39:09.000Z",
-    "Firefox": {
-      "Name": "Run snippets",
-      "LastModified": "2022-08-15T16:01:57.000Z",
-      "Main": [
-        "recfgov11mPMUKDsv"
-      ],
-      "Category": [
-        "Other"
-      ],
-      "Platform": [
-        "MacOS",
-        "Windows",
-        "Linux"
-      ],
-      "Notes": "1. Open **Console** (`Cmd+Opt+K` or `Ctrl+Shift+K`) > Switch to multi-editor mode (`Cmd+B` or `Ctrl+B`).\n2. This will open the editor next to the **Console**, where you can enter the snippet and click \"Run\" to execute.\n",
-      "Video": "https://res.cloudinary.com/canidevtools/video/upload/v1660578613/run-snippets-firefox_lirpn4.mp4",
-      "GIF": "https://res.cloudinary.com/canidevtools/image/upload/v1660578613/run-snippets-firefox_sibus4.gif",
-      "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1660578611/run-snippets-firefox_l5txuk.png",
-      "Share": "https://twitter.com/CanIDevTools/status/1559208618762702848"
-    },
+    "LastModifiedTime": "2022-08-15T16:29:31.000Z",
+    "Newsletter": "https://canidevtools.substack.com/p/tips-tricks-13?sd=pf",
     "Safari": null
   }
 }
