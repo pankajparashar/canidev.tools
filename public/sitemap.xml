@@ -2128,6 +2128,19 @@
     </url>
     
     <url>
+        <loc>https://www.canidev.tools/run-snippets/</loc>
+        <lastmod>2022-08-15T07:15:17.000Z</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://www.canidev.tools/run-snippets/chrome</loc>
+        <lastmod>2022-08-15T07:19:34.000Z</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
         <loc>https://www.canidev.tools/disable-javascript/</loc>
         <lastmod>2022-07-09T09:10:21.000Z</lastmod>
         <changefreq>monthly</changefreq>

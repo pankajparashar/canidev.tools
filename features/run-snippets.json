@@ -1,0 +1,36 @@
+{
+  "id": "recfgov11mPMUKDsv",
+  "createdTime": "2022-08-15T06:59:06.000Z",
+  "fields": {
+    "Slug": "run-snippets",
+    "Name": "Run snippets",
+    "Category": "Other",
+    "Description": "Can I run snippet of code in devtools?",
+    "CreatedTime": "2022-08-15T06:59:06.000Z",
+    "LastModifiedTime": "2022-08-15T07:15:17.000Z",
+    "Chrome": {
+      "Name": "Run snippets",
+      "LastModified": "2022-08-15T07:19:34.000Z",
+      "Main": [
+        "recfgov11mPMUKDsv"
+      ],
+      "Category": [
+        "Other"
+      ],
+      "Notes": "1. **Sources** > In the left sidebar, open **Snippets** > Click \"+ New snippet\". This will open an empty file in the main view.\n2. Enter the snippet and press `Cmd+Enter` to run the code.\n",
+      "Platform": [
+        "MacOS",
+        "Windows",
+        "Linux"
+      ],
+      "Video": "https://res.cloudinary.com/canidevtools/video/upload/v1660547902/run-snippets-chrome_jsjtiz.mp4",
+      "GIF": "https://res.cloudinary.com/canidevtools/image/upload/v1660547899/run-snippets-chrome_utp2ca.gif",
+      "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1660547895/run-snippets-chrome_c1js6i.png",
+      "References": "[1] \"Run Snippets of JavaScript\", by Chrome Devtools [docs](https://developer.chrome.com/docs/devtools/javascript/snippets/).\n"
+    },
+    "Firefox": null,
+    "Edge": null,
+    "Safari": null,
+    "Opera": null
+  }
+}
