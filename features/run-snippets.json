@@ -6,11 +6,32 @@
     "Name": "Run snippets",
     "Category": "Other",
     "Description": "Can I run snippet of code in devtools?",
-    "CreatedTime": "2022-08-15T06:59:06.000Z",
-    "LastModifiedTime": "2022-08-15T07:15:17.000Z",
     "Chrome": {
+      "Share": "https://twitter.com/CanIDevTools/status/1559114513370456064",
+      "References": "[1] \"Run Snippets of JavaScript\", by Chrome Devtools [docs](https://developer.chrome.com/docs/devtools/javascript/snippets/).\n",
+      "Notes": "1. **Sources** > In the left sidebar, open **Snippets** > Click \"+ New snippet\". This will open an empty file in the main view.\n2. Enter the snippet and press `Cmd+Enter` to run the code.\n",
+      "Main": [
+        "recfgov11mPMUKDsv"
+      ],
+      "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1660547895/run-snippets-chrome_c1js6i.png",
       "Name": "Run snippets",
-      "LastModified": "2022-08-15T07:19:34.000Z",
+      "Video": "https://res.cloudinary.com/canidevtools/video/upload/v1660547902/run-snippets-chrome_jsjtiz.mp4",
+      "GIF": "https://res.cloudinary.com/canidevtools/image/upload/v1660547899/run-snippets-chrome_utp2ca.gif",
+      "Platform": [
+        "MacOS",
+        "Windows",
+        "Linux"
+      ],
+      "LastModified": "2022-08-15T09:47:35.000Z",
+      "Category": [
+        "Other"
+      ]
+    },
+    "CreatedTime": "2022-08-15T06:59:06.000Z",
+    "LastModifiedTime": "2022-08-15T12:39:52.000Z",
+    "Edge": {
+      "Name": "Run snippets",
+      "LastModified": "2022-08-15T12:41:21.000Z",
       "Main": [
         "recfgov11mPMUKDsv"
       ],
@@ -23,14 +44,21 @@
         "Windows",
         "Linux"
       ],
-      "Video": "https://res.cloudinary.com/canidevtools/video/upload/v1660547902/run-snippets-chrome_jsjtiz.mp4",
-      "GIF": "https://res.cloudinary.com/canidevtools/image/upload/v1660547899/run-snippets-chrome_utp2ca.gif",
-      "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1660547895/run-snippets-chrome_c1js6i.png",
-      "References": "[1] \"Run Snippets of JavaScript\", by Chrome Devtools [docs](https://developer.chrome.com/docs/devtools/javascript/snippets/).\n"
+      "Video": "https://res.cloudinary.com/canidevtools/video/upload/v1660547899/run-snippets-edge_ez6fe5.mp4",
+      "GIF": "https://res.cloudinary.com/canidevtools/image/upload/v1660547896/run-snippets-edge_ki37g1.gif",
+      "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1660547894/run-snippets-edge_z5dlai.png"
+    },
+    "Opera": {
+      "Name": "Run snippets",
+      "LastModified": "2022-08-15T12:39:52.000Z",
+      "Main": [
+        "recfgov11mPMUKDsv"
+      ],
+      "Category": [
+        "Other"
+      ]
     },
     "Firefox": null,
-    "Edge": null,
-    "Safari": null,
-    "Opera": null
+    "Safari": null
   }
 }

@@ -2129,13 +2129,27 @@
     
     <url>
         <loc>https://www.canidev.tools/run-snippets/</loc>
-        <lastmod>2022-08-15T07:15:17.000Z</lastmod>
+        <lastmod>2022-08-15T12:39:52.000Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
     <url>
         <loc>https://www.canidev.tools/run-snippets/chrome</loc>
-        <lastmod>2022-08-15T07:19:34.000Z</lastmod>
+        <lastmod>2022-08-15T09:47:35.000Z</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.canidev.tools/run-snippets/edge</loc>
+        <lastmod>2022-08-15T12:41:21.000Z</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.canidev.tools/run-snippets/opera</loc>
+        <lastmod>2022-08-15T12:39:52.000Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
