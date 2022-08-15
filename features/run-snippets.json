@@ -3,9 +3,47 @@
   "createdTime": "2022-08-15T06:59:06.000Z",
   "fields": {
     "Slug": "run-snippets",
+    "Opera": {
+      "Main": [
+        "recfgov11mPMUKDsv"
+      ],
+      "Platform": [
+        "MacOS",
+        "Windows",
+        "Linux"
+      ],
+      "Notes": "1. **Sources** > In the left sidebar, open **Snippets** > Click \"+ New snippet\". This will open an empty file in the main view.\n2. Enter the snippet and press `Cmd+Enter` to run the code.\n",
+      "Name": "Run snippets",
+      "LastModified": "2022-08-15T13:07:32.000Z",
+      "Category": [
+        "Other"
+      ],
+      "GIF": "https://res.cloudinary.com/canidevtools/image/upload/v1660568831/run-snippets-opera_lfh5bl.gif",
+      "Video": "https://res.cloudinary.com/canidevtools/video/upload/v1660568831/run-snippets-opera_imc6za.mp4",
+      "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1660568830/run-snippets-opera_tcnovn.png"
+    },
     "Name": "Run snippets",
     "Category": "Other",
     "Description": "Can I run snippet of code in devtools?",
+    "Edge": {
+      "GIF": "https://res.cloudinary.com/canidevtools/image/upload/v1660547896/run-snippets-edge_ki37g1.gif",
+      "Notes": "1. **Sources** > In the left sidebar, open **Snippets** > Click \"+ New snippet\". This will open an empty file in the main view.\n2. Enter the snippet and press `Cmd+Enter` to run the code.\n",
+      "Platform": [
+        "MacOS",
+        "Windows",
+        "Linux"
+      ],
+      "Main": [
+        "recfgov11mPMUKDsv"
+      ],
+      "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1660547894/run-snippets-edge_z5dlai.png",
+      "Name": "Run snippets",
+      "Video": "https://res.cloudinary.com/canidevtools/video/upload/v1660547899/run-snippets-edge_ez6fe5.mp4",
+      "LastModified": "2022-08-15T12:41:21.000Z",
+      "Category": [
+        "Other"
+      ]
+    },
     "Chrome": {
       "Share": "https://twitter.com/CanIDevTools/status/1559114513370456064",
       "References": "[1] \"Run Snippets of JavaScript\", by Chrome Devtools [docs](https://developer.chrome.com/docs/devtools/javascript/snippets/).\n",
@@ -29,35 +67,6 @@
     },
     "CreatedTime": "2022-08-15T06:59:06.000Z",
     "LastModifiedTime": "2022-08-15T12:39:52.000Z",
-    "Edge": {
-      "Name": "Run snippets",
-      "LastModified": "2022-08-15T12:41:21.000Z",
-      "Main": [
-        "recfgov11mPMUKDsv"
-      ],
-      "Category": [
-        "Other"
-      ],
-      "Notes": "1. **Sources** > In the left sidebar, open **Snippets** > Click \"+ New snippet\". This will open an empty file in the main view.\n2. Enter the snippet and press `Cmd+Enter` to run the code.\n",
-      "Platform": [
-        "MacOS",
-        "Windows",
-        "Linux"
-      ],
-      "Video": "https://res.cloudinary.com/canidevtools/video/upload/v1660547899/run-snippets-edge_ez6fe5.mp4",
-      "GIF": "https://res.cloudinary.com/canidevtools/image/upload/v1660547896/run-snippets-edge_ki37g1.gif",
-      "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1660547894/run-snippets-edge_z5dlai.png"
-    },
-    "Opera": {
-      "Name": "Run snippets",
-      "LastModified": "2022-08-15T12:39:52.000Z",
-      "Main": [
-        "recfgov11mPMUKDsv"
-      ],
-      "Category": [
-        "Other"
-      ]
-    },
     "Firefox": null,
     "Safari": null
   }
