@@ -924,7 +924,7 @@
     
     <url>
         <loc>https://www.canidev.tools/find-in-files/</loc>
-        <lastmod>2022-07-22T06:16:38.000Z</lastmod>
+        <lastmod>2022-08-22T04:45:56.000Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
@@ -1429,6 +1429,33 @@
     <url>
         <loc>https://www.canidev.tools/capture-viewport-screenshot/opera</loc>
         <lastmod>2022-06-12T13:25:17.000Z</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.canidev.tools/add-logpoint/</loc>
+        <lastmod>2022-08-22T05:00:17.000Z</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://www.canidev.tools/add-logpoint/chrome</loc>
+        <lastmod>2022-08-22T04:58:49.000Z</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.canidev.tools/add-logpoint/edge</loc>
+        <lastmod>2022-08-22T05:01:12.000Z</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.canidev.tools/add-logpoint/opera</loc>
+        <lastmod>2022-08-22T05:01:30.000Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
@@ -2129,7 +2156,7 @@
     
     <url>
         <loc>https://www.canidev.tools/run-snippets/</loc>
-        <lastmod>2022-08-15T16:29:31.000Z</lastmod>
+        <lastmod>2022-08-22T04:45:45.000Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
@@ -2695,7 +2722,7 @@
     
     <url>
         <loc>https://www.canidev.tools/go-to-file/</loc>
-        <lastmod>2022-07-07T13:01:23.000Z</lastmod>
+        <lastmod>2022-08-22T04:46:05.000Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>

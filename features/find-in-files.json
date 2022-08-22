@@ -13,7 +13,7 @@
       "Notes": "1. Anywhere in the web inspector, press `Cmd+Shift+F` to find in files for a specific keyword.\n",
       "LastModified": "2022-07-07T13:17:00.000Z",
       "Category": [
-        "Other"
+        "Sources"
       ]
     },
     "Slug": "find-in-files",
@@ -33,11 +33,11 @@
       "Name": "Find in files",
       "LastModified": "2022-07-22T06:17:50.000Z",
       "Category": [
-        "Other"
+        "Sources"
       ]
     },
     "Name": "Find in files",
-    "Category": "Other",
+    "Category": "Sources",
     "Description": "Can I find in files for a specific keyword?",
     "Firefox": {
       "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1656489955/Images/search-files-sources-firefox_aivspt.png",
@@ -53,7 +53,7 @@
       ],
       "LastModified": "2022-07-22T04:59:58.000Z",
       "Category": [
-        "Other"
+        "Sources"
       ]
     },
     "Edge": {
@@ -72,7 +72,7 @@
       "Video": "https://res.cloudinary.com/canidevtools/video/upload/v1658470540/find-in-files-edge_fs5y4c.mp4",
       "LastModified": "2022-07-22T06:16:47.000Z",
       "Category": [
-        "Other"
+        "Sources"
       ]
     },
     "Chrome": {
@@ -92,10 +92,10 @@
       ],
       "LastModified": "2022-07-22T04:58:01.000Z",
       "Category": [
-        "Other"
+        "Sources"
       ]
     },
     "CreatedTime": "2022-07-07T13:03:34.000Z",
-    "LastModifiedTime": "2022-07-22T06:16:38.000Z"
+    "LastModifiedTime": "2022-08-22T04:45:56.000Z"
   }
 }

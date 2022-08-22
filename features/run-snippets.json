@@ -20,11 +20,11 @@
       "Name": "Run snippets",
       "LastModified": "2022-08-15T16:22:30.000Z",
       "Category": [
-        "Other"
+        "Sources"
       ]
     },
     "Name": "Run snippets",
-    "Category": "Other",
+    "Category": "Sources",
     "Description": "Can I run snippet of code in devtools?",
     "Firefox": {
       "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1660578611/run-snippets-firefox_l5txuk.png",
@@ -43,7 +43,7 @@
       ],
       "LastModified": "2022-08-15T16:01:57.000Z",
       "Category": [
-        "Other"
+        "Sources"
       ]
     },
     "Edge": {
@@ -62,7 +62,7 @@
       "Video": "https://res.cloudinary.com/canidevtools/video/upload/v1660547899/run-snippets-edge_ez6fe5.mp4",
       "LastModified": "2022-08-15T16:22:20.000Z",
       "Category": [
-        "Other"
+        "Sources"
       ]
     },
     "Chrome": {
@@ -83,12 +83,12 @@
       ],
       "LastModified": "2022-08-15T16:22:08.000Z",
       "Category": [
-        "Other"
+        "Sources"
       ]
     },
-    "CreatedTime": "2022-08-15T06:59:06.000Z",
-    "LastModifiedTime": "2022-08-15T16:29:31.000Z",
     "Newsletter": "https://canidevtools.substack.com/p/tips-tricks-13?sd=pf",
+    "CreatedTime": "2022-08-15T06:59:06.000Z",
+    "LastModifiedTime": "2022-08-22T04:45:45.000Z",
     "Safari": null
   }
 }

@@ -14,7 +14,7 @@
       "Notes": "1. Anywhere in the web inspector, press `Cmd+P` to search for files matching the filename.\n",
       "LastModified": "2022-07-07T13:17:06.000Z",
       "Category": [
-        "Other"
+        "Sources"
       ]
     },
     "Slug": "go-to-file",
@@ -32,11 +32,11 @@
       "Name": "Go to file",
       "LastModified": "2022-07-07T13:03:26.000Z",
       "Category": [
-        "Other"
+        "Sources"
       ]
     },
     "Name": "Go to file",
-    "Category": "Other",
+    "Category": "Sources",
     "Description": "Can i jump to file by searching for a filename?",
     "Firefox": {
       "Platform": [
@@ -51,7 +51,7 @@
       ],
       "LastModified": "2022-07-07T13:05:25.000Z",
       "Category": [
-        "Other"
+        "Sources"
       ]
     },
     "Edge": {
@@ -67,7 +67,7 @@
       "Name": "Go to file",
       "LastModified": "2022-07-07T13:02:46.000Z",
       "Category": [
-        "Other"
+        "Sources"
       ]
     },
     "Chrome": {
@@ -86,10 +86,10 @@
       ],
       "LastModified": "2022-07-07T13:01:44.000Z",
       "Category": [
-        "Other"
+        "Sources"
       ]
     },
     "CreatedTime": "2022-05-09T14:41:10.000Z",
-    "LastModifiedTime": "2022-07-07T13:01:23.000Z"
+    "LastModifiedTime": "2022-08-22T04:46:05.000Z"
   }
 }
