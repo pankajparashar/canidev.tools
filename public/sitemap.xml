@@ -1435,13 +1435,20 @@
     
     <url>
         <loc>https://www.canidev.tools/add-logpoint/</loc>
-        <lastmod>2022-08-22T05:00:17.000Z</lastmod>
+        <lastmod>2022-08-22T05:12:36.000Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
     <url>
         <loc>https://www.canidev.tools/add-logpoint/chrome</loc>
         <lastmod>2022-08-22T04:58:49.000Z</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.canidev.tools/add-logpoint/firefox</loc>
+        <lastmod>2022-08-22T05:13:01.000Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>

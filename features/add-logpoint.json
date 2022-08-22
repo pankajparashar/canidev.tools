@@ -4,7 +4,7 @@
   "fields": {
     "Category": "Sources",
     "CreatedTime": "2022-08-22T04:46:16.000Z",
-    "LastModifiedTime": "2022-08-22T05:00:17.000Z",
+    "LastModifiedTime": "2022-08-22T05:12:36.000Z",
     "Name": "Add logpoint",
     "Slug": "add-logpoint",
     "Description": "Can I add log points to source code for debugging?",
@@ -61,7 +61,22 @@
         "Linux"
       ]
     },
-    "Firefox": null,
+    "Firefox": {
+      "Name": "Add logpoint",
+      "LastModified": "2022-08-22T05:13:01.000Z",
+      "Main": [
+        "recSFTqy15IOFLrfB"
+      ],
+      "Category": [
+        "Sources"
+      ],
+      "Notes": "1. **Debugger** > Right click on the line number and select \"Add log\" to log in the Console without actually writing `console.log` statements.\n",
+      "Platform": [
+        "MacOS",
+        "Windows",
+        "Linux"
+      ]
+    },
     "Safari": null
   }
 }
