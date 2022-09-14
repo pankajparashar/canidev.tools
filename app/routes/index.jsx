@@ -34,7 +34,7 @@ export const loader = async ({ request }) => {
   const category = url.searchParams.get('category');
 
   let records = [];
-  fs.readdirSync(path.join(process.cwd(), 'features')).forEach((name) => {
+  fs.readdirSync(`${__dirname}/../features`).forEach((name) => {
     const filename = path.join('features', name);
     const file = fs.readFileSync(filename);
     const record = JSON.parse(file);
@@ -58,8 +58,8 @@ export default function Index() {
       spacing={0}
       sx={(theme) => ({
         borderRight: `1px solid ${theme.colorScheme === 'dark'
-            ? theme.colors.dark[6]
-            : theme.colors.gray[4]
+          ? theme.colors.dark[6]
+          : theme.colors.gray[4]
           }`,
       })}
     >
@@ -67,8 +67,8 @@ export default function Index() {
         <Box
           sx={(theme) => ({
             borderRight: `1px solid ${theme.colorScheme === 'dark'
-                ? theme.colors.dark[6]
-                : theme.colors.gray[4]
+              ? theme.colors.dark[6]
+              : theme.colors.gray[4]
               }`,
           })}
         >
@@ -131,8 +131,8 @@ export default function Index() {
             <Box
               sx={(theme) => ({
                 borderRight: `1px solid ${theme.colorScheme === 'dark'
-                    ? theme.colors.dark[6]
-                    : theme.colors.gray[4]
+                  ? theme.colors.dark[6]
+                  : theme.colors.gray[4]
                   }`,
               })}
             >
@@ -150,8 +150,8 @@ export default function Index() {
               spacing="xs"
               sx={(theme) => ({
                 borderBottom: `1px solid ${theme.colorScheme === 'dark'
-                    ? theme.colors.dark[6]
-                    : theme.colors.gray[4]
+                  ? theme.colors.dark[6]
+                  : theme.colors.gray[4]
                   }`,
                 paddingLeft: theme.spacing.xs,
                 paddingRight: theme.spacing.xs,
