@@ -95,24 +95,21 @@ export default function Browser() {
         </Button>
       </Group>
       <Divider />
-      <Tabs color="dark" defaultValue="gallery">
+      <Tabs color="dark" defaultValue="png">
         <Tabs.List>
-          <Tabs.Tab value="gallery">PNG</Tabs.Tab>
-          <Tabs.Tab value="messages">GIF</Tabs.Tab>
-          <Tabs.Tab value="settings">MP4</Tabs.Tab>
+          <Tabs.Tab value="png">PNG</Tabs.Tab>
+          <Tabs.Tab value="gif">GIF</Tabs.Tab>
+          <Tabs.Tab value="mp4">MP4</Tabs.Tab>
         </Tabs.List>
-
-        <Tabs.Panel value="gallery">
-          <Image fit="contain" src={feature[browser].Image} />
+        <Tabs.Panel value="png">
+          <Image fit="contain" src={feature[browser].PNG} />
         </Tabs.Panel>
-
-        <Tabs.Panel value="messages">
+        <Tabs.Panel value="gif">
           <Image fit="contain" src={feature[browser].GIF} />
         </Tabs.Panel>
-
-        <Tabs.Panel value="settings">
+        <Tabs.Panel value="mp4">
           <video controls preload="metadata">
-            <source src={feature[browser].Video} type="video/mp4" />
+            <source src={feature[browser].MP4} type="video/mp4" />
           </video>
         </Tabs.Panel>
       </Tabs>
