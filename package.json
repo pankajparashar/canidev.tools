@@ -2,7 +2,7 @@
   "private": true,
   "name": "canidev-tools",
   "description": "It is like @CanIUse but for the browser devtools",
-  "license": "",
+  "license": "MIT License",
   "scripts": {
     "build": "cross-env NODE_ENV=production remix build",
     "dev": "cross-env NODE_ENV=development remix dev",
