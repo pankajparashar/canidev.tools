@@ -4,6 +4,8 @@
   "Description": "Can I switch to light or dark theme in devtools?",
   "Category": "Other",
   "Newsletter": "https://canidevtools.substack.com/p/tips-tricks-8",
+  "LastModifiedTime": "2022-07-31T12:07:46.000Z",
+  "CreatedTime": "2022-07-31T11:08:43.000Z",
   "Chrome": {
     "Share": "https://twitter.com/CanIDevTools/status/1553710371579449345",
     "Notes": "Open **Command** **Menu** (`Cmd/Ctrl+Shift+P`) & Run > \"Switch to light/dark theme\" (Appearance) > Press `Enter`.\n",

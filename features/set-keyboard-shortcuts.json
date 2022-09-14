@@ -3,6 +3,8 @@
   "Slug": "set-keyboard-shortcuts",
   "Description": "Can I set a custom keyboard shortcuts in devtools?",
   "Category": "Other",
+  "LastModifiedTime": "2022-07-13T16:37:23.000Z",
+  "CreatedTime": "2022-07-13T15:04:39.000Z",
   "Chrome": {
     "Notes": "> Enable \"Enable keyboard shortcut editor\" in the **Experiments**, using `Cmd+Shift+P` or `Ctrl+Shift+P` > Show Experiments> Reload DevTools.\n1. Press `Cmd+Shift+P` or `Ctrl+Shift+P` to launch the **Command Menu** > Type \"Shortcuts\" > Press `Enter`.\n2. Click the \"Edit\" icon next to the shortcut. Apply the shortcut and Save.\n",
     "Name": "Set keyboard shortcuts",

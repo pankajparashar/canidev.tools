@@ -4,6 +4,8 @@
   "Description": "Can I copy an object from console?",
   "Category": "Console",
   "Newsletter": "https://canidevtools.substack.com/p/tips-tricks-10?sd=pf",
+  "LastModifiedTime": "2022-08-06T05:39:43.000Z",
+  "CreatedTime": "2022-08-06T05:18:09.000Z",
   "Chrome": {
     "Share": "https://twitter.com/CanIDevTools/status/1555788963855859712",
     "References": "Console utilities API [reference](https://developer.chrome.com/docs/devtools/console/utilities/#copy-function)\n",

@@ -3,6 +3,8 @@
   "Slug": "debug-event-listeners",
   "Description": "Can I debug event listeners by setting a breakpoint on all or specific events?",
   "Category": "JavaScript",
+  "LastModifiedTime": "2022-07-22T07:21:59.000Z",
+  "CreatedTime": "2022-06-04T16:36:19.000Z",
   "Chrome": {
     "References": "[1] \"Event listener breakpoints\", by Chrome DevTools [Docs](https://developer.chrome.com/docs/devtools/javascript/breakpoints/#event-listeners)\n",
     "Notes": "1. In the **Sources** tab, expand the **Event Listeners Breakpoints** section to see the list of event categories.\n2. Expand a category and enable the checkbox for the event that needs to be debugged.\n",

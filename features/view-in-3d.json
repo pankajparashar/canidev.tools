@@ -3,6 +3,8 @@
   "Slug": "view-in-3d",
   "Description": "Can I view a web page in 3D?",
   "Category": "Other",
+  "LastModifiedTime": "2022-07-21T17:03:51.000Z",
+  "CreatedTime": "2022-06-30T03:54:44.000Z",
   "Chrome": {
     "Notes": "1. Open **Command Menu** (`Cmd+Shift+P` or `Ctrl+Shift+P`) > Run > Show Layers. This will open a new tab called **Layers**.\n2. For developers, it is useful to visualise a web page in three dimensions to,\n    - Find out how complex a web page is\n    - Spot out-of-viewport elements\n    - Debug z-index stacking issues\n    - Debug performance issues with composite layers\n",
     "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1658423754/view-in-3d-chrome_dgiizz.png",

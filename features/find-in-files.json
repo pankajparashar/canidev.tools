@@ -3,6 +3,8 @@
   "Slug": "find-in-files",
   "Description": "Can I find in files for a specific keyword?",
   "Category": "Sources",
+  "LastModifiedTime": "2022-08-22T04:45:56.000Z",
+  "CreatedTime": "2022-07-07T13:03:34.000Z",
   "Chrome": {
     "References": "[1] \"Search: Find text..\", by Chrome DevTools [Docs](https://developer.chrome.com/docs/devtools/search/)\n",
     "Notes": "1. Open **Command Menu** (`Cmd+Shift+P` or `Ctrl+Shift+P`) > Run > \"Show Search\" (Drawer).\n2. Enter the search query in the text field and press `Enter` to search across all download resources.\n",

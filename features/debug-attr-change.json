@@ -3,6 +3,8 @@
   "Slug": "debug-attr-change",
   "Description": "Can I set breakpoint and debug attr changes of a node?",
   "Category": "JavaScript",
+  "LastModifiedTime": "2022-07-09T09:09:47.000Z",
+  "CreatedTime": "2022-02-19T11:19:45.000Z",
   "Chrome": {
     "Notes": "1. Inspect element > Right click on the node in the DOM tree.\n2. Select \"Break on\" > \"attribute modifications\". Reload the page.\n",
     "Name": "Debug attr change",

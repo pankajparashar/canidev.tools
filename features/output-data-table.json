@@ -3,6 +3,8 @@
   "Slug": "output-data-table",
   "Description": "Can I output data in console in the table format?",
   "Category": "Console",
+  "LastModifiedTime": "2022-07-09T09:06:32.000Z",
+  "CreatedTime": "2022-05-02T05:08:58.000Z",
   "Chrome": {
     "Share": "https://twitter.com/CanIDevTools/status/1534520264482242560",
     "References": "1. \"console.table()\" - [MDN Docs](https://developer.mozilla.org/en-US/docs/Web/API/console/table)\n2. \"console API: table\" - [Can I Use](https://caniuse.com/mdn-api_console_table)\n\n",

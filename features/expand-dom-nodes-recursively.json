@@ -3,6 +3,8 @@
   "Slug": "expand-dom-nodes-recursively",
   "Description": "Can I expand DOM nodes recursively in the DOM tree?",
   "Category": "Elements",
+  "LastModifiedTime": "2022-07-03T05:44:37.000Z",
+  "CreatedTime": "2022-07-03T05:43:31.000Z",
   "Chrome": {
     "Notes": "1. Right click on the node in the DOM tree, select \"Expand recursively\". \n2. (Or) Use `Opt+Click` or `Alt+Click` on the arrow preceding the node with the keyboard.\n",
     "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1656828053/Images/expand-dom-nodes-recursively-chrome_kchvdb.png",

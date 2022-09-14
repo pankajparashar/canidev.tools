@@ -3,6 +3,8 @@
   "Slug": "go-to-file",
   "Description": "Can i jump to file by searching for a filename?",
   "Category": "Sources",
+  "LastModifiedTime": "2022-08-22T04:46:05.000Z",
+  "CreatedTime": "2022-05-09T14:41:10.000Z",
   "Chrome": {
     "Share": "https://twitter.com/jecfish/status/1523451005626593280",
     "References": "\n",

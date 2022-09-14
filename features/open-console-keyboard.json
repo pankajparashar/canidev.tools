@@ -3,6 +3,8 @@
   "Slug": "open-console-keyboard",
   "Description": "Can I open the console using the keyboard?",
   "Category": "Console",
+  "LastModifiedTime": "2022-07-09T09:06:17.000Z",
+  "CreatedTime": "2022-02-02T13:51:32.000Z",
   "Chrome": {
     "References": "[1] \"Keyboard shortcuts\" - [Chrome Developers](https://developer.chrome.com/docs/devtools/shortcuts/#open)\n",
     "Notes": "Use `Cmd+Opt+J` or `Ctrl+Shift+J` to directly open the **Console** tab.\n",

@@ -3,6 +3,8 @@
   "Slug": "restore-default-settings",
   "Description": "Can I restore the default settings of the developer tools?",
   "Category": "Other",
+  "LastModifiedTime": "2022-07-09T08:09:35.000Z",
+  "CreatedTime": "2022-06-23T15:44:12.000Z",
   "Chrome": {
     "Share": "https://twitter.com/CanIDevTools/status/1540007315348537350",
     "Notes": "To restore the default theme, placement, tools order, and any other customised settings, select Settings > Preferences > Restore defaults and reload.\n",

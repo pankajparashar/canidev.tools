@@ -3,6 +3,8 @@
   "Slug": "autocomplete-styles-values",
   "Description": "Can I autocomplete style declaration just using values?",
   "Category": "CSS",
+  "LastModifiedTime": "2022-07-09T09:01:51.000Z",
+  "CreatedTime": "2022-02-19T11:09:26.000Z",
   "Chrome": {
     "Notes": "1. Inspect an element > Navigate to the styles section (next to the DOM tree).\n2. Add new styles by directly entering the values like \"bold\", \"italic\" etc., and the devtools will automatically suggest the corresponding `<attribute>: <value>` pair for the given input.\n",
     "Name": "Autocomplete styles using values",

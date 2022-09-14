@@ -3,6 +3,8 @@
   "Slug": "view-accessibility-tree",
   "Description": "Can I view the accessibility tree?",
   "Category": "Accessibility",
+  "LastModifiedTime": "2022-07-09T09:11:14.000Z",
+  "CreatedTime": "2022-04-09T16:22:35.000Z",
   "Chrome": {
     "Share": "https://twitter.com/jecfish/status/1512088763198951431",
     "References": "1. Jecelyn Yeen on [Twitter](https://twitter.com/jecfish/status/1512088763198951431)\n2. Full Accessibility Tree by [Chrome Developers](https://developer.chrome.com/blog/full-accessibility-tree/)\n",

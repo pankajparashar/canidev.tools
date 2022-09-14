@@ -3,6 +3,8 @@
   "Slug": "find-by-xpath",
   "Description": "Can I find elements in the DOM tree using xpath?",
   "Category": "Elements",
+  "LastModifiedTime": "2022-07-07T12:14:52.000Z",
+  "CreatedTime": "2022-06-04T05:46:44.000Z",
   "Chrome": {
     "Notes": "1. Open devtools using Cmd+Opt+I (on MacOS) or Ctrl+Shift+I (on Windows/Linux/ChromeOS) > Elements.\n2. Press Cmd+F or Ctrl+F to open the search bar at the bottom of the Elements panel.\n3. Enter XPath to find the element in the DOM node.\n",
     "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1654321897/Images/find-by-xpath-chrome_hxo4x6.png",

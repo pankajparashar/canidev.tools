@@ -4,6 +4,8 @@
   "Description": "Can I inspect CSS animations & keyframes using the devtools?",
   "Category": "CSS",
   "Newsletter": "https://canidevtools.substack.com/p/tips-tricks-12?sd=pf",
+  "LastModifiedTime": "2022-08-13T10:02:17.000Z",
+  "CreatedTime": "2022-02-19T11:05:41.000Z",
   "Chrome": {
     "Share": "https://twitter.com/CanIDevTools/status/1558358446914748416",
     "References": "[1] \"Inspect animations\", on Chrome Developers [Docs](https://developer.chrome.com/docs/devtools/css/animations/).  \n[2] \"How to inspect animations\", by Google Chrome Developer on [YouTube](https://youtu.be/lVLzkleL_CE).\n",

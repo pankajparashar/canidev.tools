@@ -3,6 +3,8 @@
   "Slug": "preserve-console-logs",
   "Description": "Can I preserve console logs across page reloads?",
   "Category": "Console",
+  "LastModifiedTime": "2022-07-06T06:31:55.000Z",
+  "CreatedTime": "2022-05-02T04:59:52.000Z",
   "Chrome": {
     "Notes": "1. Open console using `Cmd+Opt+J` or `Ctrl+Shift+J` > Click on the gear icon in top right to open \"Console settings\".\n2. Check \"Preserve log\" to preserve log statements between page reloads.\n",
     "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1654358860/Images/preserve-console-logs-chrome_eydvl4.png",

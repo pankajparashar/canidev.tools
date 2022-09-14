@@ -3,6 +3,8 @@
   "Slug": "hwb-color-format",
   "Description": "Can I preview the HWB color format in the color panel?",
   "Category": "CSS",
+  "LastModifiedTime": "2022-07-09T09:03:25.000Z",
+  "CreatedTime": "2022-04-17T14:40:44.000Z",
   "Chrome": {
     "References": "1. \"Support for the hwb() color function\" on [Chrome Developers](https://developer.chrome.com/blog/new-in-devtools-101/#hwb) by Jecelyn Yeen\n",
     "Notes": "1. In the _Styles_ pane, hold the `Shift` key and click on any color preview to change the color format. The HWB color format is added.\n2. Alternatively, you can change the color format to HWB in the [color picker](https://developer.chrome.com/docs/devtools/css/reference/#color-picker).\n",

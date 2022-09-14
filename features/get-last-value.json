@@ -4,6 +4,8 @@
   "Description": "Can I get the last return value in the console?",
   "Category": "Console",
   "Newsletter": "https://canidevtools.substack.com/p/tips-tricks-7",
+  "LastModifiedTime": "2022-07-31T05:28:46.000Z",
+  "CreatedTime": "2022-02-02T14:05:09.000Z",
   "Chrome": {
     "Share": "https://twitter.com/CanIDevTools/status/1553378242366545920",
     "References": "**Console Utilities** - Chrome DevTools [Docs](https://developer.chrome.com/docs/devtools/console/utilities/#recent)\n",

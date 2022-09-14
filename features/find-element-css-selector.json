@@ -3,6 +3,8 @@
   "Slug": "find-element-css-selector",
   "Description": "Can I find elements in the DOM tree using CSS selector?",
   "Category": "Elements",
+  "LastModifiedTime": "2022-07-07T12:01:52.000Z",
+  "CreatedTime": "2022-02-19T11:54:32.000Z",
   "Chrome": {
     "Notes": "1. Open devtools > Click the \"Elements\" panel > Press `Cmd+F` (on Mac) or `Ctrl+F` (on Windows/Linux/Chrome OS) to open the search bar.\n2. Enter the CSS selector to search an element in the DOM tree.\n",
     "Name": "Find element using CSS selector",

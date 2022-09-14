@@ -3,6 +3,8 @@
   "Slug": "show-rulers-hover",
   "Description": "Can I enable vertical and horizontal rulers on the page when I hover on the elements?",
   "Category": "Elements",
+  "LastModifiedTime": "2022-07-08T04:59:25.000Z",
+  "CreatedTime": "2022-07-08T04:55:45.000Z",
   "Chrome": {
     "Notes": "1. Open **Settings** (`Shift+?` or `F1`) > **Preferences** > Scroll down to the **Elements** section, and enable \"Show rulers on hover\".\n",
     "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1657256759/Images/show-rulers-hover-chrome_wlqsly.png",

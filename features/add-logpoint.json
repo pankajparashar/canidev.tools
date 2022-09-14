@@ -3,6 +3,8 @@
   "Slug": "add-logpoint",
   "Description": "Can I add log points to source code for debugging?",
   "Category": "Sources",
+  "LastModifiedTime": "2022-08-22T05:12:36.000Z",
+  "CreatedTime": "2022-08-22T04:46:16.000Z",
   "Chrome": {
     "References": "[1] \"What's new DevTools 73?\", on Chrome Developers [Blog](https://developer.chrome.com/blog/new-in-devtools-73/#logpoints)\n",
     "Notes": "1. **Sources** > Right click on the line number and select \"Add logpoint...\" to log in the **Console** without actually writing `console.log` statements.\n",

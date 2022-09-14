@@ -3,6 +3,8 @@
   "Slug": "color-picker-outside-window",
   "Description": "Can I use the color picker to pick colors from outside the browser window?",
   "Category": "CSS",
+  "LastModifiedTime": "2022-07-01T06:08:40.000Z",
+  "CreatedTime": "2022-04-13T14:35:20.000Z",
   "Chrome": {
     "Share": "https://twitter.com/yisibl/status/1513834953104310279",
     "References": "[1] \"Color picker\" - [Chrome DevTools Docs](https://developer.chrome.com/blog/new-in-devtools-103/#color)\n",

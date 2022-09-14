@@ -3,6 +3,8 @@
   "Slug": "run-previous-commands",
   "Description": "Can I run the previously executed commands in the console?",
   "Category": "Console",
+  "LastModifiedTime": "2022-07-09T09:06:48.000Z",
+  "CreatedTime": "2022-05-02T10:11:54.000Z",
   "Chrome": {
     "Notes": "1. Use the `Up` arrow key to scroll through the list of previously executed commands and then press `Enter`.\n",
     "Name": "Run previous commands",

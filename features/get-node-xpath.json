@@ -3,6 +3,8 @@
   "Slug": "get-node-xpath",
   "Description": "Can I get the xpath of a node in the DOM tree?",
   "Category": "Elements",
+  "LastModifiedTime": "2022-06-30T14:26:20.000Z",
+  "CreatedTime": "2022-06-30T14:01:54.000Z",
   "Chrome": {
     "Share": "https://twitter.com/CanIDevTools/status/1542517123536539648",
     "References": "\n",
