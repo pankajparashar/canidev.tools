@@ -34,7 +34,7 @@ export const loader = async ({ request }) => {
   const category = url.searchParams.get('category');
 
   let records = [];
-  fs.readdirSync('features').forEach((name) => {
+  fs.readdirSync(path.join(process.cwd(), 'features')).forEach((name) => {
     const filename = path.join('features', name);
     const file = fs.readFileSync(filename);
     const record = JSON.parse(file);
@@ -44,8 +44,8 @@ export const loader = async ({ request }) => {
   records =
     category && category.length > 0
       ? records.filter(
-          (r) => r.fields.Category.toLowerCase() === category.toLowerCase()
-        )
+        (r) => r.fields.Category.toLowerCase() === category.toLowerCase()
+      )
       : records;
   return json(records);
 };
@@ -57,21 +57,19 @@ export default function Index() {
     <Stack
       spacing={0}
       sx={(theme) => ({
-        borderRight: `1px solid ${
-          theme.colorScheme === 'dark'
+        borderRight: `1px solid ${theme.colorScheme === 'dark'
             ? theme.colors.dark[6]
             : theme.colors.gray[4]
-        }`,
+          }`,
       })}
     >
       <Box className="grid">
         <Box
           sx={(theme) => ({
-            borderRight: `1px solid ${
-              theme.colorScheme === 'dark'
+            borderRight: `1px solid ${theme.colorScheme === 'dark'
                 ? theme.colors.dark[6]
                 : theme.colors.gray[4]
-            }`,
+              }`,
           })}
         >
           <Grid
@@ -132,11 +130,10 @@ export default function Index() {
           <Box className="grid" key={feature.fields.Slug}>
             <Box
               sx={(theme) => ({
-                borderRight: `1px solid ${
-                  theme.colorScheme === 'dark'
+                borderRight: `1px solid ${theme.colorScheme === 'dark'
                     ? theme.colors.dark[6]
                     : theme.colors.gray[4]
-                }`,
+                  }`,
               })}
             >
               <Link to={feature.fields.Slug}>
@@ -152,11 +149,10 @@ export default function Index() {
               grow
               spacing="xs"
               sx={(theme) => ({
-                borderBottom: `1px solid ${
-                  theme.colorScheme === 'dark'
+                borderBottom: `1px solid ${theme.colorScheme === 'dark'
                     ? theme.colors.dark[6]
                     : theme.colors.gray[4]
-                }`,
+                  }`,
                 paddingLeft: theme.spacing.xs,
                 paddingRight: theme.spacing.xs,
               })}

@@ -60,7 +60,8 @@ export function links() {
 
 export function loader() {
   const categories = {};
-  fs.readdirSync('features').forEach((name) => {
+  console.log(path.join(process.cwd(), 'features'))
+  fs.readdirSync(path.join(process.cwd(), 'features')).forEach((name) => {
     const filename = path.join('features', name);
     const file = fs.readFileSync(filename);
     const feature = JSON.parse(file);
