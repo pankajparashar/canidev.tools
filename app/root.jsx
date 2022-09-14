@@ -161,8 +161,8 @@ export default function App() {
                   justifyContent: 'space-between',
                   alignItems: 'center',
                   borderRight: `1px solid ${theme.colorScheme === 'dark'
-                      ? theme.colors.dark[6]
-                      : theme.colors.gray[4]
+                    ? theme.colors.dark[6]
+                    : theme.colors.gray[4]
                     }`,
                 })}
               >
@@ -195,8 +195,8 @@ export default function App() {
                 in={open}
                 sx={(theme) => ({
                   borderRight: `1px solid ${theme.colorScheme === 'dark'
-                      ? theme.colors.dark[6]
-                      : theme.colors.gray[4]
+                    ? theme.colors.dark[6]
+                    : theme.colors.gray[4]
                     }`,
                 })}
               >
@@ -246,8 +246,8 @@ export default function App() {
                 in={open}
                 sx={(theme) => ({
                   borderRight: `1px solid ${theme.colorScheme === 'dark'
-                      ? theme.colors.dark[6]
-                      : theme.colors.gray[4]
+                    ? theme.colors.dark[6]
+                    : theme.colors.gray[4]
                     }`,
                 })}
               >
@@ -295,6 +295,8 @@ export default function App() {
         </MantineProvider>
         <ScrollRestoration />
         <Scripts />
+        <script data-goatcounter="https://canidevtools.goatcounter.com/count"
+          async src="//gc.zgo.at/count.js"></script>
         {process.env.NODE_ENV === 'development' && <LiveReload />}
       </body>
     </html>
