@@ -188,7 +188,7 @@ export default function Feature() {
           <Divider />
           <SimpleGrid cols={2} spacing="xs" p="xs">
             <Alert
-              icon={<IconClock />}
+              
               title="Last Modified"
               color="gray.9"
               radius="xs"
@@ -197,7 +197,6 @@ export default function Feature() {
               {new Date(feature.LastModifiedTime).toLocaleString()}
             </Alert>
             <Alert
-              icon={<IconUser />}
               title="Author"
               color="gray.9"
               radius="xs"
@@ -206,7 +205,6 @@ export default function Feature() {
               Pankaj Parashar
             </Alert>
             <Alert
-              icon={<IconClock />}
               title="Created At"
               color="gray.9"
               radius="xs"
@@ -215,7 +213,6 @@ export default function Feature() {
               {new Date(feature.CreatedTime).toLocaleString()}
             </Alert>
             <Alert
-              icon={<IconNews />}
               title="Newsletter"
               color="gray.9"
               radius="xs"
