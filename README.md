@@ -1,28 +1,53 @@
-<p align="center">
-  <a aria-label="Substack Newsletter" href="https://canidevtools.substack.com">
-    <img src="https://img.shields.io/badge/Substack-Newsletter-ff6719?style=for-the-badge&logo=Substack&labelColor=000">
-  </a>
-  
-  <a aria-label="Twitter" href="https://twitter.com/CanIDevTools">
-    <img src="https://img.shields.io/badge/Twitter-Follow-309bf0?style=for-the-badge&logo=Twitter&labelColor=000">
-  </a>
+# Welcome to Remix!
 
-  <a aria-label="Buy me Coffee" href="https://www.buymeacoffee.com/pankajparashar">
-    <img src="https://img.shields.io/badge/Buy Me Coffee-Donate-ffdd00?style=for-the-badge&logo=BuyMeACoffee&labelColor=000">
-  </a>
-  
-  <a aria-label="Discord" href="https://discord.gg/WCdj6rFwcN">
-    <img src="https://img.shields.io/badge/Discord-Join-404eed?style=for-the-badge&logo=Discord&labelColor=000">
-  </a>
-</p>
+- [Remix Docs](https://remix.run/docs)
 
-## How to Contribute?
+## Development
 
-All the features are available under the [features](https://github.com/pankajparashar/canidev.tools/tree/master/features) directory in the JSON format labelled with the filename format `[slug].json`. 
+From your terminal:
 
-- To **Improve/Correct** existing features, edit the corresponding JSON file, and send a PR or just directly file an [Issue](https://github.com/pankajparashar/canidev.tools/issues/new) here.
-- To **Add** a new feature, create a new file in the features directory with `[slug].json` filename format. Refer any of the existing JSON structure to format the data. Optionally you can also [file an issue](https://github.com/pankajparashar/canidev.tools/issues/new), or use this [form](https://tally.so/r/3XxGGP) to propose the addition of a new feature.
+```sh
+npm run dev
+```
 
-In public interest, all the features are also exposed at the endpoint: [/api/data.json](https://www.canidev.tools/api/data.json) in the JSON format for other apps to consume this data.
+This starts your app in development mode, rebuilding assets on file changes.
 
-![image](https://res.cloudinary.com/canidevtools/image/upload/v1657885902/og-image_ujdcm3.png)
+## Deployment
+
+First, build your app for production:
+
+```sh
+npm run build
+```
+
+Then run the app in production mode:
+
+```sh
+npm start
+```
+
+Now you'll need to pick a host to deploy it to.
+
+### DIY
+
+If you're familiar with deploying node applications, the built-in Remix app server is production-ready.
+
+Make sure to deploy the output of `remix build`
+
+- `build/`
+- `public/build/`
+
+### Using a Template
+
+When you ran `npx create-remix@latest` there were a few choices for hosting. You can run that again to create a new project, then copy over your `app/` folder to the new project that's pre-configured for your target server.
+
+```sh
+cd ..
+# create a new project, and pick a pre-configured host
+npx create-remix@latest
+cd my-new-remix-app
+# remove the new project's app (not the old one!)
+rm -rf app
+# copy your app over
+cp -R ../my-old-remix-app/app app
+```

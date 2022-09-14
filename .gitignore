@@ -1,9 +1,6 @@
-.env
-.next/
-node_modules/
-**/.DS_Store
-.codesandbox/
-.gitpod.yml
-**/public/workbox-*.js*
-**/public/sw.js*
-**/public/worker-*.js
+node_modules
+
+# Remix
+/.cache
+/build
+/public/build

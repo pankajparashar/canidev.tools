@@ -1,4 +1,0 @@
-User-agent: *
-Disallow: 
-
-Sitemap: https://www.canidev.tools/sitemap.xml
