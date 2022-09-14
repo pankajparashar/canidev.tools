@@ -159,7 +159,7 @@ export default function Index() {
             >
               <Button
                 variant="subtle"
-                size="xs"
+                size="sm"
                 component={Link}
                 to={`${feature.Slug}/chrome`}
               >
