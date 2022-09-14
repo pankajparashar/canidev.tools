@@ -1,62 +1,33 @@
 {
-  "id": "recQHX9GJSASn027g",
-  "createdTime": "2022-02-19T11:57:52.000Z",
-  "fields": {
-    "Slug": "find-unused-css",
-    "Opera": {
-      "Main": [
-        "recQHX9GJSASn027g"
-      ],
-      "Platform": [
-        "MacOS",
-        "Windows",
-        "Linux"
-      ],
-      "Notes": "1. Launch Devtools > Open Command Menu using \"Cmd+Shift+P\" (on Mac) or \"Ctrl+Shift+P\" (on Windows/Linus/Chrome OS).\n2. Search for \"Show Coverage\" (this will open the Coverage drawer next to the Console).\n3. Click the \"Reload\" button to see the unused styles per CSS file. \n",
-      "Name": "Find unused CSS",
-      "LastModified": "2022-06-12T13:22:41.000Z",
-      "Category": [
-        "CSS"
-      ]
-    },
+  "Name": "Find unused CSS",
+  "Slug": "find-unused-css",
+  "Description": "Can I find unused styles on a web page?",
+  "Category": "CSS",
+  "Chrome": {
+    "Notes": "1. Launch Devtools > Open Command Menu using \"Cmd+Shift+P\" (on Mac) or \"Ctrl+Shift+P\" (on Windows/Linus/Chrome OS).\n2. Search for \"Show Coverage\" (this will open the Coverage drawer next to the Console).\n3. Click the \"Reload\" button to see the unused styles per CSS file. \n",
     "Name": "Find unused CSS",
-    "Category": "CSS",
-    "Description": "Can I find unused styles on a web page?",
-    "Edge": {
-      "Notes": "1. Launch Devtools > Open Command Menu using \"Cmd+Shift+P\" (on Mac) or \"Ctrl+Shift+P\" (on Windows/Linus/Chrome OS).\n2. Search for \"Show Coverage\" (this will open the Coverage drawer next to the Console).\n3. Click the \"Reload\" button to see the unused styles per CSS file. \n",
-      "Platform": [
-        "MacOS",
-        "Windows",
-        "Linux"
-      ],
-      "Main": [
-        "recQHX9GJSASn027g"
-      ],
-      "Name": "Find unused CSS",
-      "LastModified": "2022-05-08T16:30:51.000Z",
-      "Category": [
-        "CSS"
-      ]
-    },
-    "Chrome": {
-      "Notes": "1. Launch Devtools > Open Command Menu using \"Cmd+Shift+P\" (on Mac) or \"Ctrl+Shift+P\" (on Windows/Linus/Chrome OS).\n2. Search for \"Show Coverage\" (this will open the Coverage drawer next to the Console).\n3. Click the \"Reload\" button to see the unused styles per CSS file. \n",
-      "Main": [
-        "recQHX9GJSASn027g"
-      ],
-      "Name": "Find unused CSS",
-      "Platform": [
-        "MacOS",
-        "Windows",
-        "Linux"
-      ],
-      "LastModified": "2022-05-08T16:31:42.000Z",
-      "Category": [
-        "CSS"
-      ]
-    },
-    "CreatedTime": "2022-02-19T11:57:52.000Z",
-    "LastModifiedTime": "2022-07-09T09:02:38.000Z",
-    "Firefox": null,
-    "Safari": null
+    "Platform": [
+      "MacOS",
+      "Windows",
+      "Linux"
+    ]
+  },
+  "Edge": {
+    "Notes": "1. Launch Devtools > Open Command Menu using \"Cmd+Shift+P\" (on Mac) or \"Ctrl+Shift+P\" (on Windows/Linus/Chrome OS).\n2. Search for \"Show Coverage\" (this will open the Coverage drawer next to the Console).\n3. Click the \"Reload\" button to see the unused styles per CSS file. \n",
+    "Platform": [
+      "MacOS",
+      "Windows",
+      "Linux"
+    ],
+    "Name": "Find unused CSS"
+  },
+  "Opera": {
+    "Platform": [
+      "MacOS",
+      "Windows",
+      "Linux"
+    ],
+    "Notes": "1. Launch Devtools > Open Command Menu using \"Cmd+Shift+P\" (on Mac) or \"Ctrl+Shift+P\" (on Windows/Linus/Chrome OS).\n2. Search for \"Show Coverage\" (this will open the Coverage drawer next to the Console).\n3. Click the \"Reload\" button to see the unused styles per CSS file. \n",
+    "Name": "Find unused CSS"
   }
 }

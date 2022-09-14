@@ -99,9 +99,9 @@ export default function Feature() {
               variant="dot"
               size="lg"
               p="xs"
-              color={colors[feature.fields.Category]}
+              color={colors[feature.Category]}
             >
-              {feature.fields.Category}
+              {feature.Category}
             </Badge>
             <Button
               size="xs"
@@ -125,11 +125,11 @@ export default function Feature() {
         >
           <Box p="xs">
             <Alert
-              icon={icons[feature.fields.Category]}
-              title={feature.fields.Name}
-              color={colors[feature.fields.Category]}
+              icon={icons[feature.Category]}
+              title={feature.Name}
+              color={colors[feature.Category]}
             >
-              {feature.fields.Description}
+              {feature.Description}
             </Alert>
           </Box>
           <Divider />
@@ -142,45 +142,45 @@ export default function Feature() {
             <Button
               variant="default"
               size="xs"
-              disabled={!feature.fields.Chrome}
+              disabled={!feature.Chrome}
               component={Link}
-              to={`/${feature.fields.Slug}/chrome`}
+              to={`/${feature.Slug}/chrome`}
             >
               <IconBrandChrome size={20} />
             </Button>
             <Button
               variant="default"
               size="xs"
-              disabled={!feature.fields.Firefox}
+              disabled={!feature.Firefox}
               component={Link}
-              to={`/${feature.fields.Slug}/firefox`}
+              to={`/${feature.Slug}/firefox`}
             >
               <IconBrandFirefox size={20} />
             </Button>
             <Button
               variant="default"
               size="xs"
-              disabled={!feature.fields.Edge}
+              disabled={!feature.Edge}
               component={Link}
-              to={`/${feature.fields.Slug}/edge`}
+              to={`/${feature.Slug}/edge`}
             >
               <IconBrandEdge size={20} />
             </Button>
             <Button
               variant="default"
               size="xs"
-              disabled={!feature.fields.Safari}
+              disabled={!feature.Safari}
               component={Link}
-              to={`/${feature.fields.Slug}/safari`}
+              to={`/${feature.Slug}/safari`}
             >
               <IconBrandSafari size={20} />
             </Button>
             <Button
               variant="default"
               size="xs"
-              disabled={!feature.fields.Opera}
+              disabled={!feature.Opera}
               component={Link}
-              to={`/${feature.fields.Slug}/opera`}
+              to={`/${feature.Slug}/opera`}
             >
               <IconBrandOpera size={20} />
             </Button>
@@ -194,7 +194,7 @@ export default function Feature() {
               radius="xs"
               p="xs"
             >
-              {new Date(feature.fields.LastModifiedTime).toLocaleString()}
+              {new Date(feature.LastModifiedTime).toLocaleString()}
             </Alert>
             <Alert
               icon={<IconUser />}
@@ -212,7 +212,7 @@ export default function Feature() {
               radius="xs"
               p="xs"
             >
-              {new Date(feature.fields.CreatedTime).toLocaleString()}
+              {new Date(feature.CreatedTime).toLocaleString()}
             </Alert>
             <Alert
               icon={<IconNews />}

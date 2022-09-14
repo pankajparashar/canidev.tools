@@ -1,90 +1,49 @@
 {
-  "id": "recAWXTgTp3v5tlxP",
-  "createdTime": "2022-02-01T10:55:23.000Z",
-  "fields": {
-    "Safari": {
-      "Name": "View styles of element",
-      "Platform": [
-        "MacOS"
-      ],
-      "Main": [
-        "recAWXTgTp3v5tlxP"
-      ],
-      "Notes": "1. Right click on the element and select \"Inspect Element\" (This will open the \"Elements\" panel in the devtools with selected element highlighted in the DOM tree).\n2. The CSS applied to the element is visible in the panel, adjacent to the DOM tree.\n",
-      "LastModified": "2022-06-04T05:38:40.000Z",
-      "Category": [
-        "CSS"
-      ]
-    },
-    "Slug": "view-styles-element",
-    "Opera": {
-      "Main": [
-        "recAWXTgTp3v5tlxP"
-      ],
-      "Platform": [
-        "MacOS",
-        "Windows",
-        "Linux"
-      ],
-      "Notes": "1. Right click on the element and select \"Inspect\" (This will open the Elements panel in the devtools with selected element highlighted in the DOM tree).  \n2. The CSS applied to the element is visible in the \"Styles\" tab, adjacent to the DOM tree.\n",
-      "Name": "View styles of element",
-      "LastModified": "2022-06-12T13:22:41.000Z",
-      "Category": [
-        "CSS"
-      ]
-    },
+  "Name": "View styles of element",
+  "Slug": "view-styles-element",
+  "Description": "Can I view the styles applied to a pseudo element?",
+  "Category": "CSS",
+  "Chrome": {
+    "Notes": "1. Right click on the element and select \"Inspect\" (This will open the Elements panel in the devtools with selected element highlighted in the DOM tree).  \n2. The CSS applied to the element is visible in the \"Styles\" tab, adjacent to the DOM tree.\n",
     "Name": "View styles of element",
-    "Category": "CSS",
-    "Description": "Can I view the styles applied to a pseudo element?",
-    "Firefox": {
-      "Platform": [
-        "MacOS",
-        "Windows",
-        "Linux"
-      ],
-      "Notes": "1. Right click on the element and select \"Inspect\" (This will open the \"Inspector\" panel in the devtools with selected element highlighted in the DOM tree).\n2. The CSS applied to the element is visible in the panel, adjacent to the DOM tree.\n",
-      "Name": "View styles of element",
-      "Main": [
-        "recAWXTgTp3v5tlxP"
-      ],
-      "LastModified": "2022-06-04T05:38:37.000Z",
-      "Category": [
-        "CSS"
-      ]
-    },
-    "Edge": {
-      "Notes": "1. Right click on the element and select \"Inspect\". (This will open the Elements panel in the devtools with selected element highlighted in the DOM tree).\n2. The CSS applied to the element is visible in the \"Styles\" tab, adjacent to the DOM tree.\n",
-      "Platform": [
-        "MacOS",
-        "Windows",
-        "Linux"
-      ],
-      "Main": [
-        "recAWXTgTp3v5tlxP"
-      ],
-      "Name": "View styles of element",
-      "LastModified": "2022-06-04T05:38:43.000Z",
-      "Category": [
-        "CSS"
-      ]
-    },
-    "Chrome": {
-      "Notes": "1. Right click on the element and select \"Inspect\" (This will open the Elements panel in the devtools with selected element highlighted in the DOM tree).  \n2. The CSS applied to the element is visible in the \"Styles\" tab, adjacent to the DOM tree.\n",
-      "Main": [
-        "recAWXTgTp3v5tlxP"
-      ],
-      "Name": "View styles of element",
-      "Platform": [
-        "MacOS",
-        "Windows",
-        "Linux"
-      ],
-      "LastModified": "2022-06-04T05:38:32.000Z",
-      "Category": [
-        "CSS"
-      ]
-    },
-    "CreatedTime": "2022-02-01T10:55:23.000Z",
-    "LastModifiedTime": "2022-07-09T09:05:01.000Z"
+    "Platform": [
+      "MacOS",
+      "Windows",
+      "Linux"
+    ]
+  },
+  "Firefox": {
+    "Platform": [
+      "MacOS",
+      "Windows",
+      "Linux"
+    ],
+    "Notes": "1. Right click on the element and select \"Inspect\" (This will open the \"Inspector\" panel in the devtools with selected element highlighted in the DOM tree).\n2. The CSS applied to the element is visible in the panel, adjacent to the DOM tree.\n",
+    "Name": "View styles of element"
+  },
+  "Edge": {
+    "Notes": "1. Right click on the element and select \"Inspect\". (This will open the Elements panel in the devtools with selected element highlighted in the DOM tree).\n2. The CSS applied to the element is visible in the \"Styles\" tab, adjacent to the DOM tree.\n",
+    "Platform": [
+      "MacOS",
+      "Windows",
+      "Linux"
+    ],
+    "Name": "View styles of element"
+  },
+  "Safari": {
+    "Name": "View styles of element",
+    "Platform": [
+      "MacOS"
+    ],
+    "Notes": "1. Right click on the element and select \"Inspect Element\" (This will open the \"Elements\" panel in the devtools with selected element highlighted in the DOM tree).\n2. The CSS applied to the element is visible in the panel, adjacent to the DOM tree.\n"
+  },
+  "Opera": {
+    "Platform": [
+      "MacOS",
+      "Windows",
+      "Linux"
+    ],
+    "Notes": "1. Right click on the element and select \"Inspect\" (This will open the Elements panel in the devtools with selected element highlighted in the DOM tree).  \n2. The CSS applied to the element is visible in the \"Styles\" tab, adjacent to the DOM tree.\n",
+    "Name": "View styles of element"
   }
 }

@@ -1,98 +1,57 @@
 {
-  "id": "recr9H2MyVDp6aOpc",
-  "createdTime": "2022-06-18T14:59:13.000Z",
-  "fields": {
-    "Safari": {
-      "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1657091174/Images/inspect-css-flexbox-safari_fqocnb.png",
-      "Version": "TP",
-      "Name": "Inspect CSS Flexbox",
-      "Platform": [
-        "MacOS"
-      ],
-      "Main": [
-        "recr9H2MyVDp6aOpc"
-      ],
-      "Notes": "1. In the **Elements** tab, select the node with label \"flex\" from the DOM tree. \n2. From the right sidebar, select \"Layout\", and scroll down to the **Flexbox** section, that has few page overlay options to help visualize and debug flexbox containers.\n",
-      "LastModified": "2022-07-06T07:09:00.000Z",
-      "Category": [
-        "CSS"
-      ]
-    },
-    "Slug": "inspect-css-flexbox",
-    "Opera": {
-      "Main": [
-        "recr9H2MyVDp6aOpc"
-      ],
-      "Platform": [
-        "MacOS",
-        "Windows",
-        "Linux"
-      ],
-      "Notes": "1. When an HTML element on your page has `display: flex` or `display: inline-flex` applied to it, you can see a `flex` badge next to it in the Elements panel.\n2. In the Styles pane, you can see the flexbox editor button next to the `display: flex` declaration.\n3. Click on it to open the flexbox editor. The editor displays a list of flexbox properties. Each property's value options are displayed as icon buttons.\n",
-      "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1655564482/Images/inspect-css-flexbox-opera_ndmmrn.png",
-      "Name": "Inspect CSS Flexbox",
-      "LastModified": "2022-06-18T15:41:57.000Z",
-      "Category": [
-        "CSS"
-      ]
-    },
+  "Name": "Inspect CSS Flexbox",
+  "Slug": "inspect-css-flexbox",
+  "Description": "Can I inspect CSS flexbox?",
+  "Category": "CSS",
+  "Chrome": {
+    "References": "[1] \"Inspect and Debug CSS Flexbox layouts\" - [Chrome Developers](https://developer.chrome.com/docs/devtools/css/flexbox/)\n",
+    "Notes": "1. When an HTML element on your page has `display: flex` or `display: inline-flex` applied to it, you can see a `flex` badge next to it in the **Elements** panel.\n2. In the **Styles** pane, you can see the flexbox editor button next to the `display: flex` declaration.\n3. Click on it to open the flexbox editor. The editor displays a list of flexbox properties. Each property's value options are displayed as icon buttons.\n",
+    "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1655564482/Images/inspect-css-flexbox-chrome_yu3cy6.png",
     "Name": "Inspect CSS Flexbox",
-    "Category": "CSS",
-    "Description": "Can I inspect CSS flexbox?",
-    "Firefox": {
-      "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1655567440/Images/inspect-css-flexbox-firefox_t5untn.png",
-      "Platform": [
-        "MacOS",
-        "Windows",
-        "Linux"
-      ],
-      "Notes": "1. When an HTML element on your page has [display: flex](https://developer.mozilla.org/en-US/docs/Web/CSS/display) applied to it, a number of features are made available in the DevTools to provide easy access to Flexbox layout features.\n2. In the [CSS pane](https://firefox-source-docs.mozilla.org/devtools-user/page_inspector/ui_tour/index.html#page-inspector-ui-tour-rules-view)’s Rules view, any instance of a [display: flex](https://developer.mozilla.org/en-US/docs/Web/CSS/display) declaration gets a small Flexbox icon next to the word `flex`. Clicking the icon toggles the display of an overlay on the page, which appears over the selected flex container that displays an outline around each flex item:\n3. The flex items within the flex container are displayed as a numbered list in the Flex Items section. Each entry displays the item’s selector. Hover over an element to highlight it on the page. If you click on the item, the display shifts to show details about that element.\n",
-      "References": "[1] \"CSS Flexbox Inspector\" - [Firefox Source Docs](https://firefox-source-docs.mozilla.org/devtools-user/page_inspector/how_to/examine_flexbox_layouts/index.html)\n",
-      "Name": "Inspect CSS Flexbox",
-      "Main": [
-        "recr9H2MyVDp6aOpc"
-      ],
-      "LastModified": "2022-06-18T15:55:06.000Z",
-      "Category": [
-        "CSS"
-      ]
-    },
-    "Edge": {
-      "Notes": "1. When an HTML element on your page has `display: flex` or `display: inline-flex` applied to it, you can see a `flex` badge next to it in the Elements panel.\n2. In the Styles pane, you can see the flexbox editor button next to the `display: flex` declaration.\n3. Click on it to open the flexbox editor. The editor displays a list of flexbox properties. Each property's value options are displayed as icon buttons.\n\n",
-      "Platform": [
-        "MacOS",
-        "Windows",
-        "Linux"
-      ],
-      "Main": [
-        "recr9H2MyVDp6aOpc"
-      ],
-      "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1655567164/Images/inspect-css-flexbox-edge_cvaojp.png",
-      "Name": "Inspect CSS Flexbox",
-      "LastModified": "2022-06-18T15:46:19.000Z",
-      "Category": [
-        "CSS"
-      ]
-    },
-    "Chrome": {
-      "References": "[1] \"Inspect and Debug CSS Flexbox layouts\" - [Chrome Developers](https://developer.chrome.com/docs/devtools/css/flexbox/)\n",
-      "Notes": "1. When an HTML element on your page has `display: flex` or `display: inline-flex` applied to it, you can see a `flex` badge next to it in the **Elements** panel.\n2. In the **Styles** pane, you can see the flexbox editor button next to the `display: flex` declaration.\n3. Click on it to open the flexbox editor. The editor displays a list of flexbox properties. Each property's value options are displayed as icon buttons.\n",
-      "Main": [
-        "recr9H2MyVDp6aOpc"
-      ],
-      "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1655564482/Images/inspect-css-flexbox-chrome_yu3cy6.png",
-      "Name": "Inspect CSS Flexbox",
-      "Platform": [
-        "MacOS",
-        "Windows",
-        "Linux"
-      ],
-      "LastModified": "2022-06-18T15:05:46.000Z",
-      "Category": [
-        "CSS"
-      ]
-    },
-    "CreatedTime": "2022-06-18T14:59:13.000Z",
-    "LastModifiedTime": "2022-07-06T07:04:37.000Z"
+    "Platform": [
+      "MacOS",
+      "Windows",
+      "Linux"
+    ]
+  },
+  "Firefox": {
+    "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1655567440/Images/inspect-css-flexbox-firefox_t5untn.png",
+    "Platform": [
+      "MacOS",
+      "Windows",
+      "Linux"
+    ],
+    "Notes": "1. When an HTML element on your page has [display: flex](https://developer.mozilla.org/en-US/docs/Web/CSS/display) applied to it, a number of features are made available in the DevTools to provide easy access to Flexbox layout features.\n2. In the [CSS pane](https://firefox-source-docs.mozilla.org/devtools-user/page_inspector/ui_tour/index.html#page-inspector-ui-tour-rules-view)’s Rules view, any instance of a [display: flex](https://developer.mozilla.org/en-US/docs/Web/CSS/display) declaration gets a small Flexbox icon next to the word `flex`. Clicking the icon toggles the display of an overlay on the page, which appears over the selected flex container that displays an outline around each flex item:\n3. The flex items within the flex container are displayed as a numbered list in the Flex Items section. Each entry displays the item’s selector. Hover over an element to highlight it on the page. If you click on the item, the display shifts to show details about that element.\n",
+    "References": "[1] \"CSS Flexbox Inspector\" - [Firefox Source Docs](https://firefox-source-docs.mozilla.org/devtools-user/page_inspector/how_to/examine_flexbox_layouts/index.html)\n",
+    "Name": "Inspect CSS Flexbox"
+  },
+  "Edge": {
+    "Notes": "1. When an HTML element on your page has `display: flex` or `display: inline-flex` applied to it, you can see a `flex` badge next to it in the Elements panel.\n2. In the Styles pane, you can see the flexbox editor button next to the `display: flex` declaration.\n3. Click on it to open the flexbox editor. The editor displays a list of flexbox properties. Each property's value options are displayed as icon buttons.\n\n",
+    "Platform": [
+      "MacOS",
+      "Windows",
+      "Linux"
+    ],
+    "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1655567164/Images/inspect-css-flexbox-edge_cvaojp.png",
+    "Name": "Inspect CSS Flexbox"
+  },
+  "Safari": {
+    "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1657091174/Images/inspect-css-flexbox-safari_fqocnb.png",
+    "Version": "TP",
+    "Name": "Inspect CSS Flexbox",
+    "Platform": [
+      "MacOS"
+    ],
+    "Notes": "1. In the **Elements** tab, select the node with label \"flex\" from the DOM tree. \n2. From the right sidebar, select \"Layout\", and scroll down to the **Flexbox** section, that has few page overlay options to help visualize and debug flexbox containers.\n"
+  },
+  "Opera": {
+    "Platform": [
+      "MacOS",
+      "Windows",
+      "Linux"
+    ],
+    "Notes": "1. When an HTML element on your page has `display: flex` or `display: inline-flex` applied to it, you can see a `flex` badge next to it in the Elements panel.\n2. In the Styles pane, you can see the flexbox editor button next to the `display: flex` declaration.\n3. Click on it to open the flexbox editor. The editor displays a list of flexbox properties. Each property's value options are displayed as icon buttons.\n",
+    "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1655564482/Images/inspect-css-flexbox-opera_ndmmrn.png",
+    "Name": "Inspect CSS Flexbox"
   }
 }

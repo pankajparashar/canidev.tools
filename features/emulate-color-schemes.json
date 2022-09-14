@@ -1,101 +1,60 @@
 {
-  "id": "rec6oCEfVEEPMYImZ",
-  "createdTime": "2022-04-14T05:41:42.000Z",
-  "fields": {
-    "Safari": {
-      "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1654696798/Images/emulate-color-schemes-safari_nvxakj.png",
-      "Share": "https://twitter.com/CanIDevTools/status/1534536052563918850",
-      "Name": "Emulate color schemes",
-      "Platform": [
-        "MacOS"
-      ],
-      "References": "1. \"Disable Safari's Dark Mode\" - [StackOverflow](https://stackoverflow.com/questions/65588087/disable-safaris-dark-mode-independently-from-os-setting/65588220#65588220)\n2. \"Issue #16\" - Haroen Viaene ([@Haroenv](https://github.com/pankajparashar/canidev.tools/issues/16))\n",
-      "Main": [
-        "rec6oCEfVEEPMYImZ"
-      ],
-      "Notes": "Open **Web Inspector** using `Cmd+Opt+I`. Look for the icon in the top right of the Elements panel, to toggle between \"Force Dark Appearance\" and \"Use Default Appearance\".\n",
-      "LastModified": "2022-06-08T14:03:18.000Z",
-      "Category": [
-        "CSS"
-      ]
-    },
-    "Slug": "emulate-color-schemes",
-    "Opera": {
-      "Main": [
-        "rec6oCEfVEEPMYImZ"
-      ],
-      "References": "\n",
-      "Video": "https://res.cloudinary.com/canidevtools/video/upload/v1649915966/Videos/emulate-color-schemes-chrome.mp4",
-      "Platform": [
-        "MacOS",
-        "Windows",
-        "Linux"
-      ],
-      "Notes": "1. Open devtools > Inside the \"Styles\" pane, right next to the \"+\" button, click the Icon \"Toggle common rendering emulations\".\n2. Choose the `prefers-color-scheme` option to emulate the corresponding color scheme.\n",
-      "Name": "Emulate color schemes",
-      "LastModified": "2022-06-12T13:22:41.000Z",
-      "Category": [
-        "CSS"
-      ]
-    },
+  "Name": "Emulate color schemes",
+  "Slug": "emulate-color-schemes",
+  "Description": "Can I emulate different color schemes for dark and light mode?",
+  "Category": "CSS",
+  "Chrome": {
+    "Share": "https://twitter.com/jecfish/status/1514209534566313986",
+    "References": "\n",
+    "Notes": "1. Open devtools > Inside the \"Styles\" pane, right next to the \"+\" button, click the Icon \"Toggle common rendering emulations\".\n2. Choose the `prefers-color-scheme` option to emulate the corresponding color scheme.\n",
     "Name": "Emulate color schemes",
-    "Category": "CSS",
-    "Description": "Can I emulate different color schemes for dark and light mode?",
-    "Firefox": {
-      "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1654359452/Images/emulate-color-schemes-firefox_ooajmr.png",
-      "Platform": [
-        "MacOS",
-        "Windows",
-        "Linux"
-      ],
-      "Notes": "1. Open devtools > Inspector > Next to the \"Filter Styles\" section, are the icons to toggle between light, dark color schemes.\n",
-      "References": "1. \"Examine CSS Rules\" by [Firefox](https://firefox-source-docs.mozilla.org/devtools-user/page_inspector/how_to/examine_and_edit_css/index.html#examine-css-rules).\n2. \"Issue #7\" by [@nclm](https://github.com/pankajparashar/canidev.tools/issues/7).\n",
-      "Name": "Emulate color schemes",
-      "Main": [
-        "rec6oCEfVEEPMYImZ"
-      ],
-      "LastModified": "2022-06-04T16:18:59.000Z",
-      "Category": [
-        "CSS"
-      ]
-    },
-    "Edge": {
-      "Notes": "1. Open devtools > Inside the \"Styles\" pane, right next to the \"+\" button, click the Icon \"Toggle common rendering emulations\".\n2. Choose the `prefers-color-scheme` option to emulate the corresponding color scheme.\n",
-      "Platform": [
-        "MacOS",
-        "Windows",
-        "Linux"
-      ],
-      "Main": [
-        "rec6oCEfVEEPMYImZ"
-      ],
-      "Name": "Emulate color schemes",
-      "LastModified": "2022-06-04T04:41:25.000Z",
-      "Category": [
-        "CSS"
-      ]
-    },
-    "Chrome": {
-      "Share": "https://twitter.com/jecfish/status/1514209534566313986",
-      "References": "\n",
-      "Notes": "1. Open devtools > Inside the \"Styles\" pane, right next to the \"+\" button, click the Icon \"Toggle common rendering emulations\".\n2. Choose the `prefers-color-scheme` option to emulate the corresponding color scheme.\n",
-      "Main": [
-        "rec6oCEfVEEPMYImZ"
-      ],
-      "Name": "Emulate color schemes",
-      "Version": "100-",
-      "Video": "https://res.cloudinary.com/canidevtools/video/upload/v1649915966/Videos/emulate-color-schemes-chrome.mp4",
-      "Platform": [
-        "MacOS",
-        "Windows",
-        "Linux"
-      ],
-      "LastModified": "2022-07-25T12:12:40.000Z",
-      "Category": [
-        "CSS"
-      ]
-    },
-    "CreatedTime": "2022-04-14T05:41:42.000Z",
-    "LastModifiedTime": "2022-06-30T06:18:38.000Z"
+    "Version": "100-",
+    "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1649915966/Videos/emulate-color-schemes-chrome.mp4",
+    "Platform": [
+      "MacOS",
+      "Windows",
+      "Linux"
+    ]
+  },
+  "Firefox": {
+    "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1654359452/Images/emulate-color-schemes-firefox_ooajmr.png",
+    "Platform": [
+      "MacOS",
+      "Windows",
+      "Linux"
+    ],
+    "Notes": "1. Open devtools > Inspector > Next to the \"Filter Styles\" section, are the icons to toggle between light, dark color schemes.\n",
+    "References": "1. \"Examine CSS Rules\" by [Firefox](https://firefox-source-docs.mozilla.org/devtools-user/page_inspector/how_to/examine_and_edit_css/index.html#examine-css-rules).\n2. \"Issue #7\" by [@nclm](https://github.com/pankajparashar/canidev.tools/issues/7).\n",
+    "Name": "Emulate color schemes"
+  },
+  "Edge": {
+    "Notes": "1. Open devtools > Inside the \"Styles\" pane, right next to the \"+\" button, click the Icon \"Toggle common rendering emulations\".\n2. Choose the `prefers-color-scheme` option to emulate the corresponding color scheme.\n",
+    "Platform": [
+      "MacOS",
+      "Windows",
+      "Linux"
+    ],
+    "Name": "Emulate color schemes"
+  },
+  "Safari": {
+    "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1654696798/Images/emulate-color-schemes-safari_nvxakj.png",
+    "Share": "https://twitter.com/CanIDevTools/status/1534536052563918850",
+    "Name": "Emulate color schemes",
+    "Platform": [
+      "MacOS"
+    ],
+    "References": "1. \"Disable Safari's Dark Mode\" - [StackOverflow](https://stackoverflow.com/questions/65588087/disable-safaris-dark-mode-independently-from-os-setting/65588220#65588220)\n2. \"Issue #16\" - Haroen Viaene ([@Haroenv](https://github.com/pankajparashar/canidev.tools/issues/16))\n",
+    "Notes": "Open **Web Inspector** using `Cmd+Opt+I`. Look for the icon in the top right of the Elements panel, to toggle between \"Force Dark Appearance\" and \"Use Default Appearance\".\n"
+  },
+  "Opera": {
+    "References": "\n",
+    "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1649915966/Videos/emulate-color-schemes-chrome.mp4",
+    "Platform": [
+      "MacOS",
+      "Windows",
+      "Linux"
+    ],
+    "Notes": "1. Open devtools > Inside the \"Styles\" pane, right next to the \"+\" button, click the Icon \"Toggle common rendering emulations\".\n2. Choose the `prefers-color-scheme` option to emulate the corresponding color scheme.\n",
+    "Name": "Emulate color schemes"
   }
 }

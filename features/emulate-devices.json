@@ -1,101 +1,60 @@
 {
-  "id": "recrSoKJVrC6R56Be",
-  "createdTime": "2022-06-05T16:56:48.000Z",
-  "fields": {
-    "Safari": {
-      "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1654529127/Videos/emulate-devices-safari_sjsvmy.png",
-      "Share": "https://twitter.com/CanIDevTools/status/1533833879949549568",
-      "Name": "Emulate devices",
-      "Platform": [
-        "MacOS"
-      ],
-      "References": "1. \"How to enable responsive design mode\" - [BrowserStack](https://www.browserstack.com/guide/enable-responsive-design-mode-in-safari-and-firefox)\n",
-      "Main": [
-        "recrSoKJVrC6R56Be"
-      ],
-      "Notes": "1. From the menu bar: Develop > Enter Responsive Design Mode (or press `Ctrl+Cmd+R`).\n",
-      "LastModified": "2022-06-06T15:31:26.000Z",
-      "Category": [
-        "Elements"
-      ]
-    },
-    "Slug": "emulate-devices",
-    "Opera": {
-      "Main": [
-        "recrSoKJVrC6R56Be"
-      ],
-      "Platform": [
-        "MacOS",
-        "Windows",
-        "Linux"
-      ],
-      "Notes": "1. Open devtools using `Cmd+Opt+I` (on MacOS) or `Ctrl+Shift+I` (on Windows/Linux).\n2. Press `Cmd+Shift+M` (on MacOS) or `Ctrl+Shift+M` (on Windows/Linux) or click the devices icon in the top right to \"Toggle device toolbar\".\n",
-      "Name": "Emulate devices",
-      "LastModified": "2022-06-12T13:29:04.000Z",
-      "Category": [
-        "Elements"
-      ]
-    },
+  "Name": "Emulate devices",
+  "Slug": "emulate-devices",
+  "Description": "Can I emulate devices to test responsiveness of a page?",
+  "Category": "Elements",
+  "Chrome": {
+    "Share": "https://twitter.com/CanIDevTools/status/1533823550389637120",
+    "Notes": "1. Open devtools using `Cmd+Opt+I` (on MacOS) or `Ctrl+Shift+I` (on Windows/Linux).\n2. Press `Cmd+Shift+M` (on MacOS) or `Ctrl+Shift+M` (on Windows/Linux) or click the devices icon in the top right to \"Toggle device toolbar\".\n",
     "Name": "Emulate devices",
-    "Category": "Elements",
-    "Description": "Can I emulate devices to test responsiveness of a page?",
-    "Firefox": {
-      "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1654528173/Videos/emulate-devices-firefox_weqgyr.png",
-      "Platform": [
-        "MacOS",
-        "Windows",
-        "Linux"
-      ],
-      "Share": "https://twitter.com/CanIDevTools/status/1533830432080691200",
-      "Notes": "There are three ways to toggle Responsive Design Mode:\n1. From the Firefox menu: Select **Responsive Design Mode** from the **Web Developer** submenu in the Firefox Menu (or **Tools** menu if you display the menu bar or are on macOS).\n2. From the Developer Tools toolbox: Press the **Responsive Design Mode** button in the Toolbox’s toolbar.\n3. From the keyboard: Press **Ctrl**+**Shift**+**M** (or **Cmd**+**Opt**+**M** on macOS).\n",
-      "References": "1. \"Responsive Design Mode\" - [Firefox Source Docs](https://firefox-source-docs.mozilla.org/devtools-user/responsive_design_mode/)\n",
-      "Name": "Emulate devices",
-      "Main": [
-        "recrSoKJVrC6R56Be"
-      ],
-      "LastModified": "2022-06-06T15:17:38.000Z",
-      "Category": [
-        "Elements"
-      ]
-    },
-    "Edge": {
-      "Notes": "1. Open devtools using `Cmd+Opt+I` (on MacOS) or `Ctrl+Shift+I` (on Windows/Linux).\n2. Press `Cmd+Shift+M` (on MacOS) or `Ctrl+Shift+M` (on Windows/Linux) or click the devices icon in the top right to \"Toggle device toolbar\".\n",
-      "Platform": [
-        "MacOS",
-        "Windows",
-        "Linux"
-      ],
-      "Main": [
-        "recrSoKJVrC6R56Be"
-      ],
-      "Share": "https://twitter.com/CanIDevTools/status/1533824857859063808",
-      "Name": "Emulate devices",
-      "Video": "https://res.cloudinary.com/canidevtools/video/upload/v1654526481/Videos/emulate-devices-edge_dilkky.mp4",
-      "References": "1. \"Device Emulation\" - [Microsoft Edge Docs](https://docs.microsoft.com/en-us/microsoft-edge/devtools-guide-chromium/device-mode/)\n",
-      "LastModified": "2022-06-06T15:01:01.000Z",
-      "Category": [
-        "Elements"
-      ]
-    },
-    "Chrome": {
-      "Share": "https://twitter.com/CanIDevTools/status/1533823550389637120",
-      "Notes": "1. Open devtools using `Cmd+Opt+I` (on MacOS) or `Ctrl+Shift+I` (on Windows/Linux).\n2. Press `Cmd+Shift+M` (on MacOS) or `Ctrl+Shift+M` (on Windows/Linux) or click the devices icon in the top right to \"Toggle device toolbar\".\n",
-      "Main": [
-        "recrSoKJVrC6R56Be"
-      ],
-      "Name": "Emulate devices",
-      "Video": "https://res.cloudinary.com/canidevtools/video/upload/v1654448196/Videos/emulate-devices-chrome_tdr5f4.mp4",
-      "Platform": [
-        "MacOS",
-        "Windows",
-        "Linux"
-      ],
-      "LastModified": "2022-06-06T14:55:31.000Z",
-      "Category": [
-        "Elements"
-      ]
-    },
-    "CreatedTime": "2022-06-05T16:56:48.000Z",
-    "LastModifiedTime": "2022-07-09T09:11:51.000Z"
+    "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1654448196/Videos/emulate-devices-chrome_tdr5f4.mp4",
+    "Platform": [
+      "MacOS",
+      "Windows",
+      "Linux"
+    ]
+  },
+  "Firefox": {
+    "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1654528173/Videos/emulate-devices-firefox_weqgyr.png",
+    "Platform": [
+      "MacOS",
+      "Windows",
+      "Linux"
+    ],
+    "Share": "https://twitter.com/CanIDevTools/status/1533830432080691200",
+    "Notes": "There are three ways to toggle Responsive Design Mode:\n1. From the Firefox menu: Select **Responsive Design Mode** from the **Web Developer** submenu in the Firefox Menu (or **Tools** menu if you display the menu bar or are on macOS).\n2. From the Developer Tools toolbox: Press the **Responsive Design Mode** button in the Toolbox’s toolbar.\n3. From the keyboard: Press **Ctrl**+**Shift**+**M** (or **Cmd**+**Opt**+**M** on macOS).\n",
+    "References": "1. \"Responsive Design Mode\" - [Firefox Source Docs](https://firefox-source-docs.mozilla.org/devtools-user/responsive_design_mode/)\n",
+    "Name": "Emulate devices"
+  },
+  "Edge": {
+    "Notes": "1. Open devtools using `Cmd+Opt+I` (on MacOS) or `Ctrl+Shift+I` (on Windows/Linux).\n2. Press `Cmd+Shift+M` (on MacOS) or `Ctrl+Shift+M` (on Windows/Linux) or click the devices icon in the top right to \"Toggle device toolbar\".\n",
+    "Platform": [
+      "MacOS",
+      "Windows",
+      "Linux"
+    ],
+    "Share": "https://twitter.com/CanIDevTools/status/1533824857859063808",
+    "Name": "Emulate devices",
+    "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1654526481/Videos/emulate-devices-edge_dilkky.mp4",
+    "References": "1. \"Device Emulation\" - [Microsoft Edge Docs](https://docs.microsoft.com/en-us/microsoft-edge/devtools-guide-chromium/device-mode/)\n"
+  },
+  "Safari": {
+    "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1654529127/Videos/emulate-devices-safari_sjsvmy.png",
+    "Share": "https://twitter.com/CanIDevTools/status/1533833879949549568",
+    "Name": "Emulate devices",
+    "Platform": [
+      "MacOS"
+    ],
+    "References": "1. \"How to enable responsive design mode\" - [BrowserStack](https://www.browserstack.com/guide/enable-responsive-design-mode-in-safari-and-firefox)\n",
+    "Notes": "1. From the menu bar: Develop > Enter Responsive Design Mode (or press `Ctrl+Cmd+R`).\n"
+  },
+  "Opera": {
+    "Platform": [
+      "MacOS",
+      "Windows",
+      "Linux"
+    ],
+    "Notes": "1. Open devtools using `Cmd+Opt+I` (on MacOS) or `Ctrl+Shift+I` (on Windows/Linux).\n2. Press `Cmd+Shift+M` (on MacOS) or `Ctrl+Shift+M` (on Windows/Linux) or click the devices icon in the top right to \"Toggle device toolbar\".\n",
+    "Name": "Emulate devices"
   }
 }

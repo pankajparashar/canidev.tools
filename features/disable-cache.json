@@ -1,92 +1,49 @@
 {
-  "id": "rec3An4ul67TEtLlA",
-  "createdTime": "2022-02-02T14:52:27.000Z",
-  "fields": {
-    "Safari": {
-      "Name": "Disable cache",
-      "Platform": [
-        "MacOS"
-      ],
-      "Main": [
-        "rec3An4ul67TEtLlA"
-      ],
-      "Notes": "1. Open Network panel > Look for the icon in the top right of the toolbar with tooltip \"Ignore the resource cache when loading resources\".\n",
-      "LastModified": "2022-05-02T14:58:53.000Z",
-      "Category": [
-        "Network"
-      ]
-    },
-    "Slug": "disable-cache",
-    "Opera": {
-      "Main": [
-        "recgD4hUSCDVKpelI",
-        "rec3An4ul67TEtLlA"
-      ],
-      "Platform": [
-        "MacOS",
-        "Windows",
-        "Linux"
-      ],
-      "Notes": "1. Open Network panel > Look for \"Disable cache\" in the toolbar at the top.\n",
-      "Name": "Disable cache",
-      "LastModified": "2022-06-12T13:28:01.000Z",
-      "Category": [
-        "JavaScript",
-        "Network"
-      ]
-    },
+  "Name": "Disable cache",
+  "Slug": "disable-cache",
+  "Description": "Can I disable cache for the network requests?",
+  "Category": "Network",
+  "Chrome": {
+    "Notes": "1. Open Network panel > Look for \"Disable cache\" in the toolbar at the top.\n",
     "Name": "Disable cache",
-    "Category": "Network",
-    "Description": "Can I disable cache for the network requests?",
-    "Firefox": {
-      "Platform": [
-        "MacOS",
-        "Windows",
-        "Linux"
-      ],
-      "Notes": "1. Open Network panel > Look for \"Disable Cache\" in the toolbar at the top.\n",
-      "Name": "Disable cache",
-      "Main": [
-        "rec3An4ul67TEtLlA"
-      ],
-      "LastModified": "2022-05-08T16:31:19.000Z",
-      "Category": [
-        "Network"
-      ]
-    },
-    "Edge": {
-      "Notes": "1. Open Network panel > Look for \"Disable Cache\" in the toolbar at the top.\n",
-      "Platform": [
-        "MacOS",
-        "Windows",
-        "Linux"
-      ],
-      "Main": [
-        "rec3An4ul67TEtLlA"
-      ],
-      "Name": "Disable cache",
-      "LastModified": "2022-05-08T16:30:51.000Z",
-      "Category": [
-        "Network"
-      ]
-    },
-    "Chrome": {
-      "Notes": "1. Open Network panel > Look for \"Disable cache\" in the toolbar at the top.\n",
-      "Main": [
-        "rec3An4ul67TEtLlA"
-      ],
-      "Name": "Disable cache",
-      "Platform": [
-        "MacOS",
-        "Windows",
-        "Linux"
-      ],
-      "LastModified": "2022-05-08T16:31:42.000Z",
-      "Category": [
-        "Network"
-      ]
-    },
-    "CreatedTime": "2022-02-02T14:52:27.000Z",
-    "LastModifiedTime": "2022-07-09T09:07:41.000Z"
+    "Platform": [
+      "MacOS",
+      "Windows",
+      "Linux"
+    ]
+  },
+  "Firefox": {
+    "Platform": [
+      "MacOS",
+      "Windows",
+      "Linux"
+    ],
+    "Notes": "1. Open Network panel > Look for \"Disable Cache\" in the toolbar at the top.\n",
+    "Name": "Disable cache"
+  },
+  "Edge": {
+    "Notes": "1. Open Network panel > Look for \"Disable Cache\" in the toolbar at the top.\n",
+    "Platform": [
+      "MacOS",
+      "Windows",
+      "Linux"
+    ],
+    "Name": "Disable cache"
+  },
+  "Safari": {
+    "Name": "Disable cache",
+    "Platform": [
+      "MacOS"
+    ],
+    "Notes": "1. Open Network panel > Look for the icon in the top right of the toolbar with tooltip \"Ignore the resource cache when loading resources\".\n"
+  },
+  "Opera": {
+    "Platform": [
+      "MacOS",
+      "Windows",
+      "Linux"
+    ],
+    "Notes": "1. Open Network panel > Look for \"Disable cache\" in the toolbar at the top.\n",
+    "Name": "Disable cache"
   }
 }

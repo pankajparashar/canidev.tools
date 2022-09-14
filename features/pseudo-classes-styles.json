@@ -1,90 +1,49 @@
 {
-  "id": "rece7KESECwMjg1Tk",
-  "createdTime": "2022-02-19T11:11:30.000Z",
-  "fields": {
-    "Safari": {
-      "Name": "View styles for pseudo classes",
-      "Platform": [
-        "MacOS"
-      ],
-      "Main": [
-        "rece7KESECwMjg1Tk"
-      ],
-      "Notes": "1. Inspect an element > Make sure the node is selected in the DOM Tree.\n2. In the styles section (next to the DOM tree), right at the top toolbar, you'll find checkboxes for different pseudo states, which you can toggle to view the corresponding CSS.\n",
-      "LastModified": "2022-06-13T07:15:58.000Z",
-      "Category": [
-        "CSS"
-      ]
-    },
-    "Slug": "pseudo-classes-styles",
-    "Opera": {
-      "Main": [
-        "rece7KESECwMjg1Tk"
-      ],
-      "Platform": [
-        "MacOS",
-        "Windows",
-        "Linux"
-      ],
-      "Notes": "1. Inspect an element > Make sure the node is selected in the DOM Tree.\n2. In the Styles pane (next to the DOM tree), look for \":hov\" button next to the Filter box > Click the \":hov\" button.\n3. Use the checkboxes to force the element state to any of the listed pseudo classes to view the corresponding CSS applied.\n",
-      "Name": "View styles for pseudo classes",
-      "LastModified": "2022-06-13T07:16:02.000Z",
-      "Category": [
-        "CSS"
-      ]
-    },
+  "Name": "View styles for pseudo classes",
+  "Slug": "pseudo-classes-styles",
+  "Description": "Can I view the styles applied to a pseudo class like hover etc.,",
+  "Category": "CSS",
+  "Chrome": {
+    "Notes": "1. Inspect an element > Make sure the node is selected in the DOM Tree.\n2. In the Styles pane (next to the DOM tree), look for \":hov\" button next to the Filter box > Click the \":hov\" button.\n3. Use the checkboxes to force the element state to any of the listed pseudo classes to view the corresponding CSS applied.\n",
     "Name": "View styles for pseudo classes",
-    "Category": "CSS",
-    "Description": "Can I view the styles applied to a pseudo class like hover etc.,",
-    "Firefox": {
-      "Platform": [
-        "MacOS",
-        "Windows",
-        "Linux"
-      ],
-      "Notes": "1. Inspect an element > Make sure the node is selected in the DOM Tree.\n2. In the styles section (next to the DOM tree), look for \":hov\" button next to the Filter box > Click the \":hov\" button.\n3. Use the checkboxes to force the element state to any of the listed pseudo classes to view the corresponding CSS applied.\n",
-      "Name": "View styles for pseudo classes",
-      "Main": [
-        "rece7KESECwMjg1Tk"
-      ],
-      "LastModified": "2022-06-13T07:15:50.000Z",
-      "Category": [
-        "CSS"
-      ]
-    },
-    "Edge": {
-      "Notes": "1. Inspect an element > Make sure the node is selected in the DOM Tree.\n2. In the Styles pane (next to the DOM tree), look for \":hov\" button next to the Filter box > Click the \":hov\" button.\n3. Use the checkboxes to force the element state to any of the listed pseudo classes to view the corresponding CSS applied.\n",
-      "Platform": [
-        "MacOS",
-        "Windows",
-        "Linux"
-      ],
-      "Main": [
-        "rece7KESECwMjg1Tk"
-      ],
-      "Name": "View styles for pseudo classes",
-      "LastModified": "2022-06-13T07:15:54.000Z",
-      "Category": [
-        "CSS"
-      ]
-    },
-    "Chrome": {
-      "Notes": "1. Inspect an element > Make sure the node is selected in the DOM Tree.\n2. In the Styles pane (next to the DOM tree), look for \":hov\" button next to the Filter box > Click the \":hov\" button.\n3. Use the checkboxes to force the element state to any of the listed pseudo classes to view the corresponding CSS applied.\n",
-      "Main": [
-        "rece7KESECwMjg1Tk"
-      ],
-      "Name": "View styles for pseudo classes",
-      "Platform": [
-        "MacOS",
-        "Windows",
-        "Linux"
-      ],
-      "LastModified": "2022-06-13T07:15:46.000Z",
-      "Category": [
-        "CSS"
-      ]
-    },
-    "CreatedTime": "2022-02-19T11:11:30.000Z",
-    "LastModifiedTime": "2022-07-09T09:04:49.000Z"
+    "Platform": [
+      "MacOS",
+      "Windows",
+      "Linux"
+    ]
+  },
+  "Firefox": {
+    "Platform": [
+      "MacOS",
+      "Windows",
+      "Linux"
+    ],
+    "Notes": "1. Inspect an element > Make sure the node is selected in the DOM Tree.\n2. In the styles section (next to the DOM tree), look for \":hov\" button next to the Filter box > Click the \":hov\" button.\n3. Use the checkboxes to force the element state to any of the listed pseudo classes to view the corresponding CSS applied.\n",
+    "Name": "View styles for pseudo classes"
+  },
+  "Edge": {
+    "Notes": "1. Inspect an element > Make sure the node is selected in the DOM Tree.\n2. In the Styles pane (next to the DOM tree), look for \":hov\" button next to the Filter box > Click the \":hov\" button.\n3. Use the checkboxes to force the element state to any of the listed pseudo classes to view the corresponding CSS applied.\n",
+    "Platform": [
+      "MacOS",
+      "Windows",
+      "Linux"
+    ],
+    "Name": "View styles for pseudo classes"
+  },
+  "Safari": {
+    "Name": "View styles for pseudo classes",
+    "Platform": [
+      "MacOS"
+    ],
+    "Notes": "1. Inspect an element > Make sure the node is selected in the DOM Tree.\n2. In the styles section (next to the DOM tree), right at the top toolbar, you'll find checkboxes for different pseudo states, which you can toggle to view the corresponding CSS.\n"
+  },
+  "Opera": {
+    "Platform": [
+      "MacOS",
+      "Windows",
+      "Linux"
+    ],
+    "Notes": "1. Inspect an element > Make sure the node is selected in the DOM Tree.\n2. In the Styles pane (next to the DOM tree), look for \":hov\" button next to the Filter box > Click the \":hov\" button.\n3. Use the checkboxes to force the element state to any of the listed pseudo classes to view the corresponding CSS applied.\n",
+    "Name": "View styles for pseudo classes"
   }
 }

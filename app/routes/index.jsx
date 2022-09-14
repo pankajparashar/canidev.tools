@@ -44,7 +44,7 @@ export const loader = async ({ request }) => {
   records =
     category && category.length > 0
       ? records.filter(
-        (r) => r.fields.Category.toLowerCase() === category.toLowerCase()
+        (r) => r.Category.toLowerCase() === category.toLowerCase()
       )
       : records;
   return json(records);
@@ -127,7 +127,7 @@ export default function Index() {
         scrollbarSize={12}
       >
         {features.map((feature) => (
-          <Box className="grid" key={feature.fields.Slug}>
+          <Box className="grid" key={feature.Slug}>
             <Box
               sx={(theme) => ({
                 borderRight: `1px solid ${theme.colorScheme === 'dark'
@@ -136,10 +136,10 @@ export default function Index() {
                   }`,
               })}
             >
-              <Link to={feature.fields.Slug}>
+              <Link to={feature.Slug}>
                 <NavLink
-                  label={feature.fields.Name}
-                  description={feature.fields.description}
+                  label={feature.Name}
+                  description={feature.description}
                   rightSection={<IconChevronRight size={12} stroke={1.5} />}
                 />
               </Link>
@@ -161,37 +161,37 @@ export default function Index() {
                 variant="subtle"
                 size="xs"
                 component={Link}
-                to={`${feature.fields.Slug}/chrome`}
+                to={`${feature.Slug}/chrome`}
               >
-                {feature.fields.Chrome ? (
+                {feature.Chrome ? (
                   <IconCheckbox size={20} color="green" />
                 ) : (
                   <IconSquareMinus size={20} color={'red'} />
                 )}
               </Button>
               <Button variant="subtle" size="xs">
-                {feature.fields.Firefox ? (
+                {feature.Firefox ? (
                   <IconCheckbox size={20} color="green" />
                 ) : (
                   <IconSquareMinus size={20} color={'red'} radius="xs" />
                 )}
               </Button>
               <Button variant="subtle" size="xs">
-                {feature.fields.Edge ? (
+                {feature.Edge ? (
                   <IconCheckbox size={20} color="green" />
                 ) : (
                   <IconSquareMinus size={20} color={'red'} radius="xs" />
                 )}
               </Button>
               <Button variant="subtle" size="xs">
-                {feature.fields.Safari ? (
+                {feature.Safari ? (
                   <IconCheckbox size={20} color="green" />
                 ) : (
                   <IconSquareMinus size={20} color={'red'} radius="xs" />
                 )}
               </Button>
               <Button variant="subtle" size="xs">
-                {feature.fields.Opera ? (
+                {feature.Opera ? (
                   <IconCheckbox size={20} color="green" />
                 ) : (
                   <IconSquareMinus size={20} color={'red'} radius="xs" />

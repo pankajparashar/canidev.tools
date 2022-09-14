@@ -1,94 +1,53 @@
 {
-  "id": "recTYDh52Wynk2Rxg",
-  "createdTime": "2022-07-03T05:01:19.000Z",
-  "fields": {
-    "Safari": {
-      "Name": "Reorder Tabs & Panes",
-      "Platform": [
-        "MacOS"
-      ],
-      "Main": [
-        "recTYDh52Wynk2Rxg"
-      ],
-      "Notes": "1. In the main browser window, drag and drop tabs anywhere across the tab-bar to reorder tabs based on preference.\n2. Once re-ordered, the order will persist for future devtools sessions.\n3. This does not work for panes within a tab.\n\n",
-      "LastModified": "2022-07-03T05:12:36.000Z",
-      "Category": [
-        "Elements"
-      ]
-    },
-    "Slug": "reorder-tabs-panes",
-    "Opera": {
-      "Main": [
-        "recTYDh52Wynk2Rxg"
-      ],
-      "Platform": [
-        "MacOS",
-        "Windows",
-        "Linux"
-      ],
-      "Notes": "1. In the main browser window, drag and drop tabs (or panes) anywhere across the tab-bar to reorder tabs (or panes) based on preference.\n2. Once re-ordered, the order will persist for future devtools sessions.\n\n",
-      "Name": "Reorder Tabs & Panes",
-      "LastModified": "2022-07-03T05:12:55.000Z",
-      "Category": [
-        "Elements"
-      ]
-    },
+  "Name": "Reorder Tabs & Panes",
+  "Slug": "reorder-tabs-panes",
+  "Description": "Can I reorder tabs & panes in the devtools panel?",
+  "Category": "Elements",
+  "Chrome": {
+    "References": "[1] \"Reorder pane\" - [Chrome DevTools Docs](https://developer.chrome.com/blog/new-in-devtools-103/#reorder-pane)\n",
+    "Notes": "1. In the main browser window, drag and drop tabs (or panes) anywhere across the tab-bar to reorder tabs (or panes) based on preference.\n2. Once re-ordered, the order will persist for future devtools sessions.\n",
     "Name": "Reorder Tabs & Panes",
-    "Category": "Elements",
-    "Description": "Can I reorder tabs & panes in the devtools panel?",
-    "Firefox": {
-      "Platform": [
-        "MacOS",
-        "Windows",
-        "Linux"
-      ],
-      "Notes": "1. In the main browser window, drag and drop tabs (or panes) anywhere across the tab-bar to reorder tabs (or panes) based on preference.\n2. Once re-ordered, the order will persist for future devtools sessions.\n",
-      "References": "1. In the main browser window, drag and drop tabs anywhere across the tab-bar to reorder tabs based on preference.\n2. Once re-ordered, the order will persist for future devtools sessions.\n3. This does not work for panes within a tab.\n\n",
-      "Name": "Reorder Tabs & Panes",
-      "Main": [
-        "recTYDh52Wynk2Rxg"
-      ],
-      "LastModified": "2022-07-03T05:12:26.000Z",
-      "Category": [
-        "Elements"
-      ]
-    },
-    "Edge": {
-      "Notes": "1. In the main browser window, drag and drop tabs (or panes) anywhere across the tab-bar to reorder tabs (or panes) based on preference.\n2. Once re-ordered, the order will persist for future devtools sessions.\n\n",
-      "Platform": [
-        "MacOS",
-        "Windows",
-        "Linux"
-      ],
-      "Main": [
-        "recTYDh52Wynk2Rxg"
-      ],
-      "Name": "Reorder Tabs & Panes",
-      "LastModified": "2022-07-03T05:13:40.000Z",
-      "Category": [
-        "Elements"
-      ]
-    },
-    "Chrome": {
-      "References": "[1] \"Reorder pane\" - [Chrome DevTools Docs](https://developer.chrome.com/blog/new-in-devtools-103/#reorder-pane)\n",
-      "Notes": "1. In the main browser window, drag and drop tabs (or panes) anywhere across the tab-bar to reorder tabs (or panes) based on preference.\n2. Once re-ordered, the order will persist for future devtools sessions.\n",
-      "Main": [
-        "recTYDh52Wynk2Rxg"
-      ],
-      "Name": "Reorder Tabs & Panes",
-      "Version": "103-",
-      "Video": "https://res.cloudinary.com/canidevtools/video/upload/v1656824829/Videos/reorder-panes-chrome.mp4",
-      "Platform": [
-        "MacOS",
-        "Windows",
-        "Linux"
-      ],
-      "LastModified": "2022-07-03T05:09:53.000Z",
-      "Category": [
-        "Elements"
-      ]
-    },
-    "CreatedTime": "2022-07-03T05:01:19.000Z",
-    "LastModifiedTime": "2022-07-03T05:11:31.000Z"
+    "Version": "103-",
+    "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1656824829/Videos/reorder-panes-chrome.mp4",
+    "Platform": [
+      "MacOS",
+      "Windows",
+      "Linux"
+    ]
+  },
+  "Firefox": {
+    "Platform": [
+      "MacOS",
+      "Windows",
+      "Linux"
+    ],
+    "Notes": "1. In the main browser window, drag and drop tabs (or panes) anywhere across the tab-bar to reorder tabs (or panes) based on preference.\n2. Once re-ordered, the order will persist for future devtools sessions.\n",
+    "References": "1. In the main browser window, drag and drop tabs anywhere across the tab-bar to reorder tabs based on preference.\n2. Once re-ordered, the order will persist for future devtools sessions.\n3. This does not work for panes within a tab.\n\n",
+    "Name": "Reorder Tabs & Panes"
+  },
+  "Edge": {
+    "Notes": "1. In the main browser window, drag and drop tabs (or panes) anywhere across the tab-bar to reorder tabs (or panes) based on preference.\n2. Once re-ordered, the order will persist for future devtools sessions.\n\n",
+    "Platform": [
+      "MacOS",
+      "Windows",
+      "Linux"
+    ],
+    "Name": "Reorder Tabs & Panes"
+  },
+  "Safari": {
+    "Name": "Reorder Tabs & Panes",
+    "Platform": [
+      "MacOS"
+    ],
+    "Notes": "1. In the main browser window, drag and drop tabs anywhere across the tab-bar to reorder tabs based on preference.\n2. Once re-ordered, the order will persist for future devtools sessions.\n3. This does not work for panes within a tab.\n\n"
+  },
+  "Opera": {
+    "Platform": [
+      "MacOS",
+      "Windows",
+      "Linux"
+    ],
+    "Notes": "1. In the main browser window, drag and drop tabs (or panes) anywhere across the tab-bar to reorder tabs (or panes) based on preference.\n2. Once re-ordered, the order will persist for future devtools sessions.\n\n",
+    "Name": "Reorder Tabs & Panes"
   }
 }

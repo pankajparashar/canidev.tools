@@ -1,82 +1,47 @@
 {
-  "id": "recSFTqy15IOFLrfB",
-  "createdTime": "2022-08-22T04:46:16.000Z",
-  "fields": {
-    "Category": "Sources",
-    "CreatedTime": "2022-08-22T04:46:16.000Z",
-    "LastModifiedTime": "2022-08-22T05:12:36.000Z",
+  "Name": "Add logpoint",
+  "Slug": "add-logpoint",
+  "Description": "Can I add log points to source code for debugging?",
+  "Category": "Sources",
+  "Chrome": {
+    "References": "[1] \"What's new DevTools 73?\", on Chrome Developers [Blog](https://developer.chrome.com/blog/new-in-devtools-73/#logpoints)\n",
+    "Notes": "1. **Sources** > Right click on the line number and select \"Add logpoint...\" to log in the **Console** without actually writing `console.log` statements.\n",
+    "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1661143846/add-logpoint-chrome_ws9qul.png",
     "Name": "Add logpoint",
-    "Slug": "add-logpoint",
-    "Description": "Can I add log points to source code for debugging?",
-    "Chrome": {
-      "Name": "Add logpoint",
-      "LastModified": "2022-08-22T04:58:49.000Z",
-      "Main": [
-        "recSFTqy15IOFLrfB"
-      ],
-      "Category": [
-        "Sources"
-      ],
-      "GIF": "https://res.cloudinary.com/canidevtools/image/upload/v1661143847/add-logpoint-chrome_ddq474.gif",
-      "Video": "https://res.cloudinary.com/canidevtools/video/upload/v1661143847/add-logpoint-chrome_wlk4va.mp4",
-      "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1661143846/add-logpoint-chrome_ws9qul.png",
-      "Platform": [
-        "MacOS",
-        "Windows",
-        "Linux"
-      ],
-      "Version": "73-",
-      "Notes": "1. **Sources** > Right click on the line number and select \"Add logpoint...\" to log in the **Console** without actually writing `console.log` statements.\n",
-      "References": "[1] \"What's new DevTools 73?\", on Chrome Developers [Blog](https://developer.chrome.com/blog/new-in-devtools-73/#logpoints)\n"
-    },
-    "Edge": {
-      "Name": "Add logpoint",
-      "LastModified": "2022-08-22T05:01:12.000Z",
-      "Main": [
-        "recSFTqy15IOFLrfB"
-      ],
-      "Category": [
-        "Sources"
-      ],
-      "Notes": "1. **Sources** > Right click on the line number and select \"Add logpoint...\" to log in the **Console** without actually writing `console.log` statements.\n",
-      "Platform": [
-        "MacOS",
-        "Windows",
-        "Linux"
-      ]
-    },
-    "Opera": {
-      "Name": "Add logpoint",
-      "LastModified": "2022-08-22T05:01:30.000Z",
-      "Main": [
-        "recSFTqy15IOFLrfB"
-      ],
-      "Category": [
-        "Sources"
-      ],
-      "Notes": "1. **Sources** > Right click on the line number and select \"Add logpoint...\" to log in the **Console** without actually writing `console.log` statements.\n\n",
-      "Platform": [
-        "MacOS",
-        "Windows",
-        "Linux"
-      ]
-    },
-    "Firefox": {
-      "Name": "Add logpoint",
-      "LastModified": "2022-08-22T05:13:01.000Z",
-      "Main": [
-        "recSFTqy15IOFLrfB"
-      ],
-      "Category": [
-        "Sources"
-      ],
-      "Notes": "1. **Debugger** > Right click on the line number and select \"Add log\" to log in the Console without actually writing `console.log` statements.\n",
-      "Platform": [
-        "MacOS",
-        "Windows",
-        "Linux"
-      ]
-    },
-    "Safari": null
+    "Version": "73-",
+    "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1661143847/add-logpoint-chrome_wlk4va.mp4",
+    "GIF": "https://res.cloudinary.com/canidevtools/image/upload/v1661143847/add-logpoint-chrome_ddq474.gif",
+    "Platform": [
+      "MacOS",
+      "Windows",
+      "Linux"
+    ]
+  },
+  "Firefox": {
+    "Platform": [
+      "MacOS",
+      "Windows",
+      "Linux"
+    ],
+    "Notes": "1. **Debugger** > Right click on the line number and select \"Add log\" to log in the Console without actually writing `console.log` statements.\n",
+    "Name": "Add logpoint"
+  },
+  "Edge": {
+    "Notes": "1. **Sources** > Right click on the line number and select \"Add logpoint...\" to log in the **Console** without actually writing `console.log` statements.\n",
+    "Platform": [
+      "MacOS",
+      "Windows",
+      "Linux"
+    ],
+    "Name": "Add logpoint"
+  },
+  "Opera": {
+    "Platform": [
+      "MacOS",
+      "Windows",
+      "Linux"
+    ],
+    "Notes": "1. **Sources** > Right click on the line number and select \"Add logpoint...\" to log in the **Console** without actually writing `console.log` statements.\n\n",
+    "Name": "Add logpoint"
   }
 }

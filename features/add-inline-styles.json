@@ -1,90 +1,49 @@
 {
-  "id": "recJLWIKEWxZ239QB",
-  "createdTime": "2022-02-02T06:49:07.000Z",
-  "fields": {
-    "Safari": {
-      "Name": "Add a CSS declaration to an element",
-      "Platform": [
-        "MacOS"
-      ],
-      "Main": [
-        "recJLWIKEWxZ239QB"
-      ],
-      "Notes": "1. Right click on the element and select \"Inspect Element\" (This will open the Elements panel in the devtools with selected element highlighted in the DOM tree). \n2. Click inside the curly braces of the \"Style Attribute\" section in the adjacent panel (next to the DOM tree). Enter the declaration you want in the \"property: value\" format.\n\n",
-      "LastModified": "2022-05-02T14:58:53.000Z",
-      "Category": [
-        "CSS"
-      ]
-    },
-    "Slug": "add-inline-styles",
-    "Opera": {
-      "Main": [
-        "recJLWIKEWxZ239QB"
-      ],
-      "Platform": [
-        "MacOS",
-        "Windows",
-        "Linux"
-      ],
-      "Notes": "1. Right click on the element and select \"Inspect\" (This will open the Elements panel in the devtools with selected element highlighted in the DOM tree). \n2. Click \"element.style\" near the top of the Styles tab. Enter the declaration you want in the \"property: value\" format.\n\n",
-      "Name": "Add a CSS declaration to an element",
-      "LastModified": "2022-06-12T13:22:41.000Z",
-      "Category": [
-        "CSS"
-      ]
-    },
-    "Name": "Add inline styles",
-    "Category": "CSS",
-    "Description": "Can I add inline styles to node in the DOM tree?",
-    "Firefox": {
-      "Platform": [
-        "MacOS",
-        "Windows",
-        "Linux"
-      ],
-      "Notes": "1. Right click on the element and select \"Inspect\" (This will open the Inspector panel in the devtools with selected element highlighted in the DOM tree). \n2. Click \"element\" in the adjacent styles panel. Enter the declaration you want in the \"property: value\" format.\n\n",
-      "Name": "Add a CSS declaration to an element",
-      "Main": [
-        "recJLWIKEWxZ239QB"
-      ],
-      "LastModified": "2022-05-08T16:31:19.000Z",
-      "Category": [
-        "CSS"
-      ]
-    },
-    "Edge": {
-      "Notes": "1. Right click on the element and select \"Inspect\" (This will open the Elements panel in the devtools with selected element highlighted in the DOM tree). \n2. Click \"element.style\" near the top of the Styles tab. Enter the declaration you want in the \"property: value\" format.\n\n",
-      "Platform": [
-        "MacOS",
-        "Windows",
-        "Linux"
-      ],
-      "Main": [
-        "recJLWIKEWxZ239QB"
-      ],
-      "Name": "Add a CSS declaration to an element",
-      "LastModified": "2022-05-08T16:30:51.000Z",
-      "Category": [
-        "CSS"
-      ]
-    },
-    "Chrome": {
-      "Notes": "1. Right click on the element and select \"Inspect\" (This will open the Elements panel in the devtools with selected element highlighted in the DOM tree). \n2. Click \"element.style\" near the top of the Styles tab. Enter the declaration you want in the \"property: value\" format.\n\n",
-      "Main": [
-        "recJLWIKEWxZ239QB"
-      ],
-      "Name": "Add a CSS declaration to an element",
-      "Platform": [
-        "MacOS",
-        "Windows",
-        "Linux"
-      ],
-      "LastModified": "2022-05-08T16:31:42.000Z",
-      "Category": [
-        "CSS"
-      ]
-    },
-    "CreatedTime": "2022-02-02T06:49:07.000Z",
-    "LastModifiedTime": "2022-07-09T09:01:26.000Z"
+  "Name": "Add inline styles",
+  "Slug": "add-inline-styles",
+  "Description": "Can I add inline styles to node in the DOM tree?",
+  "Category": "CSS",
+  "Chrome": {
+    "Notes": "1. Right click on the element and select \"Inspect\" (This will open the Elements panel in the devtools with selected element highlighted in the DOM tree). \n2. Click \"element.style\" near the top of the Styles tab. Enter the declaration you want in the \"property: value\" format.\n\n",
+    "Name": "Add a CSS declaration to an element",
+    "Platform": [
+      "MacOS",
+      "Windows",
+      "Linux"
+    ]
+  },
+  "Firefox": {
+    "Platform": [
+      "MacOS",
+      "Windows",
+      "Linux"
+    ],
+    "Notes": "1. Right click on the element and select \"Inspect\" (This will open the Inspector panel in the devtools with selected element highlighted in the DOM tree). \n2. Click \"element\" in the adjacent styles panel. Enter the declaration you want in the \"property: value\" format.\n\n",
+    "Name": "Add a CSS declaration to an element"
+  },
+  "Edge": {
+    "Notes": "1. Right click on the element and select \"Inspect\" (This will open the Elements panel in the devtools with selected element highlighted in the DOM tree). \n2. Click \"element.style\" near the top of the Styles tab. Enter the declaration you want in the \"property: value\" format.\n\n",
+    "Platform": [
+      "MacOS",
+      "Windows",
+      "Linux"
+    ],
+    "Name": "Add a CSS declaration to an element"
+  },
+  "Safari": {
+    "Name": "Add a CSS declaration to an element",
+    "Platform": [
+      "MacOS"
+    ],
+    "Notes": "1. Right click on the element and select \"Inspect Element\" (This will open the Elements panel in the devtools with selected element highlighted in the DOM tree). \n2. Click inside the curly braces of the \"Style Attribute\" section in the adjacent panel (next to the DOM tree). Enter the declaration you want in the \"property: value\" format.\n\n"
+  },
+  "Opera": {
+    "Platform": [
+      "MacOS",
+      "Windows",
+      "Linux"
+    ],
+    "Notes": "1. Right click on the element and select \"Inspect\" (This will open the Elements panel in the devtools with selected element highlighted in the DOM tree). \n2. Click \"element.style\" near the top of the Styles tab. Enter the declaration you want in the \"property: value\" format.\n\n",
+    "Name": "Add a CSS declaration to an element"
   }
 }

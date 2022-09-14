@@ -1,100 +1,59 @@
 {
-  "id": "recPd4QvQjRgTojxU",
-  "createdTime": "2022-02-19T11:16:03.000Z",
-  "fields": {
-    "Safari": {
-      "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1655908440/Images/capture-node-screenshot-safari_barnqy.png",
-      "Share": "https://twitter.com/CanIDevTools/status/1539621556670066689",
-      "Name": "Capture node screenshot",
-      "Platform": [
-        "MacOS"
-      ],
-      "Main": [
-        "recPd4QvQjRgTojxU"
-      ],
-      "Notes": "1. Inspect element > Right click on the node in the DOM tree and click on \"Capture Screenshot\". \n2. Safari preserves transparency for the elements with no applied background colour.\n",
-      "LastModified": "2022-06-22T14:49:27.000Z",
-      "Category": [
-        "Elements"
-      ]
-    },
-    "Slug": "capture-node-screenshot",
-    "Opera": {
-      "Main": [
-        "recPd4QvQjRgTojxU"
-      ],
-      "Share": "https://twitter.com/CanIDevTools/status/1539621846941061120",
-      "Platform": [
-        "MacOS",
-        "Windows",
-        "Linux"
-      ],
-      "Notes": "1. Inspect element > Right click on the node in the DOM tree and select \"Capture node screenshot\".\n",
-      "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1655908440/Images/capture-node-screenshot-opera_wlxpbg.png",
-      "Name": "Capture node screenshot",
-      "LastModified": "2022-06-22T14:50:39.000Z",
-      "Category": [
-        "Elements"
-      ]
-    },
+  "Name": "Capture node screenshot",
+  "Slug": "capture-node-screenshot",
+  "Description": "Can I take a screenshot of a DOM node?",
+  "Category": "Elements",
+  "Chrome": {
+    "Share": "https://twitter.com/CanIDevTools/status/1539620297258975232",
+    "Notes": "1. Inspect element > Right click on the node in the DOM tree and select \"Capture node screenshot\".\n2. Chrome retains visible background colour of elements with no background colour applied.\n",
+    "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1655908440/Images/capture-node-screenshot-chrome_r4tc3g.png",
     "Name": "Capture node screenshot",
-    "Category": "Elements",
-    "Description": "Can I take a screenshot of a DOM node?",
-    "Firefox": {
-      "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1655908440/Images/capture-node-screenshot-firefox_wy6t4m.png",
-      "Platform": [
-        "MacOS",
-        "Windows",
-        "Linux"
-      ],
-      "Share": "https://twitter.com/CanIDevTools/status/1539620810515955713",
-      "Notes": "1. Inspect the element > Right click on the node in the DOM tree, and select \"Screenshot Node\"\n",
-      "Name": "Capture node screenshot",
-      "Main": [
-        "recPd4QvQjRgTojxU"
-      ],
-      "LastModified": "2022-06-22T14:46:33.000Z",
-      "Category": [
-        "Elements"
-      ]
-    },
-    "Edge": {
-      "Notes": "1. Inspect element > Right click on the node in the DOM tree and click \"Capture node screenshot\"\n",
-      "Platform": [
-        "MacOS",
-        "Windows",
-        "Linux"
-      ],
-      "Main": [
-        "recPd4QvQjRgTojxU"
-      ],
-      "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1655908441/Images/capture-node-screenshot-edge_hjfz0w.png",
-      "Share": "https://twitter.com/CanIDevTools/status/1539621151215058945",
-      "Name": "Capture node screenshot",
-      "LastModified": "2022-06-22T14:48:01.000Z",
-      "Category": [
-        "Elements"
-      ]
-    },
-    "Chrome": {
-      "Share": "https://twitter.com/CanIDevTools/status/1539620297258975232",
-      "Notes": "1. Inspect element > Right click on the node in the DOM tree and select \"Capture node screenshot\".\n2. Chrome retains visible background colour of elements with no background colour applied.\n",
-      "Main": [
-        "recPd4QvQjRgTojxU"
-      ],
-      "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1655908440/Images/capture-node-screenshot-chrome_r4tc3g.png",
-      "Name": "Capture node screenshot",
-      "Platform": [
-        "MacOS",
-        "Windows",
-        "Linux"
-      ],
-      "LastModified": "2022-06-22T14:44:34.000Z",
-      "Category": [
-        "Elements"
-      ]
-    },
-    "CreatedTime": "2022-02-19T11:16:03.000Z",
-    "LastModifiedTime": "2022-06-30T06:47:16.000Z"
+    "Platform": [
+      "MacOS",
+      "Windows",
+      "Linux"
+    ]
+  },
+  "Firefox": {
+    "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1655908440/Images/capture-node-screenshot-firefox_wy6t4m.png",
+    "Platform": [
+      "MacOS",
+      "Windows",
+      "Linux"
+    ],
+    "Share": "https://twitter.com/CanIDevTools/status/1539620810515955713",
+    "Notes": "1. Inspect the element > Right click on the node in the DOM tree, and select \"Screenshot Node\"\n",
+    "Name": "Capture node screenshot"
+  },
+  "Edge": {
+    "Notes": "1. Inspect element > Right click on the node in the DOM tree and click \"Capture node screenshot\"\n",
+    "Platform": [
+      "MacOS",
+      "Windows",
+      "Linux"
+    ],
+    "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1655908441/Images/capture-node-screenshot-edge_hjfz0w.png",
+    "Share": "https://twitter.com/CanIDevTools/status/1539621151215058945",
+    "Name": "Capture node screenshot"
+  },
+  "Safari": {
+    "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1655908440/Images/capture-node-screenshot-safari_barnqy.png",
+    "Share": "https://twitter.com/CanIDevTools/status/1539621556670066689",
+    "Name": "Capture node screenshot",
+    "Platform": [
+      "MacOS"
+    ],
+    "Notes": "1. Inspect element > Right click on the node in the DOM tree and click on \"Capture Screenshot\". \n2. Safari preserves transparency for the elements with no applied background colour.\n"
+  },
+  "Opera": {
+    "Share": "https://twitter.com/CanIDevTools/status/1539621846941061120",
+    "Platform": [
+      "MacOS",
+      "Windows",
+      "Linux"
+    ],
+    "Notes": "1. Inspect element > Right click on the node in the DOM tree and select \"Capture node screenshot\".\n",
+    "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1655908440/Images/capture-node-screenshot-opera_wlxpbg.png",
+    "Name": "Capture node screenshot"
   }
 }

@@ -1,99 +1,58 @@
 {
-  "id": "reccwf8HcYbqqqska",
-  "createdTime": "2022-08-04T06:17:10.000Z",
-  "fields": {
-    "Safari": {
-      "Share": "https://twitter.com/CanIDevTools/status/1555146143608508417",
-      "Name": "Select elements with xpath",
-      "Platform": [
-        "MacOS"
-      ],
-      "Main": [
-        "reccwf8HcYbqqqska"
-      ],
-      "Notes": "`$x(path [, startNode])` returns an array of DOM elements that match the given XPath expression. It has an optional second parameter, `startNode`, that specifies an element or Node from which to search for elements.\n",
-      "LastModified": "2022-08-04T10:59:07.000Z",
-      "Category": [
-        "Console"
-      ]
-    },
-    "Slug": "select-elements-xpath",
-    "Opera": {
-      "Main": [
-        "reccwf8HcYbqqqska"
-      ],
-      "Share": "https://twitter.com/CanIDevTools/status/1555146143608508417",
-      "Platform": [
-        "MacOS",
-        "Windows",
-        "Linux"
-      ],
-      "Notes": "`$x(path [, startNode])` returns an array of DOM elements that match the given XPath expression. It has an optional second parameter, `startNode`, that specifies an element or Node from which to search for elements.\n",
-      "Name": "Select elements with xpath",
-      "LastModified": "2022-08-04T10:59:12.000Z",
-      "Category": [
-        "Console"
-      ]
-    },
-    "Name": "Select elements with XPath",
-    "Category": "Console",
-    "Description": "Can I select one or more elements using XPath expression?",
-    "Firefox": {
-      "Platform": [
-        "MacOS",
-        "Windows",
-        "Linux"
-      ],
-      "Share": "https://twitter.com/CanIDevTools/status/1555146143608508417",
-      "Notes": "`$x(path [, startNode])` returns an array of DOM elements that match the given XPath expression. It has an optional second parameter, `startNode`, that specifies an element or Node from which to search for elements.\n",
-      "Name": "Select elements with xpath",
-      "Main": [
-        "reccwf8HcYbqqqska"
-      ],
-      "LastModified": "2022-08-04T10:58:55.000Z",
-      "Category": [
-        "Console"
-      ]
-    },
-    "Edge": {
-      "Notes": "`$x(path [, startNode])` returns an array of DOM elements that match the given XPath expression. It has an optional second parameter, `startNode`, that specifies an element or Node from which to search for elements.\n",
-      "Platform": [
-        "MacOS",
-        "Windows",
-        "Linux"
-      ],
-      "Main": [
-        "reccwf8HcYbqqqska"
-      ],
-      "Share": "https://twitter.com/CanIDevTools/status/1555146143608508417",
-      "Name": "Select elements with xpath",
-      "LastModified": "2022-08-04T10:59:03.000Z",
-      "Category": [
-        "Console"
-      ]
-    },
-    "Chrome": {
-      "Share": "https://twitter.com/CanIDevTools/status/1555146143608508417",
-      "References": "Console Utilities API [reference](https://developer.chrome.com/docs/devtools/console/utilities/#clear-function) \n",
-      "Notes": "`$x(path [, startNode])` returns an array of DOM elements that match the given XPath expression. It has an optional second parameter, `startNode`, that specifies an element or Node from which to search for elements.\n",
-      "Main": [
-        "reccwf8HcYbqqqska"
-      ],
-      "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1659594580/select-elements-xpath-chrome_ayohyq.png",
-      "Name": "Select elements with xpath",
-      "Video": "https://res.cloudinary.com/canidevtools/video/upload/v1659594580/select-elements-xpath-chrome_lnndgt.mp4",
-      "GIF": "https://res.cloudinary.com/canidevtools/image/upload/v1659594581/select-elements-xpath-chrome_gqmy7z.gif",
-      "Platform": [
-        "MacOS",
-        "Windows",
-        "Linux"
-      ],
-      "LastModified": "2022-08-04T10:58:51.000Z",
-      "Category": [
-        "Console"
-      ]
-    },
-    "CreatedTime": "2022-08-04T06:17:10.000Z",
-    "LastModifiedTime": "2022-08-04T06:50:30.000Z"
+  "Name": "Select elements with XPath",
+  "Slug": "select-elements-xpath",
+  "Description": "Can I select one or more elements using XPath expression?",
+  "Category": "Console",
+  "Chrome": {
+    "Share": "https://twitter.com/CanIDevTools/status/1555146143608508417",
+    "References": "Console Utilities API [reference](https://developer.chrome.com/docs/devtools/console/utilities/#clear-function) \n",
+    "Notes": "`$x(path [, startNode])` returns an array of DOM elements that match the given XPath expression. It has an optional second parameter, `startNode`, that specifies an element or Node from which to search for elements.\n",
+    "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1659594580/select-elements-xpath-chrome_ayohyq.png",
+    "Name": "Select elements with xpath",
+    "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1659594580/select-elements-xpath-chrome_lnndgt.mp4",
+    "GIF": "https://res.cloudinary.com/canidevtools/image/upload/v1659594581/select-elements-xpath-chrome_gqmy7z.gif",
+    "Platform": [
+      "MacOS",
+      "Windows",
+      "Linux"
+    ]
+  },
+  "Firefox": {
+    "Platform": [
+      "MacOS",
+      "Windows",
+      "Linux"
+    ],
+    "Share": "https://twitter.com/CanIDevTools/status/1555146143608508417",
+    "Notes": "`$x(path [, startNode])` returns an array of DOM elements that match the given XPath expression. It has an optional second parameter, `startNode`, that specifies an element or Node from which to search for elements.\n",
+    "Name": "Select elements with xpath"
+  },
+  "Edge": {
+    "Notes": "`$x(path [, startNode])` returns an array of DOM elements that match the given XPath expression. It has an optional second parameter, `startNode`, that specifies an element or Node from which to search for elements.\n",
+    "Platform": [
+      "MacOS",
+      "Windows",
+      "Linux"
+    ],
+    "Share": "https://twitter.com/CanIDevTools/status/1555146143608508417",
+    "Name": "Select elements with xpath"
+  },
+  "Safari": {
+    "Share": "https://twitter.com/CanIDevTools/status/1555146143608508417",
+    "Name": "Select elements with xpath",
+    "Platform": [
+      "MacOS"
+    ],
+    "Notes": "`$x(path [, startNode])` returns an array of DOM elements that match the given XPath expression. It has an optional second parameter, `startNode`, that specifies an element or Node from which to search for elements.\n"
+  },
+  "Opera": {
+    "Share": "https://twitter.com/CanIDevTools/status/1555146143608508417",
+    "Platform": [
+      "MacOS",
+      "Windows",
+      "Linux"
+    ],
+    "Notes": "`$x(path [, startNode])` returns an array of DOM elements that match the given XPath expression. It has an optional second parameter, `startNode`, that specifies an element or Node from which to search for elements.\n",
+    "Name": "Select elements with xpath"
   }
 }

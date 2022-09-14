@@ -1,96 +1,55 @@
 {
-  "id": "recvAUaZLu97PHSDv",
-  "createdTime": "2022-05-02T04:59:52.000Z",
-  "fields": {
-    "Safari": {
-      "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1657089089/Images/preserve-console-logs-safari_ufbgus.png",
-      "Name": "Preserve console logs",
-      "Platform": [
-        "MacOS"
-      ],
-      "Main": [
-        "recvAUaZLu97PHSDv"
-      ],
-      "Notes": "1. In the **Console** tab, select the \"Preserve Log\" checkbox in the toolbar (top) to persist logs across page reloads.\n",
-      "LastModified": "2022-07-06T06:32:53.000Z",
-      "Category": [
-        "Console"
-      ]
-    },
-    "Slug": "preserve-console-logs",
-    "Opera": {
-      "Main": [
-        "recvAUaZLu97PHSDv"
-      ],
-      "Platform": [
-        "MacOS",
-        "Windows",
-        "Linux"
-      ],
-      "Notes": "1. Open console using `Cmd+Opt+J` or `Ctrl+Shift+J` > Click on the gear icon in top right to open \"Console settings\".\n2. Check \"Preserve log\" to preserve log statements between page reloads.\n",
-      "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1654358860/Images/preserve-console-logs-chrome_eydvl4.png",
-      "Name": "Preserve console logs",
-      "LastModified": "2022-06-12T13:22:41.000Z",
-      "Category": [
-        "Console"
-      ]
-    },
+  "Name": "Preserve console logs",
+  "Slug": "preserve-console-logs",
+  "Description": "Can I preserve console logs across page reloads?",
+  "Category": "Console",
+  "Chrome": {
+    "Notes": "1. Open console using `Cmd+Opt+J` or `Ctrl+Shift+J` > Click on the gear icon in top right to open \"Console settings\".\n2. Check \"Preserve log\" to preserve log statements between page reloads.\n",
+    "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1654358860/Images/preserve-console-logs-chrome_eydvl4.png",
     "Name": "Preserve console logs",
-    "Category": "Console",
-    "Description": "Can I preserve console logs across page reloads?",
-    "Firefox": {
-      "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1656472576/Images/preserve-console-logs-firefox_ojwlok.png",
-      "Platform": [
-        "MacOS",
-        "Windows",
-        "Linux"
-      ],
-      "Notes": "Open **Console Settings** from the toolbar in top right > Click \"Persist Logs\" to preserve the console output each time you visit a new page.\n",
-      "Name": "Preserve console logs",
-      "Main": [
-        "recvAUaZLu97PHSDv"
-      ],
-      "LastModified": "2022-06-29T03:20:02.000Z",
-      "Category": [
-        "Console"
-      ]
-    },
-    "Edge": {
-      "Notes": "1. Open console using `Cmd+Opt+J` or `Ctrl+Shift+J` > Click on the gear icon in top right to open \"Console settings\".\n2. Check \"Preserve log\" to preserve log statements between page reloads.\n\n",
-      "Platform": [
-        "MacOS",
-        "Windows",
-        "Linux"
-      ],
-      "Main": [
-        "recvAUaZLu97PHSDv"
-      ],
-      "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1654358656/Images/preserve-console-logs-edge_ejv1re.png",
-      "Name": "Preserve console logs",
-      "References": "1. \"Issue #1\" by [@codepo8](https://github.com/pankajparashar/canidev.tools/issues/1).\n",
-      "LastModified": "2022-06-04T16:06:09.000Z",
-      "Category": [
-        "Console"
-      ]
-    },
-    "Chrome": {
-      "Notes": "1. Open console using `Cmd+Opt+J` or `Ctrl+Shift+J` > Click on the gear icon in top right to open \"Console settings\".\n2. Check \"Preserve log\" to preserve log statements between page reloads.\n",
-      "Main": [
-        "recvAUaZLu97PHSDv"
-      ],
-      "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1654358860/Images/preserve-console-logs-chrome_eydvl4.png",
-      "Name": "Preserve console logs",
-      "Platform": [
-        "MacOS",
-        "Windows",
-        "Linux"
-      ],
-      "LastModified": "2022-06-04T16:07:51.000Z",
-      "Category": [
-        "Console"
-      ]
-    },
-    "CreatedTime": "2022-05-02T04:59:52.000Z",
-    "LastModifiedTime": "2022-07-06T06:31:55.000Z"
+    "Platform": [
+      "MacOS",
+      "Windows",
+      "Linux"
+    ]
+  },
+  "Firefox": {
+    "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1656472576/Images/preserve-console-logs-firefox_ojwlok.png",
+    "Platform": [
+      "MacOS",
+      "Windows",
+      "Linux"
+    ],
+    "Notes": "Open **Console Settings** from the toolbar in top right > Click \"Persist Logs\" to preserve the console output each time you visit a new page.\n",
+    "Name": "Preserve console logs"
+  },
+  "Edge": {
+    "Notes": "1. Open console using `Cmd+Opt+J` or `Ctrl+Shift+J` > Click on the gear icon in top right to open \"Console settings\".\n2. Check \"Preserve log\" to preserve log statements between page reloads.\n\n",
+    "Platform": [
+      "MacOS",
+      "Windows",
+      "Linux"
+    ],
+    "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1654358656/Images/preserve-console-logs-edge_ejv1re.png",
+    "Name": "Preserve console logs",
+    "References": "1. \"Issue #1\" by [@codepo8](https://github.com/pankajparashar/canidev.tools/issues/1).\n"
+  },
+  "Safari": {
+    "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1657089089/Images/preserve-console-logs-safari_ufbgus.png",
+    "Name": "Preserve console logs",
+    "Platform": [
+      "MacOS"
+    ],
+    "Notes": "1. In the **Console** tab, select the \"Preserve Log\" checkbox in the toolbar (top) to persist logs across page reloads.\n"
+  },
+  "Opera": {
+    "Platform": [
+      "MacOS",
+      "Windows",
+      "Linux"
+    ],
+    "Notes": "1. Open console using `Cmd+Opt+J` or `Ctrl+Shift+J` > Click on the gear icon in top right to open \"Console settings\".\n2. Check \"Preserve log\" to preserve log statements between page reloads.\n",
+    "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1654358860/Images/preserve-console-logs-chrome_eydvl4.png",
+    "Name": "Preserve console logs"
   }
 }

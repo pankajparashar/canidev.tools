@@ -1,91 +1,50 @@
 {
-  "id": "recwbW20rOkuG5tlF",
-  "createdTime": "2022-02-02T13:51:32.000Z",
-  "fields": {
-    "Safari": {
-      "Name": "Open Console with keyboard",
-      "Platform": [
-        "MacOS"
-      ],
-      "Main": [
-        "recwbW20rOkuG5tlF"
-      ],
-      "Notes": "Use Cmd+Opt+C to directly open the **Console** tab.\n",
-      "LastModified": "2022-06-23T13:30:46.000Z",
-      "Category": [
-        "Console"
-      ]
-    },
-    "Slug": "open-console-keyboard",
-    "Opera": {
-      "Main": [
-        "recwbW20rOkuG5tlF"
-      ],
-      "Platform": [
-        "MacOS",
-        "Windows",
-        "Linux"
-      ],
-      "Notes": "Use `Cmd+Opt+J` or `Ctrl+Shift+J` to directly open the **Console** tab.\n",
-      "Name": "Open Console with keyboard",
-      "LastModified": "2022-06-23T13:31:15.000Z",
-      "Category": [
-        "Console"
-      ]
-    },
+  "Name": "Open Console with keyboard",
+  "Slug": "open-console-keyboard",
+  "Description": "Can I open the console using the keyboard?",
+  "Category": "Console",
+  "Chrome": {
+    "References": "[1] \"Keyboard shortcuts\" - [Chrome Developers](https://developer.chrome.com/docs/devtools/shortcuts/#open)\n",
+    "Notes": "Use `Cmd+Opt+J` or `Ctrl+Shift+J` to directly open the **Console** tab.\n",
     "Name": "Open Console with keyboard",
-    "Category": "Console",
-    "Description": "Can I open the console using the keyboard?",
-    "Firefox": {
-      "Platform": [
-        "MacOS",
-        "Windows",
-        "Linux"
-      ],
-      "Notes": "Use `Cmd+Opt+K` or `Ctrl+Shift+K` to directly open the **Console** tab.\n",
-      "Name": "Open Console with keyboard",
-      "Main": [
-        "recwbW20rOkuG5tlF"
-      ],
-      "LastModified": "2022-06-23T13:29:32.000Z",
-      "Category": [
-        "Console"
-      ]
-    },
-    "Edge": {
-      "Notes": "Use `Cmd+Opt+J` or `Ctrl+Shift+J` to directly open the **Console** tab.\n",
-      "Platform": [
-        "MacOS",
-        "Windows",
-        "Linux"
-      ],
-      "Main": [
-        "recwbW20rOkuG5tlF"
-      ],
-      "Name": "Open Console with keyboard",
-      "LastModified": "2022-06-23T13:30:03.000Z",
-      "Category": [
-        "Console"
-      ]
-    },
-    "Chrome": {
-      "References": "[1] \"Keyboard shortcuts\" - [Chrome Developers](https://developer.chrome.com/docs/devtools/shortcuts/#open)\n",
-      "Notes": "Use `Cmd+Opt+J` or `Ctrl+Shift+J` to directly open the **Console** tab.\n",
-      "Main": [
-        "recwbW20rOkuG5tlF"
-      ],
-      "Name": "Open Console with keyboard",
-      "Platform": [
-        "MacOS",
-        "Windows",
-        "Linux"
-      ],
-      "LastModified": "2022-06-23T13:33:34.000Z",
-      "Category": [
-        "Console"
-      ]
-    },
-    "CreatedTime": "2022-02-02T13:51:32.000Z",
-    "LastModifiedTime": "2022-07-09T09:06:17.000Z"
+    "Platform": [
+      "MacOS",
+      "Windows",
+      "Linux"
+    ]
+  },
+  "Firefox": {
+    "Platform": [
+      "MacOS",
+      "Windows",
+      "Linux"
+    ],
+    "Notes": "Use `Cmd+Opt+K` or `Ctrl+Shift+K` to directly open the **Console** tab.\n",
+    "Name": "Open Console with keyboard"
+  },
+  "Edge": {
+    "Notes": "Use `Cmd+Opt+J` or `Ctrl+Shift+J` to directly open the **Console** tab.\n",
+    "Platform": [
+      "MacOS",
+      "Windows",
+      "Linux"
+    ],
+    "Name": "Open Console with keyboard"
+  },
+  "Safari": {
+    "Name": "Open Console with keyboard",
+    "Platform": [
+      "MacOS"
+    ],
+    "Notes": "Use Cmd+Opt+C to directly open the **Console** tab.\n"
+  },
+  "Opera": {
+    "Platform": [
+      "MacOS",
+      "Windows",
+      "Linux"
+    ],
+    "Notes": "Use `Cmd+Opt+J` or `Ctrl+Shift+J` to directly open the **Console** tab.\n",
+    "Name": "Open Console with keyboard"
   }
 }

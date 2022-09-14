@@ -1,90 +1,49 @@
 {
-  "id": "recUXSaB65Nb4hmDu",
-  "createdTime": "2022-05-02T10:11:54.000Z",
-  "fields": {
-    "Safari": {
-      "Name": "Run previous commands",
-      "Platform": [
-        "MacOS"
-      ],
-      "Main": [
-        "recUXSaB65Nb4hmDu"
-      ],
-      "Notes": "1. Use the `Up` arrow key to scroll through the list of previously executed commands and then press `Enter`.\n\n",
-      "LastModified": "2022-06-11T15:06:52.000Z",
-      "Category": [
-        "Console"
-      ]
-    },
-    "Slug": "run-previous-commands",
-    "Opera": {
-      "Main": [
-        "recUXSaB65Nb4hmDu"
-      ],
-      "Platform": [
-        "MacOS",
-        "Windows",
-        "Linux"
-      ],
-      "Notes": "1. Use the `Up` arrow key to scroll through the list of previously executed commands and then press `Enter`.\n",
-      "Name": "Run previous commands",
-      "LastModified": "2022-06-12T13:22:41.000Z",
-      "Category": [
-        "Console"
-      ]
-    },
+  "Name": "Run previous commands",
+  "Slug": "run-previous-commands",
+  "Description": "Can I run the previously executed commands in the console?",
+  "Category": "Console",
+  "Chrome": {
+    "Notes": "1. Use the `Up` arrow key to scroll through the list of previously executed commands and then press `Enter`.\n",
     "Name": "Run previous commands",
-    "Category": "Console",
-    "Description": "Can I run the previously executed commands in the console?",
-    "Firefox": {
-      "Platform": [
-        "MacOS",
-        "Windows",
-        "Linux"
-      ],
-      "Notes": "1. Use the `Up` arrow key to scroll through the list of previously executed commands and then press `Enter`.\n\n",
-      "Name": "Run previous commands",
-      "Main": [
-        "recUXSaB65Nb4hmDu"
-      ],
-      "LastModified": "2022-06-11T15:06:44.000Z",
-      "Category": [
-        "Console"
-      ]
-    },
-    "Edge": {
-      "Notes": "1. Use the `Up` arrow key to scroll through the list of previously executed commands and then press `Enter`.\n",
-      "Platform": [
-        "MacOS",
-        "Windows",
-        "Linux"
-      ],
-      "Main": [
-        "recUXSaB65Nb4hmDu"
-      ],
-      "Name": "Run previous commands",
-      "LastModified": "2022-06-11T15:07:06.000Z",
-      "Category": [
-        "Console"
-      ]
-    },
-    "Chrome": {
-      "Notes": "1. Use the `Up` arrow key to scroll through the list of previously executed commands and then press `Enter`.\n",
-      "Main": [
-        "recUXSaB65Nb4hmDu"
-      ],
-      "Name": "Run previous commands",
-      "Platform": [
-        "MacOS",
-        "Windows",
-        "Linux"
-      ],
-      "LastModified": "2022-06-11T15:05:38.000Z",
-      "Category": [
-        "Console"
-      ]
-    },
-    "CreatedTime": "2022-05-02T10:11:54.000Z",
-    "LastModifiedTime": "2022-07-09T09:06:48.000Z"
+    "Platform": [
+      "MacOS",
+      "Windows",
+      "Linux"
+    ]
+  },
+  "Firefox": {
+    "Platform": [
+      "MacOS",
+      "Windows",
+      "Linux"
+    ],
+    "Notes": "1. Use the `Up` arrow key to scroll through the list of previously executed commands and then press `Enter`.\n\n",
+    "Name": "Run previous commands"
+  },
+  "Edge": {
+    "Notes": "1. Use the `Up` arrow key to scroll through the list of previously executed commands and then press `Enter`.\n",
+    "Platform": [
+      "MacOS",
+      "Windows",
+      "Linux"
+    ],
+    "Name": "Run previous commands"
+  },
+  "Safari": {
+    "Name": "Run previous commands",
+    "Platform": [
+      "MacOS"
+    ],
+    "Notes": "1. Use the `Up` arrow key to scroll through the list of previously executed commands and then press `Enter`.\n\n"
+  },
+  "Opera": {
+    "Platform": [
+      "MacOS",
+      "Windows",
+      "Linux"
+    ],
+    "Notes": "1. Use the `Up` arrow key to scroll through the list of previously executed commands and then press `Enter`.\n",
+    "Name": "Run previous commands"
   }
 }

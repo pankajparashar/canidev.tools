@@ -1,83 +1,48 @@
 {
-  "id": "recvq4MXyObaBiXsz",
-  "createdTime": "2022-04-13T14:35:20.000Z",
-  "fields": {
-    "Safari": {
-      "Version": "7-",
-      "Name": "Use color picker outside window",
-      "Video": "https://res.cloudinary.com/canidevtools/video/upload/v1656656002/Videos/color-picker-outside-window-safari_nciqw1.mp4",
-      "Platform": [
-        "MacOS"
-      ],
-      "Main": [
-        "recvq4MXyObaBiXsz"
-      ],
-      "Notes": "1. In the **Styles** pane, click on any color preview to open a color picker. Use the eyedropper to pick color from anywhere.\n",
-      "LastModified": "2022-07-01T06:16:00.000Z",
-      "Category": [
-        "CSS"
-      ]
-    },
-    "Slug": "color-picker-outside-window",
-    "Opera": {
-      "Main": [
-        "recvq4MXyObaBiXsz"
-      ],
-      "References": "\n",
-      "Platform": [
-        "MacOS",
-        "Windows",
-        "Linux"
-      ],
-      "Notes": "1. Open **Settings** (or press `Shift+?` or `F1`) > Experiments > Apply filter on \"color picker\".\n2. Check the \"Enable color picking outside the browser window\" option > Reload DevTools.\n3. In the **Styles** pane, click on any color preview to open a color picker. Use the eyedropper to pick color from anywhere.\n",
-      "Name": "Use color picker outside window",
-      "LastModified": "2022-07-01T06:04:00.000Z",
-      "Category": [
-        "CSS"
-      ]
-    },
+  "Name": "Use color picker outside window",
+  "Slug": "color-picker-outside-window",
+  "Description": "Can I use the color picker to pick colors from outside the browser window?",
+  "Category": "CSS",
+  "Chrome": {
+    "Share": "https://twitter.com/yisibl/status/1513834953104310279",
+    "References": "[1] \"Color picker\" - [Chrome DevTools Docs](https://developer.chrome.com/blog/new-in-devtools-103/#color)\n",
+    "Notes": "1. Open **Settings** (or press `Shift+?` or `F1`) > Experiments > Apply filter on \"color picker\".\n2. Check the \"Enable color picking outside the browser window\" option > Reload DevTools.\n3. In the **Styles** pane, click on any color preview to open a color picker. Use the eyedropper to pick color from anywhere.\n",
     "Name": "Use color picker outside window",
-    "Category": "CSS",
-    "Description": "Can I use the color picker to pick colors from outside the browser window?",
-    "Edge": {
-      "Notes": "1. Open **Settings** (or press `Shift+?` or `F1`) > Experiments > Apply filter on \"color picker\".\n2. Check the \"Enable color picking outside the browser window\" option > Reload DevTools.\n3. In the **Styles** pane, click on any color preview to open a color picker. Use the eyedropper to pick color from anywhere.\n",
-      "Platform": [
-        "MacOS",
-        "Windows",
-        "Linux"
-      ],
-      "Main": [
-        "recvq4MXyObaBiXsz"
-      ],
-      "Name": "Use color picker outside window",
-      "Video": "https://res.cloudinary.com/canidevtools/video/upload/v1656655355/Videos/color-picker-outside-window-edge_e6pph0.mp4",
-      "LastModified": "2022-07-01T06:02:45.000Z",
-      "Category": [
-        "CSS"
-      ]
-    },
-    "Chrome": {
-      "Share": "https://twitter.com/yisibl/status/1513834953104310279",
-      "References": "[1] \"Color picker\" - [Chrome DevTools Docs](https://developer.chrome.com/blog/new-in-devtools-103/#color)\n",
-      "Notes": "1. Open **Settings** (or press `Shift+?` or `F1`) > Experiments > Apply filter on \"color picker\".\n2. Check the \"Enable color picking outside the browser window\" option > Reload DevTools.\n3. In the **Styles** pane, click on any color preview to open a color picker. Use the eyedropper to pick color from anywhere.\n",
-      "Main": [
-        "recvq4MXyObaBiXsz"
-      ],
-      "Name": "Use color picker outside window",
-      "Version": "103-",
-      "Video": "https://res.cloudinary.com/canidevtools/video/upload/v1656654493/Videos/color-picker-outside-window-chrome_gnwoe6.mp4",
-      "Platform": [
-        "MacOS",
-        "Windows",
-        "Linux"
-      ],
-      "LastModified": "2022-07-03T05:04:13.000Z",
-      "Category": [
-        "CSS"
-      ]
-    },
-    "CreatedTime": "2022-04-13T14:35:20.000Z",
-    "LastModifiedTime": "2022-07-01T06:08:40.000Z",
-    "Firefox": null
+    "Version": "103-",
+    "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1656654493/Videos/color-picker-outside-window-chrome_gnwoe6.mp4",
+    "Platform": [
+      "MacOS",
+      "Windows",
+      "Linux"
+    ]
+  },
+  "Edge": {
+    "Notes": "1. Open **Settings** (or press `Shift+?` or `F1`) > Experiments > Apply filter on \"color picker\".\n2. Check the \"Enable color picking outside the browser window\" option > Reload DevTools.\n3. In the **Styles** pane, click on any color preview to open a color picker. Use the eyedropper to pick color from anywhere.\n",
+    "Platform": [
+      "MacOS",
+      "Windows",
+      "Linux"
+    ],
+    "Name": "Use color picker outside window",
+    "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1656655355/Videos/color-picker-outside-window-edge_e6pph0.mp4"
+  },
+  "Safari": {
+    "Version": "7-",
+    "Name": "Use color picker outside window",
+    "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1656656002/Videos/color-picker-outside-window-safari_nciqw1.mp4",
+    "Platform": [
+      "MacOS"
+    ],
+    "Notes": "1. In the **Styles** pane, click on any color preview to open a color picker. Use the eyedropper to pick color from anywhere.\n"
+  },
+  "Opera": {
+    "References": "\n",
+    "Platform": [
+      "MacOS",
+      "Windows",
+      "Linux"
+    ],
+    "Notes": "1. Open **Settings** (or press `Shift+?` or `F1`) > Experiments > Apply filter on \"color picker\".\n2. Check the \"Enable color picking outside the browser window\" option > Reload DevTools.\n3. In the **Styles** pane, click on any color preview to open a color picker. Use the eyedropper to pick color from anywhere.\n",
+    "Name": "Use color picker outside window"
   }
 }

@@ -1,91 +1,50 @@
 {
-  "id": "recwUzvy3xhW8NHwu",
-  "createdTime": "2022-02-05T15:02:07.000Z",
-  "fields": {
-    "Safari": {
-      "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1655178162/Images/view-aria-attrs-safari_eig5uf.png",
-      "Name": "View ARIA attrs",
-      "Platform": [
-        "MacOS"
-      ],
-      "Main": [
-        "recwUzvy3xhW8NHwu"
-      ],
-      "Notes": "1. Inspect the element > Click the **Node** pane next to the DOM node.\n2. Scroll down to the **Accessibility** section, expand to see all the ARA attributes for the selected node.\n",
-      "LastModified": "2022-06-14T03:42:49.000Z",
-      "Category": [
-        "Accessibility"
-      ]
-    },
-    "Slug": "view-aria-attrs",
-    "Opera": {
-      "Main": [
-        "recwUzvy3xhW8NHwu"
-      ],
-      "Platform": [
-        "MacOS",
-        "Windows",
-        "Linux"
-      ],
-      "Notes": "1. Inspect the element in the DOM tree.\n2. Click on the Accessibility tab (It maybe hidden behind the \"More Tabs\" button). Scroll down to the section which says, \"ARIA Attributes\".\n",
-      "Name": "View ARIA attrs",
-      "LastModified": "2022-06-14T03:40:00.000Z",
-      "Category": [
-        "Accessibility"
-      ]
-    },
+  "Name": "View ARIA attrs",
+  "Slug": "view-aria-attrs",
+  "Description": "Can I view ARIA attributes of an element?",
+  "Category": "Accessibility",
+  "Chrome": {
+    "Notes": "1. Inspect the element in the DOM tree.\n2. Click on the Accessibility tab (It maybe hidden behind the \"More Tabs\" button). Scroll down to the section which says, \"ARIA Attributes\".\n",
     "Name": "View ARIA attrs",
-    "Category": "Accessibility",
-    "Description": "Can I view ARIA attributes of an element?",
-    "Firefox": {
-      "Platform": [
-        "MacOS",
-        "Windows",
-        "Linux"
-      ],
-      "Notes": "1. Right click on the element on the page and select \"Inspect Accessibility Properties\".\n2. This will open the Accessibility tab. The ARIA attributes are available under the \"Properties\" panel on the right.\n\n",
-      "Name": "View ARIA attrs",
-      "Main": [
-        "recwUzvy3xhW8NHwu"
-      ],
-      "LastModified": "2022-06-14T03:39:54.000Z",
-      "Category": [
-        "Accessibility"
-      ]
-    },
-    "Edge": {
-      "Notes": "1. Inspect the element in the DOM tree.\n2. Click on the Accessibility tab (It maybe hidden behind the \"More Tabs\" button). Scroll down to the section which says, \"ARIA Attributes\".\n\n",
-      "Platform": [
-        "MacOS",
-        "Windows",
-        "Linux"
-      ],
-      "Main": [
-        "recwUzvy3xhW8NHwu"
-      ],
-      "Name": "View ARIA attrs",
-      "LastModified": "2022-06-14T03:39:57.000Z",
-      "Category": [
-        "Accessibility"
-      ]
-    },
-    "Chrome": {
-      "Notes": "1. Inspect the element in the DOM tree.\n2. Click on the Accessibility tab (It maybe hidden behind the \"More Tabs\" button). Scroll down to the section which says, \"ARIA Attributes\".\n",
-      "Main": [
-        "recwUzvy3xhW8NHwu"
-      ],
-      "Name": "View ARIA attrs",
-      "Platform": [
-        "MacOS",
-        "Windows",
-        "Linux"
-      ],
-      "LastModified": "2022-06-14T03:39:51.000Z",
-      "Category": [
-        "Accessibility"
-      ]
-    },
-    "CreatedTime": "2022-02-05T15:02:07.000Z",
-    "LastModifiedTime": "2022-07-09T09:11:30.000Z"
+    "Platform": [
+      "MacOS",
+      "Windows",
+      "Linux"
+    ]
+  },
+  "Firefox": {
+    "Platform": [
+      "MacOS",
+      "Windows",
+      "Linux"
+    ],
+    "Notes": "1. Right click on the element on the page and select \"Inspect Accessibility Properties\".\n2. This will open the Accessibility tab. The ARIA attributes are available under the \"Properties\" panel on the right.\n\n",
+    "Name": "View ARIA attrs"
+  },
+  "Edge": {
+    "Notes": "1. Inspect the element in the DOM tree.\n2. Click on the Accessibility tab (It maybe hidden behind the \"More Tabs\" button). Scroll down to the section which says, \"ARIA Attributes\".\n\n",
+    "Platform": [
+      "MacOS",
+      "Windows",
+      "Linux"
+    ],
+    "Name": "View ARIA attrs"
+  },
+  "Safari": {
+    "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1655178162/Images/view-aria-attrs-safari_eig5uf.png",
+    "Name": "View ARIA attrs",
+    "Platform": [
+      "MacOS"
+    ],
+    "Notes": "1. Inspect the element > Click the **Node** pane next to the DOM node.\n2. Scroll down to the **Accessibility** section, expand to see all the ARA attributes for the selected node.\n"
+  },
+  "Opera": {
+    "Platform": [
+      "MacOS",
+      "Windows",
+      "Linux"
+    ],
+    "Notes": "1. Inspect the element in the DOM tree.\n2. Click on the Accessibility tab (It maybe hidden behind the \"More Tabs\" button). Scroll down to the section which says, \"ARIA Attributes\".\n",
+    "Name": "View ARIA attrs"
   }
 }

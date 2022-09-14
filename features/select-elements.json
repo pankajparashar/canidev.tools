@@ -1,97 +1,56 @@
 {
-  "id": "recNcnfk60gJMxPi3",
-  "createdTime": "2022-07-31T07:00:03.000Z",
-  "fields": {
-    "Safari": {
-      "Name": "Select elements",
-      "Platform": [
-        "MacOS"
-      ],
-      "Main": [
-        "recNcnfk60gJMxPi3"
-      ],
-      "Notes": "1. `$(selector [, startNode])` returns the reference to the first DOM element with the specified CSS selector. This command is equivalent to calling `document.querySelector()`.\n2. `$$(selector [, startNode])` returns an array of elements that match the given CSS selector. This command is equivalent to calling `document.querySelectorAll()`.\n\n",
-      "LastModified": "2022-07-31T07:21:39.000Z",
-      "Category": [
-        "Console"
-      ]
-    },
-    "Slug": "select-elements",
-    "Opera": {
-      "Main": [
-        "recNcnfk60gJMxPi3"
-      ],
-      "GIF": "https://res.cloudinary.com/canidevtools/image/upload/v1659251749/select-elements-chrome_farvxe.gif",
-      "Video": "https://res.cloudinary.com/canidevtools/video/upload/v1659251749/select-elements-chrome_fn3kde.mp4",
-      "Platform": [
-        "MacOS",
-        "Windows",
-        "Linux"
-      ],
-      "Notes": "1. `$(selector [, startNode])` returns the reference to the first DOM element with the specified CSS selector. This command is equivalent to calling `document.querySelector()`.\n2. `$$(selector [, startNode])` returns an array of elements that match the given CSS selector. This command is equivalent to calling `document.querySelectorAll()`.\n",
-      "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1659251748/select-elements-chrome_bksfwc.png",
-      "Name": "Select elements",
-      "LastModified": "2022-07-31T07:20:25.000Z",
-      "Category": [
-        "Console"
-      ]
-    },
+  "Name": "Select elements",
+  "Slug": "select-elements",
+  "Description": "Can I select one or more elements from the console?",
+  "Category": "Console",
+  "Chrome": {
+    "References": "Console Utilities - Chrome DevTools [Docs](https://developer.chrome.com/docs/devtools/console/utilities/#recent-many)\n",
+    "Notes": "1. `$(selector [, startNode])` returns the reference to the first DOM element with the specified CSS selector. This command is equivalent to calling `document.querySelector()`.\n2. `$$(selector [, startNode])` returns an array of elements that match the given CSS selector. This command is equivalent to calling `document.querySelectorAll()`.\n",
+    "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1659251748/select-elements-chrome_bksfwc.png",
     "Name": "Select elements",
-    "Category": "Console",
-    "Description": "Can I select one or more elements from the console?",
-    "Firefox": {
-      "Platform": [
-        "MacOS",
-        "Windows",
-        "Linux"
-      ],
-      "Notes": "1. `$(selector [, startNode])` returns the reference to the first DOM element with the specified CSS selector. This command is equivalent to calling `document.querySelector()`.\n2. `$$(selector [, startNode])` returns an array of elements that match the given CSS selector. This command is equivalent to calling `document.querySelectorAll()`.\n\n",
-      "Name": "Select elements",
-      "Main": [
-        "recNcnfk60gJMxPi3"
-      ],
-      "LastModified": "2022-07-31T07:21:23.000Z",
-      "Category": [
-        "Console"
-      ]
-    },
-    "Edge": {
-      "Notes": "1. `$(selector [, startNode])` returns the reference to the first DOM element with the specified CSS selector. This command is equivalent to calling `document.querySelector()`.\n2. `$$(selector [, startNode])` returns an array of elements that match the given CSS selector. This command is equivalent to calling `document.querySelectorAll()`.\n\n",
-      "Platform": [
-        "MacOS",
-        "Windows",
-        "Linux"
-      ],
-      "Main": [
-        "recNcnfk60gJMxPi3"
-      ],
-      "Name": "Select elements",
-      "LastModified": "2022-07-31T07:21:33.000Z",
-      "Category": [
-        "Console"
-      ]
-    },
-    "Chrome": {
-      "References": "Console Utilities - Chrome DevTools [Docs](https://developer.chrome.com/docs/devtools/console/utilities/#recent-many)\n",
-      "Notes": "1. `$(selector [, startNode])` returns the reference to the first DOM element with the specified CSS selector. This command is equivalent to calling `document.querySelector()`.\n2. `$$(selector [, startNode])` returns an array of elements that match the given CSS selector. This command is equivalent to calling `document.querySelectorAll()`.\n",
-      "Main": [
-        "recNcnfk60gJMxPi3"
-      ],
-      "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1659251748/select-elements-chrome_bksfwc.png",
-      "Name": "Select elements",
-      "Video": "https://res.cloudinary.com/canidevtools/video/upload/v1659251749/select-elements-chrome_fn3kde.mp4",
-      "GIF": "https://res.cloudinary.com/canidevtools/image/upload/v1659251749/select-elements-chrome_farvxe.gif",
-      "Platform": [
-        "MacOS",
-        "Windows",
-        "Linux"
-      ],
-      "LastModified": "2022-07-31T07:19:04.000Z",
-      "Category": [
-        "Console"
-      ]
-    },
-    "CreatedTime": "2022-07-31T07:00:03.000Z",
-    "LastModifiedTime": "2022-07-31T07:00:37.000Z"
+    "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1659251749/select-elements-chrome_fn3kde.mp4",
+    "GIF": "https://res.cloudinary.com/canidevtools/image/upload/v1659251749/select-elements-chrome_farvxe.gif",
+    "Platform": [
+      "MacOS",
+      "Windows",
+      "Linux"
+    ]
+  },
+  "Firefox": {
+    "Platform": [
+      "MacOS",
+      "Windows",
+      "Linux"
+    ],
+    "Notes": "1. `$(selector [, startNode])` returns the reference to the first DOM element with the specified CSS selector. This command is equivalent to calling `document.querySelector()`.\n2. `$$(selector [, startNode])` returns an array of elements that match the given CSS selector. This command is equivalent to calling `document.querySelectorAll()`.\n\n",
+    "Name": "Select elements"
+  },
+  "Edge": {
+    "Notes": "1. `$(selector [, startNode])` returns the reference to the first DOM element with the specified CSS selector. This command is equivalent to calling `document.querySelector()`.\n2. `$$(selector [, startNode])` returns an array of elements that match the given CSS selector. This command is equivalent to calling `document.querySelectorAll()`.\n\n",
+    "Platform": [
+      "MacOS",
+      "Windows",
+      "Linux"
+    ],
+    "Name": "Select elements"
+  },
+  "Safari": {
+    "Name": "Select elements",
+    "Platform": [
+      "MacOS"
+    ],
+    "Notes": "1. `$(selector [, startNode])` returns the reference to the first DOM element with the specified CSS selector. This command is equivalent to calling `document.querySelector()`.\n2. `$$(selector [, startNode])` returns an array of elements that match the given CSS selector. This command is equivalent to calling `document.querySelectorAll()`.\n\n"
+  },
+  "Opera": {
+    "GIF": "https://res.cloudinary.com/canidevtools/image/upload/v1659251749/select-elements-chrome_farvxe.gif",
+    "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1659251749/select-elements-chrome_fn3kde.mp4",
+    "Platform": [
+      "MacOS",
+      "Windows",
+      "Linux"
+    ],
+    "Notes": "1. `$(selector [, startNode])` returns the reference to the first DOM element with the specified CSS selector. This command is equivalent to calling `document.querySelector()`.\n2. `$$(selector [, startNode])` returns an array of elements that match the given CSS selector. This command is equivalent to calling `document.querySelectorAll()`.\n",
+    "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1659251748/select-elements-chrome_bksfwc.png",
+    "Name": "Select elements"
   }
 }

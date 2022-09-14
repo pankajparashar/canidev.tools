@@ -65,7 +65,7 @@ export function loader() {
     const file = fs.readFileSync(filename);
     const feature = JSON.parse(file);
 
-    const category = feature.fields.Category;
+    const category = feature.Category;
     if (category in categories) {
       categories[category] = categories[category] + 1;
     } else {

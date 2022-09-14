@@ -1,99 +1,58 @@
 {
-  "id": "rec2u79pmx6z63lXC",
-  "createdTime": "2022-02-05T11:11:12.000Z",
-  "fields": {
-    "Safari": {
-      "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1657688426/Images/debug-javascript-safari_dcegsm.png",
-      "Name": "Debug JavaScript",
-      "Platform": [
-        "MacOS"
-      ],
-      "References": "[1] \"Debugging JavaScript\", by [Webkit](https://webkit.org/web-inspector/sources-tab/#debugging-javascript)\n",
-      "Main": [
-        "rec2u79pmx6z63lXC"
-      ],
-      "Notes": "1. In the **Sources** tab, open the `.js` file from the the left sidebar. Set a breakpoint by clicking on the line number.\n2. Perform the action necessary to trigger that line of code, which will pause the execution at the breakpoint.\n3. Once activated, use the toolbar on the left sidebar (top) to step-in/step-out, watch expressions, local vars while debugging through the code.\n4. Alternatively, you can also add the `debugger;` statement in the code to pause execution of the code at that line.\n",
-      "LastModified": "2022-07-13T05:04:35.000Z",
-      "Category": [
-        "JavaScript"
-      ]
-    },
-    "Slug": "debug-javascript",
-    "Opera": {
-      "Main": [
-        "rec2u79pmx6z63lXC"
-      ],
-      "Platform": [
-        "MacOS",
-        "Windows",
-        "Linux"
-      ],
-      "Notes": "1. In the **Sources** tab, open the `.js` file from the **Page** panel in the left sidebar. Set a breakpoint by clicking on the line number.\n2. Perform the action necessary to trigger that line of code, which will pause the execution at the breakpoint.\n3. Use the toolbar on the right sidebar to step-in/step-out, watch expressions, local vars while debugging through the code.\n4. Alternatively, you can also add the `debugger;` statement in the code to pause execution of the code at that line.\n",
-      "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1657687705/Images/debug-javascript-opera_f4grpq.png",
-      "Name": "Debug JavaScript",
-      "LastModified": "2022-07-13T04:48:38.000Z",
-      "Category": [
-        "JavaScript"
-      ]
-    },
+  "Name": "Debug JavaScript",
+  "Slug": "debug-javascript",
+  "Description": "Can I debug JavaScript using devtools?",
+  "Category": "JavaScript",
+  "Chrome": {
+    "References": "[1] \"Debug JavaScript\", by Chrome DevTools [Docs](https://developer.chrome.com/docs/devtools/javascript/)\n",
+    "Notes": "1. In the **Sources** tab, open the `.js` file from the **Page** panel in the left sidebar. Set a breakpoint by clicking on the line number.\n2. Perform the action necessary to trigger that line of code, which will pause the execution at the breakpoint.\n3. Use the toolbar on the right sidebar to step-in/step-out, watch expressions, local vars while debugging through the code.\n4. Alternatively, you can also add the `debugger;` statement in the code to pause execution of the code at that line.\n",
+    "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1657687612/Images/debug-javascript-chrome_msukuu.png",
     "Name": "Debug JavaScript",
-    "Category": "JavaScript",
-    "Description": "Can I debug JavaScript using devtools?",
-    "Firefox": {
-      "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1657688051/Images/debug-javascript-firefox_azijau.png",
-      "Platform": [
-        "MacOS",
-        "Windows",
-        "Linux"
-      ],
-      "Notes": "1. In the **Debugger** tab, open the `.js` file from the **Sources** panel in the left sidebar. Set a breakpoint by clicking on the line number.\n2. Perform the action necessary to trigger that line of code, which will pause the execution at the breakpoint.\n3. Use the toolbar on the right sidebar to step-in/step-out, watch expressions, local vars while debugging through the code.\n4. Alternatively, you can also add the `debugger;` statement in the code to pause execution of the code at that line.\n",
-      "References": "[1] \"JavaScript Debugger\", by Firefox Source [Docs](https://firefox-source-docs.mozilla.org/devtools-user/debugger/)\n",
-      "Name": "Debug JavaScript",
-      "Main": [
-        "rec2u79pmx6z63lXC"
-      ],
-      "LastModified": "2022-07-13T04:56:24.000Z",
-      "Category": [
-        "JavaScript"
-      ]
-    },
-    "Edge": {
-      "Notes": "1. In the **Sources** tab, open the `.js` file from the **Page** panel in the left sidebar. Set a breakpoint by clicking on the line number.\n2. Perform the action necessary to trigger that line of code, which will pause the execution at the breakpoint.\n3. Use the toolbar on the right sidebar to step-in/step-out, watch expressions, local vars while debugging through the code.\n4. Alternatively, you can also add the `debugger;` statement in the code to pause execution of the code at that line.\n",
-      "Platform": [
-        "MacOS",
-        "Windows",
-        "Linux"
-      ],
-      "Main": [
-        "rec2u79pmx6z63lXC"
-      ],
-      "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1657687676/Images/debug-javascript-edge_sqsjbk.png",
-      "Name": "Debug JavaScript",
-      "References": "[1] \"Use Debugger pane\", by Edge DevTools [Docs](https://docs.microsoft.com/en-us/microsoft-edge/devtools-guide-chromium/sources/#using-the-debugger-pane-to-debug-javascript-code)\n",
-      "LastModified": "2022-07-13T04:48:46.000Z",
-      "Category": [
-        "JavaScript"
-      ]
-    },
-    "Chrome": {
-      "References": "[1] \"Debug JavaScript\", by Chrome DevTools [Docs](https://developer.chrome.com/docs/devtools/javascript/)\n",
-      "Notes": "1. In the **Sources** tab, open the `.js` file from the **Page** panel in the left sidebar. Set a breakpoint by clicking on the line number.\n2. Perform the action necessary to trigger that line of code, which will pause the execution at the breakpoint.\n3. Use the toolbar on the right sidebar to step-in/step-out, watch expressions, local vars while debugging through the code.\n4. Alternatively, you can also add the `debugger;` statement in the code to pause execution of the code at that line.\n",
-      "Main": [
-        "rec2u79pmx6z63lXC"
-      ],
-      "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1657687612/Images/debug-javascript-chrome_msukuu.png",
-      "Name": "Debug JavaScript",
-      "Platform": [
-        "MacOS",
-        "Windows",
-        "Linux"
-      ],
-      "LastModified": "2022-07-13T04:47:02.000Z",
-      "Category": [
-        "JavaScript"
-      ]
-    },
-    "CreatedTime": "2022-02-05T11:11:12.000Z",
-    "LastModifiedTime": "2022-07-09T09:10:02.000Z"
+    "Platform": [
+      "MacOS",
+      "Windows",
+      "Linux"
+    ]
+  },
+  "Firefox": {
+    "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1657688051/Images/debug-javascript-firefox_azijau.png",
+    "Platform": [
+      "MacOS",
+      "Windows",
+      "Linux"
+    ],
+    "Notes": "1. In the **Debugger** tab, open the `.js` file from the **Sources** panel in the left sidebar. Set a breakpoint by clicking on the line number.\n2. Perform the action necessary to trigger that line of code, which will pause the execution at the breakpoint.\n3. Use the toolbar on the right sidebar to step-in/step-out, watch expressions, local vars while debugging through the code.\n4. Alternatively, you can also add the `debugger;` statement in the code to pause execution of the code at that line.\n",
+    "References": "[1] \"JavaScript Debugger\", by Firefox Source [Docs](https://firefox-source-docs.mozilla.org/devtools-user/debugger/)\n",
+    "Name": "Debug JavaScript"
+  },
+  "Edge": {
+    "Notes": "1. In the **Sources** tab, open the `.js` file from the **Page** panel in the left sidebar. Set a breakpoint by clicking on the line number.\n2. Perform the action necessary to trigger that line of code, which will pause the execution at the breakpoint.\n3. Use the toolbar on the right sidebar to step-in/step-out, watch expressions, local vars while debugging through the code.\n4. Alternatively, you can also add the `debugger;` statement in the code to pause execution of the code at that line.\n",
+    "Platform": [
+      "MacOS",
+      "Windows",
+      "Linux"
+    ],
+    "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1657687676/Images/debug-javascript-edge_sqsjbk.png",
+    "Name": "Debug JavaScript",
+    "References": "[1] \"Use Debugger pane\", by Edge DevTools [Docs](https://docs.microsoft.com/en-us/microsoft-edge/devtools-guide-chromium/sources/#using-the-debugger-pane-to-debug-javascript-code)\n"
+  },
+  "Safari": {
+    "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1657688426/Images/debug-javascript-safari_dcegsm.png",
+    "Name": "Debug JavaScript",
+    "Platform": [
+      "MacOS"
+    ],
+    "References": "[1] \"Debugging JavaScript\", by [Webkit](https://webkit.org/web-inspector/sources-tab/#debugging-javascript)\n",
+    "Notes": "1. In the **Sources** tab, open the `.js` file from the the left sidebar. Set a breakpoint by clicking on the line number.\n2. Perform the action necessary to trigger that line of code, which will pause the execution at the breakpoint.\n3. Once activated, use the toolbar on the left sidebar (top) to step-in/step-out, watch expressions, local vars while debugging through the code.\n4. Alternatively, you can also add the `debugger;` statement in the code to pause execution of the code at that line.\n"
+  },
+  "Opera": {
+    "Platform": [
+      "MacOS",
+      "Windows",
+      "Linux"
+    ],
+    "Notes": "1. In the **Sources** tab, open the `.js` file from the **Page** panel in the left sidebar. Set a breakpoint by clicking on the line number.\n2. Perform the action necessary to trigger that line of code, which will pause the execution at the breakpoint.\n3. Use the toolbar on the right sidebar to step-in/step-out, watch expressions, local vars while debugging through the code.\n4. Alternatively, you can also add the `debugger;` statement in the code to pause execution of the code at that line.\n",
+    "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1657687705/Images/debug-javascript-opera_f4grpq.png",
+    "Name": "Debug JavaScript"
   }
 }

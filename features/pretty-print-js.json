@@ -1,95 +1,54 @@
 {
-  "id": "recKTBokX7eAlLPJX",
-  "createdTime": "2022-07-03T07:03:11.000Z",
-  "fields": {
-    "Safari": {
-      "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1656833402/Images/pretty-print-js-safari_qdyfjn.png",
-      "Name": "Pretty print JavaScript",
-      "Platform": [
-        "MacOS"
-      ],
-      "Main": [
-        "recKTBokX7eAlLPJX"
-      ],
-      "Notes": "1. In the **Sources** tab, open the `.js` file from the left sidebar. Click the pretty print icon `{}` from the top toolbar to toggle between pretty print and original source format. \n",
-      "LastModified": "2022-07-03T07:46:33.000Z",
-      "Category": [
-        "JavaScript"
-      ]
-    },
-    "Slug": "pretty-print-js",
-    "Opera": {
-      "Main": [
-        "recKTBokX7eAlLPJX"
-      ],
-      "Platform": [
-        "MacOS",
-        "Windows",
-        "Linux"
-      ],
-      "Notes": "1. In the Sources tab, open the `.js` file from the left sidebar. In the bottom tray, click the icon `{}` titled \"Pretty print\" to pretty print the JavaScript code. \n2. This will open the formatted file in a new tab suffixed \":formatted\".\n",
-      "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1656834413/Images/pretty-print-js-opera_ny4tcx.png",
-      "Name": "Pretty print JavaScript",
-      "LastModified": "2022-07-03T07:47:35.000Z",
-      "Category": [
-        "JavaScript"
-      ]
-    },
+  "Name": "Pretty print JavaScript",
+  "Slug": "pretty-print-js",
+  "Description": "Can I pretty print minified JavaScript code?",
+  "Category": "JavaScript",
+  "Chrome": {
+    "Notes": "1. In the **Sources** tab, open the `.js` file from the left sidebar. In the bottom tray, click the icon `{}` titled \"Pretty print\" to pretty print the JavaScript code. \n2. This will open the formatted file in a new tab suffixed \":formatted\".\n",
+    "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1656832275/Images/pretty-print-js-chrome_igiiud.png",
     "Name": "Pretty print JavaScript",
-    "Category": "JavaScript",
-    "Description": "Can I pretty print minified JavaScript code?",
-    "Firefox": {
-      "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1656832756/Images/pretty-print-js-firefox_cdhjzd.png",
-      "Platform": [
-        "MacOS",
-        "Windows",
-        "Linux"
-      ],
-      "Notes": "1. In the **Debugger** tab, open the `.js` file from the **Sources** panel in the left sidebar. From the status bar in the bottom, click the `{}` icon to pretty print the source file.\n",
-      "Name": "Pretty print JavaScript",
-      "Main": [
-        "recKTBokX7eAlLPJX"
-      ],
-      "LastModified": "2022-07-03T07:19:53.000Z",
-      "Category": [
-        "JavaScript"
-      ]
-    },
-    "Edge": {
-      "Notes": "1. In the **Sources** tab, open the `.js` file from the **Page** panel in the left sidebar. From the bottom status bar, click the `{}` icon to pretty print the source file.\n2. This action will open the formatted file in the new tab with the filename suffixed with `:formatted`.\n",
-      "Platform": [
-        "MacOS",
-        "Windows",
-        "Linux"
-      ],
-      "Main": [
-        "recKTBokX7eAlLPJX"
-      ],
-      "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1656833117/Images/pretty-print-js-edge_rc8p4h.png",
-      "Name": "Pretty print JavaScript",
-      "LastModified": "2022-07-03T07:26:13.000Z",
-      "Category": [
-        "JavaScript"
-      ]
-    },
-    "Chrome": {
-      "Notes": "1. In the **Sources** tab, open the `.js` file from the left sidebar. In the bottom tray, click the icon `{}` titled \"Pretty print\" to pretty print the JavaScript code. \n2. This will open the formatted file in a new tab suffixed \":formatted\".\n",
-      "Main": [
-        "recKTBokX7eAlLPJX"
-      ],
-      "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1656832275/Images/pretty-print-js-chrome_igiiud.png",
-      "Name": "Pretty print JavaScript",
-      "Platform": [
-        "MacOS",
-        "Windows",
-        "Linux"
-      ],
-      "LastModified": "2022-07-03T07:13:28.000Z",
-      "Category": [
-        "JavaScript"
-      ]
-    },
-    "CreatedTime": "2022-07-03T07:03:11.000Z",
-    "LastModifiedTime": "2022-07-03T07:04:08.000Z"
+    "Platform": [
+      "MacOS",
+      "Windows",
+      "Linux"
+    ]
+  },
+  "Firefox": {
+    "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1656832756/Images/pretty-print-js-firefox_cdhjzd.png",
+    "Platform": [
+      "MacOS",
+      "Windows",
+      "Linux"
+    ],
+    "Notes": "1. In the **Debugger** tab, open the `.js` file from the **Sources** panel in the left sidebar. From the status bar in the bottom, click the `{}` icon to pretty print the source file.\n",
+    "Name": "Pretty print JavaScript"
+  },
+  "Edge": {
+    "Notes": "1. In the **Sources** tab, open the `.js` file from the **Page** panel in the left sidebar. From the bottom status bar, click the `{}` icon to pretty print the source file.\n2. This action will open the formatted file in the new tab with the filename suffixed with `:formatted`.\n",
+    "Platform": [
+      "MacOS",
+      "Windows",
+      "Linux"
+    ],
+    "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1656833117/Images/pretty-print-js-edge_rc8p4h.png",
+    "Name": "Pretty print JavaScript"
+  },
+  "Safari": {
+    "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1656833402/Images/pretty-print-js-safari_qdyfjn.png",
+    "Name": "Pretty print JavaScript",
+    "Platform": [
+      "MacOS"
+    ],
+    "Notes": "1. In the **Sources** tab, open the `.js` file from the left sidebar. Click the pretty print icon `{}` from the top toolbar to toggle between pretty print and original source format. \n"
+  },
+  "Opera": {
+    "Platform": [
+      "MacOS",
+      "Windows",
+      "Linux"
+    ],
+    "Notes": "1. In the Sources tab, open the `.js` file from the left sidebar. In the bottom tray, click the icon `{}` titled \"Pretty print\" to pretty print the JavaScript code. \n2. This will open the formatted file in a new tab suffixed \":formatted\".\n",
+    "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1656834413/Images/pretty-print-js-opera_ny4tcx.png",
+    "Name": "Pretty print JavaScript"
   }
 }

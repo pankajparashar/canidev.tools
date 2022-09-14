@@ -1,91 +1,50 @@
 {
-  "id": "recRnDUi5RrfW38MM",
-  "createdTime": "2022-02-19T15:47:43.000Z",
-  "fields": {
-    "Safari": {
-      "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1657092052/Images/capture-screenshot-console-safari_jkubvl.png",
-      "Name": "Capture viewport screenshot",
-      "Platform": [
-        "MacOS"
-      ],
-      "Main": [
-        "recRnDUi5RrfW38MM"
-      ],
-      "Notes": "Use `console.screenshot()` to capture the screenshot of the viewport. \n",
-      "LastModified": "2022-07-07T13:44:30.000Z",
-      "Category": [
-        "Other"
-      ]
-    },
-    "Slug": "capture-viewport-screenshot",
-    "Opera": {
-      "Main": [
-        "recRnDUi5RrfW38MM"
-      ],
-      "Platform": [
-        "MacOS",
-        "Windows",
-        "Linux"
-      ],
-      "Notes": "1. Open devtools > Launch Command menu > Search for \"Capture screenshot\".\n2. Press Enter to capture the screenshot of the viewport.\n",
-      "Name": "Capture viewport screenshot",
-      "LastModified": "2022-06-12T13:25:17.000Z",
-      "Category": [
-        "Other"
-      ]
-    },
+  "Name": "Capture viewport screenshot",
+  "Slug": "capture-viewport-screenshot",
+  "Description": "Can I take a screenshot of the portion of the web page visible in the viewport?",
+  "Category": "Other",
+  "Chrome": {
+    "Notes": "1. Open devtools > Launch Command menu > Search for \"Capture screenshot\".\n2. Press Enter to capture the screenshot of the viewport.\n",
     "Name": "Capture viewport screenshot",
-    "Category": "Other",
-    "Description": "Can I take a screenshot of the portion of the web page visible in the viewport?",
-    "Firefox": {
-      "Platform": [
-        "MacOS",
-        "Windows",
-        "Linux"
-      ],
-      "Notes": "1. Right click on the page > Click \"Take screenshot\"\n",
-      "Name": "Capture viewport screenshot",
-      "Main": [
-        "recRnDUi5RrfW38MM"
-      ],
-      "LastModified": "2022-05-08T16:31:19.000Z",
-      "Category": [
-        "Other"
-      ]
-    },
-    "Edge": {
-      "Notes": "1. Open devtools > Open command menu > Search for \"Capture  screenshot\"\n",
-      "Platform": [
-        "MacOS",
-        "Windows",
-        "Linux"
-      ],
-      "Main": [
-        "recRnDUi5RrfW38MM"
-      ],
-      "Name": "Capture viewport screenshot",
-      "LastModified": "2022-06-04T04:42:47.000Z",
-      "Category": [
-        "Other"
-      ]
-    },
-    "Chrome": {
-      "Notes": "1. Open devtools > Launch Command menu > Search for \"Capture screenshot\".\n2. Press Enter to capture the screenshot of the viewport.\n",
-      "Main": [
-        "recRnDUi5RrfW38MM"
-      ],
-      "Name": "Capture viewport screenshot",
-      "Platform": [
-        "MacOS",
-        "Windows",
-        "Linux"
-      ],
-      "LastModified": "2022-05-08T16:31:42.000Z",
-      "Category": [
-        "Other"
-      ]
-    },
-    "CreatedTime": "2022-02-19T15:47:43.000Z",
-    "LastModifiedTime": "2022-07-07T13:43:54.000Z"
+    "Platform": [
+      "MacOS",
+      "Windows",
+      "Linux"
+    ]
+  },
+  "Firefox": {
+    "Platform": [
+      "MacOS",
+      "Windows",
+      "Linux"
+    ],
+    "Notes": "1. Right click on the page > Click \"Take screenshot\"\n",
+    "Name": "Capture viewport screenshot"
+  },
+  "Edge": {
+    "Notes": "1. Open devtools > Open command menu > Search for \"Capture  screenshot\"\n",
+    "Platform": [
+      "MacOS",
+      "Windows",
+      "Linux"
+    ],
+    "Name": "Capture viewport screenshot"
+  },
+  "Safari": {
+    "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1657092052/Images/capture-screenshot-console-safari_jkubvl.png",
+    "Name": "Capture viewport screenshot",
+    "Platform": [
+      "MacOS"
+    ],
+    "Notes": "Use `console.screenshot()` to capture the screenshot of the viewport. \n"
+  },
+  "Opera": {
+    "Platform": [
+      "MacOS",
+      "Windows",
+      "Linux"
+    ],
+    "Notes": "1. Open devtools > Launch Command menu > Search for \"Capture screenshot\".\n2. Press Enter to capture the screenshot of the viewport.\n",
+    "Name": "Capture viewport screenshot"
   }
 }

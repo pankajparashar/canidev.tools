@@ -1,35 +1,18 @@
 {
-  "id": "recx6r6DzcWH0Q3Rk",
-  "createdTime": "2022-06-26T13:35:30.000Z",
-  "fields": {
-    "Slug": "inspect-dialog-element",
+  "Name": "Inspect dialog element",
+  "Slug": "inspect-dialog-element",
+  "Description": "Can I inspect the dialog element?",
+  "Category": "Elements",
+  "Chrome": {
+    "References": "[1] Bram Stein on [Twitter](https://twitter.com/bramus/status/1540030057720455168)\n",
+    "Notes": "1. Inspect the `<dialog>` element. Scroll down to the end of the DOM tree to the `#top-layer` section, to visualise the currently active dialog elements.\n2. In the case of multiple elements, they stack on top of each other, and the last one is on top. \n",
     "Name": "Inspect dialog element",
-    "Category": "Elements",
-    "Description": "Can I inspect the dialog element?",
-    "Chrome": {
-      "References": "[1] Bram Stein on [Twitter](https://twitter.com/bramus/status/1540030057720455168)\n",
-      "Notes": "1. Inspect the `<dialog>` element. Scroll down to the end of the DOM tree to the `#top-layer` section, to visualise the currently active dialog elements.\n2. In the case of multiple elements, they stack on top of each other, and the last one is on top. \n",
-      "Main": [
-        "recx6r6DzcWH0Q3Rk"
-      ],
-      "Name": "Inspect dialog element",
-      "Version": "Canary",
-      "Video": "https://res.cloudinary.com/canidevtools/video/upload/v1656250937/Videos/inspect-dialog-element-chrome_yszhne.mp4",
-      "Platform": [
-        "MacOS",
-        "Windows",
-        "Linux"
-      ],
-      "LastModified": "2022-06-26T13:44:34.000Z",
-      "Category": [
-        "Elements"
-      ]
-    },
-    "CreatedTime": "2022-06-26T13:35:30.000Z",
-    "LastModifiedTime": "2022-07-09T09:12:01.000Z",
-    "Firefox": null,
-    "Edge": null,
-    "Safari": null,
-    "Opera": null
+    "Version": "Canary",
+    "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1656250937/Videos/inspect-dialog-element-chrome_yszhne.mp4",
+    "Platform": [
+      "MacOS",
+      "Windows",
+      "Linux"
+    ]
   }
 }

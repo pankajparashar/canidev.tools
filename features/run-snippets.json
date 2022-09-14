@@ -1,94 +1,59 @@
 {
-  "id": "recfgov11mPMUKDsv",
-  "createdTime": "2022-08-15T06:59:06.000Z",
-  "fields": {
-    "Slug": "run-snippets",
-    "Opera": {
-      "Main": [
-        "recfgov11mPMUKDsv"
-      ],
-      "GIF": "https://res.cloudinary.com/canidevtools/image/upload/v1660568831/run-snippets-opera_lfh5bl.gif",
-      "Share": "https://twitter.com/CanIDevTools/status/1559191098836234242",
-      "Video": "https://res.cloudinary.com/canidevtools/video/upload/v1660568831/run-snippets-opera_imc6za.mp4",
-      "Platform": [
-        "MacOS",
-        "Windows",
-        "Linux"
-      ],
-      "Notes": "1. **Sources** > In the left sidebar, open **Snippets** > Click \"+ New snippet\". This will open an empty file in the main view.\n2. Enter the snippet and press `Cmd+Enter` to run the code.\n3. Additionally, you can also save the snippet and run it directly from the **Command** **Menu** using `!<script>`.\n",
-      "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1660568830/run-snippets-opera_tcnovn.png",
-      "Name": "Run snippets",
-      "LastModified": "2022-08-15T16:22:30.000Z",
-      "Category": [
-        "Sources"
-      ]
-    },
+  "Name": "Run snippets",
+  "Slug": "run-snippets",
+  "Description": "Can I run snippet of code in devtools?",
+  "Category": "Sources",
+  "Newsletter": "https://canidevtools.substack.com/p/tips-tricks-13?sd=pf",
+  "Chrome": {
+    "Share": "https://twitter.com/CanIDevTools/status/1559114513370456064",
+    "References": "[1] \"Run Snippets of JavaScript\", by Chrome Devtools [docs](https://developer.chrome.com/docs/devtools/javascript/snippets/).\n",
+    "Notes": "1. **Sources** > In the left sidebar, open **Snippets** > Click \"+ New snippet\". This will open an empty file in the main view.\n2. Enter the snippet and press `Cmd+Enter` to run the code.\n3. Additionally, you can also save the snippet and run it directly from the **Command** **Menu** using `!<script>`.\n",
+    "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1660547895/run-snippets-chrome_c1js6i.png",
     "Name": "Run snippets",
-    "Category": "Sources",
-    "Description": "Can I run snippet of code in devtools?",
-    "Firefox": {
-      "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1660578611/run-snippets-firefox_l5txuk.png",
-      "Platform": [
-        "MacOS",
-        "Windows",
-        "Linux"
-      ],
-      "Share": "https://twitter.com/CanIDevTools/status/1559208618762702848",
-      "Notes": "1. Open **Console** (`Cmd+Opt+K` or `Ctrl+Shift+K`) > Switch to multi-editor mode (`Cmd+B` or `Ctrl+B`).\n2. This will open the editor next to the **Console**, where you can enter the snippet and click \"Run\" to execute.\n",
-      "GIF": "https://res.cloudinary.com/canidevtools/image/upload/v1660578613/run-snippets-firefox_sibus4.gif",
-      "Name": "Run snippets",
-      "Video": "https://res.cloudinary.com/canidevtools/video/upload/v1660578613/run-snippets-firefox_lirpn4.mp4",
-      "Main": [
-        "recfgov11mPMUKDsv"
-      ],
-      "LastModified": "2022-08-15T16:01:57.000Z",
-      "Category": [
-        "Sources"
-      ]
-    },
-    "Edge": {
-      "GIF": "https://res.cloudinary.com/canidevtools/image/upload/v1660547896/run-snippets-edge_ki37g1.gif",
-      "Notes": "1. **Sources** > In the left sidebar, open **Snippets** > Click \"+ New snippet\". This will open an empty file in the main view.\n2. Enter the snippet and press `Cmd+Enter` to run the code.\n3. Additionally, you can also save the snippet and run it directly from the **Command** **Menu** using `!<script>`.\n",
-      "Platform": [
-        "MacOS",
-        "Windows",
-        "Linux"
-      ],
-      "Main": [
-        "recfgov11mPMUKDsv"
-      ],
-      "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1660547894/run-snippets-edge_z5dlai.png",
-      "Name": "Run snippets",
-      "Video": "https://res.cloudinary.com/canidevtools/video/upload/v1660547899/run-snippets-edge_ez6fe5.mp4",
-      "LastModified": "2022-08-15T16:22:20.000Z",
-      "Category": [
-        "Sources"
-      ]
-    },
-    "Chrome": {
-      "Share": "https://twitter.com/CanIDevTools/status/1559114513370456064",
-      "References": "[1] \"Run Snippets of JavaScript\", by Chrome Devtools [docs](https://developer.chrome.com/docs/devtools/javascript/snippets/).\n",
-      "Notes": "1. **Sources** > In the left sidebar, open **Snippets** > Click \"+ New snippet\". This will open an empty file in the main view.\n2. Enter the snippet and press `Cmd+Enter` to run the code.\n3. Additionally, you can also save the snippet and run it directly from the **Command** **Menu** using `!<script>`.\n",
-      "Main": [
-        "recfgov11mPMUKDsv"
-      ],
-      "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1660547895/run-snippets-chrome_c1js6i.png",
-      "Name": "Run snippets",
-      "Video": "https://res.cloudinary.com/canidevtools/video/upload/v1660547902/run-snippets-chrome_jsjtiz.mp4",
-      "GIF": "https://res.cloudinary.com/canidevtools/image/upload/v1660547899/run-snippets-chrome_utp2ca.gif",
-      "Platform": [
-        "MacOS",
-        "Windows",
-        "Linux"
-      ],
-      "LastModified": "2022-08-15T16:22:08.000Z",
-      "Category": [
-        "Sources"
-      ]
-    },
-    "Newsletter": "https://canidevtools.substack.com/p/tips-tricks-13?sd=pf",
-    "CreatedTime": "2022-08-15T06:59:06.000Z",
-    "LastModifiedTime": "2022-08-22T04:45:45.000Z",
-    "Safari": null
+    "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1660547902/run-snippets-chrome_jsjtiz.mp4",
+    "GIF": "https://res.cloudinary.com/canidevtools/image/upload/v1660547899/run-snippets-chrome_utp2ca.gif",
+    "Platform": [
+      "MacOS",
+      "Windows",
+      "Linux"
+    ]
+  },
+  "Firefox": {
+    "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1660578611/run-snippets-firefox_l5txuk.png",
+    "Platform": [
+      "MacOS",
+      "Windows",
+      "Linux"
+    ],
+    "Share": "https://twitter.com/CanIDevTools/status/1559208618762702848",
+    "Notes": "1. Open **Console** (`Cmd+Opt+K` or `Ctrl+Shift+K`) > Switch to multi-editor mode (`Cmd+B` or `Ctrl+B`).\n2. This will open the editor next to the **Console**, where you can enter the snippet and click \"Run\" to execute.\n",
+    "GIF": "https://res.cloudinary.com/canidevtools/image/upload/v1660578613/run-snippets-firefox_sibus4.gif",
+    "Name": "Run snippets",
+    "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1660578613/run-snippets-firefox_lirpn4.mp4"
+  },
+  "Edge": {
+    "GIF": "https://res.cloudinary.com/canidevtools/image/upload/v1660547896/run-snippets-edge_ki37g1.gif",
+    "Notes": "1. **Sources** > In the left sidebar, open **Snippets** > Click \"+ New snippet\". This will open an empty file in the main view.\n2. Enter the snippet and press `Cmd+Enter` to run the code.\n3. Additionally, you can also save the snippet and run it directly from the **Command** **Menu** using `!<script>`.\n",
+    "Platform": [
+      "MacOS",
+      "Windows",
+      "Linux"
+    ],
+    "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1660547894/run-snippets-edge_z5dlai.png",
+    "Name": "Run snippets",
+    "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1660547899/run-snippets-edge_ez6fe5.mp4"
+  },
+  "Opera": {
+    "GIF": "https://res.cloudinary.com/canidevtools/image/upload/v1660568831/run-snippets-opera_lfh5bl.gif",
+    "Share": "https://twitter.com/CanIDevTools/status/1559191098836234242",
+    "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1660568831/run-snippets-opera_imc6za.mp4",
+    "Platform": [
+      "MacOS",
+      "Windows",
+      "Linux"
+    ],
+    "Notes": "1. **Sources** > In the left sidebar, open **Snippets** > Click \"+ New snippet\". This will open an empty file in the main view.\n2. Enter the snippet and press `Cmd+Enter` to run the code.\n3. Additionally, you can also save the snippet and run it directly from the **Command** **Menu** using `!<script>`.\n",
+    "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1660568830/run-snippets-opera_tcnovn.png",
+    "Name": "Run snippets"
   }
 }

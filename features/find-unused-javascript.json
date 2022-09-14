@@ -1,78 +1,43 @@
 {
-  "id": "recSUcbz5pV5Zuad4",
-  "createdTime": "2022-02-19T11:57:41.000Z",
-  "fields": {
-    "Safari": {
-      "Name": "Find unused JavaScript",
-      "Video": "https://res.cloudinary.com/canidevtools/video/upload/v1657085680/Videos/find-unused-javascript-safari_u9jd83.mp4",
-      "Platform": [
-        "MacOS"
-      ],
-      "Main": [
-        "recSUcbz5pV5Zuad4"
-      ],
-      "Notes": "1. In the **Sources** tab, open the `.js` file from the left sidebar. Click the \"C\" icon in the toolbar (top-right) to fade unexecuted code.\n",
-      "LastModified": "2022-07-06T05:44:58.000Z",
-      "Category": [
-        "JavaScript"
-      ]
-    },
-    "Slug": "find-unused-javascript",
-    "Opera": {
-      "Main": [
-        "recSUcbz5pV5Zuad4"
-      ],
-      "Platform": [
-        "MacOS",
-        "Windows",
-        "Linux"
-      ],
-      "Notes": "1. Open **Command** Menu using `Cmd+Shift+P` or `Ctrl+Shift+P`. Search for \"Show Coverage\" and press `Enter`. (this will open the **Coverage** drawer next to the Console).\n2. Click the \"Reload\" button to see the unused JavaScript bytes per file. Clicking the row, will open the file in the **Sources** panel highlighting the unused lines with red colour.\n",
-      "Name": "Find unused JavaScript",
-      "LastModified": "2022-07-01T05:07:21.000Z",
-      "Category": [
-        "JavaScript"
-      ]
-    },
+  "Name": "Find unused JavaScript",
+  "Slug": "find-unused-javascript",
+  "Description": "Can I find unused JavaScript code on the page?",
+  "Category": "JavaScript",
+  "Chrome": {
+    "References": "[1] \"Coverage: Find unused JavaScript and CSS\" - [Chrome DevTools Docs](https://developer.chrome.com/docs/devtools/coverage/)\n",
+    "Notes": "1. Open **Command** Menu using `Cmd+Shift+P` or `Ctrl+Shift+P`. Search for \"Show Coverage\" and press `Enter`. (this will open the **Coverage** drawer next to the Console).\n2. Click the \"Reload\" button to see the unused JavaScript bytes per file. Clicking the row, will open the file in the **Sources** panel highlighting the unused lines with red colour.\n",
     "Name": "Find unused JavaScript",
-    "Category": "JavaScript",
-    "Description": "Can I find unused JavaScript code on the page?",
-    "Edge": {
-      "Notes": "1. Open **Command** Menu using `Cmd+Shift+P` or `Ctrl+Shift+P`. Search for \"Show Coverage\" and press `Enter`. (this will open the **Coverage** drawer next to the Console).\n2. Click the \"Reload\" button to see the unused JavaScript bytes per file. Clicking the row, will open the file in the **Sources** panel highlighting the unused lines with red colour.\n",
-      "Platform": [
-        "MacOS",
-        "Windows",
-        "Linux"
-      ],
-      "Main": [
-        "recSUcbz5pV5Zuad4"
-      ],
-      "Name": "Find unused JavaScript",
-      "LastModified": "2022-07-01T05:06:56.000Z",
-      "Category": [
-        "JavaScript"
-      ]
-    },
-    "Chrome": {
-      "References": "[1] \"Coverage: Find unused JavaScript and CSS\" - [Chrome DevTools Docs](https://developer.chrome.com/docs/devtools/coverage/)\n",
-      "Notes": "1. Open **Command** Menu using `Cmd+Shift+P` or `Ctrl+Shift+P`. Search for \"Show Coverage\" and press `Enter`. (this will open the **Coverage** drawer next to the Console).\n2. Click the \"Reload\" button to see the unused JavaScript bytes per file. Clicking the row, will open the file in the **Sources** panel highlighting the unused lines with red colour.\n",
-      "Main": [
-        "recSUcbz5pV5Zuad4"
-      ],
-      "Name": "Find unused JavaScript",
-      "Video": "https://res.cloudinary.com/canidevtools/video/upload/v1656651888/Videos/find-unused-javascript-chrome_h5ow6g.mp4",
-      "Platform": [
-        "MacOS",
-        "Windows",
-        "Linux"
-      ],
-      "LastModified": "2022-07-01T05:07:02.000Z",
-      "Category": [
-        "JavaScript"
-      ]
-    },
-    "CreatedTime": "2022-02-19T11:57:41.000Z",
-    "LastModifiedTime": "2022-07-06T05:35:46.000Z",
-    "Firefox": null
+    "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1656651888/Videos/find-unused-javascript-chrome_h5ow6g.mp4",
+    "Platform": [
+      "MacOS",
+      "Windows",
+      "Linux"
+    ]
+  },
+  "Edge": {
+    "Notes": "1. Open **Command** Menu using `Cmd+Shift+P` or `Ctrl+Shift+P`. Search for \"Show Coverage\" and press `Enter`. (this will open the **Coverage** drawer next to the Console).\n2. Click the \"Reload\" button to see the unused JavaScript bytes per file. Clicking the row, will open the file in the **Sources** panel highlighting the unused lines with red colour.\n",
+    "Platform": [
+      "MacOS",
+      "Windows",
+      "Linux"
+    ],
+    "Name": "Find unused JavaScript"
+  },
+  "Safari": {
+    "Name": "Find unused JavaScript",
+    "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1657085680/Videos/find-unused-javascript-safari_u9jd83.mp4",
+    "Platform": [
+      "MacOS"
+    ],
+    "Notes": "1. In the **Sources** tab, open the `.js` file from the left sidebar. Click the \"C\" icon in the toolbar (top-right) to fade unexecuted code.\n"
+  },
+  "Opera": {
+    "Platform": [
+      "MacOS",
+      "Windows",
+      "Linux"
+    ],
+    "Notes": "1. Open **Command** Menu using `Cmd+Shift+P` or `Ctrl+Shift+P`. Search for \"Show Coverage\" and press `Enter`. (this will open the **Coverage** drawer next to the Console).\n2. Click the \"Reload\" button to see the unused JavaScript bytes per file. Clicking the row, will open the file in the **Sources** panel highlighting the unused lines with red colour.\n",
+    "Name": "Find unused JavaScript"
   }
 }

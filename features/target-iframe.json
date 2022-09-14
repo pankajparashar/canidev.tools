@@ -1,88 +1,47 @@
 {
-  "id": "recgJuaQxhwa6P9JK",
-  "createdTime": "2022-05-02T10:22:16.000Z",
-  "fields": {
-    "Safari": {
-      "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1657088715/Images/target-iframe-safari_qo90je.png",
-      "Name": "Target iframe",
-      "Platform": [
-        "MacOS"
-      ],
-      "Main": [
-        "recgJuaQxhwa6P9JK"
-      ],
-      "Notes": "1. In the **Console** panel, select the target iframe from the \"Execution context for $0\" dropdown (bottom-right).\n",
-      "LastModified": "2022-07-06T06:27:24.000Z",
-      "Category": [
-        "Console"
-      ]
-    },
-    "Slug": "target-iframe",
-    "Opera": {
-      "Main": [
-        "recgJuaQxhwa6P9JK"
-      ],
-      "Platform": [
-        "MacOS",
-        "Windows",
-        "Linux"
-      ],
-      "Notes": "1. Open Console using `Cmd+Shift+J `(on Mac) or `Ctrl+Shift+J` (on Windows/Linux).\n2. Next to the \"Clear console\" icon in the toolbar, click the \"top\" menu, and select the iframe to target.\n",
-      "Name": "Target iframe",
-      "LastModified": "2022-06-12T13:22:41.000Z",
-      "Category": [
-        "Console"
-      ]
-    },
+  "Name": "Target iframe",
+  "Slug": "target-iframe",
+  "Description": "Can I target iframes while debugging from the Console panel?",
+  "Category": "Console",
+  "Chrome": {
+    "Notes": "1. Open Console using `Cmd+Shift+J `(on Mac) or `Ctrl+Shift+J` (on Windows/Linux).\n2. Next to the \"Clear console\" icon in the toolbar, click the \"top\" menu, and select the iframe to target.\n",
     "Name": "Target iframe",
-    "Category": "Console",
-    "Description": "Can I target iframes while debugging from the Console panel?",
-    "Firefox": {
-      "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1656484568/Images/target-iframe-firefox_dbok2o.png",
-      "Platform": [
-        "MacOS",
-        "Windows",
-        "Linux"
-      ],
-      "Notes": "1. In the **Console** tab, click the \"iframe context picker button\" (top right) to launch a popup listing all the iframes in the document (and the main document itself). \n2. Select an entry to make it the target iframe. Note that the button is only displayed if the page includes iframes!\n",
-      "References": "[1] \"Working with iframes\" - [Firefox Source Docs](https://firefox-source-docs.mozilla.org/devtools-user/working_with_iframes/index.html)\n",
-      "Name": "Target iframe",
-      "Main": [
-        "recgJuaQxhwa6P9JK"
-      ],
-      "LastModified": "2022-06-29T06:39:19.000Z",
-      "Category": [
-        "Console"
-      ]
-    },
-    "Edge": {
-      "Notes": "1. Open Console using `Cmd+Shift+J `(on Mac) or `Ctrl+Shift+J` (on Windows/Linux).\n2. Next to the \"Clear console\" icon in the toolbar, click the \"top\" menu, and select the iframe to target.\n\n",
-      "Main": [
-        "recgJuaQxhwa6P9JK"
-      ],
-      "Name": "Target iframe",
-      "LastModified": "2022-06-04T04:46:04.000Z",
-      "Category": [
-        "Console"
-      ]
-    },
-    "Chrome": {
-      "Notes": "1. Open Console using `Cmd+Shift+J `(on Mac) or `Ctrl+Shift+J` (on Windows/Linux).\n2. Next to the \"Clear console\" icon in the toolbar, click the \"top\" menu, and select the iframe to target.\n",
-      "Main": [
-        "recgJuaQxhwa6P9JK"
-      ],
-      "Name": "Target iframe",
-      "Platform": [
-        "MacOS",
-        "Windows",
-        "Linux"
-      ],
-      "LastModified": "2022-05-02T10:28:17.000Z",
-      "Category": [
-        "Console"
-      ]
-    },
-    "CreatedTime": "2022-05-02T10:22:16.000Z",
-    "LastModifiedTime": "2022-07-06T06:24:05.000Z"
+    "Platform": [
+      "MacOS",
+      "Windows",
+      "Linux"
+    ]
+  },
+  "Firefox": {
+    "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1656484568/Images/target-iframe-firefox_dbok2o.png",
+    "Platform": [
+      "MacOS",
+      "Windows",
+      "Linux"
+    ],
+    "Notes": "1. In the **Console** tab, click the \"iframe context picker button\" (top right) to launch a popup listing all the iframes in the document (and the main document itself). \n2. Select an entry to make it the target iframe. Note that the button is only displayed if the page includes iframes!\n",
+    "References": "[1] \"Working with iframes\" - [Firefox Source Docs](https://firefox-source-docs.mozilla.org/devtools-user/working_with_iframes/index.html)\n",
+    "Name": "Target iframe"
+  },
+  "Edge": {
+    "Notes": "1. Open Console using `Cmd+Shift+J `(on Mac) or `Ctrl+Shift+J` (on Windows/Linux).\n2. Next to the \"Clear console\" icon in the toolbar, click the \"top\" menu, and select the iframe to target.\n\n",
+    "Name": "Target iframe"
+  },
+  "Safari": {
+    "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1657088715/Images/target-iframe-safari_qo90je.png",
+    "Name": "Target iframe",
+    "Platform": [
+      "MacOS"
+    ],
+    "Notes": "1. In the **Console** panel, select the target iframe from the \"Execution context for $0\" dropdown (bottom-right).\n"
+  },
+  "Opera": {
+    "Platform": [
+      "MacOS",
+      "Windows",
+      "Linux"
+    ],
+    "Notes": "1. Open Console using `Cmd+Shift+J `(on Mac) or `Ctrl+Shift+J` (on Windows/Linux).\n2. Next to the \"Clear console\" icon in the toolbar, click the \"top\" menu, and select the iframe to target.\n",
+    "Name": "Target iframe"
   }
 }

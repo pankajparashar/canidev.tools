@@ -1,48 +1,25 @@
 {
-  "id": "recHthx0DRsWCXNUm",
-  "createdTime": "2022-06-23T15:13:13.000Z",
-  "fields": {
-    "Safari": {
-      "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1657092052/Images/capture-screenshot-console-safari_jkubvl.png",
-      "Name": "Capture screenshot from console",
-      "Platform": [
-        "MacOS"
-      ],
-      "References": "[1] \"Console Object API\" - [Webkit](https://webkit.org/web-inspector/console-object-api/#console-screenshot)\n",
-      "Main": [
-        "recHthx0DRsWCXNUm"
-      ],
-      "Notes": "1. Use `console.screenshot()` to capture the screenshot of the viewport. Alternatively, pass the target node to the function to capture screenshot of a specific node.\n",
-      "LastModified": "2022-07-07T13:43:27.000Z",
-      "Category": [
-        "Console"
-      ]
-    },
-    "Slug": "capture-screenshot-console",
+  "Name": "Capture screenshot from console",
+  "Slug": "capture-screenshot-console",
+  "Description": "Can I take screenshot of a web page from the console?",
+  "Category": "Console",
+  "Firefox": {
+    "Platform": [
+      "MacOS",
+      "Windows",
+      "Linux"
+    ],
+    "Notes": "Firefox has a built-in helper function `:selector` to capture screenshot of the current page from the console. Example:\n```\n:screenshot\n:screenshot --fullpage\n:screenshot --selector .css-selector\n```\n",
+    "References": "[1] \"Web Console Helpers\" - [Firefox Source Docs](https://firefox-source-docs.mozilla.org/devtools-user/web_console/helpers/index.html)\n",
+    "Name": "Capture screenshot from Console"
+  },
+  "Safari": {
+    "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1657092052/Images/capture-screenshot-console-safari_jkubvl.png",
     "Name": "Capture screenshot from console",
-    "Category": "Console",
-    "Description": "Can I take screenshot of a web page from the console?",
-    "Firefox": {
-      "Platform": [
-        "MacOS",
-        "Windows",
-        "Linux"
-      ],
-      "Notes": "Firefox has a built-in helper function `:selector` to capture screenshot of the current page from the console. Example:\n```\n:screenshot\n:screenshot --fullpage\n:screenshot --selector .css-selector\n```\n",
-      "References": "[1] \"Web Console Helpers\" - [Firefox Source Docs](https://firefox-source-docs.mozilla.org/devtools-user/web_console/helpers/index.html)\n",
-      "Name": "Capture screenshot from Console",
-      "Main": [
-        "recHthx0DRsWCXNUm"
-      ],
-      "LastModified": "2022-06-23T15:20:00.000Z",
-      "Category": [
-        "Console"
-      ]
-    },
-    "CreatedTime": "2022-06-23T15:13:13.000Z",
-    "LastModifiedTime": "2022-07-09T09:05:18.000Z",
-    "Chrome": null,
-    "Edge": null,
-    "Opera": null
+    "Platform": [
+      "MacOS"
+    ],
+    "References": "[1] \"Console Object API\" - [Webkit](https://webkit.org/web-inspector/console-object-api/#console-screenshot)\n",
+    "Notes": "1. Use `console.screenshot()` to capture the screenshot of the viewport. Alternatively, pass the target node to the function to capture screenshot of a specific node.\n"
   }
 }

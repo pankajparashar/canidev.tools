@@ -1,104 +1,63 @@
 {
-  "id": "rec6Q6hMQt0koaFDY",
-  "createdTime": "2022-06-04T16:36:19.000Z",
-  "fields": {
-    "Safari": {
-      "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1657088006/Images/debug-event-listeners-safari_kvk8f9.png",
-      "Name": "Debug Event Listeners",
-      "Platform": [
-        "MacOS"
-      ],
-      "References": "[1] \"Event Breakpoints\" - [Webkit](https://webkit.org/web-inspector/event-breakpoints/)\n",
-      "Main": [
-        "rec6Q6hMQt0koaFDY"
-      ],
-      "Notes": "1. In the **Sources** tab, click the \"+\" button from the left sidebar in the **Breakpoints** section > Select \"Events Breakpoint\".\n2. Enter the name of the event in the popup form to apply a breakpoint for a specific event.\n3. Alternatively, you can set breakpoint on all the events by selecting \"All Events\" after clicking the \"+\" button.\n",
-      "LastModified": "2022-07-06T06:13:43.000Z",
-      "Category": [
-        "JavaScript"
-      ]
-    },
-    "Slug": "debug-event-listeners",
-    "Opera": {
-      "Main": [
-        "rec6Q6hMQt0koaFDY"
-      ],
-      "GIF": "https://res.cloudinary.com/canidevtools/image/upload/v1658474125/debug-event-listeners-chrome_a3tfr3.gif",
-      "Video": "https://res.cloudinary.com/canidevtools/video/upload/v1658474126/debug-event-listeners-chrome_sjiedd.mp4",
-      "Platform": [
-        "MacOS",
-        "Windows",
-        "Linux"
-      ],
-      "Notes": "1. In the **Sources** tab, expand the **Event** **Listeners** **Breakpoints** section to see the list of event categories.\n2. Expand a category and enable the checkbox for the event that needs to be debugged.\n",
-      "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1658474499/debug-event-listeners-chrome_gnzal9.png",
-      "Name": "Debug Event Listeners",
-      "LastModified": "2022-07-22T07:21:50.000Z",
-      "Category": [
-        "JavaScript"
-      ]
-    },
+  "Name": "Debug Event Listeners",
+  "Slug": "debug-event-listeners",
+  "Description": "Can I debug event listeners by setting a breakpoint on all or specific events?",
+  "Category": "JavaScript",
+  "Chrome": {
+    "References": "[1] \"Event listener breakpoints\", by Chrome DevTools [Docs](https://developer.chrome.com/docs/devtools/javascript/breakpoints/#event-listeners)\n",
+    "Notes": "1. In the **Sources** tab, expand the **Event Listeners Breakpoints** section to see the list of event categories.\n2. Expand a category and enable the checkbox for the event that needs to be debugged.\n",
+    "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1658474499/debug-event-listeners-chrome_gnzal9.png",
     "Name": "Debug Event Listeners",
-    "Category": "JavaScript",
-    "Description": "Can I debug event listeners by setting a breakpoint on all or specific events?",
-    "Firefox": {
-      "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1654360804/Images/debug-event-listeners-firefox_p5ttn8.png",
-      "Platform": [
-        "MacOS",
-        "Windows",
-        "Linux"
-      ],
-      "Notes": "1. Open devtools > Debugger > Find and expand the Event Listener Breakpoints section in the right hand column.\n2. To break when event listeners are hit, check the boxes next the events you are interested in. All of the standard events supported in your version of Firefox are listed, arranged by which API or API area they’re part of.\n",
-      "References": "1. \"Set event listener breakpoints\" by [Firefox](https://firefox-source-docs.mozilla.org/devtools-user/debugger/set_event_listener_breakpoints/index.html).\n2. \"Examine Event Listeners\" by [Firefox](https://firefox-source-docs.mozilla.org/devtools-user/page_inspector/how_to/examine_event_listeners/index.html#examine-event-listeners).\n3. \"Issue #5\" by [@nclm](https://github.com/pankajparashar/canidev.tools/issues/5).\n",
-      "Name": "Debug Event Listeners",
-      "Main": [
-        "rec6Q6hMQt0koaFDY"
-      ],
-      "LastModified": "2022-06-04T16:43:01.000Z",
-      "Category": [
-        "JavaScript"
-      ]
-    },
-    "Edge": {
-      "GIF": "https://res.cloudinary.com/canidevtools/image/upload/v1658474944/debug-event-listeners-edge_h8t5n0.gif",
-      "Notes": "1. In the **Sources** tab, expand the **Event** **Listeners** **Breakpoints** section to see the list of event categories.\n2. Expand a category and enable the checkbox for the event that needs to be debugged.\n",
-      "Platform": [
-        "MacOS",
-        "Windows",
-        "Linux"
-      ],
-      "Main": [
-        "rec6Q6hMQt0koaFDY"
-      ],
-      "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1658474943/debug-event-listeners-edge_vupils.png",
-      "Name": "Debug Event Listeners",
-      "Video": "https://res.cloudinary.com/canidevtools/video/upload/v1658474944/debug-event-listeners-edge_fksnq6.mp4",
-      "LastModified": "2022-07-22T07:29:20.000Z",
-      "Category": [
-        "JavaScript"
-      ]
-    },
-    "Chrome": {
-      "References": "[1] \"Event listener breakpoints\", by Chrome DevTools [Docs](https://developer.chrome.com/docs/devtools/javascript/breakpoints/#event-listeners)\n",
-      "Notes": "1. In the **Sources** tab, expand the **Event Listeners Breakpoints** section to see the list of event categories.\n2. Expand a category and enable the checkbox for the event that needs to be debugged.\n",
-      "Main": [
-        "rec6Q6hMQt0koaFDY"
-      ],
-      "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1658474499/debug-event-listeners-chrome_gnzal9.png",
-      "Name": "Debug Event Listeners",
-      "Video": "https://res.cloudinary.com/canidevtools/video/upload/v1658474126/debug-event-listeners-chrome_sjiedd.mp4",
-      "GIF": "https://res.cloudinary.com/canidevtools/image/upload/v1658474125/debug-event-listeners-chrome_a3tfr3.gif",
-      "Platform": [
-        "MacOS",
-        "Windows",
-        "Linux"
-      ],
-      "LastModified": "2022-07-22T07:21:55.000Z",
-      "Category": [
-        "JavaScript"
-      ]
-    },
-    "CreatedTime": "2022-06-04T16:36:19.000Z",
-    "LastModifiedTime": "2022-07-22T07:21:59.000Z"
+    "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1658474126/debug-event-listeners-chrome_sjiedd.mp4",
+    "GIF": "https://res.cloudinary.com/canidevtools/image/upload/v1658474125/debug-event-listeners-chrome_a3tfr3.gif",
+    "Platform": [
+      "MacOS",
+      "Windows",
+      "Linux"
+    ]
+  },
+  "Firefox": {
+    "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1654360804/Images/debug-event-listeners-firefox_p5ttn8.png",
+    "Platform": [
+      "MacOS",
+      "Windows",
+      "Linux"
+    ],
+    "Notes": "1. Open devtools > Debugger > Find and expand the Event Listener Breakpoints section in the right hand column.\n2. To break when event listeners are hit, check the boxes next the events you are interested in. All of the standard events supported in your version of Firefox are listed, arranged by which API or API area they’re part of.\n",
+    "References": "1. \"Set event listener breakpoints\" by [Firefox](https://firefox-source-docs.mozilla.org/devtools-user/debugger/set_event_listener_breakpoints/index.html).\n2. \"Examine Event Listeners\" by [Firefox](https://firefox-source-docs.mozilla.org/devtools-user/page_inspector/how_to/examine_event_listeners/index.html#examine-event-listeners).\n3. \"Issue #5\" by [@nclm](https://github.com/pankajparashar/canidev.tools/issues/5).\n",
+    "Name": "Debug Event Listeners"
+  },
+  "Edge": {
+    "GIF": "https://res.cloudinary.com/canidevtools/image/upload/v1658474944/debug-event-listeners-edge_h8t5n0.gif",
+    "Notes": "1. In the **Sources** tab, expand the **Event** **Listeners** **Breakpoints** section to see the list of event categories.\n2. Expand a category and enable the checkbox for the event that needs to be debugged.\n",
+    "Platform": [
+      "MacOS",
+      "Windows",
+      "Linux"
+    ],
+    "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1658474943/debug-event-listeners-edge_vupils.png",
+    "Name": "Debug Event Listeners",
+    "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1658474944/debug-event-listeners-edge_fksnq6.mp4"
+  },
+  "Safari": {
+    "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1657088006/Images/debug-event-listeners-safari_kvk8f9.png",
+    "Name": "Debug Event Listeners",
+    "Platform": [
+      "MacOS"
+    ],
+    "References": "[1] \"Event Breakpoints\" - [Webkit](https://webkit.org/web-inspector/event-breakpoints/)\n",
+    "Notes": "1. In the **Sources** tab, click the \"+\" button from the left sidebar in the **Breakpoints** section > Select \"Events Breakpoint\".\n2. Enter the name of the event in the popup form to apply a breakpoint for a specific event.\n3. Alternatively, you can set breakpoint on all the events by selecting \"All Events\" after clicking the \"+\" button.\n"
+  },
+  "Opera": {
+    "GIF": "https://res.cloudinary.com/canidevtools/image/upload/v1658474125/debug-event-listeners-chrome_a3tfr3.gif",
+    "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1658474126/debug-event-listeners-chrome_sjiedd.mp4",
+    "Platform": [
+      "MacOS",
+      "Windows",
+      "Linux"
+    ],
+    "Notes": "1. In the **Sources** tab, expand the **Event** **Listeners** **Breakpoints** section to see the list of event categories.\n2. Expand a category and enable the checkbox for the event that needs to be debugged.\n",
+    "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1658474499/debug-event-listeners-chrome_gnzal9.png",
+    "Name": "Debug Event Listeners"
   }
 }

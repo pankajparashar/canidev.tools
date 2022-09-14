@@ -36,7 +36,7 @@ export function loader({ params }) {
   const record = JSON.parse(file);
 
   const newObj = Object.fromEntries(
-    Object.entries(record.fields).map(([k, v]) => [k.toLowerCase(), v])
+    Object.entries(record).map(([k, v]) => [k.toLowerCase(), v])
   );
 
   return json(newObj);
