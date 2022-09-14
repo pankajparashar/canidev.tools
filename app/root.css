@@ -110,6 +110,7 @@ blockquote {
 }
 
 .carbon-poweredby {
+  display: none;
   font-size: 10px;
   text-transform: uppercase;
   font-weight: bold;

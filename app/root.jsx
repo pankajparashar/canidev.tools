@@ -89,8 +89,7 @@ export function CarbonAds() {
 
   return (
     <Alert
-      icon={<IconAd2 size={20} />}
-      title="Sponsored by"
+      title="Ads via Carbon"
       color="blue"
       radius="xs"
       withCloseButton
