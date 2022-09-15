@@ -16,6 +16,7 @@ import * as React from 'react';
 import * as fs from 'fs';
 import path from 'path';
 import { json } from '@remix-run/node';
+import { StylesPlaceholder } from '@mantine/remix';
 
 import { useMediaQuery } from '@mantine/hooks';
 import {
@@ -41,7 +42,7 @@ import {
   IconCrosshair,
   IconAd2,
 } from '@tabler/icons';
-import { Badge, Box, NavLink, MantineProvider, Collapse } from '@mantine/core';
+import { Badge, Box, NavLink, MantineProvider, Collapse, createEmotionCache } from '@mantine/core';
 import { Grid, Button, Divider, Alert, Text } from '@mantine/core';
 import { Group } from '@mantine/core';
 
@@ -99,6 +100,8 @@ export function CarbonAds() {
   );
 }
 
+createEmotionCache({ key: 'mantine' });
+
 export default function App() {
   const [params, setParams] = useSearchParams();
   const categories = useLoaderData();
@@ -130,6 +133,7 @@ export default function App() {
   return (
     <html lang="en">
       <head>
+        <StylesPlaceholder />
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width" />
         <Meta />
@@ -137,6 +141,7 @@ export default function App() {
       </head>
       <body>
         <MantineProvider
+          withGlobalStyles
           withNormalizeCSS
           theme={{
             fontFamily: '"Operator Mono", "InputMono", sans-serif',

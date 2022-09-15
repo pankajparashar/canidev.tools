@@ -125,6 +125,12 @@ export default function Feature() {
         >
           <Box p="xs">
             <Alert
+            styles={theme => ({
+              title: {
+                marginBottom: 0
+              }
+            })} 
+
               icon={icons[feature.Category]}
               title={feature.Name}
               color={colors[feature.Category]}
@@ -193,15 +199,24 @@ export default function Feature() {
           <Divider />
           <SimpleGrid cols={2} spacing="xs" p="xs">
             <Alert
-              
+              styles={theme => ({
+                title: {
+                  marginBottom: 0
+                }
+              })} 
               title="Last Modified"
               color="gray.9"
               radius="xs"
               p="xs"
             >
-              {new Date(feature.LastModifiedTime).toLocaleString()}
+              {new Date(feature.LastModifiedTime).toISOString().slice(0,10)}
             </Alert>
             <Alert
+              styles={theme => ({
+              title: {
+                marginBottom: 0
+              }
+            })} 
               title="Author"
               color="gray.9"
               radius="xs"
@@ -210,14 +225,24 @@ export default function Feature() {
               Pankaj Parashar
             </Alert>
             <Alert
+            styles={theme => ({
+              title: {
+                marginBottom: 0
+              }
+            })} 
               title="Created At"
               color="gray.9"
               radius="xs"
               p="xs"
             >
-              {new Date(feature.CreatedTime).toLocaleString()}
+              {new Date(feature.CreatedTime).toISOString().slice(0,10)}
             </Alert>
             <Alert
+            styles={theme => ({
+              title: {
+                marginBottom: 0
+              }
+            })} 
               title="Newsletter"
               color="gray.9"
               radius="xs"

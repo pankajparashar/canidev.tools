@@ -42,10 +42,6 @@ blockquote {
   grid-column: 2/4;
 }
 
-.mantine-Alert-title {
-  margin-bottom: 0;
-}
-
 @media screen and (max-width: 700px) {
   .colspan {
     grid-column: auto;
