@@ -141,8 +141,6 @@ export default function App() {
       </head>
       <body>
         <MantineProvider
-          withGlobalStyles
-          withNormalizeCSS
           theme={{
             fontFamily: '"Operator Mono", "InputMono", sans-serif',
             primaryColor: 'gray',
