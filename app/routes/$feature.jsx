@@ -140,7 +140,8 @@ export default function Feature() {
             })}
           >
             <Button
-              variant="default"
+              variant="outline"
+              color={colors[feature.Category]}
               size="xs"
               disabled={!feature.Chrome}
               component={Link}
@@ -149,7 +150,8 @@ export default function Feature() {
               <IconBrandChrome size={20} />
             </Button>
             <Button
-              variant="default"
+              variant="outline"
+              color={colors[feature.Category]}
               size="xs"
               disabled={!feature.Firefox}
               component={Link}
@@ -158,7 +160,8 @@ export default function Feature() {
               <IconBrandFirefox size={20} />
             </Button>
             <Button
-              variant="default"
+              variant="outline"
+              color={colors[feature.Category]}
               size="xs"
               disabled={!feature.Edge}
               component={Link}
@@ -167,7 +170,8 @@ export default function Feature() {
               <IconBrandEdge size={20} />
             </Button>
             <Button
-              variant="default"
+              variant="outline"
+              color={colors[feature.Category]}
               size="xs"
               disabled={!feature.Safari}
               component={Link}
@@ -176,7 +180,8 @@ export default function Feature() {
               <IconBrandSafari size={20} />
             </Button>
             <Button
-              variant="default"
+              variant="outline"
+              color={colors[feature.Category]}
               size="xs"
               disabled={!feature.Opera}
               component={Link}
