@@ -80,6 +80,7 @@ export function CarbonAds() {
   const adRef = React.useRef();
 
   React.useEffect(() => {
+    adRef.current.innerHTML = ""
     const script = document.createElement('script');
     script.src =
       '//cdn.carbonads.com/carbon.js?serve=CEAIVKJJ&placement=wwwcanidevtools';
