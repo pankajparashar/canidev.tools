@@ -79,17 +79,19 @@ export default function Browser() {
           {browser.toLocaleUpperCase()}
         </Button>
         <Group spacing="xs">
-          <IconBrandWindows stroke="1.5" size="20" />
+          <ThemeIcon color={feature[browser].Platform.includes("Windows") ? "" : "gray.2"} variant="subtle"><IconBrandWindows stroke="1.5" size="20" /></ThemeIcon>
           <Divider orientation="vertical" />
           <IconBrandApple stroke="1.5" size="20" />
           <Divider orientation="vertical" />
-          <IconBrandUbuntu stroke="1.5" size="20" />
+          <ThemeIcon color={feature[browser].Platform.includes("Linux") ? "" : "gray.2"} variant="subtle"><IconBrandUbuntu stroke="1.5" size="20" /></ThemeIcon>
         </Group>
         <Button
           size="xs"
           radius="xs"
           variant="default"
           leftIcon={<IconShare size="18" />}
+          component={"a"}
+          href={feature[browser].Share}
         >
           Share
         </Button>
