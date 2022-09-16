@@ -4,7 +4,7 @@
   "Description": "Can I debug XHR or fetch calls by setting a breakpoint for a specific or all requests??",
   "Category": "JavaScript",
   "LastModifiedTime": "2022-07-06T06:12:10.000Z",
-  "CreatedTime": "2022-02-19T11:55:15.000Z",
+  "Author": "@pankajparashar",
   "Chrome": {
     "References": "1. \"Pause your code with breakpoints\" by [Chrome Developers](https://developer.chrome.com/docs/devtools/javascript/breakpoints/#xhr).\n",
     "Notes": "1. Click the **Sources** tab.\n2. Expand the **XHR Breakpoints** pane.\n3. Click **Add breakpoint**.\n4. Enter the string which you want to break on. DevTools pauses when this string is present anywhere in an XHR's request URL.\n5. Press Enter to confirm.\n",

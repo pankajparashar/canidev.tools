@@ -7,6 +7,10 @@ a {
   text-decoration: none;
 }
 
+li a:hover {
+  text-decoration: underline
+}
+
 video {
   width: 100%;
 }

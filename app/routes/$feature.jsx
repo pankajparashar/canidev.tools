@@ -1,5 +1,6 @@
 import * as fs from 'fs';
 import path from 'path';
+import { formatDistanceToNow } from 'date-fns'
 
 import { Outlet } from '@remix-run/react';
 import { Link, useLoaderData, useParams } from '@remix-run/react';
@@ -227,7 +228,7 @@ export default function Feature() {
               radius="xs"
               p="xs"
             >
-              {new Date(feature.LastModifiedTime).toISOString().slice(0,10)}
+              {formatDistanceToNow(new Date(feature.LastModifiedTime), { addSuffix: true })}
             </Alert>
             <Alert
               styles={theme => ({
@@ -240,20 +241,9 @@ export default function Feature() {
               radius="xs"
               p="xs"
             >
-              Pankaj Parashar
-            </Alert>
-            <Alert
-            styles={theme => ({
-              title: {
-                marginBottom: 0
-              }
-            })} 
-              title="Created At"
-              color="gray.9"
-              radius="xs"
-              p="xs"
-            >
-              {new Date(feature.CreatedTime).toISOString().slice(0,10)}
+              <Anchor variant="link" href={`https://twitter.com/${feature.Author}`}>
+                {feature.Author}
+              </Anchor>
             </Alert>
             <Alert
             styles={theme => ({

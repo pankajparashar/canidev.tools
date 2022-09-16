@@ -4,7 +4,7 @@
   "Description": "Can I record and replay all the user actions performed on the website?",
   "Category": "Audit",
   "LastModifiedTime": "2022-07-25T13:05:32.000Z",
-  "CreatedTime": "2022-07-25T13:00:47.000Z",
+  "Author": "@pankajparashar",
   "Chrome": {
     "References": "1. \"Recorder\", by Chrome DevTools [Docs](https://developer.chrome.com/docs/devtools/recorder/)\n",
     "Notes": "1. Open **Command Menu** (`Ctrl+Shift+P` or `Cmd+Shift+P`) > Run > Show Recorder (Panel).\n2. Click \"Start new recording\" > Enter name > Click \"Start a new recording\" > Perform actions on the page > Click \"End recording\".\n3. Click the \"Replay\" button to replay the recorded user journey.\n",

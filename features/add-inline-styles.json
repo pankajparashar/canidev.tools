@@ -4,7 +4,7 @@
   "Description": "Can I add inline styles to node in the DOM tree?",
   "Category": "CSS",
   "LastModifiedTime": "2022-07-09T09:01:26.000Z",
-  "CreatedTime": "2022-02-02T06:49:07.000Z",
+  "Author": "@pankajparashar",
   "Chrome": {
     "Notes": "1. Right click on the element and select \"Inspect\" (This will open the Elements panel in the devtools with selected element highlighted in the DOM tree). \n2. Click \"element.style\" near the top of the Styles tab. Enter the declaration you want in the \"property: value\" format.\n\n",
     "Name": "Add a CSS declaration to an element",

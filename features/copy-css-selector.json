@@ -4,7 +4,7 @@
   "Description": "Can I copy a node's path as a CSS selector?",
   "Category": "Elements",
   "LastModifiedTime": "2022-07-24T09:39:57.000Z",
-  "CreatedTime": "2022-07-24T09:10:15.000Z",
+  "Author": "@pankajparashar",
   "Chrome": {
     "References": "\n",
     "Notes": "In the **Elements** tab, right click on the element in the DOM tree > Copy > Copy selector.\n",

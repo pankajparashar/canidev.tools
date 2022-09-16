@@ -4,7 +4,7 @@
   "Description": "Can I take full page screenshot of a website?",
   "Category": "Other",
   "LastModifiedTime": "2022-07-09T08:07:29.000Z",
-  "CreatedTime": "2022-02-19T11:15:50.000Z",
+  "Author": "@pankajparashar",
   "Chrome": {
     "Notes": "1. Open devtools > Launch the command menu\n2. Search for \"Capture full size screenshot\" and press Enter\n",
     "Name": "Capture full page screenshot",

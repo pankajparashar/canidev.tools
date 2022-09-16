@@ -1,0 +1,41 @@
+{
+  "Name": "Override geolocation",
+  "Slug": "override-geolocation",
+  "Description": "Can I override location to match a different geographic location?",
+  "Category": "Network",
+  "LastModifiedTime": "2022-09-16T13:18:18.000Z",
+  "Author": "@pankajparashar",
+  "Chrome": {
+    "References": "1. \"Override geolocation\", by Chrome DevTools [Docs](https://developer.chrome.com/docs/devtools/device-mode/geolocation/).\n2. \"Simulate geolocation\", by [DevTools Tips](https://devtoolstips.org/tips/en/simulate-geolocation/).\n",
+    "Notes": "1. Open **Command Menu** > Run \"Show Sensors\". This will open the **Sensors** drawer.\n2. Select a location from the **Location** dropdown or choose **Other** to manually enter the Latitude/Longitude. \n3. Use the **Manage** button to add a new custom location.\n",
+    "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1663333826/override-geolocation-chrome_q0gfyp.png",
+    "Name": "Override geolocation",
+    "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1663333554/override-geolocation-chrome_ieverl.mp4",
+    "GIF": "https://res.cloudinary.com/canidevtools/image/upload/v1663333552/override-geolocation-chrome_m0ztyh.gif",
+    "Platform": [
+      "MacOS",
+      "Windows",
+      "Linux"
+    ]
+  },
+  "Edge": {
+    "Notes": "1. Open **Command** **Menu** > Run \"Show Sensors\". This will open the **Sensors** drawer.\n2. Select a location from the **Location** dropdown or choose **Other** to manually enter the Latitude/Longitude. \n3. Use the **Manage** button to add a new custom location.\n",
+    "Platform": [
+      "MacOS",
+      "Windows",
+      "Linux"
+    ],
+    "Name": "Override geolocation",
+    "References": "1. \"Simulate geolocation\", by [DevTools Tips](https://devtoolstips.org/tips/en/simulate-geolocation/).\n\n"
+  },
+  "Opera": {
+    "Platform": [
+      "MacOS",
+      "Windows",
+      "Linux"
+    ],
+    "Notes": "1. Open **Command** **Menu** > Run \"Show Sensors\". This will open the **Sensors** drawer.\n2. Select a location from the **Location** dropdown or choose **Other** to manually enter the Latitude/Longitude. \n3. Use the **Manage** button to add a new custom location.\n",
+    "Name": "Override geolocation",
+    "References": "1. \"Simulate geolocation\", by [DevTools Tips](https://devtoolstips.org/tips/en/simulate-geolocation/).\n\n"
+  }
+}

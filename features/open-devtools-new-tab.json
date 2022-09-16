@@ -4,7 +4,7 @@
   "Description": "Can I open developer tools by default with every new tab?",
   "Category": "Other",
   "LastModifiedTime": "2022-07-09T08:08:39.000Z",
-  "CreatedTime": "2022-06-22T11:15:52.000Z",
+  "Author": "@pankajparashar",
   "Chrome": {
     "References": "[1] \"Automatically open Devtools with new tab\" - [Addy Osmani](https://addyosmani.com/blog/automatically-open-chrome-devtools-in-each-new-tab/)\n",
     "Notes": "1. **MacOS**: In the terminal, pass the `--auto-open-devtools-for-tabs` flag to while launching Chrome<sup>[1]</sup>\n```\n/Applications/Google\\ Chrome.app/Contents/MacOS/Google\\ Chrome --auto-open-devtools-for-tabs https://web.dev\n```\n1. **Windows**: Right-click the Chrome shortcut > Properties and add the flag at the end of the Target line. Alternatively, run the following from your command-line,\n```\n\"C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe\" -auto-open-devtools-for-tabs\n```\n",

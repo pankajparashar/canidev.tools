@@ -4,7 +4,7 @@
   "Description": "Can I inspect the developer tool itself?",
   "Category": "Other",
   "LastModifiedTime": "2022-07-11T13:39:26.000Z",
-  "CreatedTime": "2022-07-11T13:38:56.000Z",
+  "Author": "@pankajparashar",
   "Chrome": {
     "Notes": "1. With the devtools already open, press `Cmd+Shift+I `or `Ctrl+Shift+I` to  inspect the devtools panel itself using new instance of devtools.\n2. Important to note, you can keep using this shortcut to inspecting new instance of devtools recursively.\n",
     "Name": "Inspect the devtools",

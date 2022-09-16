@@ -4,7 +4,7 @@
   "Description": "Can I detect memory leaks in my web app using devtools?",
   "Category": "JavaScript",
   "LastModifiedTime": "2022-07-08T03:05:54.000Z",
-  "CreatedTime": "2022-05-09T15:37:38.000Z",
+  "Author": "@pankajparashar",
   "Chrome": {
     "Share": "https://twitter.com/mgechev/status/1519534448227803138",
     "References": "1. Minko Gechev (@mgechev) on [Twitter](https://twitter.com/mgechev/status/1519534448227803138).\n",

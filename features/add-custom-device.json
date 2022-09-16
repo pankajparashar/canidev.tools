@@ -5,7 +5,7 @@
   "Category": "Other",
   "Newsletter": "https://canidevtools.substack.com/p/tips-tricks-11?sd=pf",
   "LastModifiedTime": "2022-08-07T07:50:19.000Z",
-  "CreatedTime": "2022-08-07T06:39:03.000Z",
+  "Author": "@pankajparashar",
   "Chrome": {
     "Share": "https://twitter.com/CanIDevTools/status/1556184233353179137",
     "Notes": "1. Open **Settings** (`F1` or `Shift+?`) > Devices > Click \"Add custom device...\". \n2. Enter the \"Device Name\" and other details associated with the device. Click the \"Add\" button.\n",

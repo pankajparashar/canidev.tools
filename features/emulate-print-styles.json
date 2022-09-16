@@ -4,7 +4,7 @@
   "Description": "Can I emulate print media query?",
   "Category": "CSS",
   "LastModifiedTime": "2022-07-09T09:02:23.000Z",
-  "CreatedTime": "2022-02-08T13:51:27.000Z",
+  "Author": "@pankajparashar",
   "Chrome": {
     "Notes": "1. Launch devtools > Open \"Command Menu\" using `Cmd+Shift+P` (Mac) or `Ctrl+Shift+P` (Windows, Linux, Chrome OS).\n2. Search for \"Show Rendering\" and press Enter (this will open the Rendering panel next to the Console).\n3. Scroll down to the section \"Emulate CSS Media Type\" and select \"print\".\n",
     "Name": "Emulate print styles",

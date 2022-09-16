@@ -4,7 +4,7 @@
   "Description": "Can I take screenshot of a web page from the console?",
   "Category": "Console",
   "LastModifiedTime": "2022-07-09T09:05:18.000Z",
-  "CreatedTime": "2022-06-23T15:13:13.000Z",
+  "Author": "@pankajparashar",
   "Firefox": {
     "Platform": [
       "MacOS",

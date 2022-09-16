@@ -4,7 +4,7 @@
   "Description": "Can I jump to the target element with an id?",
   "Category": "Elements",
   "LastModifiedTime": "2022-07-02T13:59:40.000Z",
-  "CreatedTime": "2022-07-02T13:58:26.000Z",
+  "Author": "@pankajparashar",
   "Firefox": {
     "Platform": [
       "MacOS",

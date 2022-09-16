@@ -4,7 +4,7 @@
   "Description": "Can I simulate vision deficiencies like blurred visions, color blindness etc?",
   "Category": "Accessibility",
   "LastModifiedTime": "2022-07-09T09:11:02.000Z",
-  "CreatedTime": "2022-04-09T16:32:08.000Z",
+  "Author": "@pankajparashar",
   "Chrome": {
     "Share": "https://twitter.com/CanIDevTools/status/1521512622541385729",
     "References": "1. Tips & Tricks #3 of the [Newsletter](https://www.getrevue.co/profile/CanIDevTools/issues/tips-tricks-3-1160422)\n",

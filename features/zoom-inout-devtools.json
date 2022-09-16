@@ -4,7 +4,7 @@
   "Description": "Can I zoom in and out of the devtools panel?",
   "Category": "Accessibility",
   "LastModifiedTime": "2022-07-18T13:29:08.000Z",
-  "CreatedTime": "2022-07-17T15:03:45.000Z",
+  "Author": "@pankajparashar",
   "Chrome": {
     "Share": "https://twitter.com/CanIDevTools/status/1549021295308079105",
     "References": "[1] \"Keyboard shortcuts\", by Chrome Devtools [Docs](https://developer.chrome.com/docs/devtools/shortcuts/#global)\n",

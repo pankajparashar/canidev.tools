@@ -4,7 +4,7 @@
   "Description": "Can I refer the currently selected node in the DOM tree from the console?",
   "Category": "Console",
   "LastModifiedTime": "2022-07-31T05:17:52.000Z",
-  "CreatedTime": "2022-02-19T11:53:16.000Z",
+  "Author": "@pankajparashar",
   "Chrome": {
     "Share": "https://twitter.com/CanIDevTools/status/1553610736454184960",
     "References": "Console Utilities - Chrome DevTools [Docs](https://developer.chrome.com/docs/devtools/console/utilities/#recent-many)\n",

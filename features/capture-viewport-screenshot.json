@@ -4,7 +4,7 @@
   "Description": "Can I take a screenshot of the portion of the web page visible in the viewport?",
   "Category": "Other",
   "LastModifiedTime": "2022-07-07T13:43:54.000Z",
-  "CreatedTime": "2022-02-19T15:47:43.000Z",
+  "Author": "@pankajparashar",
   "Chrome": {
     "Notes": "1. Open devtools > Launch Command menu > Search for \"Capture screenshot\".\n2. Press Enter to capture the screenshot of the viewport.\n",
     "Name": "Capture viewport screenshot",
