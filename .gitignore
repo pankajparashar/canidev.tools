@@ -1,6 +1,7 @@
 .env
 node_modules
 .gitpod.yml
+**/.DS_Store
 
 # Remix
 /.cache

@@ -46,6 +46,22 @@ import {
   IconAt,
 } from '@tabler/icons';
 
+export const meta = ({ data }) => {
+  const title = `${data.Name} | Can I DevTools?`
+  const description = data.Description
+  const url = `https://canidev.tools/${data.Slug}/`
+  const image = `https://canidev.tools/images/${data.Slug}.png`
+  
+  return { 
+    title,
+    description,
+    "og:url": url,
+    "og:title": title,
+    "og:description": description,
+    "og:image": image    
+  };
+};
+
 export function loader({ params }) {
   const filename = path.join('features', params.feature + '.json');
   const file = fs.readFileSync(filename);

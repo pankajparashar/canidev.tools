@@ -47,7 +47,22 @@ import { Grid, Button, Divider, Alert, Text } from '@mantine/core';
 import { Group } from '@mantine/core';
 
 export const meta = () => {
-  return { title: 'Can I DevTools?' };
+  const title = 'Can I DevTools?'
+  const description = "It is like @CanIUse, but for the browser devtools, created and curated by Pankaj Parashar"
+  
+  return { 
+    title,
+    description,
+    
+    "twitter:card": "summary_large_image",
+    "twitter:site": "@CanIDevTools",
+    "twitter:creator": "@pankajparashar",
+    
+    "og:url": "https://canidev.tools",
+    "og:title": title,
+    "og:description": description,
+    "og:image": "https://res.cloudinary.com/canidevtools/image/upload/v1657885902/og-image_ujdcm3.png" 
+ };
 };
 
 export function links() {
