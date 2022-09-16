@@ -75,6 +75,8 @@ export default function Browser() {
           radius="xs"
           leftIcon={icons[browser]}
           variant="default"
+          component="a"
+          href={`/${feature.slug}/${browser}`}
         >
           {browser.toLocaleUpperCase()}
         </Button>
