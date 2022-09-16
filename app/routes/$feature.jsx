@@ -108,6 +108,8 @@ export default function Feature() {
               variant="default"
               radius="xs"
               leftIcon={<IconBrandGithub size={16} />}
+              component="a"
+              href={`https://github.com/pankajparashar/canidev.tools/edit/main/features/${feature.Slug}.json`}
             >
               Edit
             </Button>
