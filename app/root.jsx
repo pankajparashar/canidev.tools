@@ -104,10 +104,16 @@ export function CarbonAds() {
 createEmotionCache({ key: 'mantine' });
 
 export default function App() {
-  const [params, setParams] = useSearchParams();
   const categories = useLoaderData();
-  const isMobile = useMediaQuery('(max-width: 700px)');
-  const [open, setOpen] = React.useState(true);
+  const isWide = useMediaQuery('(min-width: 700px)');
+
+  const [params, setParams] = useSearchParams();
+  const [open, setOpen] = React.useState(isWide);
+  
+  React.useEffect(() => {
+    setOpen(isWide)
+  }, [isWide])
+  
   const icons = {
     CSS: <IconBoxMargin size={20} stroke={1.5} />,
     Accessibility: <IconAccessible size={20} stroke={1.5} />,
