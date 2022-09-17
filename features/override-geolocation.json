@@ -26,9 +26,13 @@
       "Linux"
     ],
     "Name": "Override geolocation",
-    "References": "1. \"Simulate geolocation\", by [DevTools Tips](https://devtoolstips.org/tips/en/simulate-geolocation/).\n\n"
+    "References": "1. \"Simulate geolocation\", by [DevTools Tips](https://devtoolstips.org/tips/en/simulate-geolocation/).\n\n",
+    "GIF": "https://res.cloudinary.com/canidevtools/image/upload/v1663405445/override-geolocation-edge_k6vjsv.gif",
+    "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1663405444/override-geolocation-edge_jwuoee.mp4",
+    "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1663405442/override-geolocation-edge_uiqoqw.png"
   },
   "Opera": {
+    "References": "1. \"Simulate geolocation\", by [DevTools Tips](https://devtoolstips.org/tips/en/simulate-geolocation/).\n\n",
     "Platform": [
       "MacOS",
       "Windows",
@@ -36,6 +40,8 @@
     ],
     "Notes": "1. Open **Command** **Menu** > Run \"Show Sensors\". This will open the **Sensors** drawer.\n2. Select a location from the **Location** dropdown or choose **Other** to manually enter the Latitude/Longitude. \n3. Use the **Manage** button to add a new custom location.\n",
     "Name": "Override geolocation",
-    "References": "1. \"Simulate geolocation\", by [DevTools Tips](https://devtoolstips.org/tips/en/simulate-geolocation/).\n\n"
+    "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1663405952/override-geolocation-opera_elpqnk.mp4",
+    "GIF": "https://res.cloudinary.com/canidevtools/image/upload/v1663405957/override-geolocation-opera_nh2k7f.gif",
+    "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1663405948/override-geolocation-opera_crshgf.png"
   }
 }
