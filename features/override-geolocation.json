@@ -1,9 +1,9 @@
 {
   "Name": "Override geolocation",
   "Slug": "override-geolocation",
-  "Description": "Can I override location to match a different geographic location?",
+  "Description": "Can I override location to match a different geographic region?",
   "Category": "Network",
-  "LastModifiedTime": "2022-09-16T13:18:18.000Z",
+  "LastModifiedTime": "2022-09-17T10:29:05.000Z",
   "Author": "@pankajparashar",
   "Chrome": {
     "References": "1. \"Override geolocation\", by Chrome DevTools [Docs](https://developer.chrome.com/docs/devtools/device-mode/geolocation/).\n2. \"Simulate geolocation\", by [DevTools Tips](https://devtoolstips.org/tips/en/simulate-geolocation/).\n",
