@@ -120,7 +120,7 @@ createEmotionCache({ key: 'cid' });
 
 export default function App() {
   const categories = useLoaderData();
-  const isWide = useMediaQuery('(min-width: 700px)');
+  const isWide = useMediaQuery('(min-width: 700px)', true, { getInitialValueInEffect: false });
 
   const [params, setParams] = useSearchParams();
   const [open, setOpen] = React.useState(isWide);
