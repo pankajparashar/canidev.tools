@@ -3,8 +3,8 @@
   "Slug": "toggle-theme",
   "Description": "Can I switch to light or dark theme in devtools?",
   "Category": "Other",
-  "Newsletter": "https://canidevtools.substack.com/p/tips-tricks-8",
-  "LastModifiedTime": "2022-07-31T12:07:46.000Z",
+  "Newsletter": "tips-tricks-8",
+  "LastModifiedTime": "2022-09-17T13:36:52.000Z",
   "Author": "@pankajparashar",
   "Chrome": {
     "Share": "https://twitter.com/CanIDevTools/status/1553710371579449345",

@@ -3,8 +3,8 @@
   "Slug": "inspect-css-animation",
   "Description": "Can I inspect CSS animations & keyframes using the devtools?",
   "Category": "CSS",
-  "Newsletter": "https://canidevtools.substack.com/p/tips-tricks-12?sd=pf",
-  "LastModifiedTime": "2022-08-13T10:02:17.000Z",
+  "Newsletter": "tips-tricks-12",
+  "LastModifiedTime": "2022-09-17T13:36:30.000Z",
   "Author": "@pankajparashar",
   "Chrome": {
     "Share": "https://twitter.com/CanIDevTools/status/1558358446914748416",

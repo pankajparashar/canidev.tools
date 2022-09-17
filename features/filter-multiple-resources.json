@@ -3,7 +3,8 @@
   "Slug": "filter-multiple-resources",
   "Description": "Can I filter multiple resource types in the Network tab?",
   "Category": "Network",
-  "LastModifiedTime": "2022-07-09T09:07:56.000Z",
+  "Newsletter": "tips-tricks-1",
+  "LastModifiedTime": "2022-09-17T13:40:42.000Z",
   "Author": "@pankajparashar",
   "Chrome": {
     "Share": "https://twitter.com/CanIDevTools/status/1510248523178348546",

@@ -3,8 +3,8 @@
   "Slug": "run-snippets",
   "Description": "Can I run snippet of code in devtools?",
   "Category": "Sources",
-  "Newsletter": "https://canidevtools.substack.com/p/tips-tricks-13?sd=pf",
-  "LastModifiedTime": "2022-08-22T04:45:45.000Z",
+  "Newsletter": "tips-tricks-13",
+  "LastModifiedTime": "2022-09-17T13:35:42.000Z",
   "Author": "@pankajparashar",
   "Chrome": {
     "Share": "https://twitter.com/CanIDevTools/status/1559114513370456064",

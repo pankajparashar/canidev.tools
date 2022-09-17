@@ -116,7 +116,7 @@ export function CarbonAds() {
   );
 }
 
-createEmotionCache({ key: 'mantine' });
+createEmotionCache({ key: 'cid' });
 
 export default function App() {
   const categories = useLoaderData();

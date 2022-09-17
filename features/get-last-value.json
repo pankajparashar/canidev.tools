@@ -3,8 +3,8 @@
   "Slug": "get-last-value",
   "Description": "Can I get the last return value in the console?",
   "Category": "Console",
-  "Newsletter": "https://canidevtools.substack.com/p/tips-tricks-7",
-  "LastModifiedTime": "2022-07-31T05:28:46.000Z",
+  "Newsletter": "tips-tricks-7",
+  "LastModifiedTime": "2022-09-17T13:37:30.000Z",
   "Author": "@pankajparashar",
   "Chrome": {
     "Share": "https://twitter.com/CanIDevTools/status/1553378242366545920",

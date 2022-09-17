@@ -241,7 +241,7 @@ export default function Feature() {
               radius="xs"
               p="xs"
             >
-              <Anchor variant="link" href={`https://twitter.com/${feature.Author}`}>
+              <Anchor variant="link" color={"indigo.9"} href={`https://twitter.com/${feature.Author}`}>
                 {feature.Author}
               </Anchor>
             </Alert>
@@ -256,7 +256,9 @@ export default function Feature() {
               radius="xs"
               p="xs"
             >
-              Tips & Tricks #1
+              {feature.Newsletter ? <Anchor variant="link" color={"indigo.9"} href={`https://canidevtools.substack.com/p/${feature.Newsletter}`}>
+                  {feature.Newsletter}
+                </Anchor> : "-"}
             </Alert>
           </SimpleGrid>
           <Divider />

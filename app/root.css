@@ -3,7 +3,7 @@ body {
   overflow: visible;
 }
 
-a {
+a:link {
   text-decoration: none;
 }
 

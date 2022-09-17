@@ -3,7 +3,8 @@
   "Slug": "style-console-logs",
   "Description": "Can I apply style to the log statements in the console?",
   "Category": "Console",
-  "LastModifiedTime": "2022-07-09T09:24:00.000Z",
+  "Newsletter": "tips-tricks-2",
+  "LastModifiedTime": "2022-09-17T13:40:35.000Z",
   "Author": "@pankajparashar",
   "Chrome": {
     "Share": "https://twitter.com/CanIDevTools/status/1520784163900899334",
