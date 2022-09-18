@@ -113,7 +113,7 @@ export default function Browser() {
         </Tabs.Panel>
         <Tabs.Panel value="mp4">
           <video controls preload="metadata">
-            <source src={feature[browser].MP4} type="video/mp4" />
+            <source src={feature[browser].MP4 + "#t=0.1"} type="video/mp4" />
           </video>
         </Tabs.Panel>
       </Tabs>
