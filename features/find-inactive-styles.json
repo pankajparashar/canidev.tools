@@ -3,9 +3,11 @@
   "Slug": "find-inactive-styles",
   "Description": "Can I find inactive styles applied to an element?",
   "Category": "CSS",
-  "LastModifiedTime": "2022-09-18T10:35:03.000Z",
+  "Newsletter": "tips-tricks-15",
+  "LastModifiedTime": "2022-09-18T15:45:58.000Z",
   "Author": "@pankajparashar",
   "Chrome": {
+    "Share": "https://twitter.com/CanIDevTools/status/1571519143115108353",
     "References": "\n",
     "Notes": "> Enable authoring hints, by opening **Settings** (`F1`) > **Experiments** > Filter on \"authoring hints\" > Check \"Enable CSS Authoring hints...\"\n1. In **Elements** > Locate the authored styles in the **Styles** pane > Inactive declarations have an \"i\" icon, which on hover reveals a tooltip displaying more information.\n",
     "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1663480845/find-inactive-styles-chrome_qdwc4k.png",
@@ -20,16 +22,17 @@
     ]
   },
   "Firefox": {
-    "Name": "Find inactive styles",
-    "GIF": "https://res.cloudinary.com/canidevtools/image/upload/v1663497089/find-inactive-styles-firefox_ymoqzv.gif",
-    "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1663497088/find-inactive-styles-firefox_ip5jow.mp4",
     "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1663497087/find-inactive-styles-firefox_d4tfr5.png",
     "Platform": [
       "MacOS",
       "Windows",
       "Linux"
     ],
-    "Notes": "1. In **Inspector** > Locate the styles in the **Rules** pane. Inactive styles will have an \"i\" icon next to it, which on hover will reveal more information about it.\n"
+    "Share": "https://twitter.com/CanIDevTools/status/1571520604150575114",
+    "Notes": "1. In **Inspector** > Locate the styles in the **Rules** pane. Inactive styles will have an \"i\" icon next to it, which on hover will reveal more information about it.\n",
+    "GIF": "https://res.cloudinary.com/canidevtools/image/upload/v1663497089/find-inactive-styles-firefox_ymoqzv.gif",
+    "Name": "Find inactive styles",
+    "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1663497088/find-inactive-styles-firefox_ip5jow.mp4"
   },
   "Edge": {
     "GIF": "https://res.cloudinary.com/canidevtools/image/upload/v1663483148/find-inactive-styles-edge_czr0b4.gif",
@@ -40,6 +43,7 @@
       "Linux"
     ],
     "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1663483142/find-inactive-styles-edge_emg2fe.png",
+    "Share": "https://twitter.com/CanIDevTools/status/1571519895124475904",
     "Version": "106+",
     "Name": "Find inactive styles",
     "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1663483151/find-inactive-styles-edge_m0f4mc.mp4"
