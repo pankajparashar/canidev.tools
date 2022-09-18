@@ -3,19 +3,45 @@
   "Slug": "find-inactive-styles",
   "Description": "Can I find inactive styles applied to an element?",
   "Category": "CSS",
-  "LastModifiedTime": "2022-09-18T05:50:20.000Z",
+  "LastModifiedTime": "2022-09-18T10:35:03.000Z",
   "Author": "@pankajparashar",
   "Chrome": {
+    "References": "\n",
+    "Notes": "> Enable authoring hints, by opening **Settings** (`F1`) > **Experiments** > Filter on \"authoring hints\" > Check \"Enable CSS Authoring hints...\"\n1. In **Elements** > Locate the authored styles in the **Styles** pane > Inactive declarations have an \"i\" icon, which on hover reveals a tooltip displaying more information.\n",
+    "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1663480845/find-inactive-styles-chrome_qdwc4k.png",
     "Name": "Find inactive styles",
+    "Version": "106+",
+    "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1663480849/find-inactive-styles-chrome_f0qouj.mp4",
+    "GIF": "https://res.cloudinary.com/canidevtools/image/upload/v1663480847/find-inactive-styles-chrome_mwg9un.gif",
+    "Platform": [
+      "MacOS",
+      "Windows",
+      "Linux"
+    ]
+  },
+  "Firefox": {
+    "Name": "Find inactive styles",
+    "GIF": "https://res.cloudinary.com/canidevtools/image/upload/v1663497089/find-inactive-styles-firefox_ymoqzv.gif",
+    "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1663497088/find-inactive-styles-firefox_ip5jow.mp4",
+    "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1663497087/find-inactive-styles-firefox_d4tfr5.png",
     "Platform": [
       "MacOS",
       "Windows",
       "Linux"
     ],
-    "Notes": "> Enable authoring hints, by opening Settings (`F1`) > Experiments > Filter on \"authoring hints\" > Check \"Enable CSS Authoring hints...\"\n1. In **Elements** > Locate the authored styles in the **Styles** pane > Inactive declarations have an \"i\" icon, which on hover reveals a tooltip displaying more information.\n",
-    "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1663480849/find-inactive-styles-chrome_f0qouj.mp4",
-    "GIF": "https://res.cloudinary.com/canidevtools/image/upload/v1663480847/find-inactive-styles-chrome_mwg9un.gif",
-    "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1663480845/find-inactive-styles-chrome_qdwc4k.png",
-    "References": "1. \"Find inactive CSS styles\", by Devtools [Tips](https://devtoolstips.org/tips/en/find-inactive-styles/).\n"
+    "Notes": "1. In **Inspector** > Locate the styles in the **Rules** pane. Inactive styles will have an \"i\" icon next to it, which on hover will reveal more information about it.\n"
+  },
+  "Edge": {
+    "GIF": "https://res.cloudinary.com/canidevtools/image/upload/v1663483148/find-inactive-styles-edge_czr0b4.gif",
+    "Notes": "> Enable authoring hints, by opening **Settings** (`F1`) > **Experiments** > Filter on \"authoring hints\" > Check \"Enable CSS Authoring hints...\"\n1. In **Elements** > Locate the authored styles in the **Styles** pane > Inactive declarations have an \"i\" icon, which on hover reveals a tooltip displaying more information.\n",
+    "Platform": [
+      "MacOS",
+      "Windows",
+      "Linux"
+    ],
+    "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1663483142/find-inactive-styles-edge_emg2fe.png",
+    "Version": "106+",
+    "Name": "Find inactive styles",
+    "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1663483151/find-inactive-styles-edge_m0f4mc.mp4"
   }
 }

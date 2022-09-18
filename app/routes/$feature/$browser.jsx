@@ -8,6 +8,7 @@ import {
   Accordion,
   Anchor,
   Box,
+  Badge,
   Breadcrumbs,
   Button,
   Divider,
@@ -66,6 +67,7 @@ export default function Browser() {
     >
       <Group
         position="apart"
+        spacing="xs"
         sx={(theme) => ({
           padding: theme.spacing.xs,
         })}
