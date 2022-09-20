@@ -3,7 +3,7 @@ import path from 'path';
 import { formatDistanceToNow } from 'date-fns'
 
 import { Outlet } from '@remix-run/react';
-import { Link, useLoaderData, useParams } from '@remix-run/react';
+import { Link, useLoaderData, useParams, useLocation } from '@remix-run/react';
 import { json } from '@remix-run/node'; // or cloudflare/deno
 import { Stack, Button } from '@mantine/core';
 import { Group } from '@mantine/core';
@@ -74,6 +74,8 @@ export function loader({ params }) {
 export default function Feature() {
   const params = useParams();
   const feature = useLoaderData();
+  const location = useLocation();  
+  
   const icons = {
     CSS: <IconBoxMargin size={30} stroke={2} />,
     Accessibility: <IconAccessible size={30} stroke={1.5} />,
@@ -165,7 +167,7 @@ export default function Feature() {
             })}
           >
             <Button
-              variant="outline"
+              variant={path.basename(location.pathname) === "chrome" ? "filled": "outline"}
               color={colors[feature.Category]}
               size="xs"
               disabled={!feature.Chrome}
@@ -175,7 +177,7 @@ export default function Feature() {
               <IconBrandChrome size={20} />
             </Button>
             <Button
-              variant="outline"
+              variant={path.basename(location.pathname) === "firefox" ? "filled": "outline"}
               color={colors[feature.Category]}
               size="xs"
               disabled={!feature.Firefox}
@@ -185,7 +187,7 @@ export default function Feature() {
               <IconBrandFirefox size={20} />
             </Button>
             <Button
-              variant="outline"
+              variant={path.basename(location.pathname) === "edge" ? "filled": "outline"}
               color={colors[feature.Category]}
               size="xs"
               disabled={!feature.Edge}
@@ -195,7 +197,7 @@ export default function Feature() {
               <IconBrandEdge size={20} />
             </Button>
             <Button
-              variant="outline"
+              variant={path.basename(location.pathname) === "safari" ? "filled": "outline"}
               color={colors[feature.Category]}
               size="xs"
               disabled={!feature.Safari}
@@ -205,7 +207,7 @@ export default function Feature() {
               <IconBrandSafari size={20} />
             </Button>
             <Button
-              variant="outline"
+              variant={path.basename(location.pathname) === "opera" ? "filled": "outline"}
               color={colors[feature.Category]}
               size="xs"
               disabled={!feature.Opera}

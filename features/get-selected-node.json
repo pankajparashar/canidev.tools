@@ -3,7 +3,7 @@
   "Slug": "get-selected-node",
   "Description": "Can I refer the currently selected node in the DOM tree from the console?",
   "Category": "Console",
-  "LastModifiedTime": "2022-09-19T15:58:33.000Z",
+  "LastModifiedTime": "2022-09-20T10:42:49.000Z",
   "Author": "@pankajparashar",
   "Chrome": {
     "Share": "https://twitter.com/CanIDevTools/status/1553610736454184960",
@@ -33,6 +33,7 @@
     "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1663600859/get-selected-node-firefox_vrqglw.mp4"
   },
   "Edge": {
+    "GIF": "https://res.cloudinary.com/canidevtools/image/upload/v1663602759/get-selected-node-edge_jkpx3s.gif",
     "Notes": "1. Use `$0` to access the currently selected node. Additionally, `$1`, `$2`, `$3`, ... will give you the last selected nodes in the reverse chronological order.\n",
     "Platform": [
       "MacOS",
@@ -42,17 +43,18 @@
     "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1663602757/get-selected-node-edge_feoycx.png",
     "Share": "https://twitter.com/CanIDevTools/status/1553610736454184960",
     "Name": "Get selected node",
-    "GIF": "https://res.cloudinary.com/canidevtools/image/upload/v1663602759/get-selected-node-edge_jkpx3s.gif",
     "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1663602758/get-selected-node-edge_wefhlh.mp4"
   },
   "Safari": {
-    "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1654325593/Images/get-selected-node-safari_i3ktlm.png",
+    "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1663669806/get-selected-node-safari_zih38e.png",
     "Share": "https://twitter.com/CanIDevTools/status/1553610736454184960",
     "Name": "Get selected node",
     "Platform": [
       "MacOS"
     ],
-    "Notes": "Use `$0` to access the currently selected node. Additionally, `$1`, `$2`, `$3`, ... will give you the last selected nodes in the reverse chronological order.\n\n"
+    "Notes": "1. Use `$0` to access the currently selected node.\n\n",
+    "GIF": "https://res.cloudinary.com/canidevtools/image/upload/v1663669806/get-selected-node-safari_yu2lzw.gif",
+    "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1663669806/get-selected-node-safari_ayqhwl.mp4"
   },
   "Opera": {
     "Share": "https://twitter.com/CanIDevTools/status/1553610736454184960",
@@ -61,8 +63,10 @@
       "Windows",
       "Linux"
     ],
-    "Notes": "Use `$0` to access the currently selected node. Additionally, `$1`, `$2`, `$3`, ... will give you the last selected nodes in the reverse chronological order.\n",
-    "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1654325592/Images/get-selected-node-chrome_khtsjk.png",
-    "Name": "Get selected node"
+    "Notes": "1. Use `$0` to access the currently selected node. Additionally, `$1`, `$2`, `$3`, ... will give you the last selected nodes in the reverse chronological order.\n",
+    "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1659243167/get-selected-node-chrome_uvtf4q.png",
+    "Name": "Get selected node",
+    "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1659243167/get-selected-node-chrome_uf5o4m.mp4",
+    "GIF": "https://res.cloudinary.com/canidevtools/image/upload/v1659243168/get-selected-node-chrome_cbwhzq.gif"
   }
 }
