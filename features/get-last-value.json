@@ -1,17 +1,17 @@
 {
-  "Name": "Get last value",
+  "Name": "Get last evaluated value",
   "Slug": "get-last-value",
-  "Description": "Can I get the last return value in the console?",
+  "Description": "Can I get the last evaluated value in the console?",
   "Category": "Console",
   "Newsletter": "tips-tricks-7",
-  "LastModifiedTime": "2022-09-17T13:37:30.000Z",
+  "LastModifiedTime": "2022-09-21T02:52:37.000Z",
   "Author": "@pankajparashar",
   "Chrome": {
     "Share": "https://twitter.com/CanIDevTools/status/1553378242366545920",
     "References": "**Console Utilities** - Chrome DevTools [Docs](https://developer.chrome.com/docs/devtools/console/utilities/#recent)\n",
     "Notes": "`$_` returns the value of the most recently evaluated expression.\n",
     "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1659185580/get-last-value-chrome_fq7gcb.png",
-    "Name": "Get last value",
+    "Name": "Get last evaluated value",
     "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1659185438/get-last-value-chrome_udgaci.mp4",
     "GIF": "https://res.cloudinary.com/canidevtools/image/upload/v1659185439/get-last-value-chrome_mraqjv.gif",
     "Platform": [
@@ -30,7 +30,7 @@
     "Share": "https://twitter.com/CanIDevTools/status/1553378242366545920",
     "Notes": "`$_` returns the value of the most recently evaluated expression.\n",
     "GIF": "https://res.cloudinary.com/canidevtools/image/upload/v1659187996/get-last-value-firefox_tm4bnk.gif",
-    "Name": "Get last value",
+    "Name": "Get last evaluated value",
     "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1659187996/get-last-value-firefox_u8azho.mp4"
   },
   "Edge": {
@@ -43,19 +43,20 @@
     ],
     "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1659188555/get-last-value-edge_luf98m.png",
     "Share": "https://twitter.com/CanIDevTools/status/1553378242366545920",
-    "Name": "Get last value",
+    "Name": "Get last evaluated value",
     "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1659188555/get-last-value-edge_gujpbg.mp4"
   },
   "Safari": {
     "GIF": "https://res.cloudinary.com/canidevtools/image/upload/v1659188866/get-last-value-safari_n09owq.gif",
     "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1659188866/get-last-value-safari_ri8e21.png",
     "Share": "https://twitter.com/CanIDevTools/status/1553378242366545920",
-    "Name": "Get last value",
+    "Name": "Get last evaluated value",
     "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1659188866/get-last-value-safari_ckgbub.mp4",
     "Platform": [
       "MacOS"
     ],
-    "Notes": "`$_` returns the value of the most recently evaluated expression. Additionally, Safari also lets you access past values in chronological order, using `$1, $2, $3`, ...\n"
+    "Notes": "`$_` returns the value of the most recently evaluated expression. Additionally, Safari also lets you access past values in chronological order, using `$1, $2, $3`, ...\n",
+    "References": "1. \"Console Command Line API\", by [Webkit](https://webkit.org/web-inspector/console-command-line-api/)\n\n"
   },
   "Opera": {
     "GIF": "https://res.cloudinary.com/canidevtools/image/upload/v1659185439/get-last-value-chrome_mraqjv.gif",
@@ -68,6 +69,6 @@
     ],
     "Notes": "`$_` returns the value of the most recently evaluated expression.\n",
     "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1659185580/get-last-value-chrome_fq7gcb.png",
-    "Name": "Get last value"
+    "Name": "Get last evaluated value"
   }
 }

@@ -4,7 +4,7 @@
   "Description": "Can I refer the currently selected node in the DOM tree from the console?",
   "Category": "Console",
   "Newsletter": "tips-tricks-16",
-  "LastModifiedTime": "2022-09-20T13:21:52.000Z",
+  "LastModifiedTime": "2022-09-21T02:50:12.000Z",
   "Author": "@pankajparashar",
   "Chrome": {
     "Share": "https://twitter.com/CanIDevTools/status/1553610736454184960",
@@ -55,7 +55,8 @@
     "Platform": [
       "MacOS"
     ],
-    "Notes": "1. Use `$0` to access the currently selected node.\n\n"
+    "Notes": "1. Use `$0` to access the currently selected node.\n\n",
+    "References": "1. \"Console Command Line API\", by [Webkit](https://webkit.org/web-inspector/console-command-line-api/)\n"
   },
   "Opera": {
     "GIF": "https://res.cloudinary.com/canidevtools/image/upload/v1659243168/get-selected-node-chrome_cbwhzq.gif",
