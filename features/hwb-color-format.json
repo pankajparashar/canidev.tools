@@ -10,7 +10,7 @@
     "Notes": "1. In the _Styles_ pane, hold the `Shift` key and click on any color preview to change the color format. The HWB color format is added.\n2. Alternatively, you can change the color format to HWB in the [color picker](https://developer.chrome.com/docs/devtools/css/reference/#color-picker).\n",
     "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1650206557/Images/edit-hwb-color-format-chrome.png",
     "Name": "HWB color format",
-    "Version": "101-",
+    "Version": "101+",
     "Platform": [
       "MacOS",
       "Windows",

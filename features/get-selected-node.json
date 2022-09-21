@@ -55,8 +55,8 @@
     "Platform": [
       "MacOS"
     ],
-    "Notes": "1. Use `$0` to access the currently selected node.\n\n",
-    "References": "1. \"Console Command Line API\", by [Webkit](https://webkit.org/web-inspector/console-command-line-api/)\n"
+    "References": "1. \"Console Command Line API\", by [Webkit](https://webkit.org/web-inspector/console-command-line-api/)\n",
+    "Notes": "1. Use `$0` to access the currently selected node.\n\n"
   },
   "Opera": {
     "GIF": "https://res.cloudinary.com/canidevtools/image/upload/v1659243168/get-selected-node-chrome_cbwhzq.gif",

@@ -10,7 +10,7 @@
     "Notes": "1. **Sources** > Right click on the line number and select \"Add logpoint...\" to log in the **Console** without actually writing `console.log` statements.\n",
     "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1661143846/add-logpoint-chrome_ws9qul.png",
     "Name": "Add logpoint",
-    "Version": "73-",
+    "Version": "73+",
     "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1661143847/add-logpoint-chrome_wlk4va.mp4",
     "GIF": "https://res.cloudinary.com/canidevtools/image/upload/v1661143847/add-logpoint-chrome_ddq474.gif",
     "Platform": [

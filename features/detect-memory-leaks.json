@@ -18,7 +18,7 @@
     ]
   },
   "Firefox": {
-    "Version": "48-",
+    "Version": "48+",
     "Platform": [
       "MacOS",
       "Windows",

@@ -55,8 +55,8 @@
     "Platform": [
       "MacOS"
     ],
-    "Notes": "1. `$_` returns the value of the most recently evaluated expression.\n2. Additionally, Safari also lets you access past values in chronological order, using `$1, $2, $3`, ...\n",
-    "References": "1. \"Console Command Line API\", by [Webkit](https://webkit.org/web-inspector/console-command-line-api/)\n\n"
+    "References": "1. \"Console Command Line API\", by [Webkit](https://webkit.org/web-inspector/console-command-line-api/)\n\n",
+    "Notes": "1. `$_` returns the value of the most recently evaluated expression.\n2. Additionally, Safari also lets you access past values in chronological order, using `$1, $2, $3`, ...\n"
   },
   "Opera": {
     "GIF": "https://res.cloudinary.com/canidevtools/image/upload/v1659185439/get-last-value-chrome_mraqjv.gif",

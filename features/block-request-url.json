@@ -12,7 +12,7 @@
     "Notes": "1. In the **Network** tab, right click on the request and select \"Block request URL\". This will open the \"Network request blocking\" drawer that will let you manage all your blocked requests.\n",
     "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1657449310/Images/block-request-url-chrome_jyhqpb.png",
     "Name": "Block request URL",
-    "Version": "59-",
+    "Version": "59+",
     "Platform": [
       "MacOS",
       "Windows",

@@ -11,7 +11,7 @@
     "Notes": "1. Open console using `Cmd+Opt+J` or `Ctrl+Shift+J`.\n2. Use `console.table()` to output an array of arrays, or array of objects in a sortable, tabular format. For example, \n```\nconsole.table([[10, true, \"blue\"],[5, false]])\n```\n1. If the number of elements in each object is not equal, the table will display `undefined` in cells for which there is no data.\n2. There is an optional second argument which allows you to explicitly specify which columns to output.\n```\nconsole.table([\n  {population:8173194, country:\"UK\", elevation:\"24m\"},\n  {population:8336697, country:\"USA\", elevation:\"10m\"}\n],[\"population\", \"country\"])\n```\n",
     "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1654692778/Images/output-data-table-chrome_fe7emu.png",
     "Name": "Output data as table",
-    "Version": "27-",
+    "Version": "27+",
     "Platform": [
       "MacOS",
       "Windows",
@@ -20,7 +20,7 @@
   },
   "Firefox": {
     "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1654692283/Images/output-data-table-firefox_w9humo.png",
-    "Version": "34-",
+    "Version": "34+",
     "Platform": [
       "MacOS",
       "Windows",
@@ -40,14 +40,13 @@
     ],
     "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1654694876/Images/output-data-table-edge_skgazo.png",
     "Share": "https://twitter.com/CanIDevTools/status/1534531329580486656",
-    "Version": "13-",
+    "Version": "13+",
     "Name": "Output data as table",
     "References": "1. \"console.table()\" - [MDN Docs](https://developer.mozilla.org/en-US/docs/Web/API/console/table)\n2. \"console API: table\" - [Can I Use](https://caniuse.com/mdn-api_console_table)\n"
   },
   "Safari": {
     "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1654693611/Images/output-data-table-safari_rnxkvl.png",
     "Share": "https://twitter.com/CanIDevTools/status/1534524241693253632",
-    "Version": "7-",
     "Name": "Output data as table",
     "Platform": [
       "MacOS"

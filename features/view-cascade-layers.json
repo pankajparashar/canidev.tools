@@ -11,7 +11,7 @@
     "Notes": "1. Inspect the element that is part of the `@layer`. In the **Styles** pane, each layer and its corresponding styles are visible.\n2. Clicking on the layer name will reveal the **CSS layers** section at the top which will contain the layer order, that drives the specificity.\n",
     "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1650106683/Images/view-cascade-layers-chrome.png",
     "Name": "View cascade layers",
-    "Version": "101-",
+    "Version": "101+",
     "Platform": [
       "MacOS",
       "Windows",

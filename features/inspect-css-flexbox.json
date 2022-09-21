@@ -39,7 +39,6 @@
   },
   "Safari": {
     "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1657091174/Images/inspect-css-flexbox-safari_fqocnb.png",
-    "Version": "TP",
     "Name": "Inspect CSS Flexbox",
     "Platform": [
       "MacOS"
