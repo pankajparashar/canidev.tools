@@ -7,6 +7,7 @@
   "LastModifiedTime": "2022-09-21T09:12:05.000Z",
   "Author": "@pankajparashar",
   "Chrome": {
+    "Share": "https://twitter.com/CanIDevTools/status/1572513134426071042",
     "References": "1. \"Filter requests\", by Chrome DevTools [Docs](https://developer.chrome.com/docs/devtools/network/reference/#filter)\n",
     "Notes": "1. In **Network** > Enter `domain:` in the \"Filter\" field followed by the domain to filter the network requests on.\n2. **Filter** field also suggests the list of domain names to choose from.\n",
     "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1663731186/filter-requests-domain-chrome_oyiixx.png",
@@ -17,8 +18,7 @@
       "MacOS",
       "Windows",
       "Linux"
-    ],
-    "Share": "https://twitter.com/CanIDevTools/status/1572513134426071042"
+    ]
   },
   "Firefox": {
     "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1663742253/filter-requests-domain-firefox_epqs6m.png",
@@ -27,12 +27,12 @@
       "Windows",
       "Linux"
     ],
+    "Share": "https://twitter.com/CanIDevTools/status/1572513775655460864",
     "Notes": "1. In **Network** > Enter `domain:` in the \"Filter URLs\" field followed by the domain to filter the network requests on.\n2. Filter field also suggests the list of domain names to choose from.\n",
     "GIF": "https://res.cloudinary.com/canidevtools/image/upload/v1663742254/filter-requests-domain-firefox_wayexa.gif",
     "References": "1. \"Network request list\", by Firefox Source [Docs](https://firefox-source-docs.mozilla.org/devtools-user/network_monitor/request_list/index.html)\n",
     "Name": "Filter requests by domain",
-    "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1663742255/filter-requests-domain-firefox_ycc2zr.mp4",
-    "Share": "https://twitter.com/CanIDevTools/status/1572513775655460864"
+    "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1663742255/filter-requests-domain-firefox_ycc2zr.mp4"
   },
   "Edge": {
     "GIF": "https://res.cloudinary.com/canidevtools/image/upload/v1663745085/filter-requests-domain-edge_wxtmnk.gif",
@@ -43,13 +43,14 @@
       "Linux"
     ],
     "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1663745085/filter-requests-domain-edge_vogjmi.png",
+    "Share": "https://twitter.com/CanIDevTools/status/1572513134426071042",
     "Name": "Filter requests by domain",
     "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1663745085/filter-requests-domain-edge_hyrti4.mp4",
-    "References": "1. \"Network features reference\", by Edge Developer [Docs](https://learn.microsoft.com/en-us/microsoft-edge/devtools-guide-chromium/network/reference#filter-requests-by-properties)\n",
-    "Share": "https://twitter.com/CanIDevTools/status/1572513134426071042"
+    "References": "1. \"Network features reference\", by Edge Developer [Docs](https://learn.microsoft.com/en-us/microsoft-edge/devtools-guide-chromium/network/reference#filter-requests-by-properties)\n"
   },
   "Opera": {
     "GIF": "https://res.cloudinary.com/canidevtools/image/upload/v1663731188/filter-requests-domain-chrome_n4kkj3.gif",
+    "Share": "https://twitter.com/CanIDevTools/status/1572513134426071042",
     "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1663731188/filter-requests-domain-chrome_sr5dpw.mp4",
     "Platform": [
       "MacOS",
@@ -58,7 +59,6 @@
     ],
     "Notes": "1. In **Network** > Enter `domain:` in the \"Filter\" field followed by the domain to filter the network requests on.\n2. Filter field also suggests the list of domain names to choose from.\n\n",
     "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1663731186/filter-requests-domain-chrome_oyiixx.png",
-    "Name": "Filter requests by domain",
-    "Share": "https://twitter.com/CanIDevTools/status/1572513134426071042"
+    "Name": "Filter requests by domain"
   }
 }

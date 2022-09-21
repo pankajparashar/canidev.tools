@@ -1,0 +1,33 @@
+{
+  "Name": "Inspect Box shadow",
+  "Slug": "inspect-box-shadow",
+  "Description": "Can I inspect CSS box shadow using an editor?",
+  "Category": "CSS",
+  "LastModifiedTime": "2022-09-21T15:44:41.000Z",
+  "Author": "@pankajparashar",
+  "Chrome": {
+    "References": "1. \"CSS Box shadow editor\", by Chrome DevTools [Docs](https://developer.chrome.com/docs/devtools/css/reference/#shadow-editor)\n",
+    "Notes": "1. Inspect the element with box shadow > In the Styles pane, click the icon next to the `box-shadow` property to open the box shadow editor.\n2. Change the shadow properties:\n    - **Type** (only for `box-shadow`). Pick **Outset** or **Inset**.\n    - **X and Y offsets**. Drag the blue dot or specify values.\n    - **Blur**. Drag the slider or specify a value.\n    - **Spread** (only for `box-shadow`). Drag the slider or specify a value.\n",
+    "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1663767293/inspect-box-shadow-chrome_qnlqjv.png",
+    "Name": "Inspect Box shadow",
+    "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1663767294/inspect-box-shadow-chrome_xdo6e7.mp4",
+    "GIF": "https://res.cloudinary.com/canidevtools/image/upload/v1663767304/inspect-box-shadow-chrome_l8mkyq.gif",
+    "Platform": [
+      "MacOS",
+      "Windows",
+      "Linux"
+    ]
+  },
+  "Edge": {
+    "Name": "Inspect Box shadow",
+    "Notes": "1. Inspect the element with box shadow > In the **Styles** pane, click the icon next to the `box-shadow` property to open the box shadow editor.\n2. Change the shadow properties:\n    - **Type** (only for `box-shadow`). Pick Outset or Inset.\n    - **X** and **Y** offsets. Drag the blue dot or specify values.\n    - **Blur**. Drag the slider or specify a value.\n    - **Spread** (only for `box-shadow`). Drag the slider or specify a value.\n",
+    "Platform": [
+      "MacOS",
+      "Windows",
+      "Linux"
+    ],
+    "GIF": "https://res.cloudinary.com/canidevtools/image/upload/v1663775066/inspect-box-shadow-edge_a1zovn.gif",
+    "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1663775064/inspect-box-shadow-edge_jnbhin.mp4",
+    "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1663775063/inspect-box-shadow-edge_l3faml.png"
+  }
+}
