@@ -108,13 +108,13 @@ export default function Browser() {
           <Tabs.Tab value="mp4">MP4</Tabs.Tab>
         </Tabs.List>
         <Tabs.Panel value="png">
-          <Image fit="contain" src={feature[browser].PNG} />
+          <Image fit="contain" src={feature[browser].PNG} key={feature[browser].PNG} />
         </Tabs.Panel>
         <Tabs.Panel value="gif">
-          <Image fit="contain" src={feature[browser].GIF} />
+          <Image fit="contain" src={feature[browser].GIF} key={feature[browser].GIF} />
         </Tabs.Panel>
         <Tabs.Panel value="mp4">
-          <video controls preload="metadata">
+          <video controls preload="metadata" key={feature[browser].MP4}>
             <source src={feature[browser].MP4 + "#t=0.1"} type="video/mp4" />
           </video>
         </Tabs.Panel>
