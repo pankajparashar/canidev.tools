@@ -52,8 +52,20 @@ blockquote {
   }
 }
 
-.h_100vh {
-  height: calc(100vh - 51px);
+@media screen and (min-width: 350px)  {
+  .h_100vh {
+    height: calc(100vh - 250px);
+  }
+}
+@media screen and (min-width: 700px)  {
+  .h_100vh {
+    height: calc(100vh - 200px);
+  }
+}
+@media screen and (min-width: 1050px) {
+  .h_100vh {
+    height: calc(100vh - 107px);
+  }
 }
 
 .oy_scroll {
