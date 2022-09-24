@@ -46,6 +46,7 @@ export function loader({ params }) {
 export default function Browser() {
   const { browser } = useParams();
   const feature = useLoaderData();
+  const refCount = (feature[browser].References?.match(new RegExp("http", "g")) || []).length
 
   const icons = {
     chrome: <IconBrandChrome size="18" stroke="1.5" />,
@@ -137,9 +138,12 @@ export default function Browser() {
               }`,
             })}
           >
-            <Text weight="700" size="sm">
-              Notes
-            </Text>
+            <Group position="apart">
+                <Text weight="700" size="sm">
+                  Notes {feature[browser].Version ? `(${feature[browser].Version})` : ``}
+                </Text>
+                
+            </Group>
           </Accordion.Control>
           <Accordion.Panel>
             <div
@@ -164,7 +168,7 @@ export default function Browser() {
             })}
           >
             <Text weight="700" size="sm">
-              References
+              References {`(${refCount})`}
             </Text>
           </Accordion.Control>
           <Accordion.Panel>
