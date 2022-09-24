@@ -217,6 +217,7 @@ export default function App() {
               <Divider />
 
               <Collapse
+                itemscope itemtype="https://schema.org/BreadcrumbList"
                 in={open}
                 sx={(theme) => ({
                   borderRight: `1px solid ${theme.colorScheme === 'dark'
@@ -225,7 +226,7 @@ export default function App() {
                     }`,
                 })}
               >
-                <Link to={'/'}>
+                <Link to={'/'} itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
                   <NavLink
                     active={params.get('category') === null}
                     key={'all'}
@@ -244,8 +245,10 @@ export default function App() {
                     <Link
                       to={`/?category=${category.toLocaleLowerCase()}`}
                       key={category}
+                      itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem"
                     >
                       <NavLink
+                        itemprop="item" 
                         active={
                           params.get('category')?.toLowerCase() ===
                           category.toLowerCase()
