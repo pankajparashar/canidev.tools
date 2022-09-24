@@ -1,7 +1,7 @@
 # Can I DevTools? 
  It's like @CanIUse but for the browser devtools, created & curated by Pankaj Parashar. 
 
-  ![image](https://user-images.githubusercontent.com/38640616/192102419-a0b8515f-50ae-4fb2-9646-a366660585cb.png) 
+  ![image](https://user-images.githubusercontent.com/38640616/192102868-b0b2b9eb-91c5-4b88-9db7-32ba23021353.png) 
 ## 1. Add class to element 
  Can I add a class to an element? 
 - [Chrome](https://canidev.tools/add-class-element/chrome) 
