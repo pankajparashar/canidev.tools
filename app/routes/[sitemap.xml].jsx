@@ -14,9 +14,8 @@ export const loader = () => {
 				<lastmod>${record.LastModifiedTime}</lastmod>
 				<priority>1.0</priority>
 			</url>
-		`)
-		{/* ["Chrome", "Firefox", "Edge", "Safari", "Opera"].forEach(browser => {
-			console.log(browser, browser in record)
+		`);
+		["Chrome", "Firefox", "Edge", "Safari", "Opera"].forEach(browser => {
 			if (browser in record) {
 				urlset.push(`
 					<url>
@@ -26,7 +25,7 @@ export const loader = () => {
 					</url>
 				`)
 			}
-		}) */}
+		})
 	});
 	
 	const content = `
