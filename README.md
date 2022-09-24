@@ -1,5 +1,7 @@
 # Can I DevTools? 
- It's like @CanIUse but for the browser devtools, created & curated by Pankaj Parashar 
+ It's like @CanIUse but for the browser devtools, created & curated by Pankaj Parashar. 
+
+  ![image](https://user-images.githubusercontent.com/38640616/192102419-a0b8515f-50ae-4fb2-9646-a366660585cb.png) 
 ## 1. Add class to element 
  Can I add a class to an element? 
 - [Chrome](https://canidev.tools/add-class-element/chrome) 
