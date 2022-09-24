@@ -1186,14 +1186,14 @@ console.table([
 ## 75. Set keyboard shortcuts 
  Can I set a custom keyboard shortcuts in devtools? 
 - [Chrome](https://canidev.tools/set-keyboard-shortcuts/chrome) 
- > Enable "Enable keyboard shortcut editor" in the **Experiments**, using `Cmd+Shift+P` or `Ctrl+Shift+P` > Show Experiments> Reload DevTools.
+ > Enable "Enable keyboard shortcut editor" in the **Experiments**, using `Cmd+Shift+P` or `Ctrl+Shift+P` > Show Experiments > Reload DevTools.
 1. Press `Cmd+Shift+P` or `Ctrl+Shift+P` to launch the **Command Menu** > Type "Shortcuts" > Press `Enter`.
 2. Click the "Edit" icon next to the shortcut. Apply the shortcut and Save.
 - [Edge](https://canidev.tools/set-keyboard-shortcuts/edge) 
  1. Press `Cmd+Shift+P` or `Ctrl+Shift+P` to launch the **Command Menu** > Type "Shortcuts" > Press `Enter`.
 2. Click the "Edit" icon next to the shortcut. Apply the shortcut and Save.
 - [Opera](https://canidev.tools/set-keyboard-shortcuts/opera) 
- > Enable "Enable keyboard shortcut editor" in the **Experiments**, using `Cmd+Shift+P` or `Ctrl+Shift+P` > Show Experiments> Reload DevTools.
+ > Enable "Enable keyboard shortcut editor" in the **Experiments**, using `Cmd+Shift+P` or `Ctrl+Shift+P` > Show Experiments > Reload DevTools.
 1. Press `Cmd+Shift+P` or `Ctrl+Shift+P` to launch the **Command** **Menu** > Type "Shortcuts" > Press `Enter`.
 2. Click the "Edit" icon next to the shortcut. Apply the shortcut and Save.
 ## 76. Show rulers on hover 
