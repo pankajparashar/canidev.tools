@@ -61,7 +61,7 @@ export const meta = () => {
     "og:url": "https://canidev.tools",
     "og:title": title,
     "og:description": description,
-    "og:image": "https://res.cloudinary.com/canidevtools/image/upload/v1657885902/og-image_ujdcm3.png" 
+    "og:image": "https://canidev.tools/social-media.jpg" 
  };
 };
 
