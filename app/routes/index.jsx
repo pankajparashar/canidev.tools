@@ -207,7 +207,7 @@ export default function Index() {
 			<Box className="grid">
 				<Grid gutter="xs" p="xs">
 				     <Grid.Col span={10}>
-					     <Button variant="default" size="xs" fullWidth={true} leftIcon={<IconTextPlus size={20} />}>
+					     <Button variant="default" size="xs" fullWidth={true} leftIcon={<IconTextPlus size={20} />} component="a" href="https://github.com/pankajparashar/canidev.tools/issues/new">
  						     {" Add New"}
 					     </Button>
 				     </Grid.Col>
