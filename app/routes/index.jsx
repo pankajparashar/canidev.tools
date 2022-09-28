@@ -33,7 +33,6 @@ export const loader = async ({ request }) => {
 		) : records;
 	
 	// Filter on search
-	console.log(search)
 	records = search ?
 		records.filter(r => r.Name.toLowerCase().includes(search.toLowerCase()))
 		: records
