@@ -1,15 +1,17 @@
 import * as fs from 'fs';
 import path from 'path';
+import * as React from 'react'
 
 import { json } from '@remix-run/node';
-import { Link, useLoaderData } from '@remix-run/react';
+import { Link, useLoaderData, useSearchParams } from '@remix-run/react';
 
 import { ThemeIcon, Group, Divider, Stack, Button, Badge, Box, NavLink, Grid, SimpleGrid, ScrollArea, TextInput } from '@mantine/core';
-import { IconHome2, IconGauge, IconChevronRight, IconActivity, IconListSearch,IconSortAscending, IconBrandChrome, IconBrandFirefox, IconBrandEdge, IconBrandSafari, IconBrandOpera, IconCheckbox, IconSquareMinus, IconRss, IconTextPlus } from '@tabler/icons';
+import { IconHome2, IconGauge, IconChevronRight, IconActivity, IconListSearch,IconSortAscending, IconBrandChrome, IconBrandFirefox, IconBrandEdge, IconBrandSafari, IconBrandOpera, IconCheckbox, IconSquareMinus, IconRss, IconTextPlus, IconSortDescending, IconSortAscendingLetters, IconSortDescendingLetters } from '@tabler/icons';
 
 export const loader = async ({ request }) => {
 	const url = new URL(request.url);
-	const category = url.searchParams.get('category');
+	const category = url.searchParams.get('category') || 'all';
+	const sort = url.searchParams.get('sort') || 'asc'
 
 	let records = [];
 	fs.readdirSync(`${__dirname}/../features`).forEach((name) => {
@@ -18,11 +20,13 @@ export const loader = async ({ request }) => {
 		const record = JSON.parse(file);
 		records.push(record);
 	});
+	records = sort === 'dsc' ? records.sort((a,b) => b.Name.localeCompare(a.Name)) : records
 
 	records =
-		category ? records.filter(
+		category !== 'all' ? records.filter(
 			(r) => r.Category.toLowerCase() === category.toLowerCase()
 		) : records;
+		
 	return json(records);
 };
 
@@ -35,9 +39,13 @@ const getCount = data => ({
 })
 
 export default function Index() {
-	const features = useLoaderData();
-     const count = getCount(features)
-     
+	const features = useLoaderData()
+	const [params, setParams] = useSearchParams()
+	
+	const count = getCount(features)
+	const category = params.get('category') || 'all'
+	const sort = params.get('sort') === 'dsc' ? 'asc' : 'dsc'
+	
 	return (
 		<Stack
 			spacing={0}
@@ -77,8 +85,8 @@ export default function Index() {
 							/>
 						</Grid.Col>
 						<Grid.Col span={2}>
-							<Button variant="default" size="xs" fullWidth={true}>
-								<IconSortAscending size={20} />
+							<Button variant="default" size="xs" fullWidth={true} component={Link} to={`?category=${category}&sort=${sort}`}>
+								{sort === 'asc' ? <IconSortAscendingLetters size={20}/> : <IconSortDescendingLetters size={20} />}
 							</Button>
 						</Grid.Col>
 					</Grid>

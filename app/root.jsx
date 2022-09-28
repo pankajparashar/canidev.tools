@@ -248,7 +248,7 @@ export default function App() {
                       itemProp="itemListElement" itemScope itemType="https://schema.org/ListItem"
                     >
                       <NavLink
-                        itemprop="item" 
+                        itemProp="item" 
                         active={
                           params.get('category')?.toLowerCase() ===
                           category.toLowerCase()
