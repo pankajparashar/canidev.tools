@@ -212,7 +212,7 @@ export default function Index() {
 					     </Button>
 				     </Grid.Col>
 				     <Grid.Col span={2}>
-					     <Button variant="default" size="xs" fullWidth={true}>
+					     <Button variant="default" size="xs" fullWidth={true} component="a" href="https://canidevtools.substack.com/feed.xml">
 						     <IconRss size={20} stroke={2.5} />
 					     </Button>
 				     </Grid.Col>
