@@ -119,39 +119,42 @@ export function CarbonAds() {
 createEmotionCache({ key: 'cid' });
 
 export default function App() {
-  const categories = useLoaderData();
-  const colorScheme = useColorScheme();
-  const isWide = useMediaQuery('(min-width: 700px)', true, { getInitialValueInEffect: false });
-
-  const [params, setParams] = useSearchParams();
-  const [open, setOpen] = React.useState(isWide);
+	const categories = useLoaderData();
+	const isWide = useMediaQuery('(min-width: 700px)', true, { getInitialValueInEffect: false });
+	
+	const [params, setParams] = useSearchParams();
+	const [open, setOpen] = React.useState(isWide);
   
-  React.useEffect(() => {
-    setOpen(isWide)
-  }, [isWide])
+	const preferredColorScheme = useColorScheme();
+	const [colorScheme, setColorScheme] = React.useState(preferredColorScheme);
+	const toggleColorScheme = () => setColorScheme(colorScheme === 'dark' ? 'light' : 'dark');
   
-  const icons = {
-    CSS: <IconBoxMargin size={20} stroke={1.5} />,
-    Accessibility: <IconAccessible size={20} stroke={1.5} />,
-    Audit: <IconReportMedical size={20} stroke={1.5} />,
-    Console: <IconTerminal2 size={20} stroke={1.5} />,
-    Elements: <IconCrosshair size={20} stroke={1.5} />,
-    JavaScript: <IconBrandNextjs size={20} stroke={1.5} />,
-    Network: <IconAffiliate size={20} stroke={1.5} />,
-    Other: <IconHexagons size={20} stroke={1.5} />,
-    Sources: <IconCode size={20} stroke={1.5} />,
-  };
-  const colors = {
-    CSS: 'red',
-    Accessibility: 'pink',
-    Audit: 'grape',
-    Console: 'violet',
-    Elements: 'indigo',
-    JavaScript: 'lime',
-    Network: 'yellow',
-    Other: 'orange',
-    Sources: 'green',
-  };
+	React.useEffect(() => {
+		setOpen(isWide)
+	}, [isWide])
+  
+	const icons = {
+		CSS: <IconBoxMargin size={20} stroke={1.5} />,
+		Accessibility: <IconAccessible size={20} stroke={1.5} />,
+		Audit: <IconReportMedical size={20} stroke={1.5} />,
+		Console: <IconTerminal2 size={20} stroke={1.5} />,
+		Elements: <IconCrosshair size={20} stroke={1.5} />,
+		JavaScript: <IconBrandNextjs size={20} stroke={1.5} />,
+		Network: <IconAffiliate size={20} stroke={1.5} />,
+		Other: <IconHexagons size={20} stroke={1.5} />,
+		Sources: <IconCode size={20} stroke={1.5} />,
+	};
+	const colors = {
+		CSS: 'red',
+		Accessibility: 'pink',
+		Audit: 'grape',
+		Console: 'violet',
+		Elements: 'indigo',
+		JavaScript: 'lime',
+		Network: 'yellow',
+		Other: 'orange',
+		Sources: 'green',
+	};
 
   return (
     <html lang="en">
@@ -313,7 +316,7 @@ export default function App() {
                   >
                     <IconNews size={20} />
                   </Button>
-                  <Button variant="default">
+                  <Button variant="default" onClick={toggleColorScheme}>
                     <IconBrightness size={20} />
                   </Button>
                 </Group>
