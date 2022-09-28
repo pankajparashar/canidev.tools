@@ -3,15 +3,16 @@ import path from 'path';
 import * as React from 'react'
 
 import { json } from '@remix-run/node';
-import { Link, useLoaderData, useSearchParams } from '@remix-run/react';
+import { Link, useLoaderData, useSearchParams, useNavigate } from '@remix-run/react';
 
-import { ThemeIcon, Group, Divider, Stack, Button, Badge, Box, NavLink, Grid, SimpleGrid, ScrollArea, TextInput } from '@mantine/core';
-import { IconHome2, IconGauge, IconChevronRight, IconActivity, IconListSearch,IconSortAscending, IconBrandChrome, IconBrandFirefox, IconBrandEdge, IconBrandSafari, IconBrandOpera, IconCheckbox, IconSquareMinus, IconRss, IconTextPlus, IconSortDescending, IconSortAscendingLetters, IconSortDescendingLetters } from '@tabler/icons';
+import { ThemeIcon, Group, Divider, Stack, Button, Badge, Box, NavLink, Grid, SimpleGrid, ScrollArea, TextInput, Tooltip, Input } from '@mantine/core';
+import { IconHome2, IconGauge, IconChevronRight, IconActivity, IconListSearch,IconSortAscending, IconBrandChrome, IconBrandFirefox, IconBrandEdge, IconBrandSafari, IconBrandOpera, IconCheckbox, IconSquareMinus, IconRss, IconTextPlus, IconSortDescending, IconSortAscendingLetters, IconSortDescendingLetters, IconArrowBack } from '@tabler/icons';
 
 export const loader = async ({ request }) => {
 	const url = new URL(request.url);
 	const category = url.searchParams.get('category') || 'all';
 	const sort = url.searchParams.get('sort') || 'asc'
+	const search = url.searchParams.get('search') || ''
 
 	let records = [];
 	fs.readdirSync(`${__dirname}/../features`).forEach((name) => {
@@ -20,12 +21,22 @@ export const loader = async ({ request }) => {
 		const record = JSON.parse(file);
 		records.push(record);
 	});
-	records = sort === 'dsc' ? records.sort((a,b) => b.Name.localeCompare(a.Name)) : records
+	
+	// Sort
+	records = sort === 'dsc' ? 
+		records.sort((a,b) => b.Name.localeCompare(a.Name)) : records
 
+	// Filter on category
 	records =
 		category !== 'all' ? records.filter(
 			(r) => r.Category.toLowerCase() === category.toLowerCase()
 		) : records;
+	
+	// Filter on search
+	console.log(search)
+	records = search ?
+		records.filter(r => r.Name.toLowerCase().includes(search.toLowerCase()))
+		: records
 		
 	return json(records);
 };
@@ -40,11 +51,13 @@ const getCount = data => ({
 
 export default function Index() {
 	const features = useLoaderData()
+	const navigate = useNavigate();
 	const [params, setParams] = useSearchParams()
 	
 	const count = getCount(features)
 	const category = params.get('category') || 'all'
-	const sort = params.get('sort') === 'dsc' ? 'asc' : 'dsc'
+	const sort = params.get('sort')
+	const search = params.get('search')
 	
 	return (
 		<Stack
@@ -80,12 +93,35 @@ export default function Index() {
 								size="xs"
 								label=""
 								variant="filled"
-								placeholder="Filter"
+								placeholder={search ? search : "Search"}
 								icon={<IconListSearch size={20} />}
+								rightSection={
+									<Tooltip label="Press Enter" position="top-end" withArrow>
+									  <div>
+										<IconArrowBack size={18} style={{ display: 'block', opacity: 0.5 }} />
+									  </div>
+									</Tooltip>
+								}
+								onKeyPress={event => {
+									const value = event.target.value.trim()
+									if(event.key === "Enter") {
+										const url = new URL(window.location);
+										if(value) url.searchParams.set('search', value);
+										else url.searchParams.delete('search')
+										navigate({
+											search: url.searchParams.toString()
+										})	
+									}									
+								}}
 							/>
 						</Grid.Col>
 						<Grid.Col span={2}>
-							<Button variant="default" size="xs" fullWidth={true} component={Link} to={`?category=${category}&sort=${sort}`}>
+							<Button variant="default" size="xs" fullWidth={true} onClick={() => {
+								params.set('sort', sort === 'dsc' ? 'asc' : 'dsc')
+								navigate({
+									search: params.toString()
+								})
+							}}>
 								{sort === 'asc' ? <IconSortAscendingLetters size={20}/> : <IconSortDescendingLetters size={20} />}
 							</Button>
 						</Grid.Col>
