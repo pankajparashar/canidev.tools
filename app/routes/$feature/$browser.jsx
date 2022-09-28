@@ -109,15 +109,13 @@ export default function Browser() {
           <Tabs.Tab value="mp4">MP4</Tabs.Tab>
         </Tabs.List>
         <Tabs.Panel value="png">
-          <Image fit="contain" src={feature[browser].PNG} key={feature[browser].PNG} />
+			{feature[browser].PNG ? <Image fit="contain" src={feature[browser].PNG} key={feature[browser].PNG} /> : <Image withPlaceholder height={200} />}
         </Tabs.Panel>
         <Tabs.Panel value="gif">
-          <Image fit="contain" src={feature[browser].GIF} key={feature[browser].GIF} />
+        	{feature[browser].GIF ? <Image fit="contain" src={feature[browser].GIF} key={feature[browser].GIF} /> : <Image withPlaceholder height={200} />}
         </Tabs.Panel>
         <Tabs.Panel value="mp4">
-          <video controls preload="metadata" key={feature[browser].MP4}>
-            <source src={feature[browser].MP4 + "#t=0.1"} type="video/mp4" />
-          </video>
+			{feature[browser].MP4 ? <video controls preload="metadata" key={feature[browser].MP4}><source src={feature[browser].MP4 + "#t=0.1"} type="video/mp4" /></video> : <Image withPlaceholder height={200} />}
         </Tabs.Panel>
       </Tabs>
       <Divider />
