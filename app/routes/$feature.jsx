@@ -223,8 +223,7 @@ export default function Feature() {
 									marginBottom: 0
 								}
 							})} 
-							title="Last Modified"
-							color="gray.9"
+							title="Last Modified"							
 							radius="xs"
 							p="xs"
 						>
@@ -237,7 +236,6 @@ export default function Feature() {
 							}
 						})} 
 							title="Author"
-							color="gray.9"
 							radius="xs"
 							p="xs"
 						>
@@ -245,21 +243,16 @@ export default function Feature() {
 								{feature.Author}
 							</Anchor>
 						</Alert>
-						{feature.Newsletter ? <Alert
-						styles={theme => ({
-							title: {
-								marginBottom: 0
-							}
-						})} 
-							title="Newsletter"
-							color="gray.9"
-							radius="xs"
-							p="xs"
-						>
+						{feature.Newsletter ? 
+							<Alert styles={theme => ({ title: { marginBottom: 0 } })} 
+								title="Newsletter"
+								radius="xs"
+								p="xs"
+							>
 							<Anchor variant="link" color={"indigo.9"} href={`https://canidevtools.substack.com/p/${feature.Newsletter}`}>
-									{feature.Newsletter}
-								</Anchor>
-						</Alert>:null}
+								{feature.Newsletter}
+							</Anchor>
+						</Alert> : null}
 					</SimpleGrid>
 					<Divider />
 				</Box>

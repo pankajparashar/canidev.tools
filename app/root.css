@@ -26,8 +26,7 @@ li {
 
 code {
   font-family: inherit !important;
-  background-color: #ffec99;
-  padding: 0px 5px 2px;
+  color: darkturquoise;
 }
 
 blockquote {
@@ -118,7 +117,7 @@ blockquote {
   max-width: 350px;
   display: block;
   text-decoration: none;
-  color: #666;
+  color: #999;
 }
 
 .carbon-poweredby {
