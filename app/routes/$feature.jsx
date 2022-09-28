@@ -245,7 +245,7 @@ export default function Feature() {
 								{feature.Author}
 							</Anchor>
 						</Alert>
-						<Alert
+						{feature.Newsletter ? <Alert
 						styles={theme => ({
 							title: {
 								marginBottom: 0
@@ -256,10 +256,10 @@ export default function Feature() {
 							radius="xs"
 							p="xs"
 						>
-							{feature.Newsletter ? <Anchor variant="link" color={"indigo.9"} href={`https://canidevtools.substack.com/p/${feature.Newsletter}`}>
+							<Anchor variant="link" color={"indigo.9"} href={`https://canidevtools.substack.com/p/${feature.Newsletter}`}>
 									{feature.Newsletter}
-								</Anchor> : "-"}
-						</Alert>
+								</Anchor>
+						</Alert>:null}
 					</SimpleGrid>
 					<Divider />
 				</Box>
