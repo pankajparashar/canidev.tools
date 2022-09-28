@@ -3,8 +3,9 @@ body {
   overflow: visible;
 }
 
-a:link {
+a:not([type="button"]) {
   text-decoration: none;
+  color: #1d9bf0
 }
 
 li a:hover {
@@ -26,7 +27,11 @@ li {
 
 code {
   font-family: inherit !important;
-  color: darkturquoise;
+  color: deeppink;
+}
+
+code:after, code:before {
+	content: "\`";
 }
 
 blockquote {
