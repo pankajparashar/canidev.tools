@@ -178,7 +178,8 @@ export default function App() {
           <Box className="grid" 
 		  	sx={theme => ({
 			  backgroundColor: theme.colorScheme === 'dark' ? '#000' : '#fff',
-			  color: theme.colorScheme === 'dark' ? '#fff' : '#000'
+			  color: theme.colorScheme === 'dark' ? '#fff' : '#000',
+			  height: "100%"
 		  })}>
             <Box
               sx={(theme) => ({
