@@ -18,7 +18,7 @@ import path from 'path';
 import { json } from '@remix-run/node';
 import { StylesPlaceholder } from '@mantine/remix';
 
-import { useMediaQuery } from '@mantine/hooks';
+import { useMediaQuery, useColorScheme } from '@mantine/hooks';
 import {
   IconGridDots,
   IconCode,
@@ -120,6 +120,7 @@ createEmotionCache({ key: 'cid' });
 
 export default function App() {
   const categories = useLoaderData();
+  const colorScheme = useColorScheme();
   const isWide = useMediaQuery('(min-width: 700px)', true, { getInitialValueInEffect: false });
 
   const [params, setParams] = useSearchParams();
@@ -169,9 +170,14 @@ export default function App() {
             primaryColor: 'gray',
             primaryShade: 9,
             defaultRadius: 'xs',
+			colorScheme: colorScheme
           }}
         >
-          <Box className="grid">
+          <Box className="grid" 
+		  	sx={theme => ({
+			  backgroundColor: theme.colorScheme === 'dark' ? '#000' : '#fff',
+			  color: theme.colorScheme === 'dark' ? '#fff' : '#000'
+		  })}>
             <Box
               sx={(theme) => ({
                 display: 'flex',
