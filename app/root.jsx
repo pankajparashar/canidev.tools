@@ -129,9 +129,8 @@ export default function App() {
 	const [colorScheme, setColorScheme] = React.useState(preferredColorScheme);
 	const toggleColorScheme = () => setColorScheme(colorScheme === 'dark' ? 'light' : 'dark');
   
-	React.useEffect(() => {
-		setOpen(isWide)
-	}, [isWide])
+	React.useEffect(() => setOpen(isWide), [isWide])
+	React.useEffect(() => setColorScheme(preferredColorScheme), [preferredColorScheme])
   
 	const icons = {
 		CSS: <IconBoxMargin size={20} stroke={1.5} />,
