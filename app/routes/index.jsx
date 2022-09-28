@@ -6,7 +6,7 @@ import { json } from '@remix-run/node';
 import { Link, useLoaderData, useSearchParams, useNavigate } from '@remix-run/react';
 
 import { ThemeIcon, Group, Divider, Stack, Button, Badge, Box, NavLink, Grid, SimpleGrid, ScrollArea, TextInput, Tooltip, Input } from '@mantine/core';
-import { IconHome2, IconGauge, IconChevronRight, IconActivity, IconListSearch,IconSortAscending, IconBrandChrome, IconBrandFirefox, IconBrandEdge, IconBrandSafari, IconBrandOpera, IconCheckbox, IconSquareMinus, IconRss, IconTextPlus, IconSortDescending, IconSortAscendingLetters, IconSortDescendingLetters, IconArrowBack } from '@tabler/icons';
+import { IconHome2, IconGauge, IconChevronRight, IconActivity, IconListSearch, IconSortAscending, IconBrandChrome, IconBrandFirefox, IconBrandEdge, IconBrandSafari, IconBrandOpera, IconCheckbox, IconSquareMinus, IconRss, IconTextPlus, IconSortDescending, IconSortAscendingLetters, IconSortDescendingLetters, IconArrowBack } from '@tabler/icons';
 
 export const loader = async ({ request }) => {
 	const url = new URL(request.url);
@@ -121,7 +121,7 @@ export default function Index() {
 									search: params.toString()
 								})
 							}}>
-								{sort === 'asc' ? <IconSortAscendingLetters size={20}/> : <IconSortDescendingLetters size={20} />}
+								{sort === 'asc' ? <IconSortAscending size={20}/> : <IconSortDescending size={20} />}
 							</Button>
 						</Grid.Col>
 					</Grid>
