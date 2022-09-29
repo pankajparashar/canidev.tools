@@ -145,20 +145,19 @@
  1. Open devtools > Launch Command menu > Search for "Capture screenshot".
 2. Press Enter to capture the screenshot of the viewport.
 ## 11. Change color format 
- Can I change authored color format to other formats like HWB, HSL, etc? 
+ Can I change authored color format to other formats like HEX, RGB, HWB, HSL etc? 
 - [Chrome](https://canidev.tools/change-color-format/chrome) 
- 1. In the **Styles** pane, hold the `Shift` key and click on any color preview to change the color format. The HWB color format is added.
-2. Alternatively, you can change the color format to HWB in the [color picker](https://developer.chrome.com/docs/devtools/css/reference/#color-picker).
+ 1. In the **Styles** pane, hold the `Shift` key and click on the color preview box to cycle through the various color formats like `rgb`, `hsl`, and `hwb.`
+2. Alternatively, you can change the color format in the [color picker](https://developer.chrome.com/docs/devtools/css/reference/#color-picker) using the up-down arrow keys.
 - [Firefox](https://canidev.tools/change-color-format/firefox) 
  1. In the **Styles** pane, hold the `Shift` key and click on any color preview to change the color format. The HWB color format is added.
 2. It is also available as an [optional default](https://firefox-source-docs.mozilla.org/devtools-user/settings/index.html#inspector).
 - [Edge](https://canidev.tools/change-color-format/edge) 
- 1. In the **Styles** pane, hold the `Shift` key and click on any color preview to change the color format. The HWB color format is added.
-2. Alternatively, you can change the color format to HWB in the [color picker](https://developer.chrome.com/docs/devtools/css/reference/#color-picker).
-
+ 1. In the Styles pane, hold the `Shift` key and click on the color preview box to cycle through the various color formats like `rgb`, `hsl`, and `hwb.`
+2. Alternatively, you can change the color format in the [color picker](https://developer.chrome.com/docs/devtools/css/reference/#color-picker) using the up-down arrow keys.
 - [Opera](https://canidev.tools/change-color-format/opera) 
- 1. In the **Styles** pane, hold the `Shift` key and click on any color preview to change the color format. The HWB color format is added.
-2. Alternatively, you can change the color format to HWB in the [color picker](https://developer.chrome.com/docs/devtools/css/reference/#color-picker).
+ 1. In the Styles pane, hold the `Shift` key and click on the color preview box to cycle through the various color formats like `rgb`, `hsl`, and `hwb.`
+2. Alternatively, you can change the color format in the [color picker](https://developer.chrome.com/docs/devtools/css/reference/#color-picker) using the up-down arrow keys.
 ## 12. Clear command history 
  Can I clear the command history of the console? 
 - [Chrome](https://canidev.tools/clear-command-history/chrome) 
