@@ -1,0 +1,51 @@
+{
+  "Name": "Change color format",
+  "Slug": "change-color-format",
+  "Description": "Can I change authored color format to other formats like HWB, HSL, etc?",
+  "Category": "CSS",
+  "LastModifiedTime": "2022-09-29T06:39:05.000Z",
+  "Author": "@pankajparashar",
+  "Chrome": {
+    "References": "1. \"Support for the hwb() color function\" - [Chrome Developers](https://developer.chrome.com/blog/new-in-devtools-101/#hwb)\n",
+    "Notes": "1. In the **Styles** pane, hold the `Shift` key and click on any color preview to change the color format. The HWB color format is added.\n2. Alternatively, you can change the color format to HWB in the [color picker](https://developer.chrome.com/docs/devtools/css/reference/#color-picker).\n",
+    "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1650206557/Images/edit-hwb-color-format-chrome.png",
+    "Name": "Change color format",
+    "Version": "101+",
+    "Platform": [
+      "MacOS",
+      "Windows",
+      "Linux"
+    ]
+  },
+  "Firefox": {
+    "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1654358220/Images/hwb-color-format-firefox_lt8n8c.png",
+    "Platform": [
+      "MacOS",
+      "Windows",
+      "Linux"
+    ],
+    "Notes": "1. In the **Styles** pane, hold the `Shift` key and click on any color preview to change the color format. The HWB color format is added.\n2. It is also available as an [optional default](https://firefox-source-docs.mozilla.org/devtools-user/settings/index.html#inspector).\n",
+    "References": "\n",
+    "Name": "Change color format"
+  },
+  "Edge": {
+    "Notes": "1. In the **Styles** pane, hold the `Shift` key and click on any color preview to change the color format. The HWB color format is added.\n2. Alternatively, you can change the color format to HWB in the [color picker](https://developer.chrome.com/docs/devtools/css/reference/#color-picker).\n\n",
+    "Platform": [
+      "MacOS",
+      "Windows",
+      "Linux"
+    ],
+    "Name": "Change color format"
+  },
+  "Opera": {
+    "References": "\n",
+    "Platform": [
+      "MacOS",
+      "Windows",
+      "Linux"
+    ],
+    "Notes": "1. In the **Styles** pane, hold the `Shift` key and click on any color preview to change the color format. The HWB color format is added.\n2. Alternatively, you can change the color format to HWB in the [color picker](https://developer.chrome.com/docs/devtools/css/reference/#color-picker).\n",
+    "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1650206557/Images/edit-hwb-color-format-chrome.png",
+    "Name": "Change color format"
+  }
+}
