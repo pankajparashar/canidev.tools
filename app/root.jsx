@@ -156,7 +156,10 @@ export default function App() {
 	};
 
   return (
-    <html lang="en">
+    <html lang="en" style={{
+		backgroundColor: colorScheme === 'dark' ? '#000' : '#fff',
+		color: colorScheme === 'dark' ? '#fff' : '#000',
+	}}>
       <head>
         <StylesPlaceholder />
         <meta charSet="utf-8" />
@@ -177,9 +180,6 @@ export default function App() {
         >
           <Box className="grid" 
 		  	sx={theme => ({
-			  backgroundColor: theme.colorScheme === 'dark' ? '#000' : '#fff',
-			  color: theme.colorScheme === 'dark' ? '#fff' : '#000',
-			  height: "100%"
 		  })}>
             <Box
               sx={(theme) => ({

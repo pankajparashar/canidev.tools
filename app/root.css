@@ -1,4 +1,3 @@
-html, body { height: 100%; }
 body {
   font-feature-settings: 'ss01', 'ss02', 'ss12', 'zero';
   overflow: visible;
