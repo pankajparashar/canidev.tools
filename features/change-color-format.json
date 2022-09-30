@@ -3,7 +3,8 @@
   "Slug": "change-color-format",
   "Description": "Can I change authored color format to other formats like hsl, hwb etc?",
   "Category": "CSS",
-  "LastModifiedTime": "2022-09-29T14:42:11.000Z",
+  "Newsletter": "tips-and-tricks-20",
+  "LastModifiedTime": "2022-09-30T10:28:04.000Z",
   "Author": "@pankajparashar",
   "Chrome": {
     "Share": "https://twitter.com/CanIDevTools/status/1575491269878775811",
@@ -27,12 +28,12 @@
       "Windows",
       "Linux"
     ],
+    "Share": "https://twitter.com/CanIDevTools/status/1575495821470343176",
     "Notes": "1. In the **Rules** pane, hold the `Shift` key and click on any color preview to change the color format.\n2. It is also available as an [optional default](https://firefox-source-docs.mozilla.org/devtools-user/settings/index.html#inspector).\n",
+    "GIF": "https://res.cloudinary.com/canidevtools/image/upload/v1664462077/change-color-format-firefox_xxnoro.gif",
     "References": "\n",
     "Name": "Change color format",
-    "GIF": "https://res.cloudinary.com/canidevtools/image/upload/v1664462077/change-color-format-firefox_xxnoro.gif",
-    "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1664462075/change-color-format-firefox_kakch4.mp4",
-    "Share": "https://twitter.com/CanIDevTools/status/1575495821470343176"
+    "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1664462075/change-color-format-firefox_kakch4.mp4"
   },
   "Edge": {
     "Notes": "1. In the **Styles** pane, hold the `Shift` key and click on the color preview box to cycle through the various color formats like `rgb`, `hsl`, and `hwb`.\n2. Alternatively, you can change the color format in the [color picker](https://developer.chrome.com/docs/devtools/css/reference/#color-picker) using the up-down arrow keys.\n",
@@ -46,7 +47,9 @@
   },
   "Opera": {
     "References": "\n",
+    "GIF": "https://res.cloudinary.com/canidevtools/image/upload/v1664460672/change-color-format-chrome_pxnovr.gif",
     "Share": "https://twitter.com/CanIDevTools/status/1575491269878775811",
+    "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1664460672/change-color-format-chrome_p9wek7.mp4",
     "Platform": [
       "MacOS",
       "Windows",
@@ -54,8 +57,6 @@
     ],
     "Notes": "1. In the **Styles** pane, hold the `Shift` key and click on the color preview box to cycle through the various color formats like `rgb`, `hsl`, and `hwb`.\n2. Alternatively, you can change the color format in the [color picker](https://developer.chrome.com/docs/devtools/css/reference/#color-picker) using the up-down arrow keys.\n",
     "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1664460671/change-color-format-chrome_xagynz.png",
-    "Name": "Change color format",
-    "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1664460672/change-color-format-chrome_p9wek7.mp4",
-    "GIF": "https://res.cloudinary.com/canidevtools/image/upload/v1664460672/change-color-format-chrome_pxnovr.gif"
+    "Name": "Change color format"
   }
 }
