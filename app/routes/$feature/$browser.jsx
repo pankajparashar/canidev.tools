@@ -115,7 +115,9 @@ export default function Browser() {
         	{feature[browser].GIF ? <Image fit="contain" src={feature[browser].GIF} key={feature[browser].GIF} /> : <Image withPlaceholder height={200} fit="contain" />}
         </Tabs.Panel>
 		<Tabs.Panel value="mp4" sx={() => ({ position: "relative" })}>
-			{feature[browser].MP4 ? <video controls autoplay loop muted playsinline preload="metadata" key={feature[browser].MP4} src={feature[browser].MP4 + "#t=0.1"} /></video> : <Image withPlaceholder height={200} />}
+			{feature[browser].MP4 ? 
+				<video controls autoPlay loop muted playsInline preload="metadata" key={feature[browser].MP4} src={feature[browser].MP4 + "#t=0.1"} /> : 
+				<Image withPlaceholder height={200} />}
         </Tabs.Panel>
       </Tabs>
       <Divider />
