@@ -1,0 +1,37 @@
+{
+  "Name": "Change devtools language",
+  "Slug": "change-devtools-language",
+  "Description": "Can I change devtools language to another language which is not English?",
+  "Category": "Other",
+  "LastModifiedTime": "2022-10-02T14:43:08.000Z",
+  "Author": "@pankajparashar",
+  "Chrome": {
+    "Name": "Change devtools language",
+    "Notes": "1. Open **Settings** (`F1` or `Shift+?`) > Preferences > In the **Appearance** section, choose a language from the **Language** dropdown > Reload DevTools to apply the new language.\n",
+    "Platform": [
+      "MacOS",
+      "Windows",
+      "Linux"
+    ],
+    "References": "1. \"What's new in DevTools?\" - Chrome DevTools [Blog](https://developer.chrome.com/en/blog/new-in-devtools-94/#localized)\n",
+    "Version": "94+"
+  },
+  "Edge": {
+    "Name": "Change devtools language",
+    "Notes": "1. Open **Settings** (`F1` or `Shift+?`) > Preferences > In the **Appearance** section, choose a language from the **Language** dropdown > Reload DevTools to apply the new language.\n",
+    "Platform": [
+      "MacOS",
+      "Windows",
+      "Linux"
+    ]
+  },
+  "Opera": {
+    "Name": "Change devtools language",
+    "Notes": "1. Open **Settings** (`F1` or `Shift+?`) > Preferences > In the **Appearance** section, choose a language from the **Language** dropdown > Reload DevTools to apply the new language.\n",
+    "Platform": [
+      "MacOS",
+      "Windows",
+      "Linux"
+    ]
+  }
+}
