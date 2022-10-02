@@ -6,32 +6,32 @@
   "LastModifiedTime": "2022-10-02T14:43:08.000Z",
   "Author": "@pankajparashar",
   "Chrome": {
+    "References": "1. \"What's new in DevTools?\" - Chrome DevTools [Blog](https://developer.chrome.com/en/blog/new-in-devtools-94/#localized)\n",
+    "Notes": "1. Open **Settings** (`F1` or `Shift+?`) > Preferences > In the **Appearance** section, choose a language from the **Language** dropdown > Reload DevTools to apply the new language.\n",
     "Name": "Change devtools language",
+    "Version": "94+",
+    "Platform": [
+      "MacOS",
+      "Windows",
+      "Linux"
+    ]
+  },
+  "Edge": {
     "Notes": "1. Open **Settings** (`F1` or `Shift+?`) > Preferences > In the **Appearance** section, choose a language from the **Language** dropdown > Reload DevTools to apply the new language.\n",
     "Platform": [
       "MacOS",
       "Windows",
       "Linux"
     ],
-    "References": "1. \"What's new in DevTools?\" - Chrome DevTools [Blog](https://developer.chrome.com/en/blog/new-in-devtools-94/#localized)\n",
-    "Version": "94+"
-  },
-  "Edge": {
-    "Name": "Change devtools language",
-    "Notes": "1. Open **Settings** (`F1` or `Shift+?`) > Preferences > In the **Appearance** section, choose a language from the **Language** dropdown > Reload DevTools to apply the new language.\n",
-    "Platform": [
-      "MacOS",
-      "Windows",
-      "Linux"
-    ]
+    "Name": "Change devtools language"
   },
   "Opera": {
-    "Name": "Change devtools language",
-    "Notes": "1. Open **Settings** (`F1` or `Shift+?`) > Preferences > In the **Appearance** section, choose a language from the **Language** dropdown > Reload DevTools to apply the new language.\n",
     "Platform": [
       "MacOS",
       "Windows",
       "Linux"
-    ]
+    ],
+    "Notes": "1. Open **Settings** (`F1` or `Shift+?`) > Preferences > In the **Appearance** section, choose a language from the **Language** dropdown > Reload DevTools to apply the new language.\n",
+    "Name": "Change devtools language"
   }
 }
