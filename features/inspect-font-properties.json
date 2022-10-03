@@ -1,0 +1,24 @@
+{
+  "Name": "Inspect Font properties",
+  "Slug": "inspect-font-properties",
+  "Description": "Can I inspect and edit various CSS font properties like, font-size, line-height etc?",
+  "Category": "CSS",
+  "LastModifiedTime": "2022-10-03T14:46:47.000Z",
+  "Author": "@pankajparashar",
+  "Chrome": {
+    "Name": "Inspect Font properties",
+    "Notes": "1. **Settings** (`F1` or `Shift+?`) > Experiments > Check the \"Enable the new Font Editor tool within the Styles pane\" box > Reload.\n2. In the **Styles** pane, click the \"AA\" icon in the bottom right of the selector box to open the **Font Editor** tool which allows you to tweak various font properties.\n"
+  },
+  "Firefox": {
+    "Name": "Inspect Font properties",
+    "Notes": "1. Inspect the element using font properties > Navigate to the **Fonts** pane in the sidebar > Use the editor tool to tweak the various font properties.\n"
+  },
+  "Edge": {
+    "Name": "Inspect Font properties",
+    "Notes": "1. **Settings** (`F1` or `Shift+?`) > Experiments > Check the \"Enable the new Font Editor tool within the Styles pane\" box > Reload.\n2. In the **Styles** pane, click the \"AA\" icon in the bottom right of the selector box to open the Font Editor tool which allows you to tweak various font properties.\n"
+  },
+  "Opera": {
+    "Name": "Inspect Font properties",
+    "Notes": "1. Settings (`F1` or `Shift+?`) > Experiments > Check the \"Enable the new Font Editor tool within the Styles pane\" box > Reload.\n2. In the Styles pane, click the \"AA\" icon in the bottom right of the selector box to open the Font Editor tool which allows you to tweak various font properties.\n"
+  }
+}
