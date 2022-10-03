@@ -83,13 +83,6 @@ export default function Browser() {
         >
           {browser.toLocaleUpperCase()}
         </Button>
-        <Group spacing="xs">
-          <ThemeIcon color={feature[browser].Platform.includes("Windows") ? "" : "gray.2"} variant="subtle"><IconBrandWindows stroke="1.5" size="20" /></ThemeIcon>
-          <Divider orientation="vertical" />
-          <IconBrandApple stroke="1.5" size="20" />
-          <Divider orientation="vertical" />
-          <ThemeIcon color={feature[browser].Platform.includes("Linux") ? "" : "gray.2"} variant="subtle"><IconBrandUbuntu stroke="1.5" size="20" /></ThemeIcon>
-        </Group>
         <Button
           size="xs"
           radius="xs"
@@ -101,25 +94,12 @@ export default function Browser() {
           Share
         </Button>
       </Group>
-      <Divider />
-      <Tabs color="dark" defaultValue="png">
-        <Tabs.List>
-          <Tabs.Tab value="png">PNG</Tabs.Tab>
-          <Tabs.Tab value="gif">GIF</Tabs.Tab>
-          <Tabs.Tab value="mp4">MP4</Tabs.Tab>
-        </Tabs.List>
-        <Tabs.Panel value="png" sx={() => ({ position: "relative" })}>
-			{feature[browser].PNG ? <Image fit="contain" src={feature[browser].PNG} key={feature[browser].PNG} /> : <Image withPlaceholder height={200} fit="contain" />}
-        </Tabs.Panel>
-		<Tabs.Panel value="gif" sx={() => ({ position: "relative" })}>
-        	{feature[browser].GIF ? <Image fit="contain" src={feature[browser].GIF} key={feature[browser].GIF} /> : <Image withPlaceholder height={200} fit="contain" />}
-        </Tabs.Panel>
-		<Tabs.Panel value="mp4" sx={() => ({ position: "relative" })}>
+	  	<Divider />
+		<Box sx={() => ({ position: "relative" })}> 
 			{feature[browser].MP4 ? 
 				<video controls autoPlay loop muted playsInline preload="metadata" key={feature[browser].MP4} src={feature[browser].MP4 + "#t=0.1"} /> : 
 				<Image withPlaceholder height={200} />}
-        </Tabs.Panel>
-      </Tabs>
+		</Box>
       <Divider />
       <Accordion
         defaultValue="notes"
@@ -140,7 +120,7 @@ export default function Browser() {
           >
             <Group position="apart">
                 <Text weight="700" size="sm">
-                  Notes {feature[browser].Version ? `(${feature[browser].Version})` : ``}
+                  Notes
                 </Text>
                 
             </Group>
