@@ -8,30 +8,15 @@
   "Chrome": {
     "Notes": "1. With the devtools already open, press `Cmd+Shift+I `or `Ctrl+Shift+I` to  inspect the devtools panel itself using new instance of devtools.\n2. Important to note, you can keep using this shortcut to inspecting new instance of devtools recursively.\n",
     "Name": "Inspect the devtools",
-    "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1657547779/Videos/inspect-devtools-chrome_txsfxd.mp4",
-    "Platform": [
-      "MacOS",
-      "Windows",
-      "Linux"
-    ]
+    "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1657547779/Videos/inspect-devtools-chrome_txsfxd.mp4"
   },
   "Edge": {
     "Notes": "1. With the devtools already open, press `Cmd+Shift+I `or `Ctrl+Shift+I` to  inspect the devtools panel itself using new instance of devtools.\n2. Important to note, you can keep using this shortcut to inspecting new instance of devtools recursively.\n",
-    "Platform": [
-      "MacOS",
-      "Windows",
-      "Linux"
-    ],
     "Name": "Inspect the devtools",
     "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1657547786/Videos/inspect-devtools-edge_ohfaqz.mp4"
   },
   "Opera": {
     "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1657547785/Videos/inspect-devtools-opera_ixertt.mp4",
-    "Platform": [
-      "MacOS",
-      "Windows",
-      "Linux"
-    ],
     "Notes": "1. With the devtools already open, press `Cmd+Shift+I `or `Ctrl+Shift+I` to  inspect the devtools panel itself using new instance of devtools.\n2. Important to note, you can keep using this shortcut to inspecting new instance of devtools recursively.\n",
     "Name": "Inspect the devtools"
   }

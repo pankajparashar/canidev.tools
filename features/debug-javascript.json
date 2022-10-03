@@ -9,12 +9,7 @@
     "References": "[1] \"Debug JavaScript\", by Chrome DevTools [Docs](https://developer.chrome.com/docs/devtools/javascript/)\n",
     "Notes": "1. In the **Sources** tab, open the `.js` file from the **Page** panel in the left sidebar. Set a breakpoint by clicking on the line number.\n2. Perform the action necessary to trigger that line of code, which will pause the execution at the breakpoint.\n3. Use the toolbar on the right sidebar to step-in/step-out, watch expressions, local vars while debugging through the code.\n4. Alternatively, you can also add the `debugger;` statement in the code to pause execution of the code at that line.\n",
     "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1657687612/Images/debug-javascript-chrome_msukuu.png",
-    "Name": "Debug JavaScript",
-    "Platform": [
-      "MacOS",
-      "Windows",
-      "Linux"
-    ]
+    "Name": "Debug JavaScript"
   },
   "Firefox": {
     "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1657688051/Images/debug-javascript-firefox_azijau.png",
@@ -24,11 +19,6 @@
   },
   "Edge": {
     "Notes": "1. In the **Sources** tab, open the `.js` file from the **Page** panel in the left sidebar. Set a breakpoint by clicking on the line number.\n2. Perform the action necessary to trigger that line of code, which will pause the execution at the breakpoint.\n3. Use the toolbar on the right sidebar to step-in/step-out, watch expressions, local vars while debugging through the code.\n4. Alternatively, you can also add the `debugger;` statement in the code to pause execution of the code at that line.\n",
-    "Platform": [
-      "MacOS",
-      "Windows",
-      "Linux"
-    ],
     "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1657687676/Images/debug-javascript-edge_sqsjbk.png",
     "Name": "Debug JavaScript",
     "References": "[1] \"Use Debugger pane\", by Edge DevTools [Docs](https://docs.microsoft.com/en-us/microsoft-edge/devtools-guide-chromium/sources/#using-the-debugger-pane-to-debug-javascript-code)\n"
@@ -36,18 +26,10 @@
   "Safari": {
     "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1657688426/Images/debug-javascript-safari_dcegsm.png",
     "Name": "Debug JavaScript",
-    "Platform": [
-      "MacOS"
-    ],
     "References": "[1] \"Debugging JavaScript\", by [Webkit](https://webkit.org/web-inspector/sources-tab/#debugging-javascript)\n",
     "Notes": "1. In the **Sources** tab, open the `.js` file from the the left sidebar. Set a breakpoint by clicking on the line number.\n2. Perform the action necessary to trigger that line of code, which will pause the execution at the breakpoint.\n3. Once activated, use the toolbar on the left sidebar (top) to step-in/step-out, watch expressions, local vars while debugging through the code.\n4. Alternatively, you can also add the `debugger;` statement in the code to pause execution of the code at that line.\n"
   },
   "Opera": {
-    "Platform": [
-      "MacOS",
-      "Windows",
-      "Linux"
-    ],
     "Notes": "1. In the **Sources** tab, open the `.js` file from the **Page** panel in the left sidebar. Set a breakpoint by clicking on the line number.\n2. Perform the action necessary to trigger that line of code, which will pause the execution at the breakpoint.\n3. Use the toolbar on the right sidebar to step-in/step-out, watch expressions, local vars while debugging through the code.\n4. Alternatively, you can also add the `debugger;` statement in the code to pause execution of the code at that line.\n",
     "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1657687705/Images/debug-javascript-opera_f4grpq.png",
     "Name": "Debug JavaScript"

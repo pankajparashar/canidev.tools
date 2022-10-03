@@ -7,28 +7,13 @@
   "Author": "@pankajparashar",
   "Chrome": {
     "Notes": "1. Inspect an element > Navigate to the styles section (next to the DOM tree).\n2. Add new styles by directly entering the values like \"bold\", \"italic\" etc., and the devtools will automatically suggest the corresponding `<attribute>: <value>` pair for the given input.\n",
-    "Name": "Autocomplete styles using values",
-    "Platform": [
-      "MacOS",
-      "Windows",
-      "Linux"
-    ]
+    "Name": "Autocomplete styles using values"
   },
   "Edge": {
     "Notes": "1. Inspect an element > Navigate to the styles section (next to the DOM tree).\n2. Add new styles by directly entering the values like \"bold\", \"italic\" etc., and the devtools will automatically suggest the corresponding `<attribute>: <value>` pair for the given input.\n",
-    "Platform": [
-      "MacOS",
-      "Windows",
-      "Linux"
-    ],
     "Name": "Autocomplete styles using values"
   },
   "Opera": {
-    "Platform": [
-      "MacOS",
-      "Windows",
-      "Linux"
-    ],
     "Notes": "1. Inspect an element > Navigate to the styles section (next to the DOM tree).\n2. Add new styles by directly entering the values like \"bold\", \"italic\" etc., and the devtools will automatically suggest the corresponding `<attribute>: <value>` pair for the given input.\n",
     "Name": "Autocomplete styles using values"
   }

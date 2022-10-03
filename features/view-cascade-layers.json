@@ -10,13 +10,7 @@
     "References": "1. \"What's New In DevTools (Chrome 101)\" - [Chrome Developers](https://developer.chrome.com/blog/new-in-devtools-101/#layer)\n2. \"CSS Cascade Layer Demo\" - [Jecelyn Yeen](https://jec.fyi/demo/cascade-layer)\n",
     "Notes": "1. Inspect the element that is part of the `@layer`. In the **Styles** pane, each layer and its corresponding styles are visible.\n2. Clicking on the layer name will reveal the **CSS layers** section at the top which will contain the layer order, that drives the specificity.\n",
     "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1650106683/Images/view-cascade-layers-chrome.png",
-    "Name": "View cascade layers",
-    "Version": "101+",
-    "Platform": [
-      "MacOS",
-      "Windows",
-      "Linux"
-    ]
+    "Name": "View cascade layers"
   },
   "Firefox": {
     "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1654934503/Images/view-cascade-layers-firefox_ml4ffn.png",
@@ -27,11 +21,6 @@
   },
   "Edge": {
     "Notes": "1. Inspect the element that is part of the `@layer`. In the **Styles** pane, each layer and its corresponding styles are visible.\n2. Clicking on the layer name will reveal the **CSS layers** section at the top which will contain the layer order, that drives the specificity.\n",
-    "Platform": [
-      "MacOS",
-      "Windows",
-      "Linux"
-    ],
     "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1654934824/Images/view-cascade-layers-edge_tmgkiy.png",
     "Share": "https://twitter.com/CanIDevTools/status/1535572456513187841",
     "Name": "View cascade layers",
@@ -41,19 +30,11 @@
     "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1654934251/Images/view-cascade-layers-safari_tqe4g7.png",
     "Share": "https://twitter.com/CanIDevTools/status/1535573170337501185",
     "Name": "View cascade layers",
-    "Platform": [
-      "MacOS"
-    ],
     "References": "1. \"CSS Cascade Layer Demo\" - [Jecelyn Yeen](https://jec.fyi/demo/cascade-layer)\n\n",
     "Notes": "1. Inspect the element that is part of the `@layer`. In the Styles pane, each layer and its corresponding styles are visible.\n"
   },
   "Opera": {
     "References": "\n",
-    "Platform": [
-      "MacOS",
-      "Windows",
-      "Linux"
-    ],
     "Notes": "1. Inspect the element that is part of the `@layer`. In the **Styles** pane, each layer and its corresponding styles are visible.\n2. Clicking on the layer name will reveal the **CSS layers** section at the top which will contain the layer order, that drives the specificity.\n",
     "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1650106683/Images/view-cascade-layers-chrome.png",
     "Name": "View cascade layers"

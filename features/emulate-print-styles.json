@@ -7,12 +7,7 @@
   "Author": "@pankajparashar",
   "Chrome": {
     "Notes": "1. Launch devtools > Open \"Command Menu\" using `Cmd+Shift+P` (Mac) or `Ctrl+Shift+P` (Windows, Linux, Chrome OS).\n2. Search for \"Show Rendering\" and press Enter (this will open the Rendering panel next to the Console).\n3. Scroll down to the section \"Emulate CSS Media Type\" and select \"print\".\n",
-    "Name": "Emulate print styles",
-    "Platform": [
-      "MacOS",
-      "Windows",
-      "Linux"
-    ]
+    "Name": "Emulate print styles"
   },
   "Firefox": {
     "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1654441224/Images/emulate-print-styles-firefox_acydt8.png",
@@ -22,26 +17,13 @@
   },
   "Edge": {
     "Notes": "1. Launch devtools > Open \"Command Menu\" using `Cmd+Shift+P` (Mac) or `Ctrl+Shift+P` (Windows, Linux, Chrome OS).\n2. Search for \"Show Rendering\" and press Enter (this will open the Rendering panel next to the Console).\n3. Scroll down to the section \"Emulate CSS Media Type\" and select \"print\".\n",
-    "Platform": [
-      "MacOS",
-      "Windows",
-      "Linux"
-    ],
     "Name": "Emulate print styles"
   },
   "Safari": {
     "Name": "Emulate print styles",
-    "Platform": [
-      "MacOS"
-    ],
     "Notes": "1. Launch devtools > Select the body `DOM` element, and click on the \"Printer\" icon to force the page to use print media styles\n"
   },
   "Opera": {
-    "Platform": [
-      "MacOS",
-      "Windows",
-      "Linux"
-    ],
     "Notes": "1. Launch devtools > Open \"Command Menu\" using `Cmd+Shift+P` (Mac) or `Ctrl+Shift+P` (Windows, Linux, Chrome OS).\n2. Search for \"Show Rendering\" and press Enter (this will open the Rendering panel next to the Console).\n3. Scroll down to the section \"Emulate CSS Media Type\" and select \"print\".\n",
     "Name": "Emulate print styles"
   }

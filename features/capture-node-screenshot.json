@@ -9,12 +9,7 @@
     "Share": "https://twitter.com/CanIDevTools/status/1539620297258975232",
     "Notes": "1. Inspect element > Right click on the node in the DOM tree and select \"Capture node screenshot\".\n2. Chrome retains visible background colour of elements with no background colour applied.\n",
     "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1655908440/Images/capture-node-screenshot-chrome_r4tc3g.png",
-    "Name": "Capture node screenshot",
-    "Platform": [
-      "MacOS",
-      "Windows",
-      "Linux"
-    ]
+    "Name": "Capture node screenshot"
   },
   "Firefox": {
     "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1655908440/Images/capture-node-screenshot-firefox_wy6t4m.png",
@@ -24,11 +19,6 @@
   },
   "Edge": {
     "Notes": "1. Inspect element > Right click on the node in the DOM tree and click \"Capture node screenshot\"\n",
-    "Platform": [
-      "MacOS",
-      "Windows",
-      "Linux"
-    ],
     "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1655908441/Images/capture-node-screenshot-edge_hjfz0w.png",
     "Share": "https://twitter.com/CanIDevTools/status/1539621151215058945",
     "Name": "Capture node screenshot"
@@ -37,18 +27,10 @@
     "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1655908440/Images/capture-node-screenshot-safari_barnqy.png",
     "Share": "https://twitter.com/CanIDevTools/status/1539621556670066689",
     "Name": "Capture node screenshot",
-    "Platform": [
-      "MacOS"
-    ],
     "Notes": "1. Inspect element > Right click on the node in the DOM tree and click on \"Capture Screenshot\". \n2. Safari preserves transparency for the elements with no applied background colour.\n"
   },
   "Opera": {
     "Share": "https://twitter.com/CanIDevTools/status/1539621846941061120",
-    "Platform": [
-      "MacOS",
-      "Windows",
-      "Linux"
-    ],
     "Notes": "1. Inspect element > Right click on the node in the DOM tree and select \"Capture node screenshot\".\n",
     "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1655908440/Images/capture-node-screenshot-opera_wlxpbg.png",
     "Name": "Capture node screenshot"

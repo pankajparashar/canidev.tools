@@ -1,0 +1,20 @@
+{
+  "Name": "Inspect CSS angles",
+  "Slug": "inspect-css-angles",
+  "Description": "Can I inspect & tweak the CSS angle unit values applied to a property? ",
+  "Category": "CSS",
+  "LastModifiedTime": "2022-10-03T06:55:43.000Z",
+  "Author": "@pankajparashar",
+  "Chrome": {
+    "Name": "Inspect CSS angles",
+    "Notes": "1. Inspect the element using CSS angle unit values > Styles > Click the icon next to the angle unit to open a visual editor to apply the angle value.\n"
+  },
+  "Edge": {
+    "Name": "Inspect CSS angles",
+    "Notes": "1. Inspect the element using CSS angle unit values > Styles > Click the icon next to the angle unit to open a visual editor to apply the angle value.\n\n"
+  },
+  "Opera": {
+    "Name": "Inspect CSS angles",
+    "Notes": "1. Inspect the element using CSS angle unit values > Styles > Click the icon next to the angle unit to open a visual editor to apply the angle value.\n\n"
+  }
+}

@@ -7,12 +7,7 @@
   "Author": "@pankajparashar",
   "Chrome": {
     "Notes": "1. Inspect the element > Navigate to the Computed tab in the panel next to the DOM tree.\n2. Click the \"Show All\" checkbox to see all the inherited values.\n",
-    "Name": "View computed CSS properties",
-    "Platform": [
-      "MacOS",
-      "Windows",
-      "Linux"
-    ]
+    "Name": "View computed CSS properties"
   },
   "Firefox": {
     "Notes": "1. Inspect the element > Navigate to the Computed tab in the panel next to the DOM tree.\n2. Click the \"Browser Styles\" checkbox to see all the values inherited from the user agent.\n\n",
@@ -20,26 +15,13 @@
   },
   "Edge": {
     "Notes": "1. Inspect the element > Navigate to the Computed tab in the panel next to the DOM tree.\n2. Click the \"Show All\" checkbox to see all the inherited values.\n\n",
-    "Platform": [
-      "MacOS",
-      "Windows",
-      "Linux"
-    ],
     "Name": "View computed CSS properties"
   },
   "Safari": {
     "Name": "View computed CSS properties",
-    "Platform": [
-      "MacOS"
-    ],
     "Notes": "1. Inspect the element > Navigate to the Computed tab in the panel next to the DOM tree.\n2. Click the filter icon > Select \"Show All\" to see all the inherited values.\n\n"
   },
   "Opera": {
-    "Platform": [
-      "MacOS",
-      "Windows",
-      "Linux"
-    ],
     "Notes": "1. Inspect the element > Navigate to the Computed tab in the panel next to the DOM tree.\n2. Click the \"Show All\" checkbox to see all the inherited values.\n",
     "Name": "View computed CSS properties"
   }

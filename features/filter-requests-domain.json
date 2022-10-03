@@ -13,12 +13,7 @@
     "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1663731186/filter-requests-domain-chrome_oyiixx.png",
     "Name": "Filter requests by domain",
     "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1663731188/filter-requests-domain-chrome_sr5dpw.mp4",
-    "GIF": "https://res.cloudinary.com/canidevtools/image/upload/v1663731188/filter-requests-domain-chrome_n4kkj3.gif",
-    "Platform": [
-      "MacOS",
-      "Windows",
-      "Linux"
-    ]
+    "GIF": "https://res.cloudinary.com/canidevtools/image/upload/v1663731188/filter-requests-domain-chrome_n4kkj3.gif"
   },
   "Firefox": {
     "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1663742253/filter-requests-domain-firefox_epqs6m.png",
@@ -32,11 +27,6 @@
   "Edge": {
     "GIF": "https://res.cloudinary.com/canidevtools/image/upload/v1663745085/filter-requests-domain-edge_wxtmnk.gif",
     "Notes": "1. In **Network** > Enter `domain:` in the \"Filter\" field followed by the domain to filter the network requests on.\n2. **Filter** field also suggests the list of domain names to choose from.\n",
-    "Platform": [
-      "MacOS",
-      "Windows",
-      "Linux"
-    ],
     "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1663745085/filter-requests-domain-edge_vogjmi.png",
     "Share": "https://twitter.com/CanIDevTools/status/1572513134426071042",
     "Name": "Filter requests by domain",
@@ -47,11 +37,6 @@
     "GIF": "https://res.cloudinary.com/canidevtools/image/upload/v1663731188/filter-requests-domain-chrome_n4kkj3.gif",
     "Share": "https://twitter.com/CanIDevTools/status/1572513134426071042",
     "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1663731188/filter-requests-domain-chrome_sr5dpw.mp4",
-    "Platform": [
-      "MacOS",
-      "Windows",
-      "Linux"
-    ],
     "Notes": "1. In **Network** > Enter `domain:` in the \"Filter\" field followed by the domain to filter the network requests on.\n2. Filter field also suggests the list of domain names to choose from.\n\n",
     "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1663731186/filter-requests-domain-chrome_oyiixx.png",
     "Name": "Filter requests by domain"

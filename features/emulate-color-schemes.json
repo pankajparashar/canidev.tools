@@ -10,13 +10,7 @@
     "References": "\n",
     "Notes": "1. Open devtools > Inside the \"Styles\" pane, right next to the \"+\" button, click the Icon \"Toggle common rendering emulations\".\n2. Choose the `prefers-color-scheme` option to emulate the corresponding color scheme.\n",
     "Name": "Emulate color schemes",
-    "Version": "100+",
-    "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1649915966/Videos/emulate-color-schemes-chrome.mp4",
-    "Platform": [
-      "MacOS",
-      "Windows",
-      "Linux"
-    ]
+    "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1649915966/Videos/emulate-color-schemes-chrome.mp4"
   },
   "Firefox": {
     "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1654359452/Images/emulate-color-schemes-firefox_ooajmr.png",
@@ -26,31 +20,18 @@
   },
   "Edge": {
     "Notes": "1. Open devtools > Inside the \"Styles\" pane, right next to the \"+\" button, click the Icon \"Toggle common rendering emulations\".\n2. Choose the `prefers-color-scheme` option to emulate the corresponding color scheme.\n",
-    "Platform": [
-      "MacOS",
-      "Windows",
-      "Linux"
-    ],
     "Name": "Emulate color schemes"
   },
   "Safari": {
     "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1654696798/Images/emulate-color-schemes-safari_nvxakj.png",
     "Share": "https://twitter.com/CanIDevTools/status/1534536052563918850",
     "Name": "Emulate color schemes",
-    "Platform": [
-      "MacOS"
-    ],
     "References": "1. \"Disable Safari's Dark Mode\" - [StackOverflow](https://stackoverflow.com/questions/65588087/disable-safaris-dark-mode-independently-from-os-setting/65588220#65588220)\n2. \"Issue #16\" - Haroen Viaene ([@Haroenv](https://github.com/pankajparashar/canidev.tools/issues/16))\n",
     "Notes": "Open **Web Inspector** using `Cmd+Opt+I`. Look for the icon in the top right of the Elements panel, to toggle between \"Force Dark Appearance\" and \"Use Default Appearance\".\n"
   },
   "Opera": {
     "References": "\n",
     "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1649915966/Videos/emulate-color-schemes-chrome.mp4",
-    "Platform": [
-      "MacOS",
-      "Windows",
-      "Linux"
-    ],
     "Notes": "1. Open devtools > Inside the \"Styles\" pane, right next to the \"+\" button, click the Icon \"Toggle common rendering emulations\".\n2. Choose the `prefers-color-scheme` option to emulate the corresponding color scheme.\n",
     "Name": "Emulate color schemes"
   }

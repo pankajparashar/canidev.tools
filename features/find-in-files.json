@@ -11,12 +11,7 @@
     "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1658465803/find-in-files-chrome_rup38o.png",
     "Name": "Find in files",
     "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1658465804/find-in-files-chrome_ty4bkl.mp4",
-    "GIF": "https://res.cloudinary.com/canidevtools/image/upload/v1658465803/find-in-files-chrome_owsheq.gif",
-    "Platform": [
-      "MacOS",
-      "Windows",
-      "Linux"
-    ]
+    "GIF": "https://res.cloudinary.com/canidevtools/image/upload/v1658465803/find-in-files-chrome_owsheq.gif"
   },
   "Firefox": {
     "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1656489955/Images/search-files-sources-firefox_aivspt.png",
@@ -26,30 +21,17 @@
   "Edge": {
     "GIF": "https://res.cloudinary.com/canidevtools/image/upload/v1658470540/find-in-files-edge_rtpajt.gif",
     "Notes": "1. Open **Command** **Menu** (`Cmd+Shift+P` or `Ctrl+Shift+P`) > Run > \"Show Search\" (Drawer).\n2. Enter the search query in the text field and press `Enter` to search across all download resources.\n",
-    "Platform": [
-      "MacOS",
-      "Windows",
-      "Linux"
-    ],
     "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1658470539/find-in-files-edge_vq7q6k.png",
     "Name": "Find in files",
     "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1658470540/find-in-files-edge_fs5y4c.mp4"
   },
   "Safari": {
     "Name": "Find in files",
-    "Platform": [
-      "MacOS"
-    ],
     "Notes": "1. Anywhere in the web inspector, press `Cmd+Shift+F` to find in files for a specific keyword.\n"
   },
   "Opera": {
     "GIF": "https://res.cloudinary.com/canidevtools/image/upload/v1658470651/find-in-files-opera_otnahw.gif",
     "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1658470652/find-in-files-opera_vgbjjs.mp4",
-    "Platform": [
-      "MacOS",
-      "Windows",
-      "Linux"
-    ],
     "Notes": "1. Open **Command** **Menu** (`Cmd+Shift+P` or `Ctrl+Shift+P`) > Run > \"Show Search\" (Drawer).\n2. Enter the search query in the text field and press `Enter` to search across all download resources.\n",
     "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1658470651/find-in-files-opera_ym5a94.png",
     "Name": "Find in files"

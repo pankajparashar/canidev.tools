@@ -7,12 +7,7 @@
   "Author": "@pankajparashar",
   "Chrome": {
     "Notes": "1. Open devtools > Click on the Network panel (This will show a section containing table of network requests).\n",
-    "Name": "Inspect requests",
-    "Platform": [
-      "MacOS",
-      "Windows",
-      "Linux"
-    ]
+    "Name": "Inspect requests"
   },
   "Firefox": {
     "Notes": "1. Open devtools > Click on the Network panel (This will show a section containing table of network requests).\n",
@@ -20,26 +15,13 @@
   },
   "Edge": {
     "Notes": "1. Open devtools > Click on the Network panel (This will show a section containing table of network requests).\n",
-    "Platform": [
-      "MacOS",
-      "Windows",
-      "Linux"
-    ],
     "Name": "Inspect requests"
   },
   "Safari": {
     "Name": "Inspect requests",
-    "Platform": [
-      "MacOS"
-    ],
     "Notes": "1. Open devtools > Click on the Network panel (This will show a section containing table of network requests).\n"
   },
   "Opera": {
-    "Platform": [
-      "MacOS",
-      "Windows",
-      "Linux"
-    ],
     "Notes": "1. Open devtools > Click on the Network panel (This will show a section containing table of network requests).\n",
     "Name": "Inspect requests"
   }

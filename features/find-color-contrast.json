@@ -9,12 +9,7 @@
     "References": "[1] \"Color Picker\" - [Chrome DevTools Docs](https://developer.chrome.com/docs/devtools/css/reference/#color-picker)\n",
     "Notes": "1. Inspect element > In the **Styles** pane, click the color square next to the `color` property. This will open the color panel.\n2. Expand the \"Contrast Ratio\" section to see more details whether the color value meets the W3C recommendation.\n3. Use the \"reload\" icon next to AA/AAA to use the suggested color to fix the low color contrast ratio.\n",
     "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1656659871/Images/find-color-contrast-chrome_djvr0j.png",
-    "Name": "Find color contrast ratio",
-    "Platform": [
-      "MacOS",
-      "Windows",
-      "Linux"
-    ]
+    "Name": "Find color contrast ratio"
   },
   "Firefox": {
     "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1656665110/Images/find-color-contrast-firefox_pem6ic.png",
@@ -23,20 +18,10 @@
   },
   "Edge": {
     "Notes": "1. Inspect element > In the **Styles** pane, click the color square next to the `color` property. This will open the color panel.\n2. Expand the \"Contrast Ratio\" section to see more details whether the color value meets the W3C recommendation.\n3. Use the \"reload\" icon next to AA/AAA to use the suggested color to fix the low color contrast ratio.\n",
-    "Platform": [
-      "MacOS",
-      "Windows",
-      "Linux"
-    ],
     "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1656665110/Images/find-color-contrast-edge_gtgxse.png",
     "Name": "Find color contrast ratio"
   },
   "Opera": {
-    "Platform": [
-      "MacOS",
-      "Windows",
-      "Linux"
-    ],
     "Notes": "1. Inspect element > In the Styles pane, click the color square next to the `color` property. This will open the color panel.\n2. Expand the \"Contrast Ratio\" section to see more details whether the color value meets the W3C recommendation.\n3. Use the \"reload\" icon next to AA/AAA to use the suggested color to fix the low color contrast ratio.\n",
     "Name": "Find color contrast ratio"
   }

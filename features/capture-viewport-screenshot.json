@@ -7,12 +7,7 @@
   "Author": "@pankajparashar",
   "Chrome": {
     "Notes": "1. Open devtools > Launch Command menu > Search for \"Capture screenshot\".\n2. Press Enter to capture the screenshot of the viewport.\n",
-    "Name": "Capture viewport screenshot",
-    "Platform": [
-      "MacOS",
-      "Windows",
-      "Linux"
-    ]
+    "Name": "Capture viewport screenshot"
   },
   "Firefox": {
     "Notes": "1. Right click on the page > Click \"Take screenshot\"\n",
@@ -20,27 +15,14 @@
   },
   "Edge": {
     "Notes": "1. Open devtools > Open command menu > Search for \"Capture  screenshot\"\n",
-    "Platform": [
-      "MacOS",
-      "Windows",
-      "Linux"
-    ],
     "Name": "Capture viewport screenshot"
   },
   "Safari": {
     "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1657092052/Images/capture-screenshot-console-safari_jkubvl.png",
     "Name": "Capture viewport screenshot",
-    "Platform": [
-      "MacOS"
-    ],
     "Notes": "Use `console.screenshot()` to capture the screenshot of the viewport. \n"
   },
   "Opera": {
-    "Platform": [
-      "MacOS",
-      "Windows",
-      "Linux"
-    ],
     "Notes": "1. Open devtools > Launch Command menu > Search for \"Capture screenshot\".\n2. Press Enter to capture the screenshot of the viewport.\n",
     "Name": "Capture viewport screenshot"
   }

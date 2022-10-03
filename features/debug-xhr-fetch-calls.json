@@ -9,12 +9,7 @@
     "References": "1. \"Pause your code with breakpoints\" by [Chrome Developers](https://developer.chrome.com/docs/devtools/javascript/breakpoints/#xhr).\n",
     "Notes": "1. Click the **Sources** tab.\n2. Expand the **XHR Breakpoints** pane.\n3. Click **Add breakpoint**.\n4. Enter the string which you want to break on. DevTools pauses when this string is present anywhere in an XHR's request URL.\n5. Press Enter to confirm.\n",
     "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1654319643/Images/debug-fetch-calls-chrome_nmckil.png",
-    "Name": "Debug XHR & Fetch calls",
-    "Platform": [
-      "MacOS",
-      "Windows",
-      "Linux"
-    ]
+    "Name": "Debug XHR & Fetch calls"
   },
   "Firefox": {
     "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1654441592/Images/debug-fetch-calls-firefox_hjjf01.png",
@@ -24,30 +19,17 @@
   },
   "Edge": {
     "Notes": "1. Click the Sources tab.\n2. Expand the XHR Breakpoints pane.\n3. Click Add breakpoint.\n4. Enter the string which you want to break on. DevTools pauses when this string is present anywhere in an XHR's request URL.\n5. Press Enter to confirm.\n\n",
-    "Platform": [
-      "MacOS",
-      "Windows",
-      "Linux"
-    ],
     "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1654319881/Images/debug-fetch-calls-edge_prfzkq.png",
     "Name": "Debug XHR & Fetch calls"
   },
   "Safari": {
     "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1657088185/Images/debug-xhr-fetch-calls-safari_n8wjrh.png",
     "Name": "Debug XHR & Fetch calls",
-    "Platform": [
-      "MacOS"
-    ],
     "References": "[1] \"URL Breakpoints\" - [Webkit](https://webkit.org/web-inspector/url-breakpoints/)\n",
     "Notes": "1. In the **Sources** tab, click the \"+\" button in the left sidebar within the **Breakpoints** section > Select \"URL Breakpoint...\"\n2. Use the popup form to apply breakpoint on specific keywords and matching conditions.\n3. Alternatively, you can set breakpoint on all the requests by selecting \"All Requests\" after clicking the \"+\" button.\n"
   },
   "Opera": {
     "References": "\n",
-    "Platform": [
-      "MacOS",
-      "Windows",
-      "Linux"
-    ],
     "Notes": "1. Click the **Sources** tab.\n2. Expand the **XHR Breakpoints** pane.\n3. Click **Add breakpoint**.\n4. Enter the string which you want to break on. DevTools pauses when this string is present anywhere in an XHR's request URL.\n5. Press Enter to confirm.\n",
     "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1654319643/Images/debug-fetch-calls-chrome_nmckil.png",
     "Name": "Debug XHR & Fetch calls"

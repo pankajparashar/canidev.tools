@@ -11,12 +11,7 @@
     "References": "\n",
     "Notes": "1. Inspect the element > Right click on the node in the DOM tree > Copy > Copy full XPath\n",
     "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1656598177/Images/get-node-xpath-chrome_bramed.png",
-    "Name": "Get node XPath",
-    "Platform": [
-      "MacOS",
-      "Windows",
-      "Linux"
-    ]
+    "Name": "Get node XPath"
   },
   "Firefox": {
     "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1656598552/Images/get-node-xpath-firefox_os1mbo.png",
@@ -26,11 +21,6 @@
   },
   "Edge": {
     "Notes": "1. Inspect element > Right click on the node in the DOM tree > Copy > Copy full XPath\n",
-    "Platform": [
-      "MacOS",
-      "Windows",
-      "Linux"
-    ],
     "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1656598694/Images/get-node-xpath-edge_rrg9m4.png",
     "Share": "https://twitter.com/CanIDevTools/status/1542518234439892992",
     "Name": "Get node XPath"
@@ -39,18 +29,10 @@
     "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1656598830/Images/get-node-xpath-safari_umesel.png",
     "Share": "https://twitter.com/CanIDevTools/status/1542518565508874240",
     "Name": "Get node XPath",
-    "Platform": [
-      "MacOS"
-    ],
     "Notes": "1. Inspect element > Right click on the node in the DOM tree > Copy > XPath.\n"
   },
   "Opera": {
     "Share": "https://twitter.com/CanIDevTools/status/1542518884036911104",
-    "Platform": [
-      "MacOS",
-      "Windows",
-      "Linux"
-    ],
     "Notes": "1. Inspect the element > Right click on the node in the DOM tree > Copy > Copy full XPath\n\n",
     "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1656598950/Images/get-node-xpath-opera_seaeta.png",
     "Name": "Get node XPath"

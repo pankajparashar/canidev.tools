@@ -8,12 +8,7 @@
   "Chrome": {
     "Notes": "1. Open console using `Cmd+Opt+J` or `Ctrl+Shift+J` > Click on the gear icon in top right to open \"Console settings\".\n2. Check \"Preserve log\" to preserve log statements between page reloads.\n",
     "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1654358860/Images/preserve-console-logs-chrome_eydvl4.png",
-    "Name": "Preserve console logs",
-    "Platform": [
-      "MacOS",
-      "Windows",
-      "Linux"
-    ]
+    "Name": "Preserve console logs"
   },
   "Firefox": {
     "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1656472576/Images/preserve-console-logs-firefox_ojwlok.png",
@@ -22,11 +17,6 @@
   },
   "Edge": {
     "Notes": "1. Open console using `Cmd+Opt+J` or `Ctrl+Shift+J` > Click on the gear icon in top right to open \"Console settings\".\n2. Check \"Preserve log\" to preserve log statements between page reloads.\n\n",
-    "Platform": [
-      "MacOS",
-      "Windows",
-      "Linux"
-    ],
     "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1654358656/Images/preserve-console-logs-edge_ejv1re.png",
     "Name": "Preserve console logs",
     "References": "1. \"Issue #1\" by [@codepo8](https://github.com/pankajparashar/canidev.tools/issues/1).\n"
@@ -34,17 +24,9 @@
   "Safari": {
     "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1657089089/Images/preserve-console-logs-safari_ufbgus.png",
     "Name": "Preserve console logs",
-    "Platform": [
-      "MacOS"
-    ],
     "Notes": "1. In the **Console** tab, select the \"Preserve Log\" checkbox in the toolbar (top) to persist logs across page reloads.\n"
   },
   "Opera": {
-    "Platform": [
-      "MacOS",
-      "Windows",
-      "Linux"
-    ],
     "Notes": "1. Open console using `Cmd+Opt+J` or `Ctrl+Shift+J` > Click on the gear icon in top right to open \"Console settings\".\n2. Check \"Preserve log\" to preserve log statements between page reloads.\n",
     "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1654358860/Images/preserve-console-logs-chrome_eydvl4.png",
     "Name": "Preserve console logs"

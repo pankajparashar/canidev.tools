@@ -8,12 +8,7 @@
   "Chrome": {
     "Notes": "1. Open **Settings** (`Shift+?` or `F1`) > **Preferences** > Scroll down to the **Elements** section, and enable \"Show rulers on hover\".\n",
     "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1657256759/Images/show-rulers-hover-chrome_wlqsly.png",
-    "Name": "Show rulers on hover",
-    "Platform": [
-      "MacOS",
-      "Windows",
-      "Linux"
-    ]
+    "Name": "Show rulers on hover"
   },
   "Firefox": {
     "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1657256760/Images/show-rulers-hover-firefox_odobg2.png",
@@ -22,28 +17,15 @@
   },
   "Edge": {
     "Notes": "1. Open **Settings** (`Shift+?` or `F1`) > **Preferences** > Scroll down to the **Elements** section, and enable \"Show rulers on hover\".\n",
-    "Platform": [
-      "MacOS",
-      "Windows",
-      "Linux"
-    ],
     "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1657256759/Images/show-rulers-hover-edge_asl6ra.png",
     "Name": "Show rulers on hover"
   },
   "Safari": {
     "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1657256760/Images/show-rulers-hover-safari_mvh2th.png",
     "Name": "Show rulers on hover",
-    "Platform": [
-      "MacOS"
-    ],
     "Notes": "1. Open **Settings** (`Cmd+,`) > Elements > Enable \"Show page rulers and node border lines\"\n"
   },
   "Opera": {
-    "Platform": [
-      "MacOS",
-      "Windows",
-      "Linux"
-    ],
     "Notes": "1. Open Settings (`Shift+?` or `F1`) > Preferences > Scroll down to the Elements section, and enable \"Show rulers on hover\".\n\n",
     "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1657256759/Images/show-rulers-hover-opera_xjjdo7.png",
     "Name": "Show rulers on hover"

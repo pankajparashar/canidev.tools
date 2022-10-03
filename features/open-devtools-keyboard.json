@@ -10,12 +10,7 @@
     "References": "1. [Keyboard shortcuts](https://developer.chrome.com/docs/devtools/shortcuts/#open) by Chrome Developers\n",
     "Notes": "1. Launch Chrome > Press `F12`. Alternatively, you can also use `Cmd+Option+I` (on Mac) and `Ctrl+Shift+I` (on Windows/Linux) to open the last used panel.\n",
     "Name": "Open devtools with Keyboard",
-    "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1647768584/Videos/open-devtools-keyboard-chrome.mp4",
-    "Platform": [
-      "MacOS",
-      "Windows",
-      "Linux"
-    ]
+    "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1647768584/Videos/open-devtools-keyboard-chrome.mp4"
   },
   "Firefox": {
     "Notes": "1. Launch Firefox → Press `F12`.\n",
@@ -23,29 +18,16 @@
   },
   "Edge": {
     "Notes": "1. Launch Edge → Press `F12`.\n",
-    "Platform": [
-      "MacOS",
-      "Windows",
-      "Linux"
-    ],
     "Name": "Open devtools with a keyboard ",
     "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1647768584/open-devtools-keyboard-chrome.mp4"
   },
   "Safari": {
     "Name": "Open devtools with a keyboard ",
     "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1654919612/Videos/open-devtools-keyboard-safari_xzslhm.mp4",
-    "Platform": [
-      "MacOS"
-    ],
     "Notes": "In the menu bar, navigate to Safari > Preferences > Click on the **Advanced** tab, check \"Show Develop menu in menu bar\".\n\nPress `Option+Cmd+I` to open the devtools.\n"
   },
   "Opera": {
     "References": "\n",
-    "Platform": [
-      "MacOS",
-      "Windows",
-      "Linux"
-    ],
     "Notes": "1. Launch Chrome > Press `F12`. Alternatively, you can also use `Cmd+Option+I` (on Mac) and `Ctrl+Shift+I` (on Windows/Linux) to open the last used panel.\n",
     "Name": "Open devtools with Keyboard"
   }

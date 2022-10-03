@@ -13,21 +13,11 @@
     "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1663767293/inspect-box-shadow-chrome_qnlqjv.png",
     "Name": "Inspect Box shadow",
     "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1663767294/inspect-box-shadow-chrome_xdo6e7.mp4",
-    "GIF": "https://res.cloudinary.com/canidevtools/image/upload/v1663767304/inspect-box-shadow-chrome_l8mkyq.gif",
-    "Platform": [
-      "MacOS",
-      "Windows",
-      "Linux"
-    ]
+    "GIF": "https://res.cloudinary.com/canidevtools/image/upload/v1663767304/inspect-box-shadow-chrome_l8mkyq.gif"
   },
   "Edge": {
     "GIF": "https://res.cloudinary.com/canidevtools/image/upload/v1663775066/inspect-box-shadow-edge_a1zovn.gif",
     "Notes": "1. Inspect the element with box shadow > In the **Styles** pane, click the icon next to the `box-shadow` property to open the box shadow editor.\n2. Change the shadow properties:\n    - **Type** (only for `box-shadow`). Pick Outset or Inset.\n    - **X** and **Y** offsets. Drag the blue dot or specify values.\n    - **Blur**. Drag the slider or specify a value.\n    - **Spread** (only for `box-shadow`). Drag the slider or specify a value.\n",
-    "Platform": [
-      "MacOS",
-      "Windows",
-      "Linux"
-    ],
     "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1663775063/inspect-box-shadow-edge_l3faml.png",
     "Share": "https://twitter.com/CanIDevTools/status/1572808549335302144",
     "Name": "Inspect Box shadow",
@@ -37,11 +27,6 @@
     "GIF": "https://res.cloudinary.com/canidevtools/image/upload/v1663820925/inspect-box-shadow-opera_uodgqf.gif",
     "Share": "https://twitter.com/CanIDevTools/status/1572808549335302144",
     "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1663820923/inspect-box-shadow-opera_q51xcj.mp4",
-    "Platform": [
-      "MacOS",
-      "Windows",
-      "Linux"
-    ],
     "Notes": "1. Inspect the element with box shadow > In the **Styles** pane, click the icon next to the `box-shadow` property to open the box shadow editor.\n2. Change the shadow properties:\n    - **Type** (only for `box-shadow`). Pick Outset or Inset.\n    - **X and Y offsets**. Drag the blue dot or specify values.\n    - **Blur**. Drag the slider or specify a value.\n    - **Spread** (only for `box-shadow`). Drag the slider or specify a value.\n\n",
     "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1663820922/inspect-box-shadow-opera_xjkzhk.png",
     "Name": "Inspect Box shadow"

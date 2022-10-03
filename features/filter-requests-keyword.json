@@ -9,12 +9,7 @@
     "Share": "https://twitter.com/CanIDevTools/status/1535512330456408065",
     "Notes": "1. Open the **Network** tab > Use the \"Filter\" input field to filter network requests based on a specific keyword. \n2. Use the \"Invert\" checkbox to filter on requests which does not match the keyword.\n",
     "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1654920345/Images/filter-urls-chrome_wpwimv.png",
-    "Name": "Filter requests",
-    "Platform": [
-      "MacOS",
-      "Windows",
-      "Linux"
-    ]
+    "Name": "Filter requests"
   },
   "Firefox": {
     "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1654920345/Images/filter-urls-firefox_cujiyd.png",
@@ -25,11 +20,6 @@
   },
   "Edge": {
     "Notes": "1. Open the **Network** tab > Use the \"Filter\" input field to filter network requests based on a specific keyword. \n2. Use the \"Invert\" checkbox to filter on requests which does not match the keyword.\n",
-    "Platform": [
-      "MacOS",
-      "Windows",
-      "Linux"
-    ],
     "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1654920345/Images/filter-urls-edge_pgvzcx.png",
     "Name": "Filter requests"
   },
@@ -37,17 +27,9 @@
     "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1654920345/Images/filter-urls-safari_pkexce.png",
     "Share": "https://twitter.com/CanIDevTools/status/1535514483094917120",
     "Name": "Filter requests",
-    "Platform": [
-      "MacOS"
-    ],
     "Notes": "1. In the **Network** tab, use the \"Filter Full URL\" input field to filter network requests for a specific keyword.\n"
   },
   "Opera": {
-    "Platform": [
-      "MacOS",
-      "Windows",
-      "Linux"
-    ],
     "Notes": "1. Open the **Network** tab > Use the \"Filter\" input field to filter network requests based on a specific keyword. \n2. Use the \"Invert\" checkbox to filter on requests which does not match the keyword.\n",
     "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1654920345/Images/filter-urls-chrome_wpwimv.png",
     "Name": "Filter requests"

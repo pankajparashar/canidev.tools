@@ -12,12 +12,7 @@
     "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1658217180/override-useragent-chrome_sifuw6.png",
     "Name": "Override user agent",
     "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1658217034/override-useragent-chrome.mp4",
-    "GIF": "https://res.cloudinary.com/canidevtools/image/upload/v1658217026/override-useragent-chrome.gif",
-    "Platform": [
-      "MacOS",
-      "Windows",
-      "Linux"
-    ]
+    "GIF": "https://res.cloudinary.com/canidevtools/image/upload/v1658217026/override-useragent-chrome.gif"
   },
   "Firefox": {
     "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1658239684/override-useragent-firefox_zzm364.png",
@@ -30,11 +25,6 @@
   "Edge": {
     "GIF": "https://res.cloudinary.com/canidevtools/image/upload/v1658238521/override-useragent-edge_sopp3n.gif",
     "Notes": "1. Open **Command** **Menu** (`Cmd+Shift+P` or `Ctrl+Shift+P`) and Run > \"Show network conditions\". This will open the **Network** **conditions** drawer.\n2. In the **User** **agent** section, disable \"Use browser default\" and select the user agent from the list below or enter your own custom string.\n",
-    "Platform": [
-      "MacOS",
-      "Windows",
-      "Linux"
-    ],
     "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1658239629/override-useragent-edge_drhfyf.png",
     "Share": "https://twitter.com/CanIDevTools/status/1549716753059483653",
     "Name": "Override user agent",
@@ -47,20 +37,12 @@
     "Share": "https://twitter.com/CanIDevTools/status/1549717826813931520",
     "Name": "Override user agent",
     "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1658240814/override-useragent-safari_sjvc2m.mp4",
-    "Platform": [
-      "MacOS"
-    ],
     "Notes": "1. In the **Menu Bar**, Developer > User Agent > Select the user agent. Choose \"Other...\" to use a custom user agent string.\n"
   },
   "Opera": {
     "GIF": "https://res.cloudinary.com/canidevtools/image/upload/v1658218230/override-useragent-opera_y4qjdv.gif",
     "Share": "https://twitter.com/CanIDevTools/status/1549716753059483653",
     "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1658218233/override-useragent-opera_d1yhdc.mp4",
-    "Platform": [
-      "MacOS",
-      "Windows",
-      "Linux"
-    ],
     "Notes": "1. Open **Command** **Menu** (`Cmd+Shift+P` or `Ctrl+Shift+P`) and Run > \"Show network conditions\". This will open the **Network** **conditions** drawer.\n2. In the **User** **agent** section, disable \"Use browser default\" and select the user agent from the list below or enter your own custom string.\n",
     "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1658218229/override-useragent-opera_rrvzbf.png",
     "Name": "Override user agent"

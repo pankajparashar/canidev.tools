@@ -7,12 +7,7 @@
   "Author": "@pankajparashar",
   "Chrome": {
     "Notes": "1. Launch Chrome → Click on the vertical three dots icon (near top right of the window).\n2. Navigate to More Tools > Developer Tools.\n",
-    "Name": "Open devtools with a mouse",
-    "Platform": [
-      "MacOS",
-      "Windows",
-      "Linux"
-    ]
+    "Name": "Open devtools with a mouse"
   },
   "Firefox": {
     "Notes": "1. Launch Firefox → Click on the hamburger icon (near top right of the window).\n2. Navigate to \"More Tools\" > \"Web Developer Tools\".\n",
@@ -20,26 +15,13 @@
   },
   "Edge": {
     "Notes": "1. Launch Edge → Click on the horizontal three dots icon (near top right of the window).\n2. Navigate to More Tools > Developer Tools.\n",
-    "Platform": [
-      "MacOS",
-      "Windows",
-      "Linux"
-    ],
     "Name": "Open devtools with a mouse"
   },
   "Safari": {
     "Name": "Open devtools with a mouse",
-    "Platform": [
-      "MacOS"
-    ],
     "Notes": "1. Launch Safari → In the menu bar, navigate to Safari > Preferences → Click on the General tab, check \"Show Developer menu in menu bar\".\n2. Again in the menu bar, navigate to Develop > Show Web Inspector.\n"
   },
   "Opera": {
-    "Platform": [
-      "MacOS",
-      "Windows",
-      "Linux"
-    ],
     "Notes": "1. Launch Chrome → Click on the vertical three dots icon (near top right of the window).\n2. Navigate to More Tools > Developer Tools.\n",
     "Name": "Open devtools with a mouse"
   }

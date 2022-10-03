@@ -7,12 +7,7 @@
   "Author": "@pankajparashar",
   "Chrome": {
     "Notes": "Use the following options to discuss the new features and changes in the docs, or anything else related to DevTools.\n1. Submit a suggestion or feedback via [crbug.com](https://crbug.com/).\n2. Report a DevTools issue using the \"More options\" > Help > Report a DevTools issues in DevTools.\n3. Tweet at [@ChromeDevTools](https://twitter.com/intent/tweet?text=@ChromeDevTools).\n4. Leave comments on \"What's new in DevTools\" [YouTube videos](https://goo.gle/devtools-youtube).\n\n",
-    "Name": "Report feedback",
-    "Platform": [
-      "MacOS",
-      "Windows",
-      "Linux"
-    ]
+    "Name": "Report feedback"
   },
   "Firefox": {
     "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1654438503/Images/report-issues-firefox_e8i9ow.png",
@@ -23,22 +18,13 @@
   "Edge": {
     "GIF": "https://res.cloudinary.com/canidevtools/image/upload/v1658899044/report-feedback-edge_v0kqms.gif",
     "Notes": "1. Use the send [feedback](https://docs.microsoft.com/en-us/microsoft-edge/devtools-guide-chromium/contact#use-the-send-feedback-window) button (`Opt/Alt+Shift+I`) to report any issues encountered while using the DevTools.\n2. File issues on the Microsoft Edge DevTools [Github](https://github.com/MicrosoftEdge/DevTools) repository.\n3. Report Docs related bugs or issues on the Edge Developer [Github](https://github.com/MicrosoftDocs/edge-developer) repository.\n",
-    "Platform": [
-      "MacOS",
-      "Windows",
-      "Linux"
-    ],
     "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1658899834/report-feedback-edge_duzd5m.png",
-    "Version": "1+",
     "Name": "Report feedback",
     "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1658899044/report-feedback-edge_ij5qao.mp4",
     "References": "[1] \"Contact Edge DevTools team\", by Edge Devtools [Docs](https://docs.microsoft.com/en-us/microsoft-edge/devtools-guide-chromium/contact#use-the-send-feedback-window)\n"
   },
   "Safari": {
     "Name": "Report feedback",
-    "Platform": [
-      "MacOS"
-    ],
     "References": "[1] \"Reporting Bugs\" - [Webkit](https://webkit.org/reporting-bugs/)\n",
     "Notes": "1. File Webkit Inspector related bugs on Webkit [Bugzilla](https://webkit.org/new-inspector-bug) or report issues on the [Github](https://github.com/WebKit/WebKit) repository.\n"
   }

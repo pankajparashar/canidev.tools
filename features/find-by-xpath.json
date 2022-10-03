@@ -8,12 +8,7 @@
   "Chrome": {
     "Notes": "1. Open devtools using Cmd+Opt+I (on MacOS) or Ctrl+Shift+I (on Windows/Linux/ChromeOS) > Elements.\n2. Press Cmd+F or Ctrl+F to open the search bar at the bottom of the Elements panel.\n3. Enter XPath to find the element in the DOM node.\n",
     "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1654321897/Images/find-by-xpath-chrome_hxo4x6.png",
-    "Name": "Find by XPath",
-    "Platform": [
-      "MacOS",
-      "Windows",
-      "Linux"
-    ]
+    "Name": "Find by XPath"
   },
   "Firefox": {
     "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1654322083/Images/find-by-xpath-firefox_teauj8.png",
@@ -23,28 +18,15 @@
   },
   "Edge": {
     "Notes": "1. Open devtools using Cmd+Opt+I (on MacOS) or Ctrl+Shift+I (on Windows/Linux/ChromeOS) > Elements.\n2. Press Cmd+F or Ctrl+F to open the search bar at the bottom of the Elements panel.\n3. Enter XPath to find the element in the DOM node.\n\n",
-    "Platform": [
-      "MacOS",
-      "Windows",
-      "Linux"
-    ],
     "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1654322395/Images/find-by-xpath-edge_kvujxe.png",
     "Name": "Find by XPath"
   },
   "Safari": {
     "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1654322242/Images/find-by-xpath-safari_gbo8v3.png",
     "Name": "Find by XPath",
-    "Platform": [
-      "MacOS"
-    ],
     "Notes": "1. In the **Elements** tab, use `Cmd+F` or `Ctrl+F` to open the search bar at the top of the Elements panel.\n2. Enter the xpath to find the element in the DOM node.\n\n"
   },
   "Opera": {
-    "Platform": [
-      "MacOS",
-      "Windows",
-      "Linux"
-    ],
     "Notes": "1. Open devtools using Cmd+Opt+I (on MacOS) or Ctrl+Shift+I (on Windows/Linux/ChromeOS) > Elements.\n2. Press Cmd+F or Ctrl+F to open the search bar at the bottom of the Elements panel.\n3. Enter XPath to find the element in the DOM node.\n",
     "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1654321897/Images/find-by-xpath-chrome_hxo4x6.png",
     "Name": "Find by XPath"

@@ -12,30 +12,15 @@
     "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1659669025/clear-command-history-chrome_oolew7.png",
     "Name": "Clear command history",
     "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1659669026/clear-command-history-chrome_vmlcs6.mp4",
-    "GIF": "https://res.cloudinary.com/canidevtools/image/upload/v1659669026/clear-command-history-chrome_ekwdfn.gif",
-    "Platform": [
-      "MacOS",
-      "Windows",
-      "Linux"
-    ]
+    "GIF": "https://res.cloudinary.com/canidevtools/image/upload/v1659669026/clear-command-history-chrome_ekwdfn.gif"
   },
   "Edge": {
     "Notes": "In the **Console** tab, right click anywhere > select \"Clear console history\" to remove all the commands from its history.\n",
-    "Platform": [
-      "MacOS",
-      "Windows",
-      "Linux"
-    ],
     "Share": "https://twitter.com/CanIDevTools/status/1555394008456646656",
     "Name": "Clear command history"
   },
   "Opera": {
     "Share": "https://twitter.com/CanIDevTools/status/1555394008456646656",
-    "Platform": [
-      "MacOS",
-      "Windows",
-      "Linux"
-    ],
     "Notes": "In the **Console** tab, right click anywhere > select \"Clear console history\" to remove all the commands from its history.\n",
     "Name": "Clear command history"
   }

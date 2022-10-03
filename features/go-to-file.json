@@ -10,12 +10,7 @@
     "References": "\n",
     "Notes": "1. Run Command menu using `Cmd+Shift+P` (on Mac) or `Ctrl+Shift+P` (on Windows/Linux) > Type filename to filter on the matching files > Press `Enter`.\n",
     "Name": "Go to file",
-    "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1652108007/Videos/search-files-chrome.mp4",
-    "Platform": [
-      "MacOS",
-      "Windows",
-      "Linux"
-    ]
+    "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1652108007/Videos/search-files-chrome.mp4"
   },
   "Firefox": {
     "Notes": "1. In the **Debugger** tab, use `Cmd+P` or `Ctrl+P` to open the search panel where you can type keyword to search for matching filenames.\n2. Press `Enter` to trigger the search.\n",
@@ -23,28 +18,15 @@
   },
   "Edge": {
     "Notes": "1. Open devtools using `Cmd+Opt+I` (on Mac) or `Ctrl+Shift+I` (on Windows/Linux) > Sources.\n2. Run Command menu using `Cmd+Shift+P` (on Mac) or `Ctrl+Shift+P` (on Windows/Linux) > Type filename to filter on the matching files > Press `Enter`.\n\n",
-    "Platform": [
-      "MacOS",
-      "Windows",
-      "Linux"
-    ],
     "Name": "Go to file"
   },
   "Safari": {
     "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1657197452/Images/search-files-sources-safari_xhf8gr.png",
     "Name": "Go to file",
-    "Platform": [
-      "MacOS"
-    ],
     "Notes": "1. Anywhere in the web inspector, press `Cmd+P` to search for files matching the filename.\n"
   },
   "Opera": {
     "References": "\n",
-    "Platform": [
-      "MacOS",
-      "Windows",
-      "Linux"
-    ],
     "Notes": "1. Open devtools using `Cmd+Opt+I` (on Mac) or `Ctrl+Shift+I` (on Windows/Linux) > Sources.\n2. Run Command menu using `Cmd+Shift+P` (on Mac) or `Ctrl+Shift+P` (on Windows/Linux) > Type filename to filter on the matching files > Press `Enter`.\n",
     "Name": "Go to file"
   }

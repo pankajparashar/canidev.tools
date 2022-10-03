@@ -10,23 +10,12 @@
     "Notes": "1. In the **Elements** tab, right click on the node in the DOM tree > Copy > Copy JS path. This will copy the query selector to the node that can be used in the JS code.\n",
     "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1658651085/copy-js-path-chrome_xpjd6y.png",
     "Name": "Copy as JS expression",
-    "Version": "72+",
     "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1658651084/copy-js-path-chrome_yh3wvj.mp4",
-    "GIF": "https://res.cloudinary.com/canidevtools/image/upload/v1658651090/copy-js-path-chrome_hphrin.gif",
-    "Platform": [
-      "MacOS",
-      "Windows",
-      "Linux"
-    ]
+    "GIF": "https://res.cloudinary.com/canidevtools/image/upload/v1658651090/copy-js-path-chrome_hphrin.gif"
   },
   "Edge": {
     "GIF": "https://res.cloudinary.com/canidevtools/image/upload/v1658651673/copy-js-path-edge_kjj5ec.gif",
     "Notes": "1. In the **Elements** tab, right click on the node in the DOM tree > Copy > Copy JS path. This will copy the query selector to the node that can be used in the JS code.\n",
-    "Platform": [
-      "MacOS",
-      "Windows",
-      "Linux"
-    ],
     "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1658651755/copy-js-path-edge_yoxudi.png",
     "Name": "Copy as JS expression",
     "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1658651680/copy-js-path-edge_phl2db.mp4"
@@ -34,11 +23,6 @@
   "Opera": {
     "GIF": "https://res.cloudinary.com/canidevtools/image/upload/v1658651090/copy-js-path-chrome_hphrin.gif",
     "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1658651084/copy-js-path-chrome_yh3wvj.mp4",
-    "Platform": [
-      "MacOS",
-      "Windows",
-      "Linux"
-    ],
     "Notes": "1. In the **Elements** tab, right click on the node in the DOM tree > Copy > Copy JS path. This will copy the query selector to the node that can be used in the JS code.\n",
     "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1658651085/copy-js-path-chrome_xpjd6y.png",
     "Name": "Copy as JS expression"

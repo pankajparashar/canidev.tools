@@ -10,12 +10,7 @@
     "References": "1. \"console.clear()\" - [MDN Docs](https://developer.mozilla.org/en-US/docs/Web/API/console/clear)\n2. \"console API\" - [Can I Use](https://caniuse.com/mdn-api_console_clear)\n",
     "Notes": "Three ways to clear a console:\n1. Press `Ctrl+L` (on Windows/Linux) or `Cmd+K` (on MacOS) to clear the console.\n2. Click on the \"Clear Console\" icon in the toolbar on the top left side.\n3. Use `console.clear()` on the command line.\n",
     "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1654667939/Images/clear-console-chrome_ez7s7z.png",
-    "Name": "Clear console",
-    "Platform": [
-      "MacOS",
-      "Windows",
-      "Linux"
-    ]
+    "Name": "Clear console"
   },
   "Firefox": {
     "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1654666098/Images/clear-console-firefox_kgz8gy.png",
@@ -26,11 +21,6 @@
   },
   "Edge": {
     "Notes": "Three ways to clear a console:\n1. Press `Ctrl+L` (on Windows/Linux) or `Cmd+K` (on MacOS) to clear the console.\n2. Click on the \"Clear Console\" icon in the toolbar on the top left side.\n3. Use `console.clear()` on the command line.\n",
-    "Platform": [
-      "MacOS",
-      "Windows",
-      "Linux"
-    ],
     "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1654667555/Images/clear-console-edge_gkpikh.png",
     "Share": "https://twitter.com/CanIDevTools/status/1534418317062307840",
     "Name": "Clear console",
@@ -40,19 +30,11 @@
     "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1654664813/Images/clear-console-safari_giarsw.png",
     "Share": "https://twitter.com/CanIDevTools/status/1534417568353906688",
     "Name": "Clear console",
-    "Platform": [
-      "MacOS"
-    ],
     "References": "1. \"console.clear()\" - [MDN Docs](https://developer.mozilla.org/en-US/docs/Web/API/console/clear)\n2. \"console API\" - [Can I Use](https://caniuse.com/mdn-api_console_clear)\n3. \"Issue #12\" - Tomas([@reloadedhead](https://github.com/pankajparashar/canidev.tools/issues/12))\n",
     "Notes": "Three ways to clear a console:\n1. Press `Cmd+K` or `Ctrl+L` on the keyboard.\n2. Click the Trash icon in the top-right of the console toolbar.\n3. Use `console.clear()` on the command line.\n"
   },
   "Opera": {
     "References": "\n",
-    "Platform": [
-      "MacOS",
-      "Windows",
-      "Linux"
-    ],
     "Notes": "Three ways to clear a console:\n1. Press `Ctrl+L` (on Windows/Linux) or `Cmd+K` (on MacOS) to clear the console.\n2. Click on the \"Clear Console\" icon in the toolbar on the top left side.\n3. Use `console.clear()` on the command line.\n",
     "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1654667939/Images/clear-console-chrome_ez7s7z.png",
     "Name": "Clear console"

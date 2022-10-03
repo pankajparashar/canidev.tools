@@ -7,12 +7,7 @@
   "Author": "@pankajparashar",
   "Chrome": {
     "Notes": "1. Open Network panel > Look for \"Disable cache\" in the toolbar at the top.\n",
-    "Name": "Disable cache",
-    "Platform": [
-      "MacOS",
-      "Windows",
-      "Linux"
-    ]
+    "Name": "Disable cache"
   },
   "Firefox": {
     "Notes": "1. Open Network panel > Look for \"Disable Cache\" in the toolbar at the top.\n",
@@ -20,26 +15,13 @@
   },
   "Edge": {
     "Notes": "1. Open Network panel > Look for \"Disable Cache\" in the toolbar at the top.\n",
-    "Platform": [
-      "MacOS",
-      "Windows",
-      "Linux"
-    ],
     "Name": "Disable cache"
   },
   "Safari": {
     "Name": "Disable cache",
-    "Platform": [
-      "MacOS"
-    ],
     "Notes": "1. Open Network panel > Look for the icon in the top right of the toolbar with tooltip \"Ignore the resource cache when loading resources\".\n"
   },
   "Opera": {
-    "Platform": [
-      "MacOS",
-      "Windows",
-      "Linux"
-    ],
     "Notes": "1. Open Network panel > Look for \"Disable cache\" in the toolbar at the top.\n",
     "Name": "Disable cache"
   }

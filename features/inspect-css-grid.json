@@ -9,12 +9,7 @@
     "References": "[1] \"Inspect CSS Grid\" - [Chrome Developers](https://developer.chrome.com/docs/devtools/css/grid/)\n",
     "Notes": "1. When an HTML element on your page has `display: grid` or `display: inline-grid` applied to it, you can see a `grid` badge next to it in the **Elements** panel.\n2. Clicking the badge to toggle the display of a grid overlay on the page. The overlay appears over the element, laid out like a grid to show the position of its grid lines and tracks.\n3. Open the **Layout** pane. When grids are included on a page, the Layout pane includes a **Grid** section containing a number of options for viewing those grids<sup>[1]</sup>\n",
     "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1655563045/Images/inspect-css-grid-chrome_bpvbxe.png",
-    "Name": "Inspect CSS Grid",
-    "Platform": [
-      "MacOS",
-      "Windows",
-      "Linux"
-    ]
+    "Name": "Inspect CSS Grid"
   },
   "Firefox": {
     "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1655563637/Images/inspect-css-grid-firefox_cw4glx.png",
@@ -24,29 +19,16 @@
   },
   "Edge": {
     "Notes": "1. When an HTML element on your page has `display: grid` or `display: inline-grid` applied to it, you can see a `grid` badge next to it in the **Elements** panel.\n2. Clicking the badge to toggle the display of a grid overlay on the page. The overlay appears over the element, laid out like a grid to show the position of its grid lines and tracks.\n3. Open the **Layout** pane. When grids are included on a page, the Layout pane includes a Grid section containing a number of options for viewing those grids.\n\n",
-    "Platform": [
-      "MacOS",
-      "Windows",
-      "Linux"
-    ],
     "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1655563354/Images/inspect-css-grid-edge_izbgev.png",
     "Name": "Inspect CSS Grid"
   },
   "Safari": {
     "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1655563966/Images/inspect-css-grid-safari_p8nqih.png",
     "Name": "Inspect CSS Grid",
-    "Platform": [
-      "MacOS"
-    ],
     "References": "[1] \"Introducing CSS Grid Inspector\" - [Webkit](https://webkit.org/blog/11588/introducing-css-grid-inspector/)\n",
     "Notes": "1. When an HTML element on your page has `display: grid` or `display: inline-grid` applied to it, you can see a `grid` badge next to it in the Elements panel.\n2. Clicking the badge to toggle the display of a grid overlay on the page. The overlay appears over the element, laid out like a grid to show the position of its grid lines and tracks.\n3. Open the **Layout** pane. When grids are included on a page, the Layout pane includes a Grid section containing a number of options for viewing those grids.\n"
   },
   "Opera": {
-    "Platform": [
-      "MacOS",
-      "Windows",
-      "Linux"
-    ],
     "Notes": "1. When an HTML element on your page has `display: grid` or `display: inline-grid` applied to it, you can see a `grid` badge next to it in the **Elements** panel.\n2. Clicking the badge to toggle the display of a grid overlay on the page. The overlay appears over the element, laid out like a grid to show the position of its grid lines and tracks.\n3. Open the **Layout** pane. When grids are included on a page, the Layout pane includes a Grid section containing a number of options for viewing those grids.\n\n",
     "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1655563354/Images/inspect-css-grid-opera_cse2nw.png",
     "Name": "Inspect CSS Grid"

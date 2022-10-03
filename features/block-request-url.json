@@ -11,13 +11,7 @@
     "References": "[1] \"What's new in DevTools 59\" - Chrome Developers [Blog](https://developer.chrome.com/blog/new-in-devtools-59/#block-requests)\n",
     "Notes": "1. In the **Network** tab, right click on the request and select \"Block request URL\". This will open the \"Network request blocking\" drawer that will let you manage all your blocked requests.\n",
     "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1657449310/Images/block-request-url-chrome_jyhqpb.png",
-    "Name": "Block request URL",
-    "Version": "59+",
-    "Platform": [
-      "MacOS",
-      "Windows",
-      "Linux"
-    ]
+    "Name": "Block request URL"
   },
   "Firefox": {
     "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1657449956/Images/block-request-url-firefox_h0quos.png",
@@ -28,11 +22,6 @@
   },
   "Edge": {
     "Notes": "1. In the **Network** tab, right click on the request and select \"Block request URL\". This will open the \"Network request blocking\" drawer that will let you manage all your blocked requests.\n",
-    "Platform": [
-      "MacOS",
-      "Windows",
-      "Linux"
-    ],
     "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1657450597/Images/block-request-url-edge_qo7w7m.png",
     "Share": "https://twitter.com/CanIDevTools/status/1546098974188511233",
     "Name": "Block request URL",
@@ -41,17 +30,9 @@
   "Safari": {
     "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1657628343/Images/block-request-url-safari_kjzy2s.png",
     "Name": "Block request URL",
-    "Platform": [
-      "MacOS"
-    ],
     "Notes": "1. In the **Network** tab, right click on the request **Name**, and select \"Block Request URL\".\n2. In the **Sources** tab, under the **Local Overrides** section in the left sidebar, you can manage the blocked request.\n"
   },
   "Opera": {
-    "Platform": [
-      "MacOS",
-      "Windows",
-      "Linux"
-    ],
     "Notes": "1. In the **Network** tab, right click on the request and select \"Block request URL\". This will open the \"Network request blocking\" drawer that will let you manage all your blocked requests.\n",
     "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1657451084/Images/block-request-url-opera_gcwrui.png",
     "Name": "Block request URL"

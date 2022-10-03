@@ -13,12 +13,7 @@
     "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1659243167/get-selected-node-chrome_uvtf4q.png",
     "Name": "Get selected node",
     "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1659243167/get-selected-node-chrome_uf5o4m.mp4",
-    "GIF": "https://res.cloudinary.com/canidevtools/image/upload/v1659243168/get-selected-node-chrome_cbwhzq.gif",
-    "Platform": [
-      "MacOS",
-      "Windows",
-      "Linux"
-    ]
+    "GIF": "https://res.cloudinary.com/canidevtools/image/upload/v1659243168/get-selected-node-chrome_cbwhzq.gif"
   },
   "Firefox": {
     "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1663600859/get-selected-node-firefox_tev667.png",
@@ -31,11 +26,6 @@
   "Edge": {
     "GIF": "https://res.cloudinary.com/canidevtools/image/upload/v1663602759/get-selected-node-edge_jkpx3s.gif",
     "Notes": "1. Use `$0` to access the currently selected node. Additionally, `$1`, `$2`, `$3`, ... will give you the last selected nodes in the reverse chronological order.\n",
-    "Platform": [
-      "MacOS",
-      "Windows",
-      "Linux"
-    ],
     "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1663602757/get-selected-node-edge_feoycx.png",
     "Share": "https://twitter.com/CanIDevTools/status/1553610736454184960",
     "Name": "Get selected node",
@@ -47,9 +37,6 @@
     "Share": "https://twitter.com/CanIDevTools/status/1553610736454184960",
     "Name": "Get selected node",
     "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1663669806/get-selected-node-safari_ayqhwl.mp4",
-    "Platform": [
-      "MacOS"
-    ],
     "References": "1. \"Console Command Line API\", by [Webkit](https://webkit.org/web-inspector/console-command-line-api/)\n",
     "Notes": "1. Use `$0` to access the currently selected node.\n\n"
   },
@@ -57,11 +44,6 @@
     "GIF": "https://res.cloudinary.com/canidevtools/image/upload/v1659243168/get-selected-node-chrome_cbwhzq.gif",
     "Share": "https://twitter.com/CanIDevTools/status/1553610736454184960",
     "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1659243167/get-selected-node-chrome_uf5o4m.mp4",
-    "Platform": [
-      "MacOS",
-      "Windows",
-      "Linux"
-    ],
     "Notes": "1. Use `$0` to access the currently selected node. Additionally, `$1`, `$2`, `$3`, ... will give you the last selected nodes in the reverse chronological order.\n",
     "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1659243167/get-selected-node-chrome_uvtf4q.png",
     "Name": "Get selected node"

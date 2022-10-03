@@ -13,12 +13,7 @@
     "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1659762913/copy-object-chrome_zzbhtw.png",
     "Name": "Copy object",
     "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1659762914/copy-object-chrome_pyxbyj.mp4",
-    "GIF": "https://res.cloudinary.com/canidevtools/image/upload/v1659762918/copy-object-chrome_r3ek7n.gif",
-    "Platform": [
-      "MacOS",
-      "Windows",
-      "Linux"
-    ]
+    "GIF": "https://res.cloudinary.com/canidevtools/image/upload/v1659762918/copy-object-chrome_r3ek7n.gif"
   },
   "Firefox": {
     "Share": "https://twitter.com/CanIDevTools/status/1555788963855859712",
@@ -27,31 +22,18 @@
   },
   "Edge": {
     "Notes": "`copy(object)` copies a string representation of the specified object to the clipboard.\n",
-    "Platform": [
-      "MacOS",
-      "Windows",
-      "Linux"
-    ],
     "Share": "https://twitter.com/CanIDevTools/status/1555788963855859712",
     "Name": "Copy object"
   },
   "Safari": {
     "Share": "https://twitter.com/CanIDevTools/status/1555788963855859712",
     "Name": "Copy object",
-    "Platform": [
-      "MacOS"
-    ],
     "Notes": "`copy(object)` copies a string representation of the specified object to the clipboard.\n"
   },
   "Opera": {
     "GIF": "https://res.cloudinary.com/canidevtools/image/upload/v1659762918/copy-object-chrome_r3ek7n.gif",
     "Share": "https://twitter.com/CanIDevTools/status/1555788963855859712",
     "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1659762914/copy-object-chrome_pyxbyj.mp4",
-    "Platform": [
-      "MacOS",
-      "Windows",
-      "Linux"
-    ],
     "Notes": "`copy(object)` copies a string representation of the specified object to the clipboard.\n",
     "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1659762913/copy-object-chrome_zzbhtw.png",
     "Name": "Copy object"

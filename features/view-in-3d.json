@@ -10,20 +10,10 @@
     "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1658423754/view-in-3d-chrome_dgiizz.png",
     "Name": "View in 3D",
     "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1658423755/view-in-3d-chrome_ozpvar.mp4",
-    "GIF": "https://res.cloudinary.com/canidevtools/image/upload/v1658423756/view-in-3d-chrome_t8wxbh.gif",
-    "Platform": [
-      "MacOS",
-      "Windows",
-      "Linux"
-    ]
+    "GIF": "https://res.cloudinary.com/canidevtools/image/upload/v1658423756/view-in-3d-chrome_t8wxbh.gif"
   },
   "Edge": {
     "Notes": "1. In the devtools, open the **Command** Menu using, `Cmd+Shift+P` or `Ctrl+Shift+P.` Search for \"Show 3D View\" and press `Enter`.\n2. This will open the **3D View** drawer next to the **Console**. For developers, it is useful to visualise a web page in three dimensions to,\n    - Find out how complex a web page is\n    - Spot out-of-viewport elements\n    - Debug z-index stacking issues\n    - Debug performance issues with composite layers\n",
-    "Platform": [
-      "MacOS",
-      "Windows",
-      "Linux"
-    ],
     "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1656562062/Images/view-in-3d-edge_jtz7yr.png",
     "Share": "https://twitter.com/CanIDevTools/status/1542362856821497857",
     "Name": "View in 3D",
@@ -32,11 +22,6 @@
   "Opera": {
     "GIF": "https://res.cloudinary.com/canidevtools/image/upload/v1658423831/view-in-3d-opera_nx9e4m.gif",
     "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1658423833/view-in-3d-opera_p4ha8z.mp4",
-    "Platform": [
-      "MacOS",
-      "Windows",
-      "Linux"
-    ],
     "Notes": "1. Open **Command** **Menu** (`Cmd+Shift+P` or `Ctrl+Shift+P`) > Run > Show Layers. This will open a new tab called **Layers**.\n2. For developers, it is useful to visualise a web page in three dimensions to,\n    - Find out how complex a web page is\n    - Spot out-of-viewport elements\n    - Debug z-index stacking issues\n    - Debug performance issues with composite layers\n",
     "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1658423830/view-in-3d-opera_jrh9b0.png",
     "Name": "View in 3D"

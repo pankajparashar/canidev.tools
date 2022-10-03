@@ -7,12 +7,7 @@
   "Author": "@pankajparashar",
   "Chrome": {
     "Notes": "1. Open devtools > Launch the command menu\n2. Search for \"Capture full size screenshot\" and press Enter\n",
-    "Name": "Capture full page screenshot",
-    "Platform": [
-      "MacOS",
-      "Windows",
-      "Linux"
-    ]
+    "Name": "Capture full page screenshot"
   },
   "Firefox": {
     "Notes": "1. Right click on the empty portion of the page > Click on \"Take Screenshot\"\n2. Select the \"Choose full page\" option in the top right of the page\n",
@@ -20,26 +15,13 @@
   },
   "Edge": {
     "Notes": "1. Open devtools > Launch the command menu\n2. Search for \"Capture full size screenshot\" and press Enter\n",
-    "Platform": [
-      "MacOS",
-      "Windows",
-      "Linux"
-    ],
     "Name": "Capture full page screenshot"
   },
   "Safari": {
     "Name": "Capture full page screenshot",
-    "Platform": [
-      "MacOS"
-    ],
     "Notes": "1. Open devtools > Locate the `html` node in the DOM tree.\n2. Right click on the node and select \"Capture Screenshot\"\n"
   },
   "Opera": {
-    "Platform": [
-      "MacOS",
-      "Windows",
-      "Linux"
-    ],
     "Notes": "1. Open devtools > Launch the command menu\n2. Search for \"Capture full size screenshot\" and press Enter\n",
     "Name": "Capture full page screenshot"
   }

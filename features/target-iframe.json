@@ -7,12 +7,7 @@
   "Author": "@pankajparashar",
   "Chrome": {
     "Notes": "1. Open Console using `Cmd+Shift+J `(on Mac) or `Ctrl+Shift+J` (on Windows/Linux).\n2. Next to the \"Clear console\" icon in the toolbar, click the \"top\" menu, and select the iframe to target.\n",
-    "Name": "Target iframe",
-    "Platform": [
-      "MacOS",
-      "Windows",
-      "Linux"
-    ]
+    "Name": "Target iframe"
   },
   "Firefox": {
     "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1656484568/Images/target-iframe-firefox_dbok2o.png",
@@ -27,17 +22,9 @@
   "Safari": {
     "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1657088715/Images/target-iframe-safari_qo90je.png",
     "Name": "Target iframe",
-    "Platform": [
-      "MacOS"
-    ],
     "Notes": "1. In the **Console** panel, select the target iframe from the \"Execution context for $0\" dropdown (bottom-right).\n"
   },
   "Opera": {
-    "Platform": [
-      "MacOS",
-      "Windows",
-      "Linux"
-    ],
     "Notes": "1. Open Console using `Cmd+Shift+J `(on Mac) or `Ctrl+Shift+J` (on Windows/Linux).\n2. Next to the \"Clear console\" icon in the toolbar, click the \"top\" menu, and select the iframe to target.\n",
     "Name": "Target iframe"
   }
