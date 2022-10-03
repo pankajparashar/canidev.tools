@@ -1369,7 +1369,20 @@ console.log(
 - [Opera](https://canidev.tools/target-iframe/opera) 
  1. Open Console using `Cmd+Shift+J `(on Mac) or `Ctrl+Shift+J` (on Windows/Linux).
 2. Next to the "Clear console" icon in the toolbar, click the "top" menu, and select the iframe to target.
-## 88. Toggle light & dark theme 
+## 88. Throttle network speed 
+ Can I throttle network speed to simulate slower network connections like 2G, 3G etc.,? 
+- [Chrome](https://canidev.tools/throttle-network-speed/chrome) 
+ 1. In **Network** > Click the dropdown "No Throttling" and select a value to throttle the network speed.
+- [Firefox](https://canidev.tools/throttle-network-speed/firefox) 
+ 1. In Network > Click the dropdown "No Throttling" and select a value to throttle the network speed.
+
+- [Edge](https://canidev.tools/throttle-network-speed/edge) 
+ 1. In Network > Click the dropdown "No Throttling" and select a value to throttle the network speed.
+
+- [Opera](https://canidev.tools/throttle-network-speed/opera) 
+ 1. In Network > Click the dropdown "No Throttling" and select a value to throttle the network speed.
+
+## 89. Toggle light & dark theme 
  Can I switch to light or dark theme in devtools? 
 - [Chrome](https://canidev.tools/toggle-theme/chrome) 
  Open **Command** **Menu** (`Cmd/Ctrl+Shift+P`) & Run > "Switch to light/dark theme" (Appearance) > Press `Enter`.
@@ -1381,7 +1394,7 @@ console.log(
  Open **Settings** (`Cmd+,`) > General > Appearance > Select "Dark" or "Light" to change the appearance.
 - [Opera](https://canidev.tools/toggle-theme/opera) 
  Open **Command** **Menu** (`Cmd/Ctrl+Shift+P`) & Run > "Switch to light/dark theme" (Appearance) > Press `Enter`.
-## 89. View accessibility tree 
+## 90. View accessibility tree 
  Can I view the accessibility tree? 
 - [Chrome](https://canidev.tools/view-accessibility-tree/chrome) 
  1. Inspect > Open the Accessibility pane on the right (Click the >> icon to show more tabs, if hidden) > Check "Enable full-page accessibility tree" > Reload Devtools.
@@ -1395,7 +1408,7 @@ console.log(
 - [Opera](https://canidev.tools/view-accessibility-tree/opera) 
  1. Inspect > Open the Accessibility pane on the right (Click the >> icon to show more tabs, if hidden) > Check "Enable full-page accessibility tree" > Reload Devtools.
 2. Click on the floating icon in the top right in the Elements panel which says, "Switch to Accessibility tree view".
-## 90. View ARIA attrs 
+## 91. View ARIA attrs 
  Can I view ARIA attributes of an element? 
 - [Chrome](https://canidev.tools/view-aria-attrs/chrome) 
  1. Inspect the element in the DOM tree.
@@ -1414,7 +1427,7 @@ console.log(
 - [Opera](https://canidev.tools/view-aria-attrs/opera) 
  1. Inspect the element in the DOM tree.
 2. Click on the Accessibility tab (It maybe hidden behind the "More Tabs" button). Scroll down to the section which says, "ARIA Attributes".
-## 91. View cascade layers 
+## 92. View cascade layers 
  Can I inspect CSS cascade layers? 
 - [Chrome](https://canidev.tools/view-cascade-layers/chrome) 
  1. Inspect the element that is part of the `@layer`. In the **Styles** pane, each layer and its corresponding styles are visible.
@@ -1430,7 +1443,7 @@ console.log(
 - [Opera](https://canidev.tools/view-cascade-layers/opera) 
  1. Inspect the element that is part of the `@layer`. In the **Styles** pane, each layer and its corresponding styles are visible.
 2. Clicking on the layer name will reveal the **CSS layers** section at the top which will contain the layer order, that drives the specificity.
-## 92. View computed styles 
+## 93. View computed styles 
  Can I view computed styles? 
 - [Chrome](https://canidev.tools/view-computed-styles/chrome) 
  1. Inspect the element > Navigate to the Computed tab in the panel next to the DOM tree.
@@ -1450,7 +1463,7 @@ console.log(
 - [Opera](https://canidev.tools/view-computed-styles/opera) 
  1. Inspect the element > Navigate to the Computed tab in the panel next to the DOM tree.
 2. Click the "Show All" checkbox to see all the inherited values.
-## 93. View in 3D 
+## 94. View in 3D 
  Can I view a web page in 3D? 
 - [Chrome](https://canidev.tools/view-in-3d/chrome) 
  1. Open **Command Menu** (`Cmd+Shift+P` or `Ctrl+Shift+P`) > Run > Show Layers. This will open a new tab called **Layers**.
@@ -1473,7 +1486,7 @@ console.log(
     - Spot out-of-viewport elements
     - Debug z-index stacking issues
     - Debug performance issues with composite layers
-## 94. View styles of element 
+## 95. View styles of element 
  Can I view the styles applied to a pseudo element? 
 - [Chrome](https://canidev.tools/view-styles-element/chrome) 
  1. Right click on the element and select "Inspect" (This will open the Elements panel in the devtools with selected element highlighted in the DOM tree).  
@@ -1490,7 +1503,7 @@ console.log(
 - [Opera](https://canidev.tools/view-styles-element/opera) 
  1. Right click on the element and select "Inspect" (This will open the Elements panel in the devtools with selected element highlighted in the DOM tree).  
 2. The CSS applied to the element is visible in the "Styles" tab, adjacent to the DOM tree.
-## 95. Zoom In & Out Devtools 
+## 96. Zoom In & Out Devtools 
  Can I zoom in and out of the devtools panel? 
 - [Chrome](https://canidev.tools/zoom-inout-devtools/chrome) 
  1. In **Developer Tools** > Open **Command Menu** (`Cmd+Shift+P` or `Ctrl+Shift+P`) and Run > "Zoom in" or `Cmd+` or `Ctrl+` to increase the zoom level.

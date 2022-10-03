@@ -34,18 +34,18 @@ export const loader = async ({ request }) => {
 	
 	// Filter on search
 	records = search ?
-		records.filter(r => r.Name.toLowerCase().includes(search.toLowerCase()))
+		records.filter(r => r.Name.toLowerCase().includes(search.toLowerCase()) || r.Description.toLowerCase().includes(search.toLowerCase()))
 		: records
 		
 	return json(records);
 };
 
 const getCount = data => ({
-     Chrome: data.filter(f => f.Chrome).length,
-     Firefox: data.filter(f => f.Firefox).length,
-     Edge: data.filter(f => f.Edge).length,
-     Safari: data.filter(f => f.Safari).length,
-     Opera: data.filter(f => f.Opera).length,
+	Chrome: data.filter(f => f.Chrome).length,
+	Firefox: data.filter(f => f.Firefox).length,
+	Edge: data.filter(f => f.Edge).length,
+	Safari: data.filter(f => f.Safari).length,
+	Opera: data.filter(f => f.Opera).length,
 })
 
 export default function Index() {
