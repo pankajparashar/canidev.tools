@@ -17,11 +17,6 @@
   },
   "Firefox": {
     "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1656832756/Images/pretty-print-js-firefox_cdhjzd.png",
-    "Platform": [
-      "MacOS",
-      "Windows",
-      "Linux"
-    ],
     "Notes": "1. In the **Debugger** tab, open the `.js` file from the **Sources** panel in the left sidebar. From the status bar in the bottom, click the `{}` icon to pretty print the source file.\n",
     "Name": "Pretty print JavaScript"
   },

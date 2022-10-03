@@ -21,11 +21,6 @@
   },
   "Firefox": {
     "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1651403902/Images/style-console-logs-firefox.png",
-    "Platform": [
-      "MacOS",
-      "Windows",
-      "Linux"
-    ],
     "Share": "https://twitter.com/CanIDevTools/status/1520784299104301057",
     "Notes": "1. Open console using `Cmd+Option+J` or `Ctrl+Shift+J`.\n2. Prefix the log statement with `%c`, and supply the CSS styles as the second argument to `console.log()`\n\nFor example, \n```\nconsole.log(\n  \"%cThis is green text with yellow background\",\n  \"color:green; background:yellow\"\n)\n```\n",
     "References": "1. Tips & Tricks #2 of the [Newsletter](https://www.getrevue.co/profile/CanIDevTools/issues/tips-tricks-2-1159708)\n\n",

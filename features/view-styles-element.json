@@ -15,11 +15,6 @@
     ]
   },
   "Firefox": {
-    "Platform": [
-      "MacOS",
-      "Windows",
-      "Linux"
-    ],
     "Notes": "1. Right click on the element and select \"Inspect\" (This will open the \"Inspector\" panel in the devtools with selected element highlighted in the DOM tree).\n2. The CSS applied to the element is visible in the panel, adjacent to the DOM tree.\n",
     "Name": "View styles of element"
   },

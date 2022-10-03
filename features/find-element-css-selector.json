@@ -15,11 +15,6 @@
     ]
   },
   "Firefox": {
-    "Platform": [
-      "MacOS",
-      "Windows",
-      "Linux"
-    ],
     "Notes": "1. Open devtools > Click the \"Inspector\" tab to open the DOM tree > Under the Inspector tab, locate the \"Search HTML\" field.\n2. Enter the CSS selector to search the element in the DOM tree.\n",
     "Name": "Find element using CSS selector"
   },

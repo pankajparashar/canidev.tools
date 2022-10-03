@@ -17,11 +17,6 @@
   },
   "Firefox": {
     "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1657256760/Images/show-rulers-hover-firefox_odobg2.png",
-    "Platform": [
-      "MacOS",
-      "Windows",
-      "Linux"
-    ],
     "Notes": "1. Open **Settings** (`F1`) > Scroll down to the **Available Toolbox Buttons** section, and enable \"Toggle rulers for the page\"\n",
     "Name": "Show rulers on hover"
   },

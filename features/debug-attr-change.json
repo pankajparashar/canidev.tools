@@ -15,11 +15,6 @@
     ]
   },
   "Firefox": {
-    "Platform": [
-      "MacOS",
-      "Windows",
-      "Linux"
-    ],
     "Notes": "1. Inspect element > Right click on the node in the DOM tree.\n2. Select \"Break on...\" > \"Attribute Modification\". Reload the page.\n",
     "Name": "Debug attr change"
   },

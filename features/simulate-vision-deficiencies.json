@@ -20,11 +20,6 @@
   },
   "Firefox": {
     "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1654356162/Images/simulate-vision-deficiencies-firefox_tja12d.png",
-    "Platform": [
-      "MacOS",
-      "Windows",
-      "Linux"
-    ],
     "Notes": "1. Open devtools > Accessibility (Click >> icon for more tabs if hidden).\n2. Click the Simulate dropdown to test the website against different vision deficiencies.\n",
     "References": "1. \"Accessibility Inspector\" by [Firefox source docs](https://firefox-source-docs.mozilla.org/devtools-user/accessibility_inspector/).\n2. \"Issue #2\" by [Nicolas](https://github.com/pankajparashar/canidev.tools/issues/2).\n",
     "Name": "Simulate vision deficiencies"

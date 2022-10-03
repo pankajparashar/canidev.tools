@@ -20,11 +20,6 @@
     ]
   },
   "Firefox": {
-    "Platform": [
-      "MacOS",
-      "Windows",
-      "Linux"
-    ],
     "Notes": "1. **Debugger** > Right click on the line number and select \"Add log\" to log in the Console without actually writing `console.log` statements.\n",
     "Name": "Add logpoint"
   },

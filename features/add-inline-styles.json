@@ -15,11 +15,6 @@
     ]
   },
   "Firefox": {
-    "Platform": [
-      "MacOS",
-      "Windows",
-      "Linux"
-    ],
     "Notes": "1. Right click on the element and select \"Inspect\" (This will open the Inspector panel in the devtools with selected element highlighted in the DOM tree). \n2. Click \"element\" in the adjacent styles panel. Enter the declaration you want in the \"property: value\" format.\n\n",
     "Name": "Add a CSS declaration to an element"
   },

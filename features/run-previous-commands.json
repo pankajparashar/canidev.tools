@@ -15,11 +15,6 @@
     ]
   },
   "Firefox": {
-    "Platform": [
-      "MacOS",
-      "Windows",
-      "Linux"
-    ],
     "Notes": "1. Use the `Up` arrow key to scroll through the list of previously executed commands and then press `Enter`.\n\n",
     "Name": "Run previous commands"
   },

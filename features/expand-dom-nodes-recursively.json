@@ -17,11 +17,6 @@
   },
   "Firefox": {
     "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1656828053/Images/expand-dom-nodes-recursively-firefox_zpx9ft.png",
-    "Platform": [
-      "MacOS",
-      "Windows",
-      "Linux"
-    ],
     "Notes": "1. Right click on the node in the DOM tree, select \"Expand All\". \n2. (Or) Use `Opt+Click` or `Alt+Click` on the arrow preceding the node with the keyboard.\n\n",
     "Name": "Expand DOM nodes recursively"
   },

@@ -22,11 +22,6 @@
   },
   "Firefox": {
     "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1660578611/run-snippets-firefox_l5txuk.png",
-    "Platform": [
-      "MacOS",
-      "Windows",
-      "Linux"
-    ],
     "Share": "https://twitter.com/CanIDevTools/status/1559208618762702848",
     "Notes": "1. Open **Console** (`Cmd+Opt+K` or `Ctrl+Shift+K`) > Switch to multi-editor mode (`Cmd+B` or `Ctrl+B`).\n2. This will open the editor next to the **Console**, where you can enter the snippet and click \"Run\" to execute.\n",
     "GIF": "https://res.cloudinary.com/canidevtools/image/upload/v1660578613/run-snippets-firefox_sibus4.gif",

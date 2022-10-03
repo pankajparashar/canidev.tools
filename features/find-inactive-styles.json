@@ -23,11 +23,6 @@
   },
   "Firefox": {
     "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1663497087/find-inactive-styles-firefox_d4tfr5.png",
-    "Platform": [
-      "MacOS",
-      "Windows",
-      "Linux"
-    ],
     "Share": "https://twitter.com/CanIDevTools/status/1571520604150575114",
     "Notes": "1. In **Inspector** > Locate the styles in the **Rules** pane. Inactive styles will have an \"i\" icon next to it, which on hover will reveal more information about it.\n",
     "GIF": "https://res.cloudinary.com/canidevtools/image/upload/v1663497089/find-inactive-styles-firefox_ymoqzv.gif",

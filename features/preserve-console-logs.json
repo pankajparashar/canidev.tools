@@ -17,12 +17,7 @@
   },
   "Firefox": {
     "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1656472576/Images/preserve-console-logs-firefox_ojwlok.png",
-    "Platform": [
-      "MacOS",
-      "Windows",
-      "Linux"
-    ],
-    "Notes": "Open **Console Settings** from the toolbar in top right > Click \"Persist Logs\" to preserve the console output each time you visit a new page.\n",
+    "Notes": "1. Open **Console Settings** from the toolbar in top right > Click \"Persist Logs\" to preserve the console output each time you visit a new page.\n",
     "Name": "Preserve console logs"
   },
   "Edge": {

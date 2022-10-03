@@ -15,11 +15,6 @@
     ]
   },
   "Firefox": {
-    "Platform": [
-      "MacOS",
-      "Windows",
-      "Linux"
-    ],
     "Notes": "1. Launch Firefox → Click on the hamburger icon (near top right of the window).\n2. Navigate to \"More Tools\" > \"Web Developer Tools\".\n",
     "Name": "Open devtools with a mouse"
   },

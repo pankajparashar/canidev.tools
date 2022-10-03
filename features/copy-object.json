@@ -21,13 +21,8 @@
     ]
   },
   "Firefox": {
-    "Platform": [
-      "MacOS",
-      "Windows",
-      "Linux"
-    ],
     "Share": "https://twitter.com/CanIDevTools/status/1555788963855859712",
-    "Notes": "`copy(object)` copies a string representation of the specified object to the clipboard.\n",
+    "Notes": "1. `copy(object)` copies a string representation of the specified object to the clipboard.\n",
     "Name": "Copy object"
   },
   "Edge": {

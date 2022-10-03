@@ -21,11 +21,6 @@
   },
   "Firefox": {
     "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1658239684/override-useragent-firefox_zzm364.png",
-    "Platform": [
-      "MacOS",
-      "Windows",
-      "Linux"
-    ],
     "Share": "https://twitter.com/CanIDevTools/status/1549717259467141120",
     "Notes": "1. Open `about:config` from the address bar and **Accept the Risk and Continue**.\n2. Search for \"useragent.override\" in the preference pane. Select **String**, click the `+` button and paste the custom user agent string in the input field.\n",
     "GIF": "https://res.cloudinary.com/canidevtools/image/upload/v1658239686/override-useragent-firefox_p3mpie.gif",

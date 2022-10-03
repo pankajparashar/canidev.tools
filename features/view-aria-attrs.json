@@ -15,11 +15,6 @@
     ]
   },
   "Firefox": {
-    "Platform": [
-      "MacOS",
-      "Windows",
-      "Linux"
-    ],
     "Notes": "1. Right click on the element on the page and select \"Inspect Accessibility Properties\".\n2. This will open the Accessibility tab. The ARIA attributes are available under the \"Properties\" panel on the right.\n\n",
     "Name": "View ARIA attrs"
   },

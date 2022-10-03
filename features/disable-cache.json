@@ -15,11 +15,6 @@
     ]
   },
   "Firefox": {
-    "Platform": [
-      "MacOS",
-      "Windows",
-      "Linux"
-    ],
     "Notes": "1. Open Network panel > Look for \"Disable Cache\" in the toolbar at the top.\n",
     "Name": "Disable cache"
   },

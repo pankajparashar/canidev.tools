@@ -15,11 +15,6 @@
     ]
   },
   "Firefox": {
-    "Platform": [
-      "MacOS",
-      "Windows",
-      "Linux"
-    ],
     "Notes": "1. Navigate to `about:config` in the address bar. Click on \"Accept the Risk and Continue\" while proceeding with caution.\n2. Search for \"javascript.enabled\" in the preference textbox.\n3. Toggle the boolean value to False, using the `⇋` button.\n\n",
     "Name": "Disable JavaScript"
   },

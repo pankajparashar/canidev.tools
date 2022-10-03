@@ -15,11 +15,6 @@
     ]
   },
   "Firefox": {
-    "Platform": [
-      "MacOS",
-      "Windows",
-      "Linux"
-    ],
     "Notes": "1. Inspect an element > Make sure the node is selected in the DOM Tree.\n2. In the styles section (next to the DOM tree), look for \":hov\" button next to the Filter box > Click the \":hov\" button.\n3. Use the checkboxes to force the element state to any of the listed pseudo classes to view the corresponding CSS applied.\n",
     "Name": "View styles for pseudo classes"
   },

@@ -22,11 +22,6 @@
   },
   "Firefox": {
     "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1659187996/get-last-value-firefox_kvlztd.png",
-    "Platform": [
-      "MacOS",
-      "Windows",
-      "Linux"
-    ],
     "Share": "https://twitter.com/CanIDevTools/status/1553378242366545920",
     "Notes": "1. `$_` returns the value of the most recently evaluated expression.\n",
     "GIF": "https://res.cloudinary.com/canidevtools/image/upload/v1659187996/get-last-value-firefox_tm4bnk.gif",

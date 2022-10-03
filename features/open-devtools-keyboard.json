@@ -18,11 +18,6 @@
     ]
   },
   "Firefox": {
-    "Platform": [
-      "MacOS",
-      "Windows",
-      "Linux"
-    ],
     "Notes": "1. Launch Firefox → Press `F12`.\n",
     "Name": "Open devtools with a keyboard "
   },

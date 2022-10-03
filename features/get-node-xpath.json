@@ -20,11 +20,6 @@
   },
   "Firefox": {
     "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1656598552/Images/get-node-xpath-firefox_os1mbo.png",
-    "Platform": [
-      "MacOS",
-      "Windows",
-      "Linux"
-    ],
     "Share": "https://twitter.com/CanIDevTools/status/1542517879241076737",
     "Notes": "1. Inspect element > Right click on the node in the DOM tree > Copy > XPath\n",
     "Name": "Get node XPath"

@@ -15,11 +15,6 @@
     ]
   },
   "Firefox": {
-    "Platform": [
-      "MacOS",
-      "Windows",
-      "Linux"
-    ],
     "Notes": "1. Open devtools > Click on the Network panel (This will show a section containing table of network requests).\n",
     "Name": "Inspect requests"
   },

@@ -6,13 +6,8 @@
   "LastModifiedTime": "2022-07-09T09:05:18.000Z",
   "Author": "@pankajparashar",
   "Firefox": {
-    "Platform": [
-      "MacOS",
-      "Windows",
-      "Linux"
-    ],
-    "Notes": "Firefox has a built-in helper function `:selector` to capture screenshot of the current page from the console. Example:\n```\n:screenshot\n:screenshot --fullpage\n:screenshot --selector .css-selector\n```\n",
-    "References": "[1] \"Web Console Helpers\" - [Firefox Source Docs](https://firefox-source-docs.mozilla.org/devtools-user/web_console/helpers/index.html)\n",
+    "Notes": "1. Firefox has a built-in helper function `:selector` to capture screenshot of the current page from the console. Example:\n```\n:screenshot\n:screenshot --fullpage\n:screenshot --selector .css-selector\n```\n",
+    "References": "1. \"Web Console Helpers\" - [Firefox Source Docs](https://firefox-source-docs.mozilla.org/devtools-user/web_console/helpers/index.html)\n",
     "Name": "Capture screenshot from Console"
   },
   "Safari": {

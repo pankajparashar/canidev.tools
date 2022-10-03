@@ -6,11 +6,6 @@
   "LastModifiedTime": "2022-07-02T13:59:40.000Z",
   "Author": "@pankajparashar",
   "Firefox": {
-    "Platform": [
-      "MacOS",
-      "Windows",
-      "Linux"
-    ],
     "Notes": "1. Firefox links the element referencing the ID attribute to its target element in the same DOM, highlighted with an underline.\n2. Use `Cmd+Click` or `Ctrl+Click` to jump to the target element with the identifier.\n",
     "Name": "Jump to Id",
     "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1656770467/Videos/jump-to-id-firefox_w9h4aw.mp4"

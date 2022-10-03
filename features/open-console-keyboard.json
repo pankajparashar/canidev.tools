@@ -16,12 +16,7 @@
     ]
   },
   "Firefox": {
-    "Platform": [
-      "MacOS",
-      "Windows",
-      "Linux"
-    ],
-    "Notes": "Use `Cmd+Opt+K` or `Ctrl+Shift+K` to directly open the **Console** tab.\n",
+    "Notes": "1. Use `Cmd+Opt+K` or `Ctrl+Shift+K` to directly open the **Console** tab.\n",
     "Name": "Open Console with keyboard"
   },
   "Edge": {

@@ -22,11 +22,6 @@
   },
   "Firefox": {
     "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1663742253/filter-requests-domain-firefox_epqs6m.png",
-    "Platform": [
-      "MacOS",
-      "Windows",
-      "Linux"
-    ],
     "Share": "https://twitter.com/CanIDevTools/status/1572513775655460864",
     "Notes": "1. In **Network** > Enter `domain:` in the \"Filter URLs\" field followed by the domain to filter the network requests on.\n2. Filter field also suggests the list of domain names to choose from.\n",
     "GIF": "https://res.cloudinary.com/canidevtools/image/upload/v1663742254/filter-requests-domain-firefox_wayexa.gif",

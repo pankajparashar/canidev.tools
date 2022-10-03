@@ -15,11 +15,6 @@
     ]
   },
   "Firefox": {
-    "Platform": [
-      "MacOS",
-      "Windows",
-      "Linux"
-    ],
     "Notes": "1. Inspect element > Find the corresponding declaration in the styles section. \n2. Click the `<filename>:<lineno>` link adjacent to the declaration to locate the style in the source file.\n",
     "Name": "Locate styles in source"
   },

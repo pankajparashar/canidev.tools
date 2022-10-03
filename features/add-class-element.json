@@ -17,11 +17,6 @@
   },
   "Firefox": {
     "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1657890786/Images/add-class-element-firefox_qj5y0w.png",
-    "Platform": [
-      "MacOS",
-      "Windows",
-      "Linux"
-    ],
     "Notes": "1. Inspect the element > Look for \".cls\" button in the styles section next to the Filter Styles field.\n2. Click the button and search for the existing class names to add to the element.\n",
     "Name": "Add class to element"
   },

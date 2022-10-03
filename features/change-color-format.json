@@ -23,11 +23,6 @@
   },
   "Firefox": {
     "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1664462075/change-color-format-firefox_suagrj.png",
-    "Platform": [
-      "MacOS",
-      "Windows",
-      "Linux"
-    ],
     "Share": "https://twitter.com/CanIDevTools/status/1575495821470343176",
     "Notes": "1. In the **Rules** pane, hold the `Shift` key and click on any color preview to change the color format.\n2. It is also available as an [optional default](https://firefox-source-docs.mozilla.org/devtools-user/settings/index.html#inspector).\n",
     "GIF": "https://res.cloudinary.com/canidevtools/image/upload/v1664462077/change-color-format-firefox_xxnoro.gif",

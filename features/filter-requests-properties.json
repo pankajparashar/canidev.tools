@@ -18,11 +18,6 @@
   },
   "Firefox": {
     "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1656489294/Images/filter-requests-properties-firefox_rrd2gy.png",
-    "Platform": [
-      "MacOS",
-      "Windows",
-      "Linux"
-    ],
     "Notes": "1. In the **Network** panel, use the \"Filter URLs\" field to filter network requests by properties such as domain, mime-type, size etc.,\n",
     "Name": "Filter requests by properties"
   },

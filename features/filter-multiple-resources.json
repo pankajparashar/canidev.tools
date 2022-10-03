@@ -19,13 +19,8 @@
     ]
   },
   "Firefox": {
-    "Platform": [
-      "MacOS",
-      "Windows",
-      "Linux"
-    ],
     "Share": "https://twitter.com/CanIDevTools/status/1510251619841372166",
-    "Notes": "Open devtools > Open the Network tab. Hold `Cmd` or `Ctrl` key while clicking on the Resource type.\n",
+    "Notes": "1. In **Network** tab. Hold `Cmd` or `Ctrl` key while clicking on the Resource type.\n",
     "References": "1. \"Tips & Tricks #1\" of the [Newsletter](https://www.getrevue.co/profile/CanIDevTools/issues/tips-tricks-1-1155265)\n\n",
     "Name": "Filter multiple resources",
     "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1648906779/filter-multiple-resources-firefox.mp4"

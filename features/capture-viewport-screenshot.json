@@ -15,11 +15,6 @@
     ]
   },
   "Firefox": {
-    "Platform": [
-      "MacOS",
-      "Windows",
-      "Linux"
-    ],
     "Notes": "1. Right click on the page > Click \"Take screenshot\"\n",
     "Name": "Capture viewport screenshot"
   },

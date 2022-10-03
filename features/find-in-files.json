@@ -20,11 +20,6 @@
   },
   "Firefox": {
     "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1656489955/Images/search-files-sources-firefox_aivspt.png",
-    "Platform": [
-      "MacOS",
-      "Windows",
-      "Linux"
-    ],
     "Notes": "1. In the **Debugger** tab, press `Cmd+Shift+F` or `Ctrl+Shift+F` to find in files for a specific keyword.\n",
     "Name": "Find in files"
   },

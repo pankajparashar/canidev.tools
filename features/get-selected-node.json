@@ -22,11 +22,6 @@
   },
   "Firefox": {
     "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1663600859/get-selected-node-firefox_tev667.png",
-    "Platform": [
-      "MacOS",
-      "Windows",
-      "Linux"
-    ],
     "Share": "https://twitter.com/CanIDevTools/status/1553610736454184960",
     "Notes": "1. Use `$0` to access the currently selected node.\n",
     "GIF": "https://res.cloudinary.com/canidevtools/image/upload/v1663600859/get-selected-node-firefox_twiw9l.gif",

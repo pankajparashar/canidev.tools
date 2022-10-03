@@ -1,10 +1,10 @@
 {
-  "Name": "Inspect CSS animation",
+  "Name": "Inspect CSS Animation",
   "Slug": "inspect-css-animation",
   "Description": "Can I inspect CSS animations & keyframes using the devtools?",
   "Category": "CSS",
   "Newsletter": "tips-tricks-12",
-  "LastModifiedTime": "2022-09-17T13:36:30.000Z",
+  "LastModifiedTime": "2022-10-03T06:39:16.000Z",
   "Author": "@pankajparashar",
   "Chrome": {
     "Share": "https://twitter.com/CanIDevTools/status/1558358446914748416",
@@ -21,13 +21,8 @@
     ]
   },
   "Firefox": {
-    "Platform": [
-      "MacOS",
-      "Windows",
-      "Linux"
-    ],
     "Notes": "1. Inspect the element which uses CSS animation. Click on the **Animations** pane next to the DOM tree in the side panel.\n",
-    "References": "[1] \"Work with animations\", on Firefox source [docs](https://firefox-source-docs.mozilla.org/devtools-user/page_inspector/how_to/work_with_animations/index.html).\n",
+    "References": "1. \"Work with animations\" - Firefox source [docs](https://firefox-source-docs.mozilla.org/devtools-user/page_inspector/how_to/work_with_animations/index.html).\n",
     "Name": "Inspect CSS animation"
   },
   "Edge": {

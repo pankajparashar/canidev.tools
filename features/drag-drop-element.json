@@ -17,11 +17,6 @@
     ]
   },
   "Firefox": {
-    "Platform": [
-      "MacOS",
-      "Windows",
-      "Linux"
-    ],
     "Notes": "1. Right click > Inspect element or Press `Cmd+Opt+I` (on Mac) or `Ctrl+Shift+I` (on Windows/Linux).\n2. Select the node and drag-n-drop to a different part of the DOM tree.\n",
     "References": "1. \"Examine and edit HTML\" by [Firefox](https://firefox-source-docs.mozilla.org/devtools-user/page_inspector/how_to/examine_and_edit_html/index.html#drag-and-drop).\n2. \"Issue #3\" by [Nicolas](https://github.com/pankajparashar/canidev.tools/issues/3).\n",
     "Name": "Drag & Drop element",

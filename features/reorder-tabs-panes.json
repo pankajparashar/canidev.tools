@@ -18,11 +18,6 @@
     ]
   },
   "Firefox": {
-    "Platform": [
-      "MacOS",
-      "Windows",
-      "Linux"
-    ],
     "Notes": "1. In the main browser window, drag and drop tabs (or panes) anywhere across the tab-bar to reorder tabs (or panes) based on preference.\n2. Once re-ordered, the order will persist for future devtools sessions.\n",
     "References": "1. In the main browser window, drag and drop tabs anywhere across the tab-bar to reorder tabs based on preference.\n2. Once re-ordered, the order will persist for future devtools sessions.\n3. This does not work for panes within a tab.\n\n",
     "Name": "Reorder Tabs & Panes"
