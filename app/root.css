@@ -25,7 +25,7 @@ li {
   line-height: 1.75;
 }
 
-code {
+pre, code {
   font-family: inherit !important;
   color: deeppink;
 }
@@ -34,11 +34,12 @@ code:after, code:before {
 	content: "\`";
 }
 
+pre code:before, pre code:after {content: none}
+
 blockquote {
   border-left: 2px solid;
   margin: 0;
   padding-left: 1em;
-  background-color: #F8F9FA;
 }
 
 .grid {
