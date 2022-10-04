@@ -1,0 +1,12 @@
+{
+  "Name": "Add audio breakpoint",
+  "Slug": "add-audio-breakpoint",
+  "Description": "Can I add audio breakpoint whenever a line of code is executed?",
+  "Category": "Sources",
+  "LastModifiedTime": "2022-10-04T08:03:14.000Z",
+  "Author": "@pankajparashar",
+  "Safari": {
+    "Name": "Add audio breakpoint",
+    "Notes": "1. In **Sources** > Add a breakpoint by clicking the line number > Right click and select \"Edit Breakpoint...\".\n2. Click **Add Action** > Select \"Play Sound\" to hear a beep sound each time the statement is executed.\n"
+  }
+}
