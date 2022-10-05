@@ -13,6 +13,7 @@ export const loader = async ({ request }) => {
 	const category = url.searchParams.get('category') || 'all';
 	const sort = url.searchParams.get('sort') || 'asc'
 	const search = url.searchParams.get('search') || ''
+	const browser = url.searchParams.get('browser') || ''
 
 	let records = [];
 	fs.readdirSync(`${__dirname}/../features`).forEach((name) => {
@@ -37,6 +38,11 @@ export const loader = async ({ request }) => {
 		records.filter(r => r.Name.toLowerCase().includes(search.toLowerCase()) || r.Description.toLowerCase().includes(search.toLowerCase()))
 		: records
 		
+	// Filter on browser
+	records = browser !== '' ?
+		records.filter(r => r[browser]) :
+		records
+		
 	return json(records);
 };
 
@@ -58,6 +64,17 @@ export default function Index() {
 	const sort = params.get('sort')
 	const search = params.get('search')
 	
+	const toggleBrowser = browser => {
+		const params = new URLSearchParams(window.location.search)
+		params.get('browser') === browser ?
+			params.delete('browser') :
+			params.set('browser', browser)
+			
+		navigate({
+			search: params.toString()
+		})
+	}
+		
 	return (
 		<Stack
 			spacing={0}
@@ -92,7 +109,7 @@ export default function Index() {
 								size="xs"
 								label=""
 								variant="filled"
-								placeholder={search ? search : "Search"}
+								placeholder={search ? search : `Search ${features.length} records`}
 								icon={<IconListSearch size={20} />}
 								rightSection={
 									<Tooltip label="Press Enter" position="top-end" withArrow>
@@ -132,19 +149,19 @@ export default function Index() {
 						padding: theme.spacing.xs,
 					})}
 				>
-					<Button variant="default" size="xs">
+					<Button variant="default" size="xs" onClick={() => toggleBrowser('Chrome')}>
 						<IconBrandChrome size={20} />
 					</Button>
-					<Button variant="default" size="xs">
+					<Button variant="default" size="xs" onClick={() => toggleBrowser('Firefox')}>
 						<IconBrandFirefox size={20} />
 					</Button>
-					<Button variant="default" size="xs">
+					<Button variant="default" size="xs" onClick={() => toggleBrowser('Edge')}>
 						<IconBrandEdge size={20} />
 					</Button>
-					<Button variant="default" size="xs">
+					<Button variant="default" size="xs" onClick={() => toggleBrowser('Safari')}>
 						<IconBrandSafari size={20} />
 					</Button>
-					<Button variant="default" size="xs">
+					<Button variant="default" size="xs" onClick={() => toggleBrowser('Opera')}>
 						<IconBrandOpera size={20} />
 					</Button>
 				</Group>
@@ -260,19 +277,19 @@ export default function Index() {
 					     </Button>
 				     </Grid.Col>
 			     </Grid>
-                    <Group grow p="xs" sx={(theme) => ({
-                         borderLeft: `1px solid ${theme.colorScheme === 'dark'
-                              ? theme.colors.dark[6]
-                              : theme.colors.gray[4]
-                              }`,
-                         })}
-                    >
-                         <Badge radius="xs" size="lg" variant="default">{count.Chrome}</Badge>                         
-                         <Badge radius="xs" size="lg" variant="default">{count.Firefox}</Badge>                         
-                         <Badge radius="xs" size="lg" variant="default">{count.Edge}</Badge>                         
-                         <Badge radius="xs" size="lg" variant="default">{count.Safari}</Badge>                         
-                         <Badge radius="xs" size="lg" variant="default">{count.Opera}</Badge>                         
-                    </Group>
+                <Group grow p="xs" sx={(theme) => ({
+                     borderLeft: `1px solid ${theme.colorScheme === 'dark'
+                          ? theme.colors.dark[6]
+                          : theme.colors.gray[4]
+                          }`,
+                     })}
+                >
+					<Badge radius="xs" size="lg" variant="default">{count.Chrome}</Badge>
+					<Badge radius="xs" size="lg" variant="default">{count.Firefox}</Badge>                         
+					<Badge radius="xs" size="lg" variant="default">{count.Edge}</Badge>                         
+					<Badge radius="xs" size="lg" variant="default">{count.Safari}</Badge>                         
+					<Badge radius="xs" size="lg" variant="default">{count.Opera}</Badge>                         
+                </Group>
 			</Box>
 		</Stack>
 	);
