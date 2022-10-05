@@ -53,6 +53,8 @@ export const meta = () => {
   return { 
     title,
     description,
+	
+	"theme-color": "#000000",
     
     "twitter:card": "summary_large_image",
     "twitter:site": "@CanIDevTools",
@@ -180,6 +182,14 @@ export default function App() {
         >
           <Box className="grid" 
 		  	sx={theme => ({
+				borderTop: `1px solid ${theme.colorScheme === 'dark'
+				? theme.colors.dark[6]
+				: theme.colors.gray[4]
+				}`,
+				borderBottom: `1px solid ${theme.colorScheme === 'dark'
+				? theme.colors.dark[6]
+				: theme.colors.gray[4]
+				}`
 		  })}>
             <Box
               sx={(theme) => ({
