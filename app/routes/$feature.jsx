@@ -239,11 +239,14 @@ export default function Feature() {
 							radius="xs"
 							p="xs"
 						>
-							<Anchor variant="link" color={"indigo.9"} href={`https://twitter.com/${feature.Author}`}>
+							<Anchor variant="link" href={`https://twitter.com/${feature.Author}`}>
 								{feature.Author}
 							</Anchor>
 						</Alert>
-						{feature.Newsletter ? 
+						<Alert title="Test Live" radius="xs" p="xs" 
+							styles={theme => ({ title: { marginBottom: 0 }})}>
+							via <Anchor variant="link" href="https://live.browserstack.com/dashboard">BrowserStack</Anchor>
+						</Alert>
 							<Alert styles={theme => ({ title: { marginBottom: 0 } })} 
 								title="Newsletter"
 								radius="xs"
@@ -252,7 +255,7 @@ export default function Feature() {
 							<Anchor variant="link" color={"indigo.9"} href={`https://canidevtools.substack.com/p/${feature.Newsletter}`}>
 								{feature.Newsletter}
 							</Anchor>
-						</Alert> : null}
+						</Alert>
 					</SimpleGrid>
 					<Divider />
 				</Box>
