@@ -55,6 +55,7 @@ export const meta = () => {
     description,
 	
 	"theme-color": "#000000",
+	"google-site-verification": "2yd7PjEmLRyLyn7nmV_UuDCCeZSK-n6eQdlYuNwZBMM",
     
     "twitter:card": "summary_large_image",
     "twitter:site": "@CanIDevTools",
