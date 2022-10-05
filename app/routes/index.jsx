@@ -149,19 +149,19 @@ export default function Index() {
 						padding: theme.spacing.xs,
 					})}
 				>
-					<Button variant="default" size="xs" onClick={() => toggleBrowser('Chrome')}>
+					<Button variant={params.get('browser') === 'Chrome' ? 'active' : 'default'} size="xs" onClick={() => toggleBrowser('Chrome')}>
 						<IconBrandChrome size={20} />
 					</Button>
-					<Button variant="default" size="xs" onClick={() => toggleBrowser('Firefox')}>
+					<Button variant={params.get('browser') === 'Firefox' ? 'active' : 'default'} size="xs" onClick={() => toggleBrowser('Firefox')}>
 						<IconBrandFirefox size={20} />
 					</Button>
-					<Button variant="default" size="xs" onClick={() => toggleBrowser('Edge')}>
+					<Button variant={params.get('browser') === 'Edge' ? 'active' : 'default'} size="xs" onClick={() => toggleBrowser('Edge')}>
 						<IconBrandEdge size={20} />
 					</Button>
-					<Button variant="default" size="xs" onClick={() => toggleBrowser('Safari')}>
+					<Button variant={params.get('browser') === 'Safari' ? 'active' : 'default'} size="xs" onClick={() => toggleBrowser('Safari')}>
 						<IconBrandSafari size={20} />
 					</Button>
-					<Button variant="default" size="xs" onClick={() => toggleBrowser('Opera')}>
+					<Button variant={params.get('browser') === 'Opera' ? 'active' : 'default'} size="xs" onClick={() => toggleBrowser('Opera')}>
 						<IconBrandOpera size={20} />
 					</Button>
 				</Group>
