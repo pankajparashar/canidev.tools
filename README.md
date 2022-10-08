@@ -1,4 +1,4 @@
-![image](https://canidev.tools/social-image.png) 
+![image](https://canidev.tools/social-image.jpg) 
 
 ## 1. Add audio breakpoint 
  Can I add audio breakpoint whenever a line of code is executed? 
