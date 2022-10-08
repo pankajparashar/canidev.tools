@@ -64,7 +64,7 @@ export const meta = () => {
     "og:url": "https://canidev.tools",
     "og:title": title,
     "og:description": description,
-    "og:image": "https://canidev.tools/social-image.jpg" 
+    "og:image": "https://canidev.tools/social-image.png" 
  };
 };
 
