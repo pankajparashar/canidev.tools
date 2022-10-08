@@ -23,7 +23,6 @@
     "Name": "Inspect CSS Flexbox"
   },
   "Safari": {
-    "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1657091174/Images/inspect-css-flexbox-safari_fqocnb.png",
     "Name": "Inspect CSS Flexbox",
     "Notes": "1. In the **Elements** tab, select the node with label \"flex\" from the DOM tree. \n2. From the right sidebar, select \"Layout\", and scroll down to the **Flexbox** section, that has few page overlay options to help visualize and debug flexbox containers.\n"
   },

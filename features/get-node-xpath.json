@@ -26,7 +26,6 @@
     "Name": "Get node XPath"
   },
   "Safari": {
-    "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1656598830/Images/get-node-xpath-safari_umesel.png",
     "Share": "https://twitter.com/CanIDevTools/status/1542518565508874240",
     "Name": "Get node XPath",
     "Notes": "1. Inspect element > Right click on the node in the DOM tree > Copy > XPath.\n"

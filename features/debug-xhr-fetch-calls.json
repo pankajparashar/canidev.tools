@@ -23,7 +23,6 @@
     "Name": "Debug XHR & Fetch calls"
   },
   "Safari": {
-    "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1657088185/Images/debug-xhr-fetch-calls-safari_n8wjrh.png",
     "Name": "Debug XHR & Fetch calls",
     "References": "[1] \"URL Breakpoints\" - [Webkit](https://webkit.org/web-inspector/url-breakpoints/)\n",
     "Notes": "1. In the **Sources** tab, click the \"+\" button in the left sidebar within the **Breakpoints** section > Select \"URL Breakpoint...\"\n2. Use the popup form to apply breakpoint on specific keywords and matching conditions.\n3. Alternatively, you can set breakpoint on all the requests by selecting \"All Requests\" after clicking the \"+\" button.\n"

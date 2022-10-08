@@ -21,7 +21,6 @@
     "Name": "Go to file"
   },
   "Safari": {
-    "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1657197452/Images/search-files-sources-safari_xhf8gr.png",
     "Name": "Go to file",
     "Notes": "1. Anywhere in the web inspector, press `Cmd+P` to search for files matching the filename.\n"
   },

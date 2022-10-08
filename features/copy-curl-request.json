@@ -21,7 +21,6 @@
     "Name": "Copy cURL request"
   },
   "Safari": {
-    "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1656822935/Images/copy-curl-request-safari_uczx2g.png",
     "Name": "Copy cURL request",
     "Notes": "In the **Network** tab, right click on the request, \"Copy as cURL\" will copy the request with cURL command to the clipboard.\n"
   },

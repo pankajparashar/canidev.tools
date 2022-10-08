@@ -27,7 +27,6 @@
     "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1658474944/debug-event-listeners-edge_fksnq6.mp4"
   },
   "Safari": {
-    "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1657088006/Images/debug-event-listeners-safari_kvk8f9.png",
     "Name": "Debug Event Listeners",
     "References": "[1] \"Event Breakpoints\" - [Webkit](https://webkit.org/web-inspector/event-breakpoints/)\n",
     "Notes": "1. In the **Sources** tab, click the \"+\" button from the left sidebar in the **Breakpoints** section > Select \"Events Breakpoint\".\n2. Enter the name of the event in the popup form to apply a breakpoint for a specific event.\n3. Alternatively, you can set breakpoint on all the events by selecting \"All Events\" after clicking the \"+\" button.\n"

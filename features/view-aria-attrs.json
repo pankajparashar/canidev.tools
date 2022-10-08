@@ -18,7 +18,6 @@
     "Name": "View ARIA attrs"
   },
   "Safari": {
-    "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1655178162/Images/view-aria-attrs-safari_eig5uf.png",
     "Name": "View ARIA attrs",
     "Notes": "1. Inspect the element > Click the **Node** pane next to the DOM node.\n2. Scroll down to the **Accessibility** section, expand to see all the ARA attributes for the selected node.\n"
   },

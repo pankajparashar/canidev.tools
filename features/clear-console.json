@@ -27,7 +27,6 @@
     "References": "1. \"console.clear()\" - [MDN Docs](https://developer.mozilla.org/en-US/docs/Web/API/console/clear)\n2. \"console API\" - [Can I Use](https://caniuse.com/mdn-api_console_clear)\n"
   },
   "Safari": {
-    "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1654664813/Images/clear-console-safari_giarsw.png",
     "Share": "https://twitter.com/CanIDevTools/status/1534417568353906688",
     "Name": "Clear console",
     "References": "1. \"console.clear()\" - [MDN Docs](https://developer.mozilla.org/en-US/docs/Web/API/console/clear)\n2. \"console API\" - [Can I Use](https://caniuse.com/mdn-api_console_clear)\n3. \"Issue #12\" - Tomas([@reloadedhead](https://github.com/pankajparashar/canidev.tools/issues/12))\n",

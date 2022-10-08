@@ -20,7 +20,6 @@
     "Name": "Target iframe"
   },
   "Safari": {
-    "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1657088715/Images/target-iframe-safari_qo90je.png",
     "Name": "Target iframe",
     "Notes": "1. In the **Console** panel, select the target iframe from the \"Execution context for $0\" dropdown (bottom-right).\n"
   },

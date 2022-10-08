@@ -24,7 +24,6 @@
     "Name": "Capture node screenshot"
   },
   "Safari": {
-    "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1655908440/Images/capture-node-screenshot-safari_barnqy.png",
     "Share": "https://twitter.com/CanIDevTools/status/1539621556670066689",
     "Name": "Capture node screenshot",
     "Notes": "1. Inspect element > Right click on the node in the DOM tree and click on \"Capture Screenshot\". \n2. Safari preserves transparency for the elements with no applied background colour.\n"

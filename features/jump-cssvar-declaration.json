@@ -6,15 +6,15 @@
   "LastModifiedTime": "2022-10-04T07:52:04.000Z",
   "Author": "@pankajparashar",
   "Chrome": {
-    "Name": "Jump to CSS var declaration",
-    "Notes": "1. In **Styles** pane, hover the variable name to see the actual value in the tooltip. Click the link to jump to the section where the variable is defined.\n"
+    "Notes": "1. In **Styles** pane, hover the variable name to see the actual value in the tooltip. Click the link to jump to the section where the variable is defined.\n",
+    "Name": "Jump to CSS var declaration"
   },
   "Edge": {
-    "Name": "Jump to CSS var declaration",
-    "Notes": "1. In **Styles** pane, hover the variable name to see the actual value in the tooltip. Click the link to jump to the section where the variable is defined.\n\n"
+    "Notes": "1. In **Styles** pane, hover the variable name to see the actual value in the tooltip. Click the link to jump to the section where the variable is defined.\n\n",
+    "Name": "Jump to CSS var declaration"
   },
   "Opera": {
-    "Name": "Jump to CSS var declaration",
-    "Notes": "1. In **Styles** pane, hover the variable name to see the actual value in the tooltip. Click the link to jump to the section where the variable is defined.\n\n"
+    "Notes": "1. In **Styles** pane, hover the variable name to see the actual value in the tooltip. Click the link to jump to the section where the variable is defined.\n\n",
+    "Name": "Jump to CSS var declaration"
   }
 }

@@ -11,7 +11,6 @@
     "Name": "Capture screenshot from Console"
   },
   "Safari": {
-    "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1657092052/Images/capture-screenshot-console-safari_jkubvl.png",
     "Name": "Capture screenshot from console",
     "References": "[1] \"Console Object API\" - [Webkit](https://webkit.org/web-inspector/console-object-api/#console-screenshot)\n",
     "Notes": "1. Use `console.screenshot()` to capture the screenshot of the viewport. Alternatively, pass the target node to the function to capture screenshot of a specific node.\n"

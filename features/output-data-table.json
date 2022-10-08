@@ -27,7 +27,6 @@
     "References": "1. \"console.table()\" - [MDN Docs](https://developer.mozilla.org/en-US/docs/Web/API/console/table)\n2. \"console API: table\" - [Can I Use](https://caniuse.com/mdn-api_console_table)\n"
   },
   "Safari": {
-    "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1654693611/Images/output-data-table-safari_rnxkvl.png",
     "Share": "https://twitter.com/CanIDevTools/status/1534524241693253632",
     "Name": "Output data as table",
     "References": "1. \"console.table()\" - [MDN Docs](https://developer.mozilla.org/en-US/docs/Web/API/console/table)\n2. \"console API: table\" - [Can I Use](https://caniuse.com/mdn-api_console_table)\n",

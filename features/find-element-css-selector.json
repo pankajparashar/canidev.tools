@@ -18,7 +18,6 @@
     "Name": "Find element using CSS selector"
   },
   "Safari": {
-    "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1657195583/Images/find-element-css-selector-safari_qofwic.png",
     "Name": "Find element with CSS selector",
     "Notes": "1. In the **Elements** tab, use `Cmd+F` or `Ctrl+F` to open the search box. Type the CSS selector and then press `Enter` to find elements matching the condition.\n"
   },

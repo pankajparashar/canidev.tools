@@ -22,7 +22,6 @@
     "References": "1. \"Issue #1\" by [@codepo8](https://github.com/pankajparashar/canidev.tools/issues/1).\n"
   },
   "Safari": {
-    "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1657089089/Images/preserve-console-logs-safari_ufbgus.png",
     "Name": "Preserve console logs",
     "Notes": "1. In the **Console** tab, select the \"Preserve Log\" checkbox in the toolbar (top) to persist logs across page reloads.\n"
   },

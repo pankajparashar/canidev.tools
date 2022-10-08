@@ -23,7 +23,6 @@
     "Name": "Emulate color schemes"
   },
   "Safari": {
-    "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1654696798/Images/emulate-color-schemes-safari_nvxakj.png",
     "Share": "https://twitter.com/CanIDevTools/status/1534536052563918850",
     "Name": "Emulate color schemes",
     "References": "1. \"Disable Safari's Dark Mode\" - [StackOverflow](https://stackoverflow.com/questions/65588087/disable-safaris-dark-mode-independently-from-os-setting/65588220#65588220)\n2. \"Issue #16\" - Haroen Viaene ([@Haroenv](https://github.com/pankajparashar/canidev.tools/issues/16))\n",

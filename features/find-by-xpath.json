@@ -22,7 +22,6 @@
     "Name": "Find by XPath"
   },
   "Safari": {
-    "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1654322242/Images/find-by-xpath-safari_gbo8v3.png",
     "Name": "Find by XPath",
     "Notes": "1. In the **Elements** tab, use `Cmd+F` or `Ctrl+F` to open the search bar at the top of the Elements panel.\n2. Enter the xpath to find the element in the DOM node.\n\n"
   },

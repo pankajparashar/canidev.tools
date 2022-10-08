@@ -24,7 +24,6 @@
     "Name": "Filter requests"
   },
   "Safari": {
-    "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1654920345/Images/filter-urls-safari_pkexce.png",
     "Share": "https://twitter.com/CanIDevTools/status/1535514483094917120",
     "Name": "Filter requests",
     "Notes": "1. In the **Network** tab, use the \"Filter Full URL\" input field to filter network requests for a specific keyword.\n"

@@ -32,8 +32,6 @@
     "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1659188555/get-last-value-edge_gujpbg.mp4"
   },
   "Safari": {
-    "GIF": "https://res.cloudinary.com/canidevtools/image/upload/v1659188866/get-last-value-safari_n09owq.gif",
-    "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1659188866/get-last-value-safari_ri8e21.png",
     "Share": "https://twitter.com/CanIDevTools/status/1553378242366545920",
     "Name": "Get last evaluated value",
     "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1659188866/get-last-value-safari_ckgbub.mp4",

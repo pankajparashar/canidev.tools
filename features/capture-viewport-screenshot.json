@@ -18,7 +18,6 @@
     "Name": "Capture viewport screenshot"
   },
   "Safari": {
-    "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1657092052/Images/capture-screenshot-console-safari_jkubvl.png",
     "Name": "Capture viewport screenshot",
     "Notes": "Use `console.screenshot()` to capture the screenshot of the viewport. \n"
   },

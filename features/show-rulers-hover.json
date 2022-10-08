@@ -21,7 +21,6 @@
     "Name": "Show rulers on hover"
   },
   "Safari": {
-    "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1657256760/Images/show-rulers-hover-safari_mvh2th.png",
     "Name": "Show rulers on hover",
     "Notes": "1. Open **Settings** (`Cmd+,`) > Elements > Enable \"Show page rulers and node border lines\"\n"
   },

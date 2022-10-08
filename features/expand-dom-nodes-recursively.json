@@ -21,7 +21,6 @@
     "Name": "Expand DOM nodes recursively"
   },
   "Safari": {
-    "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1656828053/Images/expand-dom-nodes-recursively-safari_qfzgub.png",
     "Name": "Expand DOM nodes recursively",
     "Notes": "1. Right click on the node in the DOM tree, select \"Expand All\".\n2. (Or) Use `Opt+Click` or `Alt+Click` on the arrow preceding the node with the keyboard.\n"
   },

@@ -21,7 +21,6 @@
     "Name": "Add class to element"
   },
   "Safari": {
-    "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1657890790/Images/add-class-element-safari_xi1ltf.png",
     "Name": "Add class to element",
     "Notes": "1. Inspect the element > Look for \"Classes\" button in bottom row of the styles section next to the Filter field.\n2. Click the button and search for the existing class names to add to the element.\n"
   },
