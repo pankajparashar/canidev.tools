@@ -7,9 +7,9 @@
   "LastModifiedTime": "2022-10-09T04:57:37.000Z",
   "Author": "@pankajparashar",
   "Safari": {
+    "Share": "https://twitter.com/CanIDevTools/status/1578644933266747392",
     "Name": "Add audio breakpoint",
     "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1665212770/add-audio-breakpoint-safari_vqjryz.mp4",
-    "Notes": "1. In **Sources** > Add a breakpoint by clicking the line number > Right click and select \"Edit Breakpoint...\".\n2. Click **Add Action** > Select \"Play Sound\" to hear a beep sound each time the statement is executed.\n",
-    "Share": "https://twitter.com/CanIDevTools/status/1578644933266747392"
+    "Notes": "1. In **Sources** > Add a breakpoint by clicking the line number > Right click and select \"Edit Breakpoint...\".\n2. Click **Add Action** > Select \"Play Sound\" to hear a beep sound each time the statement is executed.\n"
   }
 }
