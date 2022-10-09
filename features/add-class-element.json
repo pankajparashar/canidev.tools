@@ -8,27 +8,32 @@
   "Chrome": {
     "Notes": "1. Inspect the element > Look for \".cls\" button in the Styles pane next to the Filter field.\n2. Click the button and search for the existing class names to add to the element.\n",
     "Name": "Add class to element",
-    "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1665291348/add-class-element-chrome_vlzwkv.mp4"
+    "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1665291348/add-class-element-chrome_vlzwkv.mp4",
+    "Share": "https://twitter.com/CanIDevTools/status/1578999582402699264"
   },
   "Firefox": {
     "Notes": "1. Inspect the element > Look for \".cls\" button in the styles section next to the Filter Styles field.\n2. Click the button and search for the existing class names to add to the element.\n",
     "Name": "Add class to element",
-    "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1665292235/add-class-element-firefox_s2lp0w.mp4"
+    "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1665292235/add-class-element-firefox_s2lp0w.mp4",
+    "Share": "https://twitter.com/CanIDevTools/status/1578999582402699264"
   },
   "Edge": {
     "Notes": "1. Inspect the element > Look for \".cls\" button in the Styles pane next to the Filter field.\n2. Click the button and search for the existing class names to add to the element.\n",
     "Name": "Add class to element",
     "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1665293114/add-class-element-edge_abosm6.mp4",
-    "References": "1. \"Add class to an element\" - Edge DevTools [documentation](https://learn.microsoft.com/en-us/microsoft-edge/devtools-guide-chromium/css/reference#add-a-class-to-an-element)\n"
+    "References": "1. \"Add class to an element\" - Edge DevTools [documentation](https://learn.microsoft.com/en-us/microsoft-edge/devtools-guide-chromium/css/reference#add-a-class-to-an-element)\n",
+    "Share": "https://twitter.com/CanIDevTools/status/1578999582402699264"
   },
   "Safari": {
     "Name": "Add class to element",
     "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1665293973/add-class-element-safari_r5xzwg.mp4",
-    "Notes": "1. Inspect the element > Look for \"Classes\" button in bottom row of the styles section next to the Filter field.\n2. Click the button and search for the existing class names to add to the element.\n"
+    "Notes": "1. Inspect the element > Look for \"Classes\" button in bottom row of the styles section next to the Filter field.\n2. Click the button and search for the existing class names to add to the element.\n",
+    "Share": "https://twitter.com/CanIDevTools/status/1579000031553916928"
   },
   "Opera": {
     "Notes": "1. Inspect the element > Look for \".cls\" button in the Styles pane next to the Filter field.\n2. Click the button and search for the existing class names to add to the element.\n",
     "Name": "Add class to element",
-    "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1665297139/add-class-element-opera_isw5dt.mp4"
+    "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1665297139/add-class-element-opera_isw5dt.mp4",
+    "Share": "https://twitter.com/CanIDevTools/status/1578999582402699264"
   }
 }
