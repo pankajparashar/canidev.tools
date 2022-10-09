@@ -14,7 +14,6 @@
     "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1651591650/Videos/simulate-vision-deficiencies-chrome_y6niys.mp4"
   },
   "Firefox": {
-    "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1654356162/Images/simulate-vision-deficiencies-firefox_tja12d.png",
     "Notes": "1. Open devtools > Accessibility (Click >> icon for more tabs if hidden).\n2. Click the Simulate dropdown to test the website against different vision deficiencies.\n",
     "References": "1. \"Accessibility Inspector\" by [Firefox source docs](https://firefox-source-docs.mozilla.org/devtools-user/accessibility_inspector/).\n2. \"Issue #2\" by [Nicolas](https://github.com/pankajparashar/canidev.tools/issues/2).\n",
     "Name": "Simulate vision deficiencies"
@@ -29,7 +28,6 @@
   "Opera": {
     "References": "\n",
     "Notes": "1. Open devtools using `Cmd+Opt+I `(on Mac) or `Ctrl+Shift+I` (on Windows/Linux) > Click the triple dot icon in top right > More tools > Rendering.\n2. (Or) Run the command menu using `Cmd+Shift+P` (on Mac) or `Ctrl+Shift+P` (on Windows/Linux) > Search for \"Show Rendering\" > Press `Enter` to open the Rendering drawer.\n3. Scroll down to the section called \"Emulate vision deficiencies\" and select the type of deficiency to test your website.\n",
-    "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1657272655/Images/simulate-vision-deficiencies-opera_sy7acv.png",
     "Name": "Simulate vision deficiencies"
   }
 }

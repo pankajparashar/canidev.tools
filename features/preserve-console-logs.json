@@ -7,17 +7,14 @@
   "Author": "@pankajparashar",
   "Chrome": {
     "Notes": "1. Open console using `Cmd+Opt+J` or `Ctrl+Shift+J` > Click on the gear icon in top right to open \"Console settings\".\n2. Check \"Preserve log\" to preserve log statements between page reloads.\n",
-    "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1654358860/Images/preserve-console-logs-chrome_eydvl4.png",
     "Name": "Preserve console logs"
   },
   "Firefox": {
-    "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1656472576/Images/preserve-console-logs-firefox_ojwlok.png",
     "Notes": "1. Open **Console Settings** from the toolbar in top right > Click \"Persist Logs\" to preserve the console output each time you visit a new page.\n",
     "Name": "Preserve console logs"
   },
   "Edge": {
     "Notes": "1. Open console using `Cmd+Opt+J` or `Ctrl+Shift+J` > Click on the gear icon in top right to open \"Console settings\".\n2. Check \"Preserve log\" to preserve log statements between page reloads.\n\n",
-    "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1654358656/Images/preserve-console-logs-edge_ejv1re.png",
     "Name": "Preserve console logs",
     "References": "1. \"Issue #1\" by [@codepo8](https://github.com/pankajparashar/canidev.tools/issues/1).\n"
   },
@@ -27,7 +24,6 @@
   },
   "Opera": {
     "Notes": "1. Open console using `Cmd+Opt+J` or `Ctrl+Shift+J` > Click on the gear icon in top right to open \"Console settings\".\n2. Check \"Preserve log\" to preserve log statements between page reloads.\n",
-    "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1654358860/Images/preserve-console-logs-chrome_eydvl4.png",
     "Name": "Preserve console logs"
   }
 }

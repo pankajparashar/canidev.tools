@@ -10,15 +10,11 @@
     "Share": "https://twitter.com/CanIDevTools/status/1571139882432745474",
     "References": "1. \"Override geolocation\", by Chrome DevTools [Docs](https://developer.chrome.com/docs/devtools/device-mode/geolocation/).\n2. \"Simulate geolocation\", by [DevTools Tips](https://devtoolstips.org/tips/en/simulate-geolocation/).\n",
     "Notes": "1. Open **Command Menu** (`Cmd+Shift+P` or `Ctrl+Shift+P`) > Run \"Show Sensors\". This will open the **Sensors** drawer.\n2. Select a location from the **Location** dropdown or choose **Other** to manually enter the Latitude/Longitude. \n3. Use the **Manage** button to add a new custom location.\n",
-    "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1663333826/override-geolocation-chrome_q0gfyp.png",
     "Name": "Override geolocation",
-    "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1663333554/override-geolocation-chrome_ieverl.mp4",
-    "GIF": "https://res.cloudinary.com/canidevtools/image/upload/v1663333552/override-geolocation-chrome_m0ztyh.gif"
+    "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1663333554/override-geolocation-chrome_ieverl.mp4"
   },
   "Edge": {
-    "GIF": "https://res.cloudinary.com/canidevtools/image/upload/v1663405445/override-geolocation-edge_k6vjsv.gif",
     "Notes": "1. Open **Command** **Menu** (`Cmd+Shift+P` or `Ctrl+Shift+P`) > Run \"Show Sensors\". This will open the **Sensors** drawer.\n2. Select a location from the **Location** dropdown or choose **Other** to manually enter the Latitude/Longitude. \n3. Use the **Manage** button to add a new custom location.\n",
-    "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1663405442/override-geolocation-edge_uiqoqw.png",
     "Share": "https://twitter.com/CanIDevTools/status/1571140616012320768",
     "Name": "Override geolocation",
     "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1663405444/override-geolocation-edge_jwuoee.mp4",
@@ -26,11 +22,9 @@
   },
   "Opera": {
     "References": "1. \"Simulate geolocation\", by [DevTools Tips](https://devtoolstips.org/tips/en/simulate-geolocation/).\n\n",
-    "GIF": "https://res.cloudinary.com/canidevtools/image/upload/v1663405957/override-geolocation-opera_nh2k7f.gif",
     "Share": "https://twitter.com/CanIDevTools/status/1571141196680142856",
     "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1663405952/override-geolocation-opera_elpqnk.mp4",
     "Notes": "1. Open **Command** **Menu** (`Cmd+Shift+P` or `Ctrl+Shift+P`) > Run \"Show Sensors\". This will open the **Sensors** drawer.\n2. Select a location from the **Location** dropdown or choose **Other** to manually enter the Latitude/Longitude. \n3. Use the **Manage** button to add a new custom location.\n",
-    "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1663405948/override-geolocation-opera_crshgf.png",
     "Name": "Override geolocation"
   }
 }

@@ -7,17 +7,14 @@
   "Author": "@pankajparashar",
   "Chrome": {
     "Notes": "1. In the **Sources** tab, open the `.js` file from the left sidebar. In the bottom tray, click the icon `{}` titled \"Pretty print\" to pretty print the JavaScript code. \n2. This will open the formatted file in a new tab suffixed \":formatted\".\n",
-    "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1656832275/Images/pretty-print-js-chrome_igiiud.png",
     "Name": "Pretty print JavaScript"
   },
   "Firefox": {
-    "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1656832756/Images/pretty-print-js-firefox_cdhjzd.png",
     "Notes": "1. In the **Debugger** tab, open the `.js` file from the **Sources** panel in the left sidebar. From the status bar in the bottom, click the `{}` icon to pretty print the source file.\n",
     "Name": "Pretty print JavaScript"
   },
   "Edge": {
     "Notes": "1. In the **Sources** tab, open the `.js` file from the **Page** panel in the left sidebar. From the bottom status bar, click the `{}` icon to pretty print the source file.\n2. This action will open the formatted file in the new tab with the filename suffixed with `:formatted`.\n",
-    "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1656833117/Images/pretty-print-js-edge_rc8p4h.png",
     "Name": "Pretty print JavaScript"
   },
   "Safari": {
@@ -26,7 +23,6 @@
   },
   "Opera": {
     "Notes": "1. In the Sources tab, open the `.js` file from the left sidebar. In the bottom tray, click the icon `{}` titled \"Pretty print\" to pretty print the JavaScript code. \n2. This will open the formatted file in a new tab suffixed \":formatted\".\n",
-    "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1656834413/Images/pretty-print-js-opera_ny4tcx.png",
     "Name": "Pretty print JavaScript"
   }
 }

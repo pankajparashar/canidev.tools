@@ -8,9 +8,7 @@
   "Chrome": {
     "References": "1. \"Recorder\", by Chrome DevTools [Docs](https://developer.chrome.com/docs/devtools/recorder/)\n",
     "Notes": "1. Open **Command Menu** (`Ctrl+Shift+P` or `Cmd+Shift+P`) > Run > Show Recorder (Panel).\n2. Click \"Start new recording\" > Enter name > Click \"Start a new recording\" > Perform actions on the page > Click \"End recording\".\n3. Click the \"Replay\" button to replay the recorded user journey.\n",
-    "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1658754412/record-user-journey-chrome_zywugq.png",
     "Name": "Record & replay user journey",
-    "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1658754413/record-user-journey-chrome_mm57nb.mp4",
-    "GIF": "https://res.cloudinary.com/canidevtools/image/upload/v1658754413/record-user-journey-chrome_hr91st.gif"
+    "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1658754413/record-user-journey-chrome_mm57nb.mp4"
   }
 }

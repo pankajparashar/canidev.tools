@@ -8,10 +8,8 @@
   "Chrome": {
     "References": "[1] \"What's new DevTools 73?\", on Chrome Developers [Blog](https://developer.chrome.com/blog/new-in-devtools-73/#logpoints)\n",
     "Notes": "1. **Sources** > Right click on the line number and select \"Add logpoint...\" to log in the **Console** without actually writing `console.log` statements.\n",
-    "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1661143846/add-logpoint-chrome_ws9qul.png",
     "Name": "Add logpoint",
-    "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1661143847/add-logpoint-chrome_wlk4va.mp4",
-    "GIF": "https://res.cloudinary.com/canidevtools/image/upload/v1661143847/add-logpoint-chrome_ddq474.gif"
+    "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1661143847/add-logpoint-chrome_wlk4va.mp4"
   },
   "Firefox": {
     "Notes": "1. **Debugger** > Right click on the line number and select \"Add log\" to log in the Console without actually writing `console.log` statements.\n",

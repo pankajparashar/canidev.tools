@@ -8,11 +8,9 @@
   "Chrome": {
     "Share": "https://twitter.com/CanIDevTools/status/1535512330456408065",
     "Notes": "1. Open the **Network** tab > Use the \"Filter\" input field to filter network requests based on a specific keyword. \n2. Use the \"Invert\" checkbox to filter on requests which does not match the keyword.\n",
-    "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1654920345/Images/filter-urls-chrome_wpwimv.png",
     "Name": "Filter requests"
   },
   "Firefox": {
-    "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1654920345/Images/filter-urls-firefox_cujiyd.png",
     "Share": "https://twitter.com/CanIDevTools/status/1535513572410900485",
     "Notes": "1. In the **Network** tab, use the \"Filter URLs\" text field to filter the network requests for a specific keyword. \n2. Prepending a minus (`-`) negates the filter. You can combine different filters together by separating them with a space.\n",
     "References": "1. \"Filtering by properties\" - [Firefox Source Docs](https://firefox-source-docs.mozilla.org/devtools-user/network_monitor/request_list/#filtering-by-properties)\n",
@@ -20,7 +18,6 @@
   },
   "Edge": {
     "Notes": "1. Open the **Network** tab > Use the \"Filter\" input field to filter network requests based on a specific keyword. \n2. Use the \"Invert\" checkbox to filter on requests which does not match the keyword.\n",
-    "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1654920345/Images/filter-urls-edge_pgvzcx.png",
     "Name": "Filter requests"
   },
   "Safari": {
@@ -30,7 +27,6 @@
   },
   "Opera": {
     "Notes": "1. Open the **Network** tab > Use the \"Filter\" input field to filter network requests based on a specific keyword. \n2. Use the \"Invert\" checkbox to filter on requests which does not match the keyword.\n",
-    "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1654920345/Images/filter-urls-chrome_wpwimv.png",
     "Name": "Filter requests"
   }
 }

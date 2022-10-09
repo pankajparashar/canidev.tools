@@ -10,12 +10,9 @@
     "Share": "https://twitter.com/CanIDevTools/status/1520784163900899334",
     "References": "1. \"Secrets of the Browser Developer Tools\" by [devtoolsecrets.com](http://devtoolsecrets.com/)\n2. Tips & Tricks #2 of the [Newsletter](https://www.getrevue.co/profile/CanIDevTools/issues/tips-tricks-2-1159708)\n",
     "Notes": "1. Open console using `Cmd+Option+J` or `Ctrl+Shift+J`.\n2. Prefix the log statement with `%c`, and supply the CSS styles as the second argument to `console.log()`. For example, \n```\nconsole.log(\n  \"%cThis is green text with yellow background\",\n  \"color:green; background:yellow\"\n)\n```\n",
-    "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1651403705/Images/style-console-logs-chrome.png",
-    "Name": "Style console logs",
-    "GIF": "https://res.cloudinary.com/canidevtools/image/upload/v1651403705/Images/style-console-logs-chrome.gif"
+    "Name": "Style console logs"
   },
   "Firefox": {
-    "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1651403902/Images/style-console-logs-firefox.png",
     "Share": "https://twitter.com/CanIDevTools/status/1520784299104301057",
     "Notes": "1. Open console using `Cmd+Option+J` or `Ctrl+Shift+J`.\n2. Prefix the log statement with `%c`, and supply the CSS styles as the second argument to `console.log()`\n\nFor example, \n```\nconsole.log(\n  \"%cThis is green text with yellow background\",\n  \"color:green; background:yellow\"\n)\n```\n",
     "References": "1. Tips & Tricks #2 of the [Newsletter](https://www.getrevue.co/profile/CanIDevTools/issues/tips-tricks-2-1159708)\n\n",
@@ -23,7 +20,6 @@
   },
   "Edge": {
     "Notes": "1. Open console (`Cmd+Option+J` or `Ctrl+Shift+J`).\n2. Prefix the log statement with `%c`, and supply the CSS styles as the second argument to `console.log()`\n\nFor example, \n```\nconsole.log(\n  \"%cThis is green text with yellow background\",\n  \"color:green; background:yellow\"\n)\n```\n",
-    "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1651410343/Images/style-console-logs-edge.png",
     "Share": "https://twitter.com/CanIDevTools/status/1520784665787133952",
     "Name": "Style console logs",
     "References": "1. Tips & Tricks #2 of the [Newsletter](https://www.getrevue.co/profile/CanIDevTools/issues/tips-tricks-2-1159708)\n\n"
@@ -37,7 +33,6 @@
   "Opera": {
     "References": "\n",
     "Notes": "1. Open console using `Cmd+Option+J` or `Ctrl+Shift+J`.\n2. Prefix the log statement with `%c`, and supply the CSS styles as the second argument to `console.log()`. For example, \n```\nconsole.log(\n  \"%cThis is green text with yellow background\",\n  \"color:green; background:yellow\"\n)\n```\n",
-    "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1651403705/Images/style-console-logs-chrome.png",
     "Name": "Style console logs"
   }
 }

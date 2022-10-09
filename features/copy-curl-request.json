@@ -7,17 +7,14 @@
   "Author": "@pankajparashar",
   "Chrome": {
     "Notes": "In the **Network** tab, right click on the request, Copy > Copy as cURL will copy the request with cURL command to the clipboard.\n",
-    "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1656822935/Images/copy-curl-request-chrome_xvrodb.png",
     "Name": "Copy cURL request"
   },
   "Firefox": {
-    "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1656822935/Images/copy-curl-request-firefox_prpxwj.png",
     "Notes": "1. In the **Network** tab, right click on the request, Copy > Copy as cURL will copy the request with cURL command to the clipboard.\n",
     "Name": "Copy cURL request"
   },
   "Edge": {
     "Notes": "In the **Network** tab, right click on the request, Copy > Copy as cURL will copy the request with cURL command to the clipboard.\n",
-    "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1656822936/Images/copy-curl-request-edge_xhnhv5.png",
     "Name": "Copy cURL request"
   },
   "Safari": {
@@ -26,7 +23,6 @@
   },
   "Opera": {
     "Notes": "In the **Network** tab, right click on the request, Copy > Copy as cURL will copy the request with cURL command to the clipboard.\n",
-    "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1656822935/Images/copy-curl-request-opera_dpayp2.png",
     "Name": "Copy cURL request"
   }
 }

@@ -8,23 +8,19 @@
   "Chrome": {
     "References": "[1] \"Source order viewer\", by [Chrome DevTools Docs](https://developer.chrome.com/blog/new-in-devtools-92/#source-order)\n",
     "Notes": "1. In the **Elements** tab > Open the **Accessibility** pane on the right. \n2. Scroll down to the **Source Order Viewer** section, check the option \"Show source order\" to view the order of source elements on the screen.\n",
-    "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1657867599/Images/show-tab-order-chrome_vy8mle.png",
     "Name": "Show tab order"
   },
   "Firefox": {
-    "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1657867599/Images/show-tab-order-firefox_ghjdl9.png",
     "Notes": "1. In the devtools panel open the **Accessibility** tab.\n2. Select the checkbox \"Show Tabbing Order\" to highlight the tab order on the web page.\n",
     "References": "\n",
     "Name": "Show tab order"
   },
   "Edge": {
     "Notes": "1. In the **Elements** tab > Open the **Accessibility** pane on the right. \n2. Scroll down to the **Source Order Viewer** section, check the option \"Show source order\" to view the order of source elements on the screen.\n",
-    "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1657867599/Images/show-tab-order-edge_oaoclp.png",
     "Name": "Show tab order"
   },
   "Opera": {
     "Notes": "1. In the **Elements** tab > Open the **Accessibility** pane on the right. \n2. Scroll down to the **Source Order Viewer** section, check the option \"Show source order\" to view the order of source elements on the screen.\n",
-    "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1657867599/Images/show-tab-order-opera_zr3l8r.png",
     "Name": "Show tab order"
   }
 }

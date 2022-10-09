@@ -10,23 +10,17 @@
     "Share": "https://twitter.com/CanIDevTools/status/1553610736454184960",
     "References": "1. \"Console Utilities\", by Chrome DevTools [Docs](https://developer.chrome.com/docs/devtools/console/utilities/#recent-many)\n",
     "Notes": "1. Use `$0` to access the currently selected node. Additionally, `$1`, `$2`, `$3`, ... will give you the last selected nodes in the reverse chronological order.\n",
-    "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1659243167/get-selected-node-chrome_uvtf4q.png",
     "Name": "Get selected node",
-    "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1659243167/get-selected-node-chrome_uf5o4m.mp4",
-    "GIF": "https://res.cloudinary.com/canidevtools/image/upload/v1659243168/get-selected-node-chrome_cbwhzq.gif"
+    "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1659243167/get-selected-node-chrome_uf5o4m.mp4"
   },
   "Firefox": {
-    "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1663600859/get-selected-node-firefox_tev667.png",
     "Share": "https://twitter.com/CanIDevTools/status/1553610736454184960",
     "Notes": "1. Use `$0` to access the currently selected node.\n",
-    "GIF": "https://res.cloudinary.com/canidevtools/image/upload/v1663600859/get-selected-node-firefox_twiw9l.gif",
     "Name": "Get selected node",
     "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1663600859/get-selected-node-firefox_vrqglw.mp4"
   },
   "Edge": {
-    "GIF": "https://res.cloudinary.com/canidevtools/image/upload/v1663602759/get-selected-node-edge_jkpx3s.gif",
     "Notes": "1. Use `$0` to access the currently selected node. Additionally, `$1`, `$2`, `$3`, ... will give you the last selected nodes in the reverse chronological order.\n",
-    "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1663602757/get-selected-node-edge_feoycx.png",
     "Share": "https://twitter.com/CanIDevTools/status/1553610736454184960",
     "Name": "Get selected node",
     "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1663602758/get-selected-node-edge_wefhlh.mp4"
@@ -39,11 +33,9 @@
     "Notes": "1. Use `$0` to access the currently selected node.\n\n"
   },
   "Opera": {
-    "GIF": "https://res.cloudinary.com/canidevtools/image/upload/v1659243168/get-selected-node-chrome_cbwhzq.gif",
     "Share": "https://twitter.com/CanIDevTools/status/1553610736454184960",
     "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1659243167/get-selected-node-chrome_uf5o4m.mp4",
     "Notes": "1. Use `$0` to access the currently selected node. Additionally, `$1`, `$2`, `$3`, ... will give you the last selected nodes in the reverse chronological order.\n",
-    "PNG": "https://res.cloudinary.com/canidevtools/image/upload/v1659243167/get-selected-node-chrome_uvtf4q.png",
     "Name": "Get selected node"
   }
 }
