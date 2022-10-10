@@ -6,7 +6,7 @@
  1. In **Sources** > Add a breakpoint by clicking the line number > Right click and select "Edit Breakpoint...".
 2. Click **Add Action** > Select "Play Sound" to hear a beep sound each time the statement is executed.
 ## 2. Add class to element 
- Can I add a class to an element? 
+ Can I add a class to an HTML element? 
 - [Chrome](https://canidev.tools/add-class-element/chrome) 
  1. Inspect the element > Look for ".cls" button in the Styles pane next to the Filter field.
 2. Click the button and search for the existing class names to add to the element.
@@ -37,7 +37,7 @@
  1. Open **Settings** (`F1` or `Shift+?`) > Devices > Click "Add custom device...". 
 2. Enter the "Device Name" and other details associated with the device. Click the "Add" button.
 ## 4. Add inline styles 
- Can I add inline styles to node in the DOM tree? 
+ Can I add inline styles to an HTML element? 
 - [Chrome](https://canidev.tools/add-inline-styles/chrome) 
  1. Right click on the element and select "Inspect" (This will open the Elements panel in the devtools with selected element highlighted in the DOM tree). 
 2. Click "element.style" near the top of the Styles tab. Enter the declaration you want in the "property: value" format.

@@ -1,28 +1,33 @@
 {
   "Name": "Add inline styles",
   "Slug": "add-inline-styles",
-  "Description": "Can I add inline styles to node in the DOM tree?",
+  "Description": "Can I add inline styles to an HTML element?",
   "Category": "CSS",
-  "LastModifiedTime": "2022-07-09T09:01:26.000Z",
+  "LastModifiedTime": "2022-10-10T05:11:49.000Z",
   "Author": "@pankajparashar",
   "Chrome": {
     "Notes": "1. Right click on the element and select \"Inspect\" (This will open the Elements panel in the devtools with selected element highlighted in the DOM tree). \n2. Click \"element.style\" near the top of the Styles tab. Enter the declaration you want in the \"property: value\" format.\n\n",
-    "Name": "Add a CSS declaration to an element"
+    "Name": "Add inline styles",
+    "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1665378812/add-inline-styles-chrome_ljhuet.mp4"
   },
   "Firefox": {
     "Notes": "1. Right click on the element and select \"Inspect\" (This will open the Inspector panel in the devtools with selected element highlighted in the DOM tree). \n2. Click \"element\" in the adjacent styles panel. Enter the declaration you want in the \"property: value\" format.\n\n",
-    "Name": "Add a CSS declaration to an element"
+    "Name": "Add inline styles",
+    "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1665379120/add-inline-styles-firefox_oqgjhw.mp4"
   },
   "Edge": {
     "Notes": "1. Right click on the element and select \"Inspect\" (This will open the Elements panel in the devtools with selected element highlighted in the DOM tree). \n2. Click \"element.style\" near the top of the Styles tab. Enter the declaration you want in the \"property: value\" format.\n\n",
-    "Name": "Add a CSS declaration to an element"
+    "Name": "Add inline styles",
+    "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1665379280/add-inline-styles-edge_vqgpfk.mp4"
   },
   "Safari": {
-    "Name": "Add a CSS declaration to an element",
-    "Notes": "1. Right click on the element and select \"Inspect Element\" (This will open the Elements panel in the devtools with selected element highlighted in the DOM tree). \n2. Click inside the curly braces of the \"Style Attribute\" section in the adjacent panel (next to the DOM tree). Enter the declaration you want in the \"property: value\" format.\n\n"
+    "Name": "Add inline styles",
+    "Notes": "1. Right click on the element and select \"Inspect Element\" (This will open the Elements panel in the devtools with selected element highlighted in the DOM tree). \n2. Click inside the curly braces of the \"Style Attribute\" section in the adjacent panel (next to the DOM tree). Enter the declaration you want in the \"property: value\" format.\n\n",
+    "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1665383735/add-inline-styles-safari_u3jyaq.mp4"
   },
   "Opera": {
     "Notes": "1. Right click on the element and select \"Inspect\" (This will open the Elements panel in the devtools with selected element highlighted in the DOM tree). \n2. Click \"element.style\" near the top of the Styles tab. Enter the declaration you want in the \"property: value\" format.\n\n",
-    "Name": "Add a CSS declaration to an element"
+    "Name": "Add inline styles",
+    "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1665383922/add-inline-styles-opera_c0tpwt.mp4"
   }
 }

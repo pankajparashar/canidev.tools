@@ -1,10 +1,10 @@
 {
   "Name": "Add class to element",
   "Slug": "add-class-element",
-  "Description": "Can I add a class to an element?",
+  "Description": "Can I add a class to an HTML element?",
   "Category": "CSS",
   "Newsletter": "tips-tricks-22",
-  "LastModifiedTime": "2022-10-09T07:08:01.000Z",
+  "LastModifiedTime": "2022-10-10T05:11:49.000Z",
   "Author": "@pankajparashar",
   "Chrome": {
     "Share": "https://twitter.com/CanIDevTools/status/1578999582402699264",
