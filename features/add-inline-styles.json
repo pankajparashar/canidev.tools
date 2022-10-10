@@ -6,28 +6,33 @@
   "LastModifiedTime": "2022-10-10T05:11:49.000Z",
   "Author": "@pankajparashar",
   "Chrome": {
-    "Notes": "1. Right click on the element and select \"Inspect\" (This will open the Elements panel in the devtools with selected element highlighted in the DOM tree). \n2. Click \"element.style\" near the top of the Styles tab. Enter the declaration you want in the \"property: value\" format.\n\n",
+    "Notes": "1. Inspect element > In the **Styles** pane, click \"element.style\" to input the inline style.\n\n",
     "Name": "Add inline styles",
-    "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1665378812/add-inline-styles-chrome_ljhuet.mp4"
+    "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1665378812/add-inline-styles-chrome_ljhuet.mp4",
+    "Share": "https://twitter.com/CanIDevTools/status/1579372110736416768"
   },
   "Firefox": {
-    "Notes": "1. Right click on the element and select \"Inspect\" (This will open the Inspector panel in the devtools with selected element highlighted in the DOM tree). \n2. Click \"element\" in the adjacent styles panel. Enter the declaration you want in the \"property: value\" format.\n\n",
+    "Notes": "1. Inspect element > In the **Rules** pane, click \"element​\" to input the inline style.\n",
     "Name": "Add inline styles",
-    "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1665379120/add-inline-styles-firefox_oqgjhw.mp4"
+    "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1665379120/add-inline-styles-firefox_oqgjhw.mp4",
+    "Share": "https://twitter.com/CanIDevTools/status/1579372719636111360"
   },
   "Edge": {
-    "Notes": "1. Right click on the element and select \"Inspect\" (This will open the Elements panel in the devtools with selected element highlighted in the DOM tree). \n2. Click \"element.style\" near the top of the Styles tab. Enter the declaration you want in the \"property: value\" format.\n\n",
+    "Notes": "1. Inspect element > In the **Styles** pane, click \"element.style\" to input the inline style.\n\n",
     "Name": "Add inline styles",
-    "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1665379280/add-inline-styles-edge_vqgpfk.mp4"
+    "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1665379280/add-inline-styles-edge_vqgpfk.mp4",
+    "Share": "https://twitter.com/CanIDevTools/status/1579372110736416768"
   },
   "Safari": {
     "Name": "Add inline styles",
-    "Notes": "1. Right click on the element and select \"Inspect Element\" (This will open the Elements panel in the devtools with selected element highlighted in the DOM tree). \n2. Click inside the curly braces of the \"Style Attribute\" section in the adjacent panel (next to the DOM tree). Enter the declaration you want in the \"property: value\" format.\n\n",
-    "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1665383735/add-inline-styles-safari_u3jyaq.mp4"
+    "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1665383735/add-inline-styles-safari_u3jyaq.mp4",
+    "Notes": "1. Inspect element > In the **Styles** pane, click inside \"Style Attribute​\" braces to input the inline style.\n\n",
+    "Share": "https://twitter.com/CanIDevTools/status/1579373307157413888"
   },
   "Opera": {
-    "Notes": "1. Right click on the element and select \"Inspect\" (This will open the Elements panel in the devtools with selected element highlighted in the DOM tree). \n2. Click \"element.style\" near the top of the Styles tab. Enter the declaration you want in the \"property: value\" format.\n\n",
+    "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1665383922/add-inline-styles-opera_c0tpwt.mp4",
+    "Notes": "1. Inspect element > In the **Styles** pane, click \"element.style\" to input the inline style.\n",
     "Name": "Add inline styles",
-    "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1665383922/add-inline-styles-opera_c0tpwt.mp4"
+    "Share": "https://twitter.com/CanIDevTools/status/1579372110736416768"
   }
 }

@@ -39,25 +39,18 @@
 ## 4. Add inline styles 
  Can I add inline styles to an HTML element? 
 - [Chrome](https://canidev.tools/add-inline-styles/chrome) 
- 1. Right click on the element and select "Inspect" (This will open the Elements panel in the devtools with selected element highlighted in the DOM tree). 
-2. Click "element.style" near the top of the Styles tab. Enter the declaration you want in the "property: value" format.
+ 1. Inspect element > In the **Styles** pane, click "element.style" to input the inline style.
 
 - [Firefox](https://canidev.tools/add-inline-styles/firefox) 
- 1. Right click on the element and select "Inspect" (This will open the Inspector panel in the devtools with selected element highlighted in the DOM tree). 
-2. Click "element" in the adjacent styles panel. Enter the declaration you want in the "property: value" format.
-
+ 1. Inspect element > In the **Rules** pane, click "element​" to input the inline style.
 - [Edge](https://canidev.tools/add-inline-styles/edge) 
- 1. Right click on the element and select "Inspect" (This will open the Elements panel in the devtools with selected element highlighted in the DOM tree). 
-2. Click "element.style" near the top of the Styles tab. Enter the declaration you want in the "property: value" format.
+ 1. Inspect element > In the **Styles** pane, click "element.style" to input the inline style.
 
 - [Safari](https://canidev.tools/add-inline-styles/safari) 
- 1. Right click on the element and select "Inspect Element" (This will open the Elements panel in the devtools with selected element highlighted in the DOM tree). 
-2. Click inside the curly braces of the "Style Attribute" section in the adjacent panel (next to the DOM tree). Enter the declaration you want in the "property: value" format.
+ 1. Inspect element > In the **Styles** pane, click inside "Style Attribute​" braces to input the inline style.
 
 - [Opera](https://canidev.tools/add-inline-styles/opera) 
- 1. Right click on the element and select "Inspect" (This will open the Elements panel in the devtools with selected element highlighted in the DOM tree). 
-2. Click "element.style" near the top of the Styles tab. Enter the declaration you want in the "property: value" format.
-
+ 1. Inspect element > In the **Styles** pane, click "element.style" to input the inline style.
 ## 5. Add logpoint 
  Can I add log points to source code for debugging? 
 - [Chrome](https://canidev.tools/add-logpoint/chrome) 
