@@ -113,16 +113,9 @@ blockquote {
     1.1px 0.1px 1.2px -1.2px hsl(var(--shadow-color) / 0.44),
     2.2px 0.2px 2.5px -1.9px hsl(var(--shadow-color) / 0.44),
     4.3px 0.3px 4.8px -2.5px hsl(var(--shadow-color) / 0.44);
-
-  box-shadow: var(--shadow-elevation-medium);
 }
 
 .carbon-text {
-  line-height: 1.5;
-  max-width: 350px;
-  display: block;
-  text-decoration: none;
-  color: #999;
 }
 
 .carbon-poweredby {

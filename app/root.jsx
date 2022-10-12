@@ -41,9 +41,11 @@ import {
   IconHexagons,
   IconCrosshair,
   IconAd2,
+  IconAd,
+  IconInfoCircle
 } from '@tabler/icons';
 import { Badge, Box, NavLink, MantineProvider, Collapse, createEmotionCache } from '@mantine/core';
-import { Grid, Button, Divider, Alert, Text } from '@mantine/core';
+import { Anchor, Grid, SimpleGrid, Button, Divider, Alert, Text } from '@mantine/core';
 import { Group } from '@mantine/core';
 
 export const meta = () => {
@@ -109,10 +111,12 @@ export function CarbonAds() {
 
   return (
     <Alert
+		p="xs"
+		color="blue"
       title="Ads via Carbon"
-      color="blue"
       radius="xs"
       withCloseButton
+	  icon={<IconAd2 size={24} />}
     >
       <Box ref={adRef} className="carbon-cad" />
     </Alert>
@@ -236,6 +240,20 @@ export default function App() {
                 </Button>
               </Box>
               <Divider />
+				<Collapse in={open} p="xs" sx={(theme) => ({
+				  borderRight: `1px solid ${theme.colorScheme === 'dark'
+					? theme.colors.dark[6]
+					: theme.colors.gray[4]
+					}`,
+				})}>
+					<SimpleGrid spacing="xs">
+						<Alert icon={<IconInfoCircle size={24} />} title="About" color="blue" radius="xs" p="xs">
+							It is like <Anchor href="https://caniuse.com/" target="_blank">@CanIUse</Anchor> but for the browser devtools, created & curated by <Anchor href="https://pankajparashar.com" target="_blank">@pankajparashar</Anchor>.
+							<br/><br/>Get weekly tips & tricks straight into your inbox by subscribing to the <Anchor href="https://canidevtools.substack.com" target="_blank">newsletter</Anchor>!
+						</Alert>					
+						<CarbonAds />
+					</SimpleGrid>
+				</Collapse>				  
 
               <Collapse
 			  	className="collapse"
@@ -248,6 +266,7 @@ export default function App() {
                     }`,
                 })}
               >
+			  <Divider />
                 <Link to={'/'} itemProp="itemListElement" itemScope itemType="https://schema.org/ListItem">
                   <NavLink
                     active={params.get('category') === null}
@@ -310,6 +329,7 @@ export default function App() {
                   })}
                 >
                   <Button
+				  	size="xs"
                     variant="default"
                     component="a"
                     href="https://twitter.com/CanIDevTools"
@@ -317,6 +337,7 @@ export default function App() {
                     <IconBrandTwitter size={20} />
                   </Button>
                   <Button
+					  size="xs"
                     variant="default"
                     component="a"
                     href="https://github.com/pankajparashar/canidev.tools"
@@ -324,18 +345,19 @@ export default function App() {
                     <IconBrandGithub size={20} />
                   </Button>
                   <Button
+				  size="xs"
                     variant="default"
                     component="a"
                     href="https://canidevtools.substack.com"
                   >
                     <IconNews size={20} />
                   </Button>
-                  <Button variant="default" onClick={toggleColorScheme}>
+                  <Button
+				  	size="xs"
+ variant="default" onClick={toggleColorScheme}>
                     <IconBrightness size={20} />
                   </Button>
                 </Group>
-                <Divider />
-                <CarbonAds />
                 <Divider />
               </Collapse>
             </Box>
