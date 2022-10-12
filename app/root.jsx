@@ -1,45 +1,18 @@
-import {
-    Link,
-    Links,
-    LiveReload,
-    Meta,
-    Outlet,
-    Scripts,
-    ScrollRestoration,
-    useLoaderData,
-    useSearchParams,
-} from '@remix-run/react';
-import styles from './root.css';
-
-import * as React from 'react';
 import * as fs from 'fs';
 import path from 'path';
-import {json} from '@remix-run/node';
-import {StylesPlaceholder} from '@mantine/remix';
 
-import {useMediaQuery, useColorScheme} from '@mantine/hooks';
-import {
-    IconCode,
-    IconListDetails,
-    IconBrandTwitter,
-    IconBrandGithub,
-    IconNews,
-    IconBrightness,
-    IconBoxMargin,
-    IconList,
-    IconAccessible,
-    IconReportMedical,
-    IconTerminal2,
-    IconBrandNextjs,
-    IconAffiliate,
-    IconHexagons,
-    IconCrosshair,
-    IconAd2,
-    IconInfoCircle
-} from '@tabler/icons';
-import {Badge, Box, NavLink, MantineProvider, Collapse, createEmotionCache} from '@mantine/core';
-import {Anchor, SimpleGrid, Button, Divider, Alert, Text} from '@mantine/core';
-import {Group} from '@mantine/core';
+import * as React from 'react';
+
+import { Link, Links, LiveReload, Meta, Outlet, Scripts, ScrollRestoration } from '@remix-run/react'
+import { useLoaderData, useSearchParams } from '@remix-run/react'
+import { json } from '@remix-run/node';
+
+import { Badge, Box, NavLink, MantineProvider, Collapse, Anchor, Group, SimpleGrid, Button, Divider, Alert, Text, createEmotionCache } from '@mantine/core';
+import { useMediaQuery, useColorScheme } from '@mantine/hooks';
+import { StylesPlaceholder } from '@mantine/remix';
+
+import { IconCode, IconListDetails, IconBrandTwitter, IconBrandGithub, IconNews, IconBrightness, IconBoxMargin, IconList, IconAccessible, IconReportMedical, IconTerminal2, IconBrandNextjs, IconAffiliate, IconHexagons, IconCrosshair, IconAd2, IconInfoCircle } from '@tabler/icons';
+import styles from './root.css';
 
 export const meta = () => {
     const title = 'Can I DevTools?'
