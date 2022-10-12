@@ -238,6 +238,7 @@ export default function App() {
               <Divider />
 
               <Collapse
+			  	className="collapse"
                 itemScope itemType="https://schema.org/BreadcrumbList"
                 in={open}
                 sx={(theme) => ({
@@ -292,6 +293,7 @@ export default function App() {
               </Collapse>
 
               <Collapse
+			  	className="collapse"
                 in={open}
                 sx={(theme) => ({
                   borderRight: `1px solid ${theme.colorScheme === 'dark'
