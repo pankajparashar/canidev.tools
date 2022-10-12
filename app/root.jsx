@@ -7,11 +7,11 @@ import { Link, Links, LiveReload, Meta, Outlet, Scripts, ScrollRestoration } fro
 import { useLoaderData, useSearchParams } from '@remix-run/react'
 import { json } from '@remix-run/node';
 
-import { Badge, Box, NavLink, MantineProvider, Collapse, Anchor, Group, SimpleGrid, Button, Divider, Alert, Text, createEmotionCache } from '@mantine/core';
+import { Badge, Box, NavLink, MantineProvider, Collapse, Anchor, Group, SimpleGrid, Button, Divider, Alert, Text, TextInput, createEmotionCache } from '@mantine/core';
 import { useMediaQuery, useColorScheme } from '@mantine/hooks';
 import { StylesPlaceholder } from '@mantine/remix';
 
-import { IconCode, IconListDetails, IconBrandTwitter, IconBrandGithub, IconNews, IconBrightness, IconBoxMargin, IconList, IconAccessible, IconReportMedical, IconTerminal2, IconBrandNextjs, IconAffiliate, IconHexagons, IconCrosshair, IconAd2, IconInfoCircle } from '@tabler/icons';
+import { IconAt, IconCode, IconListDetails, IconBrandTwitter, IconBrandGithub, IconNews, IconBrightness, IconBoxMargin, IconList, IconAccessible, IconReportMedical, IconTerminal2, IconBrandNextjs, IconAffiliate, IconHexagons, IconCrosshair, IconAd2, IconInfoCircle } from '@tabler/icons';
 import styles from './root.css';
 
 export const meta = () => {
@@ -78,7 +78,6 @@ export function CarbonAds() {
     return (
         <Alert
             p="xs"
-            color="blue"
             title="Ads via Carbon"
             radius="xs"
             withCloseButton
@@ -213,12 +212,12 @@ export default function App() {
                         }`,
                     })}>
                         <SimpleGrid spacing="xs">
-                            <Alert icon={<IconInfoCircle size={24}/>} title="About" color="blue" radius="xs" p="xs">
+                            <Alert icon={<IconInfoCircle size={24}/>} title="About" radius="xs" p="xs">
                                 It is like <Anchor href="https://caniuse.com/" target="_blank">@CanIUse</Anchor> but for
                                 the browser devtools, created & curated by <Anchor href="https://pankajparashar.com"
                                                                                    target="_blank">@pankajparashar</Anchor>.
-                                <br/><br/>Get weekly tips & tricks straight into your inbox by subscribing to
-                                the <Anchor href="https://canidevtools.substack.com" target="_blank">newsletter</Anchor>!
+
+                                <TextInput mt="xs" variant="default" styles={{ label: {marginBottom: "5px"} }} label="Subscribe to Newsletter:" placeholder="eg., email@gmail.com" icon={<IconAt size={14} />} />
                             </Alert>
                             <CarbonAds/>
                         </SimpleGrid>
