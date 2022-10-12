@@ -3,24 +3,32 @@
   "Slug": "add-logpoint",
   "Description": "Can I add log points to source code for debugging?",
   "Category": "Sources",
-  "LastModifiedTime": "2022-08-22T05:12:36.000Z",
+  "Newsletter": "tips-tricks-24",
+  "LastModifiedTime": "2022-10-12T02:56:22.000Z",
   "Author": "@pankajparashar",
   "Chrome": {
-    "References": "[1] \"What's new DevTools 73?\", on Chrome Developers [Blog](https://developer.chrome.com/blog/new-in-devtools-73/#logpoints)\n",
-    "Notes": "1. **Sources** > Right click on the line number and select \"Add logpoint...\" to log in the **Console** without actually writing `console.log` statements.\n",
+    "References": "1. \"What's new DevTools 73?\", on Chrome Developers [Blog](https://developer.chrome.com/blog/new-in-devtools-73/#logpoints)\n",
+    "Notes": "1. In **Sources** > Right click on the line number and select \"Add logpoint...\" > Input the log statement to print in the **Console** without actually writing `console.log` statements.\n",
     "Name": "Add logpoint",
-    "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1661143847/add-logpoint-chrome_wlk4va.mp4"
+    "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1665473593/add-logpoint-chrome_v2t0my.mp4",
+    "Share": "https://twitter.com/CanIDevTools/status/1580026407798775808"
   },
   "Firefox": {
-    "Notes": "1. **Debugger** > Right click on the line number and select \"Add log\" to log in the Console without actually writing `console.log` statements.\n",
-    "Name": "Add logpoint"
+    "Notes": "1. In **Debugger** > Right click on the line number and select \"Add log\" > Input the log statement to print in the **Console** without actually writing `console.log` statements.\n",
+    "Name": "Add logpoint",
+    "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1665473935/add-logpoint-firefox_gxbla9.mp4",
+    "Share": "https://twitter.com/CanIDevTools/status/1580027197435232257"
   },
   "Edge": {
-    "Notes": "1. **Sources** > Right click on the line number and select \"Add logpoint...\" to log in the **Console** without actually writing `console.log` statements.\n",
-    "Name": "Add logpoint"
+    "Notes": "1. In **Sources** > Right click on the line number and select \"Add logpoint...\" > Input the log statement to print in the **Console** without actually writing `console.log` statements.\n",
+    "Name": "Add logpoint",
+    "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1665492823/add-logpoint-edge_sdfglb.mp4",
+    "Share": "https://twitter.com/CanIDevTools/status/1580026407798775808"
   },
   "Opera": {
-    "Notes": "1. **Sources** > Right click on the line number and select \"Add logpoint...\" to log in the **Console** without actually writing `console.log` statements.\n\n",
-    "Name": "Add logpoint"
+    "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1665492825/add-logpoint-opera_d7eokn.mp4",
+    "Notes": "1. In **Sources** > Right click on the line number and select \"Add logpoint...\" > Input the log statement to print in the **Console** without actually writing `console.log` statements.\n",
+    "Name": "Add logpoint",
+    "Share": "https://twitter.com/CanIDevTools/status/1580026407798775808"
   }
 }

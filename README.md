@@ -54,14 +54,13 @@
 ## 5. Add logpoint 
  Can I add log points to source code for debugging? 
 - [Chrome](https://canidev.tools/add-logpoint/chrome) 
- 1. **Sources** > Right click on the line number and select "Add logpoint..." to log in the **Console** without actually writing `console.log` statements.
+ 1. In **Sources** > Right click on the line number and select "Add logpoint..." > Input the log statement to print in the **Console** without actually writing `console.log` statements.
 - [Firefox](https://canidev.tools/add-logpoint/firefox) 
- 1. **Debugger** > Right click on the line number and select "Add log" to log in the Console without actually writing `console.log` statements.
+ 1. In **Debugger** > Right click on the line number and select "Add log" > Input the log statement to print in the **Console** without actually writing `console.log` statements.
 - [Edge](https://canidev.tools/add-logpoint/edge) 
- 1. **Sources** > Right click on the line number and select "Add logpoint..." to log in the **Console** without actually writing `console.log` statements.
+ 1. In **Sources** > Right click on the line number and select "Add logpoint..." > Input the log statement to print in the **Console** without actually writing `console.log` statements.
 - [Opera](https://canidev.tools/add-logpoint/opera) 
- 1. **Sources** > Right click on the line number and select "Add logpoint..." to log in the **Console** without actually writing `console.log` statements.
-
+ 1. In **Sources** > Right click on the line number and select "Add logpoint..." > Input the log statement to print in the **Console** without actually writing `console.log` statements.
 ## 6. Autocomplete styles using values 
  Can I autocomplete style declaration just using values? 
 - [Chrome](https://canidev.tools/autocomplete-styles-values/chrome) 

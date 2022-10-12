@@ -2,6 +2,7 @@
 **/.DS_Store
 .gitpod.yml
 public/.DS_Store
+engine.bin
 
 node_modules
 
