@@ -650,6 +650,9 @@
 - [Edge](https://canidev.tools/find-inactive-styles/edge) 
  > Enable authoring hints, by opening **Settings** (`F1`) > **Experiments** > Filter on "authoring hints" > Check "Enable CSS Authoring hints..."
 1. In **Elements** > Locate the authored styles in the **Styles** pane > Inactive declarations have an "i" icon, which on hover reveals a tooltip displaying more information.
+- [Opera](https://canidev.tools/find-inactive-styles/opera) 
+ > Enable authoring hints, by opening Settings (`F1`) > Experiments > Filter on "authoring hints" > Check "Enable CSS Authoring hints..."
+1. In Elements > Locate the authored styles in the Styles pane > Inactive declarations have an "i" icon, which on hover reveals a tooltip displaying more information.
 ## 44. Find unused CSS 
  Can I find unused styles on a web page? 
 - [Chrome](https://canidev.tools/find-unused-css/chrome) 
