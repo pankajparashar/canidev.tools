@@ -206,22 +206,7 @@ export default function App() {
                         </Button>
                     </Box>
                     <Divider/>
-                    <Collapse in={open} className="collapse" sx={(theme) => ({
-                        borderRight: `1px solid ${theme.colorScheme === 'dark'
-                            ? theme.colors.dark[6]
-                            : theme.colors.gray[4]
-                        }`,
-                    })}>
-                        <Box p="xs">
-                            <Alert icon={<IconInfoCircle size={24}/>} title="About" radius="xs" p="xs">
-                                It is like <Anchor href="https://caniuse.com/" target="_blank">@CanIUse</Anchor> but for
-                                the browser devtools, created & curated by <Anchor href="https://pankajparashar.com"
-                                                                                   target="_blank">@pankajparashar</Anchor>.
 
-                                <TextInput mt="xs" variant="default" styles={{ label: {marginBottom: "5px"} }} label="Subscribe to Newsletter:" placeholder="eg., email@gmail.com" icon={<IconAt size={14} />} />
-                            </Alert>
-                        </Box>
-                    </Collapse>
 
                     <Collapse
                         className="collapse"
@@ -234,7 +219,6 @@ export default function App() {
                             }`,
                         })}
                     >
-                        <Divider/>
                         <Link to={'/'} itemProp="itemListElement" itemScope itemType="https://schema.org/ListItem">
                             <NavLink
                                 active={params.get('category') === null}
@@ -327,6 +311,14 @@ export default function App() {
                             </Button>
                         </Group>
                         <Divider/>
+                        <Box p="xs" pb="0">
+                            <Alert icon={<IconInfoCircle size={24}/>} title="About" radius="xs" p="xs">
+                                It is like <Anchor href="https://caniuse.com/" target="_blank">@CanIUse</Anchor> but for
+                                the browser devtools, created & curated by <Anchor href="https://pankajparashar.com"
+                                target="_blank">@pankajparashar</Anchor>.
+                                <TextInput mt="xs" variant="default" styles={{ label: {marginBottom: "5px"} }} label="Subscribe to Newsletter:" placeholder="eg., email@gmail.com" icon={<IconAt size={14} />} />
+                            </Alert>
+                        </Box>
                         <CarbonAds/>
                         <Divider/>
 
