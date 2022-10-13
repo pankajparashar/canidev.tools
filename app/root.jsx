@@ -311,17 +311,16 @@ export default function App() {
                             </Button>
                         </Group>
                         <Divider/>
-                        <Box p="xs" pb="0">
-                            <Alert icon={<IconInfoCircle size={24}/>} title="About" radius="xs" p="xs">
+                        <Alert icon={<IconInfoCircle size={24}/>} title="About" radius="xs" p="xs" m="xs" mb="0">
+                            <Box sx={theme => ({ maxWidth: "500px" })}>
                                 It is like <Anchor href="https://caniuse.com/" target="_blank">@CanIUse</Anchor> but for
                                 the browser devtools, created & curated by <Anchor href="https://pankajparashar.com"
                                 target="_blank">@pankajparashar</Anchor>.
                                 <TextInput mt="xs" variant="default" styles={{ label: {marginBottom: "5px"} }} label="Subscribe to Newsletter:" placeholder="eg., email@gmail.com" icon={<IconAt size={14} />} />
-                            </Alert>
-                        </Box>
+                            </Box>
+                        </Alert>
                         <CarbonAds/>
                         <Divider/>
-
                     </Collapse>
                 </Box>
                 <Box className="colspan">
