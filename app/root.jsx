@@ -76,6 +76,7 @@ export function CarbonAds() {
     }, []);
 
     return (
+            <Box p="xs">
         <Alert
             p="xs"
             title="Ads via Carbon"
@@ -84,7 +85,7 @@ export function CarbonAds() {
             icon={<IconAd2 size={24}/>}
         >
             <Box ref={adRef} className="carbon-cad"/>
-        </Alert>
+        </Alert></Box>
     );
 }
 
@@ -219,7 +220,6 @@ export default function App() {
 
                                 <TextInput mt="xs" variant="default" styles={{ label: {marginBottom: "5px"} }} label="Subscribe to Newsletter:" placeholder="eg., email@gmail.com" icon={<IconAt size={14} />} />
                             </Alert>
-                            <CarbonAds/>
                         </SimpleGrid>
                     </Collapse>
 
@@ -327,6 +327,9 @@ export default function App() {
                             </Button>
                         </Group>
                         <Divider/>
+                        <CarbonAds/>
+                        <Divider/>
+
                     </Collapse>
                 </Box>
                 <Box className="colspan">
