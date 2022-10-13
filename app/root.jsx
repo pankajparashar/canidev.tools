@@ -206,7 +206,7 @@ export default function App() {
                         </Button>
                     </Box>
                     <Divider/>
-                    <Collapse in={open} sx={(theme) => ({
+                    <Collapse in={open} className="collapse" sx={(theme) => ({
                         borderRight: `1px solid ${theme.colorScheme === 'dark'
                             ? theme.colors.dark[6]
                             : theme.colors.gray[4]
