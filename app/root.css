@@ -96,6 +96,7 @@ blockquote {
   cursor: pointer;
   text-decoration: none;
   box-sizing: border-box;
+  max-width: 500px;
 }
 
 .carbon-cad .carbon-img {
@@ -106,25 +107,10 @@ blockquote {
 .carbon-img img {
   width: 10em;
   border-radius: 5px;
-
-  --shadow-color: 205deg 31% 43%;
-  --shadow-elevation-medium: 0.2px 0px 0.2px hsl(var(--shadow-color) / 0.44),
-    0.5px 0px 0.6px -0.6px hsl(var(--shadow-color) / 0.44),
-    1.1px 0.1px 1.2px -1.2px hsl(var(--shadow-color) / 0.44),
-    2.2px 0.2px 2.5px -1.9px hsl(var(--shadow-color) / 0.44),
-    4.3px 0.3px 4.8px -2.5px hsl(var(--shadow-color) / 0.44);
-}
-
-.carbon-text {
 }
 
 .carbon-poweredby {
   display: none;
-  font-size: 10px;
-  text-transform: uppercase;
-  font-weight: bold;
-  letter-spacing: 0.04em;
-  text-decoration: none;
 }
 
 @font-face {
