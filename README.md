@@ -65,13 +65,13 @@
  Can I autocomplete style declaration just using values? 
 - [Chrome](https://canidev.tools/autocomplete-styles-values/chrome) 
  1. Inspect an element > Navigate to the styles section (next to the DOM tree).
-2. Add new styles by directly entering the values like "bold", "italic" etc., and the devtools will automatically suggest the corresponding `<attribute>: <value>` pair for the given input.
+2. Add new styles by directly entering the values like "bold", "italic" etc., and the devtools will automatically suggest the corresponding `<property>: <value>` pair for the given input.
 - [Edge](https://canidev.tools/autocomplete-styles-values/edge) 
  1. Inspect an element > Navigate to the styles section (next to the DOM tree).
-2. Add new styles by directly entering the values like "bold", "italic" etc., and the devtools will automatically suggest the corresponding `<attribute>: <value>` pair for the given input.
+2. Add new styles by directly entering the values like "bold", "italic" etc., and the devtools will automatically suggest the corresponding `<property>: <value>` pair for the given input.
 - [Opera](https://canidev.tools/autocomplete-styles-values/opera) 
  1. Inspect an element > Navigate to the styles section (next to the DOM tree).
-2. Add new styles by directly entering the values like "bold", "italic" etc., and the devtools will automatically suggest the corresponding `<attribute>: <value>` pair for the given input.
+2. Add new styles by directly entering the values like "bold", "italic" etc., and the devtools will automatically suggest the corresponding `<property>: <value>` pair for the given input.
 ## 7. Block request URL 
  Can I block a specific URL from making a network request? 
 - [Chrome](https://canidev.tools/block-request-url/chrome) 
