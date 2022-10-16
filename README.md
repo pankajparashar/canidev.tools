@@ -77,7 +77,7 @@
 - [Chrome](https://canidev.tools/block-request-domain/chrome) 
  1. In the **Network** panel, right click on the network request, and select "Block request domain". This will open the **Network request blocking** drawer that will let you manage blocked network requests. 
 - [Firefox](https://canidev.tools/block-request-domain/firefox) 
- 1. In the **Network** panel, click the "Request Blocking" icon to open the **Blocking** pane in the left sidebar.
+ 1. In the **Network** panel, click the "Request Blocking" icon in the toolbar to open the **Blocking** pane in the left sidebar.
 2. Add the domain name in the input box to block all the matching requests for that domain.
 - [Edge](https://canidev.tools/block-request-domain/edge) 
  1. In the **Network** panel, right click on the network request, and select "Block request domain". This will open the **Network** **request** **blocking** drawer that will let you manage blocked network requests. 
