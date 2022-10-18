@@ -99,7 +99,7 @@
 2. Click the "+" button and add the URL pattern > Add. Reload the page for the changes to take effect. Filter on **Blocked** **Requests** by enabling the checkbox in the toolbar.
 - [Safari](https://canidev.tools/block-request-url-pattern/safari) 
  1. In the **Sources** panel, Add a new **Local** **Override** by clicking the "+" (Create Resource) button.
-2. Select the **Type** as Block, and enter the regex for the URL pattern to override the network request for. Reload the page to see the changes take effect.
+2. Select the **Type** as "Block", and enter the regex for the URL pattern to override the network request for. Reload the page to see the changes take effect.
 - [Opera](https://canidev.tools/block-request-url-pattern/opera) 
  1. Open **Command** **Menu** (`Cmd+Shift+P` or `Ctrl+Shift+P`) > Run "Show Network request blocking". This will open the **Network** **request** **blocking** drawer.
 2. Click the "+" button and add the URL pattern > Add. Reload the page for the changes to take effect. Filter on **Blocked** **Requests** by enabling the checkbox in the toolbar.
