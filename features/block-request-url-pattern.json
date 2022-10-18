@@ -1,0 +1,33 @@
+{
+  "Name": "Block request by URL pattern",
+  "Slug": "block-request-url-pattern",
+  "Description": "Can I block all network request matching a URL pattern?",
+  "Category": "Network",
+  "LastModifiedTime": "2022-10-18T06:56:48.000Z",
+  "Author": "@pankajparashar",
+  "Chrome": {
+    "Notes": "1. Open **Command** **Menu** (`Cmd+Shift+P` or `Ctrl+Shift+P`) > Run \"Show Network request blocking\". This will open the **Network request blocking** drawer.\n2. Click the \"+\" button and add the URL pattern > Add. Reload the page for the changes to take effect. Filter on **Blocked Requests** by enabling the checkbox in the toolbar.\n",
+    "Name": "Block request by URL pattern",
+    "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1666076803/block-request-url-pattern-chrome_u9vpbn.mp4"
+  },
+  "Firefox": {
+    "Notes": "1. In the **Network** panel, click the **Request** **Blocking** icon in the toolbar, to open the **Blocking** pane in the left sidebar. \n2. Input the URL pattern and press `Enter`. Reload the page to see the changes take effect.\n",
+    "Name": "Block request by URL pattern",
+    "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1666077757/block-request-url-pattern-firefox_cfnvk3.mp4"
+  },
+  "Edge": {
+    "Notes": "1. Open **Command** **Menu** (`Cmd+Shift+P` or `Ctrl+Shift+P`) > Run \"Show Network request blocking\". This will open the **Network** **request** **blocking** drawer.\n2. Click the \"+\" button and add the URL pattern > Add. Reload the page for the changes to take effect. Filter on **Blocked** **Requests** by enabling the checkbox in the toolbar.\n",
+    "Name": "Block request by URL pattern",
+    "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1666079035/block-request-url-pattern-edge_h9c5ig.mp4"
+  },
+  "Safari": {
+    "Name": "Block request by URL pattern",
+    "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1666084565/block-request-url-pattern-safari_u8c6fj.mp4",
+    "Notes": "1. In the **Sources** panel, Add a new **Local** **Override** by clicking the \"+\" (Create Resource) button.\n2. Select the **Type** as Block, and enter the regex for the URL pattern to override the network request for. Reload the page to see the changes take effect.\n"
+  },
+  "Opera": {
+    "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1666079035/block-request-url-pattern-edge_h9c5ig.mp4",
+    "Notes": "1. Open **Command** **Menu** (`Cmd+Shift+P` or `Ctrl+Shift+P`) > Run \"Show Network request blocking\". This will open the **Network** **request** **blocking** drawer.\n2. Click the \"+\" button and add the URL pattern > Add. Reload the page for the changes to take effect. Filter on **Blocked** **Requests** by enabling the checkbox in the toolbar.\n",
+    "Name": "Block request by URL pattern"
+  }
+}

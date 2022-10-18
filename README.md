@@ -86,7 +86,24 @@
 2. Right click on the override and select "Edit Local Override...". Add the domain name in the URL pattern and use Status as `404: Not Found` to block all the network requests for that domain.
 - [Opera](https://canidev.tools/block-request-domain/opera) 
  1. In the **Network** panel, right click on the network request, and select "Block request domain". This will open the **Network request blocking** drawer that will let you manage blocked network requests. 
-## 8. Block request URL 
+## 8. Block request by URL pattern 
+ Can I block all network request matching a URL pattern? 
+- [Chrome](https://canidev.tools/block-request-url-pattern/chrome) 
+ 1. Open **Command** **Menu** (`Cmd+Shift+P` or `Ctrl+Shift+P`) > Run "Show Network request blocking". This will open the **Network request blocking** drawer.
+2. Click the "+" button and add the URL pattern > Add. Reload the page for the changes to take effect. Filter on **Blocked Requests** by enabling the checkbox in the toolbar.
+- [Firefox](https://canidev.tools/block-request-url-pattern/firefox) 
+ 1. In the **Network** panel, click the **Request** **Blocking** icon in the toolbar, to open the **Blocking** pane in the left sidebar. 
+2. Input the URL pattern and press `Enter`. Reload the page to see the changes take effect.
+- [Edge](https://canidev.tools/block-request-url-pattern/edge) 
+ 1. Open **Command** **Menu** (`Cmd+Shift+P` or `Ctrl+Shift+P`) > Run "Show Network request blocking". This will open the **Network** **request** **blocking** drawer.
+2. Click the "+" button and add the URL pattern > Add. Reload the page for the changes to take effect. Filter on **Blocked** **Requests** by enabling the checkbox in the toolbar.
+- [Safari](https://canidev.tools/block-request-url-pattern/safari) 
+ 1. In the **Sources** panel, Add a new **Local** **Override** by clicking the "+" (Create Resource) button.
+2. Select the **Type** as Block, and enter the regex for the URL pattern to override the network request for. Reload the page to see the changes take effect.
+- [Opera](https://canidev.tools/block-request-url-pattern/opera) 
+ 1. Open **Command** **Menu** (`Cmd+Shift+P` or `Ctrl+Shift+P`) > Run "Show Network request blocking". This will open the **Network** **request** **blocking** drawer.
+2. Click the "+" button and add the URL pattern > Add. Reload the page for the changes to take effect. Filter on **Blocked** **Requests** by enabling the checkbox in the toolbar.
+## 9. Block request URL 
  Can I block a network request? 
 - [Chrome](https://canidev.tools/block-request-url/chrome) 
  1. In the **Network** tab, right click on the request and select "Block request URL". This will open the "Network request blocking" drawer that will let you manage all your blocked requests.
@@ -99,7 +116,7 @@
 2. In the **Sources** tab, under the **Local Overrides** section in the left sidebar, you can manage the blocked request.
 - [Opera](https://canidev.tools/block-request-url/opera) 
  1. In the **Network** tab, right click on the request and select "Block request URL". This will open the "Network request blocking" drawer that will let you manage all your blocked requests.
-## 9. Capture full page screenshot 
+## 10. Capture full page screenshot 
  Can I take full page screenshot of a website? 
 - [Chrome](https://canidev.tools/capture-full-page-screenshot/chrome) 
  1. Open devtools > Launch the command menu
@@ -116,7 +133,7 @@
 - [Opera](https://canidev.tools/capture-full-page-screenshot/opera) 
  1. Open devtools > Launch the command menu
 2. Search for "Capture full size screenshot" and press Enter
-## 10. Capture node screenshot 
+## 11. Capture node screenshot 
  Can I take a screenshot of a DOM node? 
 - [Chrome](https://canidev.tools/capture-node-screenshot/chrome) 
  1. Inspect element > Right click on the node in the DOM tree and select "Capture node screenshot".
@@ -130,7 +147,7 @@
 2. Safari preserves transparency for the elements with no applied background colour.
 - [Opera](https://canidev.tools/capture-node-screenshot/opera) 
  1. Inspect element > Right click on the node in the DOM tree and select "Capture node screenshot".
-## 11. Capture node stacktrace 
+## 12. Capture node stacktrace 
  Can I capture node creation stack trace? 
 - [Chrome](https://canidev.tools/capture-node-stacktrace/chrome) 
  > Enable the experiment, "Capture node creation stacks" in Settings > Experiments, to use this feature
@@ -143,7 +160,7 @@
  > Enable the experiment, "Capture node creation stacks" in Settings > Experiments, to use this feature
 1. Select the node > Stack Trace pane (in sidebar) to show the stack of JavaScript calls that led to the node creation. 
 
-## 12. Capture screenshot from console 
+## 13. Capture screenshot from console 
  Can I take screenshot of a web page from the console? 
 - [Firefox](https://canidev.tools/capture-screenshot-console/firefox) 
  1. Firefox has a built-in helper function `:selector` to capture screenshot of the current page from the console. Example:
@@ -154,7 +171,7 @@
 ```
 - [Safari](https://canidev.tools/capture-screenshot-console/safari) 
  1. Use `console.screenshot()` to capture the screenshot of the viewport. Alternatively, pass the target node to the function to capture screenshot of a specific node.
-## 13. Capture viewport screenshot 
+## 14. Capture viewport screenshot 
  Can I take a screenshot of the portion of the web page visible in the viewport? 
 - [Chrome](https://canidev.tools/capture-viewport-screenshot/chrome) 
  1. Open devtools > Launch Command menu > Search for "Capture screenshot".
@@ -168,7 +185,7 @@
 - [Opera](https://canidev.tools/capture-viewport-screenshot/opera) 
  1. Open devtools > Launch Command menu > Search for "Capture screenshot".
 2. Press Enter to capture the screenshot of the viewport.
-## 14. Change color format 
+## 15. Change color format 
  Can I change authored color format to other formats like hsl, hwb etc? 
 - [Chrome](https://canidev.tools/change-color-format/chrome) 
  1. In the **Styles** pane, hold the `Shift` key and click on the color preview box to cycle through the various color formats like `hex`, `rgb`, `hsl`, and `hwb`.
@@ -182,7 +199,7 @@
 - [Opera](https://canidev.tools/change-color-format/opera) 
  1. In the **Styles** pane, hold the `Shift` key and click on the color preview box to cycle through the various color formats like `rgb`, `hsl`, and `hwb`.
 2. Alternatively, you can change the color format in the [color picker](https://developer.chrome.com/docs/devtools/css/reference/#color-picker) using the up-down arrow keys.
-## 15. Change devtools language 
+## 16. Change devtools language 
  Can I change devtools language to another language which is not English? 
 - [Chrome](https://canidev.tools/change-devtools-language/chrome) 
  1. Open **Settings** (`F1` or `Shift+?`) > Preferences > In the **Appearance** section, choose a language from the **Language** dropdown > Reload DevTools to apply the new language.
@@ -190,7 +207,7 @@
  1. Open **Settings** (`F1` or `Shift+?`) > Preferences > In the **Appearance** section, choose a language from the **Language** dropdown > Reload DevTools to apply the new language.
 - [Opera](https://canidev.tools/change-devtools-language/opera) 
  1. Open **Settings** (`F1` or `Shift+?`) > Preferences > In the **Appearance** section, choose a language from the **Language** dropdown > Reload DevTools to apply the new language.
-## 16. Clear command history 
+## 17. Clear command history 
  Can I clear the command history of the console? 
 - [Chrome](https://canidev.tools/clear-command-history/chrome) 
  In the **Console** tab, right click anywhere > select "Clear console history" to remove all the commands from its history.
@@ -198,7 +215,7 @@
  In the **Console** tab, right click anywhere > select "Clear console history" to remove all the commands from its history.
 - [Opera](https://canidev.tools/clear-command-history/opera) 
  In the **Console** tab, right click anywhere > select "Clear console history" to remove all the commands from its history.
-## 17. Clear console 
+## 18. Clear console 
  Can I clear the console? 
 - [Chrome](https://canidev.tools/clear-console/chrome) 
  Three ways to clear a console:
@@ -225,7 +242,7 @@
 1. Press `Ctrl+L` (on Windows/Linux) or `Cmd+K` (on MacOS) to clear the console.
 2. Click on the "Clear Console" icon in the toolbar on the top left side.
 3. Use `console.clear()` on the command line.
-## 18. Use color picker outside window 
+## 19. Use color picker outside window 
  Can I use the color picker to pick colors from outside the browser window? 
 - [Chrome](https://canidev.tools/color-picker-outside-window/chrome) 
  1. Open **Settings** (or press `Shift+?` or `F1`) > Experiments > Apply filter on "color picker".
@@ -241,13 +258,13 @@
  1. Open **Settings** (or press `Shift+?` or `F1`) > Experiments > Apply filter on "color picker".
 2. Check the "Enable color picking outside the browser window" option > Reload DevTools.
 3. In the **Styles** pane, click on any color preview to open a color picker. Use the eyedropper to pick color from anywhere.
-## 19. Convert to Display P3 color 
+## 20. Convert to Display P3 color 
  Can I convert a CSS color to Display P3 format? 
 - [Safari](https://canidev.tools/convert-p3-color/safari) 
  1. Right click on the color box > Select "Convert to Display-P3". This will change the color format to \`display-p3\`.
 2. Click the color box to open the color swatch. The white line shows the edge of sRGB. Everything on its top right is **Display-P3** colors not available in sRGB.
 3. For fallback, right click on the color box, and select "Clamp to sRGB" to convert to the closest available color in the sRGB space.
-## 20. Copy as CSS selector 
+## 21. Copy as CSS selector 
  Can I copy a node's path as a CSS selector? 
 - [Chrome](https://canidev.tools/copy-css-selector/chrome) 
  In the **Elements** tab, right click on the element in the DOM tree > Copy > Copy selector.
@@ -259,7 +276,7 @@
  In the **Elements** tab, right click on the element in the DOM tree > Copy > Selector Path.
 - [Opera](https://canidev.tools/copy-css-selector/opera) 
  In the **Elements** tab, right click on the element in the DOM tree > Copy > Copy selector.
-## 21. Copy cURL request 
+## 22. Copy cURL request 
  Can I copy a network request as cURL? 
 - [Chrome](https://canidev.tools/copy-curl-request/chrome) 
  In the **Network** tab, right click on the request, Copy > Copy as cURL will copy the request with cURL command to the clipboard.
@@ -271,7 +288,7 @@
  In the **Network** tab, right click on the request, "Copy as cURL" will copy the request with cURL command to the clipboard.
 - [Opera](https://canidev.tools/copy-curl-request/opera) 
  In the **Network** tab, right click on the request, Copy > Copy as cURL will copy the request with cURL command to the clipboard.
-## 22. Copy as JS expression 
+## 23. Copy as JS expression 
  Can I copy a node's path to be used as a JavaScript expression? 
 - [Chrome](https://canidev.tools/copy-js-expression/chrome) 
  1. In the **Elements** tab, right click on the node in the DOM tree > Copy > Copy JS path. This will copy the query selector to the node that can be used in the JS code.
@@ -279,7 +296,7 @@
  1. In the **Elements** tab, right click on the node in the DOM tree > Copy > Copy JS path. This will copy the query selector to the node that can be used in the JS code.
 - [Opera](https://canidev.tools/copy-js-expression/opera) 
  1. In the **Elements** tab, right click on the node in the DOM tree > Copy > Copy JS path. This will copy the query selector to the node that can be used in the JS code.
-## 23. Copy object 
+## 24. Copy object 
  Can I copy an object from console? 
 - [Chrome](https://canidev.tools/copy-object/chrome) 
  `copy(object)` copies a string representation of the specified object to the clipboard.
@@ -291,7 +308,7 @@
  `copy(object)` copies a string representation of the specified object to the clipboard.
 - [Opera](https://canidev.tools/copy-object/opera) 
  `copy(object)` copies a string representation of the specified object to the clipboard.
-## 24. Copy styles as JS 
+## 25. Copy styles as JS 
  Can I copy style declarations as JavaScript object? 
 - [Chrome](https://canidev.tools/copy-styles-js/chrome) 
  1. Inspect element > In the **Styles** pane, right click on the style declaration and select "Copy declaration as JS" or "Copy all declarations as JS" to copy one or all styles.
@@ -299,7 +316,7 @@
  1. Inspect element > In the **Styles** pane, right click on the style declaration and select "Copy declaration as JS" or "Copy all declarations as JS" to copy one or all styles.
 - [Opera](https://canidev.tools/copy-styles-js/opera) 
  1. Inspect element > In the **Styles** pane, right click on the style declaration and select "Copy declaration as JS" or "Copy all declarations as JS" to copy one or all styles.
-## 25. Debug attr change 
+## 26. Debug attr change 
  Can I set breakpoint and debug attr changes of a node? 
 - [Chrome](https://canidev.tools/debug-attr-change/chrome) 
  1. Inspect element > Right click on the node in the DOM tree.
@@ -317,7 +334,7 @@
 - [Opera](https://canidev.tools/debug-attr-change/opera) 
  1. Inspect element > Right click on the node in the DOM tree.
 2. Select "Break on" > "attribute modifications". Reload the page.
-## 26. Debug Event Listeners 
+## 27. Debug Event Listeners 
  Can I debug event listeners by setting a breakpoint on all or specific events? 
 - [Chrome](https://canidev.tools/debug-event-listeners/chrome) 
  1. In the **Sources** tab, expand the **Event Listeners Breakpoints** section to see the list of event categories.
@@ -335,7 +352,7 @@
 - [Opera](https://canidev.tools/debug-event-listeners/opera) 
  1. In the **Sources** tab, expand the **Event** **Listeners** **Breakpoints** section to see the list of event categories.
 2. Expand a category and enable the checkbox for the event that needs to be debugged.
-## 27. Debug JavaScript 
+## 28. Debug JavaScript 
  Can I debug JavaScript using devtools? 
 - [Chrome](https://canidev.tools/debug-javascript/chrome) 
  1. In the **Sources** tab, open the `.js` file from the **Page** panel in the left sidebar. Set a breakpoint by clicking on the line number.
@@ -362,7 +379,7 @@
 2. Perform the action necessary to trigger that line of code, which will pause the execution at the breakpoint.
 3. Use the toolbar on the right sidebar to step-in/step-out, watch expressions, local vars while debugging through the code.
 4. Alternatively, you can also add the `debugger;` statement in the code to pause execution of the code at that line.
-## 28. Debug XHR & Fetch calls 
+## 29. Debug XHR & Fetch calls 
  Can I debug XHR or fetch calls by setting a breakpoint for a specific or all requests?? 
 - [Chrome](https://canidev.tools/debug-xhr-fetch-calls/chrome) 
  1. Click the **Sources** tab.
@@ -390,7 +407,7 @@
 3. Click **Add breakpoint**.
 4. Enter the string which you want to break on. DevTools pauses when this string is present anywhere in an XHR's request URL.
 5. Press Enter to confirm.
-## 29. Detect memory leaks 
+## 30. Detect memory leaks 
  Can I detect memory leaks in my web app using devtools? 
 - [Chrome](https://canidev.tools/detect-memory-leaks/chrome) 
  1. Open devtools using `Cmd+Opt+I` (on Mac) or `Ctrl+Shift+I` (on Windows/Linux) > Memory.
@@ -410,7 +427,7 @@
 - [Opera](https://canidev.tools/detect-memory-leaks/opera) 
  1. Open devtools using `Cmd+Opt+I` (on Mac) or `Ctrl+Shift+I` (on Windows/Linux) > Memory.
 2. Check memory usage > Memory going only ⬆️ is a bad sign! > Capture snapshot to preview memory allocation > Find redundant objects > Navigate to where you allocated them.
-## 30. Disable cache 
+## 31. Disable cache 
  Can I disable cache for the network requests? 
 - [Chrome](https://canidev.tools/disable-cache/chrome) 
  1. Open Network panel > Look for "Disable cache" in the toolbar at the top.
@@ -422,7 +439,7 @@
  1. Open Network panel > Look for the icon in the top right of the toolbar with tooltip "Ignore the resource cache when loading resources".
 - [Opera](https://canidev.tools/disable-cache/opera) 
  1. Open Network panel > Look for "Disable cache" in the toolbar at the top.
-## 31. Disable JavaScript 
+## 32. Disable JavaScript 
  Can I disable JavaScript on a web page? 
 - [Chrome](https://canidev.tools/disable-javascript/chrome) 
  1. Open devtools. Press `Shift+Cmd+P` on Mac or `Ctrl+Shit+P` on Windows/Linux/Chrome OS to open the Command Menu.
@@ -445,7 +462,7 @@
  1. Open devtools. Press `Shift+Cmd+P` on Mac or `Ctrl+Shit+P` on Windows/Linux/Chrome OS to open the Command Menu.
 2. Search for "Disable JavaScript" and press `Enter` to execute the command.
 3. The yellow warning icon next to the Sources panel is the indicator that the JavaScript is disabled. It will continue to be disabled until the devtools is closed.
-## 32. Drag & Drop element 
+## 33. Drag & Drop element 
  Can I drag & drop nodes anywhere inside the DOM tree? 
 - [Chrome](https://canidev.tools/drag-drop-element/chrome) 
  1. Right click > Inspect element or Press `Cmd+Opt+I` (on Mac) or `Ctrl+Shift+I` (on Windows/Linux).
@@ -462,7 +479,7 @@
 - [Opera](https://canidev.tools/drag-drop-element/opera) 
  1. Right click > Inspect element or Press `Cmd+Opt+I` (on Mac) or `Ctrl+Shift+I` (on Windows/Linux).
 2. Select the node and drag-n-drop to a different part of the DOM tree.
-## 33. Emulate color schemes 
+## 34. Emulate color schemes 
  Can I emulate different color schemes for dark and light mode? 
 - [Chrome](https://canidev.tools/emulate-color-schemes/chrome) 
  1. Open devtools > Inside the "Styles" pane, right next to the "+" button, click the Icon "Toggle common rendering emulations".
@@ -477,7 +494,7 @@
 - [Opera](https://canidev.tools/emulate-color-schemes/opera) 
  1. Open devtools > Inside the "Styles" pane, right next to the "+" button, click the Icon "Toggle common rendering emulations".
 2. Choose the `prefers-color-scheme` option to emulate the corresponding color scheme.
-## 34. Emulate devices 
+## 35. Emulate devices 
  Can I emulate devices to test responsiveness of a page? 
 - [Chrome](https://canidev.tools/emulate-devices/chrome) 
  1. Open devtools using `Cmd+Opt+I` (on MacOS) or `Ctrl+Shift+I` (on Windows/Linux).
@@ -495,7 +512,7 @@
 - [Opera](https://canidev.tools/emulate-devices/opera) 
  1. Open devtools using `Cmd+Opt+I` (on MacOS) or `Ctrl+Shift+I` (on Windows/Linux).
 2. Press `Cmd+Shift+M` (on MacOS) or `Ctrl+Shift+M` (on Windows/Linux) or click the devices icon in the top right to "Toggle device toolbar".
-## 35. Emulate print styles 
+## 36. Emulate print styles 
  Can I emulate print media query? 
 - [Chrome](https://canidev.tools/emulate-print-styles/chrome) 
  1. Launch devtools > Open "Command Menu" using `Cmd+Shift+P` (Mac) or `Ctrl+Shift+P` (Windows, Linux, Chrome OS).
@@ -513,7 +530,7 @@
  1. Launch devtools > Open "Command Menu" using `Cmd+Shift+P` (Mac) or `Ctrl+Shift+P` (Windows, Linux, Chrome OS).
 2. Search for "Show Rendering" and press Enter (this will open the Rendering panel next to the Console).
 3. Scroll down to the section "Emulate CSS Media Type" and select "print".
-## 36. Expand DOM nodes recursively 
+## 37. Expand DOM nodes recursively 
  Can I expand DOM nodes recursively in the DOM tree? 
 - [Chrome](https://canidev.tools/expand-dom-nodes-recursively/chrome) 
  1. Right click on the node in the DOM tree, select "Expand recursively". 
@@ -531,7 +548,7 @@
 - [Opera](https://canidev.tools/expand-dom-nodes-recursively/opera) 
  1. Right click on the node in the DOM tree, select "Expand recursively". 
 2. (Or) Use `Opt+Click` or `Alt+Click` on the arrow preceding the node with the keyboard.
-## 37. Filter multiple resources 
+## 38. Filter multiple resources 
  Can I filter multiple resource types in the Network tab? 
 - [Chrome](https://canidev.tools/filter-multiple-resources/chrome) 
  Open devtools > Open the "Network" tab. Hold `Cmd` or `Ctrl` key while clicking on the Resource type.
@@ -543,7 +560,7 @@
  Open devtools > Open the Network tab. Hold `Cmd` or `Ctrl` key while clicking on the Resource type.
 - [Opera](https://canidev.tools/filter-multiple-resources/opera) 
  Open devtools > Open the "Network" tab. Hold `Cmd` or `Ctrl` key while clicking on the Resource type.
-## 38. Filter requests by domain 
+## 39. Filter requests by domain 
  Can I filter network requests by domain name? 
 - [Chrome](https://canidev.tools/filter-requests-domain/chrome) 
  1. In **Network** > Enter `domain:` in the "Filter" field followed by the domain to filter the network requests on.
@@ -558,7 +575,7 @@
  1. In **Network** > Enter `domain:` in the "Filter" field followed by the domain to filter the network requests on.
 2. Filter field also suggests the list of domain names to choose from.
 
-## 39. Filter requests by keyword 
+## 40. Filter requests by keyword 
  Can I filter requests in the Network tab with a keyword? 
 - [Chrome](https://canidev.tools/filter-requests-keyword/chrome) 
  1. Open the **Network** tab > Use the "Filter" input field to filter network requests based on a specific keyword. 
@@ -574,7 +591,7 @@
 - [Opera](https://canidev.tools/filter-requests-keyword/opera) 
  1. Open the **Network** tab > Use the "Filter" input field to filter network requests based on a specific keyword. 
 2. Use the "Invert" checkbox to filter on requests which does not match the keyword.
-## 40. Filter requests by properties 
+## 41. Filter requests by properties 
  Can I filter requests in the Network tab using specific properties? 
 - [Chrome](https://canidev.tools/filter-requests-properties/chrome) 
  1. Use the **Filter** text box to filter requests by properties, such as the domain or size of the request.
@@ -587,7 +604,7 @@
 - [Opera](https://canidev.tools/filter-requests-properties/opera) 
  1. Use the Filter text box to filter requests by properties, such as the domain or size of the request.
 2. You can use multiple properties simultaneously by separating each property with a space. For example, `mime-type:image/gif larger-than:1K` displays all GIFs that are larger than one kilobyte. These multi-property filters are equivalent to AND operations. OR operations are currently not supported.
-## 41. Find by XPath 
+## 42. Find by XPath 
  Can I find elements in the DOM tree using xpath? 
 - [Chrome](https://canidev.tools/find-by-xpath/chrome) 
  1. Open devtools using Cmd+Opt+I (on MacOS) or Ctrl+Shift+I (on Windows/Linux/ChromeOS) > Elements.
@@ -610,7 +627,7 @@
  1. Open devtools using Cmd+Opt+I (on MacOS) or Ctrl+Shift+I (on Windows/Linux/ChromeOS) > Elements.
 2. Press Cmd+F or Ctrl+F to open the search bar at the bottom of the Elements panel.
 3. Enter XPath to find the element in the DOM node.
-## 42. Find color contrast 
+## 43. Find color contrast 
  Can I find the contrast ratio of a color? 
 - [Chrome](https://canidev.tools/find-color-contrast/chrome) 
  1. Inspect element > In the **Styles** pane, click the color square next to the `color` property. This will open the color panel.
@@ -628,7 +645,7 @@
  1. Inspect element > In the Styles pane, click the color square next to the `color` property. This will open the color panel.
 2. Expand the "Contrast Ratio" section to see more details whether the color value meets the W3C recommendation.
 3. Use the "reload" icon next to AA/AAA to use the suggested color to fix the low color contrast ratio.
-## 43. Find element with CSS selector 
+## 44. Find element with CSS selector 
  Can I find elements in the DOM tree using CSS selector? 
 - [Chrome](https://canidev.tools/find-element-css-selector/chrome) 
  1. Open devtools > Click the "Elements" panel > Press `Cmd+F` (on Mac) or `Ctrl+F` (on Windows/Linux/Chrome OS) to open the search bar.
@@ -645,7 +662,7 @@
 - [Opera](https://canidev.tools/find-element-css-selector/opera) 
  1. Open devtools > Click the "Elements" panel > Press `Cmd+F` (on Mac) or `Ctrl+F` (on Windows/Linux/Chrome OS) to open the search bar.
 2. Enter the CSS selector to search an element in the DOM tree.
-## 44. Find in files 
+## 45. Find in files 
  Can I find in files for a specific keyword? 
 - [Chrome](https://canidev.tools/find-in-files/chrome) 
  1. Open **Command Menu** (`Cmd+Shift+P` or `Ctrl+Shift+P`) > Run > "Show Search" (Drawer).
@@ -660,7 +677,7 @@
 - [Opera](https://canidev.tools/find-in-files/opera) 
  1. Open **Command** **Menu** (`Cmd+Shift+P` or `Ctrl+Shift+P`) > Run > "Show Search" (Drawer).
 2. Enter the search query in the text field and press `Enter` to search across all download resources.
-## 45. Find inactive styles 
+## 46. Find inactive styles 
  Can I find inactive styles applied to an element? 
 - [Chrome](https://canidev.tools/find-inactive-styles/chrome) 
  > Enable authoring hints, by opening **Settings** (`F1`) > **Experiments** > Filter on "authoring hints" > Check "Enable CSS Authoring hints..."
@@ -673,7 +690,7 @@
 - [Opera](https://canidev.tools/find-inactive-styles/opera) 
  > Enable authoring hints, by opening **Settings** (`F1`) > Experiments > Filter on "authoring hints" > Check "Enable CSS Authoring hints..."
 1. In **Elements** > Locate the authored styles in the **Styles** pane > Inactive declarations have an "i" icon, which on hover reveals a tooltip displaying more information.
-## 46. Find unused CSS 
+## 47. Find unused CSS 
  Can I find unused styles on a web page? 
 - [Chrome](https://canidev.tools/find-unused-css/chrome) 
  1. Launch Devtools > Open Command Menu using "Cmd+Shift+P" (on Mac) or "Ctrl+Shift+P" (on Windows/Linus/Chrome OS).
@@ -687,7 +704,7 @@
  1. Launch Devtools > Open Command Menu using "Cmd+Shift+P" (on Mac) or "Ctrl+Shift+P" (on Windows/Linus/Chrome OS).
 2. Search for "Show Coverage" (this will open the Coverage drawer next to the Console).
 3. Click the "Reload" button to see the unused styles per CSS file. 
-## 47. Find unused JavaScript 
+## 48. Find unused JavaScript 
  Can I find unused JavaScript code on the page? 
 - [Chrome](https://canidev.tools/find-unused-javascript/chrome) 
  1. Open **Command** Menu using `Cmd+Shift+P` or `Ctrl+Shift+P`. Search for "Show Coverage" and press `Enter`. (this will open the **Coverage** drawer next to the Console).
@@ -700,7 +717,7 @@
 - [Opera](https://canidev.tools/find-unused-javascript/opera) 
  1. Open **Command** Menu using `Cmd+Shift+P` or `Ctrl+Shift+P`. Search for "Show Coverage" and press `Enter`. (this will open the **Coverage** drawer next to the Console).
 2. Click the "Reload" button to see the unused JavaScript bytes per file. Clicking the row, will open the file in the **Sources** panel highlighting the unused lines with red colour.
-## 48. Get last evaluated value 
+## 49. Get last evaluated value 
  Can I get the last evaluated value in the console? 
 - [Chrome](https://canidev.tools/get-last-value/chrome) 
  1. `$_` returns the value of the most recently evaluated expression.
@@ -713,7 +730,7 @@
 2. Additionally, Safari also lets you access past values in chronological order, using `$1, $2, $3`, ...
 - [Opera](https://canidev.tools/get-last-value/opera) 
  1. `$_` returns the value of the most recently evaluated expression.
-## 49. Get node XPath 
+## 50. Get node XPath 
  Can I get the xpath of a node in the DOM tree? 
 - [Chrome](https://canidev.tools/get-node-xpath/chrome) 
  1. Inspect the element > Right click on the node in the DOM tree > Copy > Copy full XPath
@@ -726,7 +743,7 @@
 - [Opera](https://canidev.tools/get-node-xpath/opera) 
  1. Inspect the element > Right click on the node in the DOM tree > Copy > Copy full XPath
 
-## 50. Get selected node 
+## 51. Get selected node 
  Can I refer the currently selected node in the DOM tree from the console? 
 - [Chrome](https://canidev.tools/get-selected-node/chrome) 
  1. Use `$0` to access the currently selected node. Additionally, `$1`, `$2`, `$3`, ... will give you the last selected nodes in the reverse chronological order.
@@ -739,7 +756,7 @@
 
 - [Opera](https://canidev.tools/get-selected-node/opera) 
  1. Use `$0` to access the currently selected node. Additionally, `$1`, `$2`, `$3`, ... will give you the last selected nodes in the reverse chronological order.
-## 51. Go to file 
+## 52. Go to file 
  Can i jump to file by searching for a filename? 
 - [Chrome](https://canidev.tools/go-to-file/chrome) 
  1. Run Command menu using `Cmd+Shift+P` (on Mac) or `Ctrl+Shift+P` (on Windows/Linux) > Type filename to filter on the matching files > Press `Enter`.
@@ -755,7 +772,7 @@
 - [Opera](https://canidev.tools/go-to-file/opera) 
  1. Open devtools using `Cmd+Opt+I` (on Mac) or `Ctrl+Shift+I` (on Windows/Linux) > Sources.
 2. Run Command menu using `Cmd+Shift+P` (on Mac) or `Ctrl+Shift+P` (on Windows/Linux) > Type filename to filter on the matching files > Press `Enter`.
-## 52. Inspect Box shadow 
+## 53. Inspect Box shadow 
  Can I inspect CSS box shadow using an editor? 
 - [Chrome](https://canidev.tools/inspect-box-shadow/chrome) 
  1. Inspect the element with box shadow > In the Styles pane, click the icon next to the `box-shadow` property to open the box shadow editor.
@@ -779,13 +796,13 @@
     - **Blur**. Drag the slider or specify a value.
     - **Spread** (only for `box-shadow`). Drag the slider or specify a value.
 
-## 53. Inspect container queries 
+## 54. Inspect container queries 
  Can I inspect and debug container queries in the devtools? 
 - [Chrome](https://canidev.tools/inspect-container-queries/chrome) 
  1. Every element defined as a query container has a `container` badge next to it in the **Elements** panel. The badge toggles a dotted-line overlay of the container and its descendants.
 2. To find and select a container element that caused the query to take effect, hover over and click the element name above the `@container` declaration. 
 3. When hovered over, the name turns into a link to the element in the **Elements** panel and the **Styles** pane displays the queried property and its current value.
-## 54. Inspect CSS angles 
+## 55. Inspect CSS angles 
  Can I inspect & tweak the CSS angle unit values applied to a property?  
 - [Chrome](https://canidev.tools/inspect-css-angles/chrome) 
  1. Inspect the element using CSS angle unit values > Styles > Click the icon next to the angle unit to open a visual editor to apply the angle value.
@@ -795,7 +812,7 @@
 - [Opera](https://canidev.tools/inspect-css-angles/opera) 
  1. Inspect the element using CSS angle unit values > Styles > Click the icon next to the angle unit to open a visual editor to apply the angle value.
 
-## 55. Inspect CSS Animation 
+## 56. Inspect CSS Animation 
  Can I inspect CSS animations & keyframes using the devtools? 
 - [Chrome](https://canidev.tools/inspect-css-animation/chrome) 
  1. Open **Command** **Menu** (`Cmd+Shift+P` or `Ctrl+Shift+P`) > Run  "Show Animations" and press `Enter.`
@@ -814,12 +831,12 @@
  1. Open **Command** **Menu** (`Cmd+Shift+P` or `Ctrl+Shift+P`) > Run  "Show Animations" and press `Enter.`
 2. Trigger the animation to record it on the timeline. Now you can use the buttons in the **Controls** section to adjust the replay speed of the animation.
 3. Use the **Timeline** section to scrub the animation or jump to a specific point in animation. Use the **Details** section modify the timing & the delay of the animation.
-## 56. Inspect CSS Filters 
+## 57. Inspect CSS Filters 
  Can I inspect CSS filters using an editor in devtools? 
 - [Firefox](https://canidev.tools/inspect-css-filters/firefox) 
  1. In **Rules** > identify the filter property and click the swatch icon next to the filter value.
 2. Use the editor to add, modify or remove filter functions, reorder and create presets to reuse later.
-## 57. Inspect CSS Flexbox 
+## 58. Inspect CSS Flexbox 
  Can I inspect CSS flexbox? 
 - [Chrome](https://canidev.tools/inspect-css-flexbox/chrome) 
  1. When an HTML element on your page has `display: flex` or `display: inline-flex` applied to it, you can see a `flex` badge next to it in the **Elements** panel.
@@ -841,7 +858,7 @@
  1. When an HTML element on your page has `display: flex` or `display: inline-flex` applied to it, you can see a `flex` badge next to it in the Elements panel.
 2. In the Styles pane, you can see the flexbox editor button next to the `display: flex` declaration.
 3. Click on it to open the flexbox editor. The editor displays a list of flexbox properties. Each property's value options are displayed as icon buttons.
-## 58. Inspect CSS Grid 
+## 59. Inspect CSS Grid 
  Can I inspect CSS grid? 
 - [Chrome](https://canidev.tools/inspect-css-grid/chrome) 
  1. When an HTML element on your page has `display: grid` or `display: inline-grid` applied to it, you can see a `grid` badge next to it in the **Elements** panel.
@@ -865,23 +882,23 @@
 2. Clicking the badge to toggle the display of a grid overlay on the page. The overlay appears over the element, laid out like a grid to show the position of its grid lines and tracks.
 3. Open the **Layout** pane. When grids are included on a page, the Layout pane includes a Grid section containing a number of options for viewing those grids.
 
-## 59. Inspect CSS Position 
+## 60. Inspect CSS Position 
  Can I inspect & edit the absolutely positioned elements visually? 
 - [Firefox](https://canidev.tools/inspect-css-position/firefox) 
  1. Inspect element with `position:relative` or `position:absolute` applied to it in the **Inspector** panel.
 2. Open the **Layout** sidebar panel, and scroll down to the Box Model section.
 3. Find the "Edit Position" icon and click it.
 4. Use the handles in the page to move the element around, within its positioned ancestor.
-## 60. Inspect CSS Shapes 
+## 61. Inspect CSS Shapes 
  Can I inspect CSS shapes properties like clip-path, shape-outside, etc? 
 - [Firefox](https://canidev.tools/inspect-css-shapes/firefox) 
  1. Inspect the element with CSS shape properties like `clip-path` & `shape-outside` > Rules > Click the "shape" icon next to the value to open the **Shape Path Editor** tool.
 2. Click & Drag the control points highlighted on the shape to modify the shape.
-## 61. Inspect CSS specificity 
+## 62. Inspect CSS specificity 
  Can I inspect CSS specificity of a selector? 
 - [Safari](https://canidev.tools/inspect-css-specificity/safari) 
  1. Inspect element > In the **Styles** pane, hover over the selector to reveal a tooltip displaying the specificity of that selector.
-## 62. Inspect the devtools 
+## 63. Inspect the devtools 
  Can I inspect the developer tool itself? 
 - [Chrome](https://canidev.tools/inspect-devtools/chrome) 
  1. With the devtools already open, press `Cmd+Shift+I `or `Ctrl+Shift+I` to  inspect the devtools panel itself using new instance of devtools.
@@ -892,12 +909,12 @@
 - [Opera](https://canidev.tools/inspect-devtools/opera) 
  1. With the devtools already open, press `Cmd+Shift+I `or `Ctrl+Shift+I` to  inspect the devtools panel itself using new instance of devtools.
 2. Important to note, you can keep using this shortcut to inspecting new instance of devtools recursively.
-## 63. Inspect dialog element 
+## 64. Inspect dialog element 
  Can I inspect the dialog element? 
 - [Chrome](https://canidev.tools/inspect-dialog-element/chrome) 
  1. Inspect the `<dialog>` element. Scroll down to the end of the DOM tree to the `#top-layer` section, to visualise the currently active dialog elements.
 2. In the case of multiple elements, they stack on top of each other, and the last one is on top. 
-## 64. Inspect Font properties 
+## 65. Inspect Font properties 
  Can I inspect and edit various CSS font properties like, font-size, line-height etc? 
 - [Chrome](https://canidev.tools/inspect-font-properties/chrome) 
  1. **Settings** (`F1` or `Shift+?`) > Experiments > Check the "Enable the new Font Editor tool within the Styles pane" box > Reload.
@@ -910,7 +927,7 @@
 - [Opera](https://canidev.tools/inspect-font-properties/opera) 
  1. Settings (`F1` or `Shift+?`) > Experiments > Check the "Enable the new Font Editor tool within the Styles pane" box > Reload.
 2. In the Styles pane, click the "AA" icon in the bottom right of the selector box to open the Font Editor tool which allows you to tweak various font properties.
-## 65. Inspect requests 
+## 66. Inspect requests 
  Can I inspect Network requests? 
 - [Chrome](https://canidev.tools/inspect-requests/chrome) 
  1. Open devtools > Click on the Network panel (This will show a section containing table of network requests).
@@ -922,7 +939,7 @@
  1. Open devtools > Click on the Network panel (This will show a section containing table of network requests).
 - [Opera](https://canidev.tools/inspect-requests/opera) 
  1. Open devtools > Click on the Network panel (This will show a section containing table of network requests).
-## 66. Inspect CSS scroll snap 
+## 67. Inspect CSS scroll snap 
  Can I inspect & visualize CSS scroll snap layout? 
 - [Chrome](https://canidev.tools/inspect-scroll-snap/chrome) 
  1. When an HTML element on your page (e.g. this [demo](https://mathiasbynens.github.io/css-dbg-stories/css-scroll-snap.html) page) has `scroll-snap-type` applied to it, you can see a `scroll-snap` badge next to it in the **Elements** panel. Click the badge to toggle the display of a scroll-snap overlay on the page.
@@ -935,7 +952,7 @@
  1. When an HTML element on your page (e.g. this [demo](https://mathiasbynens.github.io/css-dbg-stories/css-scroll-snap.html) page) has `scroll-snap-type` applied to it, you can see a `scroll-snap` badge next to it in the Elements panel. Click the badge to toggle the display of a scroll-snap overlay on the page.
 2. In the example above, you can see dot marks on snap edges. The scroll port has solid outlined while the snap items have dash outlines. The scroll padding is filled in green color while the scroll margin is filled in orange.
 
-## 67. Jump to CSS var declaration 
+## 68. Jump to CSS var declaration 
  Can I jump to the declaration where the CSS variable is defined? 
 - [Chrome](https://canidev.tools/jump-cssvar-declaration/chrome) 
  1. In **Styles** pane, hover the variable name to see the actual value in the tooltip. Click the link to jump to the section where the variable is defined.
@@ -945,12 +962,12 @@
 - [Opera](https://canidev.tools/jump-cssvar-declaration/opera) 
  1. In **Styles** pane, hover the variable name to see the actual value in the tooltip. Click the link to jump to the section where the variable is defined.
 
-## 68. Jump to Id 
+## 69. Jump to Id 
  Can I jump to the target element with an id? 
 - [Firefox](https://canidev.tools/jump-to-id/firefox) 
  1. Firefox links the element referencing the ID attribute to its target element in the same DOM, highlighted with an underline.
 2. Use `Cmd+Click` or `Ctrl+Click` to jump to the target element with the identifier.
-## 69. Locate styles in source 
+## 70. Locate styles in source 
  Can I trace style declarations in the original source file? 
 - [Chrome](https://canidev.tools/locate-styles-source/chrome) 
  1. Inspect element > Find the corresponding declaration in the "Styles" pane. 
@@ -969,7 +986,7 @@
 - [Opera](https://canidev.tools/locate-styles-source/opera) 
  1. Inspect element > Find the corresponding declaration in the "Styles" pane. 
 2. Click the `<filename>:<lineno>` link adjacent to the declaration to locate the style in the source file.
-## 70. Open Console with keyboard 
+## 71. Open Console with keyboard 
  Can I open the console using the keyboard? 
 - [Chrome](https://canidev.tools/open-console-keyboard/chrome) 
  Use `Cmd+Opt+J` or `Ctrl+Shift+J` to directly open the **Console** tab.
@@ -981,7 +998,7 @@
  Use Cmd+Opt+C to directly open the **Console** tab.
 - [Opera](https://canidev.tools/open-console-keyboard/opera) 
  Use `Cmd+Opt+J` or `Ctrl+Shift+J` to directly open the **Console** tab.
-## 71. Open devtools with keyboard 
+## 72. Open devtools with keyboard 
  Can I open developer tools with the keyboard? 
 - [Chrome](https://canidev.tools/open-devtools-keyboard/chrome) 
  1. Launch Chrome > Press `F12`. Alternatively, you can also use `Cmd+Option+I` (on Mac) and `Ctrl+Shift+I` (on Windows/Linux) to open the last used panel.
@@ -995,7 +1012,7 @@
 Press `Option+Cmd+I` to open the devtools.
 - [Opera](https://canidev.tools/open-devtools-keyboard/opera) 
  1. Launch Chrome > Press `F12`. Alternatively, you can also use `Cmd+Option+I` (on Mac) and `Ctrl+Shift+I` (on Windows/Linux) to open the last used panel.
-## 72. Open devtools with mouse 
+## 73. Open devtools with mouse 
  Can I open developer tools using a mouse? 
 - [Chrome](https://canidev.tools/open-devtools-mouse/chrome) 
  1. Launch Chrome → Click on the vertical three dots icon (near top right of the window).
@@ -1012,7 +1029,7 @@ Press `Option+Cmd+I` to open the devtools.
 - [Opera](https://canidev.tools/open-devtools-mouse/opera) 
  1. Launch Chrome → Click on the vertical three dots icon (near top right of the window).
 2. Navigate to More Tools > Developer Tools.
-## 73. Open devtools with new tab 
+## 74. Open devtools with new tab 
  Can I open developer tools by default with every new tab? 
 - [Chrome](https://canidev.tools/open-devtools-new-tab/chrome) 
  1. **MacOS**: In the terminal, pass the `--auto-open-devtools-for-tabs` flag to while launching Chrome<sup>[1]</sup>
@@ -1032,7 +1049,7 @@ Press `Option+Cmd+I` to open the devtools.
 ```
 "C:\Program Files (x86)\Microsoft\Edge\Application\edge.exe" -auto-open-devtools-for-tabs
 ```
-## 74. Output data as table 
+## 75. Output data as table 
  Can I output data in console in the table format? 
 - [Chrome](https://canidev.tools/output-data-table/chrome) 
  1. Open console using `Cmd+Opt+J` or `Ctrl+Shift+J`.
@@ -1089,7 +1106,7 @@ console.table([
   {population:8336697, country:"USA", elevation:"10m"}
 ],["population", "country"])
 ```
-## 75. Override geolocation 
+## 76. Override geolocation 
  Can I override location to match a different geographic region? 
 - [Chrome](https://canidev.tools/override-geolocation/chrome) 
  1. Open **Command Menu** (`Cmd+Shift+P` or `Ctrl+Shift+P`) > Run "Show Sensors". This will open the **Sensors** drawer.
@@ -1103,7 +1120,7 @@ console.table([
  1. Open **Command** **Menu** (`Cmd+Shift+P` or `Ctrl+Shift+P`) > Run "Show Sensors". This will open the **Sensors** drawer.
 2. Select a location from the **Location** dropdown or choose **Other** to manually enter the Latitude/Longitude. 
 3. Use the **Manage** button to add a new custom location.
-## 76. Override user agent 
+## 77. Override user agent 
  Can I override the user agent to emulate different profiles? 
 - [Chrome](https://canidev.tools/override-useragent/chrome) 
  1. Open **Command Menu** (`Cmd+Shift+P` or `Ctrl+Shift+P`) and Run > "Show network conditions". This will open the **Network conditions** drawer.
@@ -1119,7 +1136,7 @@ console.table([
 - [Opera](https://canidev.tools/override-useragent/opera) 
  1. Open **Command** **Menu** (`Cmd+Shift+P` or `Ctrl+Shift+P`) and Run > "Show network conditions". This will open the **Network** **conditions** drawer.
 2. In the **User** **agent** section, disable "Use browser default" and select the user agent from the list below or enter your own custom string.
-## 77. Preserve console logs 
+## 78. Preserve console logs 
  Can I preserve console logs across page reloads? 
 - [Chrome](https://canidev.tools/preserve-console-logs/chrome) 
  1. Open console using `Cmd+Opt+J` or `Ctrl+Shift+J` > Click on the gear icon in top right to open "Console settings".
@@ -1135,7 +1152,7 @@ console.table([
 - [Opera](https://canidev.tools/preserve-console-logs/opera) 
  1. Open console using `Cmd+Opt+J` or `Ctrl+Shift+J` > Click on the gear icon in top right to open "Console settings".
 2. Check "Preserve log" to preserve log statements between page reloads.
-## 78. Pretty print JavaScript 
+## 79. Pretty print JavaScript 
  Can I pretty print minified JavaScript code? 
 - [Chrome](https://canidev.tools/pretty-print-js/chrome) 
  1. In the **Sources** tab, open the `.js` file from the left sidebar. In the bottom tray, click the icon `{}` titled "Pretty print" to pretty print the JavaScript code. 
@@ -1150,7 +1167,7 @@ console.table([
 - [Opera](https://canidev.tools/pretty-print-js/opera) 
  1. In the Sources tab, open the `.js` file from the left sidebar. In the bottom tray, click the icon `{}` titled "Pretty print" to pretty print the JavaScript code. 
 2. This will open the formatted file in a new tab suffixed ":formatted".
-## 79. View styles for pseudo classes 
+## 80. View styles for pseudo classes 
  Can I view the styles applied to a pseudo class like hover etc., 
 - [Chrome](https://canidev.tools/pseudo-classes-styles/chrome) 
  1. Inspect an element > Make sure the node is selected in the DOM Tree.
@@ -1171,13 +1188,13 @@ console.table([
  1. Inspect an element > Make sure the node is selected in the DOM Tree.
 2. In the Styles pane (next to the DOM tree), look for ":hov" button next to the Filter box > Click the ":hov" button.
 3. Use the checkboxes to force the element state to any of the listed pseudo classes to view the corresponding CSS applied.
-## 80. Record & replay user journey 
+## 81. Record & replay user journey 
  Can I record and replay all the user actions performed on the website? 
 - [Chrome](https://canidev.tools/record-user-journey/chrome) 
  1. Open **Command Menu** (`Ctrl+Shift+P` or `Cmd+Shift+P`) > Run > Show Recorder (Panel).
 2. Click "Start new recording" > Enter name > Click "Start a new recording" > Perform actions on the page > Click "End recording".
 3. Click the "Replay" button to replay the recorded user journey.
-## 81. Reorder Tabs & Panes 
+## 82. Reorder Tabs & Panes 
  Can I reorder tabs & panes in the devtools panel? 
 - [Chrome](https://canidev.tools/reorder-tabs-panes/chrome) 
  1. In the main browser window, drag and drop tabs (or panes) anywhere across the tab-bar to reorder tabs (or panes) based on preference.
@@ -1198,7 +1215,7 @@ console.table([
  1. In the main browser window, drag and drop tabs (or panes) anywhere across the tab-bar to reorder tabs (or panes) based on preference.
 2. Once re-ordered, the order will persist for future devtools sessions.
 
-## 82. Report feedback 
+## 83. Report feedback 
  Can I report issues, feedback or request features related to DevTools and the docs? 
 - [Chrome](https://canidev.tools/report-feedback/chrome) 
  Use the following options to discuss the new features and changes in the docs, or anything else related to DevTools.
@@ -1223,7 +1240,7 @@ console.table([
 - [Safari](https://canidev.tools/report-feedback/safari) 
  1. File Webkit Inspector related bugs on Webkit [Bugzilla](https://webkit.org/new-inspector-bug) or report issues on the [Github](https://github.com/WebKit/WebKit) repository.
 2. Web Inspector [Reference](https://webkit.org/web-inspector/)
-## 83. Restore default settings 
+## 84. Restore default settings 
  Can I restore the default settings of the developer tools? 
 - [Chrome](https://canidev.tools/restore-default-settings/chrome) 
  To restore the default theme, placement, tools order, and any other customised settings, select Settings > Preferences > Restore defaults and reload.
@@ -1231,7 +1248,7 @@ console.table([
  To restore the default theme, placement, tools order, and any other customised settings, select Settings > Preferences > Restore defaults and refresh.
 - [Opera](https://canidev.tools/restore-default-settings/opera) 
  To restore the default theme, placement, tools order, and any other customised settings, select Settings > Preferences > Restore defaults and reload.
-## 84. Run previous commands 
+## 85. Run previous commands 
  Can I run the previously executed commands in the console? 
 - [Chrome](https://canidev.tools/run-previous-commands/chrome) 
  1. Use the `Up` arrow key to scroll through the list of previously executed commands and then press `Enter`.
@@ -1245,7 +1262,7 @@ console.table([
 
 - [Opera](https://canidev.tools/run-previous-commands/opera) 
  1. Use the `Up` arrow key to scroll through the list of previously executed commands and then press `Enter`.
-## 85. Run snippets 
+## 86. Run snippets 
  Can I run snippet of code in devtools? 
 - [Chrome](https://canidev.tools/run-snippets/chrome) 
  1. **Sources** > In the left sidebar, open **Snippets** > Click "+ New snippet". This will open an empty file in the main view.
@@ -1262,7 +1279,7 @@ console.table([
  1. **Sources** > In the left sidebar, open **Snippets** > Click "+ New snippet". This will open an empty file in the main view.
 2. Enter the snippet and press `Cmd+Enter` to run the code.
 3. Additionally, you can also save the snippet and run it directly from the **Command** **Menu** using `!<script>`.
-## 86. Select elements with XPath 
+## 87. Select elements with XPath 
  Can I select one or more elements using XPath expression? 
 - [Chrome](https://canidev.tools/select-elements-xpath/chrome) 
  `$x(path [, startNode])` returns an array of DOM elements that match the given XPath expression. It has an optional second parameter, `startNode`, that specifies an element or Node from which to search for elements.
@@ -1274,7 +1291,7 @@ console.table([
  `$x(path [, startNode])` returns an array of DOM elements that match the given XPath expression. It has an optional second parameter, `startNode`, that specifies an element or Node from which to search for elements.
 - [Opera](https://canidev.tools/select-elements-xpath/opera) 
  `$x(path [, startNode])` returns an array of DOM elements that match the given XPath expression. It has an optional second parameter, `startNode`, that specifies an element or Node from which to search for elements.
-## 87. Select elements 
+## 88. Select elements 
  Can I select one or more elements from the console? 
 - [Chrome](https://canidev.tools/select-elements/chrome) 
  1. `$(selector [, startNode])` returns the reference to the first DOM element with the specified CSS selector. This command is equivalent to calling `document.querySelector()`.
@@ -1294,7 +1311,7 @@ console.table([
 - [Opera](https://canidev.tools/select-elements/opera) 
  1. `$(selector [, startNode])` returns the reference to the first DOM element with the specified CSS selector. This command is equivalent to calling `document.querySelector()`.
 2. `$$(selector [, startNode])` returns an array of elements that match the given CSS selector. This command is equivalent to calling `document.querySelectorAll()`.
-## 88. Set keyboard shortcuts 
+## 89. Set keyboard shortcuts 
  Can I set a custom keyboard shortcuts in devtools? 
 - [Chrome](https://canidev.tools/set-keyboard-shortcuts/chrome) 
  > Enable "Enable keyboard shortcut editor" in the **Experiments**, using `Cmd+Shift+P` or `Ctrl+Shift+P` > Show Experiments > Reload DevTools.
@@ -1307,7 +1324,7 @@ console.table([
  > Enable "Enable keyboard shortcut editor" in the **Experiments**, using `Cmd+Shift+P` or `Ctrl+Shift+P` > Show Experiments > Reload DevTools.
 1. Press `Cmd+Shift+P` or `Ctrl+Shift+P` to launch the **Command** **Menu** > Type "Shortcuts" > Press `Enter`.
 2. Click the "Edit" icon next to the shortcut. Apply the shortcut and Save.
-## 89. Show rulers on hover 
+## 90. Show rulers on hover 
  Can I enable vertical and horizontal rulers on the page when I hover on the elements? 
 - [Chrome](https://canidev.tools/show-rulers-hover/chrome) 
  1. Open **Settings** (`Shift+?` or `F1`) > **Preferences** > Scroll down to the **Elements** section, and enable "Show rulers on hover".
@@ -1320,7 +1337,7 @@ console.table([
 - [Opera](https://canidev.tools/show-rulers-hover/opera) 
  1. Open Settings (`Shift+?` or `F1`) > Preferences > Scroll down to the Elements section, and enable "Show rulers on hover".
 
-## 90. Show tab order 
+## 91. Show tab order 
  Can I see the tab order of the web page? 
 - [Chrome](https://canidev.tools/show-tab-order/chrome) 
  1. In the **Elements** tab > Open the **Accessibility** pane on the right. 
@@ -1334,7 +1351,7 @@ console.table([
 - [Opera](https://canidev.tools/show-tab-order/opera) 
  1. In the **Elements** tab > Open the **Accessibility** pane on the right. 
 2. Scroll down to the **Source Order Viewer** section, check the option "Show source order" to view the order of source elements on the screen.
-## 91. Show URL path 
+## 92. Show URL path 
  Can I see full URL path of the network requests? 
 - [Chrome](https://canidev.tools/show-url-path/chrome) 
  1. In the **Network** tab, open "Network settings" (top-right).
@@ -1348,7 +1365,7 @@ console.table([
 - [Opera](https://canidev.tools/show-url-path/opera) 
  1. In the **Network** tab, open "Network settings" (top-right).
 2. Check the option "Use large request rows" to show the URL path under the resource name.
-## 92. Simulate vision deficiencies 
+## 93. Simulate vision deficiencies 
  Can I simulate vision deficiencies like blurred visions, color blindness etc? 
 - [Chrome](https://canidev.tools/simulate-vision-deficiencies/chrome) 
  1. Open devtools using `Cmd+Opt+I `(on Mac) or `Ctrl+Shift+I` (on Windows/Linux) > Click the triple dot icon in top right > More tools > Rendering.
@@ -1366,7 +1383,7 @@ console.table([
  1. Open devtools using `Cmd+Opt+I `(on Mac) or `Ctrl+Shift+I` (on Windows/Linux) > Click the triple dot icon in top right > More tools > Rendering.
 2. (Or) Run the command menu using `Cmd+Shift+P` (on Mac) or `Ctrl+Shift+P` (on Windows/Linux) > Search for "Show Rendering" > Press `Enter` to open the Rendering drawer.
 3. Scroll down to the section called "Emulate vision deficiencies" and select the type of deficiency to test your website.
-## 93. Style console logs 
+## 94. Style console logs 
  Can I apply style to the log statements in the console? 
 - [Chrome](https://canidev.tools/style-console-logs/chrome) 
  1. Open console using `Cmd+Option+J` or `Ctrl+Shift+J`.
@@ -1419,7 +1436,7 @@ console.log(
   "color:green; background:yellow"
 )
 ```
-## 94. Target iframe 
+## 95. Target iframe 
  Can I target iframes while debugging from the Console panel? 
 - [Chrome](https://canidev.tools/target-iframe/chrome) 
  1. Open Console using `Cmd+Shift+J `(on Mac) or `Ctrl+Shift+J` (on Windows/Linux).
@@ -1436,7 +1453,7 @@ console.log(
 - [Opera](https://canidev.tools/target-iframe/opera) 
  1. Open Console using `Cmd+Shift+J `(on Mac) or `Ctrl+Shift+J` (on Windows/Linux).
 2. Next to the "Clear console" icon in the toolbar, click the "top" menu, and select the iframe to target.
-## 95. Throttle network speed 
+## 96. Throttle network speed 
  Can I throttle network speed to simulate slower network connections like 2G, 3G etc.,? 
 - [Chrome](https://canidev.tools/throttle-network-speed/chrome) 
  1. In **Network** > Click the dropdown "No Throttling" and select a value to throttle the network speed.
@@ -1449,7 +1466,7 @@ console.log(
 - [Opera](https://canidev.tools/throttle-network-speed/opera) 
  1. In Network > Click the dropdown "No Throttling" and select a value to throttle the network speed.
 
-## 96. Toggle light & dark theme 
+## 97. Toggle light & dark theme 
  Can I switch to light or dark theme in devtools? 
 - [Chrome](https://canidev.tools/toggle-theme/chrome) 
  Open **Command** **Menu** (`Cmd/Ctrl+Shift+P`) & Run > "Switch to light/dark theme" (Appearance) > Press `Enter`.
@@ -1461,7 +1478,7 @@ console.log(
  Open **Settings** (`Cmd+,`) > General > Appearance > Select "Dark" or "Light" to change the appearance.
 - [Opera](https://canidev.tools/toggle-theme/opera) 
  Open **Command** **Menu** (`Cmd/Ctrl+Shift+P`) & Run > "Switch to light/dark theme" (Appearance) > Press `Enter`.
-## 97. View accessibility tree 
+## 98. View accessibility tree 
  Can I view the accessibility tree? 
 - [Chrome](https://canidev.tools/view-accessibility-tree/chrome) 
  1. Inspect > Open the Accessibility pane on the right (Click the >> icon to show more tabs, if hidden) > Check "Enable full-page accessibility tree" > Reload Devtools.
@@ -1475,7 +1492,7 @@ console.log(
 - [Opera](https://canidev.tools/view-accessibility-tree/opera) 
  1. Inspect > Open the Accessibility pane on the right (Click the >> icon to show more tabs, if hidden) > Check "Enable full-page accessibility tree" > Reload Devtools.
 2. Click on the floating icon in the top right in the Elements panel which says, "Switch to Accessibility tree view".
-## 98. View ARIA attrs 
+## 99. View ARIA attrs 
  Can I view ARIA attributes of an element? 
 - [Chrome](https://canidev.tools/view-aria-attrs/chrome) 
  1. Inspect the element in the DOM tree.
@@ -1494,7 +1511,7 @@ console.log(
 - [Opera](https://canidev.tools/view-aria-attrs/opera) 
  1. Inspect the element in the DOM tree.
 2. Click on the Accessibility tab (It maybe hidden behind the "More Tabs" button). Scroll down to the section which says, "ARIA Attributes".
-## 99. View cascade layers 
+## 100. View cascade layers 
  Can I inspect CSS cascade layers? 
 - [Chrome](https://canidev.tools/view-cascade-layers/chrome) 
  1. Inspect the element that is part of the `@layer`. In the **Styles** pane, each layer and its corresponding styles are visible.
@@ -1510,7 +1527,7 @@ console.log(
 - [Opera](https://canidev.tools/view-cascade-layers/opera) 
  1. Inspect the element that is part of the `@layer`. In the **Styles** pane, each layer and its corresponding styles are visible.
 2. Clicking on the layer name will reveal the **CSS layers** section at the top which will contain the layer order, that drives the specificity.
-## 100. View computed styles 
+## 101. View computed styles 
  Can I view computed styles? 
 - [Chrome](https://canidev.tools/view-computed-styles/chrome) 
  1. Inspect the element > Navigate to the Computed tab in the panel next to the DOM tree.
@@ -1530,7 +1547,7 @@ console.log(
 - [Opera](https://canidev.tools/view-computed-styles/opera) 
  1. Inspect the element > Navigate to the Computed tab in the panel next to the DOM tree.
 2. Click the "Show All" checkbox to see all the inherited values.
-## 101. View in 3D 
+## 102. View in 3D 
  Can I view a web page in 3D? 
 - [Chrome](https://canidev.tools/view-in-3d/chrome) 
  1. Open **Command Menu** (`Cmd+Shift+P` or `Ctrl+Shift+P`) > Run > Show Layers. This will open a new tab called **Layers**.
@@ -1553,7 +1570,7 @@ console.log(
     - Spot out-of-viewport elements
     - Debug z-index stacking issues
     - Debug performance issues with composite layers
-## 102. View styles of element 
+## 103. View styles of element 
  Can I view the styles applied to a pseudo element? 
 - [Chrome](https://canidev.tools/view-styles-element/chrome) 
  1. Right click on the element and select "Inspect" (This will open the Elements panel in the devtools with selected element highlighted in the DOM tree).  
@@ -1570,7 +1587,7 @@ console.log(
 - [Opera](https://canidev.tools/view-styles-element/opera) 
  1. Right click on the element and select "Inspect" (This will open the Elements panel in the devtools with selected element highlighted in the DOM tree).  
 2. The CSS applied to the element is visible in the "Styles" tab, adjacent to the DOM tree.
-## 103. Zoom In & Out Devtools 
+## 104. Zoom In & Out Devtools 
  Can I zoom in and out of the devtools panel? 
 - [Chrome](https://canidev.tools/zoom-inout-devtools/chrome) 
  1. In **Developer Tools** > Open **Command Menu** (`Cmd+Shift+P` or `Ctrl+Shift+P`) and Run > "Zoom in" or `Cmd+` or `Ctrl+` to increase the zoom level.
