@@ -3,31 +3,37 @@
   "Slug": "import-export-har",
   "Description": "Can I import and export network activity to a HAR file?",
   "Category": "Network",
-  "LastModifiedTime": "2022-10-20T06:31:56.000Z",
+  "Newsletter": "tips-tricks-30",
+  "LastModifiedTime": "2022-10-20T11:10:56.000Z",
   "Author": "@pankajparashar",
   "Chrome": {
+    "Share": "https://twitter.com/CanIDevTools/status/1583003304161779712",
     "Notes": "1. In the **Network** panel, use the **Up** (↑) and **Down** (↓) arrow buttons in the toolbar to **Import** and **Export** all the network activity into a HAR file.\n",
     "Name": "Import & Export HAR file",
     "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1666245808/import-export-har-chrome_u7mouu.mp4"
   },
   "Firefox": {
+    "Share": "https://twitter.com/CanIDevTools/status/1583005616817115137",
     "Notes": "1. In the **Network** panel, click the **Gear** icon to open the **Network** **Settings**.\n2. Click \"Save All As HAR\" to export the HAR file and \"Import HAR File\" to import the HAR file.\n",
     "Name": "Import & Export HAR file",
     "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1666246865/import-export-har-firefox_fzub67.mp4"
   },
   "Edge": {
     "Notes": "1. In the **Network** panel, use the **Up** (↑) and **Down** (↓) arrow buttons in the toolbar to **Import** and **Export** all the network activity into a HAR file.\n\n",
+    "Share": "https://twitter.com/CanIDevTools/status/1583003304161779712",
     "Name": "Import & Export HAR file",
     "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1666249898/import-export-har-edge_zvwlr2.mp4"
   },
   "Safari": {
+    "Share": "https://twitter.com/CanIDevTools/status/1583006182087630848",
     "Name": "Import & Export HAR file",
     "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1666247499/import-export-har-safari_axrxre.mp4",
     "Notes": "1. In the **Network** panel, use the **Import** & **Export** buttons to import and export HAR file respectively.\n"
   },
   "Opera": {
+    "Share": "https://twitter.com/CanIDevTools/status/1583003304161779712",
+    "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1666245808/import-export-har-chrome_u7mouu.mp4",
     "Notes": "1. In the **Network** panel, use the **Up** (↑) and **Down** (↓) arrow buttons in the toolbar to **Import** and **Export** all the network activity into a HAR file.\n\n",
-    "Name": "Import & Export HAR file",
-    "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1666245808/import-export-har-chrome_u7mouu.mp4"
+    "Name": "Import & Export HAR file"
   }
 }
