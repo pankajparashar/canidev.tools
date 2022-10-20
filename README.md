@@ -776,9 +776,14 @@
  Can I import and export network activity to a HAR file? 
 - [Chrome](https://canidev.tools/import-export-har/chrome) 
  1. In the **Network** panel, use the **Up** (↑) and **Down** (↓) arrow buttons in the toolbar to **Import** and **Export** all the network activity into a HAR file.
+- [Firefox](https://canidev.tools/import-export-har/firefox) 
+ 1. In the **Network** panel, click the **Gear** icon to open the **Network** **Settings**.
+2. Click "Save All As HAR" to export the HAR file and "Import HAR File" to import the HAR file.
 - [Edge](https://canidev.tools/import-export-har/edge) 
  1. In the **Network** panel, use the **Up** (↑) and **Down** (↓) arrow buttons in the toolbar to **Import** and **Export** all the network activity into a HAR file.
 
+- [Safari](https://canidev.tools/import-export-har/safari) 
+ 1. In the **Network** panel, use the **Import** & **Export** buttons to import and export HAR file respectively.
 - [Opera](https://canidev.tools/import-export-har/opera) 
  1. In the **Network** panel, use the **Up** (↑) and **Down** (↓) arrow buttons in the toolbar to **Import** and **Export** all the network activity into a HAR file.
 
