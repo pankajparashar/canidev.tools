@@ -1,0 +1,20 @@
+{
+  "Name": "Import & Export HAR file",
+  "Slug": "import-export-har",
+  "Description": "Can I import and export network activity to a HAR file?",
+  "Category": "Network",
+  "LastModifiedTime": "2022-10-19T10:58:46.000Z",
+  "Author": "@pankajparashar",
+  "Chrome": {
+    "Notes": "1. In the **Network** panel, use the **Up** (↑) and **Down** (↓) arrow buttons in the toolbar to **Import** and **Export** all the network activity into a HAR file.\n",
+    "Name": "Import & Export HAR file"
+  },
+  "Edge": {
+    "Notes": "1. In the **Network** panel, use the **Up** (↑) and **Down** (↓) arrow buttons in the toolbar to **Import** and **Export** all the network activity into a HAR file.\n\n",
+    "Name": "Import & Export HAR file"
+  },
+  "Opera": {
+    "Notes": "1. In the **Network** panel, use the **Up** (↑) and **Down** (↓) arrow buttons in the toolbar to **Import** and **Export** all the network activity into a HAR file.\n\n",
+    "Name": "Import & Export HAR file"
+  }
+}

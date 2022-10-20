@@ -3,11 +3,11 @@
   "Slug": "drag-drop-element",
   "Description": "Can I drag & drop nodes anywhere inside the DOM tree?",
   "Category": "Elements",
-  "LastModifiedTime": "2022-07-06T14:35:13.000Z",
+  "LastModifiedTime": "2022-10-13T03:15:57.000Z",
   "Author": "@pankajparashar",
   "Chrome": {
     "Share": "https://twitter.com/CanIDevTools/status/1523314607418318851",
-    "Notes": "1. Right click > Inspect element or Press `Cmd+Opt+I` (on Mac) or `Ctrl+Shift+I` (on Windows/Linux).\n2. Select the node and drag-n-drop to a different part of the DOM tree.\n",
+    "Notes": "1. Inspect element or Press `Cmd+Opt+I` (on Mac) or `Ctrl+Shift+I` (on Windows/Linux).\n2. Select the node and drag-n-drop to a different part of the DOM tree.\n",
     "Name": "Drag & Drop element",
     "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1652021001/Videos/drag-drop-element-chrome_g9hfse.mp4"
   },
