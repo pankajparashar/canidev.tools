@@ -1562,7 +1562,13 @@ console.log(
 - [Opera](https://canidev.tools/view-computed-styles/opera) 
  1. Inspect the element > Navigate to the Computed tab in the panel next to the DOM tree.
 2. Click the "Show All" checkbox to see all the inherited values.
-## 103. View in 3D 
+## 103. View & Copy CSS changes 
+ Can I view and copy the CSS changes applied to an element? 
+- [Firefox](https://canidev.tools/view-copy-css-changes/firefox) 
+ 1. In the **Rules** pane, apply changes to the CSS declarations, and then click on the **Changes** pane to see the diff. Click "Copy All Changes" button to copy the modified styles, with previous declaration automatically commented.
+- [Safari](https://canidev.tools/view-copy-css-changes/safari) 
+ 1. In the **Styles** pane, apply changes to the CSS declarations, and then click on the **Changes** pane to see the diff.
+## 104. View in 3D 
  Can I view a web page in 3D? 
 - [Chrome](https://canidev.tools/view-in-3d/chrome) 
  1. Open **Command Menu** (`Cmd+Shift+P` or `Ctrl+Shift+P`) > Run > Show Layers. This will open a new tab called **Layers**.
@@ -1585,7 +1591,7 @@ console.log(
     - Spot out-of-viewport elements
     - Debug z-index stacking issues
     - Debug performance issues with composite layers
-## 104. View styles of element 
+## 105. View styles of element 
  Can I view the styles applied to a pseudo element? 
 - [Chrome](https://canidev.tools/view-styles-element/chrome) 
  1. Right click on the element and select "Inspect" (This will open the Elements panel in the devtools with selected element highlighted in the DOM tree).  
@@ -1602,7 +1608,7 @@ console.log(
 - [Opera](https://canidev.tools/view-styles-element/opera) 
  1. Right click on the element and select "Inspect" (This will open the Elements panel in the devtools with selected element highlighted in the DOM tree).  
 2. The CSS applied to the element is visible in the "Styles" tab, adjacent to the DOM tree.
-## 105. Zoom In & Out Devtools 
+## 106. Zoom In & Out Devtools 
  Can I zoom in and out of the devtools panel? 
 - [Chrome](https://canidev.tools/zoom-inout-devtools/chrome) 
  1. In **Developer Tools** > Open **Command Menu** (`Cmd+Shift+P` or `Ctrl+Shift+P`) and Run > "Zoom in" or `Cmd+` or `Ctrl+` to increase the zoom level.
