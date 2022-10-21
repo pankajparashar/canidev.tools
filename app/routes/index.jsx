@@ -4,9 +4,10 @@ import * as React from 'react'
 
 import { json } from '@remix-run/node';
 import { Link, useLoaderData, useSearchParams, useNavigate } from '@remix-run/react';
+import { useLocalStorage } from '@mantine/hooks';
 
 import { ThemeIcon, Group, Divider, Stack, Button, Badge, Box, NavLink, Grid, SimpleGrid, ScrollArea, TextInput, Tooltip, Input } from '@mantine/core';
-import { IconHome2, IconGauge, IconChevronRight, IconActivity, IconListSearch, IconSortAscending, IconBrandChrome, IconBrandFirefox, IconBrandEdge, IconBrandSafari, IconBrandOpera, IconCheckbox, IconSquareMinus, IconRss, IconTextPlus, IconSortDescending, IconSortAscendingLetters, IconSortDescendingLetters, IconArrowBack } from '@tabler/icons';
+import { IconHome2, IconStar, IconChevronRight, IconActivity, IconListSearch, IconSortAscending, IconBrandChrome, IconBrandFirefox, IconBrandEdge, IconBrandSafari, IconBrandOpera, IconCheckbox, IconSquareMinus, IconRss, IconTextPlus, IconSortDescending, IconSortAscendingLetters, IconSortDescendingLetters, IconArrowBack } from '@tabler/icons';
 
 export const loader = async ({ request }) => {
 	const url = new URL(request.url);
@@ -63,6 +64,8 @@ export default function Index() {
 	const category = params.get('category') || 'all'
 	const sort = params.get('sort')
 	const search = params.get('search')
+
+    const [favorites, setFavorites] = useLocalStorage({ key: 'CID_Favorites', defaultValue: [] })
 	
 	const toggleBrowser = browser => {
 		const params = new URLSearchParams(window.location.search)
@@ -74,6 +77,12 @@ export default function Index() {
 			search: params.toString()
 		})
 	}
+
+    const toggleFavorites = slug => {
+        const favoritesSet = new Set(favorites)
+        favoritesSet.has(slug) ? favoritesSet.delete(slug) : favoritesSet.add(slug)
+        setFavorites([...favoritesSet])
+    }
 		
 	return (
 		<Stack
@@ -172,20 +181,41 @@ export default function Index() {
 					<Box className="grid" key={feature.Slug}>
 						<Box
 							sx={(theme) => ({
+                                display: "flex",
+                                flex: "1",
+                                alignItems: "center",
 								borderRight: `1px solid ${theme.colorScheme === 'dark'
 									? theme.colors.dark[6]
 									: theme.colors.gray[4]
 									}`,
+                                borderBottom: `1px solid ${theme.colorScheme === 'dark'
+                                ? theme.colors.dark[6]
+                                : theme.colors.gray[4]
+                                }`,
 							})}
 						>
-							<Link to={feature.Slug}>
+                            <Button
+                                onClick={() => toggleFavorites(feature.Slug)}
+                                variant="light"
+                                color={favorites.includes(feature.Slug) ? "yellow" : undefined}
+                                styles={(theme) => ({
+                                    root: {
+                                        width: "2.5em",
+                                        padding: "0"
+                                    }
+                                })
+                            }>
+                                <IconStar size={16} />
+                            </Button>
+                            <Divider orientation="vertical" size="xs" variant="dashed" />
+                            <Box sx={theme => ({flex: "1"})}><Link
+                                to={feature.Slug}>
 								<NavLink
 									label={feature.Name}
 									description={feature.description}
 									rightSection={<IconChevronRight size={12} stroke={1.5} />}
 								/>
-							</Link>
-							<Divider />
+							</Link></Box>
 						</Box>
 						<Group
 							grow
