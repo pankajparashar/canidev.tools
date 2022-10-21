@@ -3,6 +3,7 @@
 .gitpod.yml
 public/.DS_Store
 engine.bin
+/.fleet
 
 node_modules
 
