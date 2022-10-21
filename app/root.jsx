@@ -6,12 +6,14 @@ import * as React from 'react';
 import { Link, Links, LiveReload, Meta, Outlet, Scripts, ScrollRestoration } from '@remix-run/react'
 import { useLoaderData, useSearchParams } from '@remix-run/react'
 import { json } from '@remix-run/node';
+import { useLocalStorage } from '@mantine/hooks';
+
 
 import { Badge, Box, NavLink, MantineProvider, Collapse, Anchor, Group, SimpleGrid, Button, Divider, Alert, Text, TextInput, createEmotionCache } from '@mantine/core';
 import { useMediaQuery, useColorScheme } from '@mantine/hooks';
 import { StylesPlaceholder } from '@mantine/remix';
 
-import { IconAt, IconCode, IconListDetails, IconBrandTwitter, IconBrandGithub, IconNews, IconBrightness, IconBoxMargin, IconList, IconAccessible, IconReportMedical, IconTerminal2, IconBrandNextjs, IconAffiliate, IconHexagons, IconCrosshair, IconAd2, IconInfoCircle } from '@tabler/icons';
+import { IconAt, IconStar, IconCode, IconListDetails, IconBrandTwitter, IconBrandGithub, IconNews, IconBrightness, IconBoxMargin, IconList, IconAccessible, IconReportMedical, IconTerminal2, IconBrandNextjs, IconAffiliate, IconHexagons, IconCrosshair, IconAd2, IconInfoCircle } from '@tabler/icons';
 import styles from './root.css';
 
 export const meta = () => {
@@ -97,6 +99,7 @@ export default function App() {
 
     const [params, setParams] = useSearchParams();
     const [open, setOpen] = React.useState(isWide);
+    const [favorites, setFavorites] = useLocalStorage({ key: 'CID_Favorites', defaultValue: [] })
 
     const preferredColorScheme = useColorScheme();
     const [colorScheme, setColorScheme] = React.useState(preferredColorScheme);
@@ -261,6 +264,19 @@ export default function App() {
                                     />
                                 </Link>
                             ))}
+                        <Link to={'/?category=favorites'} itemProp="itemListElement" itemScope itemType="https://schema.org/ListItem">
+                            <NavLink
+                                active={params.get('category') === null}
+                                key={'favorites'}
+                                icon={<IconStar size="20" stroke="1.5"/>}
+                                label={'Favorites'}
+                                rightSection={
+                                    <Badge size="md" variant="light" color={'yellow'}>
+                                        {favorites.length}
+                                    </Badge>
+                                }
+                            />
+                        </Link>
                     </Collapse>
 
                     <Collapse

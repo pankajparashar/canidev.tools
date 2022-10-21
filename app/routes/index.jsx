@@ -30,7 +30,7 @@ export const loader = async ({ request }) => {
 
 	// Filter on category
 	records =
-		category !== 'all' ? records.filter(
+        !['all', 'favorites'].includes(category) ? records.filter(
 			(r) => r.Category.toLowerCase() === category.toLowerCase()
 		) : records;
 	
@@ -56,7 +56,7 @@ const getCount = data => ({
 })
 
 export default function Index() {
-	const features = useLoaderData()
+	let features = useLoaderData()
 	const navigate = useNavigate();
 	const [params, setParams] = useSearchParams()
 	
@@ -66,7 +66,10 @@ export default function Index() {
 	const search = params.get('search')
 
     const [favorites, setFavorites] = useLocalStorage({ key: 'CID_Favorites', defaultValue: [] })
-	
+    if(category === "favorites") {
+        features = features.filter(f => favorites.includes(f.Slug))
+    }
+
 	const toggleBrowser = browser => {
 		const params = new URLSearchParams(window.location.search)
 		params.get('browser') === browser ?
@@ -118,7 +121,7 @@ export default function Index() {
 								size="xs"
 								label=""
 								variant="filled"
-								placeholder={search ? search : `Search ${features.length} records`}
+								placeholder={search ? search : `Search ${features.length} record(s)`}
 								icon={<IconListSearch size={20} />}
 								rightSection={
 									<Tooltip label="Press Enter" position="top-end" withArrow>
@@ -207,7 +210,7 @@ export default function Index() {
                             }>
                                 <IconStar size={16} />
                             </Button>
-                            <Divider orientation="vertical" size="xs" variant="dashed" />
+                            
                             <Box sx={theme => ({flex: "1"})}><Link
                                 to={feature.Slug}>
 								<NavLink
