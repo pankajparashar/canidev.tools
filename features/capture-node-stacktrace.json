@@ -2,8 +2,8 @@
   "Name": "Capture node stacktrace",
   "Slug": "capture-node-stacktrace",
   "Description": "Can I capture node creation stack trace?",
-  "Category": "JavaScript",
-  "LastModifiedTime": "2022-10-04T07:23:55.000Z",
+  "Category": "Elements",
+  "LastModifiedTime": "2022-10-21T15:29:06.000Z",
   "Author": "@pankajparashar",
   "Chrome": {
     "Notes": "> Enable the experiment, \"Capture node creation stacks\" in Settings > Experiments, to use this feature\n1. Select the node > Stack Trace pane (in sidebar) to show the stack of JavaScript calls that led to the node creation. \n",
