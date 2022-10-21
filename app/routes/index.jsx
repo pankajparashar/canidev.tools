@@ -229,66 +229,54 @@ export default function Index() {
 								paddingRight: theme.spacing.xs,
 							})}
 						>
-							<Button
-								variant="subtle"
-								size="sm"
-								component={Link}
-								to={`${feature.Slug}/chrome`}
-							>
-								{feature.Chrome ? (
-									<IconCheckbox size={20} color="green" />
-								) : (
-									<IconSquareMinus size={20} color={'red'} />
-								)}
-							</Button>
-							<Button
-								variant="subtle"
-								size="sm"
-								component={Link}
-								to={`${feature.Slug}/firefox`}
-							>
-								{feature.Firefox ? (
-									<IconCheckbox size={20} color="green" />
-								) : (
-									<IconSquareMinus size={20} color={'red'} radius="xs" />
-								)}
-							</Button>
-							<Button
-								variant="subtle"
-								size="sm"
-								component={Link}
-								to={`${feature.Slug}/edge`}
-							>
-								{feature.Edge ? (
-									<IconCheckbox size={20} color="green" />
-								) : (
-									<IconSquareMinus size={20} color={'red'} radius="xs" />
-								)}
-							</Button>
-							<Button
-								variant="subtle"
-								size="sm"
-								component={Link}
-								to={`${feature.Slug}/safari`}
-							>
-								{feature.Safari ? (
-									<IconCheckbox size={20} color="green" />
-								) : (
-									<IconSquareMinus size={20} color={'red'} radius="xs" />
-								)}
-							</Button>
-							<Button
-								variant="subtle"
-								size="sm"
-								component={Link}
-								to={`${feature.Slug}/opera`}
-							>
-								{feature.Opera ? (
-									<IconCheckbox size={20} color="green" />
-								) : (
-									<IconSquareMinus size={20} color={'red'} radius="xs" />
-								)}
-							</Button>
+                            {feature.Chrome ?
+                                <Button
+                                    variant="subtle"
+                                    size="sm"
+                                    component={Link}
+                                    to={`${feature.Slug}/chrome`}
+                                >
+                                    <IconCheckbox size={20} color="green" />
+                                </Button>
+                            : <IconSquareMinus size={20} color={'red'} />}
+
+                            {feature.Firefox ?
+                                <Button
+                                    variant="subtle"
+                                    size="sm"
+                                    component={Link}
+                                    to={`${feature.Slug}/firefox`}
+                                >
+                                    <IconCheckbox size={20} color="green" />
+                                </Button>
+                            : <IconSquareMinus size={20} color={'red'} radius="xs" /> }
+
+                            {feature.Edge ? <Button
+                                variant="subtle"
+                                size="sm"
+                                component={Link}
+                                to={`${feature.Slug}/edge`}
+                                >
+                                <IconCheckbox size={20} color="green" />
+                            </Button> : <IconSquareMinus size={20} color={'red'} radius="xs" />}
+
+                            {feature.Safari ? <Button
+                                variant="subtle"
+                                size="sm"
+                                component={Link}
+                                to={`${feature.Slug}/safari`}
+                            >
+                                    <IconCheckbox size={20} color="green" />
+                            </Button> : <IconSquareMinus size={20} color={'red'} radius="xs" /> }
+
+                            {feature.Opera ? <Button
+                                variant="subtle"
+                                size="sm"
+                                component={Link}
+                                to={`${feature.Slug}/opera`}
+                                >
+                                        <IconCheckbox size={20} color="green" />
+                            </Button> : <IconSquareMinus size={20} color={'red'} radius="xs" />}
 						</Group>
 					</Box>
 				))}
