@@ -62,11 +62,13 @@ blockquote {
     height: calc(100vh - 250px);
   }
 }
+
 @media screen and (min-width: 700px)  {
   .h_100vh {
     height: calc(100vh - 200px);
   }
 }
+
 @media screen and (min-width: 1050px) {
   .h_100vh {
     height: calc(100vh - 108px);
