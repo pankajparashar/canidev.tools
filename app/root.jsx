@@ -78,13 +78,12 @@ export function CarbonAds() {
     }, []);
 
     return (
-            <Box p="xs">
+            <Box>
         <Alert
             p="xs"
+            color="blue"
             title="Ads via Carbon"
             radius="xs"
-            withCloseButton
-            icon={<IconAd2 size={24}/>}
         >
             <Box ref={adRef} className="carbon-cad"/>
         </Alert></Box>
@@ -332,10 +331,13 @@ export default function App() {
                                 It is like <Anchor href="https://caniuse.com/" target="_blank">@CanIUse</Anchor> but for
                                 the browser devtools, created & curated by <Anchor href="https://pankajparashar.com"
                                 target="_blank">@pankajparashar</Anchor>.
-                                <TextInput mt="xs" variant="default" styles={{ label: {marginBottom: "5px"} }} label="Subscribe to Newsletter:" placeholder="eg., email@gmail.com" icon={<IconAt size={14} />} />
+                                Get weekly tips & tricks for your favorite browser devtools by <Anchor href="https://canidevtools.substack.com/"
+                                target="_blank">subscribing</Anchor> to the newsletter!
                             </Box>
+                            <br />
+                            <CarbonAds/>
                         </Alert>
-                        <CarbonAds/>
+
                         <Divider/>
                     </Collapse>
                 </Box>

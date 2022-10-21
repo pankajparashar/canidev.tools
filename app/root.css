@@ -101,6 +101,11 @@ blockquote {
   max-width: 500px;
 }
 
+a.carbon-text {
+    padding-right: 0;
+    display: block;
+}
+
 .carbon-cad .carbon-img {
   margin-right: 10px;
   float: left;
