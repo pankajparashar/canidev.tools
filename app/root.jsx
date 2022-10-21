@@ -265,7 +265,7 @@ export default function App() {
                             ))}
                         <Link to={'/?category=favorites'} itemProp="itemListElement" itemScope itemType="https://schema.org/ListItem">
                             <NavLink
-                                active={params.get('category') === null}
+                                active={params.get('category') === "favorites"}
                                 key={'favorites'}
                                 icon={<IconStar size="20" stroke="1.5"/>}
                                 label={'Favorites'}
