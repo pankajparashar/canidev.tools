@@ -4,7 +4,7 @@
   "Description": "Can I run snippet of code in devtools?",
   "Category": "Sources",
   "Newsletter": "tips-tricks-13",
-  "LastModifiedTime": "2022-09-17T13:35:42.000Z",
+  "LastModifiedTime": "2022-10-23T12:33:59.000Z",
   "Author": "@pankajparashar",
   "Chrome": {
     "Share": "https://twitter.com/CanIDevTools/status/1559114513370456064",
@@ -23,6 +23,12 @@
     "Notes": "1. **Sources** > In the left sidebar, open **Snippets** > Click \"+ New snippet\". This will open an empty file in the main view.\n2. Enter the snippet and press `Cmd+Enter` to run the code.\n3. Additionally, you can also save the snippet and run it directly from the **Command** **Menu** using `!<script>`.\n",
     "Name": "Run snippets",
     "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1660547899/run-snippets-edge_ez6fe5.mp4"
+  },
+  "Safari": {
+    "Name": "Run snippets",
+    "Notes": "1. In **Sources** > Click the \"+\" button to **Create** **Resource** > \"Console Snippet...\". Input the name of the snippet and enter the script.\n2. Click the **Play** button next to the snippet name to execute the code in **Console**. \n",
+    "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1666528627/run-snippets-safari_p3udd4.mp4",
+    "Share": "https://twitter.com/CanIDevTools/status/1584163777368707073"
   },
   "Opera": {
     "Share": "https://twitter.com/CanIDevTools/status/1559191098836234242",

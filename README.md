@@ -1290,6 +1290,9 @@ console.table([
  1. **Sources** > In the left sidebar, open **Snippets** > Click "+ New snippet". This will open an empty file in the main view.
 2. Enter the snippet and press `Cmd+Enter` to run the code.
 3. Additionally, you can also save the snippet and run it directly from the **Command** **Menu** using `!<script>`.
+- [Safari](https://canidev.tools/run-snippets/safari) 
+ 1. In **Sources** > Click the "+" button to **Create** **Resource** > "Console Snippet...". Input the name of the snippet and enter the script.
+2. Click the **Play** button next to the snippet name to execute the code in **Console**. 
 - [Opera](https://canidev.tools/run-snippets/opera) 
  1. **Sources** > In the left sidebar, open **Snippets** > Click "+ New snippet". This will open an empty file in the main view.
 2. Enter the snippet and press `Cmd+Enter` to run the code.
