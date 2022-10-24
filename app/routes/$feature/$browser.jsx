@@ -95,9 +95,9 @@ export default function Browser() {
         </Button>
       </Group>
 	  	<Divider />
-		<Box sx={() => ({ position: "relative", marginBottom: "-5px" })}> 
-			{feature[browser].MP4 ? 
-				<video controls autoPlay loop muted playsInline preload="metadata" key={feature[browser].MP4} src={feature[browser].MP4 + "#t=0.1"} /> : 
+		<Box sx={() => ({ position: "relative" })}>
+			{feature[browser].MP4 ?
+				<video controls autoPlay loop muted playsInline preload="metadata" key={feature[browser].MP4} src={feature[browser].MP4 + "#t=0.1"} /> :
 				<Image withPlaceholder height={200} />}
 		</Box>
       <Divider />
@@ -122,7 +122,7 @@ export default function Browser() {
                 <Text weight="700" size="sm">
                   Notes
                 </Text>
-                
+
             </Group>
           </Accordion.Control>
           <Accordion.Panel>
