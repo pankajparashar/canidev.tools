@@ -23,7 +23,7 @@
  1. Inspect the element > Look for ".cls" button in the Styles pane next to the Filter field.
 2. Click the button and search for the existing class names to add to the element.
 ## 3. Add conditional breakpoint 
- Can I set breakpoint based on a condition? 
+ Can I set a conditional breakpoint while debugging code? 
 - [Chrome](https://canidev.tools/add-conditional-breakpoint/chrome) 
  1. In **Sources**, right click the line number and select "Add a conditional breakpoint..."
 2. Input the conditional expression on which the execution should pause, and press `Enter`.
