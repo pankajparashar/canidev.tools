@@ -27,8 +27,14 @@
 - [Chrome](https://canidev.tools/add-conditional-breakpoint/chrome) 
  1. In **Sources**, right click the line number and select "Add a conditional breakpoint..."
 2. Input the conditional expression on which the execution should pause, and press `Enter`.
+- [Firefox](https://canidev.tools/add-conditional-breakpoint/firefox) 
+ 1. In **Debugger**, right click the line number and select "Add condition"
+2. Input the conditional expression on which the execution should pause, and press `Enter`.
 - [Edge](https://canidev.tools/add-conditional-breakpoint/edge) 
  1. In **Sources**, right click the line number and select "Add a conditional breakpoint..."
+2. Input the conditional expression on which the execution should pause, and press `Enter`.
+- [Safari](https://canidev.tools/add-conditional-breakpoint/safari) 
+ 1. In **Sources**, click the line number to **Add Breakpoint** > Right click on the line number and select "Edit Breakpoint...".
 2. Input the conditional expression on which the execution should pause, and press `Enter`.
 - [Opera](https://canidev.tools/add-conditional-breakpoint/opera) 
  1. In **Sources**, right click the line number and select "Add a conditional breakpoint..."
