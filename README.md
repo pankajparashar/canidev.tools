@@ -146,6 +146,7 @@
 2. This will save a PNG image with url as the filename in the **Downloads** directory.
 - [Safari](https://canidev.tools/capture-full-page-screenshot/safari) 
  1. In the **Elements** panel, right click on the `html` node and select "Capture Screenshot".
+2. This will save a PNG image with current date time as the filename in the **Downloads** directory.
 - [Opera](https://canidev.tools/capture-full-page-screenshot/opera) 
  1. Open **Command** **Menu** (`Cmd+Shift+P` or `Ctrl+Shit+P`) & Run > "Capture full size screenshot" and press `Enter`.
 2. This will save a PNG image with url as the filename in the **Downloads** directory.
