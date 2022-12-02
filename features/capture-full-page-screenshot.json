@@ -6,23 +6,28 @@
   "LastModifiedTime": "2022-07-09T08:07:29.000Z",
   "Author": "@pankajparashar",
   "Chrome": {
-    "Notes": "1. Open devtools > Launch the command menu\n2. Search for \"Capture full size screenshot\" and press Enter\n",
-    "Name": "Capture full page screenshot"
+    "Notes": "1. Open **Command Menu** (`Cmd+Shift+P` or `Ctrl+Shit+P`) & Run > \"Capture full size screenshot\" and press `Enter`.\n2. This will save a PNG image with url as the filename in the **Downloads** directory.\n",
+    "Name": "Capture full page screenshot",
+    "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1669922647/capture-full-page-screenshot-chrome_dqi6a5.mp4"
   },
   "Firefox": {
-    "Notes": "1. Right click on the empty portion of the page > Click on \"Take Screenshot\"\n2. Select the \"Choose full page\" option in the top right of the page\n",
-    "Name": "Capture full page screenshot"
+    "Notes": "1. In the **Inspector** panel, right click on the `html` node > select \"Screenshot Node\".\n2. This will save a PNG image with current date time as the filename in the **Downloads** directory.\n",
+    "Name": "Capture full page screenshot",
+    "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1668374467/capture-full-page-screenshot-firefox_hjns0z.mp4"
   },
   "Edge": {
-    "Notes": "1. Open devtools > Launch the command menu\n2. Search for \"Capture full size screenshot\" and press Enter\n",
-    "Name": "Capture full page screenshot"
+    "Notes": "1. Open **Command** **Menu** (`Cmd+Shift+P` or `Ctrl+Shit+P`) & Run > \"Capture full size screenshot\" and press `Enter`.\n2. This will save a PNG image with url as the filename in the **Downloads** directory.\n",
+    "Name": "Capture full page screenshot",
+    "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1668372196/capture-full-page-screenshot-edge_r873ce.mp4"
   },
   "Safari": {
     "Name": "Capture full page screenshot",
-    "Notes": "1. Open devtools > Locate the `html` node in the DOM tree.\n2. Right click on the node and select \"Capture Screenshot\"\n"
+    "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1669923062/capture-full-page-screenshot-safari_xrfv9z.mp4",
+    "Notes": "1. In the **Elements** panel, right click on the `html` node and select \"Capture Screenshot\".\n"
   },
   "Opera": {
-    "Notes": "1. Open devtools > Launch the command menu\n2. Search for \"Capture full size screenshot\" and press Enter\n",
-    "Name": "Capture full page screenshot"
+    "Notes": "1. Open **Command** **Menu** (`Cmd+Shift+P` or `Ctrl+Shit+P`) & Run > \"Capture full size screenshot\" and press `Enter`.\n2. This will save a PNG image with url as the filename in the **Downloads** directory.\n",
+    "Name": "Capture full page screenshot",
+    "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1669924135/capture-full-page-screenshot-opera_lyrofz.mp4"
   }
 }

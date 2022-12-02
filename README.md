@@ -136,20 +136,19 @@
 ## 11. Capture full page screenshot 
  Can I take full page screenshot of a website? 
 - [Chrome](https://canidev.tools/capture-full-page-screenshot/chrome) 
- 1. Open devtools > Launch the command menu
-2. Search for "Capture full size screenshot" and press Enter
+ 1. Open **Command Menu** (`Cmd+Shift+P` or `Ctrl+Shit+P`) & Run > "Capture full size screenshot" and press `Enter`.
+2. This will save a PNG image with url as the filename in the **Downloads** directory.
 - [Firefox](https://canidev.tools/capture-full-page-screenshot/firefox) 
- 1. Right click on the empty portion of the page > Click on "Take Screenshot"
-2. Select the "Choose full page" option in the top right of the page
+ 1. In the **Inspector** panel, right click on the `html` node > select "Screenshot Node".
+2. This will save a PNG image with current date time as the filename in the **Downloads** directory.
 - [Edge](https://canidev.tools/capture-full-page-screenshot/edge) 
- 1. Open devtools > Launch the command menu
-2. Search for "Capture full size screenshot" and press Enter
+ 1. Open **Command** **Menu** (`Cmd+Shift+P` or `Ctrl+Shit+P`) & Run > "Capture full size screenshot" and press `Enter`.
+2. This will save a PNG image with url as the filename in the **Downloads** directory.
 - [Safari](https://canidev.tools/capture-full-page-screenshot/safari) 
- 1. Open devtools > Locate the `html` node in the DOM tree.
-2. Right click on the node and select "Capture Screenshot"
+ 1. In the **Elements** panel, right click on the `html` node and select "Capture Screenshot".
 - [Opera](https://canidev.tools/capture-full-page-screenshot/opera) 
- 1. Open devtools > Launch the command menu
-2. Search for "Capture full size screenshot" and press Enter
+ 1. Open **Command** **Menu** (`Cmd+Shift+P` or `Ctrl+Shit+P`) & Run > "Capture full size screenshot" and press `Enter`.
+2. This will save a PNG image with url as the filename in the **Downloads** directory.
 ## 12. Capture node screenshot 
  Can I take a screenshot of a DOM node? 
 - [Chrome](https://canidev.tools/capture-node-screenshot/chrome) 
