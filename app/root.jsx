@@ -8,6 +8,7 @@ import { useLoaderData, useSearchParams } from '@remix-run/react'
 import { json } from '@remix-run/node';
 import { useLocalStorage } from '@mantine/hooks';
 
+import { Analytics } from '@vercel/analytics/react';
 
 import { Badge, Box, NavLink, MantineProvider, Collapse, Anchor, Group, SimpleGrid, Button, Divider, Alert, Text, TextInput, createEmotionCache } from '@mantine/core';
 import { useMediaQuery, useColorScheme } from '@mantine/hooks';
@@ -347,6 +348,8 @@ export default function App() {
             </Box>
         </MantineProvider>
         <ScrollRestoration/>
+
+	<Analytics />
         <Scripts/>
         <script data-goatcounter="https://canidevtools.goatcounter.com/count"
                 async src="//gc.zgo.at/count.js"></script>
