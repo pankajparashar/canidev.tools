@@ -136,19 +136,19 @@
 ## 11. Capture full page screenshot 
  Can I take full page screenshot of a website? 
 - [Chrome](https://canidev.tools/capture-full-page-screenshot/chrome) 
- 1. Open **Command Menu** (`Cmd+Shift+P` or `Ctrl+Shit+P`) & Run > "Capture full size screenshot" and press `Enter`.
+ 1. Open **Command Menu** (`Cmd+Shift+P` or `Ctrl+Shift+P`) & Run > "Capture full size screenshot" and press `Enter`.
 2. This will save a PNG image with url as the filename in the **Downloads** directory.
 - [Firefox](https://canidev.tools/capture-full-page-screenshot/firefox) 
  1. In the **Inspector** panel, right click on the `html` node > select "Screenshot Node".
 2. This will save a PNG image with current date time as the filename in the **Downloads** directory.
 - [Edge](https://canidev.tools/capture-full-page-screenshot/edge) 
- 1. Open **Command** **Menu** (`Cmd+Shift+P` or `Ctrl+Shit+P`) & Run > "Capture full size screenshot" and press `Enter`.
+ 1. Open **Command** **Menu** (`Cmd+Shift+P` or `Ctrl+Shift+P`) & Run > "Capture full size screenshot" and press `Enter`.
 2. This will save a PNG image with url as the filename in the **Downloads** directory.
 - [Safari](https://canidev.tools/capture-full-page-screenshot/safari) 
  1. In the **Elements** panel, right click on the `html` node and select "Capture Screenshot".
 2. This will save a PNG image with current date time as the filename in the **Downloads** directory.
 - [Opera](https://canidev.tools/capture-full-page-screenshot/opera) 
- 1. Open **Command** **Menu** (`Cmd+Shift+P` or `Ctrl+Shit+P`) & Run > "Capture full size screenshot" and press `Enter`.
+ 1. Open **Command** **Menu** (`Cmd+Shift+P` or `Ctrl+Shift+P`) & Run > "Capture full size screenshot" and press `Enter`.
 2. This will save a PNG image with url as the filename in the **Downloads** directory.
 ## 12. Capture node screenshot 
  Can I take a screenshot of a DOM node? 
@@ -930,16 +930,19 @@
  Can I inspect CSS specificity of a selector? 
 - [Safari](https://canidev.tools/inspect-css-specificity/safari) 
  1. Inspect element > In the **Styles** pane, hover over the selector to reveal a tooltip displaying the specificity of that selector.
-## 65. Inspect the devtools 
- Can I inspect the developer tool itself? 
+## 65. Inspect devtools 
+ Can I inspect the browser's developer tool? 
 - [Chrome](https://canidev.tools/inspect-devtools/chrome) 
- 1. With the devtools already open, press `Cmd+Shift+I `or `Ctrl+Shift+I` to  inspect the devtools panel itself using new instance of devtools.
+ 1. Inside devtools, press `Cmd+Shift+I `or `Ctrl+Shift+I` to  inspect the devtools panel itself using new instance of devtools.
 2. Important to note, you can keep using this shortcut to inspecting new instance of devtools recursively.
+- [Firefox](https://canidev.tools/inspect-devtools/firefox) 
+ 1. Open Devtools **Settings** (`F1`) > Under **Advanced Settings**, enable "Enable browser ... toolboxes" and "Enable remote debugging".
+2. Open Firefox Menu (via hamburger icon) > More tools > Browser Toolbox. You’ll be able to inspect the browser’s chrome windows and see, and be able to debug, all the JavaScript files loaded by the browser itself and by any add-ons that are running.
 - [Edge](https://canidev.tools/inspect-devtools/edge) 
- 1. With the devtools already open, press `Cmd+Shift+I `or `Ctrl+Shift+I` to  inspect the devtools panel itself using new instance of devtools.
+ 1. Inside devtools, press `Cmd+Shift+I `or `Ctrl+Shift+I` to  inspect the devtools panel itself using new instance of devtools.
 2. Important to note, you can keep using this shortcut to inspecting new instance of devtools recursively.
 - [Opera](https://canidev.tools/inspect-devtools/opera) 
- 1. With the devtools already open, press `Cmd+Shift+I `or `Ctrl+Shift+I` to  inspect the devtools panel itself using new instance of devtools.
+ 1. Inside devtools, press `Cmd+Shift+I `or `Ctrl+Shift+I` to  inspect the devtools panel itself using new instance of devtools.
 2. Important to note, you can keep using this shortcut to inspecting new instance of devtools recursively.
 ## 66. Inspect dialog element 
  Can I inspect the dialog element? 

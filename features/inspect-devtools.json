@@ -1,23 +1,28 @@
 {
-  "Name": "Inspect the devtools",
+  "Name": "Inspect devtools",
   "Slug": "inspect-devtools",
-  "Description": "Can I inspect the developer tool itself?",
+  "Description": "Can I inspect the browser's developer tool?",
   "Category": "Other",
-  "LastModifiedTime": "2022-07-11T13:39:26.000Z",
+  "LastModifiedTime": "2022-12-18T13:29:59.000Z",
   "Author": "@pankajparashar",
   "Chrome": {
-    "Notes": "1. With the devtools already open, press `Cmd+Shift+I `or `Ctrl+Shift+I` to  inspect the devtools panel itself using new instance of devtools.\n2. Important to note, you can keep using this shortcut to inspecting new instance of devtools recursively.\n",
-    "Name": "Inspect the devtools",
-    "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1657547779/Videos/inspect-devtools-chrome_txsfxd.mp4"
+    "Notes": "1. Inside devtools, press `Cmd+Shift+I `or `Ctrl+Shift+I` to  inspect the devtools panel itself using new instance of devtools.\n2. Important to note, you can keep using this shortcut to inspecting new instance of devtools recursively.\n",
+    "Name": "Inspect devtools",
+    "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1670234069/inspect-devtools-chrome_zzawbc.mp4"
+  },
+  "Firefox": {
+    "Name": "Inspect devtools",
+    "Notes": "1. Open Devtools **Settings** (`F1`) > Under **Advanced Settings**, enable \"Enable browser ... toolboxes\" and \"Enable remote debugging\".\n2. Open Firefox Menu (via hamburger icon) > More tools > Browser Toolbox. You’ll be able to inspect the browser’s chrome windows and see, and be able to debug, all the JavaScript files loaded by the browser itself and by any add-ons that are running.\n",
+    "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1671371544/inspect-devtools-firefox_yrpkig.mp4"
   },
   "Edge": {
-    "Notes": "1. With the devtools already open, press `Cmd+Shift+I `or `Ctrl+Shift+I` to  inspect the devtools panel itself using new instance of devtools.\n2. Important to note, you can keep using this shortcut to inspecting new instance of devtools recursively.\n",
-    "Name": "Inspect the devtools",
+    "Notes": "1. Inside devtools, press `Cmd+Shift+I `or `Ctrl+Shift+I` to  inspect the devtools panel itself using new instance of devtools.\n2. Important to note, you can keep using this shortcut to inspecting new instance of devtools recursively.\n",
+    "Name": "Inspect devtools",
     "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1657547786/Videos/inspect-devtools-edge_ohfaqz.mp4"
   },
   "Opera": {
     "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1657547785/Videos/inspect-devtools-opera_ixertt.mp4",
-    "Notes": "1. With the devtools already open, press `Cmd+Shift+I `or `Ctrl+Shift+I` to  inspect the devtools panel itself using new instance of devtools.\n2. Important to note, you can keep using this shortcut to inspecting new instance of devtools recursively.\n",
-    "Name": "Inspect the devtools"
+    "Notes": "1. Inside devtools, press `Cmd+Shift+I `or `Ctrl+Shift+I` to  inspect the devtools panel itself using new instance of devtools.\n2. Important to note, you can keep using this shortcut to inspecting new instance of devtools recursively.\n",
+    "Name": "Inspect devtools"
   }
 }
