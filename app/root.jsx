@@ -349,10 +349,8 @@ export default function App() {
         </MantineProvider>
         <ScrollRestoration/>
 
-	<Analytics />
+    	<Analytics />
         <Scripts/>
-        <script data-goatcounter="https://canidevtools.goatcounter.com/count"
-                async src="//gc.zgo.at/count.js"></script>
         {process.env.NODE_ENV === 'development' && <LiveReload/>}
         </body>
         </html>
