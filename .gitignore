@@ -1,10 +1,8 @@
-.env
+# MacOS
 **/.DS_Store
-.gitpod.yml
-public/.DS_Store
-engine.bin
-/.fleet
 
+# Node
+.env
 node_modules
 
 # Remix
