@@ -1,5 +1,6 @@
 # MacOS
 **/.DS_Store
+.vscode
 
 # Node
 .env

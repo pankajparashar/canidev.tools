@@ -1,20 +1,27 @@
+// Node.js
 import * as fs from 'fs';
 import path from 'path';
 
+// React
 import * as React from 'react';
 
+// Vercel
+import { Analytics } from '@vercel/analytics/react';
+
+// Remix
 import { Link, Links, LiveReload, Meta, Outlet, Scripts, ScrollRestoration } from '@remix-run/react'
 import { useLoaderData, useSearchParams } from '@remix-run/react'
 import { json } from '@remix-run/node';
-import { useLocalStorage } from '@mantine/hooks';
 
-import { Analytics } from '@vercel/analytics/react';
-
-import { Badge, Box, NavLink, MantineProvider, Collapse, Anchor, Group, SimpleGrid, Button, Divider, Alert, Text, TextInput, createEmotionCache } from '@mantine/core';
-import { useMediaQuery, useColorScheme } from '@mantine/hooks';
+// Mantime
+import { Badge, Box, NavLink, MantineProvider, Collapse, Anchor, Group, Button, Divider, Alert, Text, createEmotionCache } from '@mantine/core';
+import { useMediaQuery, useColorScheme, useLocalStorage } from '@mantine/hooks';
 import { StylesPlaceholder } from '@mantine/remix';
 
-import { IconAt, IconStar, IconCode, IconListDetails, IconBrandTwitter, IconBrandGithub, IconNews, IconBrightness, IconBoxMargin, IconList, IconAccessible, IconReportMedical, IconTerminal2, IconBrandNextjs, IconAffiliate, IconHexagons, IconCrosshair, IconAd2, IconInfoCircle } from '@tabler/icons';
+// Tabler
+import { IconStar, IconCode, IconListDetails, IconBrandTwitter, IconBrandGithub, IconNews, IconBrightness, IconBoxMargin, IconList, IconAccessible, IconReportMedical, IconTerminal2, IconBrandNextjs, IconAffiliate, IconHexagons, IconCrosshair, IconInfoCircle } from '@tabler/icons';
+
+// Custom
 import styles from './root.css';
 
 export const meta = () => {
