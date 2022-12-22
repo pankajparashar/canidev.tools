@@ -114,8 +114,8 @@ export function loader() {
 
 export function CarbonAds() {
     React.useEffect(() => {
-        document.getElementById("carbonads_1").remove()
-    })
+        document.getElementById("carbonads_1")?.remove()
+    }, [])
 
     return (
         <Alert p="xs" color="blue" title="Ads via Carbon" radius="xs">
@@ -130,9 +130,9 @@ export default function App() {
         getInitialValueInEffect: false,
     });
 
-    const [params, setParams] = useSearchParams();
+    const [params, _] = useSearchParams();
     const [open, setOpen] = React.useState(isWide);
-    const [favorites, setFavorites] = useLocalStorage({
+    const [favorites, __] = useLocalStorage({
         key: "CID_Favorites",
         defaultValue: [],
     });
