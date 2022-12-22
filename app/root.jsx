@@ -114,8 +114,12 @@ export function loader() {
 
 export function CarbonAds() {
     React.useEffect(() => {
-        document.getElementById("carbonads_1")?.remove()
-    }, [])
+        document.getElementById( 'pixelmobco' )?.addEventListener( 'DOMNodeInserted', function ( event ) {
+            if( event.target.parentNode.id == 'pixelmobco' ) {
+                console.log(event);       
+            };
+        }, false );
+    })
 
     return (
         <Alert p="xs" color="blue" title="Ads via Carbon" radius="xs">
