@@ -113,6 +113,10 @@ export function loader() {
 }
 
 export function CarbonAds() {
+    React.useEffect(() => {
+        document.getElementById("carbonads_1").remove()
+    })
+
     return (
         <Alert p="xs" color="blue" title="Ads via Carbon" radius="xs">
             <Carbon placement="wwwcanidevtools" serve="CEAIVKJJ" />        
