@@ -184,7 +184,6 @@ export default function App() {
             }}
         >
             <head>
-                <StylesPlaceholder />
                 <meta charSet="utf-8" />
                 <meta name="viewport" content="width=device-width" />
                 <Meta />
