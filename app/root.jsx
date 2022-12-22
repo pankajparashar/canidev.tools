@@ -184,7 +184,6 @@ export default function App() {
             }}
         >
             <head>
-                <StylesPlaceholder />
                 <meta charSet="utf-8" />
                 <meta name="viewport" content="width=device-width" />
                 <Meta />
@@ -468,6 +467,8 @@ export default function App() {
 
                 <Analytics />
                 <Scripts />
+                <StylesPlaceholder />
+
                 {process.env.NODE_ENV === "development" && <LiveReload />}
             </body>
         </html>
