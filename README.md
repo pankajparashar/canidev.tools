@@ -753,7 +753,7 @@
 ## 51. Fuzzy autocomplete styles 
  Can I fuzzy autocomplete CSS properties? 
 - [Safari](https://canidev.tools/fuzzy-autocomplete-styles/safari) 
- 1. Safari allows you to autocomplete CSS properties with fuzzy matching like, entering \`gtc\` will suggest \`grid-template-columns\` in the suggestions box.
+ 1. Safari allows you to autocomplete CSS properties with fuzzy matching like, entering `gtc` will suggest `grid-template-columns` in the suggestions box.
 ## 52. Get last evaluated value 
  Can I get the last evaluated value in the console? 
 - [Chrome](https://canidev.tools/get-last-value/chrome) 
