@@ -1240,34 +1240,13 @@ console.table([
 - [Opera](https://canidev.tools/pretty-print-js/opera) 
  1. In the Sources tab, open the `.js` file from the left sidebar. In the bottom tray, click the icon `{}` titled "Pretty print" to pretty print the JavaScript code. 
 2. This will open the formatted file in a new tab suffixed ":formatted".
-## 87. View styles for pseudo classes 
- Can I view the styles applied to a pseudo class like hover etc., 
-- [Chrome](https://canidev.tools/pseudo-classes-styles/chrome) 
- 1. Inspect an element > Make sure the node is selected in the DOM Tree.
-2. In the Styles pane (next to the DOM tree), look for ":hov" button next to the Filter box > Click the ":hov" button.
-3. Use the checkboxes to force the element state to any of the listed pseudo classes to view the corresponding CSS applied.
-- [Firefox](https://canidev.tools/pseudo-classes-styles/firefox) 
- 1. Inspect an element > Make sure the node is selected in the DOM Tree.
-2. In the styles section (next to the DOM tree), look for ":hov" button next to the Filter box > Click the ":hov" button.
-3. Use the checkboxes to force the element state to any of the listed pseudo classes to view the corresponding CSS applied.
-- [Edge](https://canidev.tools/pseudo-classes-styles/edge) 
- 1. Inspect an element > Make sure the node is selected in the DOM Tree.
-2. In the Styles pane (next to the DOM tree), look for ":hov" button next to the Filter box > Click the ":hov" button.
-3. Use the checkboxes to force the element state to any of the listed pseudo classes to view the corresponding CSS applied.
-- [Safari](https://canidev.tools/pseudo-classes-styles/safari) 
- 1. Inspect an element > Make sure the node is selected in the DOM Tree.
-2. In the styles section (next to the DOM tree), right at the top toolbar, you'll find checkboxes for different pseudo states, which you can toggle to view the corresponding CSS.
-- [Opera](https://canidev.tools/pseudo-classes-styles/opera) 
- 1. Inspect an element > Make sure the node is selected in the DOM Tree.
-2. In the Styles pane (next to the DOM tree), look for ":hov" button next to the Filter box > Click the ":hov" button.
-3. Use the checkboxes to force the element state to any of the listed pseudo classes to view the corresponding CSS applied.
-## 88. Record & replay user journey 
+## 87. Record & replay user journey 
  Can I record and replay all the user actions performed on the website? 
 - [Chrome](https://canidev.tools/record-user-journey/chrome) 
  1. Open **Command Menu** (`Ctrl+Shift+P` or `Cmd+Shift+P`) > Run > Show Recorder (Panel).
 2. Click "Start new recording" > Enter name > Click "Start a new recording" > Perform actions on the page > Click "End recording".
 3. Click the "Replay" button to replay the recorded user journey.
-## 89. Reorder Tabs & Panes 
+## 88. Reorder Tabs & Panes 
  Can I reorder tabs & panes in the devtools panel? 
 - [Chrome](https://canidev.tools/reorder-tabs-panes/chrome) 
  1. In the main browser window, drag and drop tabs (or panes) anywhere across the tab-bar to reorder tabs (or panes) based on preference.
@@ -1288,7 +1267,7 @@ console.table([
  1. In the main browser window, drag and drop tabs (or panes) anywhere across the tab-bar to reorder tabs (or panes) based on preference.
 2. Once re-ordered, the order will persist for future devtools sessions.
 
-## 90. Report feedback 
+## 89. Report feedback 
  Can I report issues, feedback or request features related to DevTools and the docs? 
 - [Chrome](https://canidev.tools/report-feedback/chrome) 
  Use the following options to discuss the new features and changes in the docs, or anything else related to DevTools.
@@ -1313,7 +1292,7 @@ console.table([
 - [Safari](https://canidev.tools/report-feedback/safari) 
  1. File Webkit Inspector related bugs on Webkit [Bugzilla](https://webkit.org/new-inspector-bug) or report issues on the [Github](https://github.com/WebKit/WebKit) repository.
 2. Web Inspector [Reference](https://webkit.org/web-inspector/)
-## 91. Restore default settings 
+## 90. Restore default settings 
  Can I restore the default settings of the developer tools? 
 - [Chrome](https://canidev.tools/restore-default-settings/chrome) 
  To restore the default theme, placement, tools order, and any other customised settings, select Settings > Preferences > Restore defaults and reload.
@@ -1321,7 +1300,7 @@ console.table([
  To restore the default theme, placement, tools order, and any other customised settings, select Settings > Preferences > Restore defaults and refresh.
 - [Opera](https://canidev.tools/restore-default-settings/opera) 
  To restore the default theme, placement, tools order, and any other customised settings, select Settings > Preferences > Restore defaults and reload.
-## 92. Run previous commands 
+## 91. Run previous commands 
  Can I run the previously executed commands in the console? 
 - [Chrome](https://canidev.tools/run-previous-commands/chrome) 
  1. Use the `Up` arrow key to scroll through the list of previously executed commands and then press `Enter`.
@@ -1335,7 +1314,7 @@ console.table([
 
 - [Opera](https://canidev.tools/run-previous-commands/opera) 
  1. Use the `Up` arrow key to scroll through the list of previously executed commands and then press `Enter`.
-## 93. Run snippets 
+## 92. Run snippets 
  Can I run snippet of code in devtools? 
 - [Chrome](https://canidev.tools/run-snippets/chrome) 
  1. **Sources** > In the left sidebar, open **Snippets** > Click "+ New snippet". This will open an empty file in the main view.
@@ -1355,7 +1334,7 @@ console.table([
  1. **Sources** > In the left sidebar, open **Snippets** > Click "+ New snippet". This will open an empty file in the main view.
 2. Enter the snippet and press `Cmd+Enter` to run the code.
 3. Additionally, you can also save the snippet and run it directly from the **Command** **Menu** using `!<script>`.
-## 94. Select elements with XPath 
+## 93. Select elements with XPath 
  Can I select one or more elements using XPath expression? 
 - [Chrome](https://canidev.tools/select-elements-xpath/chrome) 
  `$x(path [, startNode])` returns an array of DOM elements that match the given XPath expression. It has an optional second parameter, `startNode`, that specifies an element or Node from which to search for elements.
@@ -1367,7 +1346,7 @@ console.table([
  `$x(path [, startNode])` returns an array of DOM elements that match the given XPath expression. It has an optional second parameter, `startNode`, that specifies an element or Node from which to search for elements.
 - [Opera](https://canidev.tools/select-elements-xpath/opera) 
  `$x(path [, startNode])` returns an array of DOM elements that match the given XPath expression. It has an optional second parameter, `startNode`, that specifies an element or Node from which to search for elements.
-## 95. Select elements 
+## 94. Select elements 
  Can I select one or more elements from the console? 
 - [Chrome](https://canidev.tools/select-elements/chrome) 
  1. `$(selector [, startNode])` returns the reference to the first DOM element with the specified CSS selector. This command is equivalent to calling `document.querySelector()`.
@@ -1387,7 +1366,7 @@ console.table([
 - [Opera](https://canidev.tools/select-elements/opera) 
  1. `$(selector [, startNode])` returns the reference to the first DOM element with the specified CSS selector. This command is equivalent to calling `document.querySelector()`.
 2. `$$(selector [, startNode])` returns an array of elements that match the given CSS selector. This command is equivalent to calling `document.querySelectorAll()`.
-## 96. Set keyboard shortcuts 
+## 95. Set keyboard shortcuts 
  Can I set a custom keyboard shortcuts in devtools? 
 - [Chrome](https://canidev.tools/set-keyboard-shortcuts/chrome) 
  > Enable "Enable keyboard shortcut editor" in the **Experiments**, using `Cmd+Shift+P` or `Ctrl+Shift+P` > Show Experiments > Reload DevTools.
@@ -1400,7 +1379,7 @@ console.table([
  > Enable "Enable keyboard shortcut editor" in the **Experiments**, using `Cmd+Shift+P` or `Ctrl+Shift+P` > Show Experiments > Reload DevTools.
 1. Press `Cmd+Shift+P` or `Ctrl+Shift+P` to launch the **Command** **Menu** > Type "Shortcuts" > Press `Enter`.
 2. Click the "Edit" icon next to the shortcut. Apply the shortcut and Save.
-## 97. Show rulers on hover 
+## 96. Show rulers on hover 
  Can I enable vertical and horizontal rulers on the page when I hover on the elements? 
 - [Chrome](https://canidev.tools/show-rulers-hover/chrome) 
  1. Open **Settings** (`Shift+?` or `F1`) > **Preferences** > Scroll down to the **Elements** section, and enable "Show rulers on hover".
@@ -1413,7 +1392,7 @@ console.table([
 - [Opera](https://canidev.tools/show-rulers-hover/opera) 
  1. Open Settings (`Shift+?` or `F1`) > Preferences > Scroll down to the Elements section, and enable "Show rulers on hover".
 
-## 98. Show tab order 
+## 97. Show tab order 
  Can I see the tab order of the web page? 
 - [Chrome](https://canidev.tools/show-tab-order/chrome) 
  1. In the **Elements** tab > Open the **Accessibility** pane on the right. 
@@ -1427,7 +1406,7 @@ console.table([
 - [Opera](https://canidev.tools/show-tab-order/opera) 
  1. In the **Elements** tab > Open the **Accessibility** pane on the right. 
 2. Scroll down to the **Source Order Viewer** section, check the option "Show source order" to view the order of source elements on the screen.
-## 99. Show URL path 
+## 98. Show URL path 
  Can I see full URL path of the network requests? 
 - [Chrome](https://canidev.tools/show-url-path/chrome) 
  1. In the **Network** tab, open "Network settings" (top-right).
@@ -1441,7 +1420,7 @@ console.table([
 - [Opera](https://canidev.tools/show-url-path/opera) 
  1. In the **Network** tab, open "Network settings" (top-right).
 2. Check the option "Use large request rows" to show the URL path under the resource name.
-## 100. Simulate vision deficiencies 
+## 99. Simulate vision deficiencies 
  Can I simulate vision deficiencies like blurred visions, color blindness etc? 
 - [Chrome](https://canidev.tools/simulate-vision-deficiencies/chrome) 
  1. Open devtools using `Cmd+Opt+I `(on Mac) or `Ctrl+Shift+I` (on Windows/Linux) > Click the triple dot icon in top right > More tools > Rendering.
@@ -1459,7 +1438,7 @@ console.table([
  1. Open devtools using `Cmd+Opt+I `(on Mac) or `Ctrl+Shift+I` (on Windows/Linux) > Click the triple dot icon in top right > More tools > Rendering.
 2. (Or) Run the command menu using `Cmd+Shift+P` (on Mac) or `Ctrl+Shift+P` (on Windows/Linux) > Search for "Show Rendering" > Press `Enter` to open the Rendering drawer.
 3. Scroll down to the section called "Emulate vision deficiencies" and select the type of deficiency to test your website.
-## 101. Style console logs 
+## 100. Style console logs 
  Can I apply style to the log statements in the console? 
 - [Chrome](https://canidev.tools/style-console-logs/chrome) 
  1. Open console using `Cmd+Option+J` or `Ctrl+Shift+J`.
@@ -1512,7 +1491,7 @@ console.log(
   "color:green; background:yellow"
 )
 ```
-## 102. Target iframe 
+## 101. Target iframe 
  Can I target iframes while debugging from the Console panel? 
 - [Chrome](https://canidev.tools/target-iframe/chrome) 
  1. Open Console using `Cmd+Shift+J `(on Mac) or `Ctrl+Shift+J` (on Windows/Linux).
@@ -1529,7 +1508,7 @@ console.log(
 - [Opera](https://canidev.tools/target-iframe/opera) 
  1. Open Console using `Cmd+Shift+J `(on Mac) or `Ctrl+Shift+J` (on Windows/Linux).
 2. Next to the "Clear console" icon in the toolbar, click the "top" menu, and select the iframe to target.
-## 103. Throttle network speed 
+## 102. Throttle network speed 
  Can I throttle network speed to simulate slower network connections like 2G, 3G etc.,? 
 - [Chrome](https://canidev.tools/throttle-network-speed/chrome) 
  1. In **Network** > Click the dropdown "No Throttling" and select a value to throttle the network speed.
@@ -1542,6 +1521,23 @@ console.log(
 - [Opera](https://canidev.tools/throttle-network-speed/opera) 
  1. In Network > Click the dropdown "No Throttling" and select a value to throttle the network speed.
 
+## 103. Toggle element state 
+ Can I toggle the element state like hover, visited, focus etc.,? 
+- [Chrome](https://canidev.tools/toggle-element-state/chrome) 
+ 1. Inspect an element > In the **Styles** pane (next to the DOM tree), click the `:hov` button next to the Filter box.
+2. Use the checkboxes to force the element state to any of the listed pseudo classes to view the corresponding CSS applied.
+- [Firefox](https://canidev.tools/toggle-element-state/firefox) 
+ 1. Inspect an element > In the Styles pane (next to the DOM tree), click the `:hov` button next to the Filter box.
+2. Use the checkboxes to force the element state to any of the listed pseudo classes to view the corresponding CSS applied.
+- [Edge](https://canidev.tools/toggle-element-state/edge) 
+ 1. Inspect an element > In the Styles pane (next to the DOM tree), click the `:hov` button next to the Filter box.
+2. Use the checkboxes to force the element state to any of the listed pseudo classes to view the corresponding CSS applied.
+- [Safari](https://canidev.tools/toggle-element-state/safari) 
+ 1. Inspect an element > Make sure the node is selected in the DOM Tree.
+2. In the styles section (next to the DOM tree), right at the top toolbar, you'll find checkboxes for different pseudo states, which you can toggle to view the corresponding CSS.
+- [Opera](https://canidev.tools/toggle-element-state/opera) 
+ 1. Inspect an element > In the Styles pane (next to the DOM tree), click the `:hov` button next to the Filter box.
+2. Use the checkboxes to force the element state to any of the listed pseudo classes to view the corresponding CSS applied.
 ## 104. Toggle light & dark theme 
  Can I switch to light or dark theme in devtools? 
 - [Chrome](https://canidev.tools/toggle-theme/chrome) 

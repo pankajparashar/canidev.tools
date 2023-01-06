@@ -1,0 +1,28 @@
+{
+  "Name": "Toggle element state",
+  "Slug": "toggle-element-state",
+  "Description": "Can I toggle the element state like hover, visited, focus etc.,?",
+  "Category": "CSS",
+  "LastModifiedTime": "2023-01-06T20:02:31.000Z",
+  "Author": "@pankajparashar",
+  "Chrome": {
+    "Notes": "1. Inspect an element > In the **Styles** pane (next to the DOM tree), click the `:hov` button next to the Filter box.\n2. Use the checkboxes to force the element state to any of the listed pseudo classes to view the corresponding CSS applied.\n",
+    "Name": "Toggle element state"
+  },
+  "Firefox": {
+    "Notes": "1. Inspect an element > In the Styles pane (next to the DOM tree), click the `:hov` button next to the Filter box.\n2. Use the checkboxes to force the element state to any of the listed pseudo classes to view the corresponding CSS applied.\n",
+    "Name": "Toggle element state"
+  },
+  "Edge": {
+    "Notes": "1. Inspect an element > In the Styles pane (next to the DOM tree), click the `:hov` button next to the Filter box.\n2. Use the checkboxes to force the element state to any of the listed pseudo classes to view the corresponding CSS applied.\n",
+    "Name": "Toggle element state"
+  },
+  "Safari": {
+    "Name": "Toggle element state",
+    "Notes": "1. Inspect an element > Make sure the node is selected in the DOM Tree.\n2. In the styles section (next to the DOM tree), right at the top toolbar, you'll find checkboxes for different pseudo states, which you can toggle to view the corresponding CSS.\n"
+  },
+  "Opera": {
+    "Notes": "1. Inspect an element > In the Styles pane (next to the DOM tree), click the `:hov` button next to the Filter box.\n2. Use the checkboxes to force the element state to any of the listed pseudo classes to view the corresponding CSS applied.\n",
+    "Name": "Toggle element state"
+  }
+}
