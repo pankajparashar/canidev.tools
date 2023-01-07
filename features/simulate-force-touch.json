@@ -1,0 +1,20 @@
+{
+  "Name": "Simulate force touch",
+  "Slug": "simulate-force-touch",
+  "Description": "Can I simulate force touch to test touch events on the website?",
+  "Category": "Accessibility",
+  "LastModifiedTime": "2023-01-07T13:05:24.000Z",
+  "Author": "@pankajparashar",
+  "Chrome": {
+    "Name": "Simulate force touch",
+    "Notes": "1. Open **Command** **Menu** (`Cmd+Shift+P` or `Ctrl+Shift+P`) > Run \"Show Sensors\" > Press `Enter`. This will open the **Sensors** drawer at the bottom of the Devtools panel.\n2. Under the **Touch** drop-down list, select **Force touch** > Reload Devtools.\n"
+  },
+  "Edge": {
+    "Name": "Simulate force touch",
+    "Notes": "1. Open **Command** **Menu** (`Cmd+Shift+P` or `Ctrl+Shift+P`) > Run \"Show Sensors\" > Press `Enter`. This will open the **Sensors** drawer at the bottom of the Devtools panel.\n2. Under the **Touch** drop-down list, select \"Force touch\" > Reload Devtools.\n"
+  },
+  "Opera": {
+    "Name": "Simulate force touch",
+    "Notes": "1. Open **Command** **Menu** (`Cmd+Shift+P` or `Ctrl+Shift+P`) > Run \"Show Sensors\" > Press `Enter`. This will open the **Sensors** drawer at the bottom of the Devtools panel.\n2. Under the **Touch** drop-down list, select \"Force touch\" > Reload Devtools.\n"
+  }
+}

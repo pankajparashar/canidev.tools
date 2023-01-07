@@ -1431,7 +1431,29 @@ console.table([
 - [Opera](https://canidev.tools/show-url-path/opera) 
  1. In the **Network** tab, open "Network settings" (top-right).
 2. Check the option "Use large request rows" to show the URL path under the resource name.
-## 100. Simulate vision deficiencies 
+## 100. Simulate device orientation 
+ Can I simulate device orientation to mock built-in accelerometer, gyroscope & compass? 
+- [Chrome](https://canidev.tools/simulate-device-orientation/chrome) 
+ 1. Open **Command Menu** (`Cmd+Shift+P` or `Ctrl+Shift+P`) > Run "Show Sensors" > Press `Enter`. This will open the **Sensors** drawer at the bottom of the Devtools panel.
+2. From the **Orientations** list, select a preset orientation or drag the device to set custom orientation.
+- [Edge](https://canidev.tools/simulate-device-orientation/edge) 
+ 1. Open **Command** **Menu** (`Cmd+Shift+P` or `Ctrl+Shift+P`) > Run "Show Sensors" > Press `Enter`. This will open the **Sensors** drawer at the bottom of the Devtools panel.
+2. From the **Orientations** list, select a preset orientation or drag the device to set custom orientation.
+- [Opera](https://canidev.tools/simulate-device-orientation/opera) 
+ 1. Open **Command** **Menu** (`Cmd+Shift+P` or `Ctrl+Shift+P`) > Run "Show Sensors" > Press `Enter`. This will open the **Sensors** drawer at the bottom of the Devtools panel.
+2. From the **Orientations** list, select a preset orientation or drag the device to set custom orientation.
+## 101. Simulate force touch 
+ Can I simulate force touch to test touch events on the website? 
+- [Chrome](https://canidev.tools/simulate-force-touch/chrome) 
+ 1. Open **Command** **Menu** (`Cmd+Shift+P` or `Ctrl+Shift+P`) > Run "Show Sensors" > Press `Enter`. This will open the **Sensors** drawer at the bottom of the Devtools panel.
+2. Under the **Touch** drop-down list, select **Force touch** > Reload Devtools.
+- [Edge](https://canidev.tools/simulate-force-touch/edge) 
+ 1. Open **Command** **Menu** (`Cmd+Shift+P` or `Ctrl+Shift+P`) > Run "Show Sensors" > Press `Enter`. This will open the **Sensors** drawer at the bottom of the Devtools panel.
+2. Under the **Touch** drop-down list, select "Force touch" > Reload Devtools.
+- [Opera](https://canidev.tools/simulate-force-touch/opera) 
+ 1. Open **Command** **Menu** (`Cmd+Shift+P` or `Ctrl+Shift+P`) > Run "Show Sensors" > Press `Enter`. This will open the **Sensors** drawer at the bottom of the Devtools panel.
+2. Under the **Touch** drop-down list, select "Force touch" > Reload Devtools.
+## 102. Simulate vision deficiencies 
  Can I simulate vision deficiencies like blurred visions, color blindness etc? 
 - [Chrome](https://canidev.tools/simulate-vision-deficiencies/chrome) 
  1. Open devtools using `Cmd+Opt+I `(on Mac) or `Ctrl+Shift+I` (on Windows/Linux) > Click the triple dot icon in top right > More tools > Rendering.
@@ -1449,7 +1471,7 @@ console.table([
  1. Open devtools using `Cmd+Opt+I `(on Mac) or `Ctrl+Shift+I` (on Windows/Linux) > Click the triple dot icon in top right > More tools > Rendering.
 2. (Or) Run the command menu using `Cmd+Shift+P` (on Mac) or `Ctrl+Shift+P` (on Windows/Linux) > Search for "Show Rendering" > Press `Enter` to open the Rendering drawer.
 3. Scroll down to the section called "Emulate vision deficiencies" and select the type of deficiency to test your website.
-## 101. Style console logs 
+## 103. Style console logs 
  Can I apply style to the log statements in the console? 
 - [Chrome](https://canidev.tools/style-console-logs/chrome) 
  1. Open console using `Cmd+Option+J` or `Ctrl+Shift+J`.
@@ -1502,7 +1524,7 @@ console.log(
   "color:green; background:yellow"
 )
 ```
-## 102. Target iframe 
+## 104. Target iframe 
  Can I target iframes while debugging from the Console panel? 
 - [Chrome](https://canidev.tools/target-iframe/chrome) 
  1. Open Console using `Cmd+Shift+J `(on Mac) or `Ctrl+Shift+J` (on Windows/Linux).
@@ -1519,7 +1541,7 @@ console.log(
 - [Opera](https://canidev.tools/target-iframe/opera) 
  1. Open Console using `Cmd+Shift+J `(on Mac) or `Ctrl+Shift+J` (on Windows/Linux).
 2. Next to the "Clear console" icon in the toolbar, click the "top" menu, and select the iframe to target.
-## 103. Throttle network speed 
+## 105. Throttle network speed 
  Can I throttle network speed to simulate slower network connections like 2G, 3G etc.,? 
 - [Chrome](https://canidev.tools/throttle-network-speed/chrome) 
  1. In **Network** > Click the dropdown "No Throttling" and select a value to throttle the network speed.
@@ -1532,7 +1554,7 @@ console.log(
 - [Opera](https://canidev.tools/throttle-network-speed/opera) 
  1. In Network > Click the dropdown "No Throttling" and select a value to throttle the network speed.
 
-## 104. Toggle element state 
+## 106. Toggle element state 
  Can I toggle the element state like hover, visited, focus etc.,? 
 - [Chrome](https://canidev.tools/toggle-element-state/chrome) 
  1. Inspect an element > In the **Styles** pane (next to the DOM tree), click the `:hov` button next to the Filter box.
@@ -1549,7 +1571,7 @@ console.log(
 - [Opera](https://canidev.tools/toggle-element-state/opera) 
  1. Inspect an element > In the Styles pane (next to the DOM tree), click the `:hov` button next to the Filter box.
 2. Use the checkboxes to force the element state to any of the listed pseudo classes to view the corresponding CSS applied.
-## 105. Toggle light & dark theme 
+## 107. Toggle light & dark theme 
  Can I switch to light or dark theme in devtools? 
 - [Chrome](https://canidev.tools/toggle-theme/chrome) 
  Open **Command** **Menu** (`Cmd/Ctrl+Shift+P`) & Run > "Switch to light/dark theme" (Appearance) > Press `Enter`.
@@ -1561,7 +1583,7 @@ console.log(
  Open **Settings** (`Cmd+,`) > General > Appearance > Select "Dark" or "Light" to change the appearance.
 - [Opera](https://canidev.tools/toggle-theme/opera) 
  Open **Command** **Menu** (`Cmd/Ctrl+Shift+P`) & Run > "Switch to light/dark theme" (Appearance) > Press `Enter`.
-## 106. View accessibility tree 
+## 108. View accessibility tree 
  Can I view the accessibility tree? 
 - [Chrome](https://canidev.tools/view-accessibility-tree/chrome) 
  1. Inspect > Open the Accessibility pane on the right (Click the >> icon to show more tabs, if hidden) > Check "Enable full-page accessibility tree" > Reload Devtools.
@@ -1575,7 +1597,7 @@ console.log(
 - [Opera](https://canidev.tools/view-accessibility-tree/opera) 
  1. Inspect > Open the Accessibility pane on the right (Click the >> icon to show more tabs, if hidden) > Check "Enable full-page accessibility tree" > Reload Devtools.
 2. Click on the floating icon in the top right in the Elements panel which says, "Switch to Accessibility tree view".
-## 107. View ARIA attrs 
+## 109. View ARIA attrs 
  Can I view ARIA attributes of an element? 
 - [Chrome](https://canidev.tools/view-aria-attrs/chrome) 
  1. Inspect the element in the DOM tree.
@@ -1594,7 +1616,7 @@ console.log(
 - [Opera](https://canidev.tools/view-aria-attrs/opera) 
  1. Inspect the element in the DOM tree.
 2. Click on the Accessibility tab (It maybe hidden behind the "More Tabs" button). Scroll down to the section which says, "ARIA Attributes".
-## 108. View cascade layers 
+## 110. View cascade layers 
  Can I inspect CSS cascade layers? 
 - [Chrome](https://canidev.tools/view-cascade-layers/chrome) 
  1. Inspect the element that is part of the `@layer`. In the **Styles** pane, each layer and its corresponding styles are visible.
@@ -1610,7 +1632,7 @@ console.log(
 - [Opera](https://canidev.tools/view-cascade-layers/opera) 
  1. Inspect the element that is part of the `@layer`. In the **Styles** pane, each layer and its corresponding styles are visible.
 2. Clicking on the layer name will reveal the **CSS layers** section at the top which will contain the layer order, that drives the specificity.
-## 109. View computed styles 
+## 111. View computed styles 
  Can I view computed styles? 
 - [Chrome](https://canidev.tools/view-computed-styles/chrome) 
  1. Inspect the element > Navigate to the Computed tab in the panel next to the DOM tree.
@@ -1630,13 +1652,13 @@ console.log(
 - [Opera](https://canidev.tools/view-computed-styles/opera) 
  1. Inspect the element > Navigate to the Computed tab in the panel next to the DOM tree.
 2. Click the "Show All" checkbox to see all the inherited values.
-## 110. View & Copy CSS changes 
+## 112. View & Copy CSS changes 
  Can I view and copy the CSS changes applied to an element? 
 - [Firefox](https://canidev.tools/view-copy-css-changes/firefox) 
  1. In the **Rules** pane, apply changes to the CSS declarations, and then click on the **Changes** pane to see the diff. Click "Copy All Changes" button to copy the modified styles, with previous declaration automatically commented.
 - [Safari](https://canidev.tools/view-copy-css-changes/safari) 
  1. In the **Styles** pane, apply changes to the CSS declarations, and then click on the **Changes** pane to see the diff.
-## 111. View in 3D 
+## 113. View in 3D 
  Can I view a web page in 3D? 
 - [Chrome](https://canidev.tools/view-in-3d/chrome) 
  1. Open **Command Menu** (`Cmd+Shift+P` or `Ctrl+Shift+P`) > Run > Show Layers. This will open a new tab called **Layers**.
@@ -1659,7 +1681,7 @@ console.log(
     - Spot out-of-viewport elements
     - Debug z-index stacking issues
     - Debug performance issues with composite layers
-## 112. View styles of element 
+## 114. View styles of element 
  Can I view the styles applied to a pseudo element? 
 - [Chrome](https://canidev.tools/view-styles-element/chrome) 
  1. Right click on the element and select "Inspect" (This will open the Elements panel in the devtools with selected element highlighted in the DOM tree).  
@@ -1676,7 +1698,7 @@ console.log(
 - [Opera](https://canidev.tools/view-styles-element/opera) 
  1. Right click on the element and select "Inspect" (This will open the Elements panel in the devtools with selected element highlighted in the DOM tree).  
 2. The CSS applied to the element is visible in the "Styles" tab, adjacent to the DOM tree.
-## 113. Zoom In & Out Devtools 
+## 115. Zoom In & Out Devtools 
  Can I zoom in and out of the devtools panel? 
 - [Chrome](https://canidev.tools/zoom-inout-devtools/chrome) 
  1. In **Developer Tools** > Open **Command Menu** (`Cmd+Shift+P` or `Ctrl+Shift+P`) and Run > "Zoom in" or `Cmd+` or `Ctrl+` to increase the zoom level.
