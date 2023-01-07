@@ -1,6 +1,7 @@
 import { hydrate } from 'react-dom';
 import { RemixBrowser } from '@remix-run/react';
 import { ClientProvider } from '@mantine/remix';
+import React from 'react';
 
 hydrate(<ClientProvider><RemixBrowser /></ClientProvider>, document);
 
