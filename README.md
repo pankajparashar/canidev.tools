@@ -1447,12 +1447,6 @@ console.table([
 - [Chrome](https://canidev.tools/simulate-force-touch/chrome) 
  1. Open **Command** **Menu** (`Cmd+Shift+P` or `Ctrl+Shift+P`) > Run "Show Sensors" > Press `Enter`. This will open the **Sensors** drawer at the bottom of the Devtools panel.
 2. Under the **Touch** drop-down list, select **Force touch** > Reload Devtools.
-- [Edge](https://canidev.tools/simulate-force-touch/edge) 
- 1. Open **Command** **Menu** (`Cmd+Shift+P` or `Ctrl+Shift+P`) > Run "Show Sensors" > Press `Enter`. This will open the **Sensors** drawer at the bottom of the Devtools panel.
-2. Under the **Touch** drop-down list, select "Force touch" > Reload Devtools.
-- [Opera](https://canidev.tools/simulate-force-touch/opera) 
- 1. Open **Command** **Menu** (`Cmd+Shift+P` or `Ctrl+Shift+P`) > Run "Show Sensors" > Press `Enter`. This will open the **Sensors** drawer at the bottom of the Devtools panel.
-2. Under the **Touch** drop-down list, select "Force touch" > Reload Devtools.
 ## 102. Simulate vision deficiencies 
  Can I simulate vision deficiencies like blurred visions, color blindness etc? 
 - [Chrome](https://canidev.tools/simulate-vision-deficiencies/chrome) 

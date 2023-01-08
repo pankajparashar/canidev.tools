@@ -6,15 +6,15 @@
   "LastModifiedTime": "2023-01-07T13:01:14.000Z",
   "Author": "@pankajparashar",
   "Chrome": {
-    "Name": "Simulate device orientation",
-    "Notes": "1. Open **Command Menu** (`Cmd+Shift+P` or `Ctrl+Shift+P`) > Run \"Show Sensors\" > Press `Enter`. This will open the **Sensors** drawer at the bottom of the Devtools panel.\n2. From the **Orientations** list, select a preset orientation or drag the device to set custom orientation.\n"
+    "Notes": "1. Open **Command Menu** (`Cmd+Shift+P` or `Ctrl+Shift+P`) > Run \"Show Sensors\" > Press `Enter`. This will open the **Sensors** drawer at the bottom of the Devtools panel.\n2. From the **Orientations** list, select a preset orientation or drag the device to set custom orientation.\n",
+    "Name": "Simulate device orientation"
   },
   "Edge": {
-    "Name": "Simulate device orientation",
-    "Notes": "1. Open **Command** **Menu** (`Cmd+Shift+P` or `Ctrl+Shift+P`) > Run \"Show Sensors\" > Press `Enter`. This will open the **Sensors** drawer at the bottom of the Devtools panel.\n2. From the **Orientations** list, select a preset orientation or drag the device to set custom orientation.\n"
+    "Notes": "1. Open **Command** **Menu** (`Cmd+Shift+P` or `Ctrl+Shift+P`) > Run \"Show Sensors\" > Press `Enter`. This will open the **Sensors** drawer at the bottom of the Devtools panel.\n2. From the **Orientations** list, select a preset orientation or drag the device to set custom orientation.\n",
+    "Name": "Simulate device orientation"
   },
   "Opera": {
-    "Name": "Simulate device orientation",
-    "Notes": "1. Open **Command** **Menu** (`Cmd+Shift+P` or `Ctrl+Shift+P`) > Run \"Show Sensors\" > Press `Enter`. This will open the **Sensors** drawer at the bottom of the Devtools panel.\n2. From the **Orientations** list, select a preset orientation or drag the device to set custom orientation.\n"
+    "Notes": "1. Open **Command** **Menu** (`Cmd+Shift+P` or `Ctrl+Shift+P`) > Run \"Show Sensors\" > Press `Enter`. This will open the **Sensors** drawer at the bottom of the Devtools panel.\n2. From the **Orientations** list, select a preset orientation or drag the device to set custom orientation.\n",
+    "Name": "Simulate device orientation"
   }
 }

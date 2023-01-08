@@ -1,6 +1,7 @@
 # MacOS
 **/.DS_Store
 .vscode
+engine.bin
 
 # Node
 .env
