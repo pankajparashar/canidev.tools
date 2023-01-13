@@ -1,0 +1,20 @@
+{
+  "Name": "Never pause at exceptions",
+  "Slug": "never-pause-exceptions",
+  "Description": "Can I prevent the debugger to not stop at exceptions on a line?",
+  "Category": "Sources",
+  "LastModifiedTime": "2023-01-13T21:36:01.000Z",
+  "Author": "@pankajparashar",
+  "Chrome": {
+    "Name": "Never pause at exceptions",
+    "Notes": "1. In **Sources**, right click on the line number that throws an exception and select \"Never pause here\".\n"
+  },
+  "Edge": {
+    "Name": "Never pause at exceptions",
+    "Notes": "1. In **Sources**, right click on the line number that throws an exception and select \"Never pause here\".\n\n"
+  },
+  "Opera": {
+    "Name": "Never pause at exceptions",
+    "Notes": "1. In **Sources**, right click on the line number that throws an exception and select \"Never pause here\".\n\n"
+  }
+}
