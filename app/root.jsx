@@ -19,7 +19,7 @@ import { useMediaQuery, useColorScheme, useLocalStorage } from "@mantine/hooks";
 import { StylesPlaceholder } from "@mantine/remix";
 
 // Tabler
-import { IconStar, IconCode, IconListDetails, IconBrandTwitter, IconBrandGithub, IconNews, IconBrightness, IconBoxMargin, IconList, IconAccessible, IconReportMedical, IconTerminal2, IconBrandNextjs, IconAffiliate, IconHexagons, IconCrosshair, IconInfoCircle } from "@tabler/icons";
+import { IconStar, IconCode, IconListDetails, IconBrandTwitter, IconBrandGithub, IconNews, IconBrightness, IconBoxMargin, IconList, IconAccessible, IconReportMedical, IconTerminal2, IconBrandNextjs, IconAffiliate, IconHexagons, IconCrosshair, IconUserCircle } from "@tabler/icons";
 
 // Custom
 import styles from "./root.css";
@@ -206,7 +206,7 @@ export default function App() {
                                         icon={<IconList size="20" stroke="2" />}
                                         label={"All"}
                                         rightSection={
-                                            <Badge size="md" variant="light" color={"dark"}>
+                                            <Badge size="md" variant="filled" color={"dark.5"}>
                                                 {Object.values(categories).reduce((a, b) => a + b)}
                                             </Badge>
                                         }
@@ -223,7 +223,7 @@ export default function App() {
                                                 icon={icons[category]}
                                                 label={category}
                                                 rightSection={
-                                                    <Badge size="md" variant="light" color={colors[category]}>
+                                                    <Badge size="md" variant="filled" color={colors[category]}>
                                                         {categories[category]}
                                                     </Badge>
                                                 }
@@ -237,7 +237,7 @@ export default function App() {
                                         icon={<IconStar size="20" stroke="1.5" />}
                                         label={"Favorites"}
                                         rightSection={
-                                            <Badge size="md" variant="light" color={"yellow"}>
+                                            <Badge size="md" variant="filled" color={"yellow.5"}>
                                                 {favorites.length}
                                             </Badge>
                                         }
@@ -271,7 +271,7 @@ export default function App() {
                                     </Button>
                                 </Group>
                                 <Divider />
-                                <Alert icon={<IconInfoCircle size={24} />} title="About" radius="xs" p="xs" m="xs" mb="0">
+                                <Alert icon={<IconUserCircle />} title="About" radius="xs" p="xs" m="xs" mb="0">
                                     <Box sx={theme => ({ maxWidth: "500px" })}>
                                         It is like{" "}
                                         <Anchor href="https://caniuse.com/" target="_blank">
