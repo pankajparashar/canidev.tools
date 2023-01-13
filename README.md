@@ -993,12 +993,7 @@
 - [Opera](https://canidev.tools/inspect-devtools/opera) 
  1. Inside devtools, press `Cmd+Shift+I `or `Ctrl+Shift+I` to  inspect the devtools panel itself using new instance of devtools.
 2. Important to note, you can keep using this shortcut to inspecting new instance of devtools recursively.
-## 72. Inspect dialog element 
- Can I inspect the dialog element? 
-- [Chrome](https://canidev.tools/inspect-dialog-element/chrome) 
- 1. Inspect the `<dialog>` element. Scroll down to the end of the DOM tree to the `#top-layer` section, to visualise the currently active dialog elements.
-2. In the case of multiple elements, they stack on top of each other, and the last one is on top. 
-## 73. Inspect Font properties 
+## 72. Inspect Font properties 
  Can I inspect and edit various CSS font properties like, font-size, line-height etc? 
 - [Chrome](https://canidev.tools/inspect-font-properties/chrome) 
  1. **Settings** (`F1` or `Shift+?`) > Experiments > Check the "Enable the new Font Editor tool within the Styles pane" box > Reload.
@@ -1011,7 +1006,7 @@
 - [Opera](https://canidev.tools/inspect-font-properties/opera) 
  1. Settings (`F1` or `Shift+?`) > Experiments > Check the "Enable the new Font Editor tool within the Styles pane" box > Reload.
 2. In the Styles pane, click the "AA" icon in the bottom right of the selector box to open the Font Editor tool which allows you to tweak various font properties.
-## 74. Inspect requests 
+## 73. Inspect requests 
  Can I inspect Network requests? 
 - [Chrome](https://canidev.tools/inspect-requests/chrome) 
  1. Open devtools > Click on the Network panel (This will show a section containing table of network requests).
@@ -1023,7 +1018,7 @@
  1. Open devtools > Click on the Network panel (This will show a section containing table of network requests).
 - [Opera](https://canidev.tools/inspect-requests/opera) 
  1. Open devtools > Click on the Network panel (This will show a section containing table of network requests).
-## 75. Inspect CSS scroll snap 
+## 74. Inspect CSS scroll snap 
  Can I inspect & visualize CSS scroll snap layout? 
 - [Chrome](https://canidev.tools/inspect-scroll-snap/chrome) 
  1. When an HTML element on your page (e.g. this [demo](https://mathiasbynens.github.io/css-dbg-stories/css-scroll-snap.html) page) has `scroll-snap-type` applied to it, you can see a `scroll-snap` badge next to it in the **Elements** panel. Click the badge to toggle the display of a scroll-snap overlay on the page.
@@ -1036,6 +1031,11 @@
  1. When an HTML element on your page (e.g. this [demo](https://mathiasbynens.github.io/css-dbg-stories/css-scroll-snap.html) page) has `scroll-snap-type` applied to it, you can see a `scroll-snap` badge next to it in the Elements panel. Click the badge to toggle the display of a scroll-snap overlay on the page.
 2. In the example above, you can see dot marks on snap edges. The scroll port has solid outlined while the snap items have dash outlines. The scroll padding is filled in green color while the scroll margin is filled in orange.
 
+## 75. Inspect top layer 
+ Can I inspect the top layer elements like dialog, popover etc? 
+- [Chrome](https://canidev.tools/inspect-top-layer/chrome) 
+ 1. Inspect the `<dialog>` element. Scroll down to the end of the DOM tree to the `#top-layer` section, to visualise the currently active dialog elements.
+2. In the case of multiple elements, they stack on top of each other, and the last one is on top. 
 ## 76. Jump to CSS var declaration 
  Can I jump to the declaration where the CSS variable is defined? 
 - [Chrome](https://canidev.tools/jump-cssvar-declaration/chrome) 

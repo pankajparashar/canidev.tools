@@ -1,14 +1,14 @@
 {
-  "Name": "Inspect dialog element",
-  "Slug": "inspect-dialog-element",
-  "Description": "Can I inspect the dialog element?",
+  "Name": "Inspect top layer",
+  "Slug": "inspect-top-layer",
+  "Description": "Can I inspect the top layer elements like dialog, popover etc?",
   "Category": "Elements",
-  "LastModifiedTime": "2022-07-09T09:12:01.000Z",
+  "LastModifiedTime": "2023-01-13T22:59:05.000Z",
   "Author": "@pankajparashar",
   "Chrome": {
-    "References": "[1] Bram Stein on [Twitter](https://twitter.com/bramus/status/1540030057720455168)\n",
+    "References": "1. Bram Stein on [Twitter](https://twitter.com/bramus/status/1540030057720455168)\n",
     "Notes": "1. Inspect the `<dialog>` element. Scroll down to the end of the DOM tree to the `#top-layer` section, to visualise the currently active dialog elements.\n2. In the case of multiple elements, they stack on top of each other, and the last one is on top. \n",
-    "Name": "Inspect dialog element",
+    "Name": "Inspect top layer",
     "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1656250937/Videos/inspect-dialog-element-chrome_yszhne.mp4"
   }
 }
