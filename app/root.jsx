@@ -253,32 +253,40 @@ export default function App() {
                                 })}>
                                 <Divider />
                                 <Grid gutter={0}>
-                                    <Grid.Col span={3} sx={theme => ({
-                                        borderRight: `1px solid ${theme.colorScheme === "dark" ? theme.colors.dark[4] : theme.colors.gray[4]}`
-                                    })}>
+                                    <Grid.Col
+                                        span={3}
+                                        sx={theme => ({
+                                            borderRight: `1px solid ${theme.colorScheme === "dark" ? theme.colors.dark[4] : theme.colors.gray[4]}`,
+                                        })}>
                                         <Button fullWidth={true} size="sm" variant="subtle" component="a" href="https://twitter.com/CanIDevTools">
                                             <IconBrandTwitter size={20} />
                                         </Button>
                                     </Grid.Col>
-                                    <Grid.Col span={3} sx={theme => ({
-                                        borderRight: `1px solid ${theme.colorScheme === "dark" ? theme.colors.dark[4] : theme.colors.gray[4]}`
-                                    })}>
+                                    <Grid.Col
+                                        span={3}
+                                        sx={theme => ({
+                                            borderRight: `1px solid ${theme.colorScheme === "dark" ? theme.colors.dark[4] : theme.colors.gray[4]}`,
+                                        })}>
                                         <Button fullWidth={true} size="sm" variant="subtle" component="a" href="https://github.com/pankajparashar/canidev.tools">
                                             <IconBrandGithub size={20} />
                                         </Button>
                                         <Divider orientation="vertical" />
                                     </Grid.Col>
-                                    <Grid.Col span={3} sx={theme => ({
-                                        borderRight: `1px solid ${theme.colorScheme === "dark" ? theme.colors.dark[4] : theme.colors.gray[4]}`
-                                    })}>
+                                    <Grid.Col
+                                        span={3}
+                                        sx={theme => ({
+                                            borderRight: `1px solid ${theme.colorScheme === "dark" ? theme.colors.dark[4] : theme.colors.gray[4]}`,
+                                        })}>
                                         <Button fullWidth={true} size="sm" variant="subtle" component="a" href="https://canidevtools.substack.com">
                                             <IconNews size={20} />
                                         </Button>
                                         <Divider orientation="vertical" />
                                     </Grid.Col>
-                                    <Grid.Col span={3} sx={theme => ({
-                                        borderRight: `1px solid ${theme.colorScheme === "dark" ? theme.colors.dark[4] : theme.colors.gray[4]}`
-                                    })}>
+                                    <Grid.Col
+                                        span={3}
+                                        sx={theme => ({
+                                            borderRight: `1px solid ${theme.colorScheme === "dark" ? theme.colors.dark[4] : theme.colors.gray[4]}`,
+                                        })}>
                                         <Button fullWidth={true} size="sm" variant="subtle" onClick={toggleColorScheme}>
                                             <IconBrightness size={20} />
                                         </Button>
