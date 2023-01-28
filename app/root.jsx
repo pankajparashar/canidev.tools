@@ -14,7 +14,7 @@ import { useLoaderData, useSearchParams } from "@remix-run/react";
 import { json } from "@remix-run/node";
 
 // Mantime
-import { Badge, Box, NavLink, MantineProvider, Collapse, Anchor, Group, Button, Divider, Alert, Text, createEmotionCache } from "@mantine/core";
+import { Badge, Box, NavLink, MantineProvider, Collapse, Anchor, Group, Grid, Button, Divider, Alert, Text, createEmotionCache } from "@mantine/core";
 import { useMediaQuery, useColorScheme, useLocalStorage } from "@mantine/hooks";
 import { StylesPlaceholder } from "@mantine/remix";
 
@@ -252,24 +252,39 @@ export default function App() {
                                     borderRight: `1px solid ${theme.colorScheme === "dark" ? theme.colors.dark[6] : theme.colors.gray[4]}`,
                                 })}>
                                 <Divider />
-                                <Group
-                                    grow
-                                    sx={theme => ({
-                                        padding: theme.spacing.xs,
+                                <Grid gutter={0}>
+                                    <Grid.Col span={3} sx={theme => ({
+                                        borderRight: `1px solid ${theme.colorScheme === "dark" ? theme.colors.dark[4] : theme.colors.gray[4]}`
                                     })}>
-                                    <Button size="xs" variant="default" component="a" href="https://twitter.com/CanIDevTools">
-                                        <IconBrandTwitter size={20} />
-                                    </Button>
-                                    <Button size="xs" variant="default" component="a" href="https://github.com/pankajparashar/canidev.tools">
-                                        <IconBrandGithub size={20} />
-                                    </Button>
-                                    <Button size="xs" variant="default" component="a" href="https://canidevtools.substack.com">
-                                        <IconNews size={20} />
-                                    </Button>
-                                    <Button size="xs" variant="default" onClick={toggleColorScheme}>
-                                        <IconBrightness size={20} />
-                                    </Button>
-                                </Group>
+                                        <Button fullWidth={true} size="sm" variant="subtle" component="a" href="https://twitter.com/CanIDevTools">
+                                            <IconBrandTwitter size={20} />
+                                        </Button>
+                                    </Grid.Col>
+                                    <Grid.Col span={3} sx={theme => ({
+                                        borderRight: `1px solid ${theme.colorScheme === "dark" ? theme.colors.dark[4] : theme.colors.gray[4]}`
+                                    })}>
+                                        <Button fullWidth={true} size="sm" variant="subtle" component="a" href="https://github.com/pankajparashar/canidev.tools">
+                                            <IconBrandGithub size={20} />
+                                        </Button>
+                                        <Divider orientation="vertical" />
+                                    </Grid.Col>
+                                    <Grid.Col span={3} sx={theme => ({
+                                        borderRight: `1px solid ${theme.colorScheme === "dark" ? theme.colors.dark[4] : theme.colors.gray[4]}`
+                                    })}>
+                                        <Button fullWidth={true} size="sm" variant="subtle" component="a" href="https://canidevtools.substack.com">
+                                            <IconNews size={20} />
+                                        </Button>
+                                        <Divider orientation="vertical" />
+                                    </Grid.Col>
+                                    <Grid.Col span={3} sx={theme => ({
+                                        borderRight: `1px solid ${theme.colorScheme === "dark" ? theme.colors.dark[4] : theme.colors.gray[4]}`
+                                    })}>
+                                        <Button fullWidth={true} size="sm" variant="subtle" onClick={toggleColorScheme}>
+                                            <IconBrightness size={20} />
+                                        </Button>
+                                        <Divider orientation="vertical" />
+                                    </Grid.Col>
+                                </Grid>
                                 <Divider />
                                 <Alert icon={<IconUserCircle />} title="About" radius="xs" p="xs" m="xs" mb="0">
                                     <Box sx={theme => ({ maxWidth: "500px" })}>
