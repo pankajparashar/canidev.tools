@@ -3,7 +3,7 @@
   "Slug": "jump-to-id",
   "Description": "Can I jump to the target element with an id?",
   "Category": "Elements",
-  "LastModifiedTime": "2022-07-02T13:59:40.000Z",
+  "LastModifiedTime": "2023-01-28T13:10:12.000Z",
   "Author": "@pankajparashar",
   "Firefox": {
     "Notes": "1. Firefox links the element referencing the ID attribute to its target element in the same DOM, highlighted with an underline.\n2. Use `Cmd+Click` or `Ctrl+Click` to jump to the target element with the identifier.\n",

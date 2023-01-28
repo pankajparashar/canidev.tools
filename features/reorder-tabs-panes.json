@@ -3,7 +3,7 @@
   "Slug": "reorder-tabs-panes",
   "Description": "Can I reorder tabs & panes in the devtools panel?",
   "Category": "Elements",
-  "LastModifiedTime": "2022-07-03T05:11:31.000Z",
+  "LastModifiedTime": "2023-01-28T13:09:39.000Z",
   "Author": "@pankajparashar",
   "Chrome": {
     "References": "[1] \"Reorder pane\" - [Chrome DevTools Docs](https://developer.chrome.com/blog/new-in-devtools-103/#reorder-pane)\n",
