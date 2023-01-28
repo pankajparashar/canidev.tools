@@ -14,7 +14,7 @@ import { useLoaderData, useSearchParams } from "@remix-run/react";
 import { json } from "@remix-run/node";
 
 // Mantime
-import { Badge, Box, NavLink, MantineProvider, Collapse, Anchor, Group, Grid, Button, Divider, Alert, Text, createEmotionCache } from "@mantine/core";
+import { Badge, Box, NavLink, MantineProvider, Collapse, Anchor, Flex, Grid, Button, Divider, Alert, Text, createEmotionCache } from "@mantine/core";
 import { useMediaQuery, useColorScheme, useLocalStorage } from "@mantine/hooks";
 import { StylesPlaceholder } from "@mantine/remix";
 
