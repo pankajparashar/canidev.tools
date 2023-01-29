@@ -113,11 +113,13 @@ export default function Feature() {
 				>
 					<Group position="apart">
 						<Badge
-							radius="xs"
+							radius="sm"
 							variant="dot"
 							size="lg"
 							p="md"
 							color={colors[feature.Category]}
+							styles={{ root: { border: 0 } }}
+							sx={theme => ({ borderRight: borderColor(theme) })}
 						>
 							{feature.Category}
 						</Badge>

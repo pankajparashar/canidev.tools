@@ -1047,7 +1047,7 @@
  1. In **Styles** pane, hover the variable name to see the actual value in the tooltip. Click the link to jump to the section where the variable is defined.
 
 ## 77. Jump to Id 
- Can I jump to the target element with an id? 
+ Can I jump to the target element with an id from the source element? 
 - [Firefox](https://canidev.tools/jump-to-id/firefox) 
  1. Firefox links the element referencing the ID attribute to its target element in the same DOM, highlighted with an underline.
 2. Use `Cmd+Click` or `Ctrl+Click` to jump to the target element with the identifier.
