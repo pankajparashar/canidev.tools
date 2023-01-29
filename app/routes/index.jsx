@@ -87,6 +87,8 @@ export default function Index() {
         setFavorites([...favoritesSet])
     }
 		
+	const borderColor = theme => `1px solid ${theme.colorScheme === "dark" ? theme.colors.dark[6] : theme.colors.gray[4]}`
+
 	return (
 		<Stack
 			spacing={0}
@@ -102,83 +104,65 @@ export default function Index() {
 			})}
 		>
 			<Box className="grid">
-				<Box
-					sx={(theme) => ({
-						borderRight: `1px solid ${theme.colorScheme === 'dark'
-							? theme.colors.dark[6]
-							: theme.colors.gray[4]
-							}`,
-					})}
-				>
-					<Grid
-						gutter={'xs'}
-						sx={(theme) => ({
-							padding: theme.spacing.xs,
-						})}
-					>
-						<Grid.Col span={10}>
-							<TextInput
-								size="xs"
-								label=""
-								variant="filled"
-								placeholder={search ? search : `Search ${features.length} record(s)`}
-								icon={<IconListSearch size={20} />}
-								rightSection={
-									<Tooltip label="Press Enter" position="top-end" withArrow>
-									  <div>
-										<IconArrowBack size={18} style={{ display: 'block', opacity: 0.5 }} />
-									  </div>
-									</Tooltip>
-								}
-								onKeyPress={event => {
-									const value = event.target.value.trim()
-									if(event.key === "Enter") {
-										const url = new URL(window.location);
-										if(value) url.searchParams.set('search', value);
-										else url.searchParams.delete('search')
-										navigate({
-											search: url.searchParams.toString()
-										})	
-									}									
-								}}
-							/>
-						</Grid.Col>
-						<Grid.Col span={2}>
-							<Button variant="default" size="xs" fullWidth={true} onClick={() => {
-								params.set('sort', sort === 'dsc' ? 'asc' : 'dsc')
-								navigate({
-									search: params.toString()
-								})
-							}}>
-								{sort === 'asc' ? <IconSortAscending size={20}/> : <IconSortDescending size={20} />}
-							</Button>
-						</Grid.Col>
-					</Grid>
-				</Box>
-				<Group
-					grow
-					sx={(theme) => ({
-						padding: theme.spacing.xs,
-					})}
-				>
-					<Button variant={params.get('browser') === 'Chrome' ? 'active' : 'default'} size="xs" onClick={() => toggleBrowser('Chrome')}>
+				<Grid gutter={0} sx={(theme) => ({ borderRight: borderColor(theme), borderBottom: borderColor(theme) })}>
+					<Grid.Col span={10}>
+						<TextInput
+							sx={theme => ({ input: { fontSize: theme.fontSizes.sm}} )}
+							size="md"
+							label=""
+							variant="filled"
+							placeholder={search ? search : `Search ${features.length} record(s)`}
+							icon={<IconListSearch size={20} />}
+							rightSection={
+								<Tooltip label="Press Enter" position="top-end" withArrow>
+									<div>
+									<IconArrowBack size={18} style={{ display: 'block', opacity: 0.5 }} />
+									</div>
+								</Tooltip>
+							}
+							onKeyPress={event => {
+								const value = event.target.value.trim()
+								if(event.key === "Enter") {
+									const url = new URL(window.location);
+									if(value) url.searchParams.set('search', value);
+									else url.searchParams.delete('search')
+									navigate({
+										search: url.searchParams.toString()
+									})	
+								}									
+							}}
+						/>
+					</Grid.Col>
+					<Grid.Col span={2}>
+						<Button variant="subtle" size="md" fullWidth={true} onClick={() => {
+							params.set('sort', sort === 'dsc' ? 'asc' : 'dsc')
+							navigate({
+								search: params.toString()
+							})
+						}} sx={theme => ({ borderLeft: borderColor(theme) })}>
+							{sort === 'asc' ? <IconSortAscending size={20}/> : <IconSortDescending size={20} />}
+						</Button>
+					</Grid.Col>
+				</Grid>
+				<SimpleGrid cols={5} spacing={0} sx={(theme) => ({ borderRight: borderColor(theme), borderBottom: borderColor(theme) })}>
+					<Button variant={params.get('browser') === 'Chrome' ? 'active' : 'subtle'} size="md" onClick={() => toggleBrowser('Chrome')} sx={theme => ({ borderRight: borderColor(theme) })}>
 						<IconBrandChrome size={20} />
 					</Button>
-					<Button variant={params.get('browser') === 'Firefox' ? 'active' : 'default'} size="xs" onClick={() => toggleBrowser('Firefox')}>
+					<Button variant={params.get('browser') === 'Firefox' ? 'active' : 'subtle'} size="md" onClick={() => toggleBrowser('Firefox')} sx={theme => ({ borderRight: borderColor(theme) })}>
 						<IconBrandFirefox size={20} />
 					</Button>
-					<Button variant={params.get('browser') === 'Edge' ? 'active' : 'default'} size="xs" onClick={() => toggleBrowser('Edge')}>
+					<Button variant={params.get('browser') === 'Edge' ? 'active' : 'subtle'} size="md" onClick={() => toggleBrowser('Edge')} sx={theme => ({ borderRight: borderColor(theme) })}>
 						<IconBrandEdge size={20} />
 					</Button>
-					<Button variant={params.get('browser') === 'Safari' ? 'active' : 'default'} size="xs" onClick={() => toggleBrowser('Safari')}>
+					<Button variant={params.get('browser') === 'Safari' ? 'active' : 'subtle'} size="md" onClick={() => toggleBrowser('Safari')} sx={theme => ({ borderRight: borderColor(theme) })}>
 						<IconBrandSafari size={20} />
 					</Button>
-					<Button variant={params.get('browser') === 'Opera' ? 'active' : 'default'} size="xs" onClick={() => toggleBrowser('Opera')}>
+					<Button variant={params.get('browser') === 'Opera' ? 'active' : 'subtle'} size="md" onClick={() => toggleBrowser('Opera')}>
 						<IconBrandOpera size={20} />
 					</Button>
-				</Group>
+				</SimpleGrid>
 			</Box>
-			<Divider />
+			
 			<ScrollArea offsetScrollbars type="auto" className="h_100vh" scrollbarSize={12}>
 				{features.map((feature) => (
 					<Box className="grid" key={feature.Slug}>
