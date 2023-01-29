@@ -71,7 +71,7 @@ blockquote {
 
 @media screen and (min-width: 1050px) {
   .h_100vh {
-    height: calc(100vh - 108px);
+    height: calc(100vh - 5em);
   }
 }
 
