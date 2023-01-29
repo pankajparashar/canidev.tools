@@ -170,7 +170,7 @@ export default function App() {
                             })}>
                             
                             <Flex justify="space-between" align="center">
-                                <Button size="md" variant="subtle" component={Link} to="/"
+                                <Button size="sm" variant="subtle" component={Link} to="/"
                                     sx={theme => ({ borderRight: `1px solid ${theme.colorScheme === "dark" ? theme.colors.dark[6] : theme.colors.gray[4]}` })}
                                 >
                                     <svg viewBox="178.683 222.461 394.649 307.103" xmlns="http://www.w3.org/2000/svg" width="20px" fill={colorScheme === "dark" ? "#ffffff" : "#000000"}>
@@ -178,7 +178,7 @@ export default function App() {
                                     </svg>
                                 </Button>
                                 <Text weight={700}>Can I DevTools?</Text>
-                                <Button variant="subtle" size="md" onClick={() => setOpen(!open)}
+                                <Button variant="subtle" size="sm" onClick={() => setOpen(!open)}
                                     sx={theme => ({ borderLeft: `1px solid ${theme.colorScheme === "dark" ? theme.colors.dark[6] : theme.colors.gray[4]}` })}
                                 >
                                     <IconListDetails size={20} />

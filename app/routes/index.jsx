@@ -108,7 +108,7 @@ export default function Index() {
 					<Grid.Col span={10}>
 						<TextInput
 							sx={theme => ({ input: { fontSize: theme.fontSizes.sm}} )}
-							size="md"
+							size="sm"
 							label=""
 							variant="filled"
 							placeholder={search ? search : `Search ${features.length} record(s)`}
@@ -134,7 +134,7 @@ export default function Index() {
 						/>
 					</Grid.Col>
 					<Grid.Col span={2}>
-						<Button variant="subtle" size="md" fullWidth={true} onClick={() => {
+						<Button variant="subtle" size="sm" fullWidth={true} onClick={() => {
 							params.set('sort', sort === 'dsc' ? 'asc' : 'dsc')
 							navigate({
 								search: params.toString()
@@ -145,19 +145,19 @@ export default function Index() {
 					</Grid.Col>
 				</Grid>
 				<SimpleGrid cols={5} spacing={0} sx={(theme) => ({ borderRight: borderColor(theme), borderBottom: borderColor(theme) })}>
-					<Button variant={params.get('browser') === 'Chrome' ? 'active' : 'subtle'} size="md" onClick={() => toggleBrowser('Chrome')} sx={theme => ({ borderRight: borderColor(theme) })}>
+					<Button variant={params.get('browser') === 'Chrome' ? 'active' : 'subtle'} size="sm" onClick={() => toggleBrowser('Chrome')} sx={theme => ({ borderRight: borderColor(theme) })}>
 						<IconBrandChrome size={20} />
 					</Button>
-					<Button variant={params.get('browser') === 'Firefox' ? 'active' : 'subtle'} size="md" onClick={() => toggleBrowser('Firefox')} sx={theme => ({ borderRight: borderColor(theme) })}>
+					<Button variant={params.get('browser') === 'Firefox' ? 'active' : 'subtle'} size="sm" onClick={() => toggleBrowser('Firefox')} sx={theme => ({ borderRight: borderColor(theme) })}>
 						<IconBrandFirefox size={20} />
 					</Button>
-					<Button variant={params.get('browser') === 'Edge' ? 'active' : 'subtle'} size="md" onClick={() => toggleBrowser('Edge')} sx={theme => ({ borderRight: borderColor(theme) })}>
+					<Button variant={params.get('browser') === 'Edge' ? 'active' : 'subtle'} size="sm" onClick={() => toggleBrowser('Edge')} sx={theme => ({ borderRight: borderColor(theme) })}>
 						<IconBrandEdge size={20} />
 					</Button>
-					<Button variant={params.get('browser') === 'Safari' ? 'active' : 'subtle'} size="md" onClick={() => toggleBrowser('Safari')} sx={theme => ({ borderRight: borderColor(theme) })}>
+					<Button variant={params.get('browser') === 'Safari' ? 'active' : 'subtle'} size="sm" onClick={() => toggleBrowser('Safari')} sx={theme => ({ borderRight: borderColor(theme) })}>
 						<IconBrandSafari size={20} />
 					</Button>
-					<Button variant={params.get('browser') === 'Opera' ? 'active' : 'subtle'} size="md" onClick={() => toggleBrowser('Opera')}>
+					<Button variant={params.get('browser') === 'Opera' ? 'active' : 'subtle'} size="sm" onClick={() => toggleBrowser('Opera')}>
 						<IconBrandOpera size={20} />
 					</Button>
 				</SimpleGrid>
@@ -271,22 +271,22 @@ export default function Index() {
 			<Box className="grid" sx={theme => ({ borderTop: borderColor(theme)})}>
 				<Grid gutter="0">
 				     <Grid.Col span={10} sx={(theme) => ({ borderRight: borderColor(theme) })}>
-					     <Button variant="light" size="md" fullWidth={true} leftIcon={<IconTextPlus size={20} />} component="a" href="https://github.com/pankajparashar/canidev.tools/issues/new">
+					     <Button variant="light" size="sm" fullWidth={true} leftIcon={<IconTextPlus size={20} />} component="a" href="https://github.com/pankajparashar/canidev.tools/issues/new">
  						     {" Add New"}
 					     </Button>
 				     </Grid.Col>
 				     <Grid.Col span={2} sx={(theme) => ({ borderRight: borderColor(theme) })}>
-					     <Button variant="subtle" size="md" fullWidth={true} component="a" href="https://canidevtools.substack.com/feed.xml">
+					     <Button variant="subtle" size="sm" fullWidth={true} component="a" href="https://canidevtools.substack.com/feed.xml">
 						     <IconRss size={20} stroke={2.5} />
 					     </Button>
 				     </Grid.Col>
 			     </Grid>
 				 <SimpleGrid cols={5} spacing={0} verticalSpacing={0} align="center" sx={(theme) => ({ borderRight: borderColor(theme) })}>
-					<Button size="md" variant="subtle" sx={(theme) => ({ borderRight: borderColor(theme) })}>{count.Chrome}</Button>
-					<Button size="md" variant="subtle" sx={(theme) => ({ borderRight: borderColor(theme) })}>{count.Firefox}</Button>
-					<Button size="md" variant="subtle" sx={(theme) => ({ borderRight: borderColor(theme) })}>{count.Edge}</Button>
-					<Button size="md" variant="subtle" sx={(theme) => ({ borderRight: borderColor(theme) })}>{count.Safari}</Button>
-					<Button size="md" variant="subtle" sx={(theme) => ({ borderRight: borderColor(theme) })}>{count.Opera}</Button>
+					<Button size="sm" variant="subtle" sx={(theme) => ({ borderRight: borderColor(theme) })}>{count.Chrome}</Button>
+					<Button size="sm" variant="subtle" sx={(theme) => ({ borderRight: borderColor(theme) })}>{count.Firefox}</Button>
+					<Button size="sm" variant="subtle" sx={(theme) => ({ borderRight: borderColor(theme) })}>{count.Edge}</Button>
+					<Button size="sm" variant="subtle" sx={(theme) => ({ borderRight: borderColor(theme) })}>{count.Safari}</Button>
+					<Button size="sm" variant="subtle" sx={(theme) => ({ borderRight: borderColor(theme) })}>{count.Opera}</Button>
 				</SimpleGrid>
 			</Box>
 		</Stack>

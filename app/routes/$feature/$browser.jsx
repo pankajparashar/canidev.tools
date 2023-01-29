@@ -56,6 +56,8 @@ export default function Browser() {
     opera: <IconBrandOpera size="18" stroke="1.5" />,
   };
 
+  const borderColor = theme => `1px solid ${theme.colorScheme === "dark" ? theme.colors.dark[6] : theme.colors.gray[4]}`
+
   return (
     <Box
       sx={(theme) => ({
@@ -68,28 +70,26 @@ export default function Browser() {
     >
       <Group
         position="apart"
-        spacing="xs"
-        sx={(theme) => ({
-          padding: theme.spacing.xs,
-        })}
       >
         <Button
-          size="xs"
+          size="sm"
           radius="xs"
           leftIcon={icons[browser]}
-          variant="default"
+          variant="subtle"
           component="a"
           href={`/${feature.slug}/${browser}`}
+          sx={theme => ({ borderRight: borderColor(theme) })}
         >
           {browser.toLocaleUpperCase()}
         </Button>
         <Button
-          size="xs"
+          size="sm"
           radius="xs"
-          variant="default"
+          variant="subtle"
           leftIcon={<IconShare size="18" />}
           component={"a"}
           href={feature[browser].Share}
+          sx={theme => ({ borderLeft: borderColor(theme) })}
         >
           Share
         </Button>

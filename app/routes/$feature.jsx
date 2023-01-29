@@ -9,8 +9,6 @@ import { Stack, Button } from '@mantine/core';
 import { Group } from '@mantine/core';
 import { Breadcrumbs, Anchor } from '@mantine/core';
 import { Box } from '@mantine/core';
-import { Accordion, NavLink } from '@mantine/core';
-import { Text } from '@mantine/core';
 import { Divider } from '@mantine/core';
 import { Badge, Grid } from '@mantine/core';
 import { IconHome2, IconBrandGithub } from '@tabler/icons';
@@ -99,12 +97,13 @@ export default function Feature() {
 		Sources: 'green',
 	};
 
+	const borderColor = theme => `1px solid ${theme.colorScheme === "dark" ? theme.colors.dark[6] : theme.colors.gray[4]}`
 	return (
 		<div className="grid">
 			<Box>
 				<Box
 					sx={(theme) => ({
-						padding: theme.spacing.xs,
+						
 						borderRight: `1px solid ${
 							theme.colorScheme === 'dark'
 								? theme.colors.dark[6]
@@ -117,15 +116,16 @@ export default function Feature() {
 							radius="xs"
 							variant="dot"
 							size="lg"
-							p="xs"
+							p="md"
 							color={colors[feature.Category]}
 						>
 							{feature.Category}
 						</Badge>
 						<Button
-							size="xs"
-							variant="default"
-							radius="xs"
+							sx={theme => ({ borderLeft: borderColor(theme) })}
+							size="sm"
+							variant="subtle"
+							radius="sm"
 							leftIcon={<IconBrandGithub size={16} />}
 							component="a"
 							href={`https://github.com/pankajparashar/canidev.tools/edit/main/features/${feature.Slug}.json`}
@@ -158,16 +158,12 @@ export default function Feature() {
 						</Alert>
 					</Box>
 					<Divider />
-					<Group
-						grow
-						sx={(theme) => ({
-							padding: theme.spacing.xs,
-						})}
-					>
+					<SimpleGrid cols={5} spacing={0}>
 						<Button
+							fullWidth={true}
 							variant={path.basename(location.pathname) === "chrome" ? "filled": "outline"}
 							color={colors[feature.Category]}
-							size="xs"
+							size="sm"
 							disabled={!feature.Chrome}
 							component={Link}
 							to={`/${feature.Slug}/chrome`}
@@ -175,9 +171,10 @@ export default function Feature() {
 							<IconBrandChrome size={20} />
 						</Button>
 						<Button
+							fullWidth={true}	
 							variant={path.basename(location.pathname) === "firefox" ? "filled": "outline"}
 							color={colors[feature.Category]}
-							size="xs"
+							size="sm"
 							disabled={!feature.Firefox}
 							component={Link}
 							to={`/${feature.Slug}/firefox`}
@@ -185,9 +182,10 @@ export default function Feature() {
 							<IconBrandFirefox size={20} />
 						</Button>
 						<Button
+							fullWidth={true}
 							variant={path.basename(location.pathname) === "edge" ? "filled": "outline"}
 							color={colors[feature.Category]}
-							size="xs"
+							size="sm"
 							disabled={!feature.Edge}
 							component={Link}
 							to={`/${feature.Slug}/edge`}
@@ -195,9 +193,10 @@ export default function Feature() {
 							<IconBrandEdge size={20} />
 						</Button>
 						<Button
+							fullWidth={true}
 							variant={path.basename(location.pathname) === "safari" ? "filled": "outline"}
 							color={colors[feature.Category]}
-							size="xs"
+							size="sm"
 							disabled={!feature.Safari}
 							component={Link}
 							to={`/${feature.Slug}/safari`}
@@ -205,16 +204,17 @@ export default function Feature() {
 							<IconBrandSafari size={20} />
 						</Button>
 						<Button
+							fullWidth={true}
 							variant={path.basename(location.pathname) === "opera" ? "filled": "outline"}
 							color={colors[feature.Category]}
-							size="xs"
+							size="sm"
 							disabled={!feature.Opera}
 							component={Link}
 							to={`/${feature.Slug}/opera`}
 						>
 							<IconBrandOpera size={20} />
 						</Button>
-					</Group>
+					</SimpleGrid>
 					<Divider />
 					<SimpleGrid cols={2} spacing="xs" p="xs">
 						<Alert
