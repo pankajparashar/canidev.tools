@@ -6,7 +6,7 @@ import { json } from '@remix-run/node';
 import { Link, useLoaderData, useSearchParams, useNavigate } from '@remix-run/react';
 import { useLocalStorage } from '@mantine/hooks';
 
-import { ThemeIcon, Group, Divider, Stack, Button, Badge, Box, NavLink, Grid, SimpleGrid, ScrollArea, TextInput, Tooltip, Input } from '@mantine/core';
+import { ThemeIcon, Group, Divider, Stack, Button, Badge, Box, NavLink, Grid, SimpleGrid, ScrollArea, TextInput, Tooltip, Text } from '@mantine/core';
 import { IconHome2, IconStar, IconChevronRight, IconActivity, IconListSearch, IconSortAscending, IconBrandChrome, IconBrandFirefox, IconBrandEdge, IconBrandSafari, IconBrandOpera, IconCheckbox, IconSquareMinus, IconRss, IconTextPlus, IconSortDescending, IconSortAscendingLetters, IconSortDescendingLetters, IconArrowBack } from '@tabler/icons';
 
 export const loader = async ({ request }) => {
@@ -268,33 +268,26 @@ export default function Index() {
 					</Box>
 				))}
 			</ScrollArea>
-			<Divider />
-			<Box className="grid">
-				<Grid gutter="xs" p="xs">
-				     <Grid.Col span={10}>
-					     <Button variant="default" size="xs" fullWidth={true} leftIcon={<IconTextPlus size={20} />} component="a" href="https://github.com/pankajparashar/canidev.tools/issues/new">
+			<Box className="grid" sx={theme => ({ borderTop: borderColor(theme)})}>
+				<Grid gutter="0">
+				     <Grid.Col span={10} sx={(theme) => ({ borderRight: borderColor(theme) })}>
+					     <Button variant="light" size="md" fullWidth={true} leftIcon={<IconTextPlus size={20} />} component="a" href="https://github.com/pankajparashar/canidev.tools/issues/new">
  						     {" Add New"}
 					     </Button>
 				     </Grid.Col>
-				     <Grid.Col span={2}>
-					     <Button variant="default" size="xs" fullWidth={true} component="a" href="https://canidevtools.substack.com/feed.xml">
+				     <Grid.Col span={2} sx={(theme) => ({ borderRight: borderColor(theme) })}>
+					     <Button variant="subtle" size="md" fullWidth={true} component="a" href="https://canidevtools.substack.com/feed.xml">
 						     <IconRss size={20} stroke={2.5} />
 					     </Button>
 				     </Grid.Col>
 			     </Grid>
-                <Group grow p="xs" sx={(theme) => ({
-                     borderLeft: `1px solid ${theme.colorScheme === 'dark'
-                          ? theme.colors.dark[6]
-                          : theme.colors.gray[4]
-                          }`,
-                     })}
-                >
-					<Badge radius="xs" size="lg" variant="default">{count.Chrome}</Badge>
-					<Badge radius="xs" size="lg" variant="default">{count.Firefox}</Badge>                         
-					<Badge radius="xs" size="lg" variant="default">{count.Edge}</Badge>                         
-					<Badge radius="xs" size="lg" variant="default">{count.Safari}</Badge>                         
-					<Badge radius="xs" size="lg" variant="default">{count.Opera}</Badge>                         
-                </Group>
+				 <SimpleGrid cols={5} spacing={0} verticalSpacing={0} align="center" sx={(theme) => ({ borderRight: borderColor(theme) })}>
+					<Button size="md" variant="subtle" sx={(theme) => ({ borderRight: borderColor(theme) })}>{count.Chrome}</Button>
+					<Button size="md" variant="subtle" sx={(theme) => ({ borderRight: borderColor(theme) })}>{count.Firefox}</Button>
+					<Button size="md" variant="subtle" sx={(theme) => ({ borderRight: borderColor(theme) })}>{count.Edge}</Button>
+					<Button size="md" variant="subtle" sx={(theme) => ({ borderRight: borderColor(theme) })}>{count.Safari}</Button>
+					<Button size="md" variant="subtle" sx={(theme) => ({ borderRight: borderColor(theme) })}>{count.Opera}</Button>
+				</SimpleGrid>
 			</Box>
 		</Stack>
 	);
