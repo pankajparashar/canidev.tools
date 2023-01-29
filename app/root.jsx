@@ -27,7 +27,7 @@ import Carbon from "react-carbon";
 
 createEmotionCache({ key: "cid" });
 
-export const meta = () => {
+export function meta () {
     const title = "Can I DevTools?";
     const description = "It is like @CanIUse, but for the browser devtools, created and curated by Pankaj Parashar";
 
@@ -168,37 +168,26 @@ export default function App() {
                                 display: "flex",
                                 flexDirection: "column",
                             })}>
-                            <Box
-                                p="xs"
-                                sx={theme => ({
-                                    display: "flex",
-                                    flexDirection: "row",
-                                    justifyContent: "space-between",
-                                    alignItems: "center",
-                                    borderRight: `1px solid ${theme.colorScheme === "dark" ? theme.colors.dark[6] : theme.colors.gray[4]}`,
-                                })}>
-                                <Button size="xs" variant="default" component={Link} to="/">
+                            
+                            <Flex justify="space-between" align="center">
+                                <Button size="md" variant="subtle" component={Link} to="/"
+                                    sx={theme => ({ borderRight: `1px solid ${theme.colorScheme === "dark" ? theme.colors.dark[6] : theme.colors.gray[4]}` })}
+                                >
                                     <svg viewBox="178.683 222.461 394.649 307.103" xmlns="http://www.w3.org/2000/svg" width="20px" fill={colorScheme === "dark" ? "#ffffff" : "#000000"}>
                                         <path d="m490.73 249.34-197.32 276.25-32.125-22.93 197.32-276.25zm75.199 170.45-98.664-78.93-24.645 30.844 79.387 63.496-79.402 63.52 24.645 30.844 98.664-78.93c4.6953-3.7734 7.418-9.4336 7.418-15.434s-2.7227-11.664-7.4023-15.41zm-256.52-39.465-79.402-63.52 79.402-63.52-24.664-30.824-98.664 78.93c-4.6758 3.75-7.3984 9.4141-7.3984 15.414s2.7227 11.66 7.3984 15.41l98.664 78.93z" />
                                     </svg>
                                 </Button>
-                                <Box>
-                                    <Text weight={700}>Can I DevTools?</Text>
-                                </Box>
-                                <Button variant="default" size="xs" onClick={() => setOpen(!open)}>
+                                <Text weight={700}>Can I DevTools?</Text>
+                                <Button variant="subtle" size="md" onClick={() => setOpen(!open)}
+                                    sx={theme => ({ borderLeft: `1px solid ${theme.colorScheme === "dark" ? theme.colors.dark[6] : theme.colors.gray[4]}` })}
+                                >
                                     <IconListDetails size={20} />
                                 </Button>
-                            </Box>
+                            </Flex>
+
                             <Divider />
 
-                            <Collapse
-                                className="collapse"
-                                itemScope
-                                itemType="https://schema.org/BreadcrumbList"
-                                in={open}
-                                sx={theme => ({
-                                    borderRight: `1px solid ${theme.colorScheme === "dark" ? theme.colors.dark[6] : theme.colors.gray[4]}`,
-                                })}>
+                            <Collapse className="collapse" in={open}>
                                 <Link to={"/"} itemProp="itemListElement" itemScope itemType="https://schema.org/ListItem">
                                     <NavLink
                                         active={params.get("category") === null}
@@ -243,14 +232,7 @@ export default function App() {
                                         }
                                     />
                                 </Link>
-                            </Collapse>
-
-                            <Collapse
-                                className="collapse"
-                                in={open}
-                                sx={theme => ({
-                                    borderRight: `1px solid ${theme.colorScheme === "dark" ? theme.colors.dark[6] : theme.colors.gray[4]}`,
-                                })}>
+                            
                                 <Divider />
                                 <Grid gutter={0}>
                                     <Grid.Col
