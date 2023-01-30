@@ -107,7 +107,7 @@ export default function Index() {
 				<Grid gutter={0} sx={(theme) => ({ borderRight: borderColor(theme), borderBottom: borderColor(theme) })}>
 					<Grid.Col span={10}>
 						<TextInput
-							sx={theme => ({ input: { fontSize: theme.fontSizes.sm}} )}
+							styles={{ input: { fontSize: '14px'}} }
 							size="sm"
 							label=""
 							variant="filled"
