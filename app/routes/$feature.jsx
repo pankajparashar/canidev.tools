@@ -113,7 +113,7 @@ export default function Feature() {
 				>
 					<Group position="apart">
 						<Badge
-							radius="sm"
+							radius={0}
 							variant="dot"
 							size="lg"
 							p="md"
