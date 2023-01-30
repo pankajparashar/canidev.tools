@@ -90,19 +90,7 @@ export default function Index() {
 	const borderColor = theme => `1px solid ${theme.colorScheme === "dark" ? theme.colors.dark[6] : theme.colors.gray[4]}`
 
 	return (
-		<Stack
-			spacing={0}
-			sx={(theme) => ({
-				borderRight: `1px solid ${theme.colorScheme === 'dark'
-					? theme.colors.dark[6]
-					: theme.colors.gray[4]
-					}`,
-					borderLeft: `1px solid ${theme.colorScheme === 'dark'
-					? theme.colors.dark[6]
-					: theme.colors.gray[4]
-					}`,
-			})}
-		>
+		<Stack spacing={0} sx={(theme) => ({ borderRight: borderColor(theme) })}>
 			<Box className="grid">
 				<Grid gutter={0} sx={(theme) => ({ borderRight: borderColor(theme), borderBottom: borderColor(theme) })}>
 					<Grid.Col span={10}>

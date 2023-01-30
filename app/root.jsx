@@ -14,7 +14,7 @@ import { useLoaderData, useSearchParams } from "@remix-run/react";
 import { json } from "@remix-run/node";
 
 // Mantime
-import { Badge, Box, NavLink, MantineProvider, Collapse, Anchor, Flex, Grid, Button, Divider, Alert, Text, createEmotionCache } from "@mantine/core";
+import { Badge, Box, NavLink, MantineProvider, Collapse, Anchor, Flex, Grid, Stack, Button, Divider, Alert, Text, createEmotionCache } from "@mantine/core";
 import { useMediaQuery, useColorScheme, useLocalStorage } from "@mantine/hooks";
 import { StylesPlaceholder } from "@mantine/remix";
 
@@ -134,6 +134,7 @@ export default function App() {
         Sources: "green",
     };
 
+    const borderColor = theme => `1px solid ${theme.colorScheme === "dark" ? theme.colors.dark[6] : theme.colors.gray[4]}`
     return (
         <html
             lang="en"
@@ -163,11 +164,7 @@ export default function App() {
                             borderTop: `1px solid ${theme.colorScheme === "dark" ? theme.colors.dark[6] : theme.colors.gray[4]}`,
                             borderBottom: `1px solid ${theme.colorScheme === "dark" ? theme.colors.dark[6] : theme.colors.gray[4]}`,
                         })}>
-                        <Box
-                            sx={theme => ({
-                                display: "flex",
-                                flexDirection: "column",
-                            })}>
+                        <Stack spacing={0} sx={theme => ({ borderRight: borderColor(theme) })}>
                             
                             <Flex justify="space-between" align="center">
                                 <Button size="sm" variant="subtle" component={Link} to="/"
@@ -298,7 +295,8 @@ export default function App() {
 
                                 <Divider />
                             </Collapse>
-                        </Box>
+
+                        </Stack>
                         <Box className="colspan">
                             <Outlet />
                         </Box>

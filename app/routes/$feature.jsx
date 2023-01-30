@@ -163,56 +163,61 @@ export default function Feature() {
 					<SimpleGrid cols={5} spacing={0}>
 						<Button
 							fullWidth={true}
-							variant={path.basename(location.pathname) === "chrome" ? "filled": "outline"}
+							variant={path.basename(location.pathname) === "chrome" ? "filled": "subtle"}
 							color={colors[feature.Category]}
 							size="sm"
 							disabled={!feature.Chrome}
 							component={Link}
 							to={`/${feature.Slug}/chrome`}
+							sx={theme => ({ borderRight: borderColor(theme) })}
 						>
 							<IconBrandChrome size={20} />
 						</Button>
 						<Button
 							fullWidth={true}	
-							variant={path.basename(location.pathname) === "firefox" ? "filled": "outline"}
+							variant={path.basename(location.pathname) === "firefox" ? "filled": "subtle"}
 							color={colors[feature.Category]}
 							size="sm"
 							disabled={!feature.Firefox}
 							component={Link}
 							to={`/${feature.Slug}/firefox`}
+							sx={theme => ({ borderRight: borderColor(theme) })}
 						>
 							<IconBrandFirefox size={20} />
 						</Button>
 						<Button
 							fullWidth={true}
-							variant={path.basename(location.pathname) === "edge" ? "filled": "outline"}
+							variant={path.basename(location.pathname) === "edge" ? "filled": "subtle"}
 							color={colors[feature.Category]}
 							size="sm"
 							disabled={!feature.Edge}
 							component={Link}
 							to={`/${feature.Slug}/edge`}
+							sx={theme => ({ borderRight: borderColor(theme) })}
 						>
 							<IconBrandEdge size={20} />
 						</Button>
 						<Button
 							fullWidth={true}
-							variant={path.basename(location.pathname) === "safari" ? "filled": "outline"}
+							variant={path.basename(location.pathname) === "safari" ? "filled": "subtle"}
 							color={colors[feature.Category]}
 							size="sm"
 							disabled={!feature.Safari}
 							component={Link}
 							to={`/${feature.Slug}/safari`}
+							sx={theme => ({ borderRight: borderColor(theme) })}
 						>
 							<IconBrandSafari size={20} />
 						</Button>
 						<Button
 							fullWidth={true}
-							variant={path.basename(location.pathname) === "opera" ? "filled": "outline"}
+							variant={path.basename(location.pathname) === "opera" ? "filled": "subtle"}
 							color={colors[feature.Category]}
 							size="sm"
 							disabled={!feature.Opera}
 							component={Link}
 							to={`/${feature.Slug}/opera`}
+							sx={theme => ({ borderRight: borderColor(theme) })}
 						>
 							<IconBrandOpera size={20} />
 						</Button>
