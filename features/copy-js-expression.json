@@ -3,7 +3,7 @@
   "Slug": "copy-js-expression",
   "Description": "Can I copy a node's path to be used as a JavaScript expression?",
   "Category": "Elements",
-  "LastModifiedTime": "2022-07-24T09:10:10.000Z",
+  "LastModifiedTime": "2023-01-30T07:00:54.000Z",
   "Author": "@pankajparashar",
   "Chrome": {
     "References": "[1] Copy JS path, by Chrome DevTools [Docs](https://developer.chrome.com/blog/new-in-devtools-72/#copy)\n",
