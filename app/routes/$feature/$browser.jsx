@@ -53,9 +53,11 @@ export default function Browser() {
               {feature[browser].MP4 ? 
                 <div>
                   <LoadingOverlay visible={visible} overlayBlur={5} />
-                  <video controls autoPlay loop muted playsInline 
+                  <video
+                    controls autoPlay loop muted playsInline 
                     preload="metadata" 
-                    key={feature[browser].MP4} src={feature[browser].MP4 + "#t=0.1"} 
+                    key={feature[browser].MP4} 
+                    src={feature[browser].MP4 + "#t=0.1"} 
                     onLoadedData={e => setVisible(false)}
                     /> 
                 </div>
