@@ -13,7 +13,7 @@
   },
   "Firefox": {
     "Share": "https://twitter.com/CanIDevTools/status/1539620810515955713",
-    "Notes": "1. In the Inspector panel, right click on the node, and select \"Screenshot Node\".\n",
+    "Notes": "1. In the **Inspector** panel, right click on the node, and select \"Screenshot Node\".\n",
     "Name": "Capture node screenshot",
     "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1675241512/capture-node-screenshot-firefox_qmq5if.mp4"
   },
@@ -25,8 +25,8 @@
   "Safari": {
     "Share": "https://twitter.com/CanIDevTools/status/1539621556670066689",
     "Name": "Capture node screenshot",
-    "Notes": "1. In the Elements panel, right click on the node in the DOM tree and click on \"Capture Screenshot\". \n2. Safari preserves the transparency for the elements with no applied background colour.\n",
-    "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1675241512/capture-node-screenshot-safari_jg6eup.mp4"
+    "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1675241512/capture-node-screenshot-safari_jg6eup.mp4",
+    "Notes": "1. In the **Elements** panel, right click on the node in the DOM tree and click on \"Capture Screenshot\". \n2. Safari preserves the transparency for the elements with no applied background colour.\n"
   },
   "Opera": {
     "Share": "https://twitter.com/CanIDevTools/status/1539621846941061120",

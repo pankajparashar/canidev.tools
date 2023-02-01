@@ -156,12 +156,12 @@
  1. In the **Elements** panel, right click on the node and select "Capture node screenshot".
 2. It retains visible background colour of elements with no background colour applied.
 - [Firefox](https://canidev.tools/capture-node-screenshot/firefox) 
- 1. In the Inspector panel, right click on the node, and select "Screenshot Node".
+ 1. In the **Inspector** panel, right click on the node, and select "Screenshot Node".
 - [Edge](https://canidev.tools/capture-node-screenshot/edge) 
  1. In the **Elements** panel, right click on the node and select "Capture node screenshot".
 2. It retains visible background colour of elements with no background colour applied.
 - [Safari](https://canidev.tools/capture-node-screenshot/safari) 
- 1. In the Elements panel, right click on the node in the DOM tree and click on "Capture Screenshot". 
+ 1. In the **Elements** panel, right click on the node in the DOM tree and click on "Capture Screenshot". 
 2. Safari preserves the transparency for the elements with no applied background colour.
 - [Opera](https://canidev.tools/capture-node-screenshot/opera) 
  1. In the **Elements** panel, right click on the node and select "Capture node screenshot".
