@@ -3,31 +3,34 @@
   "Slug": "capture-node-screenshot",
   "Description": "Can I take a screenshot of a DOM node?",
   "Category": "Elements",
-  "LastModifiedTime": "2022-06-30T06:47:16.000Z",
+  "LastModifiedTime": "2023-02-01T08:56:09.000Z",
   "Author": "@pankajparashar",
   "Chrome": {
     "Share": "https://twitter.com/CanIDevTools/status/1539620297258975232",
-    "Notes": "1. Inspect element > Right click on the node in the DOM tree and select \"Capture node screenshot\".\n2. Chrome retains visible background colour of elements with no background colour applied.\n",
-    "Name": "Capture node screenshot"
+    "Notes": "1. In the **Elements** panel, right click on the node and select \"Capture node screenshot\".\n2. It retains visible background colour of elements with no background colour applied.\n",
+    "Name": "Capture node screenshot",
+    "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1675241512/capture-node-screenshot-chrome_wvdumf.mp4"
   },
   "Firefox": {
     "Share": "https://twitter.com/CanIDevTools/status/1539620810515955713",
-    "Notes": "1. Inspect the element > Right click on the node in the DOM tree, and select \"Screenshot Node\"\n",
-    "Name": "Capture node screenshot"
+    "Notes": "1. In the Inspector panel, right click on the node, and select \"Screenshot Node\".\n",
+    "Name": "Capture node screenshot",
+    "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1675241512/capture-node-screenshot-firefox_qmq5if.mp4"
   },
   "Edge": {
-    "Notes": "1. Inspect element > Right click on the node in the DOM tree and click \"Capture node screenshot\"\n",
+    "Notes": "1. In the **Elements** panel, right click on the node and select \"Capture node screenshot\".\n2. It retains visible background colour of elements with no background colour applied.\n",
     "Share": "https://twitter.com/CanIDevTools/status/1539621151215058945",
     "Name": "Capture node screenshot"
   },
   "Safari": {
     "Share": "https://twitter.com/CanIDevTools/status/1539621556670066689",
     "Name": "Capture node screenshot",
-    "Notes": "1. Inspect element > Right click on the node in the DOM tree and click on \"Capture Screenshot\". \n2. Safari preserves transparency for the elements with no applied background colour.\n"
+    "Notes": "1. In the Elements panel, right click on the node in the DOM tree and click on \"Capture Screenshot\". \n2. Safari preserves the transparency for the elements with no applied background colour.\n",
+    "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1675241512/capture-node-screenshot-safari_jg6eup.mp4"
   },
   "Opera": {
     "Share": "https://twitter.com/CanIDevTools/status/1539621846941061120",
-    "Notes": "1. Inspect element > Right click on the node in the DOM tree and select \"Capture node screenshot\".\n",
+    "Notes": "1. In the **Elements** panel, right click on the node and select \"Capture node screenshot\".\n2. It retains visible background colour of elements with no background colour applied.\n",
     "Name": "Capture node screenshot"
   }
 }

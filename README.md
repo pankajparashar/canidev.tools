@@ -153,17 +153,19 @@
 ## 12. Capture node screenshot 
  Can I take a screenshot of a DOM node? 
 - [Chrome](https://canidev.tools/capture-node-screenshot/chrome) 
- 1. Inspect element > Right click on the node in the DOM tree and select "Capture node screenshot".
-2. Chrome retains visible background colour of elements with no background colour applied.
+ 1. In the **Elements** panel, right click on the node and select "Capture node screenshot".
+2. It retains visible background colour of elements with no background colour applied.
 - [Firefox](https://canidev.tools/capture-node-screenshot/firefox) 
- 1. Inspect the element > Right click on the node in the DOM tree, and select "Screenshot Node"
+ 1. In the Inspector panel, right click on the node, and select "Screenshot Node".
 - [Edge](https://canidev.tools/capture-node-screenshot/edge) 
- 1. Inspect element > Right click on the node in the DOM tree and click "Capture node screenshot"
+ 1. In the **Elements** panel, right click on the node and select "Capture node screenshot".
+2. It retains visible background colour of elements with no background colour applied.
 - [Safari](https://canidev.tools/capture-node-screenshot/safari) 
- 1. Inspect element > Right click on the node in the DOM tree and click on "Capture Screenshot". 
-2. Safari preserves transparency for the elements with no applied background colour.
+ 1. In the Elements panel, right click on the node in the DOM tree and click on "Capture Screenshot". 
+2. Safari preserves the transparency for the elements with no applied background colour.
 - [Opera](https://canidev.tools/capture-node-screenshot/opera) 
- 1. Inspect element > Right click on the node in the DOM tree and select "Capture node screenshot".
+ 1. In the **Elements** panel, right click on the node and select "Capture node screenshot".
+2. It retains visible background colour of elements with no background colour applied.
 ## 13. Capture node stacktrace 
  Can I capture node creation stack trace? 
 - [Chrome](https://canidev.tools/capture-node-stacktrace/chrome) 
