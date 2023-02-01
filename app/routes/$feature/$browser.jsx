@@ -59,7 +59,7 @@ export default function Browser() {
                     key={feature[browser].MP4} 
                     src={feature[browser].MP4 + "#t=0.1"} 
                     onLoadedData={e => setVisible(false)}
-                    /> 
+                  /> 
                 </div>
                 : <Image withPlaceholder height={200} />
               }

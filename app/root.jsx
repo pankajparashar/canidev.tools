@@ -68,7 +68,9 @@ export function loader() {
         const category = feature.Category;
         categories[category] = category in categories ? categories[category] + 1 : 1;
     });
-    return json(categories);
+    return json({ categories, ENV: {
+        VERCEL_ANALYTICS_ID: process.env.VERCEL_ANALYTICS_ID,
+      } });
 }
 
 export function CarbonAds() {
@@ -92,7 +94,7 @@ export function CarbonAds() {
 }
 
 export default function App() {
-    const categories = useLoaderData();
+    const {categories, ENV} = useLoaderData();
     const isWide = useMediaQuery("(min-width: 700px)", true, {
         getInitialValueInEffect: false,
     });
@@ -309,6 +311,12 @@ export default function App() {
                 <StylesPlaceholder />
 
                 {process.env.NODE_ENV === "development" && <LiveReload />}
+                {/* 👇 Write the ENV values to the window */}
+                <script
+                    dangerouslySetInnerHTML={{
+                        __html: `window.ENV = ${JSON.stringify(ENV)}`,
+                    }}
+                /> 
             </body>
         </html>
     );
