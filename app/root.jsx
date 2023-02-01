@@ -14,12 +14,13 @@ import { useLoaderData, useSearchParams } from "@remix-run/react";
 import { json } from "@remix-run/node";
 
 // Mantime
-import { Badge, Box, NavLink, MantineProvider, Collapse, Anchor, Flex, Grid, Stack, Button, Divider, Alert, Text, createEmotionCache } from "@mantine/core";
+import { Image, Tabs, Badge, Box, NavLink, MantineProvider, Collapse, Anchor, Flex, Grid, Stack, Button, Divider, Alert, Text, createEmotionCache } from "@mantine/core";
 import { useMediaQuery, useColorScheme, useLocalStorage } from "@mantine/hooks";
 import { StylesPlaceholder } from "@mantine/remix";
+import { Carousel } from '@mantine/carousel';
 
 // Tabler
-import { IconStar, IconCode, IconListDetails, IconBrandTwitter, IconBrandGithub, IconNews, IconBrightness, IconBoxMargin, IconList, IconAccessible, IconReportMedical, IconTerminal2, IconBrandNextjs, IconAffiliate, IconHexagons, IconCrosshair, IconUserCircle } from "@tabler/icons";
+import { IconQuote, IconStar, IconCode, IconListDetails, IconBrandTwitter, IconBrandGithub, IconNews, IconBrightness, IconBoxMargin, IconList, IconAccessible, IconReportMedical, IconTerminal2, IconBrandNextjs, IconAffiliate, IconHexagons, IconCrosshair, IconUserCircle } from "@tabler/icons";
 
 // Custom
 import styles from "./root.css";
@@ -275,25 +276,21 @@ export default function App() {
                                     </Grid.Col>
                                 </Grid>
                                 <Divider />
-                                <Alert icon={<IconUserCircle />} title="About" radius="xs" p="xs" m="xs" mb="0">
-                                    <Box sx={theme => ({ maxWidth: "500px" })}>
-                                        It is like{" "}
-                                        <Anchor href="https://caniuse.com/" target="_blank">
-                                            @CanIUse
-                                        </Anchor>{" "}
-                                        but for the browser devtools, created & curated by{" "}
-                                        <Anchor href="https://pankajparashar.com" target="_blank">
-                                            @pankajparashar
-                                        </Anchor>
-                                        . Get weekly tips & tricks for your favorite browser devtools by{" "}
-                                        <Anchor href="https://canidevtools.substack.com/" target="_blank">
-                                            subscribing
-                                        </Anchor>{" "}
-                                        to the newsletter!
-                                    </Box>
-                                    <br />
-                                    <CarbonAds />
-                                </Alert>
+
+                                <Tabs defaultValue="about">
+                                    <Tabs.List position="apart">
+                                        <Tabs.Tab value="about" icon={<IconUserCircle size={18} />}>About</Tabs.Tab>
+                                        <Tabs.Tab value="testimonials" icon={<IconQuote size={18} />}>Testimonials</Tabs.Tab>
+                                    </Tabs.List>
+
+                                    <Tabs.Panel value="about">
+                                        <About />
+                                    </Tabs.Panel>
+
+                                    <Tabs.Panel value="testimonials">
+                                        <Testimonials />
+                                    </Tabs.Panel>
+                                </Tabs>
 
                                 <Divider />
                             </Collapse>
@@ -321,3 +318,38 @@ export default function App() {
         </html>
     );
 }
+
+const About = () => 
+    <Alert p="xs">
+        <Box sx={theme => ({ maxWidth: "500px" })}>
+            It is like{" "}
+            <Anchor href="https://caniuse.com/" target="_blank">
+                @CanIUse
+            </Anchor>{" "}
+            but for the browser devtools, created & curated by{" "}
+            <Anchor href="https://pankajparashar.com" target="_blank">
+                @pankajparashar
+            </Anchor>
+            . Get weekly tips & tricks for your favorite browser devtools by{" "}
+            <Anchor href="https://canidevtools.substack.com/" target="_blank">
+                subscribing
+            </Anchor>{" "}
+            to the newsletter!
+        </Box>
+        <br />
+        <CarbonAds />
+    </Alert>
+
+const Testimonials = () => 
+    <Carousel withIndicators loop>
+        {[
+            'https://res.cloudinary.com/dw9fem4ki/image/upload/v1675244568/pika-1675244292768-1x_fctkaz.png',
+            'https://res.cloudinary.com/dw9fem4ki/image/upload/v1675244568/pika-1675244314666-1x_ctlzo5.png',
+            'https://res.cloudinary.com/dw9fem4ki/image/upload/v1675244568/pika-1675244249461-1x_jtuvnh.jpg',
+            'https://res.cloudinary.com/dw9fem4ki/image/upload/v1675244568/pika-1675244351871-1x_hw0sqt.png'
+        ].map((image) => (
+            <Carousel.Slide key={image}>
+                <Image src={image} />
+            </Carousel.Slide>
+        ))}
+    </Carousel>
