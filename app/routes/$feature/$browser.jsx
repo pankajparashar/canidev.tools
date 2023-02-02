@@ -51,7 +51,7 @@ export default function Browser() {
             <Divider />
             <Box sx={() => ({ position: "relative" })}>
               {feature[browser].MP4 ? 
-                <div>
+                <>
                   <LoadingOverlay visible={visible} overlayBlur={5} />
                   <video
                     controls autoPlay loop muted playsInline 
@@ -60,7 +60,7 @@ export default function Browser() {
                     src={feature[browser].MP4 + "#t=0.1"} 
                     onLoadedData={e => setVisible(false)}
                   /> 
-                </div>
+                </>
                 : <Image withPlaceholder height={200} />
               }
             </Box>
