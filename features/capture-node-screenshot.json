@@ -32,8 +32,8 @@
   },
   "Opera": {
     "Share": "https://twitter.com/CanIDevTools/status/1539621846941061120",
+    "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1675577837/capture-node-screenshot-opera_z3qdu2.mp4",
     "Notes": "1. In the **Elements** panel, right click on the node and select \"Capture node screenshot\".\n2. It retains visible background colour of elements with no background colour applied.\n",
-    "Name": "Capture node screenshot",
-    "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1675577837/capture-node-screenshot-opera_z3qdu2.mp4"
+    "Name": "Capture node screenshot"
   }
 }

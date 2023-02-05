@@ -1,0 +1,14 @@
+{
+  "Name": "Find expensive CSS selectors",
+  "Slug": "find-expensive-selectors",
+  "Description": "Can I find expensive CSS selectors?",
+  "Category": "CSS",
+  "LastModifiedTime": "2023-02-05T12:30:26.000Z",
+  "Author": "@pankajparashar",
+  "Edge": {
+    "Name": "Find expensive selectors",
+    "Notes": "1. In the **Performance** panel, Enable \"advanced rendering instrumentation (slow)\" in **Settings**.\n2. Click **Record**, and perform the operation on the page that affects rendering.\n3. In the recorded profile, identify a long style recalculation and select it in the waterfall view (“Main” section).\n4. In the bottom tab bar, click **Selector Stats.** Sort the selectors based on Elapsed Time, Match Attempts etc., to identify expensive selectors.\n",
+    "References": "1. \"The truth about CSS selector performance\", by [Patrick Brosset](https://blogs.windows.com/msedgedev/2023/01/17/the-truth-about-css-selector-performance/)\n",
+    "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1675600274/find-expensive-selectors-edge_aue2fg.mp4"
+  }
+}
