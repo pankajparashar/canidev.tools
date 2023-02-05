@@ -127,7 +127,6 @@ export default function Feature() {
 							sx={theme => ({ borderLeft: borderColor(theme) })}
 							size="sm"
 							variant="subtle"
-							radius="sm"
 							leftIcon={<IconBrandGithub size={16} />}
 							component="a"
 							href={`https://github.com/pankajparashar/canidev.tools/edit/main/features/${feature.Slug}.json`}

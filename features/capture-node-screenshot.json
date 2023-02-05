@@ -1,9 +1,10 @@
 {
   "Name": "Capture node screenshot",
   "Slug": "capture-node-screenshot",
-  "Description": "Can I take a screenshot of a DOM node?",
+  "Description": "Can I take screenshot of a DOM node?",
   "Category": "Elements",
-  "LastModifiedTime": "2023-02-01T08:56:09.000Z",
+  "Newsletter": "tips-tricks-37",
+  "LastModifiedTime": "2023-02-05T06:50:49.000Z",
   "Author": "@pankajparashar",
   "Chrome": {
     "Share": "https://twitter.com/CanIDevTools/status/1621023980206583809",
@@ -20,7 +21,8 @@
   "Edge": {
     "Notes": "1. In the **Elements** panel, right click on the node and select \"Capture node screenshot\".\n2. It retains visible background colour of elements with no background colour applied.\n",
     "Share": "https://twitter.com/CanIDevTools/status/1539621151215058945",
-    "Name": "Capture node screenshot"
+    "Name": "Capture node screenshot",
+    "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1675577844/capture-node-screenshot-edge_z4fpvx.mp4"
   },
   "Safari": {
     "Share": "https://twitter.com/CanIDevTools/status/1621055417391673344",
@@ -31,6 +33,7 @@
   "Opera": {
     "Share": "https://twitter.com/CanIDevTools/status/1539621846941061120",
     "Notes": "1. In the **Elements** panel, right click on the node and select \"Capture node screenshot\".\n2. It retains visible background colour of elements with no background colour applied.\n",
-    "Name": "Capture node screenshot"
+    "Name": "Capture node screenshot",
+    "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1675577837/capture-node-screenshot-opera_z3qdu2.mp4"
   }
 }

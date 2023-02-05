@@ -151,7 +151,7 @@
  1. Open **Command** **Menu** (`Cmd+Shift+P` or `Ctrl+Shift+P`) & Run > "Capture full size screenshot" and press `Enter`.
 2. This will save a PNG image with url as the filename in the **Downloads** directory.
 ## 12. Capture node screenshot 
- Can I take a screenshot of a DOM node? 
+ Can I take screenshot of a DOM node? 
 - [Chrome](https://canidev.tools/capture-node-screenshot/chrome) 
  1. In the **Elements** panel, right click on the node and select "Capture node screenshot".
 2. It retains visible background colour of elements with no background colour applied.
