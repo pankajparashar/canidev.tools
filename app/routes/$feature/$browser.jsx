@@ -20,7 +20,6 @@ export function loader({ params }) {
 }
 
 export default function Browser() {
-    const [visible, setVisible] = React.useState(true);
     const { browser } = useParams();
     const feature = useLoaderData();
     const refCount = (feature[browser].References?.match(new RegExp("http", "g")) || []).length;
@@ -50,19 +49,7 @@ export default function Browser() {
             </Group>
             <Divider />
             <Box sx={() => ({ position: "relative" })}>
-              {feature[browser].MP4 ? 
-                <>
-                  <LoadingOverlay visible={visible} overlayBlur={5} />
-                  <video
-                    controls autoPlay loop muted playsInline 
-                    preload="metadata" 
-                    key={feature[browser].MP4} 
-                    src={feature[browser].MP4 + "#t=0.1"} 
-                    onLoadedData={e => setVisible(false)}
-                  /> 
-                </>
-                : <Image withPlaceholder height={200} />
-              }
+              {feature[browser].MP4 ? <Video MP4={feature[browser].MP4} key={feature[browser].MP4} /> : <Image withPlaceholder height={200} />}
             </Box>
             <Divider />
             <Accordion
@@ -112,4 +99,20 @@ export default function Browser() {
             </Accordion>
         </Box>
     );
+}
+
+const Video = ({ MP4 }) => {
+    const [visible, setVisible] = React.useState(true);
+
+    return (
+        <>
+            <LoadingOverlay visible={visible} overlayBlur={5} />
+            <video
+                controls autoPlay loop muted playsInline 
+                preload="metadata" 
+                src={MP4 + "#t=0.1"} 
+                onLoadedData={_ => setVisible(false)}
+            /> 
+        </>
+    )
 }
