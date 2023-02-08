@@ -1081,9 +1081,11 @@
  1. Inspect element > Find the corresponding declaration in the "Styles" pane. 
 2. Click the `<filename>:<lineno>` link adjacent to the declaration to locate the style in the source file.
 ## 80. Never pause at exceptions 
- Can I prevent the debugger to not stop at exceptions on a line? 
+ Can I prevent the debugger from pausing at exceptions? 
 - [Chrome](https://canidev.tools/never-pause-exceptions/chrome) 
  1. In **Sources**, right click on the line number that throws an exception and select "Never pause here".
+- [Firefox](https://canidev.tools/never-pause-exceptions/firefox) 
+ 1. In **Debugger**, right click on the line number that throws an exception and select "Never pause here".
 - [Edge](https://canidev.tools/never-pause-exceptions/edge) 
  1. In **Sources**, right click on the line number that throws an exception and select "Never pause here".
 
