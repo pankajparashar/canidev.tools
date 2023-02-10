@@ -1089,6 +1089,8 @@
 - [Edge](https://canidev.tools/never-pause-exceptions/edge) 
  1. In **Sources**, right click on the line number that throws an exception and select "Never pause here".
 
+- [Safari](https://canidev.tools/never-pause-exceptions/safari) 
+ 1. In **Sources**, right click on the line that has a breakpoint, select "Edit Breakpoint..." > Enter the condition as `false`.
 - [Opera](https://canidev.tools/never-pause-exceptions/opera) 
  1. In **Sources**, right click on the line number that throws an exception and select "Never pause here".
 

@@ -3,7 +3,7 @@
   "Slug": "never-pause-exceptions",
   "Description": "Can I prevent the debugger from pausing at exceptions?",
   "Category": "Sources",
-  "LastModifiedTime": "2023-02-08T04:53:55.000Z",
+  "LastModifiedTime": "2023-02-10T03:52:38.000Z",
   "Author": "@pankajparashar",
   "Chrome": {
     "Notes": "1. In **Sources**, right click on the line number that throws an exception and select \"Never pause here\".\n",
@@ -20,9 +20,14 @@
     "Name": "Never pause at exceptions",
     "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1675836183/never-pause-exceptions-edge_vnytav.mp4"
   },
-  "Opera": {
-    "Notes": "1. In **Sources**, right click on the line number that throws an exception and select \"Never pause here\".\n\n",
+  "Safari": {
     "Name": "Never pause at exceptions",
-    "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1675836308/never-pause-exceptions-opera_eqxlvg.mp4"
+    "Notes": "1. In **Sources**, right click on the line that has a breakpoint, select \"Edit Breakpoint...\" > Enter the condition as `false`.\n",
+    "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1676001264/never-pause-exceptions-safari_cbobwh.mp4"
+  },
+  "Opera": {
+    "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1675836308/never-pause-exceptions-opera_eqxlvg.mp4",
+    "Notes": "1. In **Sources**, right click on the line number that throws an exception and select \"Never pause here\".\n\n",
+    "Name": "Never pause at exceptions"
   }
 }
