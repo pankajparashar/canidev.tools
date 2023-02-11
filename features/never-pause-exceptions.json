@@ -7,33 +7,33 @@
   "LastModifiedTime": "2023-02-10T04:17:31.000Z",
   "Author": "@pankajparashar",
   "Chrome": {
+    "Share": "https://twitter.com/CanIDevTools/status/1623894836331028483",
     "Notes": "1. In **Sources**, right click on the line number that throws an exception and select \"Never pause here\".\n",
     "Name": "Never pause at exceptions",
-    "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1675831371/never-pause-exceptions-chrome_ggwffv.mp4",
-    "Share": "https://twitter.com/CanIDevTools/status/1623894836331028483"
+    "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1675831371/never-pause-exceptions-chrome_ggwffv.mp4"
   },
   "Firefox": {
+    "Share": "https://twitter.com/CanIDevTools/status/1623895526931574785",
     "Notes": "1. In **Debugger**, right click on the line number that throws an exception and select \"Never pause here\".\n",
     "Name": "Never pause at exceptions",
-    "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1675831371/never-pause-exceptions-firefox_r8a3ox.mp4",
-    "Share": "https://twitter.com/CanIDevTools/status/1623895526931574785"
+    "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1675831371/never-pause-exceptions-firefox_r8a3ox.mp4"
   },
   "Edge": {
     "Notes": "1. In **Sources**, right click on the line number that throws an exception and select \"Never pause here\".\n\n",
+    "Share": "https://twitter.com/CanIDevTools/status/1623894836331028483",
     "Name": "Never pause at exceptions",
-    "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1675836183/never-pause-exceptions-edge_vnytav.mp4",
-    "Share": "https://twitter.com/CanIDevTools/status/1623894836331028483"
+    "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1675836183/never-pause-exceptions-edge_vnytav.mp4"
   },
   "Safari": {
+    "Share": "https://twitter.com/CanIDevTools/status/1623896622928363520",
     "Name": "Never pause at exceptions",
-    "Notes": "1. In **Sources**, right click on the line that throws exceptions, select \"Edit Breakpoint...\" > Enter the condition as `false`.\n",
     "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1676001264/never-pause-exceptions-safari_cbobwh.mp4",
-    "Share": "https://twitter.com/CanIDevTools/status/1623896622928363520"
+    "Notes": "1. In **Sources**, right click on the line that throws exceptions, select \"Edit Breakpoint...\" > Enter the condition as `false`.\n"
   },
   "Opera": {
+    "Share": "https://twitter.com/CanIDevTools/status/1623894836331028483",
     "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1675836308/never-pause-exceptions-opera_eqxlvg.mp4",
     "Notes": "1. In **Sources**, right click on the line number that throws an exception and select \"Never pause here\".\n\n",
-    "Name": "Never pause at exceptions",
-    "Share": "https://twitter.com/CanIDevTools/status/1623894836331028483"
+    "Name": "Never pause at exceptions"
   }
 }

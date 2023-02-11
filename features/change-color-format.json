@@ -4,7 +4,7 @@
   "Description": "Can I change authored color format to other formats like hsl, hwb etc?",
   "Category": "CSS",
   "Newsletter": "tips-tricks-20",
-  "LastModifiedTime": "2023-02-05T07:16:55.000Z",
+  "LastModifiedTime": "2023-02-11T13:44:52.000Z",
   "Author": "@pankajparashar",
   "Chrome": {
     "Share": "https://twitter.com/CanIDevTools/status/1575491269878775811",
@@ -24,6 +24,10 @@
     "Notes": "1. In the **Styles** pane, hold the `Shift` key and click on the color preview box to cycle through the various color formats like `rgb`, `hsl`, and `hwb`.\n2. Alternatively, you can change the color format in the [color picker](https://developer.chrome.com/docs/devtools/css/reference/#color-picker) using the up-down arrow keys.\n",
     "Share": "https://twitter.com/CanIDevTools/status/1575491269878775811",
     "Name": "Change color format"
+  },
+  "Safari": {
+    "Name": "Change color format",
+    "Notes": "1. In the **Styles** pane, hold the `Shift` key and click on the color preview box to cycle through the various color formats like `hex`, `rgb`, and `colors.`\n"
   },
   "Opera": {
     "References": "\n",

@@ -347,5 +347,5 @@ const Testimonials = () =>
             'https://res.cloudinary.com/dw9fem4ki/image/upload/v1675244568/pika-1675244314666-1x_ctlzo5.png',
             'https://res.cloudinary.com/dw9fem4ki/image/upload/v1675244568/pika-1675244249461-1x_jtuvnh.jpg',
             'https://res.cloudinary.com/dw9fem4ki/image/upload/v1675244568/pika-1675244351871-1x_hw0sqt.png'
-        ].map((image) => <Image src={image} key={image} /> )}
+        ].map((image) => <Image src={image} withPlaceholder key={image} /> )}
     </Carousel>
