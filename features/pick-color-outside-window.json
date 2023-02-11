@@ -1,9 +1,9 @@
 {
-  "Name": "Use color picker outside window",
-  "Slug": "color-picker-outside-window",
+  "Name": "Pick color from outside window",
+  "Slug": "pick-color-outside-window",
   "Description": "Can I use the color picker to pick colors from outside the browser window?",
   "Category": "CSS",
-  "LastModifiedTime": "2022-07-01T06:08:40.000Z",
+  "LastModifiedTime": "2023-02-11T13:50:03.000Z",
   "Author": "@pankajparashar",
   "Chrome": {
     "Share": "https://twitter.com/yisibl/status/1513834953104310279",
