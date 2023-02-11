@@ -9,22 +9,22 @@
     "Share": "https://twitter.com/yisibl/status/1513834953104310279",
     "References": "[1] \"Color picker\" - [Chrome DevTools Docs](https://developer.chrome.com/blog/new-in-devtools-103/#color)\n",
     "Notes": "1. Open **Settings** (or press `Shift+?` or `F1`) > Experiments > Apply filter on \"color picker\".\n2. Check the \"Enable color picking outside the browser window\" option > Reload DevTools.\n3. In the **Styles** pane, click on any color preview to open a color picker. Use the eyedropper to pick color from anywhere.\n",
-    "Name": "Use color picker outside window",
+    "Name": "Pick color from outside window",
     "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1656654493/Videos/color-picker-outside-window-chrome_gnwoe6.mp4"
   },
   "Edge": {
     "Notes": "1. Open **Settings** (or press `Shift+?` or `F1`) > Experiments > Apply filter on \"color picker\".\n2. Check the \"Enable color picking outside the browser window\" option > Reload DevTools.\n3. In the **Styles** pane, click on any color preview to open a color picker. Use the eyedropper to pick color from anywhere.\n",
-    "Name": "Use color picker outside window",
+    "Name": "Pick color from outside window",
     "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1656655355/Videos/color-picker-outside-window-edge_e6pph0.mp4"
   },
   "Safari": {
-    "Name": "Use color picker outside window",
+    "Name": "Pick color from outside window",
     "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1656656002/Videos/color-picker-outside-window-safari_nciqw1.mp4",
     "Notes": "1. In the **Styles** pane, click on any color preview to open a color picker. Use the eyedropper to pick color from anywhere.\n"
   },
   "Opera": {
     "References": "\n",
     "Notes": "1. Open **Settings** (or press `Shift+?` or `F1`) > Experiments > Apply filter on \"color picker\".\n2. Check the \"Enable color picking outside the browser window\" option > Reload DevTools.\n3. In the **Styles** pane, click on any color preview to open a color picker. Use the eyedropper to pick color from anywhere.\n",
-    "Name": "Use color picker outside window"
+    "Name": "Pick color from outside window"
   }
 }
