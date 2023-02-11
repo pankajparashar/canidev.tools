@@ -17,7 +17,6 @@ import { json } from "@remix-run/node";
 import { Image, Tabs, Badge, Box, NavLink, MantineProvider, Collapse, Anchor, Flex, Grid, Stack, Button, Divider, Alert, Text, createEmotionCache } from "@mantine/core";
 import { useMediaQuery, useColorScheme, useLocalStorage } from "@mantine/hooks";
 import { StylesPlaceholder } from "@mantine/remix";
-import { Carousel } from '@mantine/carousel';
 
 // Tabler
 import { IconQuote, IconStar, IconCode, IconListDetails, IconBrandTwitter, IconBrandGithub, IconNews, IconBrightness, IconBoxMargin, IconList, IconAccessible, IconReportMedical, IconTerminal2, IconBrandNextjs, IconAffiliate, IconHexagons, IconCrosshair, IconUserCircle } from "@tabler/icons";
@@ -25,6 +24,7 @@ import { IconQuote, IconStar, IconCode, IconListDetails, IconBrandTwitter, IconB
 // Custom
 import styles from "./root.css";
 import Carbon from "react-carbon";
+import { Carousel } from 'antd';
 
 createEmotionCache({ key: "cid" });
 
@@ -341,15 +341,11 @@ const About = () =>
     </Alert>
 
 const Testimonials = () => 
-    <Carousel withIndicators loop>
+    <Carousel autoplay dotPosition="right">
         {[
             'https://res.cloudinary.com/dw9fem4ki/image/upload/v1675244568/pika-1675244292768-1x_fctkaz.png',
             'https://res.cloudinary.com/dw9fem4ki/image/upload/v1675244568/pika-1675244314666-1x_ctlzo5.png',
             'https://res.cloudinary.com/dw9fem4ki/image/upload/v1675244568/pika-1675244249461-1x_jtuvnh.jpg',
             'https://res.cloudinary.com/dw9fem4ki/image/upload/v1675244568/pika-1675244351871-1x_hw0sqt.png'
-        ].map((image) => (
-            <Carousel.Slide key={image}>
-                <Image src={image} />
-            </Carousel.Slide>
-        ))}
+        ].map((image) => <Image src={image} key={image} /> )}
     </Carousel>
