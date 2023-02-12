@@ -48,10 +48,7 @@ export default function Browser() {
                 </Button>
             </Group>
             <Divider />
-            <Box sx={() => ({ position: "relative" })}>
-              {feature[browser].MP4 ? <Video MP4={feature[browser].MP4} key={feature[browser].MP4} /> : <Image withPlaceholder height={200} />}
-            </Box>
-            <Divider />
+            {feature[browser].MP4 ? <Video MP4={feature[browser].MP4} key={feature[browser].MP4} /> : <Image withPlaceholder height={200} />}
             <Accordion
                 defaultValue="notes"
                 sx={theme => ({
@@ -88,13 +85,13 @@ export default function Browser() {
                             References {`(${refCount})`}
                         </Text>
                     </Accordion.Control>
-                    <Accordion.Panel>
+                    {feature[browser].References ? <Accordion.Panel>
                         <div
                             dangerouslySetInnerHTML={{
                                 __html: feature[browser].References ? marked.parse(feature[browser].References) : "",
                             }}
                         />
-                    </Accordion.Panel>
+                    </Accordion.Panel> : null}
                 </Accordion.Item>
             </Accordion>
         </Box>

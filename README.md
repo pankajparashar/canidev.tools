@@ -170,16 +170,14 @@
 ## 13. Capture node stacktrace 
  Can I capture node creation stack trace? 
 - [Chrome](https://canidev.tools/capture-node-stacktrace/chrome) 
- > Enable the experiment, "Capture node creation stacks" in Settings > Experiments, to use this feature
-1. Select the node > Stack Trace pane (in sidebar) to show the stack of JavaScript calls that led to the node creation. 
+ 1. Enable "Capture node creation stacks" in Settings (`F1`) > Experiments.
+2. In the **Elements** panel > Select the node > Open the **Stack Trace** pane in the side panel to show the stack trace of the node creation. 
 - [Edge](https://canidev.tools/capture-node-stacktrace/edge) 
- > Enable the experiment, "Capture node creation stacks" in Settings > Experiments, to use this feature
-1. Select the node > Stack Trace pane (in sidebar) to show the stack of JavaScript calls that led to the node creation. 
-
+ 1. Enable "Capture node creation stacks" in Settings (`F1`) > Experiments.
+2. In the **Elements** panel > Select the node > Open the **Stack** **Trace** pane in the side panel to show the stack trace of the node creation.
 - [Opera](https://canidev.tools/capture-node-stacktrace/opera) 
- > Enable the experiment, "Capture node creation stacks" in Settings > Experiments, to use this feature
-1. Select the node > Stack Trace pane (in sidebar) to show the stack of JavaScript calls that led to the node creation. 
-
+ 1. Enable "Capture node creation stacks" in Settings (`F1`) > Experiments.
+2. In the **Elements** panel > Select the node > Open the **Stack** **Trace** pane in the side panel to show the stack trace of the node creation. 
 ## 14. Capture screenshot from console 
  Can I take screenshot of a web page from the console? 
 - [Firefox](https://canidev.tools/capture-screenshot-console/firefox) 

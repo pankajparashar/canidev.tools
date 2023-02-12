@@ -6,15 +6,17 @@
   "LastModifiedTime": "2023-02-05T06:50:49.000Z",
   "Author": "@pankajparashar",
   "Chrome": {
-    "Notes": "> Enable the experiment, \"Capture node creation stacks\" in Settings > Experiments, to use this feature\n1. Select the node > Stack Trace pane (in sidebar) to show the stack of JavaScript calls that led to the node creation. \n",
-    "Name": "Capture node stacktrace"
+    "Notes": "1. Enable \"Capture node creation stacks\" in Settings (`F1`) > Experiments.\n2. In the **Elements** panel > Select the node > Open the **Stack Trace** pane in the side panel to show the stack trace of the node creation. \n",
+    "Name": "Capture node stacktrace",
+    "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1676218498/capture-node-stacktrace-chrome_henchg.mp4"
   },
   "Edge": {
-    "Notes": "> Enable the experiment, \"Capture node creation stacks\" in Settings > Experiments, to use this feature\n1. Select the node > Stack Trace pane (in sidebar) to show the stack of JavaScript calls that led to the node creation. \n\n",
-    "Name": "Capture node stacktrace"
+    "Notes": "1. Enable \"Capture node creation stacks\" in Settings (`F1`) > Experiments.\n2. In the **Elements** panel > Select the node > Open the **Stack** **Trace** pane in the side panel to show the stack trace of the node creation.\n",
+    "Name": "Capture node stacktrace",
+    "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1676219451/capture-node-stacktrace-edge_cqyzwu.mp4"
   },
   "Opera": {
-    "Notes": "> Enable the experiment, \"Capture node creation stacks\" in Settings > Experiments, to use this feature\n1. Select the node > Stack Trace pane (in sidebar) to show the stack of JavaScript calls that led to the node creation. \n\n",
+    "Notes": "1. Enable \"Capture node creation stacks\" in Settings (`F1`) > Experiments.\n2. In the **Elements** panel > Select the node > Open the **Stack** **Trace** pane in the side panel to show the stack trace of the node creation. \n",
     "Name": "Capture node stacktrace"
   }
 }
