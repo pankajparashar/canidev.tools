@@ -48,7 +48,9 @@ export default function Browser() {
                 </Button>
             </Group>
             <Divider />
-            {feature[browser].MP4 ? <Video MP4={feature[browser].MP4} key={feature[browser].MP4} /> : <Image withPlaceholder height={200} />}
+            <Box style={{ position: "relative" }}>
+                {feature[browser].MP4 ? <Video MP4={feature[browser].MP4} key={feature[browser].MP4} /> : <Image withPlaceholder height={300} />}
+            </Box>
             <Accordion
                 defaultValue="notes"
                 sx={theme => ({
