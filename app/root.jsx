@@ -52,10 +52,8 @@ export function meta () {
 
 export function links() {
     return [
-        {
-            rel: "stylesheet",
-            href: styles,
-        },
+        { rel: "stylesheet", href: styles },
+        { rel: "search", type: "application/opensearchdescription+xml", href: "/opensearch.xml", title: "CID" }
     ];
 }
 
