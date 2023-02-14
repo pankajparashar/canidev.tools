@@ -1,8 +1,21 @@
-<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:moz="http://www.mozilla.org/2006/browser/search/">
-    <ShortName>CID</ShortName>
-    <Description>Lookup on Can I DevTools</Description>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+
+    <ShortName>Can I DevTools</ShortName>
+    <LongName>Lookup on Can I DevTools</LongName>
+    <Description>Lookup features on Can I DevTools</Description>
     <InputEncoding>UTF-8</InputEncoding>
+    <OutputEncoding>UTF-8</OutputEncoding>
+    <AdultContent>false</AdultContent>
+    <Language>en-us</Language>
+    <Developer>Pankaj Parashar</Developer>
+    <Contact>email@pankajparashar.com</Contact>
+    <Tags>devtools chrome edge firefox safari opera</Tags>
+    <Attribution>Search data from Can I DevTools: canidev.tools</Attribution>
+    <SyndicationRight>open</SyndicationRight>
+    <Query role="example" searchTerms="network"/>
+
     <Image width="16" height="16" type="image/x-icon">https://canidev.tools/favicon.ico</Image>
-    <Url type="text/html" method="get" template="https://www.canidev.tools/?search={searchTerms}&amp;ref=opensearch" />
-    <moz:SearchForm>https://www.canidev.tools</moz:SearchForm>
+    <Image height="64" width="64" type="image/png">https://css-tricks.com/apple-touch-icon.png</Image>
+
+    <Url type="text/html" method="get" template="https://www.canidev.tools/?search={searchTerms}" />
 </OpenSearchDescription>
