@@ -178,14 +178,15 @@
 - [Opera](https://canidev.tools/capture-node-stacktrace/opera) 
  1. Enable "Capture node creation stacks" in Settings (`F1`) > Experiments.
 2. In the **Elements** panel > Select the node > Open the **Stack** **Trace** pane in the side panel to show the stack trace of the node creation. 
-## 14. Capture screenshot from console 
+## 14. Capture screenshot via console 
  Can I take screenshot of a web page from the console? 
 - [Firefox](https://canidev.tools/capture-screenshot-console/firefox) 
- 1. Firefox has a built-in helper function `:selector` to capture screenshot of the current page from the console. Example:
+ 1. Firefox has a built-in helper function `:screenshot` to capture screenshot of the current page from the console. 
+2. For example:
 ```
-:screenshot
-:screenshot --fullpage
-:screenshot --selector .css-selector
+    :screenshot
+    :screenshot --fullpage
+    :screenshot --selector .css-selector
 ```
 - [Safari](https://canidev.tools/capture-screenshot-console/safari) 
  1. Use `console.screenshot()` to capture the screenshot of the viewport. Alternatively, pass the target node to the function to capture screenshot of a specific node.
