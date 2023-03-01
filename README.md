@@ -189,7 +189,8 @@
     :screenshot --selector .css-selector
 ```
 - [Safari](https://canidev.tools/capture-screenshot-console/safari) 
- 1. Use `console.screenshot()` to capture the screenshot of the viewport. Alternatively, pass the target node to the function to capture screenshot of a specific node.
+ 1. In Safari, you can capture screenshot of the viewport from the **Console** using `console.screenshot()`. 
+2. Alternatively, pass the target node to the function to capture screenshot of a specific node.
 ## 15. Capture viewport screenshot 
  Can I take a screenshot of the portion of the web page visible in the viewport? 
 - [Chrome](https://canidev.tools/capture-viewport-screenshot/chrome) 
