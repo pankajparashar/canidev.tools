@@ -3,8 +3,8 @@
   "Slug": "capture-node-stacktrace",
   "Description": "Can I capture node creation stack trace?",
   "Category": "Elements",
-  "Newsletter": "tips-and-tricks-40",
-  "LastModifiedTime": "2023-02-19T16:48:58.000Z",
+  "Newsletter": "tips-tricks-40",
+  "LastModifiedTime": "2023-03-01T22:01:11.000Z",
   "Author": "@pankajparashar",
   "Chrome": {
     "Share": "https://twitter.com/CanIDevTools/status/1627347721186312194",

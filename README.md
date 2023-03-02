@@ -192,7 +192,7 @@
  1. In Safari, you can capture screenshot of the viewport from the **Console** using `console.screenshot()`. 
 2. Alternatively, pass the target node to the function to capture screenshot of a specific node.
 ## 15. Capture viewport screenshot 
- Can I take a screenshot of the portion of the web page visible in the viewport? 
+ Can I take a screenshot of the viewport? 
 - [Chrome](https://canidev.tools/capture-viewport-screenshot/chrome) 
  1. Open devtools > Launch Command menu > Search for "Capture screenshot".
 2. Press Enter to capture the screenshot of the viewport.
