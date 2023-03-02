@@ -1,0 +1,27 @@
+{
+  "Name": "View transferred size",
+  "Slug": "view-transferred-size",
+  "Description": "Can I view the size of the data transferred over the network?",
+  "LastModifiedTime": "2023-03-02T22:26:01.000Z",
+  "Author": "@pankajparashar",
+  "Chrome": {
+    "Name": "View transferred size",
+    "Notes": "1. In the **Network** panel, the footer contains the size of the data transferred in Bytes. If a filter is applied, then it displays the size of the filtered resources followed by all the resources.\n"
+  },
+  "Firefox": {
+    "Name": "View transferred size",
+    "Notes": "1. In the **Network** panel, the footer contains the size of the data transferred in Bytes. If a filter is applied, then it displays the size of the filtered resources followed by all the resources.\n"
+  },
+  "Edge": {
+    "Name": "View transferred size",
+    "Notes": "1. In the **Network** panel, the footer contains the size of the data transferred in Bytes. If a filter is applied, then it displays the size of the filtered resources followed by all the resources.\n"
+  },
+  "Safari": {
+    "Name": "View transferred size",
+    "Notes": "1. In the **Network** panel, the footer contains the size of the data transferred in Bytes. If a filter is applied, then it displays the size of the filtered resources.\n"
+  },
+  "Opera": {
+    "Name": "View transferred size",
+    "Notes": "1. In the **Network** panel, the footer contains the size of the data transferred in Bytes. If a filter is applied, then it displays the size of the filtered resources followed by all the resources.\n"
+  }
+}
