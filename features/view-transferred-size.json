@@ -2,7 +2,8 @@
   "Name": "View transferred size",
   "Slug": "view-transferred-size",
   "Description": "Can I view the size of the data transferred over the network?",
-  "LastModifiedTime": "2023-03-02T22:26:01.000Z",
+  "Category": "Network",
+  "LastModifiedTime": "2023-03-02T22:34:22.000Z",
   "Author": "@pankajparashar",
   "Chrome": {
     "Name": "View transferred size",
