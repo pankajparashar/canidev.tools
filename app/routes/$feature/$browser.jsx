@@ -9,6 +9,12 @@ import { json } from "@remix-run/node"; // or cloudflare/deno
 import { Accordion, LoadingOverlay, Box, Button, Divider, Group, Image, Text } from "@mantine/core";
 import { IconBrandChrome, IconBrandFirefox, IconBrandEdge, IconBrandSafari, IconBrandOpera, IconShare, IconBrandWindows, IconBrandApple, IconBrandUbuntu } from "@tabler/icons";
 
+export let headers = () => {
+    return {
+      "Cache-Control": "public, s-maxage=120",
+    };
+  };
+
 export function loader({ params }) {
     const filename = path.join("features", params.feature + ".json");
     const file = fs.readFileSync(filename);

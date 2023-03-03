@@ -50,6 +50,12 @@ export const meta = ({ data }) => {
 	};
 };
 
+export let headers = () => {
+    return {
+      "Cache-Control": "public, s-maxage=120",
+    };
+  };
+
 export function loader({ params }) {
 	const filename = path.join('features', params.feature + '.json');
 	const file = fs.readFileSync(filename);
