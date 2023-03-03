@@ -9,27 +9,22 @@
     "Share": "https://twitter.com/mgechev/status/1519534448227803138",
     "References": "1. Minko Gechev (@mgechev) on [Twitter](https://twitter.com/mgechev/status/1519534448227803138).\n",
     "Notes": "1. Open devtools using `Cmd+Opt+I` (on Mac) or `Ctrl+Shift+I` (on Windows/Linux) > Memory.\n2. Check memory usage > Memory going only ⬆️ is a bad sign! > Capture snapshot to preview memory allocation > Find redundant objects > Navigate to where you allocated them.\n",
-    "Name": "Detect memory leaks",
     "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1652111060/Videos/detect-memory-leaks-chrome_eoycbd.mp4"
   },
   "Firefox": {
     "Notes": "1. In the **Memory** tab, use the camera icon (top-left) titled, \"Take snapshot\" to capture the heap stack and establish a baseline.\n2. Perform any operation on the app that is suspected to leak memory, and then take another snapshot.\n3. To compare two snapshots, click the button that looks like a Venn diagram next to the camera icon. The diff shows you where memory was allocated or freed between the two snapshots, indicating potential candidates leaking the memory.\n",
     "References": "1. \"Memory\" - [Firefox Source Docs](https://firefox-source-docs.mozilla.org/devtools-user/memory/basic_operations/index.html#basic-operations)\n",
-    "Name": "Detect memory leaks",
     "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1656508300/Videos/detect-memory-leaks-firefox_cc6tjf.mp4"
   },
   "Edge": {
-    "Notes": "1. Open devtools using `Cmd+Opt+I` (on Mac) or `Ctrl+Shift+I` (on Windows/Linux) > Memory.\n2. Check memory usage > Memory going only ⬆️ is a bad sign! > Capture snapshot to preview memory allocation > Find redundant objects > Navigate to where you allocated them.\n\n",
-    "Name": "Detect memory leaks"
+    "Notes": "1. Open devtools using `Cmd+Opt+I` (on Mac) or `Ctrl+Shift+I` (on Windows/Linux) > Memory.\n2. Check memory usage > Memory going only ⬆️ is a bad sign! > Capture snapshot to preview memory allocation > Find redundant objects > Navigate to where you allocated them.\n\n"
   },
   "Safari": {
-    "Name": "Detect memory leaks",
     "References": "[1] \"Memory Debugging\" - [Webkit](https://webkit.org/blog/6425/memory-debugging-with-web-inspector/)\n",
     "Notes": "1. Open the **Timelines** tab. In the **Events** view, enable \"JavaScript Allocations\" panel in the left sidebar, by clicking the **Edit** button.\n2. Reload the page to start recording the timeline. Perform actions that are expected to be memory neutral.\n3. Take snapshot using the **Camera** icon after each repetition. Use the **Compare** button to compare the snapshots for any visible memory spikes.\n"
   },
   "Opera": {
     "References": "\n",
-    "Notes": "1. Open devtools using `Cmd+Opt+I` (on Mac) or `Ctrl+Shift+I` (on Windows/Linux) > Memory.\n2. Check memory usage > Memory going only ⬆️ is a bad sign! > Capture snapshot to preview memory allocation > Find redundant objects > Navigate to where you allocated them.\n",
-    "Name": "Detect memory leaks"
+    "Notes": "1. Open devtools using `Cmd+Opt+I` (on Mac) or `Ctrl+Shift+I` (on Windows/Linux) > Memory.\n2. Check memory usage > Memory going only ⬆️ is a bad sign! > Capture snapshot to preview memory allocation > Find redundant objects > Navigate to where you allocated them.\n"
   }
 }

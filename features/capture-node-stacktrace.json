@@ -9,19 +9,16 @@
   "Chrome": {
     "Share": "https://twitter.com/CanIDevTools/status/1627347721186312194",
     "Notes": "1. Enable \"Capture node creation stacks\" in Settings (`F1`) > Experiments.\n2. In the **Elements** panel > Select the node > Open the **Stack Trace** pane in the side panel to show the stack trace of the node creation. \n",
-    "Name": "Capture node stacktrace",
     "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1676218498/capture-node-stacktrace-chrome_henchg.mp4"
   },
   "Edge": {
     "Notes": "1. Enable \"Capture node creation stacks\" in Settings (`F1`) > Experiments.\n2. In the **Elements** panel > Select the node > Open the **Stack** **Trace** pane in the side panel to show the stack trace of the node creation.\n",
     "Share": "https://twitter.com/CanIDevTools/status/1627347721186312194",
-    "Name": "Capture node stacktrace",
     "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1676219451/capture-node-stacktrace-edge_cqyzwu.mp4"
   },
   "Opera": {
     "Share": "https://twitter.com/CanIDevTools/status/1627347721186312194",
     "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1676823913/capture-node-stacktrace-opera_yz2mzh.mp4",
-    "Notes": "1. Enable \"Capture node creation stacks\" in Settings (`F1`) > Experiments.\n2. In the **Elements** panel > Select the node > Open the **Stack** **Trace** pane in the side panel to show the stack trace of the node creation. \n",
-    "Name": "Capture node stacktrace"
+    "Notes": "1. Enable \"Capture node creation stacks\" in Settings (`F1`) > Experiments.\n2. In the **Elements** panel > Select the node > Open the **Stack** **Trace** pane in the side panel to show the stack trace of the node creation. \n"
   }
 }

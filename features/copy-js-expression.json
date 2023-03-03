@@ -8,17 +8,14 @@
   "Chrome": {
     "References": "[1] Copy JS path, by Chrome DevTools [Docs](https://developer.chrome.com/blog/new-in-devtools-72/#copy)\n",
     "Notes": "1. In the **Elements** tab, right click on the node in the DOM tree > Copy > Copy JS path. This will copy the query selector to the node that can be used in the JS code.\n",
-    "Name": "Copy as JS expression",
     "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1658651084/copy-js-path-chrome_yh3wvj.mp4"
   },
   "Edge": {
     "Notes": "1. In the **Elements** tab, right click on the node in the DOM tree > Copy > Copy JS path. This will copy the query selector to the node that can be used in the JS code.\n",
-    "Name": "Copy as JS expression",
     "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1658651680/copy-js-path-edge_phl2db.mp4"
   },
   "Opera": {
     "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1658651084/copy-js-path-chrome_yh3wvj.mp4",
-    "Notes": "1. In the **Elements** tab, right click on the node in the DOM tree > Copy > Copy JS path. This will copy the query selector to the node that can be used in the JS code.\n",
-    "Name": "Copy as JS expression"
+    "Notes": "1. In the **Elements** tab, right click on the node in the DOM tree > Copy > Copy JS path. This will copy the query selector to the node that can be used in the JS code.\n"
   }
 }

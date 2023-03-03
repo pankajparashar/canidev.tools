@@ -9,26 +9,22 @@
   "Chrome": {
     "Share": "https://twitter.com/CanIDevTools/status/1556184233353179137",
     "Notes": "1. Open **Settings** (`F1` or `Shift+?`) > Devices > Click \"Add custom device...\". \n2. Enter the \"Device Name\" and other details associated with the device. Click the \"Add\" button.\n",
-    "Name": "Add custom device",
     "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1659854384/add-custom-device-chrome_g3ad70.mp4"
   },
   "Firefox": {
     "Share": "https://twitter.com/CanIDevTools/status/1556184931604172800",
     "Notes": "1. Open **Responsive** **Design** **Mode** (`Cmd+Opt+M` or `Ctrl+Shift+M`) > Select \"Edit List...\" from the list of devices.\n2. In **Device** **Settings**, click \"Add Custom Device...\" > Enter the **Name** and other related details > Click \"Save\".\n",
     "References": "1. \"Responsive Design Mode\" - [Firefox Source Docs](https://firefox-source-docs.mozilla.org/devtools-user/responsive_design_mode/)\n",
-    "Name": "Add custom device",
     "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1659856478/add-custom-device-firefox_uqwxrz.mp4"
   },
   "Edge": {
     "Notes": "1. Open **Settings** (`F1` or `Shift+?`) > Devices > Click \"Add custom device...\". \n2. Enter the \"Device Name\" and other details associated with the device. Click the \"Add\" button.\n",
     "Share": "https://twitter.com/CanIDevTools/status/1556184233353179137",
-    "Name": "Add custom device",
     "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1659856864/add-custom-device-edge_gf1pjd.mp4"
   },
   "Opera": {
     "Share": "https://twitter.com/CanIDevTools/status/1556184233353179137",
     "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1659854384/add-custom-device-chrome_g3ad70.mp4",
-    "Notes": "1. Open **Settings** (`F1` or `Shift+?`) > Devices > Click \"Add custom device...\". \n2. Enter the \"Device Name\" and other details associated with the device. Click the \"Add\" button.\n",
-    "Name": "Add custom device"
+    "Notes": "1. Open **Settings** (`F1` or `Shift+?`) > Devices > Click \"Add custom device...\". \n2. Enter the \"Device Name\" and other details associated with the device. Click the \"Add\" button.\n"
   }
 }

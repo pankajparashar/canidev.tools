@@ -10,19 +10,16 @@
     "Share": "https://twitter.com/CanIDevTools/status/1572808549335302144",
     "References": "1. \"CSS Box shadow editor\", by Chrome DevTools [Docs](https://developer.chrome.com/docs/devtools/css/reference/#shadow-editor)\n",
     "Notes": "1. Inspect the element with box shadow > In the Styles pane, click the icon next to the `box-shadow` property to open the box shadow editor.\n2. Change the shadow properties:\n    - **Type** (only for `box-shadow`). Pick **Outset** or **Inset**.\n    - **X and Y offsets**. Drag the blue dot or specify values.\n    - **Blur**. Drag the slider or specify a value.\n    - **Spread** (only for `box-shadow`). Drag the slider or specify a value.\n",
-    "Name": "Inspect Box shadow",
     "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1663767294/inspect-box-shadow-chrome_xdo6e7.mp4"
   },
   "Edge": {
     "Notes": "1. Inspect the element with box shadow > In the **Styles** pane, click the icon next to the `box-shadow` property to open the box shadow editor.\n2. Change the shadow properties:\n    - **Type** (only for `box-shadow`). Pick Outset or Inset.\n    - **X** and **Y** offsets. Drag the blue dot or specify values.\n    - **Blur**. Drag the slider or specify a value.\n    - **Spread** (only for `box-shadow`). Drag the slider or specify a value.\n",
     "Share": "https://twitter.com/CanIDevTools/status/1572808549335302144",
-    "Name": "Inspect Box shadow",
     "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1663775064/inspect-box-shadow-edge_jnbhin.mp4"
   },
   "Opera": {
     "Share": "https://twitter.com/CanIDevTools/status/1572808549335302144",
     "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1663820923/inspect-box-shadow-opera_q51xcj.mp4",
-    "Notes": "1. Inspect the element with box shadow > In the **Styles** pane, click the icon next to the `box-shadow` property to open the box shadow editor.\n2. Change the shadow properties:\n    - **Type** (only for `box-shadow`). Pick Outset or Inset.\n    - **X and Y offsets**. Drag the blue dot or specify values.\n    - **Blur**. Drag the slider or specify a value.\n    - **Spread** (only for `box-shadow`). Drag the slider or specify a value.\n\n",
-    "Name": "Inspect Box shadow"
+    "Notes": "1. Inspect the element with box shadow > In the **Styles** pane, click the icon next to the `box-shadow` property to open the box shadow editor.\n2. Change the shadow properties:\n    - **Type** (only for `box-shadow`). Pick Outset or Inset.\n    - **X and Y offsets**. Drag the blue dot or specify values.\n    - **Blur**. Drag the slider or specify a value.\n    - **Spread** (only for `box-shadow`). Drag the slider or specify a value.\n\n"
   }
 }

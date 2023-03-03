@@ -6,7 +6,6 @@
   "LastModifiedTime": "2023-01-05T17:19:43.000Z",
   "Author": "@pankajparashar",
   "Safari": {
-    "Name": "Fuzzy autocomplete styles",
     "Notes": "1. Safari allows you to autocomplete CSS properties with fuzzy matching like, entering `gtc` will suggest `grid-template-columns` in the suggestions box.\n"
   }
 }

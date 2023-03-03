@@ -6,19 +6,15 @@
   "LastModifiedTime": "2022-10-03T14:46:47.000Z",
   "Author": "@pankajparashar",
   "Chrome": {
-    "Notes": "1. **Settings** (`F1` or `Shift+?`) > Experiments > Check the \"Enable the new Font Editor tool within the Styles pane\" box > Reload.\n2. In the **Styles** pane, click the \"AA\" icon in the bottom right of the selector box to open the **Font Editor** tool which allows you to tweak various font properties.\n",
-    "Name": "Inspect Font properties"
+    "Notes": "1. **Settings** (`F1` or `Shift+?`) > Experiments > Check the \"Enable the new Font Editor tool within the Styles pane\" box > Reload.\n2. In the **Styles** pane, click the \"AA\" icon in the bottom right of the selector box to open the **Font Editor** tool which allows you to tweak various font properties.\n"
   },
   "Firefox": {
-    "Notes": "1. Inspect the element using font properties > Navigate to the **Fonts** pane in the sidebar > Use the editor tool to tweak the various font properties.\n",
-    "Name": "Inspect Font properties"
+    "Notes": "1. Inspect the element using font properties > Navigate to the **Fonts** pane in the sidebar > Use the editor tool to tweak the various font properties.\n"
   },
   "Edge": {
-    "Notes": "1. **Settings** (`F1` or `Shift+?`) > Experiments > Check the \"Enable the new Font Editor tool within the Styles pane\" box > Reload.\n2. In the **Styles** pane, click the \"AA\" icon in the bottom right of the selector box to open the Font Editor tool which allows you to tweak various font properties.\n",
-    "Name": "Inspect Font properties"
+    "Notes": "1. **Settings** (`F1` or `Shift+?`) > Experiments > Check the \"Enable the new Font Editor tool within the Styles pane\" box > Reload.\n2. In the **Styles** pane, click the \"AA\" icon in the bottom right of the selector box to open the Font Editor tool which allows you to tweak various font properties.\n"
   },
   "Opera": {
-    "Notes": "1. Settings (`F1` or `Shift+?`) > Experiments > Check the \"Enable the new Font Editor tool within the Styles pane\" box > Reload.\n2. In the Styles pane, click the \"AA\" icon in the bottom right of the selector box to open the Font Editor tool which allows you to tweak various font properties.\n",
-    "Name": "Inspect Font properties"
+    "Notes": "1. Settings (`F1` or `Shift+?`) > Experiments > Check the \"Enable the new Font Editor tool within the Styles pane\" box > Reload.\n2. In the Styles pane, click the \"AA\" icon in the bottom right of the selector box to open the Font Editor tool which allows you to tweak various font properties.\n"
   }
 }

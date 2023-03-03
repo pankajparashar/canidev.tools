@@ -7,26 +7,21 @@
   "Author": "@pankajparashar",
   "Chrome": {
     "References": "1. \"Pause your code with breakpoints\" by [Chrome Developers](https://developer.chrome.com/docs/devtools/javascript/breakpoints/#xhr).\n",
-    "Notes": "1. Click the **Sources** tab.\n2. Expand the **XHR Breakpoints** pane.\n3. Click **Add breakpoint**.\n4. Enter the string which you want to break on. DevTools pauses when this string is present anywhere in an XHR's request URL.\n5. Press Enter to confirm.\n",
-    "Name": "Debug XHR & Fetch calls"
+    "Notes": "1. Click the **Sources** tab.\n2. Expand the **XHR Breakpoints** pane.\n3. Click **Add breakpoint**.\n4. Enter the string which you want to break on. DevTools pauses when this string is present anywhere in an XHR's request URL.\n5. Press Enter to confirm.\n"
   },
   "Firefox": {
     "Notes": "1. Open devtools > Debugger. \n2. In the right section, under \"XHR Breakpoints\",  either use the checkbox to \"Pause on any URL\" or \"Break when the URL contains\" a specific keyword\n",
-    "References": "1. \"Set XHR Breakpoint\" - [Firefox Source Docs](https://firefox-source-docs.mozilla.org/devtools-user/debugger/set_an_xhr_breakpoint/index.html)\n2. \"Issue #9\" - Nicolas ([@nclm](https://github.com/pankajparashar/canidev.tools/issues/9))\n",
-    "Name": "Debug XHR & Fetch calls"
+    "References": "1. \"Set XHR Breakpoint\" - [Firefox Source Docs](https://firefox-source-docs.mozilla.org/devtools-user/debugger/set_an_xhr_breakpoint/index.html)\n2. \"Issue #9\" - Nicolas ([@nclm](https://github.com/pankajparashar/canidev.tools/issues/9))\n"
   },
   "Edge": {
-    "Notes": "1. Click the Sources tab.\n2. Expand the XHR Breakpoints pane.\n3. Click Add breakpoint.\n4. Enter the string which you want to break on. DevTools pauses when this string is present anywhere in an XHR's request URL.\n5. Press Enter to confirm.\n\n",
-    "Name": "Debug XHR & Fetch calls"
+    "Notes": "1. Click the Sources tab.\n2. Expand the XHR Breakpoints pane.\n3. Click Add breakpoint.\n4. Enter the string which you want to break on. DevTools pauses when this string is present anywhere in an XHR's request URL.\n5. Press Enter to confirm.\n\n"
   },
   "Safari": {
-    "Name": "Debug XHR & Fetch calls",
     "References": "[1] \"URL Breakpoints\" - [Webkit](https://webkit.org/web-inspector/url-breakpoints/)\n",
     "Notes": "1. In the **Sources** tab, click the \"+\" button in the left sidebar within the **Breakpoints** section > Select \"URL Breakpoint...\"\n2. Use the popup form to apply breakpoint on specific keywords and matching conditions.\n3. Alternatively, you can set breakpoint on all the requests by selecting \"All Requests\" after clicking the \"+\" button.\n"
   },
   "Opera": {
     "References": "\n",
-    "Notes": "1. Click the **Sources** tab.\n2. Expand the **XHR Breakpoints** pane.\n3. Click **Add breakpoint**.\n4. Enter the string which you want to break on. DevTools pauses when this string is present anywhere in an XHR's request URL.\n5. Press Enter to confirm.\n",
-    "Name": "Debug XHR & Fetch calls"
+    "Notes": "1. Click the **Sources** tab.\n2. Expand the **XHR Breakpoints** pane.\n3. Click **Add breakpoint**.\n4. Enter the string which you want to break on. DevTools pauses when this string is present anywhere in an XHR's request URL.\n5. Press Enter to confirm.\n"
   }
 }

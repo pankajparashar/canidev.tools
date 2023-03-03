@@ -9,17 +9,14 @@
   "Chrome": {
     "Share": "https://twitter.com/CanIDevTools/status/1555394008456646656",
     "Notes": "In the **Console** tab, right click anywhere > select \"Clear console history\" to remove all the commands from its history.\n",
-    "Name": "Clear command history",
     "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1659669026/clear-command-history-chrome_vmlcs6.mp4"
   },
   "Edge": {
     "Notes": "In the **Console** tab, right click anywhere > select \"Clear console history\" to remove all the commands from its history.\n",
-    "Share": "https://twitter.com/CanIDevTools/status/1555394008456646656",
-    "Name": "Clear command history"
+    "Share": "https://twitter.com/CanIDevTools/status/1555394008456646656"
   },
   "Opera": {
     "Share": "https://twitter.com/CanIDevTools/status/1555394008456646656",
-    "Notes": "In the **Console** tab, right click anywhere > select \"Clear console history\" to remove all the commands from its history.\n",
-    "Name": "Clear command history"
+    "Notes": "In the **Console** tab, right click anywhere > select \"Clear console history\" to remove all the commands from its history.\n"
   }
 }

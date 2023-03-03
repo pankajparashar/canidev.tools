@@ -5,16 +5,16 @@
   "Category": "Audit",
   "LastModifiedTime": "2023-03-02T22:17:09.000Z",
   "Author": "@pankajparashar",
+  "Related": [
+    "throttle-network-speed"
+  ],
   "Chrome": {
-    "Name": "Throttle CPU speed",
     "Notes": "1. In the **Performance** panel, open **Settings** using the gear icon and select the \"CPU: No throttling\" dropdown to choose \"4x/6x slowdown\".\n"
   },
   "Edge": {
-    "Name": "Throttle CPU speed",
     "Notes": "1. In the **Performance** panel, open **Settings** using the gear icon and select the \"CPU: No throttling\" dropdown to choose \"4x/6x slowdown\".\n"
   },
   "Opera": {
-    "Name": "Throttle CPU speed",
     "Notes": "1. In the **Performance** panel, open **Settings** using the gear icon and select the \"CPU: No throttling\" dropdown to choose \"4x/6x slowdown\".\n"
   }
 }

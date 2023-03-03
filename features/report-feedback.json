@@ -6,22 +6,18 @@
   "LastModifiedTime": "2022-07-27T05:01:36.000Z",
   "Author": "@pankajparashar",
   "Chrome": {
-    "Notes": "Use the following options to discuss the new features and changes in the docs, or anything else related to DevTools.\n1. Submit a suggestion or feedback via [crbug.com](https://crbug.com/).\n2. Report a DevTools issue using the \"More options\" > Help > Report a DevTools issues in DevTools.\n3. Tweet at [@ChromeDevTools](https://twitter.com/intent/tweet?text=@ChromeDevTools).\n4. Leave comments on \"What's new in DevTools\" [YouTube videos](https://goo.gle/devtools-youtube).\n5. Chrome DevTools [documentation](https://developer.chrome.com/docs/devtools/)\n\n",
-    "Name": "Report feedback"
+    "Notes": "Use the following options to discuss the new features and changes in the docs, or anything else related to DevTools.\n1. Submit a suggestion or feedback via [crbug.com](https://crbug.com/).\n2. Report a DevTools issue using the \"More options\" > Help > Report a DevTools issues in DevTools.\n3. Tweet at [@ChromeDevTools](https://twitter.com/intent/tweet?text=@ChromeDevTools).\n4. Leave comments on \"What's new in DevTools\" [YouTube videos](https://goo.gle/devtools-youtube).\n5. Chrome DevTools [documentation](https://developer.chrome.com/docs/devtools/)\n\n"
   },
   "Firefox": {
     "Notes": "1. [Bugzilla](https://bugzilla.mozilla.org/describecomponents.cgi?product=DevTools) - For bugs in Firefox DevTools, the developer tools within the Firefox web browser. This includes issues about the user interface of the toolbox, special pages such as about:debugging and about:devtools, and developer-related APIs.\n2. [Discourse](https://discourse.mozilla.org/c/devtools/213) forums \n3. [@FirefoxDevTools](https://twitter.com/FirefoxDevTools) on Twitter\n4. [YouTube](https://www.youtube.com/playlist?list=PLgjjGlfBflIRRWuCXnSTU1-35EcDc5Jwf)\n5. Firefox DevTools [Docs](https://firefox-source-docs.mozilla.org/devtools-user/index.html)\n\n",
-    "References": "\n",
-    "Name": "Report feedback"
+    "References": "\n"
   },
   "Edge": {
     "Notes": "1. Use the send [feedback](https://docs.microsoft.com/en-us/microsoft-edge/devtools-guide-chromium/contact#use-the-send-feedback-window) button (`Opt/Alt+Shift+I`) to report any issues encountered while using the DevTools.\n2. File issues on the Microsoft Edge DevTools [Github](https://github.com/MicrosoftEdge/DevTools) repository.\n3. Report Docs related bugs or issues on the Edge Developer [Github](https://github.com/MicrosoftDocs/edge-developer) repository.\n4. Microsoft Edge DevTools [documentation](https://docs.microsoft.com/en-us/microsoft-edge/devtools-guide-chromium/).\n",
-    "Name": "Report feedback",
     "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1658899044/report-feedback-edge_ij5qao.mp4",
     "References": "\n"
   },
   "Safari": {
-    "Name": "Report feedback",
     "References": "\n",
     "Notes": "1. File Webkit Inspector related bugs on Webkit [Bugzilla](https://webkit.org/new-inspector-bug) or report issues on the [Github](https://github.com/WebKit/WebKit) repository.\n2. Web Inspector [Reference](https://webkit.org/web-inspector/)\n"
   }

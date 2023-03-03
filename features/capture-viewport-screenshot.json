@@ -6,23 +6,18 @@
   "LastModifiedTime": "2023-03-02T22:02:32.000Z",
   "Author": "@pankajparashar",
   "Chrome": {
-    "Notes": "1. Open devtools > Launch Command menu > Search for \"Capture screenshot\".\n2. Press Enter to capture the screenshot of the viewport.\n",
-    "Name": "Capture viewport screenshot"
+    "Notes": "1. Open devtools > Launch Command menu > Search for \"Capture screenshot\".\n2. Press Enter to capture the screenshot of the viewport.\n"
   },
   "Firefox": {
-    "Notes": "1. Right click on the page > Click \"Take screenshot\"\n",
-    "Name": "Capture viewport screenshot"
+    "Notes": "1. Right click on the page > Click \"Take screenshot\"\n"
   },
   "Edge": {
-    "Notes": "1. Open devtools > Open command menu > Search for \"Capture  screenshot\"\n",
-    "Name": "Capture viewport screenshot"
+    "Notes": "1. Open devtools > Open command menu > Search for \"Capture  screenshot\"\n"
   },
   "Safari": {
-    "Name": "Capture viewport screenshot",
     "Notes": "Use `console.screenshot()` to capture the screenshot of the viewport. \n"
   },
   "Opera": {
-    "Notes": "1. Open devtools > Launch Command menu > Search for \"Capture screenshot\".\n2. Press Enter to capture the screenshot of the viewport.\n",
-    "Name": "Capture viewport screenshot"
+    "Notes": "1. Open devtools > Launch Command menu > Search for \"Capture screenshot\".\n2. Press Enter to capture the screenshot of the viewport.\n"
   }
 }

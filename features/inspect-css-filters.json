@@ -6,7 +6,6 @@
   "LastModifiedTime": "2022-10-02T15:06:10.000Z",
   "Author": "@pankajparashar",
   "Firefox": {
-    "Notes": "1. In **Rules** > identify the filter property and click the swatch icon next to the filter value.\n2. Use the editor to add, modify or remove filter functions, reorder and create presets to reuse later.\n",
-    "Name": "Inspect CSS Filters"
+    "Notes": "1. In **Rules** > identify the filter property and click the swatch icon next to the filter value.\n2. Use the editor to add, modify or remove filter functions, reorder and create presets to reuse later.\n"
   }
 }

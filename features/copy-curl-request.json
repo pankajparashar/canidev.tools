@@ -6,23 +6,18 @@
   "LastModifiedTime": "2022-07-03T04:36:04.000Z",
   "Author": "@pankajparashar",
   "Chrome": {
-    "Notes": "In the **Network** tab, right click on the request, Copy > Copy as cURL will copy the request with cURL command to the clipboard.\n",
-    "Name": "Copy cURL request"
+    "Notes": "In the **Network** tab, right click on the request, Copy > Copy as cURL will copy the request with cURL command to the clipboard.\n"
   },
   "Firefox": {
-    "Notes": "1. In the **Network** tab, right click on the request, Copy > Copy as cURL will copy the request with cURL command to the clipboard.\n",
-    "Name": "Copy cURL request"
+    "Notes": "1. In the **Network** tab, right click on the request, Copy > Copy as cURL will copy the request with cURL command to the clipboard.\n"
   },
   "Edge": {
-    "Notes": "In the **Network** tab, right click on the request, Copy > Copy as cURL will copy the request with cURL command to the clipboard.\n",
-    "Name": "Copy cURL request"
+    "Notes": "In the **Network** tab, right click on the request, Copy > Copy as cURL will copy the request with cURL command to the clipboard.\n"
   },
   "Safari": {
-    "Name": "Copy cURL request",
     "Notes": "In the **Network** tab, right click on the request, \"Copy as cURL\" will copy the request with cURL command to the clipboard.\n"
   },
   "Opera": {
-    "Notes": "In the **Network** tab, right click on the request, Copy > Copy as cURL will copy the request with cURL command to the clipboard.\n",
-    "Name": "Copy cURL request"
+    "Notes": "In the **Network** tab, right click on the request, Copy > Copy as cURL will copy the request with cURL command to the clipboard.\n"
   }
 }

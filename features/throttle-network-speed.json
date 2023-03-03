@@ -5,20 +5,19 @@
   "Category": "Network",
   "LastModifiedTime": "2022-10-03T15:04:56.000Z",
   "Author": "@pankajparashar",
+  "Related": [
+    "throttle-cpu-speed"
+  ],
   "Chrome": {
-    "Notes": "1. In **Network** > Click the dropdown \"No Throttling\" and select a value to throttle the network speed.\n",
-    "Name": "Throttle network speed"
+    "Notes": "1. In **Network** > Click the dropdown \"No Throttling\" and select a value to throttle the network speed.\n"
   },
   "Firefox": {
-    "Notes": "1. In Network > Click the dropdown \"No Throttling\" and select a value to throttle the network speed.\n\n",
-    "Name": "Throttle network speed"
+    "Notes": "1. In Network > Click the dropdown \"No Throttling\" and select a value to throttle the network speed.\n\n"
   },
   "Edge": {
-    "Notes": "1. In Network > Click the dropdown \"No Throttling\" and select a value to throttle the network speed.\n\n",
-    "Name": "Throttle network speed"
+    "Notes": "1. In Network > Click the dropdown \"No Throttling\" and select a value to throttle the network speed.\n\n"
   },
   "Opera": {
-    "Notes": "1. In Network > Click the dropdown \"No Throttling\" and select a value to throttle the network speed.\n\n",
-    "Name": "Throttle network speed"
+    "Notes": "1. In Network > Click the dropdown \"No Throttling\" and select a value to throttle the network speed.\n\n"
   }
 }

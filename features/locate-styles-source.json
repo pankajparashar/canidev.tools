@@ -6,23 +6,18 @@
   "LastModifiedTime": "2022-07-09T09:03:53.000Z",
   "Author": "@pankajparashar",
   "Chrome": {
-    "Notes": "1. Inspect element > Find the corresponding declaration in the \"Styles\" pane. \n2. Click the `<filename>:<lineno>` link adjacent to the declaration to locate the style in the source file.\n",
-    "Name": "Locate styles in source"
+    "Notes": "1. Inspect element > Find the corresponding declaration in the \"Styles\" pane. \n2. Click the `<filename>:<lineno>` link adjacent to the declaration to locate the style in the source file.\n"
   },
   "Firefox": {
-    "Notes": "1. Inspect element > Find the corresponding declaration in the styles section. \n2. Click the `<filename>:<lineno>` link adjacent to the declaration to locate the style in the source file.\n",
-    "Name": "Locate styles in source"
+    "Notes": "1. Inspect element > Find the corresponding declaration in the styles section. \n2. Click the `<filename>:<lineno>` link adjacent to the declaration to locate the style in the source file.\n"
   },
   "Edge": {
-    "Notes": "1. Inspect element > Find the corresponding declaration in the \"Styles\" pane. \n2. Click the `<filename>:<lineno>` link adjacent to the declaration to locate the style in the source file.\n\n",
-    "Name": "Locate styles in source"
+    "Notes": "1. Inspect element > Find the corresponding declaration in the \"Styles\" pane. \n2. Click the `<filename>:<lineno>` link adjacent to the declaration to locate the style in the source file.\n\n"
   },
   "Safari": {
-    "Name": "Locate styles in source",
     "Notes": "1. Inspect element > Find the corresponding declaration in the styles section. \n2. Click the `<filename>:<lineno>` link adjacent to the declaration to locate the style in the source file.\n\n"
   },
   "Opera": {
-    "Notes": "1. Inspect element > Find the corresponding declaration in the \"Styles\" pane. \n2. Click the `<filename>:<lineno>` link adjacent to the declaration to locate the style in the source file.\n",
-    "Name": "Locate styles in source"
+    "Notes": "1. Inspect element > Find the corresponding declaration in the \"Styles\" pane. \n2. Click the `<filename>:<lineno>` link adjacent to the declaration to locate the style in the source file.\n"
   }
 }

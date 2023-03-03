@@ -9,22 +9,18 @@
     "Share": "https://twitter.com/jecfish/status/1512088763198951431",
     "References": "1. Jecelyn Yeen on [Twitter](https://twitter.com/jecfish/status/1512088763198951431)\n2. Full Accessibility Tree by [Chrome Developers](https://developer.chrome.com/blog/full-accessibility-tree/)\n",
     "Notes": "1. Inspect > Open the Accessibility pane on the right (Click the >> icon to show more tabs, if hidden) > Check \"Enable full-page accessibility tree\" > Reload Devtools.\n2. Click on the floating icon in the top right in the Elements panel which says, \"Switch to Accessibility tree view\".\n",
-    "Name": "View accessibility tree",
     "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1649521456/Videos/view-accessibility-tree-chrome.mp4"
   },
   "Firefox": {
     "Notes": "1. Open devtools > Accessibility (Click >> icon to open more tabs if hidden).\n2. The main section shows the accessibility tree under the Role section.\n",
-    "References": "1. \"Accessibility Inspector\" by [Firefox](https://firefox-source-docs.mozilla.org/devtools-user/accessibility_inspector/)\n2. \"Issue #2\" by [Nicolas](https://github.com/pankajparashar/canidev.tools/issues/2).\n\n",
-    "Name": "View accessibility tree"
+    "References": "1. \"Accessibility Inspector\" by [Firefox](https://firefox-source-docs.mozilla.org/devtools-user/accessibility_inspector/)\n2. \"Issue #2\" by [Nicolas](https://github.com/pankajparashar/canidev.tools/issues/2).\n\n"
   },
   "Edge": {
-    "Notes": "1. Inspect > Elements > Open the Accessibility pane on the right (Click the >> icon to show more tabs, if hidden) > Check \"Enable full-page accessibility tree\" > Reload Devtools.\n2. Click on the floating icon in the top right in the Elements panel which says, \"Switch to Accessibility tree view\".\n",
-    "Name": "View accessibility tree"
+    "Notes": "1. Inspect > Elements > Open the Accessibility pane on the right (Click the >> icon to show more tabs, if hidden) > Check \"Enable full-page accessibility tree\" > Reload Devtools.\n2. Click on the floating icon in the top right in the Elements panel which says, \"Switch to Accessibility tree view\".\n"
   },
   "Opera": {
     "References": "\n",
     "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1649521456/Videos/view-accessibility-tree-chrome.mp4",
-    "Notes": "1. Inspect > Open the Accessibility pane on the right (Click the >> icon to show more tabs, if hidden) > Check \"Enable full-page accessibility tree\" > Reload Devtools.\n2. Click on the floating icon in the top right in the Elements panel which says, \"Switch to Accessibility tree view\".\n",
-    "Name": "View accessibility tree"
+    "Notes": "1. Inspect > Open the Accessibility pane on the right (Click the >> icon to show more tabs, if hidden) > Check \"Enable full-page accessibility tree\" > Reload Devtools.\n2. Click on the floating icon in the top right in the Elements panel which says, \"Switch to Accessibility tree view\".\n"
   }
 }

@@ -9,27 +9,22 @@
   "Chrome": {
     "Share": "https://twitter.com/CanIDevTools/status/1542517123536539648",
     "References": "\n",
-    "Notes": "1. Inspect the element > Right click on the node in the DOM tree > Copy > Copy full XPath\n",
-    "Name": "Get node XPath"
+    "Notes": "1. Inspect the element > Right click on the node in the DOM tree > Copy > Copy full XPath\n"
   },
   "Firefox": {
     "Share": "https://twitter.com/CanIDevTools/status/1542517879241076737",
-    "Notes": "1. Inspect element > Right click on the node in the DOM tree > Copy > XPath\n",
-    "Name": "Get node XPath"
+    "Notes": "1. Inspect element > Right click on the node in the DOM tree > Copy > XPath\n"
   },
   "Edge": {
     "Notes": "1. Inspect element > Right click on the node in the DOM tree > Copy > Copy full XPath\n",
-    "Share": "https://twitter.com/CanIDevTools/status/1542518234439892992",
-    "Name": "Get node XPath"
+    "Share": "https://twitter.com/CanIDevTools/status/1542518234439892992"
   },
   "Safari": {
     "Share": "https://twitter.com/CanIDevTools/status/1542518565508874240",
-    "Name": "Get node XPath",
     "Notes": "1. Inspect element > Right click on the node in the DOM tree > Copy > XPath.\n"
   },
   "Opera": {
     "Share": "https://twitter.com/CanIDevTools/status/1542518884036911104",
-    "Notes": "1. Inspect the element > Right click on the node in the DOM tree > Copy > Copy full XPath\n\n",
-    "Name": "Get node XPath"
+    "Notes": "1. Inspect the element > Right click on the node in the DOM tree > Copy > Copy full XPath\n\n"
   }
 }

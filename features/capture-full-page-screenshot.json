@@ -9,31 +9,26 @@
   "Chrome": {
     "Share": "https://twitter.com/CanIDevTools/status/1598732034297729024",
     "Notes": "1. Open **Command Menu** (`Cmd+Shift+P` or `Ctrl+Shift+P`) & Run > \"Capture full size screenshot\" and press `Enter`.\n2. This will save a PNG image with url as the filename in the **Downloads** directory.\n",
-    "Name": "Capture full page screenshot",
     "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1669922647/capture-full-page-screenshot-chrome_dqi6a5.mp4"
   },
   "Firefox": {
     "Share": "https://twitter.com/CanIDevTools/status/1598734109400076293",
     "Notes": "1. In the **Inspector** panel, right click on the `html` node > select \"Screenshot Node\".\n2. This will save a PNG image with current date time as the filename in the **Downloads** directory.\n",
-    "Name": "Capture full page screenshot",
     "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1668374467/capture-full-page-screenshot-firefox_hjns0z.mp4"
   },
   "Edge": {
     "Notes": "1. Open **Command** **Menu** (`Cmd+Shift+P` or `Ctrl+Shift+P`) & Run > \"Capture full size screenshot\" and press `Enter`.\n2. This will save a PNG image with url as the filename in the **Downloads** directory.\n",
     "Share": "https://twitter.com/CanIDevTools/status/1598732034297729024",
-    "Name": "Capture full page screenshot",
     "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1668372196/capture-full-page-screenshot-edge_r873ce.mp4"
   },
   "Safari": {
     "Share": "https://twitter.com/CanIDevTools/status/1598734869181468678",
-    "Name": "Capture full page screenshot",
     "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1669923062/capture-full-page-screenshot-safari_xrfv9z.mp4",
     "Notes": "1. In the **Elements** panel, right click on the `html` node and select \"Capture Screenshot\".\n2. This will save a PNG image with current date time as the filename in the **Downloads** directory.\n"
   },
   "Opera": {
     "Share": "https://twitter.com/CanIDevTools/status/1598732034297729024",
     "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1669924135/capture-full-page-screenshot-opera_lyrofz.mp4",
-    "Notes": "1. Open **Command** **Menu** (`Cmd+Shift+P` or `Ctrl+Shift+P`) & Run > \"Capture full size screenshot\" and press `Enter`.\n2. This will save a PNG image with url as the filename in the **Downloads** directory.\n",
-    "Name": "Capture full page screenshot"
+    "Notes": "1. Open **Command** **Menu** (`Cmd+Shift+P` or `Ctrl+Shift+P`) & Run > \"Capture full size screenshot\" and press `Enter`.\n2. This will save a PNG image with url as the filename in the **Downloads** directory.\n"
   }
 }

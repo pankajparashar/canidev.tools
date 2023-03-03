@@ -6,23 +6,18 @@
   "LastModifiedTime": "2022-07-09T09:06:48.000Z",
   "Author": "@pankajparashar",
   "Chrome": {
-    "Notes": "1. Use the `Up` arrow key to scroll through the list of previously executed commands and then press `Enter`.\n",
-    "Name": "Run previous commands"
+    "Notes": "1. Use the `Up` arrow key to scroll through the list of previously executed commands and then press `Enter`.\n"
   },
   "Firefox": {
-    "Notes": "1. Use the `Up` arrow key to scroll through the list of previously executed commands and then press `Enter`.\n\n",
-    "Name": "Run previous commands"
+    "Notes": "1. Use the `Up` arrow key to scroll through the list of previously executed commands and then press `Enter`.\n\n"
   },
   "Edge": {
-    "Notes": "1. Use the `Up` arrow key to scroll through the list of previously executed commands and then press `Enter`.\n",
-    "Name": "Run previous commands"
+    "Notes": "1. Use the `Up` arrow key to scroll through the list of previously executed commands and then press `Enter`.\n"
   },
   "Safari": {
-    "Name": "Run previous commands",
     "Notes": "1. Use the `Up` arrow key to scroll through the list of previously executed commands and then press `Enter`.\n\n"
   },
   "Opera": {
-    "Notes": "1. Use the `Up` arrow key to scroll through the list of previously executed commands and then press `Enter`.\n",
-    "Name": "Run previous commands"
+    "Notes": "1. Use the `Up` arrow key to scroll through the list of previously executed commands and then press `Enter`.\n"
   }
 }

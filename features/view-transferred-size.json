@@ -6,23 +6,18 @@
   "LastModifiedTime": "2023-03-02T22:34:22.000Z",
   "Author": "@pankajparashar",
   "Chrome": {
-    "Name": "View transferred size",
     "Notes": "1. In the **Network** panel, the footer contains the size of the data transferred in Bytes. If a filter is applied, then it displays the size of the filtered resources followed by all the resources.\n"
   },
   "Firefox": {
-    "Name": "View transferred size",
     "Notes": "1. In the **Network** panel, the footer contains the size of the data transferred in Bytes. If a filter is applied, then it displays the size of the filtered resources followed by all the resources.\n"
   },
   "Edge": {
-    "Name": "View transferred size",
     "Notes": "1. In the **Network** panel, the footer contains the size of the data transferred in Bytes. If a filter is applied, then it displays the size of the filtered resources followed by all the resources.\n"
   },
   "Safari": {
-    "Name": "View transferred size",
     "Notes": "1. In the **Network** panel, the footer contains the size of the data transferred in Bytes. If a filter is applied, then it displays the size of the filtered resources.\n"
   },
   "Opera": {
-    "Name": "View transferred size",
     "Notes": "1. In the **Network** panel, the footer contains the size of the data transferred in Bytes. If a filter is applied, then it displays the size of the filtered resources followed by all the resources.\n"
   }
 }

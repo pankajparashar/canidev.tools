@@ -7,15 +7,12 @@
   "Author": "@pankajparashar",
   "Chrome": {
     "References": "1. \"What's new in DevTools?\" - Chrome DevTools [Blog](https://developer.chrome.com/en/blog/new-in-devtools-94/#localized)\n",
-    "Notes": "1. Open **Settings** (`F1` or `Shift+?`) > Preferences > In the **Appearance** section, choose a language from the **Language** dropdown > Reload DevTools to apply the new language.\n",
-    "Name": "Change devtools language"
+    "Notes": "1. Open **Settings** (`F1` or `Shift+?`) > Preferences > In the **Appearance** section, choose a language from the **Language** dropdown > Reload DevTools to apply the new language.\n"
   },
   "Edge": {
-    "Notes": "1. Open **Settings** (`F1` or `Shift+?`) > Preferences > In the **Appearance** section, choose a language from the **Language** dropdown > Reload DevTools to apply the new language.\n",
-    "Name": "Change devtools language"
+    "Notes": "1. Open **Settings** (`F1` or `Shift+?`) > Preferences > In the **Appearance** section, choose a language from the **Language** dropdown > Reload DevTools to apply the new language.\n"
   },
   "Opera": {
-    "Notes": "1. Open **Settings** (`F1` or `Shift+?`) > Preferences > In the **Appearance** section, choose a language from the **Language** dropdown > Reload DevTools to apply the new language.\n",
-    "Name": "Change devtools language"
+    "Notes": "1. Open **Settings** (`F1` or `Shift+?`) > Preferences > In the **Appearance** section, choose a language from the **Language** dropdown > Reload DevTools to apply the new language.\n"
   }
 }

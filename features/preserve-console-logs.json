@@ -6,24 +6,19 @@
   "LastModifiedTime": "2022-07-06T06:31:55.000Z",
   "Author": "@pankajparashar",
   "Chrome": {
-    "Notes": "1. Open console using `Cmd+Opt+J` or `Ctrl+Shift+J` > Click on the gear icon in top right to open \"Console settings\".\n2. Check \"Preserve log\" to preserve log statements between page reloads.\n",
-    "Name": "Preserve console logs"
+    "Notes": "1. Open console using `Cmd+Opt+J` or `Ctrl+Shift+J` > Click on the gear icon in top right to open \"Console settings\".\n2. Check \"Preserve log\" to preserve log statements between page reloads.\n"
   },
   "Firefox": {
-    "Notes": "1. Open **Console Settings** from the toolbar in top right > Click \"Persist Logs\" to preserve the console output each time you visit a new page.\n",
-    "Name": "Preserve console logs"
+    "Notes": "1. Open **Console Settings** from the toolbar in top right > Click \"Persist Logs\" to preserve the console output each time you visit a new page.\n"
   },
   "Edge": {
     "Notes": "1. Open console using `Cmd+Opt+J` or `Ctrl+Shift+J` > Click on the gear icon in top right to open \"Console settings\".\n2. Check \"Preserve log\" to preserve log statements between page reloads.\n\n",
-    "Name": "Preserve console logs",
     "References": "1. \"Issue #1\" by [@codepo8](https://github.com/pankajparashar/canidev.tools/issues/1).\n"
   },
   "Safari": {
-    "Name": "Preserve console logs",
     "Notes": "1. In the **Console** tab, select the \"Preserve Log\" checkbox in the toolbar (top) to persist logs across page reloads.\n"
   },
   "Opera": {
-    "Notes": "1. Open console using `Cmd+Opt+J` or `Ctrl+Shift+J` > Click on the gear icon in top right to open \"Console settings\".\n2. Check \"Preserve log\" to preserve log statements between page reloads.\n",
-    "Name": "Preserve console logs"
+    "Notes": "1. Open console using `Cmd+Opt+J` or `Ctrl+Shift+J` > Click on the gear icon in top right to open \"Console settings\".\n2. Check \"Preserve log\" to preserve log statements between page reloads.\n"
   }
 }

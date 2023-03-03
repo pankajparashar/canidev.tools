@@ -8,11 +8,9 @@
   "Chrome": {
     "References": "[1] \"Automatically open Devtools with new tab\" - [Addy Osmani](https://addyosmani.com/blog/automatically-open-chrome-devtools-in-each-new-tab/)\n",
     "Notes": "1. **MacOS**: In the terminal, pass the `--auto-open-devtools-for-tabs` flag to while launching Chrome<sup>[1]</sup>\n```\n/Applications/Google\\ Chrome.app/Contents/MacOS/Google\\ Chrome --auto-open-devtools-for-tabs https://web.dev\n```\n1. **Windows**: Right-click the Chrome shortcut > Properties and add the flag at the end of the Target line. Alternatively, run the following from your command-line,\n```\n\"C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe\" -auto-open-devtools-for-tabs\n```\n",
-    "Name": "Open devtools with new tab",
     "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1655896879/Videos/open-devtools-new-tab_om8hgo.mp4"
   },
   "Edge": {
-    "Notes": "1. **MacOS**: In the terminal, pass the `--auto-open-devtools-for-tabs` flag to while launching Edge.\n```\n/Applications/Microsoft\\ Edge.app/Contents/MacOS/Microsoft\\ Edge --auto-open-devtools-for-tabs https://web.dev\n```\n1. **Windows**: Right-click the Edge shortcut > Properties and add the flag at the end of the Target line. Alternatively, run the following from your command-line,\n```\n\"C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\edge.exe\" -auto-open-devtools-for-tabs\n```\n",
-    "Name": "Open devtools with new tab"
+    "Notes": "1. **MacOS**: In the terminal, pass the `--auto-open-devtools-for-tabs` flag to while launching Edge.\n```\n/Applications/Microsoft\\ Edge.app/Contents/MacOS/Microsoft\\ Edge --auto-open-devtools-for-tabs https://web.dev\n```\n1. **Windows**: Right-click the Edge shortcut > Properties and add the flag at the end of the Target line. Alternatively, run the following from your command-line,\n```\n\"C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\edge.exe\" -auto-open-devtools-for-tabs\n```\n"
   }
 }

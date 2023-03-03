@@ -6,7 +6,6 @@
   "LastModifiedTime": "2023-01-30T07:00:35.000Z",
   "Author": "@pankajparashar",
   "Firefox": {
-    "Notes": "1. In the **Inspector** panel, the elements with scrollbars have a `scroll` badge next to it. Click on the badge to jump to the element(s) that caused it.\n",
-    "Name": "Debug scroll overflow"
+    "Notes": "1. In the **Inspector** panel, the elements with scrollbars have a `scroll` badge next to it. Click on the badge to jump to the element(s) that caused it.\n"
   }
 }

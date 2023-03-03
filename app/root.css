@@ -91,6 +91,10 @@ blockquote {
   justify-content: space-between;
 }
 
+.mantine-Accordion-content {
+  padding: 0;
+}
+
 /* Carbon Ad */
 .carbon-cad {
   display: block;

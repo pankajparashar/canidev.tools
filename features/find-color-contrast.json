@@ -7,19 +7,15 @@
   "Author": "@pankajparashar",
   "Chrome": {
     "References": "[1] \"Color Picker\" - [Chrome DevTools Docs](https://developer.chrome.com/docs/devtools/css/reference/#color-picker)\n",
-    "Notes": "1. Inspect element > In the **Styles** pane, click the color square next to the `color` property. This will open the color panel.\n2. Expand the \"Contrast Ratio\" section to see more details whether the color value meets the W3C recommendation.\n3. Use the \"reload\" icon next to AA/AAA to use the suggested color to fix the low color contrast ratio.\n",
-    "Name": "Find color contrast ratio"
+    "Notes": "1. Inspect element > In the **Styles** pane, click the color square next to the `color` property. This will open the color panel.\n2. Expand the \"Contrast Ratio\" section to see more details whether the color value meets the W3C recommendation.\n3. Use the \"reload\" icon next to AA/AAA to use the suggested color to fix the low color contrast ratio.\n"
   },
   "Firefox": {
-    "Notes": "1. Inspect the text element (this will open the devtools panel).\n2. In the pane next to the DOM tree, look for the section where the `color` property is set for the element.\n3. Click on the color circle next to the `color` property. This will open the color panel.\n",
-    "Name": "Find color contrast ratio"
+    "Notes": "1. Inspect the text element (this will open the devtools panel).\n2. In the pane next to the DOM tree, look for the section where the `color` property is set for the element.\n3. Click on the color circle next to the `color` property. This will open the color panel.\n"
   },
   "Edge": {
-    "Notes": "1. Inspect element > In the **Styles** pane, click the color square next to the `color` property. This will open the color panel.\n2. Expand the \"Contrast Ratio\" section to see more details whether the color value meets the W3C recommendation.\n3. Use the \"reload\" icon next to AA/AAA to use the suggested color to fix the low color contrast ratio.\n",
-    "Name": "Find color contrast ratio"
+    "Notes": "1. Inspect element > In the **Styles** pane, click the color square next to the `color` property. This will open the color panel.\n2. Expand the \"Contrast Ratio\" section to see more details whether the color value meets the W3C recommendation.\n3. Use the \"reload\" icon next to AA/AAA to use the suggested color to fix the low color contrast ratio.\n"
   },
   "Opera": {
-    "Notes": "1. Inspect element > In the Styles pane, click the color square next to the `color` property. This will open the color panel.\n2. Expand the \"Contrast Ratio\" section to see more details whether the color value meets the W3C recommendation.\n3. Use the \"reload\" icon next to AA/AAA to use the suggested color to fix the low color contrast ratio.\n",
-    "Name": "Find color contrast ratio"
+    "Notes": "1. Inspect element > In the Styles pane, click the color square next to the `color` property. This will open the color panel.\n2. Expand the \"Contrast Ratio\" section to see more details whether the color value meets the W3C recommendation.\n3. Use the \"reload\" icon next to AA/AAA to use the suggested color to fix the low color contrast ratio.\n"
   }
 }

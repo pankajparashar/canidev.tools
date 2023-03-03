@@ -8,7 +8,6 @@
   "Chrome": {
     "References": "[1] \"Container Queries\" - [Chrome DevTools Docs](https://developer.chrome.com/docs/devtools/css/container-queries/)\n",
     "Notes": "1. Every element defined as a query container has a `container` badge next to it in the **Elements** panel. The badge toggles a dotted-line overlay of the container and its descendants.\n2. To find and select a container element that caused the query to take effect, hover over and click the element name above the `@container` declaration. \n3. When hovered over, the name turns into a link to the element in the **Elements** panel and the **Styles** pane displays the queried property and its current value.\n",
-    "Name": "Inspect container queries",
     "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1656825850/Videos/inspect-container-queries-chrome_fiy7sn.mp4"
   }
 }

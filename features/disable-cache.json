@@ -6,23 +6,18 @@
   "LastModifiedTime": "2022-07-09T09:07:41.000Z",
   "Author": "@pankajparashar",
   "Chrome": {
-    "Notes": "1. Open Network panel > Look for \"Disable cache\" in the toolbar at the top.\n",
-    "Name": "Disable cache"
+    "Notes": "1. Open Network panel > Look for \"Disable cache\" in the toolbar at the top.\n"
   },
   "Firefox": {
-    "Notes": "1. Open Network panel > Look for \"Disable Cache\" in the toolbar at the top.\n",
-    "Name": "Disable cache"
+    "Notes": "1. Open Network panel > Look for \"Disable Cache\" in the toolbar at the top.\n"
   },
   "Edge": {
-    "Notes": "1. Open Network panel > Look for \"Disable Cache\" in the toolbar at the top.\n",
-    "Name": "Disable cache"
+    "Notes": "1. Open Network panel > Look for \"Disable Cache\" in the toolbar at the top.\n"
   },
   "Safari": {
-    "Name": "Disable cache",
     "Notes": "1. Open Network panel > Look for the icon in the top right of the toolbar with tooltip \"Ignore the resource cache when loading resources\".\n"
   },
   "Opera": {
-    "Notes": "1. Open Network panel > Look for \"Disable cache\" in the toolbar at the top.\n",
-    "Name": "Disable cache"
+    "Notes": "1. Open Network panel > Look for \"Disable cache\" in the toolbar at the top.\n"
   }
 }

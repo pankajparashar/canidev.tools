@@ -6,23 +6,18 @@
   "LastModifiedTime": "2022-07-09T09:11:30.000Z",
   "Author": "@pankajparashar",
   "Chrome": {
-    "Notes": "1. Inspect the element in the DOM tree.\n2. Click on the Accessibility tab (It maybe hidden behind the \"More Tabs\" button). Scroll down to the section which says, \"ARIA Attributes\".\n",
-    "Name": "View ARIA attrs"
+    "Notes": "1. Inspect the element in the DOM tree.\n2. Click on the Accessibility tab (It maybe hidden behind the \"More Tabs\" button). Scroll down to the section which says, \"ARIA Attributes\".\n"
   },
   "Firefox": {
-    "Notes": "1. Right click on the element on the page and select \"Inspect Accessibility Properties\".\n2. This will open the Accessibility tab. The ARIA attributes are available under the \"Properties\" panel on the right.\n\n",
-    "Name": "View ARIA attrs"
+    "Notes": "1. Right click on the element on the page and select \"Inspect Accessibility Properties\".\n2. This will open the Accessibility tab. The ARIA attributes are available under the \"Properties\" panel on the right.\n\n"
   },
   "Edge": {
-    "Notes": "1. Inspect the element in the DOM tree.\n2. Click on the Accessibility tab (It maybe hidden behind the \"More Tabs\" button). Scroll down to the section which says, \"ARIA Attributes\".\n\n",
-    "Name": "View ARIA attrs"
+    "Notes": "1. Inspect the element in the DOM tree.\n2. Click on the Accessibility tab (It maybe hidden behind the \"More Tabs\" button). Scroll down to the section which says, \"ARIA Attributes\".\n\n"
   },
   "Safari": {
-    "Name": "View ARIA attrs",
     "Notes": "1. Inspect the element > Click the **Node** pane next to the DOM node.\n2. Scroll down to the **Accessibility** section, expand to see all the ARA attributes for the selected node.\n"
   },
   "Opera": {
-    "Notes": "1. Inspect the element in the DOM tree.\n2. Click on the Accessibility tab (It maybe hidden behind the \"More Tabs\" button). Scroll down to the section which says, \"ARIA Attributes\".\n",
-    "Name": "View ARIA attrs"
+    "Notes": "1. Inspect the element in the DOM tree.\n2. Click on the Accessibility tab (It maybe hidden behind the \"More Tabs\" button). Scroll down to the section which says, \"ARIA Attributes\".\n"
   }
 }

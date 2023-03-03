@@ -1,55 +1,44 @@
 import * as fs from 'fs';
 import path from 'path';
+
 import { formatDistanceToNow } from 'date-fns'
 
 import { Outlet } from '@remix-run/react';
 import { Link, useLoaderData, useParams, useLocation } from '@remix-run/react';
-import { json } from '@remix-run/node'; // or cloudflare/deno
-import { Stack, Button } from '@mantine/core';
+import { json } from '@remix-run/node';
+import { Text, Button } from '@mantine/core';
 import { Group } from '@mantine/core';
-import { Breadcrumbs, Anchor } from '@mantine/core';
-import { Box } from '@mantine/core';
+import { Accordion, Anchor } from '@mantine/core';
+import { Box, NavLink } from '@mantine/core';
 import { Divider } from '@mantine/core';
-import { Badge, Grid } from '@mantine/core';
-import { IconHome2, IconBrandGithub } from '@tabler/icons';
+import { Badge } from '@mantine/core';
+import { IconBrandGithub } from '@tabler/icons';
 import { Alert } from '@mantine/core';
-import { Space } from '@mantine/core';
-import { ThemeIcon } from '@mantine/core';
-
 import { SimpleGrid } from '@mantine/core';
-import { Spoiler } from '@mantine/core';
 import {
-	IconInfoCircle,
-	IconAlertCircle,
+	IconChevronRight,
 	IconBrandChrome,
 	IconBrandFirefox,
 	IconBrandEdge,
 	IconBrandSafari,
 	IconBrandOpera,
 	IconBoxMargin,
-	IconList,
 	IconAccessible,
 	IconReportMedical,
 	IconTerminal2,
-	IconZoomCode,
-	IconBrandJavascript,
 	IconBrandNextjs,
 	IconAffiliate,
 	IconHexagons,
 	IconCrosshair,
 	IconCode,
-	IconGauge,
-	IconClock,
-	IconUser,
-	IconNews,
-	IconAt,
 } from '@tabler/icons';
 
 export const meta = ({ data }) => {
-	const title = `${data.Name} | Can I DevTools?`
-	const description = data.Description
-	const url = `https://canidev.tools/${data.Slug}/`
-	const image = `https://canidev.tools/images/${data.Slug}.png`
+	const { record } = data
+	const title = `${record.Name} | Can I DevTools?`
+	const description = record.Description
+	const url = `https://canidev.tools/${record.Slug}/`
+	const image = `https://canidev.tools/images/${record.Slug}.png`
 	
 	return { 
 		title,
@@ -66,12 +55,21 @@ export function loader({ params }) {
 	const file = fs.readFileSync(filename);
 	const record = JSON.parse(file);
 
-	return json(record);
+	if(record.Related) {
+		record.Related = record.Related.map(slug => {
+			const xyz = path.join('features', slug + '.json');
+			const tuw = fs.readFileSync(xyz);
+			const related = JSON.parse(tuw);
+			return { Name: related.Name, Slug: related.Slug }
+		})
+	}
+
+	return json({ record });
 }
 
 export default function Feature() {
 	const params = useParams();
-	const feature = useLoaderData();
+	const { record: feature } = useLoaderData();
 	const location = useLocation();	
 	
 	const icons = {
@@ -264,6 +262,27 @@ export default function Feature() {
 						</Alert>
 					</SimpleGrid>
 					<Divider />
+					<Accordion>
+						<Accordion.Item value="Related">
+							<Accordion.Control p="xs" sx={theme => ({ borderBottom: borderColor(theme) })}>
+								<Text weight="700" size="sm">
+									Related ({`${feature.Related ? feature.Related.length : 0}`})
+								</Text>
+							</Accordion.Control>
+							<Accordion.Panel>
+								{feature.Related && feature.Related.map(record => 
+									<Link to={`/${record.Slug}`}>
+										<NavLink
+											key={record.Slug}
+											label={record.Name}
+											rightSection={<IconChevronRight size={12} stroke={1.5} />}
+										/>
+										<Divider />
+									</Link>
+								)}
+							</Accordion.Panel>
+						</Accordion.Item>
+					</Accordion>
 				</Box>
 			</Box>
 			<div>

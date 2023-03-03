@@ -8,26 +8,21 @@
   "Chrome": {
     "References": "\n",
     "Notes": "In the **Elements** tab, right click on the element in the DOM tree > Copy > Copy selector.\n",
-    "Name": "Copy as CSS selector",
     "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1658655363/copy-css-selector-chrome_ddz9za.mp4"
   },
   "Firefox": {
     "Notes": "1. In the **Inspector** tab, right click on the element in the DOM tree > Copy > CSS Selector.\n",
-    "Name": "Copy as CSS selector",
     "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1658653910/copy-css-selector-firefox_zr9o7h.mp4"
   },
   "Edge": {
-    "Notes": "In the **Elements** tab, right click on the element in the DOM tree > Copy > Copy selector.\n",
-    "Name": "Copy as CSS selector"
+    "Notes": "In the **Elements** tab, right click on the element in the DOM tree > Copy > Copy selector.\n"
   },
   "Safari": {
-    "Name": "Copy as CSS selector",
     "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1658654528/copy-css-selector-safari_w2ncyn.mp4",
     "Notes": "In the **Elements** tab, right click on the element in the DOM tree > Copy > Selector Path.\n"
   },
   "Opera": {
     "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1658655363/copy-css-selector-chrome_ddz9za.mp4",
-    "Notes": "In the **Elements** tab, right click on the element in the DOM tree > Copy > Copy selector.\n",
-    "Name": "Copy as CSS selector"
+    "Notes": "In the **Elements** tab, right click on the element in the DOM tree > Copy > Copy selector.\n"
   }
 }

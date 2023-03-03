@@ -6,23 +6,18 @@
   "LastModifiedTime": "2022-09-14T14:30:52.000Z",
   "Author": "@pankajparashar",
   "Chrome": {
-    "Notes": "1. Open devtools > Click on the Network panel (This will show a section containing table of network requests).\n",
-    "Name": "Inspect requests"
+    "Notes": "1. Open devtools > Click on the Network panel (This will show a section containing table of network requests).\n"
   },
   "Firefox": {
-    "Notes": "1. Open devtools > Click on the Network panel (This will show a section containing table of network requests).\n",
-    "Name": "Inspect requests"
+    "Notes": "1. Open devtools > Click on the Network panel (This will show a section containing table of network requests).\n"
   },
   "Edge": {
-    "Notes": "1. Open devtools > Click on the Network panel (This will show a section containing table of network requests).\n",
-    "Name": "Inspect requests"
+    "Notes": "1. Open devtools > Click on the Network panel (This will show a section containing table of network requests).\n"
   },
   "Safari": {
-    "Name": "Inspect requests",
     "Notes": "1. Open devtools > Click on the Network panel (This will show a section containing table of network requests).\n"
   },
   "Opera": {
-    "Notes": "1. Open devtools > Click on the Network panel (This will show a section containing table of network requests).\n",
-    "Name": "Inspect requests"
+    "Notes": "1. Open devtools > Click on the Network panel (This will show a section containing table of network requests).\n"
   }
 }
