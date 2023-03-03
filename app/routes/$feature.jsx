@@ -64,7 +64,9 @@ export function loader({ params }) {
 		})
 	}
 
-	return json({ record });
+	return json({ record }, {
+		"Cache-Control": "public, s-maxage=60",
+	  });
 }
 
 export default function Feature() {

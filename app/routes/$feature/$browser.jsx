@@ -16,7 +16,9 @@ export function loader({ params }) {
 
     const newObj = Object.fromEntries(Object.entries(record).map(([k, v]) => [k.toLowerCase(), v]));
 
-    return json(newObj);
+    return json(newObj, {
+        "Cache-Control": "public, s-maxage=60",
+      });
 }
 
 export default function Browser() {

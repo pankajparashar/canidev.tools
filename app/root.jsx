@@ -68,8 +68,10 @@ export function loader() {
         categories[category] = category in categories ? categories[category] + 1 : 1;
     });
     return json({ categories, ENV: {
-        VERCEL_ANALYTICS_ID: process.env.VERCEL_ANALYTICS_ID,
-      } });
+            VERCEL_ANALYTICS_ID: process.env.VERCEL_ANALYTICS_ID, } 
+        }, {
+        "Cache-Control": "public, s-maxage=60",
+      });
 }
 
 export function CarbonAds() {
