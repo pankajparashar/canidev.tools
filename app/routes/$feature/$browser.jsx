@@ -90,7 +90,7 @@ export default function Browser() {
                     <Accordion.Control
                         p="xs"
                         sx={theme => ({
-                            borderBottom: `1px solid ${theme.colorScheme === "dark" ? theme.colors.dark[6] : theme.colors.gray[4]}`,
+                            borderBottom: borderColor(theme),
                         })}>
                         <Text weight="700" size="sm">
                             References {`(${refCount})`}
