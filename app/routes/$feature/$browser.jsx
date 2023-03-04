@@ -77,7 +77,7 @@ export default function Browser() {
                         </Group>
                     </Accordion.Control>
                     <Accordion.Panel>
-                        <Box pl="xs" pb="xs"
+                        <Box pl="xs" pb="xs" pr="xs"
                             dangerouslySetInnerHTML={{
                                 __html: feature[browser].Notes ? marked.parse(feature[browser].Notes) : "",
                             }}
@@ -96,7 +96,7 @@ export default function Browser() {
                         </Text>
                     </Accordion.Control>
                     {feature[browser].References ? <Accordion.Panel>
-                        <Box pl="xs" pb="xs"
+                        <Box pl="xs" pb="xs" pr="xs"
                             dangerouslySetInnerHTML={{
                                 __html: feature[browser].References ? marked.parse(feature[browser].References) : "",
                             }}
