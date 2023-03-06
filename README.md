@@ -765,7 +765,8 @@
  1. Open **Command** Menu using `Cmd+Shift+P` or `Ctrl+Shift+P`. Search for "Show Coverage" and press `Enter`. (this will open the **Coverage** drawer next to the Console).
 2. Click the "Reload" button to see the unused JavaScript bytes per file. Clicking the row, will open the file in the **Sources** panel highlighting the unused lines with red colour.
 - [Safari](https://canidev.tools/find-unused-js/safari) 
- 1. In the **Sources** tab, open the JS file from the left sidebar. Click the "C" icon in the toolbar (top-right) to fade unexecuted code. Reload the page to fade unexecuted code.
+ 1. In the **Sources** panel, open the JS file from the left sidebar. Click the "C" icon in the toolbar (top-right) to fade unexecuted code. 
+2. Reload the page to fade unexecuted code.
 - [Opera](https://canidev.tools/find-unused-js/opera) 
  1. Open **Command** Menu using `Cmd+Shift+P` or `Ctrl+Shift+P`. Search for "Show Coverage" and press `Enter`. (this will open the **Coverage** drawer next to the Console).
 2. Click the "Reload" button to see the unused JavaScript bytes per file. Clicking the row, will open the file in the **Sources** panel highlighting the unused lines with red colour.
