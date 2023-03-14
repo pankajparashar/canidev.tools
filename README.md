@@ -499,18 +499,12 @@
 - [Chrome](https://canidev.tools/emulate-blurred-vision/chrome) 
  1. Run **Command** (`Cmd+Shift+P` or `Ctrl+Shift+P`) > "Show Rendering" (Drawer).
 2. Navigate to the **Emulate vision deficiencies** section and choose "Blurred vision".
-- [Firefox](https://canidev.tools/emulate-blurred-vision/firefox) 
- 1. Open devtools > Accessibility (Click >> icon for more tabs if hidden).
-2. Click the Simulate dropdown to test the website against different vision deficiencies.
 - [Edge](https://canidev.tools/emulate-blurred-vision/edge) 
- 1. Open devtools using `Cmd+Opt+I `(on Mac) or `Ctrl+Shift+I` (on Windows/Linux) > Click the triple dot icon in top right > More tools > Rendering.
-2. (Or) Run the command menu using `Cmd+Shift+P` (on Mac) or `Ctrl+Shift+P` (on Windows/Linux) > Search for "Show Rendering" > Press `Enter` to open the Rendering drawer.
-3. Scroll down to the section called "Emulate vision deficiencies" and select the type of deficiency to test your website.
-
+ 1. Run **Command** (`Cmd+Shift+P` or `Ctrl+Shift+P`) > "Show Rendering" (Drawer).
+2. Navigate to the **Emulate** **vision** **deficiencies** section and choose "Blurred vision".
 - [Opera](https://canidev.tools/emulate-blurred-vision/opera) 
- 1. Open devtools using `Cmd+Opt+I `(on Mac) or `Ctrl+Shift+I` (on Windows/Linux) > Click the triple dot icon in top right > More tools > Rendering.
-2. (Or) Run the command menu using `Cmd+Shift+P` (on Mac) or `Ctrl+Shift+P` (on Windows/Linux) > Search for "Show Rendering" > Press `Enter` to open the Rendering drawer.
-3. Scroll down to the section called "Emulate vision deficiencies" and select the type of deficiency to test your website.
+ 1. Run **Command** (`Cmd+Shift+P` or `Ctrl+Shift+P`) > "Show Rendering" (Drawer).
+2. Navigate to the **Emulate** **vision** **deficiencies** section and choose "Blurred vision".
 ## 36. Emulate color schemes 
  Can I emulate different color schemes for dark and light mode? 
 - [Chrome](https://canidev.tools/emulate-color-schemes/chrome) 

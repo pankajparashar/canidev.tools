@@ -4,25 +4,19 @@
   "Description": "Can I emulate blurred vision on a page?",
   "Category": "Accessibility",
   "Newsletter": "tips-tricks-3",
-  "LastModifiedTime": "2023-03-14T14:15:09.000Z",
+  "LastModifiedTime": "2023-03-14T14:18:45.000Z",
   "Author": "@pankajparashar",
   "Chrome": {
     "References": "\n",
     "Notes": "1. Run **Command** (`Cmd+Shift+P` or `Ctrl+Shift+P`) > \"Show Rendering\" (Drawer).\n2. Navigate to the **Emulate vision deficiencies** section and choose \"Blurred vision\".\n",
     "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1678802960/emulate-blurred-vision-chrome_aj62ff.mp4"
   },
-  "Firefox": {
-    "Notes": "1. Open devtools > Accessibility (Click >> icon for more tabs if hidden).\n2. Click the Simulate dropdown to test the website against different vision deficiencies.\n",
-    "References": "1. \"Accessibility Inspector\" by [Firefox source docs](https://firefox-source-docs.mozilla.org/devtools-user/accessibility_inspector/).\n2. \"Issue #2\" by [Nicolas](https://github.com/pankajparashar/canidev.tools/issues/2).\n"
-  },
   "Edge": {
-    "Notes": "1. Open devtools using `Cmd+Opt+I `(on Mac) or `Ctrl+Shift+I` (on Windows/Linux) > Click the triple dot icon in top right > More tools > Rendering.\n2. (Or) Run the command menu using `Cmd+Shift+P` (on Mac) or `Ctrl+Shift+P` (on Windows/Linux) > Search for \"Show Rendering\" > Press `Enter` to open the Rendering drawer.\n3. Scroll down to the section called \"Emulate vision deficiencies\" and select the type of deficiency to test your website.\n\n",
-    "Share": "https://twitter.com/CanIDevTools/status/1521513006978695168",
-    "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1651591652/Videos/simulate-vision-deficiencies-edge_jxa6w5.mp4",
-    "References": "1. DevTools Tips by [Patrick Brosset](https://devtoolstips.org/tips/en/simulate-color-vision-deficiencies/)\n2. Tips & Tricks #3 of the [Newsletter](https://www.getrevue.co/profile/CanIDevTools/issues/tips-tricks-3-1160422)\n\n"
+    "Notes": "1. Run **Command** (`Cmd+Shift+P` or `Ctrl+Shift+P`) > \"Show Rendering\" (Drawer).\n2. Navigate to the **Emulate** **vision** **deficiencies** section and choose \"Blurred vision\".\n",
+    "References": "\n"
   },
   "Opera": {
     "References": "\n",
-    "Notes": "1. Open devtools using `Cmd+Opt+I `(on Mac) or `Ctrl+Shift+I` (on Windows/Linux) > Click the triple dot icon in top right > More tools > Rendering.\n2. (Or) Run the command menu using `Cmd+Shift+P` (on Mac) or `Ctrl+Shift+P` (on Windows/Linux) > Search for \"Show Rendering\" > Press `Enter` to open the Rendering drawer.\n3. Scroll down to the section called \"Emulate vision deficiencies\" and select the type of deficiency to test your website.\n"
+    "Notes": "1. Run **Command** (`Cmd+Shift+P` or `Ctrl+Shift+P`) > \"Show Rendering\" (Drawer).\n2. Navigate to the **Emulate** **vision** **deficiencies** section and choose \"Blurred vision\".\n"
   }
 }
