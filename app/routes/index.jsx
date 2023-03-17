@@ -9,6 +9,10 @@ import { useLocalStorage } from '@mantine/hooks';
 import { ThemeIcon, Group, Divider, Stack, Button, Badge, Box, NavLink, Grid, SimpleGrid, ScrollArea, TextInput, Tooltip, Text } from '@mantine/core';
 import { IconHome2, IconStar, IconChevronRight, IconActivity, IconListSearch, IconSortAscending, IconBrandChrome, IconBrandFirefox, IconBrandEdge, IconBrandSafari, IconBrandOpera, IconCheckbox, IconSquareMinus, IconRss, IconTextPlus, IconSortDescending, IconSortAscendingLetters, IconSortDescendingLetters, IconArrowBack } from '@tabler/icons';
 
+export const config = {
+  runtime: 'edge'
+};
+
 export const loader = async ({ request }) => {
 	const url = new URL(request.url);
 	const category = url.searchParams.get('category') || 'all';
@@ -23,9 +27,9 @@ export const loader = async ({ request }) => {
 		const record = JSON.parse(file);
 		records.push(record);
 	});
-	
+
 	// Sort
-	records = sort === 'dsc' ? 
+	records = sort === 'dsc' ?
 		records.sort((a,b) => b.Name.localeCompare(a.Name)) : records
 
 	// Filter on category
@@ -33,17 +37,17 @@ export const loader = async ({ request }) => {
         !['all', 'favorites'].includes(category) ? records.filter(
 			(r) => r.Category.toLowerCase() === category.toLowerCase()
 		) : records;
-	
+
 	// Filter on search
 	records = search ?
 		records.filter(r => r.Name.toLowerCase().includes(search.toLowerCase()) || r.Description.toLowerCase().includes(search.toLowerCase()))
 		: records
-		
+
 	// Filter on browser
 	records = browser !== '' ?
 		records.filter(r => r[browser]) :
 		records
-		
+
 	return json(records);
 };
 
@@ -59,7 +63,7 @@ export default function Index() {
 	let features = useLoaderData()
 	const navigate = useNavigate();
 	const [params, setParams] = useSearchParams()
-	
+
 	const count = getCount(features)
 	const category = params.get('category') || 'all'
 	const sort = params.get('sort')
@@ -75,7 +79,7 @@ export default function Index() {
 		params.get('browser') === browser ?
 			params.delete('browser') :
 			params.set('browser', browser)
-			
+
 		navigate({
 			search: params.toString()
 		})
@@ -86,7 +90,7 @@ export default function Index() {
         favoritesSet.has(slug) ? favoritesSet.delete(slug) : favoritesSet.add(slug)
         setFavorites([...favoritesSet])
     }
-		
+
 	const borderColor = theme => `1px solid ${theme.colorScheme === "dark" ? theme.colors.dark[6] : theme.colors.gray[4]}`
 
 	return (
@@ -116,8 +120,8 @@ export default function Index() {
 									else url.searchParams.delete('search')
 									navigate({
 										search: url.searchParams.toString()
-									})	
-								}									
+									})
+								}
 							}}
 						/>
 					</Grid.Col>
@@ -150,7 +154,7 @@ export default function Index() {
 					</Button>
 				</SimpleGrid>
 			</Box>
-			
+
 			<ScrollArea offsetScrollbars type="auto" className="h_100vh" scrollbarSize={12}>
 				{features.map((feature) => (
 					<Box className="grid" key={feature.Slug}>
@@ -182,7 +186,7 @@ export default function Index() {
                             }>
                                 <IconStar size={16} />
                             </Button>
-                            
+
                             <Box sx={theme => ({flex: "1"})}><Link
                                 to={feature.Slug}>
 								<NavLink
