@@ -33,9 +33,6 @@ import {
   IconCode,
 } from '@tabler/icons';
 
-export const config = {
-  runtime: 'edge'
-};
 
 export const meta = ({ data }) => {
   const { record } = data

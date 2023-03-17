@@ -9,10 +9,6 @@ import { useLocalStorage } from '@mantine/hooks';
 import { ThemeIcon, Group, Divider, Stack, Button, Badge, Box, NavLink, Grid, SimpleGrid, ScrollArea, TextInput, Tooltip, Text } from '@mantine/core';
 import { IconHome2, IconStar, IconChevronRight, IconActivity, IconListSearch, IconSortAscending, IconBrandChrome, IconBrandFirefox, IconBrandEdge, IconBrandSafari, IconBrandOpera, IconCheckbox, IconSquareMinus, IconRss, IconTextPlus, IconSortDescending, IconSortAscendingLetters, IconSortDescendingLetters, IconArrowBack } from '@tabler/icons';
 
-export const config = {
-  runtime: 'edge'
-};
-
 export const loader = async ({ request }) => {
 	const url = new URL(request.url);
 	const category = url.searchParams.get('category') || 'all';
