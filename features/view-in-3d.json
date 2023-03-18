@@ -15,7 +15,7 @@
     "References": "[1] \"3D View Tool\" - [Edge DevTools Docs](https://docs.microsoft.com/en-us/microsoft-edge/devtools-guide-chromium/3d-view/)\n"
   },
   "Opera": {
-    "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1658423833/view-in-3d-opera_p4ha8z.mp4",
-    "Notes": "1. Open **Command** **Menu** (`Cmd+Shift+P` or `Ctrl+Shift+P`) > Run > Show Layers. This will open a new tab called **Layers**.\n2. For developers, it is useful to visualise a web page in three dimensions to,\n    - Find out how complex a web page is\n    - Spot out-of-viewport elements\n    - Debug z-index stacking issues\n    - Debug performance issues with composite layers\n"
+    "Notes": "1. Open **Command** **Menu** (`Cmd+Shift+P` or `Ctrl+Shift+P`) > Run > Show Layers. This will open a new tab called **Layers**.\n2. For developers, it is useful to visualise a web page in three dimensions to,\n    - Find out how complex a web page is\n    - Spot out-of-viewport elements\n    - Debug z-index stacking issues\n    - Debug performance issues with composite layers\n",
+    "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1658423833/view-in-3d-opera_p4ha8z.mp4"
   }
 }
