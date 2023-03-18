@@ -837,15 +837,15 @@
 ## 59. Ignore scripts while debugging 
  Can I ignore scripts while debugging? 
 - [Chrome](https://canidev.tools/ignore-scripts-debug/chrome) 
- 1. In **Sources** > Open **Page** (left sidebar) > Right click on the script to be ignored and select "Add script to ignore list".
+ 1. In **Sources** > Open **Page** (left sidebar) > Right click on the script to be ignored and select "Add script to ignore list". Debugger will omit this script from the call stack and gray out in the file tree.
 2. To ignore multiple scripts using a pattern, open **Settings** (`F1`) > Ignore List > Enable Ignore Listing. Click the "Add Pattern" button and enter the regex pattern matching the scripts to be ignored.
 3. All the ignored scripts will be available under **Custom exclusion rules** section in **Ignore List**.
 - [Edge](https://canidev.tools/ignore-scripts-debug/edge) 
- 1. In **Sources** > Open **Page** (left sidebar) > Right click on the script to be ignored and select "Add script to ignore list".
+ 1. In **Sources** > Open **Page** (left sidebar) > Right click on the script to be ignored and select "Add script to ignore list". Debugger will omit this script from the call stack and gray out in the file tree.
 2. To ignore multiple scripts using a pattern, open **Settings** (`F1`) > Ignore List > Enable Ignore Listing. Click the "Add Pattern" button and enter the regex pattern matching the scripts to be ignored.
 3. All the ignored scripts will be available under **Custom** **exclusion** **rules** section in **Ignore** **List**.
 - [Opera](https://canidev.tools/ignore-scripts-debug/opera) 
- 1. In **Sources** > Open **Page** (left sidebar) > Right click on the script to be ignored and select "Add script to ignore list".
+ 1. In **Sources** > Open **Page** (left sidebar) > Right click on the script to be ignored and select "Add script to ignore list". Debugger will omit this script from the call stack and gray out in the file tree.
 2. To ignore multiple scripts using a pattern, open **Settings** (`F1`) > Ignore List > Enable Ignore Listing. Click the "Add Pattern" button and enter the regex pattern matching the scripts to be ignored.
 3. All the ignored scripts will be available under **Custom** **exclusion** **rules** section in **Ignore List**.
 ## 60. Import & Export HAR file 

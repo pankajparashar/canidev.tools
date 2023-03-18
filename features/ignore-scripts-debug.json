@@ -6,12 +6,14 @@
   "LastModifiedTime": "2023-03-18T18:45:59.000Z",
   "Author": "@pankajparashar",
   "Chrome": {
-    "Notes": "1. In **Sources** > Open **Page** (left sidebar) > Right click on the script to be ignored and select \"Add script to ignore list\".\n2. To ignore multiple scripts using a pattern, open **Settings** (`F1`) > Ignore List > Enable Ignore Listing. Click the \"Add Pattern\" button and enter the regex pattern matching the scripts to be ignored.\n3. All the ignored scripts will be available under **Custom exclusion rules** section in **Ignore List**.\n"
+    "Notes": "1. In **Sources** > Open **Page** (left sidebar) > Right click on the script to be ignored and select \"Add script to ignore list\". Debugger will omit this script from the call stack and gray out in the file tree.\n2. To ignore multiple scripts using a pattern, open **Settings** (`F1`) > Ignore List > Enable Ignore Listing. Click the \"Add Pattern\" button and enter the regex pattern matching the scripts to be ignored.\n3. All the ignored scripts will be available under **Custom exclusion rules** section in **Ignore List**.\n",
+    "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1679166363/ignore-scripts-debug-chrome_dsg0yu.mp4",
+    "References": "1. \"Ignore irrelevant scripts during debugging\", by [Chrome Developers](https://developer.chrome.com/blog/new-in-devtools-112/#ignore-list).\n"
   },
   "Edge": {
-    "Notes": "1. In **Sources** > Open **Page** (left sidebar) > Right click on the script to be ignored and select \"Add script to ignore list\".\n2. To ignore multiple scripts using a pattern, open **Settings** (`F1`) > Ignore List > Enable Ignore Listing. Click the \"Add Pattern\" button and enter the regex pattern matching the scripts to be ignored.\n3. All the ignored scripts will be available under **Custom** **exclusion** **rules** section in **Ignore** **List**.\n"
+    "Notes": "1. In **Sources** > Open **Page** (left sidebar) > Right click on the script to be ignored and select \"Add script to ignore list\". Debugger will omit this script from the call stack and gray out in the file tree.\n2. To ignore multiple scripts using a pattern, open **Settings** (`F1`) > Ignore List > Enable Ignore Listing. Click the \"Add Pattern\" button and enter the regex pattern matching the scripts to be ignored.\n3. All the ignored scripts will be available under **Custom** **exclusion** **rules** section in **Ignore** **List**.\n"
   },
   "Opera": {
-    "Notes": "1. In **Sources** > Open **Page** (left sidebar) > Right click on the script to be ignored and select \"Add script to ignore list\".\n2. To ignore multiple scripts using a pattern, open **Settings** (`F1`) > Ignore List > Enable Ignore Listing. Click the \"Add Pattern\" button and enter the regex pattern matching the scripts to be ignored.\n3. All the ignored scripts will be available under **Custom** **exclusion** **rules** section in **Ignore List**.\n"
+    "Notes": "1. In **Sources** > Open **Page** (left sidebar) > Right click on the script to be ignored and select \"Add script to ignore list\". Debugger will omit this script from the call stack and gray out in the file tree.\n2. To ignore multiple scripts using a pattern, open **Settings** (`F1`) > Ignore List > Enable Ignore Listing. Click the \"Add Pattern\" button and enter the regex pattern matching the scripts to be ignored.\n3. All the ignored scripts will be available under **Custom** **exclusion** **rules** section in **Ignore List**.\n"
   }
 }
