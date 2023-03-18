@@ -3,11 +3,15 @@
   "Slug": "ignore-scripts-debug",
   "Description": "Can I ignore scripts while debugging?",
   "Category": "Sources",
-  "LastModifiedTime": "2023-03-18T17:44:05.000Z",
+  "LastModifiedTime": "2023-03-18T18:45:59.000Z",
   "Author": "@pankajparashar",
   "Chrome": {
-    "Notes": "1. Open **Settings** (`F1`) > Ignore List. Check \"Enable Ignore Listing\" > Under **Custom exclusion rules**: click \"Add pattern...\" button to add a pattern for the script(s) that needs to be excluded while debugging.\n"
+    "Notes": "1. In **Sources** > Open **Page** (left sidebar) > Right click on the script to be ignored and select \"Add script to ignore list\".\n2. To ignore multiple scripts using a pattern, open **Settings** (`F1`) > Ignore List > Enable Ignore Listing. Click the \"Add Pattern\" button and enter the regex pattern matching the scripts to be ignored.\n3. All the ignored scripts will be available under **Custom exclusion rules** section in **Ignore List**.\n"
   },
-  "Edge": {},
-  "Opera": {}
+  "Edge": {
+    "Notes": "1. In **Sources** > Open **Page** (left sidebar) > Right click on the script to be ignored and select \"Add script to ignore list\".\n2. To ignore multiple scripts using a pattern, open **Settings** (`F1`) > Ignore List > Enable Ignore Listing. Click the \"Add Pattern\" button and enter the regex pattern matching the scripts to be ignored.\n3. All the ignored scripts will be available under **Custom** **exclusion** **rules** section in **Ignore** **List**.\n"
+  },
+  "Opera": {
+    "Notes": "1. In **Sources** > Open **Page** (left sidebar) > Right click on the script to be ignored and select \"Add script to ignore list\".\n2. To ignore multiple scripts using a pattern, open **Settings** (`F1`) > Ignore List > Enable Ignore Listing. Click the \"Add Pattern\" button and enter the regex pattern matching the scripts to be ignored.\n3. All the ignored scripts will be available under **Custom** **exclusion** **rules** section in **Ignore List**.\n"
+  }
 }

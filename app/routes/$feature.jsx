@@ -108,15 +108,7 @@ export default function Feature() {
   return (
     <div className="grid">
       <Box>
-        <Box
-          sx={(theme) => ({
-
-            borderRight: `1px solid ${theme.colorScheme === 'dark'
-                ? theme.colors.dark[6]
-                : theme.colors.gray[4]
-              }`,
-          })}
-        >
+        <Box sx={(theme) => ({ borderRight: borderColor(theme) })}>
           <Group position="apart">
             <Badge
               radius={0}
@@ -142,27 +134,10 @@ export default function Feature() {
           </Group>
         </Box>
         <Divider />
-        <Box
-          sx={(theme) => ({
-            borderRight: `1px solid ${theme.colorScheme === 'dark'
-                ? theme.colors.dark[6]
-                : theme.colors.gray[4]
-              }`,
-          })}
-        >
-          <Box p="xs">
-            <Alert
-              styles={theme => ({
-                title: {
-                  marginBottom: 0
-                }
-              })}
-              title={feature.Name}
-              color={colors[feature.Category]}
-            >
-              {feature.Description}
-            </Alert>
-          </Box>
+        <Box sx={(theme) => ({ borderRight: borderColor(theme) })}>
+          <Alert p="lg" title={feature.Name} color={colors[feature.Category]} styles={_ => ({ title: { marginBottom: 0 }})}>
+            {feature.Description}
+          </Alert>
           <Divider />
           <SimpleGrid cols={5} spacing={0}>
             <Button
@@ -221,48 +196,27 @@ export default function Feature() {
               disabled={!feature.Opera}
               component={Link}
               to={`/${feature.Slug}/opera`}
-              sx={theme => ({ borderRight: borderColor(theme) })}
             >
               <IconBrandOpera size={20} />
             </Button>
           </SimpleGrid>
           <Divider />
-          <SimpleGrid cols={2} spacing="xs" p="xs">
-            <Alert
-              styles={theme => ({
-                title: {
-                  marginBottom: 0
-                }
-              })}
-              title="Last Modified"
-              radius="xs"
-              p="xs"
-            >
-              {formatDistanceToNow(new Date(feature.LastModifiedTime), { addSuffix: true })}
+          <SimpleGrid cols={2} spacing="xs">
+            <Alert p="lg" title="Last Modified" styles={_ => ({ title: { marginBottom: 0 }})}>
+                {formatDistanceToNow(new Date(feature.LastModifiedTime), { addSuffix: true })}
             </Alert>
-            <Alert
-              styles={theme => ({
-                title: {
-                  marginBottom: 0
-                }
-              })}
-              title="Author"
-              radius="xs"
-              p="xs"
-            >
+
+            <Alert p="lg" title="Author" styles={_ => ({ title: { marginBottom: 0 }})}>
               <Anchor variant="link" href={`https://twitter.com/${feature.Author}`}>
                 {feature.Author}
               </Anchor>
             </Alert>
-            <Alert title="Test Live" radius="xs" p="xs"
-              styles={theme => ({ title: { marginBottom: 0 } })}>
+
+            <Alert p="lg" title="Test Live" styles={_ => ({ title: { marginBottom: 0 }})}>
               via <Anchor variant="link" href="https://live.browserstack.com/dashboard">BrowserStack</Anchor>
             </Alert>
-            <Alert styles={theme => ({ title: { marginBottom: 0 } })}
-              title="Newsletter"
-              radius="xs"
-              p="xs"
-            >
+
+            <Alert p="lg" title="Newsletter" styles={_ => ({ title: { marginBottom: 0 }})}>
               <Anchor variant="link" color={"indigo.9"} href={`https://canidevtools.substack.com/p/${feature.Newsletter}`}>
                 {feature.Newsletter}
               </Anchor>

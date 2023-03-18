@@ -837,10 +837,18 @@
 ## 59. Ignore scripts while debugging 
  Can I ignore scripts while debugging? 
 - [Chrome](https://canidev.tools/ignore-scripts-debug/chrome) 
- 1. Open **Settings** (`F1`) > Ignore List. Check "Enable Ignore Listing" > Under **Custom exclusion rules**: click "Add pattern..." button to add a pattern for the script(s) that needs to be excluded while debugging.
+ 1. In **Sources** > Open **Page** (left sidebar) > Right click on the script to be ignored and select "Add script to ignore list".
+2. To ignore multiple scripts using a pattern, open **Settings** (`F1`) > Ignore List > Enable Ignore Listing. Click the "Add Pattern" button and enter the regex pattern matching the scripts to be ignored.
+3. All the ignored scripts will be available under **Custom exclusion rules** section in **Ignore List**.
 - [Edge](https://canidev.tools/ignore-scripts-debug/edge) 
- undefined- [Opera](https://canidev.tools/ignore-scripts-debug/opera) 
- undefined## 60. Import & Export HAR file 
+ 1. In **Sources** > Open **Page** (left sidebar) > Right click on the script to be ignored and select "Add script to ignore list".
+2. To ignore multiple scripts using a pattern, open **Settings** (`F1`) > Ignore List > Enable Ignore Listing. Click the "Add Pattern" button and enter the regex pattern matching the scripts to be ignored.
+3. All the ignored scripts will be available under **Custom** **exclusion** **rules** section in **Ignore** **List**.
+- [Opera](https://canidev.tools/ignore-scripts-debug/opera) 
+ 1. In **Sources** > Open **Page** (left sidebar) > Right click on the script to be ignored and select "Add script to ignore list".
+2. To ignore multiple scripts using a pattern, open **Settings** (`F1`) > Ignore List > Enable Ignore Listing. Click the "Add Pattern" button and enter the regex pattern matching the scripts to be ignored.
+3. All the ignored scripts will be available under **Custom** **exclusion** **rules** section in **Ignore List**.
+## 60. Import & Export HAR file 
  Can I import and export network activity to a HAR file? 
 - [Chrome](https://canidev.tools/import-export-har/chrome) 
  1. In the **Network** panel, use the **Up** (↑) and **Down** (↓) arrow buttons in the toolbar to **Import** and **Export** all the network activity into a HAR file.
