@@ -1,9 +1,9 @@
 {
-  "Name": "Exclude scripts from debugging",
-  "Slug": "exclude-scripts-debug",
-  "Description": "Can I exclude certain scripts while debugging?",
+  "Name": "Ignore scripts while debugging",
+  "Slug": "ignore-scripts-debug",
+  "Description": "Can I ignore scripts while debugging?",
   "Category": "Sources",
-  "LastModifiedTime": "2023-01-06T19:47:26.000Z",
+  "LastModifiedTime": "2023-03-18T17:44:05.000Z",
   "Author": "@pankajparashar",
   "Chrome": {
     "Notes": "1. Open **Settings** (`F1`) > Ignore List. Check \"Enable Ignore Listing\" > Under **Custom exclusion rules**: click \"Add pattern...\" button to add a pattern for the script(s) that needs to be excluded while debugging.\n"

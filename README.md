@@ -564,13 +564,7 @@
  1. Launch devtools > Open "Command Menu" using `Cmd+Shift+P` (Mac) or `Ctrl+Shift+P` (Windows, Linux, Chrome OS).
 2. Search for "Show Rendering" and press Enter (this will open the Rendering panel next to the Console).
 3. Scroll down to the section "Emulate CSS Media Type" and select "print".
-## 40. Exclude scripts from debugging 
- Can I exclude certain scripts while debugging? 
-- [Chrome](https://canidev.tools/exclude-scripts-debug/chrome) 
- 1. Open **Settings** (`F1`) > Ignore List. Check "Enable Ignore Listing" > Under **Custom exclusion rules**: click "Add pattern..." button to add a pattern for the script(s) that needs to be excluded while debugging.
-- [Edge](https://canidev.tools/exclude-scripts-debug/edge) 
- undefined- [Opera](https://canidev.tools/exclude-scripts-debug/opera) 
- undefined## 41. Expand DOM nodes recursively 
+## 40. Expand DOM nodes recursively 
  Can I expand DOM nodes recursively in the DOM tree? 
 - [Chrome](https://canidev.tools/expand-dom-nodes-recursively/chrome) 
  1. Right click on the node in the DOM tree, select "Expand recursively". 
@@ -588,7 +582,7 @@
 - [Opera](https://canidev.tools/expand-dom-nodes-recursively/opera) 
  1. Right click on the node in the DOM tree, select "Expand recursively". 
 2. (Or) Use `Opt+Click` or `Alt+Click` on the arrow preceding the node with the keyboard.
-## 42. Extend DevTools UI 
+## 41. Extend DevTools UI 
  Can I extend DevTools to customise UI? 
 - [Chrome](https://canidev.tools/extend-devtools-ui/chrome) 
  1. Chrome DevTools can be extended to add new UI panels and sidebars, interact with the inspected page, get information about network requests, and more.
@@ -604,7 +598,7 @@
 - [Opera](https://canidev.tools/extend-devtools-ui/opera) 
  1. Opera uses Chromium DevTools which can be extended to add new UI panels and sidebars, interact with the inspected page, get information about network requests, and more.
 2. Refer the official guide to extend [Chrome DevTools](https://developer.chrome.com/docs/extensions/mv3/devtools/).
-## 43. Filter multiple resources 
+## 42. Filter multiple resources 
  Can I filter multiple resource types in the Network tab? 
 - [Chrome](https://canidev.tools/filter-multiple-resources/chrome) 
  Open devtools > Open the "Network" tab. Hold `Cmd` or `Ctrl` key while clicking on the Resource type.
@@ -616,7 +610,7 @@
  Open devtools > Open the Network tab. Hold `Cmd` or `Ctrl` key while clicking on the Resource type.
 - [Opera](https://canidev.tools/filter-multiple-resources/opera) 
  Open devtools > Open the "Network" tab. Hold `Cmd` or `Ctrl` key while clicking on the Resource type.
-## 44. Filter requests by domain 
+## 43. Filter requests by domain 
  Can I filter network requests by domain name? 
 - [Chrome](https://canidev.tools/filter-requests-domain/chrome) 
  1. In **Network** > Enter `domain:` in the "Filter" field followed by the domain to filter the network requests on.
@@ -631,7 +625,7 @@
  1. In **Network** > Enter `domain:` in the "Filter" field followed by the domain to filter the network requests on.
 2. Filter field also suggests the list of domain names to choose from.
 
-## 45. Filter requests by keyword 
+## 44. Filter requests by keyword 
  Can I filter requests in the Network tab with a keyword? 
 - [Chrome](https://canidev.tools/filter-requests-keyword/chrome) 
  1. Open the **Network** tab > Use the "Filter" input field to filter network requests based on a specific keyword. 
@@ -647,7 +641,7 @@
 - [Opera](https://canidev.tools/filter-requests-keyword/opera) 
  1. Open the **Network** tab > Use the "Filter" input field to filter network requests based on a specific keyword. 
 2. Use the "Invert" checkbox to filter on requests which does not match the keyword.
-## 46. Filter requests by properties 
+## 45. Filter requests by properties 
  Can I filter requests in the Network tab using specific properties? 
 - [Chrome](https://canidev.tools/filter-requests-properties/chrome) 
  1. Use the **Filter** text box to filter requests by properties, such as the domain or size of the request.
@@ -660,7 +654,7 @@
 - [Opera](https://canidev.tools/filter-requests-properties/opera) 
  1. Use the Filter text box to filter requests by properties, such as the domain or size of the request.
 2. You can use multiple properties simultaneously by separating each property with a space. For example, `mime-type:image/gif larger-than:1K` displays all GIFs that are larger than one kilobyte. These multi-property filters are equivalent to AND operations. OR operations are currently not supported.
-## 47. Find by XPath 
+## 46. Find by XPath 
  Can I find elements in the DOM tree using xpath? 
 - [Chrome](https://canidev.tools/find-by-xpath/chrome) 
  1. Open devtools using Cmd+Opt+I (on MacOS) or Ctrl+Shift+I (on Windows/Linux/ChromeOS) > Elements.
@@ -683,7 +677,7 @@
  1. Open devtools using Cmd+Opt+I (on MacOS) or Ctrl+Shift+I (on Windows/Linux/ChromeOS) > Elements.
 2. Press Cmd+F or Ctrl+F to open the search bar at the bottom of the Elements panel.
 3. Enter XPath to find the element in the DOM node.
-## 48. Find color contrast 
+## 47. Find color contrast 
  Can I find the contrast ratio of a color? 
 - [Chrome](https://canidev.tools/find-color-contrast/chrome) 
  1. Inspect element > In the **Styles** pane, click the color square next to the `color` property. This will open the color panel.
@@ -701,7 +695,7 @@
  1. Inspect element > In the Styles pane, click the color square next to the `color` property. This will open the color panel.
 2. Expand the "Contrast Ratio" section to see more details whether the color value meets the W3C recommendation.
 3. Use the "reload" icon next to AA/AAA to use the suggested color to fix the low color contrast ratio.
-## 49. Find element with CSS selector 
+## 48. Find element with CSS selector 
  Can I find elements in the DOM tree using CSS selector? 
 - [Chrome](https://canidev.tools/find-element-css-selector/chrome) 
  1. Open devtools > Click the "Elements" panel > Press `Cmd+F` (on Mac) or `Ctrl+F` (on Windows/Linux/Chrome OS) to open the search bar.
@@ -718,14 +712,14 @@
 - [Opera](https://canidev.tools/find-element-css-selector/opera) 
  1. Open devtools > Click the "Elements" panel > Press `Cmd+F` (on Mac) or `Ctrl+F` (on Windows/Linux/Chrome OS) to open the search bar.
 2. Enter the CSS selector to search an element in the DOM tree.
-## 50. Find expensive CSS selectors 
+## 49. Find expensive CSS selectors 
  Can I find expensive CSS selectors? 
 - [Edge](https://canidev.tools/find-expensive-selectors/edge) 
  1. In the **Performance** panel, Enable "advanced rendering instrumentation (slow)" in **Settings**.
 2. Click **Record**, and perform the operation on the page that affects rendering.
 3. In the recorded profile, identify a long style recalculation and select it in the waterfall view (“Main” section).
 4. In the bottom tab bar, click **Selector Stats.** Sort the selectors based on Elapsed Time, Match Attempts etc., to identify expensive selectors.
-## 51. Find in files 
+## 50. Find in files 
  Can I find in files for a specific keyword? 
 - [Chrome](https://canidev.tools/find-in-files/chrome) 
  1. Open **Command Menu** (`Cmd+Shift+P` or `Ctrl+Shift+P`) > Run > "Show Search" (Drawer).
@@ -740,7 +734,7 @@
 - [Opera](https://canidev.tools/find-in-files/opera) 
  1. Open **Command** **Menu** (`Cmd+Shift+P` or `Ctrl+Shift+P`) > Run > "Show Search" (Drawer).
 2. Enter the search query in the text field and press `Enter` to search across all download resources.
-## 52. Find inactive styles 
+## 51. Find inactive styles 
  Can I find inactive styles applied to an element? 
 - [Chrome](https://canidev.tools/find-inactive-styles/chrome) 
  > Enable authoring hints, by opening **Settings** (`F1`) > **Experiments** > Filter on "authoring hints" > Check "Enable CSS Authoring hints..."
@@ -753,7 +747,7 @@
 - [Opera](https://canidev.tools/find-inactive-styles/opera) 
  > Enable authoring hints, by opening **Settings** (`F1`) > Experiments > Filter on "authoring hints" > Check "Enable CSS Authoring hints..."
 1. In **Elements** > Locate the authored styles in the **Styles** pane > Inactive declarations have an "i" icon, which on hover reveals a tooltip displaying more information.
-## 53. Find unused CSS 
+## 52. Find unused CSS 
  Can I find unused styles on a web page? 
 - [Chrome](https://canidev.tools/find-unused-css/chrome) 
  1. Launch Devtools > Open Command Menu using "Cmd+Shift+P" (on Mac) or "Ctrl+Shift+P" (on Windows/Linus/Chrome OS).
@@ -767,7 +761,7 @@
  1. Launch Devtools > Open Command Menu using "Cmd+Shift+P" (on Mac) or "Ctrl+Shift+P" (on Windows/Linus/Chrome OS).
 2. Search for "Show Coverage" (this will open the Coverage drawer next to the Console).
 3. Click the "Reload" button to see the unused styles per CSS file. 
-## 54. Find unused JavaScript 
+## 53. Find unused JavaScript 
  Can I find unused JavaScript code on the page? 
 - [Chrome](https://canidev.tools/find-unused-js/chrome) 
  1. Open **Command** Menu using `Cmd+Shift+P` or `Ctrl+Shift+P`. Search for "Show Coverage" and press `Enter`. (this will open the **Coverage** drawer next to the Console).
@@ -781,11 +775,11 @@
 - [Opera](https://canidev.tools/find-unused-js/opera) 
  1. Open **Command** Menu using `Cmd+Shift+P` or `Ctrl+Shift+P`. Search for "Show Coverage" and press `Enter`. (this will open the **Coverage** drawer next to the Console).
 2. Click the "Reload" button to see the unused JavaScript bytes per file. Clicking the row, will open the file in the **Sources** panel highlighting the unused lines with red colour.
-## 55. Fuzzy autocomplete styles 
+## 54. Fuzzy autocomplete styles 
  Can I fuzzy autocomplete CSS properties? 
 - [Safari](https://canidev.tools/fuzzy-autocomplete-styles/safari) 
  1. Safari allows you to autocomplete CSS properties with fuzzy matching like, entering `gtc` will suggest `grid-template-columns` in the suggestions box.
-## 56. Get last evaluated value 
+## 55. Get last evaluated value 
  Can I get the last evaluated value in the console? 
 - [Chrome](https://canidev.tools/get-last-value/chrome) 
  1. `$_` returns the value of the most recently evaluated expression.
@@ -798,7 +792,7 @@
 2. Additionally, Safari also lets you access past values in chronological order, using `$1, $2, $3`, ...
 - [Opera](https://canidev.tools/get-last-value/opera) 
  1. `$_` returns the value of the most recently evaluated expression.
-## 57. Get node XPath 
+## 56. Get node XPath 
  Can I get the xpath of a node in the DOM tree? 
 - [Chrome](https://canidev.tools/get-node-xpath/chrome) 
  1. Inspect the element > Right click on the node in the DOM tree > Copy > Copy full XPath
@@ -811,7 +805,7 @@
 - [Opera](https://canidev.tools/get-node-xpath/opera) 
  1. Inspect the element > Right click on the node in the DOM tree > Copy > Copy full XPath
 
-## 58. Get selected node 
+## 57. Get selected node 
  Can I refer the currently selected node in the DOM tree from the console? 
 - [Chrome](https://canidev.tools/get-selected-node/chrome) 
  1. Use `$0` to access the currently selected node. Additionally, `$1`, `$2`, `$3`, ... will give you the last selected nodes in the reverse chronological order.
@@ -824,7 +818,7 @@
 
 - [Opera](https://canidev.tools/get-selected-node/opera) 
  1. Use `$0` to access the currently selected node. Additionally, `$1`, `$2`, `$3`, ... will give you the last selected nodes in the reverse chronological order.
-## 59. Go to file 
+## 58. Go to file 
  Can i jump to file by searching for a filename? 
 - [Chrome](https://canidev.tools/go-to-file/chrome) 
  1. Run Command menu using `Cmd+Shift+P` (on Mac) or `Ctrl+Shift+P` (on Windows/Linux) > Type filename to filter on the matching files > Press `Enter`.
@@ -840,7 +834,13 @@
 - [Opera](https://canidev.tools/go-to-file/opera) 
  1. Open devtools using `Cmd+Opt+I` (on Mac) or `Ctrl+Shift+I` (on Windows/Linux) > Sources.
 2. Run Command menu using `Cmd+Shift+P` (on Mac) or `Ctrl+Shift+P` (on Windows/Linux) > Type filename to filter on the matching files > Press `Enter`.
-## 60. Import & Export HAR file 
+## 59. Ignore scripts while debugging 
+ Can I ignore scripts while debugging? 
+- [Chrome](https://canidev.tools/ignore-scripts-debug/chrome) 
+ 1. Open **Settings** (`F1`) > Ignore List. Check "Enable Ignore Listing" > Under **Custom exclusion rules**: click "Add pattern..." button to add a pattern for the script(s) that needs to be excluded while debugging.
+- [Edge](https://canidev.tools/ignore-scripts-debug/edge) 
+ undefined- [Opera](https://canidev.tools/ignore-scripts-debug/opera) 
+ undefined## 60. Import & Export HAR file 
  Can I import and export network activity to a HAR file? 
 - [Chrome](https://canidev.tools/import-export-har/chrome) 
  1. In the **Network** panel, use the **Up** (↑) and **Down** (↓) arrow buttons in the toolbar to **Import** and **Export** all the network activity into a HAR file.
