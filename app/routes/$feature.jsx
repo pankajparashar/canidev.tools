@@ -201,18 +201,18 @@ export default function Feature() {
             </Button>
           </SimpleGrid>
           <Divider />
-          <SimpleGrid cols={2} spacing="xs">
-            <Alert p="lg" title="Last Modified" styles={_ => ({ title: { marginBottom: 0 }})}>
+          <SimpleGrid cols={2} spacing={0}>
+            <Alert p="lg" title="Last Modified" styles={_ => ({ title: { marginBottom: 0 }})} sx={theme => ({ borderRight: borderColor(theme), borderBottom: borderColor(theme) })}>
                 {formatDistanceToNow(new Date(feature.LastModifiedTime), { addSuffix: true })}
             </Alert>
 
-            <Alert p="lg" title="Author" styles={_ => ({ title: { marginBottom: 0 }})}>
+            <Alert p="lg" title="Author" styles={_ => ({ title: { marginBottom: 0 }})} sx={theme => ({ borderBottom: borderColor(theme) })}>
               <Anchor variant="link" href={`https://twitter.com/${feature.Author}`}>
                 {feature.Author}
               </Anchor>
             </Alert>
 
-            <Alert p="lg" title="Test Live" styles={_ => ({ title: { marginBottom: 0 }})}>
+            <Alert p="lg" title="Test Live" styles={_ => ({ title: { marginBottom: 0 }})} sx={theme => ({ borderRight: borderColor(theme) })}>
               via <Anchor variant="link" href="https://live.browserstack.com/dashboard">BrowserStack</Anchor>
             </Alert>
 
