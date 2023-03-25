@@ -74,8 +74,6 @@ export function loader() {
       });
 }
 
-export const config = { runtime: "edge" };
-
 export function CarbonAds() {
     React.useEffect(() => {
         document.getElementById("pixelmobco")?.addEventListener(
