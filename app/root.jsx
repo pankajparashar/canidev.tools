@@ -74,11 +74,7 @@ export function loader() {
       });
 }
 
-export let headers = () => {
-    return {
-      "Cache-Control": "public, s-maxage=120",
-    };
-  };
+export const config = { runtime: "edge" };
 
 export function CarbonAds() {
     React.useEffect(() => {
