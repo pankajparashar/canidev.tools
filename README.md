@@ -222,13 +222,16 @@
  1. In the **Styles** pane, hold the `Shift` key and click on the color preview box to cycle through the various color formats like `rgb`, `hsl`, and `hwb`.
 2. Alternatively, you can change the color format in the [color picker](https://developer.chrome.com/docs/devtools/css/reference/#color-picker) using the up-down arrow keys.
 ## 17. Change devtools language 
- Can I change devtools language to another language which is not English? 
+ Can I change the language of developer tools? 
 - [Chrome](https://canidev.tools/change-devtools-language/chrome) 
- 1. Open **Settings** (`F1` or `Shift+?`) > Preferences > In the **Appearance** section, choose a language from the **Language** dropdown > Reload DevTools to apply the new language.
+ 1. Open **Settings** (`F1` or `Shift+?`) > Preferences > Under **Languages**, select the language from the dropdown > Reload DevTools.
+2. Alternatively, Run **Command** (`Cmd+Shift+P` or `Ctrl+Shift+P`) > Input the language > select the language labelled "Appearance" > Reload DevTools. 
 - [Edge](https://canidev.tools/change-devtools-language/edge) 
- 1. Open **Settings** (`F1` or `Shift+?`) > Preferences > In the **Appearance** section, choose a language from the **Language** dropdown > Reload DevTools to apply the new language.
+ 1. Open **Settings** (`F1` or `Shift+?`) > Preferences > Under **Languages**, select the language from the dropdown > Reload DevTools.
+2. Alternatively, Run **Command** (`Cmd+Shift+P` or `Ctrl+Shift+P`) > Input the language > select the language labelled "Appearance" > Reload DevTools. 
 - [Opera](https://canidev.tools/change-devtools-language/opera) 
- 1. Open **Settings** (`F1` or `Shift+?`) > Preferences > In the **Appearance** section, choose a language from the **Language** dropdown > Reload DevTools to apply the new language.
+ 1. Open **Settings** (`F1` or `Shift+?`) > Preferences > Under **Languages**, select the language from the dropdown > Reload DevTools.
+2. Alternatively, Run **Command** (`Cmd+Shift+P` or `Ctrl+Shift+P`) > Input the language > select the language labelled "Appearance" > Reload DevTools. 
 ## 18. Clear command history 
  Can I clear the command history of the console? 
 - [Chrome](https://canidev.tools/clear-command-history/chrome) 

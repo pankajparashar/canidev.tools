@@ -1,18 +1,22 @@
 {
   "Name": "Change devtools language",
   "Slug": "change-devtools-language",
-  "Description": "Can I change devtools language to another language which is not English?",
+  "Description": "Can I change the language of developer tools?",
   "Category": "Other",
-  "LastModifiedTime": "2022-10-02T14:43:08.000Z",
+  "LastModifiedTime": "2023-03-31T18:39:23.000Z",
   "Author": "@pankajparashar",
   "Chrome": {
-    "References": "1. \"What's new in DevTools?\" - Chrome DevTools [Blog](https://developer.chrome.com/en/blog/new-in-devtools-94/#localized)\n",
-    "Notes": "1. Open **Settings** (`F1` or `Shift+?`) > Preferences > In the **Appearance** section, choose a language from the **Language** dropdown > Reload DevTools to apply the new language.\n"
+    "References": "\n",
+    "Notes": "1. Open **Settings** (`F1` or `Shift+?`) > Preferences > Under **Languages**, select the language from the dropdown > Reload DevTools.\n2. Alternatively, Run **Command** (`Cmd+Shift+P` or `Ctrl+Shift+P`) > Input the language > select the language labelled \"Appearance\" > Reload DevTools. \n",
+    "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1680288722/change-devtools-language-chrome_xlzgjw.mp4",
+    "Share": "https://twitter.com/CanIDevTools/status/1641881002589954048"
   },
   "Edge": {
-    "Notes": "1. Open **Settings** (`F1` or `Shift+?`) > Preferences > In the **Appearance** section, choose a language from the **Language** dropdown > Reload DevTools to apply the new language.\n"
+    "Notes": "1. Open **Settings** (`F1` or `Shift+?`) > Preferences > Under **Languages**, select the language from the dropdown > Reload DevTools.\n2. Alternatively, Run **Command** (`Cmd+Shift+P` or `Ctrl+Shift+P`) > Input the language > select the language labelled \"Appearance\" > Reload DevTools. \n",
+    "Share": "https://twitter.com/CanIDevTools/status/1641881002589954048"
   },
   "Opera": {
-    "Notes": "1. Open **Settings** (`F1` or `Shift+?`) > Preferences > In the **Appearance** section, choose a language from the **Language** dropdown > Reload DevTools to apply the new language.\n"
+    "Notes": "1. Open **Settings** (`F1` or `Shift+?`) > Preferences > Under **Languages**, select the language from the dropdown > Reload DevTools.\n2. Alternatively, Run **Command** (`Cmd+Shift+P` or `Ctrl+Shift+P`) > Input the language > select the language labelled \"Appearance\" > Reload DevTools. \n",
+    "Share": "https://twitter.com/CanIDevTools/status/1641881002589954048"
   }
 }

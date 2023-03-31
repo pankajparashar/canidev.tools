@@ -6,9 +6,9 @@
   "LastModifiedTime": "2022-07-09T09:11:14.000Z",
   "Author": "@pankajparashar",
   "Chrome": {
-    "Notes": "1. Inspect > Open the Accessibility pane on the right (Click the >> icon to show more tabs, if hidden) > Check \"Enable full-page accessibility tree\" > Reload Devtools.\n2. Click on the floating icon in the top right in the Elements panel which says, \"Switch to Accessibility tree view\".\n",
     "Share": "https://twitter.com/jecfish/status/1512088763198951431",
     "References": "1. Jecelyn Yeen on [Twitter](https://twitter.com/jecfish/status/1512088763198951431)\n2. Full Accessibility Tree by [Chrome Developers](https://developer.chrome.com/blog/full-accessibility-tree/)\n",
+    "Notes": "1. Inspect > Open the Accessibility pane on the right (Click the >> icon to show more tabs, if hidden) > Check \"Enable full-page accessibility tree\" > Reload Devtools.\n2. Click on the floating icon in the top right in the Elements panel which says, \"Switch to Accessibility tree view\".\n",
     "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1649521456/Videos/view-accessibility-tree-chrome.mp4"
   },
   "Firefox": {
