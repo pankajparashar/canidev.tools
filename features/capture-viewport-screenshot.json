@@ -5,20 +5,28 @@
   "Category": "Other",
   "LastModifiedTime": "2023-04-13T19:52:52.000Z",
   "Author": "@pankajparashar",
+  "Related": [
+    "capture-screenshot-console",
+    "capture-node-screenshot",
+    "capture-full-page-screenshot"
+  ],
   "Chrome": {
-    "Notes": "1. Open **Command** **menu** (`Cmd+Shift+P` or `Ctrl+Shift+P`) > Run \"Capture screenshot\" > Press `Enter`.\n2. By default, the screenshot will be saved in the `Downloads` directory.\n",
+    "Notes": "1. Open **Command** **menu** (`Cmd+Shift+P` or `Ctrl+Shift+P`) > Run \"Capture screenshot\" > Press `Enter`. By default, the screenshot will be saved in the `Downloads` directory.\n",
     "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1681417211/capture-viewport-screenshot-chrome_bj2srr.mp4"
   },
   "Firefox": {
-    "Notes": "1. Right click on the page > Click \"Take screenshot\"\n"
+    "Notes": "1. In **Console**, use the built-in helper function `:screenshot` to capture screenshot of the current page. \n",
+    "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1681421456/capture-viewport-screenshot-firefox_fzyd7m.mp4"
   },
   "Edge": {
-    "Notes": "1. Open devtools > Open command menu > Search for \"Capture  screenshot\"\n"
+    "Notes": "1. Open **Command** **menu** (`Cmd+Shift+P` or `Ctrl+Shift+P`) > Run \"Capture screenshot\" > Press `Enter`. By default, the screenshot will be saved in the `Downloads` directory.\n",
+    "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1681422232/capture-viewport-screenshot-edge_tmowvf.mp4"
   },
   "Safari": {
-    "Notes": "Use `console.screenshot()` to capture the screenshot of the viewport. \n"
+    "Notes": "1. In **Console**, use `console.screenshot()` to capture the screenshot of the viewport. \n"
   },
   "Opera": {
-    "Notes": "1. Open devtools > Launch Command menu > Search for \"Capture screenshot\".\n2. Press Enter to capture the screenshot of the viewport.\n"
+    "Notes": "1. Open **Command** **menu** (`Cmd+Shift+P` or `Ctrl+Shift+P`) > Run \"Capture screenshot\" > Press `Enter`. By default, the screenshot will be saved in the `Downloads` directory.\n",
+    "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1681422654/capture-viewport-screenshot-opera_swyi8d.mp4"
   }
 }

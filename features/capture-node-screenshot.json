@@ -6,6 +6,11 @@
   "Newsletter": "tips-tricks-37",
   "LastModifiedTime": "2023-02-05T06:50:49.000Z",
   "Author": "@pankajparashar",
+  "Related": [
+    "capture-screenshot-console",
+    "capture-viewport-screenshot",
+    "capture-full-page-screenshot"
+  ],
   "Chrome": {
     "Share": "https://twitter.com/CanIDevTools/status/1621023980206583809",
     "Notes": "1. In the **Elements** panel, right click on the node and select \"Capture node screenshot\".\n2. It retains visible background colour of elements with no background colour applied.\n",
