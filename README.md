@@ -194,8 +194,8 @@
 ## 15. Capture viewport screenshot 
  Can I take a screenshot of the viewport? 
 - [Chrome](https://canidev.tools/capture-viewport-screenshot/chrome) 
- 1. Open devtools > Launch Command menu > Search for "Capture screenshot".
-2. Press Enter to capture the screenshot of the viewport.
+ 1. Open **Command** **menu** (`Cmd+Shift+P` or `Ctrl+Shift+P`) > Run "Capture screenshot".
+2. Click or Press `Enter` to capture the screenshot of the viewport. By default, the screenshot will be saved in the Downloads directory.
 - [Firefox](https://canidev.tools/capture-viewport-screenshot/firefox) 
  1. Right click on the page > Click "Take screenshot"
 - [Edge](https://canidev.tools/capture-viewport-screenshot/edge) 
