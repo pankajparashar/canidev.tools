@@ -3,7 +3,8 @@
   "Slug": "capture-viewport-screenshot",
   "Description": "Can I take a screenshot of the viewport?",
   "Category": "Other",
-  "LastModifiedTime": "2023-04-13T19:52:52.000Z",
+  "Newsletter": "tips-tricks-44",
+  "LastModifiedTime": "2023-04-14T11:39:03.000Z",
   "Author": "@pankajparashar",
   "Related": [
     "capture-screenshot-console",
@@ -11,22 +12,27 @@
     "capture-full-page-screenshot"
   ],
   "Chrome": {
+    "Share": "https://twitter.com/CanIDevTools/status/1646832267010998272",
     "Notes": "1. Open **Command** **menu** (`Cmd+Shift+P` or `Ctrl+Shift+P`) > Run \"Capture screenshot\" > Press `Enter`. By default, the screenshot will be saved in the `Downloads` directory.\n",
     "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1681417211/capture-viewport-screenshot-chrome_bj2srr.mp4"
   },
   "Firefox": {
     "Notes": "1. In **Console**, use the built-in helper function `:screenshot` to capture screenshot of the current page. \n",
-    "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1681421456/capture-viewport-screenshot-firefox_fzyd7m.mp4"
+    "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1681421456/capture-viewport-screenshot-firefox_fzyd7m.mp4",
+    "Share": "https://twitter.com/CanIDevTools/status/1646836515392176129"
   },
   "Edge": {
     "Notes": "1. Open **Command** **menu** (`Cmd+Shift+P` or `Ctrl+Shift+P`) > Run \"Capture screenshot\" > Press `Enter`. By default, the screenshot will be saved in the `Downloads` directory.\n",
+    "Share": "https://twitter.com/CanIDevTools/status/1646832267010998272",
     "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1681422232/capture-viewport-screenshot-edge_tmowvf.mp4"
   },
   "Safari": {
     "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1681455678/capture-viewport-screenshot-safari_kmfbs2.mp4",
-    "Notes": "1. In **Console**, use `console.screenshot()` to capture the screenshot of the viewport. \n"
+    "Notes": "1. In **Console**, use `console.screenshot()` to capture the screenshot of the viewport. \n",
+    "Share": "https://twitter.com/CanIDevTools/status/1646836515392176129"
   },
   "Opera": {
+    "Share": "https://twitter.com/CanIDevTools/status/1646832267010998272",
     "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1681422654/capture-viewport-screenshot-opera_swyi8d.mp4",
     "Notes": "1. Open **Command** **menu** (`Cmd+Shift+P` or `Ctrl+Shift+P`) > Run \"Capture screenshot\" > Press `Enter`. By default, the screenshot will be saved in the `Downloads` directory.\n"
   }
