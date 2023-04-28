@@ -17,9 +17,9 @@
     "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1681417211/capture-viewport-screenshot-chrome_bj2srr.mp4"
   },
   "Firefox": {
+    "Share": "https://twitter.com/CanIDevTools/status/1646836515392176129",
     "Notes": "1. In **Console**, use the built-in helper function `:screenshot` to capture screenshot of the current page. \n",
-    "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1681421456/capture-viewport-screenshot-firefox_fzyd7m.mp4",
-    "Share": "https://twitter.com/CanIDevTools/status/1646836515392176129"
+    "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1681421456/capture-viewport-screenshot-firefox_fzyd7m.mp4"
   },
   "Edge": {
     "Notes": "1. Open **Command** **menu** (`Cmd+Shift+P` or `Ctrl+Shift+P`) > Run \"Capture screenshot\" > Press `Enter`. By default, the screenshot will be saved in the `Downloads` directory.\n",
@@ -27,9 +27,9 @@
     "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1681422232/capture-viewport-screenshot-edge_tmowvf.mp4"
   },
   "Safari": {
+    "Share": "https://twitter.com/CanIDevTools/status/1646836515392176129",
     "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1681455678/capture-viewport-screenshot-safari_kmfbs2.mp4",
-    "Notes": "1. In **Console**, use `console.screenshot()` to capture the screenshot of the viewport. \n",
-    "Share": "https://twitter.com/CanIDevTools/status/1646836515392176129"
+    "Notes": "1. In **Console**, use `console.screenshot()` to capture the screenshot of the viewport. \n"
   },
   "Opera": {
     "Share": "https://twitter.com/CanIDevTools/status/1646832267010998272",

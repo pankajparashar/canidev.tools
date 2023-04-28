@@ -1,14 +1,18 @@
 {
   "Name": "Open devtools with new tab",
   "Slug": "open-devtools-new-tab",
-  "Description": "Can I open developer tools by default with every new tab?",
+  "Description": "Can I open developer tools automatically with new tab or window?",
   "Category": "Other",
-  "LastModifiedTime": "2022-07-09T08:08:39.000Z",
+  "LastModifiedTime": "2023-04-28T20:22:08.000Z",
   "Author": "@pankajparashar",
   "Chrome": {
-    "References": "[1] \"Automatically open Devtools with new tab\" - [Addy Osmani](https://addyosmani.com/blog/automatically-open-chrome-devtools-in-each-new-tab/)\n",
-    "Notes": "1. **MacOS**: In the terminal, pass the `--auto-open-devtools-for-tabs` flag to while launching Chrome<sup>[1]</sup>\n```\n/Applications/Google\\ Chrome.app/Contents/MacOS/Google\\ Chrome --auto-open-devtools-for-tabs https://web.dev\n```\n1. **Windows**: Right-click the Chrome shortcut > Properties and add the flag at the end of the Target line. Alternatively, run the following from your command-line,\n```\n\"C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe\" -auto-open-devtools-for-tabs\n```\n",
+    "References": "\n",
+    "Notes": "**a. MacOS**: In the terminal, pass the `--auto-open-devtools-for-tabs` flag to while launching Chrome.\n```\n/Applications/Google\\ Chrome.app/Contents/MacOS/Google\\ Chrome --auto-open-devtools-for-tabs\n```\n\n**b. Windows**: Right-click the Chrome shortcut > Properties and add the flag at the end of the Target line. Alternatively, run the following from your command-line,\n```\n\"C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe\" -auto-open-devtools-for-tabs\n```\n",
     "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1655896879/Videos/open-devtools-new-tab_om8hgo.mp4"
+  },
+  "Firefox": {
+    "Notes": "Firefox provides the `-devtools` command line parameter to launch a new window with devtools open by default.\n\na. **Windows:**\nOpen Run > Enter command, `firefox -devtools`.  \nb. **MacOS:**\nIn the terminal, enter the following commands,\n```\n$ cd /Applications/Firefox.app/Contents/MacOS\n$ ./firefox -devtools\n```\n",
+    "References": "1. \"Firefox command line options\", by [Mozilla wiki](https://wiki.mozilla.org/Firefox/CommandLineOptions#-devtools).\n"
   },
   "Edge": {
     "Notes": "1. **MacOS**: In the terminal, pass the `--auto-open-devtools-for-tabs` flag to while launching Edge.\n```\n/Applications/Microsoft\\ Edge.app/Contents/MacOS/Microsoft\\ Edge --auto-open-devtools-for-tabs https://web.dev\n```\n1. **Windows**: Right-click the Edge shortcut > Properties and add the flag at the end of the Target line. Alternatively, run the following from your command-line,\n```\n\"C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\edge.exe\" -auto-open-devtools-for-tabs\n```\n"

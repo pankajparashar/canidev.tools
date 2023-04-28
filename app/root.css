@@ -30,6 +30,10 @@ pre, code {
   color: deeppink;
 }
 
+pre {
+  white-space: break-spaces;
+}
+
 code:after, code:before {
 	content: "\`";
 }

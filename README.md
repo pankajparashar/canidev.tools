@@ -1142,15 +1142,27 @@ Press `Option+Cmd+I` to open the devtools.
  1. Launch Chrome → Click on the vertical three dots icon (near top right of the window).
 2. Navigate to More Tools > Developer Tools.
 ## 83. Open devtools with new tab 
- Can I open developer tools by default with every new tab? 
+ Can I open developer tools automatically with new tab or window? 
 - [Chrome](https://canidev.tools/open-devtools-new-tab/chrome) 
- 1. **MacOS**: In the terminal, pass the `--auto-open-devtools-for-tabs` flag to while launching Chrome<sup>[1]</sup>
+ **a. MacOS**: In the terminal, pass the `--auto-open-devtools-for-tabs` flag to while launching Chrome.
 ```
-/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --auto-open-devtools-for-tabs https://web.dev
+/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --auto-open-devtools-for-tabs
 ```
-1. **Windows**: Right-click the Chrome shortcut > Properties and add the flag at the end of the Target line. Alternatively, run the following from your command-line,
+
+**b. Windows**: Right-click the Chrome shortcut > Properties and add the flag at the end of the Target line. Alternatively, run the following from your command-line,
 ```
 "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" -auto-open-devtools-for-tabs
+```
+- [Firefox](https://canidev.tools/open-devtools-new-tab/firefox) 
+ Firefox provides the `-devtools` command line parameter to launch a new window with devtools open by default.
+
+a. **Windows:**
+Open Run > Enter command, `firefox -devtools`.  
+b. **MacOS:**
+In the terminal, enter the following commands,
+```
+$ cd /Applications/Firefox.app/Contents/MacOS
+$ ./firefox -devtools
 ```
 - [Edge](https://canidev.tools/open-devtools-new-tab/edge) 
  1. **MacOS**: In the terminal, pass the `--auto-open-devtools-for-tabs` flag to while launching Edge.
