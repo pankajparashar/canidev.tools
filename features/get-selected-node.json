@@ -7,9 +7,9 @@
   "LastModifiedTime": "2022-09-21T02:50:12.000Z",
   "Author": "@pankajparashar",
   "Chrome": {
-    "Notes": "1. Use `$0` to access the currently selected node. Additionally, `$1`, `$2`, `$3`, ... will give you the last selected nodes in the reverse chronological order.\n",
     "Share": "https://twitter.com/CanIDevTools/status/1553610736454184960",
     "References": "1. \"Console Utilities\", by Chrome DevTools [Docs](https://developer.chrome.com/docs/devtools/console/utilities/#recent-many)\n",
+    "Notes": "1. Use `$0` to access the currently selected node. Additionally, `$1`, `$2`, `$3`, ... will give you the last selected nodes in the reverse chronological order.\n",
     "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1659243167/get-selected-node-chrome_uf5o4m.mp4"
   },
   "Firefox": {
@@ -19,8 +19,8 @@
   },
   "Edge": {
     "Notes": "1. Use `$0` to access the currently selected node. Additionally, `$1`, `$2`, `$3`, ... will give you the last selected nodes in the reverse chronological order.\n",
-    "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1663602758/get-selected-node-edge_wefhlh.mp4",
-    "Share": "https://twitter.com/CanIDevTools/status/1553610736454184960"
+    "Share": "https://twitter.com/CanIDevTools/status/1553610736454184960",
+    "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1663602758/get-selected-node-edge_wefhlh.mp4"
   },
   "Safari": {
     "Share": "https://twitter.com/CanIDevTools/status/1553610736454184960",

@@ -7,8 +7,8 @@
   "LastModifiedTime": "2022-09-17T13:36:43.000Z",
   "Author": "@pankajparashar",
   "Chrome": {
-    "Notes": "1. Open **Settings** (`F1` or `Shift+?`) > Devices > Click \"Add custom device...\". \n2. Enter the \"Device Name\" and other details associated with the device. Click the \"Add\" button.\n",
     "Share": "https://twitter.com/CanIDevTools/status/1556184233353179137",
+    "Notes": "1. Open **Settings** (`F1` or `Shift+?`) > Devices > Click \"Add custom device...\". \n2. Enter the \"Device Name\" and other details associated with the device. Click the \"Add\" button.\n",
     "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1659854384/add-custom-device-chrome_g3ad70.mp4"
   },
   "Firefox": {
@@ -19,8 +19,8 @@
   },
   "Edge": {
     "Notes": "1. Open **Settings** (`F1` or `Shift+?`) > Devices > Click \"Add custom device...\". \n2. Enter the \"Device Name\" and other details associated with the device. Click the \"Add\" button.\n",
-    "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1659856864/add-custom-device-edge_gf1pjd.mp4",
-    "Share": "https://twitter.com/CanIDevTools/status/1556184233353179137"
+    "Share": "https://twitter.com/CanIDevTools/status/1556184233353179137",
+    "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1659856864/add-custom-device-edge_gf1pjd.mp4"
   },
   "Opera": {
     "Share": "https://twitter.com/CanIDevTools/status/1556184233353179137",

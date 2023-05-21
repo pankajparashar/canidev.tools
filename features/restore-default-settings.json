@@ -6,8 +6,8 @@
   "LastModifiedTime": "2022-07-09T08:09:35.000Z",
   "Author": "@pankajparashar",
   "Chrome": {
-    "Notes": "To restore the default theme, placement, tools order, and any other customised settings, select Settings > Preferences > Restore defaults and reload.\n",
-    "Share": "https://twitter.com/CanIDevTools/status/1540007315348537350"
+    "Share": "https://twitter.com/CanIDevTools/status/1540007315348537350",
+    "Notes": "To restore the default theme, placement, tools order, and any other customised settings, select Settings > Preferences > Restore defaults and reload.\n"
   },
   "Edge": {
     "Notes": "To restore the default theme, placement, tools order, and any other customised settings, select Settings > Preferences > Restore defaults and refresh.\n",

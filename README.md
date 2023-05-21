@@ -1891,6 +1891,9 @@ console.table([
 2. Check the option "Use large request rows" to show the URL path under the resource name.
 
  
+### [Safari](https://canidev.tools/show-url-path/safari) 
+ 1. In the **Network** panel, right click on the column header, and select "Path" to add a new column showing the URL path for the resource.
+ 
 ### [Opera](https://canidev.tools/show-url-path/opera) 
  1. In the **Network** tab, open "Network settings" (top-right).
 2. Check the option "Use large request rows" to show the URL path under the resource name.

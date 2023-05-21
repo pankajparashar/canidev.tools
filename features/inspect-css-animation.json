@@ -7,9 +7,9 @@
   "LastModifiedTime": "2022-10-03T06:39:16.000Z",
   "Author": "@pankajparashar",
   "Chrome": {
-    "Notes": "1. Open **Command** **Menu** (`Cmd+Shift+P` or `Ctrl+Shift+P`) > Run  \"Show Animations\" and press `Enter.`\n2. Trigger the animation to record it on the timeline. Now you can use the buttons in the **Controls** section to adjust the replay speed of the animation.\n3. Use the **Timeline** section to scrub the animation or jump to a specific point in animation. Use the **Details** section modify the timing & the delay of the animation.\n",
     "Share": "https://twitter.com/CanIDevTools/status/1558358446914748416",
     "References": "[1] \"Inspect animations\", on Chrome Developers [Docs](https://developer.chrome.com/docs/devtools/css/animations/).  \n[2] \"How to inspect animations\", by Google Chrome Developer on [YouTube](https://youtu.be/lVLzkleL_CE).\n",
+    "Notes": "1. Open **Command** **Menu** (`Cmd+Shift+P` or `Ctrl+Shift+P`) > Run  \"Show Animations\" and press `Enter.`\n2. Trigger the animation to record it on the timeline. Now you can use the buttons in the **Controls** section to adjust the replay speed of the animation.\n3. Use the **Timeline** section to scrub the animation or jump to a specific point in animation. Use the **Details** section modify the timing & the delay of the animation.\n",
     "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1660375651/inspect-css-animation-chrome_xz5w96.mp4"
   },
   "Firefox": {
@@ -18,8 +18,8 @@
   },
   "Edge": {
     "Notes": "1. Open **Command** **Menu** (`Cmd+Shift+P` or `Ctrl+Shift+P`) > Run  \"Show Animations\" and press `Enter.`\n2. Trigger the animation to record it on the timeline. Now you can use the buttons in the **Controls** section to adjust the replay speed of the animation.\n3. Use the **Timeline** section to scrub the animation or jump to a specific point in animation. Use the **Details** section modify the timing & the delay of the animation.\n",
-    "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1647789160/Videos/debug-css-animation-chrome.mp4",
-    "Share": "https://twitter.com/CanIDevTools/status/1558358446914748416"
+    "Share": "https://twitter.com/CanIDevTools/status/1558358446914748416",
+    "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1647789160/Videos/debug-css-animation-chrome.mp4"
   },
   "Safari": {
     "Notes": "1. Open devtools > Open the \"Timelines\" tab > Ensure that \"Media and Animations\" is enabled in the left panel.\n2. Now reload the page or trigger the animation to see the timeline in the bottom panel. \n"

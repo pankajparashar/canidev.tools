@@ -7,14 +7,14 @@
   "LastModifiedTime": "2022-10-14T07:51:18.000Z",
   "Author": "@pankajparashar",
   "Chrome": {
-    "Notes": "1. Inspect an element > Navigate to the styles section (next to the DOM tree).\n2. Add new styles by directly entering the values like \"bold\", \"italic\" etc., and the devtools will automatically suggest the corresponding `<property>: <value>` pair for the given input.\n",
     "Share": "https://twitter.com/CanIDevTools/status/1580827812797505537",
+    "Notes": "1. Inspect an element > Navigate to the styles section (next to the DOM tree).\n2. Add new styles by directly entering the values like \"bold\", \"italic\" etc., and the devtools will automatically suggest the corresponding `<property>: <value>` pair for the given input.\n",
     "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1665732492/autocomplete-styles-values-chrome_ubbzn4.mp4"
   },
   "Edge": {
     "Notes": "1. Inspect an element > Navigate to the styles section (next to the DOM tree).\n2. Add new styles by directly entering the values like \"bold\", \"italic\" etc., and the devtools will automatically suggest the corresponding `<property>: <value>` pair for the given input.\n",
-    "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1665732811/autocomplete-styles-values-edge_ato9gk.mp4",
-    "Share": "https://twitter.com/CanIDevTools/status/1580827812797505537"
+    "Share": "https://twitter.com/CanIDevTools/status/1580827812797505537",
+    "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1665732811/autocomplete-styles-values-edge_ato9gk.mp4"
   },
   "Opera": {
     "Share": "https://twitter.com/CanIDevTools/status/1580827812797505537",

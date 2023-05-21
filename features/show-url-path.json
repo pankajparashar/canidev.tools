@@ -3,22 +3,29 @@
   "Slug": "show-url-path",
   "Description": "Can I see full URL path of the network requests?",
   "Category": "Network",
-  "LastModifiedTime": "2022-07-09T09:09:11.000Z",
+  "LastModifiedTime": "2023-05-21T07:19:44.000Z",
   "Author": "@pankajparashar",
   "Chrome": {
+    "Share": "https://twitter.com/CanIDevTools/status/1660180782793609222",
+    "References": "1. \"Network features reference\", by [Chrome Developers](https://developer.chrome.com/docs/devtools/network/reference/#request-rows)\n",
     "Notes": "1. In the **Network** tab, open \"Network settings\" (top-right).\n2. Check the option \"Use large request rows\" to show the URL path under the resource name<sup>[1]</sup>\n",
-    "Share": "https://twitter.com/CanIDevTools/status/1539480314241683456",
-    "References": "[1] \"Network features reference\" - [Chrome Developers](https://developer.chrome.com/docs/devtools/network/reference/#request-rows)\n"
+    "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1684652792/show-url-path-chrome_g5h3t8.mp4"
   },
   "Firefox": {
-    "Notes": "1. In the **Network** panel, right click on the column header, and select URL. This will add a new column in the grid, which contains the full URL of the resource.\n"
+    "Notes": "1. In the **Network** panel, right click on the column header, and select URL. This will add a new column in the grid, which contains the full URL of the resource.\n",
+    "Share": "https://twitter.com/CanIDevTools/status/1660183378874777601",
+    "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1684652792/show-url-path-firefox_gposlo.mp4"
   },
   "Edge": {
     "Notes": "1. In the **Network** tab, open \"Network settings\" (top-right).\n2. Check the option \"Use large request rows\" to show the URL path under the resource name.\n\n",
-    "Share": "https://twitter.com/CanIDevTools/status/1539496921173139456"
+    "Share": "https://twitter.com/CanIDevTools/status/1660180782793609222"
+  },
+  "Safari": {
+    "Notes": "1. In the **Network** panel, right click on the column header, and select \"Path\" to add a new column showing the URL path for the resource.\n",
+    "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1684652792/show-url-path-safari_w2g2nv.mp4"
   },
   "Opera": {
-    "Share": "https://twitter.com/CanIDevTools/status/1539497780003016706",
+    "Share": "https://twitter.com/CanIDevTools/status/1660180782793609222",
     "Notes": "1. In the **Network** tab, open \"Network settings\" (top-right).\n2. Check the option \"Use large request rows\" to show the URL path under the resource name.\n"
   }
 }

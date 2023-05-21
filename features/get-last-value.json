@@ -7,9 +7,9 @@
   "LastModifiedTime": "2022-09-21T02:55:49.000Z",
   "Author": "@pankajparashar",
   "Chrome": {
-    "Notes": "1. `$_` returns the value of the most recently evaluated expression.\n",
     "Share": "https://twitter.com/CanIDevTools/status/1553378242366545920",
     "References": "1. \"Console Utilities\", by Chrome DevTools [Docs](https://developer.chrome.com/docs/devtools/console/utilities/#recent)\n",
+    "Notes": "1. `$_` returns the value of the most recently evaluated expression.\n",
     "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1659185438/get-last-value-chrome_udgaci.mp4"
   },
   "Firefox": {
@@ -19,8 +19,8 @@
   },
   "Edge": {
     "Notes": "1. `$_` returns the value of the most recently evaluated expression.\n",
-    "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1659188555/get-last-value-edge_gujpbg.mp4",
-    "Share": "https://twitter.com/CanIDevTools/status/1553378242366545920"
+    "Share": "https://twitter.com/CanIDevTools/status/1553378242366545920",
+    "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1659188555/get-last-value-edge_gujpbg.mp4"
   },
   "Safari": {
     "Share": "https://twitter.com/CanIDevTools/status/1553378242366545920",

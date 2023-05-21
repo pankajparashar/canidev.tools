@@ -6,9 +6,9 @@
   "LastModifiedTime": "2022-07-09T08:07:42.000Z",
   "Author": "@pankajparashar",
   "Chrome": {
-    "Notes": "1. Launch Chrome > Press `F12`. Alternatively, you can also use `Cmd+Option+I` (on Mac) and `Ctrl+Shift+I` (on Windows/Linux) to open the last used panel.\n",
     "Share": "https://twitter.com/CanIDevTools/status/1504404457274363904",
     "References": "1. [Keyboard shortcuts](https://developer.chrome.com/docs/devtools/shortcuts/#open) by Chrome Developers\n",
+    "Notes": "1. Launch Chrome > Press `F12`. Alternatively, you can also use `Cmd+Option+I` (on Mac) and `Ctrl+Shift+I` (on Windows/Linux) to open the last used panel.\n",
     "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1647768584/Videos/open-devtools-keyboard-chrome.mp4"
   },
   "Firefox": {

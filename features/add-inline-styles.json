@@ -7,8 +7,8 @@
   "LastModifiedTime": "2022-10-10T08:49:33.000Z",
   "Author": "@pankajparashar",
   "Chrome": {
-    "Notes": "1. Inspect element > In the **Styles** pane, click \"element.style\" to input the inline style.\n\n",
     "Share": "https://twitter.com/CanIDevTools/status/1579372110736416768",
+    "Notes": "1. Inspect element > In the **Styles** pane, click \"element.style\" to input the inline style.\n\n",
     "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1665378812/add-inline-styles-chrome_ljhuet.mp4"
   },
   "Firefox": {
@@ -18,8 +18,8 @@
   },
   "Edge": {
     "Notes": "1. Inspect element > In the **Styles** pane, click \"element.style\" to input the inline style.\n\n",
-    "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1665379280/add-inline-styles-edge_vqgpfk.mp4",
     "Share": "https://twitter.com/CanIDevTools/status/1579372110736416768",
+    "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1665379280/add-inline-styles-edge_vqgpfk.mp4",
     "References": "1. \"Add a CSS declaration to an element\", by Edge DevTools [documentation](https://learn.microsoft.com/en-us/microsoft-edge/devtools-guide-chromium/css/#add-a-css-declaration-to-an-element)\n"
   },
   "Safari": {

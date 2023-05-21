@@ -7,9 +7,9 @@
   "LastModifiedTime": "2022-10-23T12:33:59.000Z",
   "Author": "@pankajparashar",
   "Chrome": {
-    "Notes": "1. **Sources** > In the left sidebar, open **Snippets** > Click \"+ New snippet\". This will open an empty file in the main view.\n2. Enter the snippet and press `Cmd+Enter` to run the code.\n3. Additionally, you can also save the snippet and run it directly from the **Command** **Menu** using `!<script>`.\n",
     "Share": "https://twitter.com/CanIDevTools/status/1559114513370456064",
     "References": "[1] \"Run Snippets of JavaScript\", by Chrome Devtools [docs](https://developer.chrome.com/docs/devtools/javascript/snippets/).\n",
+    "Notes": "1. **Sources** > In the left sidebar, open **Snippets** > Click \"+ New snippet\". This will open an empty file in the main view.\n2. Enter the snippet and press `Cmd+Enter` to run the code.\n3. Additionally, you can also save the snippet and run it directly from the **Command** **Menu** using `!<script>`.\n",
     "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1660547902/run-snippets-chrome_jsjtiz.mp4"
   },
   "Firefox": {
