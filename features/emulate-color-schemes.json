@@ -6,9 +6,9 @@
   "LastModifiedTime": "2022-06-30T06:18:38.000Z",
   "Author": "@pankajparashar",
   "Chrome": {
+    "Notes": "1. Open devtools > Inside the \"Styles\" pane, right next to the \"+\" button, click the Icon \"Toggle common rendering emulations\".\n2. Choose the `prefers-color-scheme` option to emulate the corresponding color scheme.\n",
     "Share": "https://twitter.com/jecfish/status/1514209534566313986",
     "References": "\n",
-    "Notes": "1. Open devtools > Inside the \"Styles\" pane, right next to the \"+\" button, click the Icon \"Toggle common rendering emulations\".\n2. Choose the `prefers-color-scheme` option to emulate the corresponding color scheme.\n",
     "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1649915966/Videos/emulate-color-schemes-chrome.mp4"
   },
   "Firefox": {

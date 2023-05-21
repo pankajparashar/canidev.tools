@@ -6,9 +6,9 @@
   "LastModifiedTime": "2023-02-11T13:50:03.000Z",
   "Author": "@pankajparashar",
   "Chrome": {
+    "Notes": "1. Open **Settings** (or press `Shift+?` or `F1`) > Experiments > Apply filter on \"color picker\".\n2. Check the \"Enable color picking outside the browser window\" option > Reload DevTools.\n3. In the **Styles** pane, click on any color preview to open a color picker. Use the eyedropper to pick color from anywhere.\n",
     "Share": "https://twitter.com/yisibl/status/1513834953104310279",
     "References": "[1] \"Color picker\" - [Chrome DevTools Docs](https://developer.chrome.com/blog/new-in-devtools-103/#color)\n",
-    "Notes": "1. Open **Settings** (or press `Shift+?` or `F1`) > Experiments > Apply filter on \"color picker\".\n2. Check the \"Enable color picking outside the browser window\" option > Reload DevTools.\n3. In the **Styles** pane, click on any color preview to open a color picker. Use the eyedropper to pick color from anywhere.\n",
     "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1656654493/Videos/color-picker-outside-window-chrome_gnwoe6.mp4"
   },
   "Edge": {

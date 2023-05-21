@@ -7,9 +7,9 @@
   "LastModifiedTime": "2022-10-12T10:09:49.000Z",
   "Author": "@pankajparashar",
   "Chrome": {
+    "Notes": "> Enable authoring hints, by opening **Settings** (`F1`) > **Experiments** > Filter on \"authoring hints\" > Check \"Enable CSS Authoring hints...\"\n1. In **Elements** > Locate the authored styles in the **Styles** pane > Inactive declarations have an \"i\" icon, which on hover reveals a tooltip displaying more information.\n",
     "Share": "https://twitter.com/CanIDevTools/status/1571519143115108353",
     "References": "\n",
-    "Notes": "> Enable authoring hints, by opening **Settings** (`F1`) > **Experiments** > Filter on \"authoring hints\" > Check \"Enable CSS Authoring hints...\"\n1. In **Elements** > Locate the authored styles in the **Styles** pane > Inactive declarations have an \"i\" icon, which on hover reveals a tooltip displaying more information.\n",
     "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1663480849/find-inactive-styles-chrome_f0qouj.mp4"
   },
   "Firefox": {
@@ -19,8 +19,8 @@
   },
   "Edge": {
     "Notes": "> Enable authoring hints, by opening **Settings** (`F1`) > **Experiments** > Filter on \"authoring hints\" > Check \"Enable CSS Authoring hints...\"\n1. In **Elements** > Locate the authored styles in the **Styles** pane > Inactive declarations have an \"i\" icon, which on hover reveals a tooltip displaying more information.\n",
-    "Share": "https://twitter.com/CanIDevTools/status/1571519895124475904",
-    "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1663483151/find-inactive-styles-edge_m0f4mc.mp4"
+    "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1663483151/find-inactive-styles-edge_m0f4mc.mp4",
+    "Share": "https://twitter.com/CanIDevTools/status/1571519895124475904"
   },
   "Opera": {
     "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1665571811/find-inactive-styles-opera_cd5y89.mp4",

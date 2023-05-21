@@ -6,9 +6,9 @@
   "LastModifiedTime": "2022-08-04T06:50:30.000Z",
   "Author": "@pankajparashar",
   "Chrome": {
+    "Notes": "`$x(path [, startNode])` returns an array of DOM elements that match the given XPath expression. It has an optional second parameter, `startNode`, that specifies an element or Node from which to search for elements.\n",
     "Share": "https://twitter.com/CanIDevTools/status/1555146143608508417",
     "References": "Console Utilities API [reference](https://developer.chrome.com/docs/devtools/console/utilities/#clear-function) \n",
-    "Notes": "`$x(path [, startNode])` returns an array of DOM elements that match the given XPath expression. It has an optional second parameter, `startNode`, that specifies an element or Node from which to search for elements.\n",
     "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1659594580/select-elements-xpath-chrome_lnndgt.mp4"
   },
   "Firefox": {

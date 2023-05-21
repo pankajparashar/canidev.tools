@@ -7,9 +7,9 @@
   "LastModifiedTime": "2022-09-17T13:40:00.000Z",
   "Author": "@pankajparashar",
   "Chrome": {
+    "Notes": "1. Inspect the element > Right click on the node in the DOM tree > Copy > Copy full XPath\n",
     "Share": "https://twitter.com/CanIDevTools/status/1542517123536539648",
-    "References": "\n",
-    "Notes": "1. Inspect the element > Right click on the node in the DOM tree > Copy > Copy full XPath\n"
+    "References": "\n"
   },
   "Firefox": {
     "Share": "https://twitter.com/CanIDevTools/status/1542517879241076737",

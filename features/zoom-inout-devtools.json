@@ -20,8 +20,8 @@
   },
   "Edge": {
     "Notes": "1. In **Developer** **Tools** > Open **Command** **Menu** (`Cmd+Shift+P` or `Ctrl+Shift+P`) and Run > \"Zoom in\" or `Cmd+` or `Ctrl+` to increase the zoom level.\n2. Run > \"Zoom out\" or `Cmd-` or `Ctrl-` to decrease the zoom level.\n3. Run > \"Reset zoom level\" or `Cmd+0` or `Ctrl+0` to reset the zoom level.\n",
-    "Share": "https://twitter.com/CanIDevTools/status/1549021295308079105",
-    "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1658123207/zoom-inout-devtools-edge_cdxubb.mp4"
+    "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1658123207/zoom-inout-devtools-edge_cdxubb.mp4",
+    "Share": "https://twitter.com/CanIDevTools/status/1549021295308079105"
   },
   "Safari": {
     "Share": "https://twitter.com/CanIDevTools/status/1549023102453297153",
@@ -30,8 +30,8 @@
     "Notes": "1. In **Web Inspector** > Use `Cmd+` or `Ctrl+` to increase the zoom level. Use `Cmd-` or `Ctrl-` to decrease the zoom level. To reset the zoom level, press `Ctrl+0` or `Cmd+0`.\n2. (Or) **Settings** (`Cmd,`) > General > Zoom.\n"
   },
   "Opera": {
+    "Notes": "1. In **Developer** **Tools** > Open **Command** **Menu** (`Cmd+Shift+P` or `Ctrl+Shift+P`) and Run > \"Zoom in\" or `Cmd+` or `Ctrl+` to increase the zoom level.\n2. Run > \"Zoom out\" or `Cmd-` or `Ctrl-` to decrease the zoom level.\n3. Run > \"Reset zoom level\" or `Cmd+0` or `Ctrl+0` to reset the zoom level.\n",
     "Share": "https://twitter.com/CanIDevTools/status/1549021295308079105",
-    "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1658123848/zoom-inout-devtools-opera_eb4xxg.mp4",
-    "Notes": "1. In **Developer** **Tools** > Open **Command** **Menu** (`Cmd+Shift+P` or `Ctrl+Shift+P`) and Run > \"Zoom in\" or `Cmd+` or `Ctrl+` to increase the zoom level.\n2. Run > \"Zoom out\" or `Cmd-` or `Ctrl-` to decrease the zoom level.\n3. Run > \"Reset zoom level\" or `Cmd+0` or `Ctrl+0` to reset the zoom level.\n"
+    "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1658123848/zoom-inout-devtools-opera_eb4xxg.mp4"
   }
 }

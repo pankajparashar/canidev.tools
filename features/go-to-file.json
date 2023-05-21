@@ -6,9 +6,9 @@
   "LastModifiedTime": "2022-08-22T04:46:05.000Z",
   "Author": "@pankajparashar",
   "Chrome": {
+    "Notes": "1. Run Command menu using `Cmd+Shift+P` (on Mac) or `Ctrl+Shift+P` (on Windows/Linux) > Type filename to filter on the matching files > Press `Enter`.\n",
     "Share": "https://twitter.com/jecfish/status/1523451005626593280",
     "References": "\n",
-    "Notes": "1. Run Command menu using `Cmd+Shift+P` (on Mac) or `Ctrl+Shift+P` (on Windows/Linux) > Type filename to filter on the matching files > Press `Enter`.\n",
     "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1652108007/Videos/search-files-chrome.mp4"
   },
   "Firefox": {

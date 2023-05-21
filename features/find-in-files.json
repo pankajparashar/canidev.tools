@@ -6,8 +6,8 @@
   "LastModifiedTime": "2022-08-22T04:45:56.000Z",
   "Author": "@pankajparashar",
   "Chrome": {
-    "References": "[1] \"Search: Find text..\", by Chrome DevTools [Docs](https://developer.chrome.com/docs/devtools/search/)\n",
     "Notes": "1. Open **Command Menu** (`Cmd+Shift+P` or `Ctrl+Shift+P`) > Run > \"Show Search\" (Drawer).\n2. Enter the search query in the text field and press `Enter` to search across all download resources.\n",
+    "References": "[1] \"Search: Find text..\", by Chrome DevTools [Docs](https://developer.chrome.com/docs/devtools/search/)\n",
     "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1658465804/find-in-files-chrome_ty4bkl.mp4"
   },
   "Firefox": {

@@ -6,8 +6,8 @@
   "LastModifiedTime": "2023-01-30T07:00:54.000Z",
   "Author": "@pankajparashar",
   "Chrome": {
-    "References": "[1] Copy JS path, by Chrome DevTools [Docs](https://developer.chrome.com/blog/new-in-devtools-72/#copy)\n",
     "Notes": "1. In the **Elements** tab, right click on the node in the DOM tree > Copy > Copy JS path. This will copy the query selector to the node that can be used in the JS code.\n",
+    "References": "[1] Copy JS path, by Chrome DevTools [Docs](https://developer.chrome.com/blog/new-in-devtools-72/#copy)\n",
     "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1658651084/copy-js-path-chrome_yh3wvj.mp4"
   },
   "Edge": {

@@ -7,8 +7,8 @@
   "LastModifiedTime": "2022-10-20T11:10:56.000Z",
   "Author": "@pankajparashar",
   "Chrome": {
-    "Share": "https://twitter.com/CanIDevTools/status/1583003304161779712",
     "Notes": "1. In the **Network** panel, use the **Up** (↑) and **Down** (↓) arrow buttons in the toolbar to **Import** and **Export** all the network activity into a HAR file.\n",
+    "Share": "https://twitter.com/CanIDevTools/status/1583003304161779712",
     "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1666245808/import-export-har-chrome_u7mouu.mp4"
   },
   "Firefox": {
@@ -18,8 +18,8 @@
   },
   "Edge": {
     "Notes": "1. In the **Network** panel, use the **Up** (↑) and **Down** (↓) arrow buttons in the toolbar to **Import** and **Export** all the network activity into a HAR file.\n\n",
-    "Share": "https://twitter.com/CanIDevTools/status/1583003304161779712",
-    "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1666249898/import-export-har-edge_zvwlr2.mp4"
+    "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1666249898/import-export-har-edge_zvwlr2.mp4",
+    "Share": "https://twitter.com/CanIDevTools/status/1583003304161779712"
   },
   "Safari": {
     "Share": "https://twitter.com/CanIDevTools/status/1583006182087630848",

@@ -7,9 +7,9 @@
   "LastModifiedTime": "2022-10-16T04:12:44.000Z",
   "Author": "@pankajparashar",
   "Chrome": {
+    "Notes": "1. In the **Network** tab, right click on the request and select \"Block request URL\". This will open the \"Network request blocking\" drawer that will let you manage all your blocked requests.\n",
     "Share": "https://twitter.com/CanIDevTools/status/1581156847859683330",
     "References": "1. \"What's new in DevTools 59\", on Chrome Developers [Blog](https://developer.chrome.com/blog/new-in-devtools-59/#block-requests)\n",
-    "Notes": "1. In the **Network** tab, right click on the request and select \"Block request URL\". This will open the \"Network request blocking\" drawer that will let you manage all your blocked requests.\n",
     "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1665807339/block-request-url-chrome_hrzmg8.mp4"
   },
   "Firefox": {
@@ -20,8 +20,8 @@
   },
   "Edge": {
     "Notes": "1. In the **Network** tab, right click on the request and select \"Block request URL\". This will open the \"Network request blocking\" drawer that will let you manage all your blocked requests.\n",
-    "Share": "https://twitter.com/CanIDevTools/status/1581156847859683330",
     "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1665811615/block-request-url-edge_inumug.mp4",
+    "Share": "https://twitter.com/CanIDevTools/status/1581156847859683330",
     "References": "1. \"Block a network request by using the Network tool\", on Edge DevTools [documentation](https://learn.microsoft.com/en-us/microsoft-edge/devtools-guide-chromium/network-request-blocking/network-request-blocking-tool#block-a-network-request-by-using-the-network-tool)\n"
   },
   "Safari": {
