@@ -74,7 +74,7 @@ export default function Browser() {
           <Accordion.Panel>
             <Box pl="xs" pb="xs" pr="xs"
               dangerouslySetInnerHTML={{
-                __html: feature[browser].Notes ? marked.parse(feature[browser].Notes) : "",
+                __html: feature[browser].Notes ? marked.parse(Array.isArray(feature[browser].Notes) ? feature[browser].Notes.join("\n") : feature[browser].Notes) : "",
               }}
             />
           </Accordion.Panel>

@@ -9,6 +9,8 @@
   "Safari": {
     "Share": "https://twitter.com/CanIDevTools/status/1573634703047151616",
     "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1664018473/inspect-css-specificity-safari_tphvrw.mp4",
-    "Notes": "1. Inspect element > In the **Styles** pane, hover over the selector to reveal a tooltip displaying the specificity of that selector.\n"
+    "Notes": [
+      "1. Inspect element > In the **Styles** pane, hover over the selector to reveal a tooltip displaying the specificity of that selector."
+    ]
   }
 }
