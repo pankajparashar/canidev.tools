@@ -16,7 +16,7 @@
     "Notes": "1. Launch devtools > Open \"Command Menu\" using `Cmd+Shift+P` (Mac) or `Ctrl+Shift+P` (Windows, Linux, Chrome OS).\n2. Search for \"Show Rendering\" and press Enter (this will open the Rendering panel next to the Console).\n3. Scroll down to the section \"Emulate CSS Media Type\" and select \"print\".\n"
   },
   "Safari": {
-    "Notes": "1. In the **\\*\\*Elements\\*\\*** panel, click the printer icon in the toolbar at the top to force the page to use the print media styles.\n"
+    "Notes": "1. In the **Elements** panel, click the printer icon in the toolbar at the top to force the page to use the print media styles.\n"
   },
   "Opera": {
     "Notes": "1. Launch devtools > Open \"Command Menu\" using `Cmd+Shift+P` (Mac) or `Ctrl+Shift+P` (Windows, Linux, Chrome OS).\n2. Search for \"Show Rendering\" and press Enter (this will open the Rendering panel next to the Console).\n3. Scroll down to the section \"Emulate CSS Media Type\" and select \"print\".\n"
