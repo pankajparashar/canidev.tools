@@ -12,5 +12,13 @@
     "Notes": [
       "1. Inspect element > In the **Styles** pane, hover over the selector to reveal a tooltip displaying the specificity of that selector."
     ]
+  },
+  "Polypane": {
+    "Share": "https://twitter.com/CanIDevTools/status/1665378741940363265",
+    "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1685890182/inspect-css-specificity-polypane_claqbw.mp4",
+    "Notes": [
+      "1. Inspect element (`Cmd+Shift+C` or `Ctrl+Shift+C`) > In the **Style** pane, the specificity is shown adjacent to the selector under the file name.",
+      "2. Click the specificity to open the CSS Specificity calculator in the **Browse** panel."
+    ]
   }
 }
