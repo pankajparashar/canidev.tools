@@ -12,8 +12,8 @@
     "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1684652792/show-url-path-chrome_g5h3t8.mp4"
   },
   "Firefox": {
-    "Notes": "1. In the **Network** panel, right click on the column header, and select URL. This will add a new column in the grid, which contains the full URL of the resource.\n",
     "Share": "https://twitter.com/CanIDevTools/status/1660183378874777601",
+    "Notes": "1. In the **Network** panel, right click on the column header, and select URL. This will add a new column in the grid, which contains the full URL of the resource.\n",
     "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1684652792/show-url-path-firefox_gposlo.mp4"
   },
   "Edge": {
@@ -21,8 +21,9 @@
     "Share": "https://twitter.com/CanIDevTools/status/1660180782793609222"
   },
   "Safari": {
-    "Notes": "1. In the **Network** panel, right click on the column header, and select \"Path\" to add a new column showing the URL path for the resource.\n",
-    "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1684652792/show-url-path-safari_w2g2nv.mp4"
+    "Share": "https://twitter.com/CanIDevTools/status/1660185778205384704",
+    "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1684652792/show-url-path-safari_w2g2nv.mp4",
+    "Notes": "1. In the **Network** panel, right click on the column header, and select \"Path\" to add a new column showing the URL path for the resource.\n"
   },
   "Opera": {
     "Share": "https://twitter.com/CanIDevTools/status/1660180782793609222",

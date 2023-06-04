@@ -721,7 +721,7 @@
 3. Scroll down to the section "Emulate CSS Media Type" and select "print".
  
 ### [Safari](https://canidev.tools/emulate-print-styles/safari) 
- 1. Launch devtools > Select the body `DOM` element, and click on the "Printer" icon to force the page to use print media styles
+ 1. In the **\*\*Elements\*\*** panel, click the printer icon in the toolbar at the top to force the page to use the print media styles.
  
 ### [Opera](https://canidev.tools/emulate-print-styles/opera) 
  1. Launch devtools > Open "Command Menu" using `Cmd+Shift+P` (Mac) or `Ctrl+Shift+P` (Windows, Linux, Chrome OS).
