@@ -21,5 +21,11 @@
     "Share": "https://twitter.com/CanIDevTools/status/1572808549335302144",
     "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1663820923/inspect-box-shadow-opera_q51xcj.mp4",
     "Notes": "1. Inspect the element with box shadow > In the **Styles** pane, click the icon next to the `box-shadow` property to open the box shadow editor.\n2. Change the shadow properties:\n    - **Type** (only for `box-shadow`). Pick Outset or Inset.\n    - **X and Y offsets**. Drag the blue dot or specify values.\n    - **Blur**. Drag the slider or specify a value.\n    - **Spread** (only for `box-shadow`). Drag the slider or specify a value.\n\n"
+  },
+  "Safari": {
+    "Notes": [
+      "1. Inspect Element with `box-shadow` property applied. Click the square icon before the box shadow value to open the box shadow editor.",
+      "2. In the editor, you can change the Offset X/Y, Inset, Blur, Spread and Color properties of the box shadow"
+    ]
   }
 }
