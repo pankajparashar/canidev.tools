@@ -9,6 +9,6 @@
       "1. In **Elements**, nodes with `grid-template-columns` or `grid-template-rows` set as `subgrid` shows a **subgrid** badge next to it.",
       "2. Click the badge to inspect the nested grid and toggle an overlay that shows columns, rows, and track numbers on top of the element in the viewport."
     ],
-    "References": "\"New CSS subgrid badge\", on [Chrome Developers](https://developer.chrome.com/blog/new-in-devtools-115/#subgrid)."
+    "References": "1. \"New CSS subgrid badge\", on [Chrome Developers](https://developer.chrome.com/blog/new-in-devtools-115/#subgrid)."
   }
 }
