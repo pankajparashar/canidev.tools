@@ -5,7 +5,7 @@
   "Author": "@pankajparashar",
   "Safari": {
     "Notes": [
-      "1. In the Menu bar, select Develop > Select the device > Select the page to open the Web Inspector for that URL."
+      "1. In the Menu bar, select **Develop** > Select the device > Select the page to open the **Web Inspector** for that URL."
     ],
     "References": "1. \"Develop menu\", [Safari Developer documentation](https://developer.apple.com/documentation/safari-developer-tools/develop-menu)."
   }
