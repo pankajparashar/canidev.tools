@@ -1,7 +1,7 @@
 {
   "Name": "Inspect CSS specificity",
   "Slug": "inspect-css-specificity",
-  "Description": "Can I inspect CSS specificity of a selector?",
+  "Description": "Can I inspect specificity of a CSS selector?",
   "Category": "CSS",
   "Newsletter": "tips-tricks-19",
   "LastModifiedTime": "2022-09-24T12:53:29.000Z",
