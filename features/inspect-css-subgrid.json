@@ -1,7 +1,7 @@
 {
   "Name": "Inspect CSS subgrid",
   "Slug": "inspect-css-subgrid",
-  "Description: "Can I inspect CSS subgrids?",
+  "Description": "Can I inspect CSS subgrids?",
   "Category": "CSS",
   "Author": "@pankajparashar",
   "Chrome": {
