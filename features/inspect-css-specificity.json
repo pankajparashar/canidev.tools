@@ -26,6 +26,6 @@
     "Notes": [
       "1. In **Elements** > **Styles** pane, hover over the selector name to see the specificity in a tooltip."
     ],
-    "References": "**Selector specificity in tooltips**, on [Chrome Developers](https://developer.chrome.com/blog/new-in-devtools-115/#specificity)."
+    "References": "1. \"Selector specificity in tooltips\", on [Chrome Developers](https://developer.chrome.com/blog/new-in-devtools-115/#specificity)."
   }
 }
