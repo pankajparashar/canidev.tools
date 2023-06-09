@@ -1,0 +1,15 @@
+{
+    "Name": "Ignore extension scripts",
+    "Slug": "ignore-extension-scripts",
+    "Description": "Can I ignore extention scripts while debugging?",
+    "Category": "JavaScript",
+    
+    "Author": "@pankajparashar",
+    
+    "Chrome": {
+        "Notes": [
+            "1. Open Settings (F1) > Ignore List > Disable \"Content scripts injected by extensions\"."
+        ],
+        "References": "1. \"Ignore Chrome Extensions scripts\", [Chrome Developers](https://developer.chrome.com/docs/devtools/settings/ignore-list/#skip-extensions)."
+    }
+}
