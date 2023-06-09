@@ -1092,6 +1092,9 @@ Open devtools > Open the "Network" tab. Hold `Cmd` or `Ctrl` key while clicking 
 3. To ignore multiple scripts using a pattern, open **Settings** (`F1`) > Ignore List > Enable Ignore Listing. Click the "Add Pattern" button and enter the regex pattern matching the scripts to be ignored.
 4. All the ignored scripts will be available under **Custom** **exclusion** **rules** section in **Ignore** **List**.
  
+### [Safari](https://canidev.tools/ignore-scripts-debug/safari) 
+1. In the **Sources** panel, right click on any script and select **Blackbox script** or click the eye icon next to the script name in the source tree.
+2. To ignore multiple scripts with a pattern, go to Settings > Blackbox > Enter the regex pattern to ignore scripts in bulk. 
 ### [Opera](https://canidev.tools/ignore-scripts-debug/opera) 
 1. In **Sources** > Open **Page** (left sidebar) > Right click on the script to be ignored and select "Add script to ignore list". Debugger will omit this script from the call stack and gray out in the file tree.
 2. Alternatively, you can also add a script to the ignore list from the **Call** **Stack** pane by using the same option from the right click menu.
@@ -1136,6 +1139,9 @@ Open devtools > Open the "Network" tab. Hold `Cmd` or `Ctrl` key while clicking 
     - **Blur**. Drag the slider or specify a value.
     - **Spread** (only for `box-shadow`). Drag the slider or specify a value.
  
+### [Safari](https://canidev.tools/inspect-box-shadow/safari) 
+1. Inspect Element with `box-shadow` property applied. Click the square icon before the box shadow value to open the box shadow editor.
+2. In the editor, you can change the Offset X/Y, Inset, Blur, Spread and Color properties of the box shadow 
 ### [Opera](https://canidev.tools/inspect-box-shadow/opera) 
 1. Inspect the element with box shadow > In the **Styles** pane, click the icon next to the `box-shadow` property to open the box shadow editor.
 2. Change the shadow properties:
@@ -1152,6 +1158,8 @@ Open devtools > Open the "Network" tab. Hold `Cmd` or `Ctrl` key while clicking 
 2. To find and select a container element that caused the query to take effect, hover over and click the element name above the `@container` declaration. 
 3. When hovered over, the name turns into a link to the element in the **Elements** panel and the **Styles** pane displays the queried property and its current value.
  
+### [Safari](https://canidev.tools/inspect-container-queries/safari) 
+1. Inspect the element with `container-type` property. All the child elements using the Container query will have the `@container` decorator on top of the selector, which can be edited to affect the size of the container. 
 ## 63. Inspect CSS angles 
  Can I inspect & tweak the CSS angle unit values applied to a property?  
 ### [Chrome](https://canidev.tools/inspect-css-angles/chrome) 
@@ -1266,7 +1274,9 @@ Open devtools > Open the "Network" tab. Hold `Cmd` or `Ctrl` key while clicking 
 2. Click & Drag the control points highlighted on the shape to modify the shape.
  
 ## 70. Inspect CSS specificity 
- Can I inspect CSS specificity of a selector? 
+ Can I inspect specificity of a CSS selector? 
+### [Chrome](https://canidev.tools/inspect-css-specificity/chrome) 
+1. In **Elements** > **Styles** pane, hover over the selector name to see the specificity in a tooltip. 
 ### [Safari](https://canidev.tools/inspect-css-specificity/safari) 
 1. Inspect element > In the **Styles** pane, hover over the selector to reveal a tooltip displaying the specificity of that selector. 
 ### [Polypane](https://canidev.tools/inspect-css-specificity/polypane) 
@@ -1293,20 +1303,18 @@ Open devtools > Open the "Network" tab. Hold `Cmd` or `Ctrl` key while clicking 
 ## 72. Inspect Font properties 
  Can I inspect and edit various CSS font properties like, font-size, line-height etc? 
 ### [Chrome](https://canidev.tools/inspect-font-properties/chrome) 
-1. **Settings** (`F1` or `Shift+?`) > Experiments > Check the "Enable the new Font Editor tool within the Styles pane" box > Reload.
-2. In the **Styles** pane, click the "AA" icon in the bottom right of the selector box to open the **Font Editor** tool which allows you to tweak various font properties.
- 
+1. Open **Settings** (`F1` or `Shift+?`) > Experiments > Check the "Enable the new Font Editor tool within the Styles pane" box > Reload.
+2. In the **Styles** pane, click the "AA" icon in the bottom right of the selector box to open the **Font Editor** tool which allows you to tweak various font properties. 
 ### [Firefox](https://canidev.tools/inspect-font-properties/firefox) 
-1. Inspect the element using font properties > Navigate to the **Fonts** pane in the sidebar > Use the editor tool to tweak the various font properties.
- 
+1. Inspect the element using font properties > Navigate to the **Fonts** pane in the sidebar > Use the editor tool to tweak the various font properties. 
 ### [Edge](https://canidev.tools/inspect-font-properties/edge) 
-1. **Settings** (`F1` or `Shift+?`) > Experiments > Check the "Enable the new Font Editor tool within the Styles pane" box > Reload.
-2. In the **Styles** pane, click the "AA" icon in the bottom right of the selector box to open the Font Editor tool which allows you to tweak various font properties.
- 
+1. Open **Settings** (`F1` or `Shift+?`) > Experiments > Check the "Enable the new Font Editor tool within the Styles pane" box > Reload.
+2. In the **Styles** pane, click the "AA" icon in the bottom right of the selector box to open the **Font Editor** tool which allows you to tweak various font properties. 
+### [Safari](https://canidev.tools/inspect-font-properties/safari) 
+1. Inspect element > Navigate to the **Font** panel to see information about the active font for the selected DOM node in the DOM Tree, providing computed values for both basic properties (e.g. size, style, weight, etc.) and advanced properties (e.g. ligatures, alternate glyphs, variations, etc.) 
 ### [Opera](https://canidev.tools/inspect-font-properties/opera) 
-1. Settings (`F1` or `Shift+?`) > Experiments > Check the "Enable the new Font Editor tool within the Styles pane" box > Reload.
-2. In the Styles pane, click the "AA" icon in the bottom right of the selector box to open the Font Editor tool which allows you to tweak various font properties.
- 
+1. Open **Settings** (`F1` or `Shift+?`) > Experiments > Check the "Enable the new Font Editor tool within the Styles pane" box > Reload.
+2. In the **Styles** pane, click the "AA" icon in the bottom right of the selector box to open the **Font Editor** tool which allows you to tweak various font properties. 
 ## 73. Inspect requests 
  Can I inspect Network requests? 
 ### [Chrome](https://canidev.tools/inspect-requests/chrome) 
