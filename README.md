@@ -1287,11 +1287,11 @@ Open devtools > Open the "Network" tab. Hold `Cmd` or `Ctrl` key while clicking 
 ### [Polypane](https://canidev.tools/inspect-css-specificity/polypane) 
 1. Inspect element (`Cmd+Shift+C` or `Ctrl+Shift+C`) > In the **Style** pane, the specificity is shown adjacent to the selector under the file name.
 2. Click the specificity to open the CSS Specificity calculator in the **Browse** panel. 
-## 71. Inspect CSS subgrid 
+## 71. Inspect CSS Subgrid 
  Can I inspect CSS subgrids? 
 ### [Chrome](https://canidev.tools/inspect-css-subgrid/chrome) 
-1. In Elements, nodes with `grid-template-columns` or `grid-template-rows` set as `subgrid` shows a **subgrid** badge next to it.
-2. Click the badge to inspect the nested grid and toggle an overlay that shows columns, rows, and track numbers on top of the element in the viewport 
+1. In **Elements**, nodes with `grid-template-columns` or `grid-template-rows` set as `subgrid` shows a **subgrid** badge next to it.
+2. Click the badge to inspect the nested grid and toggle an overlay that shows columns, rows, and track numbers on top of the element in the viewport. 
 ## 72. Inspect devtools 
  Can I inspect the browser's developer tool? 
 ### [Chrome](https://canidev.tools/inspect-devtools/chrome) 
