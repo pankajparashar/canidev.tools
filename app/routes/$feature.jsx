@@ -197,6 +197,7 @@ export default function Feature() {
               disabled={!feature.Opera}
               component={Link}
               to={`/${feature.Slug}/opera`}
+              sx={theme => ({ borderRight: borderColor(theme) })}
             >
               <IconBrandOpera size={20} />
             </Button>
