@@ -61,6 +61,7 @@ export function loader({ params }) {
   const filename = path.join('features', params.feature + '.json');
   const file = fs.readFileSync(filename);
   const record = JSON.parse(file);
+  record.LastModifiedTime = fs.statSync(filename).mtime
 
   if (record.Related) {
     record.Related = record.Related.map(slug => {
