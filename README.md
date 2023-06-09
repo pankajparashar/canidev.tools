@@ -1,8 +1,9 @@
-
 <p align="center">
 	<a aria-label="Substack Newsletter" href="https://canidevtools.substack.com"><img src="https://img.shields.io/badge/Substack-Newsletter-ff6719?style=for-the-badge&logo=Substack&labelColor=000"></a>
 	<a aria-label="Twitter" href="https://twitter.com/CanIDevTools"><img src="https://img.shields.io/badge/Twitter-Follow-309bf0?style=for-the-badge&logo=Twitter&labelColor=000"></a>
-</p>![image](https://canidev.tools/social-image.png) 
+</p>
+
+![image](https://canidev.tools/social-image.png) 
 
 ## 1. Add audio breakpoint 
  Can I add audio breakpoint whenever a line of code is executed? 
