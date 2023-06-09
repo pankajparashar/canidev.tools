@@ -1,6 +1,7 @@
 {
   "Name": "Debug remote device pages",
   "Slug": "debug-remote-device-pages",
+  "Category": "Other",
   "Author": "@pankajparashar",
   "Safari": {
     "Notes": [
