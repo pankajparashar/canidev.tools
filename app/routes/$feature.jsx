@@ -216,7 +216,7 @@ export default function Feature() {
           <Divider />
           <SimpleGrid cols={2} spacing={0}>
             <Alert p="lg" title="Last Modified" styles={_ => ({ title: { marginBottom: 0 }})} sx={theme => ({ borderRight: borderColor(theme), borderBottom: borderColor(theme) })}>
-              {formatDistanceToNow(new Date(feature.LastModifiedTime), { addSuffix: true })}
+              {feature.LastModifiedTime}
             </Alert>
 
             <Alert p="lg" title="Author" styles={_ => ({ title: { marginBottom: 0 }})} sx={theme => ({ borderBottom: borderColor(theme) })}>
