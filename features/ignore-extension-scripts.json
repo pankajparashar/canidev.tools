@@ -8,7 +8,7 @@
     
     "Chrome": {
         "Notes": [
-            "1. Open Settings (F1) > Ignore List > Disable \"Content scripts injected by extensions\"."
+            "1. Open **Settings** (`F1`) > Ignore List > Disable \"Content scripts injected by extensions\"."
         ],
         "References": "1. \"Ignore Chrome Extensions scripts\", [Chrome Developers](https://developer.chrome.com/docs/devtools/settings/ignore-list/#skip-extensions)."
     }
