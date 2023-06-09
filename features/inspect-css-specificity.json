@@ -22,6 +22,7 @@
     ]
   },
   "Chrome": {
+    "Share": "https://twitter.com/CanIDevTools/status/1667023497002991616",
     "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1686283557/inspect-css-specificity-chrome_exa4yc.mp4",
     "Notes": [
       "1. In **Elements** > **Styles** pane, hover over the selector name to see the specificity in a tooltip."
