@@ -7,28 +7,32 @@
     "Author": "@pankajparashar",
     
     "Chrome": {
+        "Share": "https://twitter.com/CanIDevTools/status/1667834716966334464",
+        "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1686477542/target-iframe-console-chrome_jvujdn.mp4",
         "Notes": [
-            "1. Open Console (`Cmd+Shift+J` or `Ctrl+Shift+J`).",
-            "2. Click the \"top\" menu, and select the iframe to target in the **Console**."
+            "1. In the **Console** panel, click the \"top\" menu, and select the iframe to target in the **Console**."
         ]
     },
     "Firefox": {
-        "Notes": "1. In the **Console** tab, click the \"iframe context picker button\" (top right) to launch a popup listing all the iframes in the document (and the main document itself). \n2. Select an entry to make it the target iframe. Note that the button is only displayed if the page includes iframes!\n",
+        "Notes": [
+            "1. In the **Console** panel, click the \"iframe context picker button\" (top right) to launch a popup listing all the iframes in the document (including the main document).",
+            "2. Select the iframe to target in the Console. (Note: The button is only displayed if the page includes iframes!)"
+        ],
         "References": "1. \"Working with iframes\" - [Firefox Source Docs](https://firefox-source-docs.mozilla.org/devtools-user/working_with_iframes/index.html)\n"
     },
     "Edge": {
+        "Share": "https://twitter.com/CanIDevTools/status/1667834716966334464",
         "Notes": [
-            "1. Open Console (`Cmd+Shift+J` or `Ctrl+Shift+J`).",
-            "2. Click the \"top\" menu, and select the iframe to target in the **Console**."
+            "1. In the **Console** panel, click the \"top\" menu, and select the iframe to target in the **Console**."
         ]
     },
     "Safari": {
         "Notes": "1. In the **Console** panel, select the target iframe from the \"Execution context for $0\" dropdown (bottom-right).\n"
     },
     "Opera": {
+        "Share": "https://twitter.com/CanIDevTools/status/1667834716966334464",
         "Notes": [
-            "1. Open Console (`Cmd+Shift+J` or `Ctrl+Shift+J`).",
-            "2. Click the \"top\" menu, and select the iframe to target in the **Console**."
+            "1. In the **Console** panel, click the \"top\" menu, and select the iframe to target in the **Console**."
         ]
     }
 }
