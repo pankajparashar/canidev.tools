@@ -14,6 +14,8 @@
         ]
     },
     "Firefox": {
+        "Share": "https://twitter.com/CanIDevTools/status/1667851203227557888",
+        "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1686481349/target-iframe-console-firefox_twgixt.mp4",
         "Notes": [
             "1. In the **Console** panel, click the \"iframe context picker button\" (top right) to launch a popup listing all the iframes in the document (including the main document).",
             "2. Select the iframe to target in the Console. (Note: The button is only displayed if the page includes iframes!)"
