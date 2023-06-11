@@ -7,7 +7,7 @@ import path from "path";
 import { json } from "@remix-run/node";
 
 import { Accordion, LoadingOverlay, Box, Button, Divider, Group, Image, Text } from "@mantine/core";
-import { IconBrandChrome, IconBrandFirefox, IconBrandEdge, IconBrandSafari, IconBrandOpera, IconShare, IconBrandWindows, IconBrandApple, IconBrandUbuntu } from "@tabler/icons";
+import { IconBrandChrome, IconBrandFirefox, IconBrandEdge, IconBrandSafari, IconBrandOpera, IconShare, IconBrandWindows, IconBrandApple, IconBrandUbuntu } from "@tabler/icons-react";
 
 export function loader({ params }) {
   const filename = path.join("features", params.feature + ".json");

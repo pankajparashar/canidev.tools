@@ -12,7 +12,7 @@ import { Accordion, Anchor } from '@mantine/core';
 import { Box, NavLink } from '@mantine/core';
 import { Divider } from '@mantine/core';
 import { Badge } from '@mantine/core';
-import { IconBrandGithub } from '@tabler/icons';
+import { IconBrandGithub } from '@tabler/icons-react';
 import { Alert } from '@mantine/core';
 import { SimpleGrid } from '@mantine/core';
 import {
@@ -31,7 +31,7 @@ import {
   IconHexagons,
   IconCrosshair,
   IconCode,
-} from '@tabler/icons';
+} from '@tabler/icons-react';
 
 
 export const meta = ({ data }) => {
