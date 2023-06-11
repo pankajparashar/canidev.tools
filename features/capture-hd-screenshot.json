@@ -8,8 +8,8 @@
     "Related": [
         "capture-screenshot-console",
         "capture-viewport-screenshot",
-        "capture-full-page-screenshot"
-        "capture-node-screenshot",
+        "capture-full-page-screenshot",
+        "capture-node-screenshot"
     ],
     
     "Firefox": {
