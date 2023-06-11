@@ -103,6 +103,7 @@ export default function Feature() {
     Network: 'yellow',
     Other: 'orange',
     Sources: 'green',
+    Performance: "teal",
   };
 
   const borderColor = theme => `1px solid ${theme.colorScheme === "dark" ? theme.colors.dark[6] : theme.colors.gray[4]}`
