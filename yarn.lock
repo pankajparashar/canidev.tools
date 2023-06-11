@@ -1303,13 +1303,6 @@
     "@jridgewell/resolve-uri" "^3.0.3"
     "@jridgewell/sourcemap-codec" "^1.4.10"
 
-"@mantine/carousel@^5.10.2":
-  version "5.10.2"
-  resolved "https://registry.npmjs.org/@mantine/carousel/-/carousel-5.10.2.tgz"
-  integrity sha512-jzCWiNogL8z9qkzFCwOxWlzogiYPtvy3uiSDTr3t/y0yZXLhpv6gsLSK1CIAUOW8fOYsAS6egwc1Uqgwzrt3yg==
-  dependencies:
-    "@mantine/utils" "5.10.2"
-
 "@mantine/core@^5.2.5", "@mantine/core@5.10.2":
   version "5.10.2"
   resolved "https://registry.npmjs.org/@mantine/core/-/core-5.10.2.tgz"
@@ -1752,7 +1745,7 @@
   dependencies:
     defer-to-connect "^2.0.0"
 
-"@tabler/icons@^1.95.1":
+"@tabler/icons@^1.119.0":
   version "1.119.0"
   resolved "https://registry.npmjs.org/@tabler/icons/-/icons-1.119.0.tgz"
   integrity sha512-Fk3Qq4w2SXcTjc/n1cuL5bccPkylrOMo7cYpQIf/yw6zP76LQV9dtLcHQUjFiUnaYuswR645CnURIhlafyAh9g==
@@ -3625,18 +3618,6 @@ elliptic@^6.5.3:
     inherits "^2.0.4"
     minimalistic-assert "^1.0.1"
     minimalistic-crypto-utils "^1.0.1"
-
-embla-carousel-react@^7.0.0, embla-carousel-react@^7.0.9:
-  version "7.0.9"
-  resolved "https://registry.npmjs.org/embla-carousel-react/-/embla-carousel-react-7.0.9.tgz"
-  integrity sha512-KGnnZWukN+N2H6VjQf6C9mWmInqtCIiInhkGsJ9ckxri3m3Ks6wRDz+RRlV1kcuPHtRoxyFuBBGNwftWqMO9Pw==
-  dependencies:
-    embla-carousel "7.0.9"
-
-embla-carousel@7.0.9:
-  version "7.0.9"
-  resolved "https://registry.npmjs.org/embla-carousel/-/embla-carousel-7.0.9.tgz"
-  integrity sha512-g8pGPd1BxexiZgw8F1aNM1KL3x3eEcz6TGTz20AuqCCynASBV7/h1+aS2rySDc/hHkXqbU8dk7TDhW71LCqVkQ==
 
 emoji-regex@^8.0.0:
   version "8.0.0"
@@ -7381,7 +7362,7 @@ react-textarea-autosize@8.3.4:
     use-composed-ref "^1.3.0"
     use-latest "^1.2.1"
 
-react@*, "react@^16.8 || ^17.0 || ^18.0", "react@^16.8.0 || ^17.0.0 || ^18.0.0", "react@^16.8.0 || ^17.0.1 || ^18.0.0", react@^16.8||^17||^18, "react@^16.9.0 || ^17.0.0 || ^18.0.0", "react@^16.x || 17.x || 18.x", react@^17.0.2, react@>=16.0.0, react@>=16.11.0, react@>=16.8, react@>=16.8.0, react@>=16.9.0, "react@0.14 || 15 || 16 || 17 || 18", react@17.0.2:
+react@*, "react@^16.8 || ^17.0 || ^18.0", "react@^16.8.0 || ^17.0.0 || ^18.0.0", react@^16.8||^17||^18, "react@^16.9.0 || ^17.0.0 || ^18.0.0", "react@^16.x || 17.x || 18.x", react@^17.0.2, react@>=16.0.0, react@>=16.11.0, react@>=16.8, react@>=16.8.0, react@>=16.9.0, "react@0.14 || 15 || 16 || 17 || 18", react@17.0.2:
   version "17.0.2"
   resolved "https://registry.npmjs.org/react/-/react-17.0.2.tgz"
   integrity sha512-gnhPt75i/dq/z3/6q/0asP78D0u592D5L1pd7M8P+dck6Fu/jJeL6iVVK23fptSUZj8Vjf++7wXA8UNclGQcbA==

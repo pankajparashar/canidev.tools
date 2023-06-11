@@ -19,7 +19,7 @@ import { useMediaQuery, useColorScheme, useLocalStorage } from "@mantine/hooks";
 import { StylesPlaceholder } from "@mantine/remix";
 
 // Tabler
-import { IconBrandSpeedtest, IconQuote, IconStar, IconCode, IconListDetails, IconBrandTwitter, IconBrandGithub, IconNews, IconBrightness, IconBoxMargin, IconList, IconAccessible, IconReportMedical, IconTerminal2, IconBrandNextjs, IconAffiliate, IconHexagons, IconCrosshair, IconUserCircle } from "@tabler/icons";
+import { IconQuote, IconStar, IconCode, IconListDetails, IconBrandTwitter, IconBrandGithub, IconNews, IconBrightness, IconBoxMargin, IconList, IconAccessible, IconReportMedical, IconTerminal2, IconBrandNextjs, IconAffiliate, IconHexagons, IconCrosshair, IconUserCircle } from "@tabler/icons";
 
 // Custom
 import styles from "./root.css";
@@ -124,7 +124,7 @@ export default function App() {
         Network: <IconAffiliate size={20} stroke={1.5} />,
         Other: <IconHexagons size={20} stroke={1.5} />,
         Sources: <IconCode size={20} stroke={1.5} />,
-        Performance: <IconBrandSpeedtest size={20} stroke={1.5} />,
+        // Performance: <IconBrandSpeedtest size={20} stroke={1.5} />,
     };
     const colors = {
         CSS: "red",
@@ -136,7 +136,7 @@ export default function App() {
         Network: "yellow",
         Other: "orange",
         Sources: "green",
-        Performance: "teal",
+        // Performance: "teal",
     };
 
     const borderColor = theme => `1px solid ${theme.colorScheme === "dark" ? theme.colors.dark[6] : theme.colors.gray[4]}`
