@@ -137,6 +137,7 @@ export default function App() {
         Other: "orange",
         Sources: "green",
         Performance: "teal",
+        Favorites: "yellow.5",
     };
 
     const borderColor = theme => `1px solid ${theme.colorScheme === "dark" ? theme.colors.dark[6] : theme.colors.gray[4]}`
@@ -192,6 +193,7 @@ export default function App() {
                             <Collapse className="collapse" in={open}>
                                 <Link to={"/"} itemProp="itemListElement" itemScope itemType="https://schema.org/ListItem">
                                     <NavLink
+                                        variant="filled"
                                         active={params.get("category") === null}
                                         key={"all"}
                                         icon={<IconList size="20" stroke="2" />}
@@ -208,11 +210,13 @@ export default function App() {
                                     .map(category => (
                                         <Link to={`/?category=${category.toLocaleLowerCase()}`} key={category} itemProp="itemListElement" itemScope itemType="https://schema.org/ListItem">
                                             <NavLink
+                                                variant="filled"
                                                 itemProp="item"
                                                 active={params.get("category")?.toLowerCase() === category.toLowerCase()}
                                                 key={category}
                                                 icon={icons[category]}
                                                 label={category}
+                                                color={colors[category]}
                                                 rightSection={
                                                     <Badge size="md" variant="filled" color={colors[category]}>
                                                         {categories[category]}
@@ -223,6 +227,8 @@ export default function App() {
                                     ))}
                                 <Link to={"/?category=favorites"} itemProp="itemListElement" itemScope itemType="https://schema.org/ListItem">
                                     <NavLink
+                                        variant="filled"
+                                        color={colors["Favorites"]}
                                         active={params.get("category") === "favorites"}
                                         key={"favorites"}
                                         icon={<IconStar size="20" stroke="1.5" />}
