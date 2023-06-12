@@ -1,0 +1,17 @@
+{
+    "Name": "Override response headers",
+    "Slug": "override-response-headers",
+    "Description": "Can I override headers of the network response?",
+    "Category": "Network",
+
+    "Author": "@pankajparashar",
+
+    "Chrome": {
+        "Notes": [
+            "1. In the **Network** panel, right click on the request and select \"Override headers\".",
+            "2. Select the path where the overrides will be saved > Allow permissions to access the path.",
+            "3. Under **Response headers** section, click \"Add header\" to add a custom key-value pair",
+            "4. Use the **header overrides** option to manage your custom headers across all domains." 
+        ]
+    }
+}
