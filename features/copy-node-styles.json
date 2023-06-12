@@ -10,5 +10,10 @@
         "Notes": [
             "1. In the **Elements** panel, right click on the node > Copy > Copy styles."
         ]
+    },
+    "Polypane": {
+        "Notes": [
+            "1. In the **Elements** panel, go to the \"Computed\" tab and click the \"Copy styles\" button."
+        ]
     }
 }

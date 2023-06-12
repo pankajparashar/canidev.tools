@@ -28,5 +28,9 @@
   "Opera": {
     "References": "\n",
     "Notes": "Three ways to clear a console:\n1. Press `Ctrl+L` (on Windows/Linux) or `Cmd+K` (on MacOS) to clear the console.\n2. Click on the \"Clear Console\" icon in the toolbar on the top left side.\n3. Use `console.clear()` on the command line.\n"
+  },
+  "Polypane": {
+    "References": "1. The Polypane console [documentation](https://polypane.app/docs/console/)\n",
+    "Notes": "Three ways to clear a console:\n1. Press `Cmd/Ctrl+Shift+K` to clear the console.\n2. Click on the \"Clear Console\" icon in the toolbar on the top left side.\n3. Use `console.clear()` on the command line.\n"
   }
 }

@@ -25,7 +25,7 @@
     "Share": "https://twitter.com/CanIDevTools/status/1667169735845314570",
     "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1686315555/emulate-print-styles-polypane_pltycu.mp4",
     "Notes": [
-      "1. Click **Change Options** from the top toolbar > **Media** (tab) > Select **print** to emulate the print media styles."
+      "1. Click **Change Media and Emulations** from the top toolbar > **Media** (tab) > Select **print** to emulate the print media styles."
     ]
   }
 }

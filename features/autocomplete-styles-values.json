@@ -20,5 +20,8 @@
     "Share": "https://twitter.com/CanIDevTools/status/1580827812797505537",
     "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1665732811/autocomplete-styles-values-opera_lcrssf.mp4",
     "Notes": "1. Inspect an element > Navigate to the styles section (next to the DOM tree).\n2. Add new styles by directly entering the values like \"bold\", \"italic\" etc., and the devtools will automatically suggest the corresponding `<property>: <value>` pair for the given input.\n"
-  }
+  },
+  "Polypane": {
+    "Notes": "1. Inspect an element > Navigate to the styles tab \n2. Click the \"propety\" field under the style you want to edit, and the devtools will automatically suggest appropriate style properties and values for the current element. \n"
+  },
 }
