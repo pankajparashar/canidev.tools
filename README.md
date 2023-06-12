@@ -213,6 +213,11 @@ Can I take full page screenshot of a website?
 1. Open **Command** **Menu** (`Cmd+Shift+P` or `Ctrl+Shift+P`) & Run > "Capture full size screenshot" and press `Enter`.
 2. This will save a PNG image with url as the filename in the **Downloads** directory.
  
+## Capture HD screenshot
+Can I capture high definition screenshot of a page?
+
+### [Firefox](https://canidev.tools/capture-hd-screenshot/firefox) 
+1. In **Console**, run the `:screenshot --dpr 2` command to take a high definiton screenshot with the device pixel ratio set to 2. 
 ## Capture node screenshot
 Can I take screenshot of a DOM node?
 
@@ -659,6 +664,15 @@ Can I disable JavaScript on a web page?
 2. Search for "Disable JavaScript" and press `Enter` to execute the command.
 3. The yellow warning icon next to the Sources panel is the indicator that the JavaScript is disabled. It will continue to be disabled until the devtools is closed.
  
+## Display FPS on page
+Can I display the current frames per second (FPS) of the page?
+
+### [Chrome](https://canidev.tools/display-fps/chrome) 
+1. Open **Command Menu** (`Cmd+Shift+P` or `Ctrl+Shift+P`) > Run "Show frames per second (FPS) meter". 
+### [Edge](https://canidev.tools/display-fps/edge) 
+1. Open **Command Menu** (`Cmd+Shift+P` or `Ctrl+Shift+P`) > Run "Show frames per second (FPS) meter". 
+### [Opera](https://canidev.tools/display-fps/opera) 
+1. Open **Command Menu** (`Cmd+Shift+P` or `Ctrl+Shift+P`) > Run "Show frames per second (FPS) meter". 
 ## Drag & Drop element
 Can I drag & drop nodes anywhere inside the DOM tree?
 
@@ -903,6 +917,12 @@ Can I filter requests in the Network tab using specific properties?
 1. Use the Filter text box to filter requests by properties, such as the domain or size of the request.
 2. You can use multiple properties simultaneously by separating each property with a space. For example, `mime-type:image/gif larger-than:1K` displays all GIFs that are larger than one kilobyte. These multi-property filters are equivalent to AND operations. OR operations are currently not supported.
  
+## Find broken links
+Can I find links on a page that return Error 404, 500?
+
+### [Polypane](https://canidev.tools/find-broken-links/polypane) 
+1. Open DevTools panel (`F12`) > Info > Outline. Select "Links" from the dropdown menu at the top.
+2. Scroll through the list of links to identify broken links reporting status code with 404, 500. 
 ## Find by XPath
 Can I find elements in the DOM tree using xpath?
 
@@ -1496,6 +1516,12 @@ Can I trace style declarations in the original source file?
 1. Inspect element > Find the corresponding declaration in the "Styles" pane. 
 2. Click the `<filename>:<lineno>` link adjacent to the declaration to locate the style in the source file.
  
+## Measure distance on page
+Can I measure straight line distance between any two points on the page?
+
+### [Firefox](https://canidev.tools/measure-distance-page/firefox) 
+1. Open **Settings**(`F1`) > Scroll down to the **Available Toolbox Buttons** section, and enable the option, "Measure a portion of the page". This will add a new **Ruler** button in the toolbox at the top.
+2. Click the Ruler button > Click and drag along the straight line to measure the straight line distance between any two points on the page. 
 ## Never pause at exceptions
 Can I prevent the debugger from pausing at exceptions?
 
@@ -1701,6 +1727,15 @@ Can I override global objects on page load before other scripts run?
 1. In the **Sources** panel, click **Add** **Resource** (+) button in the bottom of the left sidebar > select "Inspector Bootstrap Script".
 2. Add the code snippet to override the behaviour of the global objects that is guaranteed to run before any other code.
  
+## Override response headers
+Can I override headers of the network response?
+
+### [Chrome](https://canidev.tools/override-response-headers/chrome) 
+1. In the **Network** panel, right click on the request and select "Override headers".
+2. Select the path where the overrides will be saved > Allow permissions to access the path.
+3. Under **Response headers** section, click "Add header" to add a custom key-value pair
+4. Use the **header overrides** option to manage your custom headers across all domains.
+5. Request with overriden headers are highlighted with purple dot next to the **Status** code. 
 ## Override user agent
 Can I override the user agent to emulate different profiles?
 
@@ -2112,29 +2147,21 @@ console.log(
 )
 ```
  
-## Target iframe
+## Target iframe in console
 Can I target iframes while debugging from the Console panel?
 
-### [Chrome](https://canidev.tools/target-iframe/chrome) 
-1. Open Console using `Cmd+Shift+J `(on Mac) or `Ctrl+Shift+J` (on Windows/Linux).
-2. Next to the "Clear console" icon in the toolbar, click the "top" menu, and select the iframe to target.
- 
-### [Firefox](https://canidev.tools/target-iframe/firefox) 
-1. In the **Console** tab, click the "iframe context picker button" (top right) to launch a popup listing all the iframes in the document (and the main document itself). 
-2. Select an entry to make it the target iframe. Note that the button is only displayed if the page includes iframes!
- 
-### [Edge](https://canidev.tools/target-iframe/edge) 
-1. Open Console using `Cmd+Shift+J `(on Mac) or `Ctrl+Shift+J` (on Windows/Linux).
-2. Next to the "Clear console" icon in the toolbar, click the "top" menu, and select the iframe to target.
-
- 
-### [Safari](https://canidev.tools/target-iframe/safari) 
+### [Chrome](https://canidev.tools/target-iframe-console/chrome) 
+1. In the **Console** panel, click the "top" menu, and select the iframe to target in the **Console**. 
+### [Firefox](https://canidev.tools/target-iframe-console/firefox) 
+1. In the **Console** panel, click the "iframe context picker button" (top right) to launch a popup listing all the iframes in the document (including the main document).
+2. Select the iframe to target in the Console. (Note: The button is only displayed if the page includes iframes!) 
+### [Edge](https://canidev.tools/target-iframe-console/edge) 
+1. In the **Console** panel, click the "top" menu, and select the iframe to target in the **Console**. 
+### [Safari](https://canidev.tools/target-iframe-console/safari) 
 1. In the **Console** panel, select the target iframe from the "Execution context for $0" dropdown (bottom-right).
  
-### [Opera](https://canidev.tools/target-iframe/opera) 
-1. Open Console using `Cmd+Shift+J `(on Mac) or `Ctrl+Shift+J` (on Windows/Linux).
-2. Next to the "Clear console" icon in the toolbar, click the "top" menu, and select the iframe to target.
- 
+### [Opera](https://canidev.tools/target-iframe-console/opera) 
+1. In the **Console** panel, click the "top" menu, and select the iframe to target in the **Console**. 
 ## Throttle CPU speed
 Can I throttle CPU speed to simulate slower machines?
 
