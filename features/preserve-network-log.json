@@ -1,0 +1,14 @@
+{
+    "Name": "Preserve network log",
+    "Slug": "preserve-network-log",
+    "Description": "Can I preserve network log on page reloads?",
+    "Category": "Network",
+
+    "Author": "@pankajparashar",
+
+    "Chrome": {
+        "Notes": [
+            "1. In the **Network** panel, enable the \"Preserve log\" option in the toolbar to preserve all the network requests on page reloads."
+        ]
+    }
+}

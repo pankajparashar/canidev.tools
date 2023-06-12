@@ -1,0 +1,14 @@
+{
+    "Name": "Edit node as HTML",
+    "Slug": "edit-node-html",
+    "Description": "Can I edit the node as HTML?",
+    "Category": "Elements",
+
+    "Author": "@pankajparashar",
+
+    "Chrome": {
+        "Notes": [
+            "1. In the **Elements** panel, right click on the node and select \"Edit as HTML\"."
+        ]
+    }
+}

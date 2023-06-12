@@ -1,0 +1,14 @@
+{
+    "Name": "Scroll node into view",
+    "Slug": "scroll-node-into-view",
+    "Description": "Can I scroll a DOM node into the viewport?",
+    "Category": "Elements",
+
+    "Author": "@pankajparashar",
+
+    "Chrome": {
+        "Notes": [
+            "1. In the **Elements** panel, right click on the node and select \"Scroll into view\"."
+        ]
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "Name": "Copy node styles",
+    "Slug": "copy-node-styles",
+    "Description": "Can I copy the styles applied to an element?",
+    "Category": "Elements",
+
+    "Author": "@pankajparashar",
+
+    "Chrome": {
+        "Notes": [
+            "1. In the **Elements** panel, right click on the node > Copy > Copy styles."
+        ]
+    }
+}

@@ -372,6 +372,39 @@ Three ways to clear a console:
 2. Click on the "Clear Console" icon in the toolbar on the top left side.
 3. Use `console.clear()` on the command line.
  
+## Clear network log
+Can I clear network log?
+
+### [Chrome](https://canidev.tools/clear-network-log/chrome) 
+1. In the **Network** panel, click the **Clear network log** (`Cmd+K` or `Ctrl+L`) button in the toolbar to clear all the network requests. 
+## Copy cURL request
+Can I copy a network request as cURL?
+
+### [Chrome](https://canidev.tools/copy-as-curl/chrome) 
+In the **Network** tab, right click on the request, Copy > Copy as cURL will copy the request with cURL command to the clipboard.
+ 
+### [Firefox](https://canidev.tools/copy-as-curl/firefox) 
+1. In the **Network** tab, right click on the request, Copy > Copy as cURL will copy the request with cURL command to the clipboard.
+ 
+### [Edge](https://canidev.tools/copy-as-curl/edge) 
+In the **Network** tab, right click on the request, Copy > Copy as cURL will copy the request with cURL command to the clipboard.
+ 
+### [Safari](https://canidev.tools/copy-as-curl/safari) 
+In the **Network** tab, right click on the request, "Copy as cURL" will copy the request with cURL command to the clipboard.
+ 
+### [Opera](https://canidev.tools/copy-as-curl/opera) 
+In the **Network** tab, right click on the request, Copy > Copy as cURL will copy the request with cURL command to the clipboard.
+ 
+## Copy as Fetch
+Can I copy the request as window.fetch()?
+
+### [Chrome](https://canidev.tools/copy-as-fetch/chrome) 
+1. In the **Network** panel, right click on the network request > Copy > Copy as fetch. 
+## Copy as PowerShell
+Can I copy the request as a powershell script?
+
+### [Chrome](https://canidev.tools/copy-as-powershell/chrome) 
+1. In the **Network** panel, right click on the network request > Copy > Copy as PowerShell. 
 ## Copy as CSS selector
 Can I copy a node's path as a CSS selector?
 
@@ -389,24 +422,6 @@ In the **Elements** tab, right click on the element in the DOM tree > Copy > Sel
  
 ### [Opera](https://canidev.tools/copy-css-selector/opera) 
 In the **Elements** tab, right click on the element in the DOM tree > Copy > Copy selector.
- 
-## Copy cURL request
-Can I copy a network request as cURL?
-
-### [Chrome](https://canidev.tools/copy-curl-request/chrome) 
-In the **Network** tab, right click on the request, Copy > Copy as cURL will copy the request with cURL command to the clipboard.
- 
-### [Firefox](https://canidev.tools/copy-curl-request/firefox) 
-1. In the **Network** tab, right click on the request, Copy > Copy as cURL will copy the request with cURL command to the clipboard.
- 
-### [Edge](https://canidev.tools/copy-curl-request/edge) 
-In the **Network** tab, right click on the request, Copy > Copy as cURL will copy the request with cURL command to the clipboard.
- 
-### [Safari](https://canidev.tools/copy-curl-request/safari) 
-In the **Network** tab, right click on the request, "Copy as cURL" will copy the request with cURL command to the clipboard.
- 
-### [Opera](https://canidev.tools/copy-curl-request/opera) 
-In the **Network** tab, right click on the request, Copy > Copy as cURL will copy the request with cURL command to the clipboard.
  
 ## Copy image as data URI
 Can I copy an image as a data URI?
@@ -435,6 +450,16 @@ Can I copy a node's path to be used as a JavaScript expression?
 ### [Opera](https://canidev.tools/copy-js-expression/opera) 
 1. In the **Elements** tab, right click on the node in the DOM tree > Copy > Copy JS path. This will copy the query selector to the node that can be used in the JS code.
  
+## Copy node as HTML
+Can I copy a node as HTML?
+
+### [Chrome](https://canidev.tools/copy-node-as-html/chrome) 
+1. In the **Elements** panel, right click on the node > Copy > Copy outerHTML. 
+## Copy node styles
+Can I copy the styles applied to an element?
+
+### [Chrome](https://canidev.tools/copy-node-styles/chrome) 
+1. In the **Elements** panel, right click on the node > Copy > Copy styles. 
 ## Copy object
 Can I copy an object from console?
 
@@ -453,6 +478,11 @@ Can I copy an object from console?
 ### [Opera](https://canidev.tools/copy-object/opera) 
 `copy(object)` copies a string representation of the specified object to the clipboard.
  
+## Copy response text
+Can I copy the response object as text?
+
+### [Chrome](https://canidev.tools/copy-response-text/chrome) 
+1. In the **Network** panel, right click on the network request > Copy > Copy response. 
 ## Copy styles as JS
 Can I copy style declarations as JavaScript object?
 
@@ -546,6 +576,13 @@ Can I debug JavaScript using devtools?
 3. Use the toolbar on the right sidebar to step-in/step-out, watch expressions, local vars while debugging through the code.
 4. Alternatively, you can also add the `debugger;` statement in the code to pause execution of the code at that line.
  
+## Debug node removal
+Can I debug by setting a breakpoint when the node is removed from the DOM?
+
+### [Chrome](https://canidev.tools/debug-node-removal/chrome) 
+1. Inspect element > Right click on the node in the DOM tree.
+2. Select "Break on" > "node removal". Reload the page.
+ 
 ## Debug remote device pages
 Can I debug websites on remote devices?
 
@@ -556,6 +593,13 @@ Can I debug unwanted scrollbars?
 
 ### [Firefox](https://canidev.tools/debug-scroll-overflow/firefox) 
 1. In the **Inspector** panel, the elements with scrollbars have a `scroll` badge next to it. Click on the badge to jump to the element(s) that caused it.
+ 
+## Debug subtree change
+Can I debug by setting a breakpoint when the subtree of the node changes?
+
+### [Chrome](https://canidev.tools/debug-subtree-change/chrome) 
+1. Inspect element > Right click on the node in the DOM tree.
+2. Select "Break on" > "subtree modifications". Reload the page.
  
 ## Debug XHR & Fetch calls
 Can I debug XHR or fetch calls by setting a breakpoint for a specific or all requests??
@@ -591,6 +635,11 @@ Can I debug XHR or fetch calls by setting a breakpoint for a specific or all req
 4. Enter the string which you want to break on. DevTools pauses when this string is present anywhere in an XHR's request URL.
 5. Press Enter to confirm.
  
+## Delete node
+Can I delete a node from the DOM tree?
+
+### [Chrome](https://canidev.tools/delete-node/chrome) 
+1. In the **Elements** panel, right click on the node and select "Delete element". 
 ## Detect memory leaks
 Can I detect memory leaks in my web app using devtools?
 
@@ -696,6 +745,16 @@ Can I drag & drop nodes anywhere inside the DOM tree?
 1. Right click > Inspect element or Press `Cmd+Opt+I` (on Mac) or `Ctrl+Shift+I` (on Windows/Linux).
 2. Select the node and drag-n-drop to a different part of the DOM tree.
  
+## Duplicate node
+Can I duplicate a node in the DOM tree?
+
+### [Chrome](https://canidev.tools/duplicate-node/chrome) 
+1. In the **Elements** panel, right click on the node and select "Duplicate element". 
+## Edit node as HTML
+Can I edit the node as HTML?
+
+### [Chrome](https://canidev.tools/edit-node-html/chrome) 
+1. In the **Elements** panel, right click on the node and select "Edit as HTML". 
 ## Emulate blurred vision
 Can I emulate blurred vision on a page?
 
@@ -839,6 +898,16 @@ Can I extend DevTools to customise UI?
 1. Opera uses Chromium DevTools which can be extended to add new UI panels and sidebars, interact with the inspected page, get information about network requests, and more.
 2. Refer the official guide to extend [Chrome DevTools](https://developer.chrome.com/docs/extensions/mv3/devtools/).
  
+## Filter blocked cookies requests
+Can I filter network requests with blocked response cookies?
+
+### [Chrome](https://canidev.tools/filter-blocked-cookies-requests/chrome) 
+1. In the **Network** panel, enable the **Has blocked cookies** option to only show requests with blocked response cookies. 
+## Filter blocked requests
+Can I filter blocked network requests?
+
+### [Chrome](https://canidev.tools/filter-blocked-requests/chrome) 
+1. In the **Network** panel, enable the **Blocked requests** option to show only blocked requests. 
 ## Filter multiple resources
 Can I filter multiple resource types in the Network tab?
 
@@ -917,6 +986,11 @@ Can I filter requests in the Network tab using specific properties?
 1. Use the Filter text box to filter requests by properties, such as the domain or size of the request.
 2. You can use multiple properties simultaneously by separating each property with a space. For example, `mime-type:image/gif larger-than:1K` displays all GIFs that are larger than one kilobyte. These multi-property filters are equivalent to AND operations. OR operations are currently not supported.
  
+## Filter third party requests
+Can I filter third party network requests?
+
+### [Chrome](https://canidev.tools/filter-third-party-requests/chrome) 
+1. In the **Network** panel, enable the **Third-party requests** option to show only requests with origin different from page origin. 
 ## Find broken links
 Can I find links on a page that return Error 404, 500?
 
@@ -1083,6 +1157,16 @@ Can I find unused JavaScript code on the page?
 1. Open **Command** Menu using `Cmd+Shift+P` or `Ctrl+Shift+P`. Search for "Show Coverage" and press `Enter`. (this will open the **Coverage** drawer next to the Console).
 2. Click the "Reload" button to see the unused JavaScript bytes per file. Clicking the row, will open the file in the **Sources** panel highlighting the unused lines with red colour.
  
+## Focus form elements
+Can I focus on form elements in the DOM?
+
+### [Chrome](https://canidev.tools/focus-form-elements/chrome) 
+1. In the **Elements** panel, right click on the node and select "Focus". 
+## Force node states
+Can I force the node to emulate a user action state like focus, hover etc?
+
+### [Chrome](https://canidev.tools/force-node-states/chrome) 
+1. In the **Elements** panel, right click on the node > Force state > Select from `:hover`, `:active`, `:focus`, `:visited` etc. 
 ## Fuzzy autocomplete styles
 Can I fuzzy autocomplete CSS properties?
 
@@ -1168,6 +1252,11 @@ Can i jump to file by searching for a filename?
 1. Open devtools using `Cmd+Opt+I` (on Mac) or `Ctrl+Shift+I` (on Windows/Linux) > Sources.
 2. Run Command menu using `Cmd+Shift+P` (on Mac) or `Ctrl+Shift+P` (on Windows/Linux) > Type filename to filter on the matching files > Press `Enter`.
  
+## Delete node
+Can I delete a node from the DOM tree?
+
+### [Chrome](https://canidev.tools/hide-node/chrome) 
+1. In the **Elements** panel, right click on the node and select "Delete element". 
 ## Ignore extension scripts
 Can I ignore extention scripts while debugging?
 
@@ -1801,6 +1890,11 @@ Can I preserve console logs across page reloads?
 1. Open console using `Cmd+Opt+J` or `Ctrl+Shift+J` > Click on the gear icon in top right to open "Console settings".
 2. Check "Preserve log" to preserve log statements between page reloads.
  
+## Preserve network log
+Can I preserve network log on page reloads?
+
+### [Chrome](https://canidev.tools/preserve-network-log/chrome) 
+1. In the **Network** panel, enable the "Preserve log" option in the toolbar to preserve all the network requests on page reloads. 
 ## Pretty print JavaScript
 Can I pretty print minified JavaScript code?
 
@@ -1945,6 +2039,11 @@ Can I run snippet of code in devtools?
 2. Enter the snippet and press `Cmd+Enter` to run the code.
 3. Additionally, you can also save the snippet and run it directly from the **Command** **Menu** using `!<script>`.
  
+## Scroll node into view
+Can I scroll a DOM node into the viewport?
+
+### [Chrome](https://canidev.tools/scroll-node-into-view/chrome) 
+1. In the **Elements** panel, right click on the node and select "Scroll into view". 
 ## Select elements with XPath
 Can I select one or more elements using XPath expression?
 
