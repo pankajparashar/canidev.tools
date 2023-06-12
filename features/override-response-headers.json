@@ -11,7 +11,8 @@
             "1. In the **Network** panel, right click on the request and select \"Override headers\".",
             "2. Select the path where the overrides will be saved > Allow permissions to access the path.",
             "3. Under **Response headers** section, click \"Add header\" to add a custom key-value pair",
-            "4. Use the **header overrides** option to manage your custom headers across all domains." 
+            "4. Use the **header overrides** option to manage your custom headers across all domains.",
+            "5. Request with overriden headers are highlighted with purple dot next to the **Status** code." 
         ]
     }
 }
