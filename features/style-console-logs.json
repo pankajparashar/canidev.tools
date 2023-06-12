@@ -29,5 +29,8 @@
   "Opera": {
     "References": "\n",
     "Notes": "1. Open console using `Cmd+Option+J` or `Ctrl+Shift+J`.\n2. Prefix the log statement with `%c`, and supply the CSS styles as the second argument to `console.log()`. For example, \n```\nconsole.log(\n  \"%cThis is green text with yellow background\",\n  \"color:green; background:yellow\"\n)\n```\n"
+  },
+  "Polypane": {
+    "Notes": "1. Open console\n2. Prefix the log statement with `%c`, and supply the CSS styles as the second argument to `console.log()`. For example, \n```\nconsole.log(\n  \"%cThis is green text with yellow background\",\n  \"color:green; background:yellow\"\n)\n```\n"
   }
 }

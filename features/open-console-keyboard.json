@@ -20,5 +20,8 @@
   },
   "Opera": {
     "Notes": "Use `Cmd+Opt+J` or `Ctrl+Shift+J` to directly open the **Console** tab.\n"
+  },
+  "Polypane": {
+    "Notes": "Use `Ctrl/Cmd+Shift+J` to directly open the **Console** tab.\n"
   }
 }

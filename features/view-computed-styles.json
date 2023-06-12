@@ -19,5 +19,8 @@
   },
   "Opera": {
     "Notes": "1. Inspect the element > Navigate to the Computed tab in the panel next to the DOM tree.\n2. Click the \"Show All\" checkbox to see all the inherited values.\n"
+  },
+  "Polypane": {
+    "Notes": "1. Inspect the element > Navigate to the Computed tab in the panel next to the \"Style\" tab.\n2. Click the \"Show All\" checkbox to see all the inherited values.\n"
   }
 }

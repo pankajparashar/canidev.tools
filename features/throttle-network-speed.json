@@ -5,9 +5,7 @@
   "Category": "Network",
   "LastModifiedTime": "2022-10-03T15:04:56.000Z",
   "Author": "@pankajparashar",
-  "Related": [
-    "throttle-cpu-speed"
-  ],
+  "Related": ["throttle-cpu-speed"],
   "Chrome": {
     "Notes": "1. In **Network** > Click the dropdown \"No Throttling\" and select a value to throttle the network speed.\n"
   },
@@ -19,5 +17,11 @@
   },
   "Opera": {
     "Notes": "1. In Network > Click the dropdown \"No Throttling\" and select a value to throttle the network speed.\n\n"
+  },
+  "Polypane": {
+    "Notes": [
+      "1. Open **Change Media and Emulation** settings of a pane and go to the \"Network\" tab",
+      "2. Toggle the **Throttle network speed** switch to Fast 3G, Slow 3G or Offline."
+    ]
   }
 }

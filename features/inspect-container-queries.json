@@ -14,5 +14,10 @@
     "Notes": [
       "1. Inspect the element with `container-type` property. All the child elements using the Container query will have the `@container` decorator on top of the selector, which can be edited to affect the size of the container."
     ]
+  },
+  "Polypane": {
+    "Notes": [
+      "1. Inspect the element with `container-type` property. All the child elements using the Container query will have the `@container` decorator on top of the selector."
+    ]
   }
 }

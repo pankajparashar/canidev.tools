@@ -16,5 +16,8 @@
   },
   "Opera": {
     "Notes": "To restore the default theme, placement, tools order, and any other customised settings, select Settings > Preferences > Restore defaults and reload.\n"
+  },
+  "Polypane": {
+    "Notes": "In the Help menu, select \"Delete settings and restart\".\n"
   }
 }

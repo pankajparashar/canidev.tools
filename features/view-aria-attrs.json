@@ -19,5 +19,9 @@
   },
   "Opera": {
     "Notes": "1. Inspect the element in the DOM tree.\n2. Click on the Accessibility tab (It maybe hidden behind the \"More Tabs\" button). Scroll down to the section which says, \"ARIA Attributes\".\n"
+  },
+  "Polypane": {
+    "Notes": "1. Inspect the element in the DOM tree.\n2. Click on the \"A11y\" tab. All \"ARIA Attributes\" are listed here.\n",
+    "References": "1. Accessibility tab [Polypane Docs](https://polypane.app/docs/elements-panel/#a11y)"
   }
 }

@@ -28,5 +28,9 @@
   "Opera": {
     "References": "\n",
     "Notes": "1. Open console using `Cmd+Opt+J` or `Ctrl+Shift+J`.\n2. Use `console.table()` to output an array of arrays, or array of objects in a sortable, tabular format. For example, \n```\nconsole.table([[10, true, \"blue\"],[5, false]])\n```\n1. If the number of elements in each object is not equal, the table will display `undefined` in cells for which there is no data.\n2. There is an optional second argument which allows you to explicitly specify which columns to output.\n```\nconsole.table([\n  {population:8173194, country:\"UK\", elevation:\"24m\"},\n  {population:8336697, country:\"USA\", elevation:\"10m\"}\n],[\"population\", \"country\"])\n```\n"
-  }
+  },
+  "Polypane": {
+    "References": "1. Console messages [Polypane Docs](https://polypane.app/docs/console/#console-messages)\n",
+    "Notes": "Open **Console**. Use `console.table()` to output arrays of array or array of objects in a sortable, tabular format.\n"
+  },
 }

@@ -20,5 +20,8 @@
   "Safari": {
     "References": "\n",
     "Notes": "1. File Webkit Inspector related bugs on Webkit [Bugzilla](https://webkit.org/new-inspector-bug) or report issues on the [Github](https://github.com/WebKit/WebKit) repository.\n2. Web Inspector [Reference](https://webkit.org/web-inspector/)\n"
+  },
+  "Polypane": {
+    "Notes": "1. In the Help menu, click \"Chat with us\" for chat support, or click \"Get Support\" for e-mail support.\n"
   }
 }

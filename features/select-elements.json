@@ -22,5 +22,8 @@
   "Opera": {
     "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1659251749/select-elements-chrome_fn3kde.mp4",
     "Notes": "1. `$(selector [, startNode])` returns the reference to the first DOM element with the specified CSS selector. This command is equivalent to calling `document.querySelector()`.\n2. `$$(selector [, startNode])` returns an array of elements that match the given CSS selector. This command is equivalent to calling `document.querySelectorAll()`.\n"
+  },
+  "Polypane": {
+    "Notes": "1. `$(selector)` returns the reference to the first DOM element with the specified CSS selector. This command is equivalent to calling `document.querySelector()`.\n2. `$$(selector)` returns an array of elements that match the given CSS selector. This command is equivalent to calling `document.querySelectorAll()`.\n\n"
   }
 }
