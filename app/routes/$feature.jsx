@@ -225,7 +225,7 @@ export default function Feature() {
               {Array.isArray(feature.Author) ? 
                   <div>
                     {feature.Author.map(author => 
-                        <div><Anchor key={author} variant="link" href={`https://twitter.com/${author}`}>{author}</Anchor></div>)}
+                        <div key={author}><Anchor variant="link" href={`https://twitter.com/${author}`}>{author}</Anchor></div>)}
                   </div>
                   :
                   <Anchor variant="link" href={`https://twitter.com/${feature.Author}`}>{feature.Author}</Anchor>

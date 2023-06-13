@@ -35,6 +35,10 @@ Can I add a class to an HTML element?
 1. Inspect the element > Look for ".cls" button in the Styles pane next to the Filter field.
 2. Click the button and search for the existing class names to add to the element.
  
+### [Polypane](https://canidev.tools/add-class-element/polypane) 
+1. Inspect the element > Open the "attributes" tab 
+2. Add a new class into the class field, known classes from the page and CSS will automatically be suggested.
+3. If there is no class attribute yet, add it as a new attribute and known classes will also be automatically suggested. 
 ## Add conditional breakpoint
 Can I set a conditional breakpoint while debugging code?
 
@@ -77,6 +81,9 @@ Can I add a custom device for a responsive design mode?
 1. Open **Settings** (`F1` or `Shift+?`) > Devices > Click "Add custom device...". 
 2. Enter the "Device Name" and other details associated with the device. Click the "Add" button.
  
+### [Polypane](https://canidev.tools/add-custom-device/polypane) 
+1. Click the "+" button in the workspace, double-click anywhere in the free space, or press `Ctrl/Cmd+N`  
+2. Once the new device is added you can resize it manually and set the device and emulation options with the Emulation settings. 
 ## Add inline styles
 Can I add inline styles to an HTML element?
 
@@ -97,6 +104,10 @@ Can I add inline styles to an HTML element?
  
 ### [Opera](https://canidev.tools/add-inline-styles/opera) 
 1. Inspect element > In the **Styles** pane, click "element.style" to input the inline style.
+ 
+### [Polypane](https://canidev.tools/add-inline-styles/polypane) 
+1. Inspect element > In the **Styles** pane, click "property" under "element.style" to input the inline style.
+
  
 ## Add logpoint
 Can I add log points to source code for debugging?
@@ -127,6 +138,10 @@ Can I autocomplete style declaration just using values?
 ### [Opera](https://canidev.tools/autocomplete-styles-values/opera) 
 1. Inspect an element > Navigate to the styles section (next to the DOM tree).
 2. Add new styles by directly entering the values like "bold", "italic" etc., and the devtools will automatically suggest the corresponding `<property>: <value>` pair for the given input.
+ 
+### [Polypane](https://canidev.tools/autocomplete-styles-values/polypane) 
+1. Inspect an element > Navigate to the styles tab 
+2. Click the "propety" field under the style you want to edit, and the devtools will automatically suggest appropriate style properties and values for the current element. 
  
 ## Block request domain
 Can I block all network requests of a domain?
@@ -213,6 +228,9 @@ Can I take full page screenshot of a website?
 1. Open **Command** **Menu** (`Cmd+Shift+P` or `Ctrl+Shift+P`) & Run > "Capture full size screenshot" and press `Enter`.
 2. This will save a PNG image with url as the filename in the **Downloads** directory.
  
+### [Polypane](https://canidev.tools/capture-full-page-screenshot/polypane) 
+1. Click the "Camera" icon above the pane you want to screenshot and select "Full page". This will open the screenshot in the screenshot editor.
+ 
 ## Capture HD screenshot
 Can I capture high definition screenshot of a page?
 
@@ -240,6 +258,9 @@ Can I take screenshot of a DOM node?
 ### [Opera](https://canidev.tools/capture-node-screenshot/opera) 
 1. In the **Elements** panel, right click on the node and select "Capture node screenshot".
 2. It retains visible background colour of elements with no background colour applied.
+ 
+### [Polypane](https://canidev.tools/capture-node-screenshot/polypane) 
+1. Click the "Camera" icon above the pane you want to screenshot and select "Element". 2. Click the element you want to screenshot. 3. Alternatively, click the "Camera" icon in the Element inspector to screenshot the selected DOM node.
  
 ## Capture node stacktrace
 Can I capture node creation stack trace?
@@ -289,6 +310,9 @@ Can I take a screenshot of the viewport?
  
 ### [Opera](https://canidev.tools/capture-viewport-screenshot/opera) 
 1. Open **Command** **menu** (`Cmd+Shift+P` or `Ctrl+Shift+P`) > Run "Capture screenshot" > Press `Enter`. By default, the screenshot will be saved in the `Downloads` directory.
+ 
+### [Polypane](https://canidev.tools/capture-viewport-screenshot/polypane) 
+1. Click the "Camera" icon above the pane you want to screenshot and select "Viewport". This will open the screenshot in the screenshot editor.
  
 ## Change color format
 Can I change authored color format to other formats like hsl, hwb etc?
@@ -372,6 +396,12 @@ Three ways to clear a console:
 2. Click on the "Clear Console" icon in the toolbar on the top left side.
 3. Use `console.clear()` on the command line.
  
+### [Polypane](https://canidev.tools/clear-console/polypane) 
+Three ways to clear a console:
+1. Press `Cmd/Ctrl+Shift+K` to clear the console.
+2. Click on the "Clear Console" icon in the toolbar on the top left side.
+3. Use `console.clear()` on the command line.
+ 
 ## Clear network log
 Can I clear network log?
 
@@ -423,6 +453,9 @@ In the **Elements** tab, right click on the element in the DOM tree > Copy > Sel
 ### [Opera](https://canidev.tools/copy-css-selector/opera) 
 In the **Elements** tab, right click on the element in the DOM tree > Copy > Copy selector.
  
+### [Polypane](https://canidev.tools/copy-css-selector/polypane) 
+In the **Elements** panel, click the "Copy" icon in the navigator, then select "Copy CSS Selector"
+ 
 ## Copy image as data URI
 Can I copy an image as a data URI?
 
@@ -460,6 +493,8 @@ Can I copy the styles applied to an element?
 
 ### [Chrome](https://canidev.tools/copy-node-styles/chrome) 
 1. In the **Elements** panel, right click on the node > Copy > Copy styles. 
+### [Polypane](https://canidev.tools/copy-node-styles/polypane) 
+1. In the **Elements** panel, go to the "Computed" tab and click the "Copy styles" button. 
 ## Copy object
 Can I copy an object from console?
 
@@ -594,6 +629,9 @@ Can I debug unwanted scrollbars?
 ### [Firefox](https://canidev.tools/debug-scroll-overflow/firefox) 
 1. In the **Inspector** panel, the elements with scrollbars have a `scroll` badge next to it. Click on the badge to jump to the element(s) that caused it.
  
+### [Polypane](https://canidev.tools/debug-scroll-overflow/polypane) 
+1. Press `Cmd/Ctrl+D` to turn on layout debugging. Elements causing a scrollbar are marked in red.
+ 
 ## Debug subtree change
 Can I debug by setting a breakpoint when the subtree of the node changes?
 
@@ -684,6 +722,9 @@ Can I disable cache for the network requests?
 ### [Opera](https://canidev.tools/disable-cache/opera) 
 1. Open Network panel > Look for "Disable cache" in the toolbar at the top.
  
+### [Polypane](https://canidev.tools/disable-cache/polypane) 
+1. In the Edit menu, select "Disable cache" and choose to disable it just for the current session, or persistently.
+ 
 ## Disable JavaScript
 Can I disable JavaScript on a web page?
 
@@ -712,6 +753,10 @@ Can I disable JavaScript on a web page?
 1. Open devtools. Press `Shift+Cmd+P` on Mac or `Ctrl+Shit+P` on Windows/Linux/Chrome OS to open the Command Menu.
 2. Search for "Disable JavaScript" and press `Enter` to execute the command.
 3. The yellow warning icon next to the Sources panel is the indicator that the JavaScript is disabled. It will continue to be disabled until the devtools is closed.
+ 
+### [Polypane](https://canidev.tools/disable-javascript/polypane) 
+1. Open the "debug tools" of an individual pane.
+2. under "Disable features", select "Disable JS".
  
 ## Display FPS on page
 Can I display the current frames per second (FPS) of the page?
@@ -770,6 +815,11 @@ Can I emulate blurred vision on a page?
 1. Run **Command** (`Cmd+Shift+P` or `Ctrl+Shift+P`) > "Show Rendering" (Drawer).
 2. Navigate to the **Emulate** **vision** **deficiencies** section and choose "Blurred vision".
  
+### [Polypane](https://canidev.tools/emulate-blurred-vision/polypane) 
+1. Open the "debug tools" of an individual pane.
+2. Go to the "Simulators" tab.
+3. Choose between "Far-sightedness" and "Astigmatism".
+ 
 ## Emulate color schemes
 Can I emulate different color schemes for dark and light mode?
 
@@ -790,6 +840,10 @@ Open **Web Inspector** using `Cmd+Opt+I`. Look for the icon in the top right of 
 ### [Opera](https://canidev.tools/emulate-color-schemes/opera) 
 1. Open devtools > Inside the "Styles" pane, right next to the "+" button, click the Icon "Toggle common rendering emulations".
 2. Choose the `prefers-color-scheme` option to emulate the corresponding color scheme.
+ 
+### [Polypane](https://canidev.tools/emulate-color-schemes/polypane) 
+1. Open the "Media and Emulation" settings of a pane.
+2. Under "Media features", Toggle between light and dark values for `prefers-color-scheme`.
  
 ## Emulate devices
 Can I emulate devices to test responsiveness of a page?
@@ -814,6 +868,11 @@ There are three ways to toggle Responsive Design Mode:
 ### [Opera](https://canidev.tools/emulate-devices/opera) 
 1. Open devtools using `Cmd+Opt+I` (on MacOS) or `Ctrl+Shift+I` (on Windows/Linux).
 2. Press `Cmd+Shift+M` (on MacOS) or `Ctrl+Shift+M` (on Windows/Linux) or click the devices icon in the top right to "Toggle device toolbar".
+ 
+### [Polypane](https://canidev.tools/emulate-devices/polypane) 
+1. Click the title of a pane.
+2. Select one of the 30+ available device presets
+3. Optionally, switch between the _viewport size_ and _device size_. Viewport size takes the device UI into account to give you the real available space.
  
 ## Emulate idle detection
 Can I emulate detection of the user state as idle?
@@ -851,7 +910,7 @@ Can I emulate print media query?
 3. Scroll down to the section "Emulate CSS Media Type" and select "print".
  
 ### [Polypane](https://canidev.tools/emulate-print-styles/polypane) 
-1. Click **Change Options** from the top toolbar > **Media** (tab) > Select **print** to emulate the print media styles. 
+1. Click **Change Media and Emulations** from the top toolbar > **Media** (tab) > Select **print** to emulate the print media styles. 
 ## Expand DOM nodes recursively
 Can I expand DOM nodes recursively in the DOM tree?
 
@@ -995,7 +1054,7 @@ Can I filter third party network requests?
 Can I find links on a page that return Error 404, 500?
 
 ### [Polypane](https://canidev.tools/find-broken-links/polypane) 
-1. Open DevTools panel (`F12`) > Info > Outline. Select "Links" from the dropdown menu at the top.
+1. Open DevTools panel (`Cmd/Ctrl+Shift+P`) > Info > Outline. Select "Links" from the dropdown menu at the top.
 2. Scroll through the list of links to identify broken links reporting status code with 404, 500. 
 ## Find by XPath
 Can I find elements in the DOM tree using xpath?
@@ -1048,6 +1107,10 @@ Can I find the contrast ratio of a color?
 1. Inspect element > In the Styles pane, click the color square next to the `color` property. This will open the color panel.
 2. Expand the "Contrast Ratio" section to see more details whether the color value meets the W3C recommendation.
 3. Use the "reload" icon next to AA/AAA to use the suggested color to fix the low color contrast ratio.
+ 
+### [Polypane](https://canidev.tools/find-color-contrast/polypane) 
+1. Inspect element > In the Navigator you can see the contrast ratio score (AA, A or an X for failing contrast). Hover it for the precise ratio or go to the A11y tab for more information.
+2. To get a fix, go to the "Debug tools" of a pane, then under "Accessibility" click "Contrast checker". Suggestions will be shown in the page.
  
 ## Find element with CSS selector
 Can I find elements in the DOM tree using CSS selector?
@@ -1192,6 +1255,9 @@ Can I get the last evaluated value in the console?
 ### [Opera](https://canidev.tools/get-last-value/opera) 
 1. `$_` returns the value of the most recently evaluated expression.
  
+### [Polypane](https://canidev.tools/get-last-value/polypane) 
+1. `$_` returns the value of the most recently evaluated expression.
+ 
 ## Get node XPath
 Can I get the xpath of a node in the DOM tree?
 
@@ -1211,6 +1277,9 @@ Can I get the xpath of a node in the DOM tree?
 1. Inspect the element > Right click on the node in the DOM tree > Copy > Copy full XPath
 
  
+### [Polypane](https://canidev.tools/get-node-xpath/polypane) 
+In the **Elements** panel, click the "Copy" icon in the navigator, then select "Copy Xpath"
+ 
 ## Get selected node
 Can I refer the currently selected node in the DOM tree from the console?
 
@@ -1229,6 +1298,9 @@ Can I refer the currently selected node in the DOM tree from the console?
  
 ### [Opera](https://canidev.tools/get-selected-node/opera) 
 1. Use `$0` to access the currently selected node. Additionally, `$1`, `$2`, `$3`, ... will give you the last selected nodes in the reverse chronological order.
+ 
+### [Polypane](https://canidev.tools/get-selected-node/polypane) 
+1. Use `$0` to access the currently selected node. Additionally, `$1`, `$2`, `$3` and `$4` will give you the last selected nodes in the reverse chronological order.
  
 ## Go to file
 Can i jump to file by searching for a filename?
@@ -1348,6 +1420,8 @@ Can I inspect and debug container queries in the devtools?
  
 ### [Safari](https://canidev.tools/inspect-container-queries/safari) 
 1. Inspect the element with `container-type` property. All the child elements using the Container query will have the `@container` decorator on top of the selector, which can be edited to affect the size of the container. 
+### [Polypane](https://canidev.tools/inspect-container-queries/polypane) 
+1. Inspect the element with `container-type` property. All the child elements using the Container query will have the `@container` decorator on top of the selector. 
 ## Inspect CSS angles
 Can I inspect & tweak the CSS angle unit values applied to a property? 
 
@@ -1649,6 +1723,9 @@ Use Cmd+Opt+C to directly open the **Console** tab.
 ### [Opera](https://canidev.tools/open-console-keyboard/opera) 
 Use `Cmd+Opt+J` or `Ctrl+Shift+J` to directly open the **Console** tab.
  
+### [Polypane](https://canidev.tools/open-console-keyboard/polypane) 
+Use `Ctrl/Cmd+Shift+J` to directly open the **Console** tab.
+ 
 ## Open devtools with keyboard
 Can I open developer tools with the keyboard?
 
@@ -1667,7 +1744,10 @@ In the menu bar, navigate to Safari > Preferences > Click on the **Advanced** ta
 Press `Option+Cmd+I` to open the devtools.
  
 ### [Opera](https://canidev.tools/open-devtools-keyboard/opera) 
-1. Launch Chrome > Press `F12`. Alternatively, you can also use `Cmd+Option+I` (on Mac) and `Ctrl+Shift+I` (on Windows/Linux) to open the last used panel.
+1. Launch Opera > Press `F12`. Alternatively, you can also use `Cmd+Option+I` (on Mac) and `Ctrl+Shift+I` (on Windows/Linux) to open the last used panel.
+ 
+### [Polypane](https://canidev.tools/open-devtools-keyboard/polypane) 
+1. Press `Cmd/Ctrl+Shift+P` to toggle the devtools panel, `Cmd/Ctrl+Shift+I` to open the Element inspector directly and `F12` or `Cmd/Ctrl+Opt/Alt+I` to open the Chromium devtools directly.
  
 ## Open devtools with mouse
 Can I open developer tools using a mouse?
@@ -1689,8 +1769,11 @@ Can I open developer tools using a mouse?
 2. Again in the menu bar, navigate to Develop > Show Web Inspector.
  
 ### [Opera](https://canidev.tools/open-devtools-mouse/opera) 
-1. Launch Chrome → Click on the vertical three dots icon (near top right of the window).
+1. Launch Opera → Click on the vertical three dots icon (near top right of the window).
 2. Navigate to More Tools > Developer Tools.
+ 
+### [Polypane](https://canidev.tools/open-devtools-mouse/polypane) 
+1. Click the "Panel" Icon in the header, then in the panel go to to the "Edit" tab and then the "Elements" tab.
  
 ## Open devtools with new tab
 Can I open developer tools automatically with new tab or window?
@@ -1727,6 +1810,10 @@ $ ./firefox -devtools
 ```
 "C:\Program Files (x86)\Microsoft\Edge\Application\edge.exe" -auto-open-devtools-for-tabs
 ```
+ 
+### [Polypane](https://canidev.tools/open-devtools-new-tab/polypane) 
+1. Open the devtools
+2. In the File menu select "Set Current Tab as Default New Tab".
  
 ## Output data as table
 Can I output data in console in the table format?
@@ -1791,6 +1878,9 @@ console.table([
 ],["population", "country"])
 ```
  
+### [Polypane](https://canidev.tools/output-data-table/polypane) 
+Open **Console**. Use `console.table()` to output arrays of array or array of objects in a sortable, tabular format.
+ 
 ## Override geolocation
 Can I override location to match a different geographic region?
 
@@ -1847,6 +1937,11 @@ Can I override the user agent to emulate different profiles?
 1. Open **Command** **Menu** (`Cmd+Shift+P` or `Ctrl+Shift+P`) and Run > "Show network conditions". This will open the **Network** **conditions** drawer.
 2. In the **User** **agent** section, disable "Use browser default" and select the user agent from the list below or enter your own custom string.
  
+### [Polypane](https://canidev.tools/override-useragent/polypane) 
+1. Open the **Change Media and Emulations** settings of a pane
+2. Go to the "Emulation" tab.
+3. Enter the custom user agent string in the **User agent** input field.
+ 
 ## Pick color from outside window
 Can I use the color picker to pick colors from outside the browser window?
 
@@ -1867,6 +1962,11 @@ Can I use the color picker to pick colors from outside the browser window?
 1. Open **Settings** (or press `Shift+?` or `F1`) > Experiments > Apply filter on "color picker".
 2. Check the "Enable color picking outside the browser window" option > Reload DevTools.
 3. In the **Styles** pane, click on any color preview to open a color picker. Use the eyedropper to pick color from anywhere.
+ 
+### [Polypane](https://canidev.tools/pick-color-outside-window/polypane) 
+1. Click the **Color picker** in the address bar.
+ 2. Use the eyedropper to pick color from anywhere.
+3. You can also start the color picker with `Opt/Alt+Shift+P`.
  
 ## Preserve console logs
 Can I preserve console logs across page reloads?
@@ -1889,6 +1989,9 @@ Can I preserve console logs across page reloads?
 ### [Opera](https://canidev.tools/preserve-console-logs/opera) 
 1. Open console using `Cmd+Opt+J` or `Ctrl+Shift+J` > Click on the gear icon in top right to open "Console settings".
 2. Check "Preserve log" to preserve log statements between page reloads.
+ 
+### [Polypane](https://canidev.tools/preserve-console-logs/polypane) 
+1. Open console using `Cmd/Ctrl+Shift+J` > Click the checkbox next to "Preserve" to preserve log statements between page reloads.
  
 ## Preserve network log
 Can I preserve network log on page reloads?
@@ -1981,6 +2084,9 @@ Use the following options to discuss the new features and changes in the docs, o
 1. File Webkit Inspector related bugs on Webkit [Bugzilla](https://webkit.org/new-inspector-bug) or report issues on the [Github](https://github.com/WebKit/WebKit) repository.
 2. Web Inspector [Reference](https://webkit.org/web-inspector/)
  
+### [Polypane](https://canidev.tools/report-feedback/polypane) 
+1. In the Help menu, click "Chat with us" for chat support, or click "Get Support" for e-mail support.
+ 
 ## Restore default settings
 Can I restore the default settings of the developer tools?
 
@@ -1992,6 +2098,9 @@ To restore the default theme, placement, tools order, and any other customised s
  
 ### [Opera](https://canidev.tools/restore-default-settings/opera) 
 To restore the default theme, placement, tools order, and any other customised settings, select Settings > Preferences > Restore defaults and reload.
+ 
+### [Polypane](https://canidev.tools/restore-default-settings/polypane) 
+In the Help menu, select "Delete settings and restart".
  
 ## Run previous commands
 Can I run the previously executed commands in the console?
@@ -2011,6 +2120,9 @@ Can I run the previously executed commands in the console?
 
  
 ### [Opera](https://canidev.tools/run-previous-commands/opera) 
+1. Use the `Up` arrow key to scroll through the list of previously executed commands and then press `Enter`.
+ 
+### [Polypane](https://canidev.tools/run-previous-commands/polypane) 
 1. Use the `Up` arrow key to scroll through the list of previously executed commands and then press `Enter`.
  
 ## Run snippets
@@ -2088,6 +2200,11 @@ Can I select one or more elements from the console?
 1. `$(selector [, startNode])` returns the reference to the first DOM element with the specified CSS selector. This command is equivalent to calling `document.querySelector()`.
 2. `$$(selector [, startNode])` returns an array of elements that match the given CSS selector. This command is equivalent to calling `document.querySelectorAll()`.
  
+### [Polypane](https://canidev.tools/select-elements/polypane) 
+1. `$(selector)` returns the reference to the first DOM element with the specified CSS selector. This command is equivalent to calling `document.querySelector()`.
+2. `$$(selector)` returns an array of elements that match the given CSS selector. This command is equivalent to calling `document.querySelectorAll()`.
+
+ 
 ## Set keyboard shortcuts
 Can I set a custom keyboard shortcuts in devtools?
 
@@ -2124,6 +2241,10 @@ Can I enable vertical and horizontal rulers on the page when I hover on the elem
 1. Open Settings (`Shift+?` or `F1`) > Preferences > Scroll down to the Elements section, and enable "Show rulers on hover".
 
  
+### [Polypane](https://canidev.tools/show-rulers-hover/polypane) 
+1. Press `Cmd/Ctrl+G` to toggle rulers on the top and left sides of all panes.
+
+ 
 ## Show tab order
 Can I see the tab order of the web page?
 
@@ -2143,6 +2264,9 @@ Can I see the tab order of the web page?
 1. In the **Elements** tab > Open the **Accessibility** pane on the right. 
 2. Scroll down to the **Source Order Viewer** section, check the option "Show source order" to view the order of source elements on the screen.
  
+### [Polypane](https://canidev.tools/show-tab-order/polypane) 
+1. Open DevTools panel (`Cmd/Ctrl+Shift+P`) > Info > Outline. Select "Focus Order" from the dropdown menu at the top.
+2. Click "Show Overlay" to visualize the tab order in each pane. tab order that goes against the reading direction is marked in red. 
 ## Show URL path
 Can I see full URL path of the network requests?
 
@@ -2180,6 +2304,9 @@ Can I simulate device orientation to mock built-in accelerometer, gyroscope & co
 1. Open **Command** **Menu** (`Cmd+Shift+P` or `Ctrl+Shift+P`) > Run "Show Sensors" > Press `Enter`. This will open the **Sensors** drawer at the bottom of the Devtools panel.
 2. From the **Orientations** list, select a preset orientation or drag the device to set custom orientation.
  
+### [Polypane](https://canidev.tools/simulate-device-orientation/polypane) 
+1. Open **Change Media and Emulation** settings of a pane and go to the "Emulation" tab
+2. Toggle the **Orientation events** switch to enable/disable device orientation simulation. 
 ## Simulate force touch
 Can I simulate force touch to test touch events on the website?
 
@@ -2246,6 +2373,16 @@ console.log(
 )
 ```
  
+### [Polypane](https://canidev.tools/style-console-logs/polypane) 
+1. Open console
+2. Prefix the log statement with `%c`, and supply the CSS styles as the second argument to `console.log()`. For example, 
+```
+console.log(
+  "%cThis is green text with yellow background",
+  "color:green; background:yellow"
+)
+```
+ 
 ## Target iframe in console
 Can I target iframes while debugging from the Console panel?
 
@@ -2298,6 +2435,9 @@ Can I throttle network speed to simulate slower network connections like 2G, 3G 
 1. In Network > Click the dropdown "No Throttling" and select a value to throttle the network speed.
 
  
+### [Polypane](https://canidev.tools/throttle-network-speed/polypane) 
+1. Open **Change Media and Emulation** settings of a pane and go to the "Network" tab
+2. Toggle the **Throttle network speed** switch to Fast 3G, Slow 3G or Offline. 
 ## Toggle element state
 Can I toggle the element state like hover, visited, focus etc.,?
 
@@ -2338,6 +2478,9 @@ Open **Settings** (`Cmd+,`) > General > Appearance > Select "Dark" or "Light" to
  
 ### [Opera](https://canidev.tools/toggle-theme/opera) 
 Open **Command** **Menu** (`Cmd/Ctrl+Shift+P`) & Run > "Switch to light/dark theme" (Appearance) > Press `Enter`.
+ 
+### [Polypane](https://canidev.tools/toggle-theme/polypane) 
+Press `Cmd/Ctrl+I` or select "Toggle Dark Mode" in the "View" Menu.
  
 ## Use Display P3 color
 Can I use Display P3 color format?
@@ -2391,6 +2534,10 @@ Can I view ARIA attributes of an element?
 1. Inspect the element in the DOM tree.
 2. Click on the Accessibility tab (It maybe hidden behind the "More Tabs" button). Scroll down to the section which says, "ARIA Attributes".
  
+### [Polypane](https://canidev.tools/view-aria-attrs/polypane) 
+1. Inspect the element in the DOM tree.
+2. Click on the "A11y" tab. All "ARIA Attributes" are listed here.
+ 
 ## View cascade layers
 Can I inspect CSS cascade layers?
 
@@ -2412,6 +2559,9 @@ Can I inspect CSS cascade layers?
 ### [Opera](https://canidev.tools/view-cascade-layers/opera) 
 1. Inspect the element that is part of the `@layer`. In the **Styles** pane, each layer and its corresponding styles are visible.
 2. Clicking on the layer name will reveal the **CSS layers** section at the top which will contain the layer order, that drives the specificity.
+ 
+### [Polypane](https://canidev.tools/view-cascade-layers/polypane) 
+1. Inspect the element that is part of the `@layer`. In the **Styles** pane, each layer and its corresponding styles are visible.
  
 ## View computed styles
 Can I view computed styles?
@@ -2437,6 +2587,10 @@ Can I view computed styles?
  
 ### [Opera](https://canidev.tools/view-computed-styles/opera) 
 1. Inspect the element > Navigate to the Computed tab in the panel next to the DOM tree.
+2. Click the "Show All" checkbox to see all the inherited values.
+ 
+### [Polypane](https://canidev.tools/view-computed-styles/polypane) 
+1. Inspect the element > Navigate to the Computed tab in the panel next to the "Style" tab.
 2. Click the "Show All" checkbox to see all the inherited values.
  
 ## View & Copy CSS changes
@@ -2497,6 +2651,10 @@ Can I view the styles applied to a pseudo element?
 ### [Opera](https://canidev.tools/view-styles-element/opera) 
 1. Right click on the element and select "Inspect" (This will open the Elements panel in the devtools with selected element highlighted in the DOM tree).  
 2. The CSS applied to the element is visible in the "Styles" tab, adjacent to the DOM tree.
+ 
+### [Polypane](https://canidev.tools/view-styles-element/polypane) 
+1. Right click on the element and select "Inspect" (This will open the Elements panel in the devtools with selected element highlighted in the DOM tree).  
+2. The CSS applied to the element is visible in the "Styles" tab, below the Element Navigator.
  
 ## View transferred size
 Can I view the size of the data transferred over the network?
