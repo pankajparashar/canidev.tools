@@ -3,7 +3,7 @@
   "Slug": "inspect-css-subgrid",
   "Description": "Can I inspect CSS subgrids?",
   "Category": "CSS",
-  "Author": "@pankajparashar",
+  "Authors": "@pankajparashar",
   "Chrome": {
     "Notes": [
       "1. In **Elements**, nodes with `grid-template-columns` or `grid-template-rows` set as `subgrid` shows a **subgrid** badge next to it.",

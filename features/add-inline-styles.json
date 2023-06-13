@@ -5,7 +5,7 @@
   "Category": "CSS",
   "Newsletter": "tips-tricks-23",
   "LastModifiedTime": "2022-10-10T08:49:33.000Z",
-  "Author": ["@pankajparashar", "@kilianvalkhof"],
+  "Authors": ["@pankajparashar", "@kilianvalkhof"],
   "Chrome": {
     "Share": "https://twitter.com/CanIDevTools/status/1579372110736416768",
     "Notes": "1. Inspect element > In the **Styles** pane, click \"element.style\" to input the inline style.\n\n",

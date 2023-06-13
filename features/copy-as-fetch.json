@@ -4,7 +4,7 @@
     "Description": "Can I copy the request as window.fetch()?",
     "Category": "Network",
 
-    "Author": "@pankajparashar",
+    "Authors": "@pankajparashar",
 
     "Chrome": {
         "Notes": [

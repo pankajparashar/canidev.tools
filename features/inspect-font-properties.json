@@ -4,7 +4,7 @@
   "Description": "Can I inspect and edit various CSS font properties like, font-size, line-height etc?",
   "Category": "CSS",
   "LastModifiedTime": "2022-10-03T14:46:47.000Z",
-  "Author": "@pankajparashar",
+  "Authors": "@pankajparashar",
   "Chrome": {
     "Notes": [
       "1. Open **Settings** (`F1` or `Shift+?`) > Experiments > Check the \"Enable the new Font Editor tool within the Styles pane\" box > Reload.",

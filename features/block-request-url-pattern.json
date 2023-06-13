@@ -5,7 +5,7 @@
   "Category": "Network",
   "Newsletter": "tips-tricks-29",
   "LastModifiedTime": "2022-10-18T13:18:56.000Z",
-  "Author": "@pankajparashar",
+  "Authors": "@pankajparashar",
   "Chrome": {
     "Share": "https://twitter.com/CanIDevTools/status/1582354903963299840",
     "Notes": "1. Open **Command** **Menu** (`Cmd+Shift+P` or `Ctrl+Shift+P`) > Run \"Show Network request blocking\". This will open the **Network request blocking** drawer.\n2. Click the \"+\" button and add the URL pattern > Add. Reload the page for the changes to take effect. Filter on **Blocked Requests** by enabling the checkbox in the toolbar.\n",

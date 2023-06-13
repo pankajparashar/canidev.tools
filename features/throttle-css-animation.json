@@ -4,7 +4,7 @@
   "Description": "Can I throttle CSS animation playback speed?",
   "Category": "CSS",
   
-  "Author": "@pankajparashar",
+  "Authors": "@pankajparashar",
   
   "Chrome": {
     "Notes": [

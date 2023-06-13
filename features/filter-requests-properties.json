@@ -4,7 +4,7 @@
   "Description": "Can I filter requests in the Network tab using specific properties?",
   "Category": "Network",
   "LastModifiedTime": "2023-02-05T13:27:34.000Z",
-  "Author": "@pankajparashar",
+  "Authors": "@pankajparashar",
   "Chrome": {
     "References": "[1] \"Filter by property\" - [Chrome DevTools Docs](https://developer.chrome.com/docs/devtools/network/reference/#filter-by-property)\n",
     "Notes": "1. Use the **Filter** text box to filter requests by properties, such as the domain or size of the request.\n2. You can use multiple properties simultaneously by separating each property with a space. For example, `mime-type:image/gif larger-than:1K` displays all GIFs that are larger than one kilobyte. These multi-property filters are equivalent to AND operations. OR operations are currently not supported.\n"

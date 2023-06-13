@@ -5,7 +5,7 @@
   "Category": "Network",
   "Newsletter": "tips-tricks-1",
   "LastModifiedTime": "2022-09-17T13:40:42.000Z",
-  "Author": "@pankajparashar",
+  "Authors": "@pankajparashar",
   "Chrome": {
     "Share": "https://twitter.com/CanIDevTools/status/1510248523178348546",
     "References": "1. \"Filter request by Type\" by [Chrome Developers](https://developer.chrome.com/docs/devtools/network/reference/#filter-by-type) \n2. \"Tips & Tricks #1\" of the [Newsletter](https://www.getrevue.co/profile/CanIDevTools/issues/tips-tricks-1-1155265)\n",

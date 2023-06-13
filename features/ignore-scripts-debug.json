@@ -5,7 +5,7 @@
   "Category": "Sources",
   "Newsletter": "tips-tricks-42",
   "LastModifiedTime": "2023-03-18T20:54:24.000Z",
-  "Author": "@pankajparashar",
+  "Authors": "@pankajparashar",
   "Chrome": {
     "Share": "https://twitter.com/CanIDevTools/status/1637174916431659010",
     "References": "1. \"Ignore irrelevant scripts during debugging\", by [Chrome Developers](https://developer.chrome.com/blog/new-in-devtools-112/#ignore-list).\n",

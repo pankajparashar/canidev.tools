@@ -4,7 +4,7 @@
   "Description": "Can I inspect CSS flexbox?",
   "Category": "CSS",
   "LastModifiedTime": "2022-07-06T07:04:37.000Z",
-  "Author": "@pankajparashar",
+  "Authors": "@pankajparashar",
   "Chrome": {
     "References": "[1] \"Inspect and Debug CSS Flexbox layouts\" - [Chrome Developers](https://developer.chrome.com/docs/devtools/css/flexbox/)\n",
     "Notes": "1. When an HTML element on your page has `display: flex` or `display: inline-flex` applied to it, you can see a `flex` badge next to it in the **Elements** panel.\n2. In the **Styles** pane, you can see the flexbox editor button next to the `display: flex` declaration.\n3. Click on it to open the flexbox editor. The editor displays a list of flexbox properties. Each property's value options are displayed as icon buttons.\n"

@@ -4,7 +4,7 @@
   "Description": "Can I find unused JavaScript code on the page?",
   "Category": "JavaScript",
   "LastModifiedTime": "2023-03-06T20:28:28.000Z",
-  "Author": "@pankajparashar",
+  "Authors": "@pankajparashar",
   "Chrome": {
     "References": "[1] \"Coverage: Find unused JavaScript and CSS\" - [Chrome DevTools Docs](https://developer.chrome.com/docs/devtools/coverage/)\n",
     "Notes": "1. Open **Command** Menu using `Cmd+Shift+P` or `Ctrl+Shift+P`. Search for \"Show Coverage\" and press `Enter`. (this will open the **Coverage** drawer next to the Console).\n2. Click the \"Reload\" button to see the unused JavaScript bytes per file. Clicking the row, will open the file in the **Sources** panel highlighting the unused lines with red colour.\n",

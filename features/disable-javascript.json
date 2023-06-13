@@ -4,7 +4,7 @@
   "Description": "Can I disable JavaScript on a web page?",
   "Category": "JavaScript",
   "LastModifiedTime": "2022-09-14T14:31:11.000Z",
-  "Author": ["@pankajparashar", "@kilianvalkhof"],
+  "Authors": ["@pankajparashar", "@kilianvalkhof"],
   "Chrome": {
     "Notes": "1. Open devtools. Press `Shift+Cmd+P` on Mac or `Ctrl+Shit+P` on Windows/Linux/Chrome OS to open the Command Menu.\n2. Search for \"Disable JavaScript\" and press `Enter` to execute the command.\n3. The yellow warning icon next to the Sources panel is the indicator that the JavaScript is disabled. It will continue to be disabled until the devtools is closed.\n"
   },

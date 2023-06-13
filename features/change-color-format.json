@@ -5,7 +5,7 @@
   "Category": "CSS",
   "Newsletter": "tips-tricks-20",
   "LastModifiedTime": "2023-02-11T13:44:52.000Z",
-  "Author": "@pankajparashar",
+  "Authors": "@pankajparashar",
   "Chrome": {
     "Share": "https://twitter.com/CanIDevTools/status/1575491269878775811",
     "References": "1. \"Support for the hwb() color function\" - [Chrome Developers](https://developer.chrome.com/blog/new-in-devtools-101/#hwb)\n",

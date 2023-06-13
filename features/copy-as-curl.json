@@ -4,7 +4,7 @@
   "Description": "Can I copy a network request as cURL?",
   "Category": "Network",
   "LastModifiedTime": "2022-07-03T04:36:04.000Z",
-  "Author": "@pankajparashar",
+  "Authors": "@pankajparashar",
   "Chrome": {
     "Notes": "In the **Network** tab, right click on the request, Copy > Copy as cURL will copy the request with cURL command to the clipboard.\n"
   },

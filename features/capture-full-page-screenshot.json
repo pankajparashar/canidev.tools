@@ -5,7 +5,7 @@
   "Category": "Other",
   "Newsletter": "tips-tricks-33",
   "LastModifiedTime": "2023-02-01T08:54:07.000Z",
-  "Author": ["@pankajparashar", "@kilianvalkhof"],
+  "Authors": ["@pankajparashar", "@kilianvalkhof"],
   "Related": [
     "capture-screenshot-console",
     "capture-node-screenshot",

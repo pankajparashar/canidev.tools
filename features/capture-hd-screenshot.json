@@ -4,7 +4,7 @@
     "Description": "Can I capture high definition screenshot of a page?",
     "Category": "Other",
     
-    "Author": "@pankajparashar",
+    "Authors": "@pankajparashar",
     "Related": [
         "capture-screenshot-console",
         "capture-viewport-screenshot",

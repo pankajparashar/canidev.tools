@@ -4,7 +4,7 @@
   "Description": "Can I inspect & edit the absolutely positioned elements visually?",
   "Category": "CSS",
   "LastModifiedTime": "2022-10-04T07:17:08.000Z",
-  "Author": "@pankajparashar",
+  "Authors": "@pankajparashar",
   "Firefox": {
     "Notes": "1. Inspect element with `position:relative` or `position:absolute` applied to it in the **Inspector** panel.\n2. Open the **Layout** sidebar panel, and scroll down to the Box Model section.\n3. Find the \"Edit Position\" icon and click it.\n4. Use the handles in the page to move the element around, within its positioned ancestor.\n",
     "References": "1. \"Reposition elements in the page\" - [Firefox Source Docs](https://firefox-source-docs.mozilla.org/devtools-user/page_inspector/how_to/reposition_elements_in_the_page/index.html)\n"

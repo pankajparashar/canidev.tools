@@ -4,7 +4,7 @@
   "Description": "Can I inspect CSS shapes properties like clip-path, shape-outside, etc?",
   "Category": "CSS",
   "LastModifiedTime": "2022-10-03T06:40:11.000Z",
-  "Author": "@pankajparashar",
+  "Authors": "@pankajparashar",
   "Firefox": {
     "Notes": "1. Inspect the element with CSS shape properties like `clip-path` & `shape-outside` > Rules > Click the \"shape\" icon next to the value to open the **Shape Path Editor** tool.\n2. Click & Drag the control points highlighted on the shape to modify the shape.\n",
     "References": "1. \"Edit Shape Paths in CSS\" - [Firefox Source Docs](https://firefox-source-docs.mozilla.org/devtools-user/page_inspector/how_to/edit_css_shapes/index.html)\n"

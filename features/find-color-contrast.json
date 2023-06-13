@@ -4,7 +4,7 @@
   "Description": "Can I find the contrast ratio of a color?",
   "Category": "Accessibility",
   "LastModifiedTime": "2023-02-05T13:27:38.000Z",
-  "Author": ["@pankajparashar", "@kilianvalkhof"],
+  "Authors": ["@pankajparashar", "@kilianvalkhof"],
   "Chrome": {
     "References": "[1] \"Color Picker\" - [Chrome DevTools Docs](https://developer.chrome.com/docs/devtools/css/reference/#color-picker)\n",
     "Notes": "1. Inspect element > In the **Styles** pane, click the color square next to the `color` property. This will open the color panel.\n2. Expand the \"Contrast Ratio\" section to see more details whether the color value meets the W3C recommendation.\n3. Use the \"reload\" icon next to AA/AAA to use the suggested color to fix the low color contrast ratio.\n"

@@ -4,7 +4,7 @@
     "Description": "Can I preserve network log on page reloads?",
     "Category": "Network",
 
-    "Author": "@pankajparashar",
+    "Authors": "@pankajparashar",
 
     "Chrome": {
         "Notes": [

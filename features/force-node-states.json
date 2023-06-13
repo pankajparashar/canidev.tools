@@ -4,7 +4,7 @@
     "Description": "Can I force the node to emulate a user action state like focus, hover etc?",
     "Category": "Elements",
 
-    "Author": "@pankajparashar",
+    "Authors": "@pankajparashar",
 
     "Chrome": {
         "Notes": [

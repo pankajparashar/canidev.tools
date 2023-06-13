@@ -5,7 +5,7 @@
   "Category": "CSS",
   "Newsletter": "tips-tricks-25",
   "LastModifiedTime": "2022-10-13T04:21:54.000Z",
-  "Author": "@pankajparashar",
+  "Authors": "@pankajparashar",
   "Chrome": {
     "Share": "https://twitter.com/CanIDevTools/status/1580409354209009664",
     "References": "1. \"Visualize CSS scroll-snap\", on Chrome DevTools [blog](https://developer.chrome.com/blog/new-in-devtools-91/#css-croll-snap) \n",

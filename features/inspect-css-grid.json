@@ -4,7 +4,7 @@
   "Description": "Can I inspect CSS grid?",
   "Category": "CSS",
   "LastModifiedTime": "2022-07-09T09:03:31.000Z",
-  "Author": "@pankajparashar",
+  "Authors": "@pankajparashar",
   "Chrome": {
     "References": "[1] \"Inspect CSS Grid\" - [Chrome Developers](https://developer.chrome.com/docs/devtools/css/grid/)\n",
     "Notes": "1. When an HTML element on your page has `display: grid` or `display: inline-grid` applied to it, you can see a `grid` badge next to it in the **Elements** panel.\n2. Clicking the badge to toggle the display of a grid overlay on the page. The overlay appears over the element, laid out like a grid to show the position of its grid lines and tracks.\n3. Open the **Layout** pane. When grids are included on a page, the Layout pane includes a **Grid** section containing a number of options for viewing those grids<sup>[1]</sup>\n"

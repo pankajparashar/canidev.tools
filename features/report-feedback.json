@@ -4,7 +4,7 @@
   "Description": "Can I report issues, feedback or request features related to DevTools and the docs?",
   "Category": "Other",
   "LastModifiedTime": "2022-07-27T05:01:36.000Z",
-  "Author": ["@pankajparashar", "@kilianvalkhof"],
+  "Authors": ["@pankajparashar", "@kilianvalkhof"],
   "Chrome": {
     "Notes": "Use the following options to discuss the new features and changes in the docs, or anything else related to DevTools.\n1. Submit a suggestion or feedback via [crbug.com](https://crbug.com/).\n2. Report a DevTools issue using the \"More options\" > Help > Report a DevTools issues in DevTools.\n3. Tweet at [@ChromeDevTools](https://twitter.com/intent/tweet?text=@ChromeDevTools).\n4. Leave comments on \"What's new in DevTools\" [YouTube videos](https://goo.gle/devtools-youtube).\n5. Chrome DevTools [documentation](https://developer.chrome.com/docs/devtools/)\n\n"
   },

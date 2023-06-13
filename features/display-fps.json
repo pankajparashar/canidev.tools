@@ -4,7 +4,7 @@
     "Description": "Can I display the current frames per second (FPS) of the page?",
     "Category": "Performance",
     
-    "Author": "@pankajparashar",
+    "Authors": "@pankajparashar",
     
     "Chrome": {
         "Notes": [

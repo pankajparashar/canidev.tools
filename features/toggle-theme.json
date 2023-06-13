@@ -5,7 +5,7 @@
   "Category": "Other",
   "Newsletter": "tips-tricks-8",
   "LastModifiedTime": "2022-09-17T13:36:52.000Z",
-  "Author": ["@pankajparashar", "@kilianvalkhof"],
+  "Authors": ["@pankajparashar", "@kilianvalkhof"],
   "Chrome": {
     "Share": "https://twitter.com/CanIDevTools/status/1553710371579449345",
     "Notes": "Open **Command** **Menu** (`Cmd/Ctrl+Shift+P`) & Run > \"Switch to light/dark theme\" (Appearance) > Press `Enter`.\n",

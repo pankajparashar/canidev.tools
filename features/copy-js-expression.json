@@ -4,7 +4,7 @@
   "Description": "Can I copy a node's path to be used as a JavaScript expression?",
   "Category": "Elements",
   "LastModifiedTime": "2023-01-30T07:00:54.000Z",
-  "Author": "@pankajparashar",
+  "Authors": "@pankajparashar",
   "Chrome": {
     "References": "[1] Copy JS path, by Chrome DevTools [Docs](https://developer.chrome.com/blog/new-in-devtools-72/#copy)\n",
     "Notes": "1. In the **Elements** tab, right click on the node in the DOM tree > Copy > Copy JS path. This will copy the query selector to the node that can be used in the JS code.\n",

@@ -5,7 +5,7 @@
   "Category": "Network",
   "Newsletter": "tips-tricks-27",
   "LastModifiedTime": "2022-10-16T08:14:47.000Z",
-  "Author": "@pankajparashar",
+  "Authors": "@pankajparashar",
   "Chrome": {
     "Share": "https://twitter.com/CanIDevTools/status/1581551114427674624",
     "Notes": "1. In the **Network** panel, right click on the network request, and select \"Block request domain\". This will open the **Network request blocking** drawer that will let you manage blocked network requests. \n",

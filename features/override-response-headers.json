@@ -4,7 +4,7 @@
     "Description": "Can I override headers of the network response?",
     "Category": "Network",
 
-    "Author": "@pankajparashar",
+    "Authors": "@pankajparashar",
 
     "Chrome": {
         "Notes": [

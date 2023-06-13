@@ -4,7 +4,7 @@
   "Description": "Can I open developer tools using a mouse?",
   "Category": "Other",
   "LastModifiedTime": "2022-07-09T08:08:15.000Z",
-  "Author": ["@pankajparashar", "@kilianvalkhof"],
+  "Authors": ["@pankajparashar", "@kilianvalkhof"],
   "Chrome": {
     "Notes": "1. Launch Chrome → Click on the vertical three dots icon (near top right of the window).\n2. Navigate to More Tools > Developer Tools.\n"
   },

@@ -5,7 +5,7 @@
   "Category": "Sources",
   "Newsletter": "tips-tricks-24",
   "LastModifiedTime": "2022-10-12T02:56:22.000Z",
-  "Author": "@pankajparashar",
+  "Authors": "@pankajparashar",
   "Chrome": {
     "Share": "https://twitter.com/CanIDevTools/status/1580026407798775808",
     "References": "1. \"What's new DevTools 73?\", on Chrome Developers [Blog](https://developer.chrome.com/blog/new-in-devtools-73/#logpoints)\n",

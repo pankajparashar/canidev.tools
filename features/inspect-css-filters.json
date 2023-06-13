@@ -4,7 +4,7 @@
   "Description": "Can I inspect CSS filters using an editor in devtools?",
   "Category": "CSS",
   "LastModifiedTime": "2022-10-02T15:06:10.000Z",
-  "Author": "@pankajparashar",
+  "Authors": "@pankajparashar",
   "Firefox": {
     "Notes": "1. In **Rules** > identify the filter property and click the swatch icon next to the filter value.\n2. Use the editor to add, modify or remove filter functions, reorder and create presets to reuse later.\n"
   }

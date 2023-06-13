@@ -3,7 +3,7 @@
   "Description": "Can I debug websites on remote devices?",
   "Slug": "debug-remote-device-pages",
   "Category": "Other",
-  "Author": "@pankajparashar",
+  "Authors": "@pankajparashar",
   "Safari": {
     "Notes": [
       "1. In the Menu bar, select **Develop** > Select the device > Select the page to open the **Web Inspector** for that URL."

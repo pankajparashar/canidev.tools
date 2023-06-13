@@ -4,7 +4,7 @@
   "Description": "Can I filter requests in the Network tab with a keyword?",
   "Category": "Network",
   "LastModifiedTime": "2022-07-09T09:08:17.000Z",
-  "Author": "@pankajparashar",
+  "Authors": "@pankajparashar",
   "Chrome": {
     "Share": "https://twitter.com/CanIDevTools/status/1535512330456408065",
     "Notes": "1. Open the **Network** tab > Use the \"Filter\" input field to filter network requests based on a specific keyword. \n2. Use the \"Invert\" checkbox to filter on requests which does not match the keyword.\n"

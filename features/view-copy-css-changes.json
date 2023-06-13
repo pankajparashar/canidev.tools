@@ -5,7 +5,7 @@
   "Category": "CSS",
   "Newsletter": "tips-tricks-31",
   "LastModifiedTime": "2022-10-21T07:24:12.000Z",
-  "Author": "@pankajparashar",
+  "Authors": "@pankajparashar",
   "Firefox": {
     "Share": "https://twitter.com/CanIDevTools/status/1583343036637270016",
     "Notes": "1. In the **Rules** pane, apply changes to the CSS declarations, and then click on the **Changes** pane to see the diff. Click \"Copy All Changes\" button to copy the modified styles, with previous declaration automatically commented.\n",

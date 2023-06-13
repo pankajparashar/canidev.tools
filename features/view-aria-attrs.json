@@ -4,7 +4,7 @@
   "Description": "Can I view ARIA attributes of an element?",
   "Category": "Accessibility",
   "LastModifiedTime": "2022-07-09T09:11:30.000Z",
-  "Author": ["@pankajparashar", "@kilianvalkhof"],
+  "Authors": ["@pankajparashar", "@kilianvalkhof"],
   "Chrome": {
     "Notes": "1. Inspect the element in the DOM tree.\n2. Click on the Accessibility tab (It maybe hidden behind the \"More Tabs\" button). Scroll down to the section which says, \"ARIA Attributes\".\n"
   },

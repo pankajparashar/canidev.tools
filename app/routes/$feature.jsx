@@ -221,14 +221,14 @@ export default function Feature() {
               {feature.LastModifiedTime}
             </Alert>
 
-            <Alert p="lg" title="Author" styles={_ => ({ title: { marginBottom: 0 }})} sx={theme => ({ borderBottom: borderColor(theme) })}>
-              {Array.isArray(feature.Author) ? 
+            <Alert p="lg" title="Authors" styles={_ => ({ title: { marginBottom: 0 }})} sx={theme => ({ borderBottom: borderColor(theme) })}>
+              {Array.isArray(feature.Authors) ? 
                   <div>
-                    {feature.Author.map(author => 
+                    {feature.Authors.map(author => 
                         <div key={author}><Anchor variant="link" href={`https://twitter.com/${author}`}>{author}</Anchor></div>)}
                   </div>
                   :
-                  <Anchor variant="link" href={`https://twitter.com/${feature.Author}`}>{feature.Author}</Anchor>
+                  <Anchor variant="link" href={`https://twitter.com/${feature.Authors}`}>{feature.Authors}</Anchor>
               }
             </Alert>
 
