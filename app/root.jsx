@@ -154,7 +154,7 @@ export default function App() {
                 <Meta />
                 <Links />
             </head>
-            <body>
+            <body  style={{ height: "100%" }}>
                 <MantineProvider
                     withNormalizeCSS
                     theme={{
@@ -169,8 +169,9 @@ export default function App() {
                         sx={theme => ({
                             borderTop: `1px solid ${theme.colorScheme === "dark" ? theme.colors.dark[6] : theme.colors.gray[4]}`,
                             borderBottom: `1px solid ${theme.colorScheme === "dark" ? theme.colors.dark[6] : theme.colors.gray[4]}`,
-                        })}>
-                        <Stack spacing={0} sx={theme => ({ borderRight: borderColor(theme) })}>
+                        })}
+                        style={{ height: "100%" }}>
+                        <Stack spacing={0} sx={theme => ({ borderRight: borderColor(theme) })} style={{ height: "100%" }}>
                             
                             <Flex justify="space-between" align="center">
                                 <Button size="sm" variant="subtle" component={Link} to="/"
@@ -190,112 +191,106 @@ export default function App() {
 
                             <Divider />
 
-                            <Collapse className="collapse" in={open}>
-                                <Link to={"/"} itemProp="itemListElement" itemScope itemType="https://schema.org/ListItem">
-                                    <NavLink
-                                        variant="filled"
-                                        active={params.get("category") === null}
-                                        key={"all"}
-                                        icon={<IconList size="20" stroke="2" />}
-                                        label={"All"}
-                                        rightSection={
-                                            <Badge size="md" variant="filled" color={"dark.5"}>
-                                                {Object.values(categories).reduce((a, b) => a + b)}
-                                            </Badge>
-                                        }
-                                    />
-                                </Link>
-                                {Object.keys(categories)
-                                    .sort()
-                                    .map(category => (
-                                        <Link to={`/?category=${category.toLocaleLowerCase()}`} key={category} itemProp="itemListElement" itemScope itemType="https://schema.org/ListItem">
-                                            <NavLink
-                                                variant="filled"
-                                                itemProp="item"
-                                                active={params.get("category")?.toLowerCase() === category.toLowerCase()}
-                                                key={category}
-                                                icon={icons[category]}
-                                                label={category}
-                                                color={colors[category]}
-                                                rightSection={
-                                                    <Badge size="md" variant="filled" color={colors[category]}>
-                                                        {categories[category]}
-                                                    </Badge>
-                                                }
-                                            />
-                                        </Link>
-                                    ))}
-                                <Link to={"/?category=favorites"} itemProp="itemListElement" itemScope itemType="https://schema.org/ListItem">
-                                    <NavLink
-                                        variant="filled"
-                                        color={colors["Favorites"]}
-                                        active={params.get("category") === "favorites"}
-                                        key={"favorites"}
-                                        icon={<IconStar size="20" stroke="1.5" />}
-                                        label={"Favorites"}
-                                        rightSection={
-                                            <Badge size="md" variant="filled" color={"yellow.5"}>
-                                                {favorites.length}
-                                            </Badge>
-                                        }
-                                    />
-                                </Link>
-                            
-                                <Divider />
-                                <Grid gutter={0}>
-                                    <Grid.Col
-                                        span={3}
-                                        sx={theme => ({
-                                            borderRight: `1px solid ${theme.colorScheme === "dark" ? theme.colors.dark[4] : theme.colors.gray[4]}`,
-                                        })}>
-                                        <Button fullWidth={true} size="sm" variant="subtle" component="a" href="https://twitter.com/CanIDevTools">
-                                            <IconBrandTwitter size={20} />
-                                        </Button>
-                                    </Grid.Col>
-                                    <Grid.Col
-                                        span={3}
-                                        sx={theme => ({
-                                            borderRight: `1px solid ${theme.colorScheme === "dark" ? theme.colors.dark[4] : theme.colors.gray[4]}`,
-                                        })}>
-                                        <Button fullWidth={true} size="sm" variant="subtle" component="a" href="https://github.com/pankajparashar/canidev.tools">
-                                            <IconBrandGithub size={20} />
-                                        </Button>
-                                        <Divider orientation="vertical" />
-                                    </Grid.Col>
-                                    <Grid.Col
-                                        span={3}
-                                        sx={theme => ({
-                                            borderRight: `1px solid ${theme.colorScheme === "dark" ? theme.colors.dark[4] : theme.colors.gray[4]}`,
-                                        })}>
-                                        <Button fullWidth={true} size="sm" variant="subtle" component="a" href="https://canidevtools.substack.com">
-                                            <IconNews size={20} />
-                                        </Button>
-                                        <Divider orientation="vertical" />
-                                    </Grid.Col>
-                                    <Grid.Col span={3}>
-                                        <Button fullWidth={true} size="sm" variant="subtle" onClick={toggleColorScheme}>
-                                            <IconBrightness size={20} />
-                                        </Button>
-                                    </Grid.Col>
-                                </Grid>
-                                <Divider />
+                            <Collapse className="collapse" in={open} style={{ height: "100%" }} transitionDuration={0}>
+                                <Box style={{ height: "100%" }}>
+                                    <Link to={"/"} itemProp="itemListElement" itemScope itemType="https://schema.org/ListItem">
+                                        <NavLink
+                                            variant="filled"
+                                            active={params.get("category") === null}
+                                            key={"all"}
+                                            icon={<IconList size="20" stroke="2" />}
+                                            label={"All"}
+                                            rightSection={
+                                                <Badge size="md" variant="filled" color={"dark.5"}>
+                                                    {Object.values(categories).reduce((a, b) => a + b)}
+                                                </Badge>
+                                            }
+                                        />
+                                    </Link>
+                                    {Object.keys(categories)
+                                        .sort()
+                                        .map(category => (
+                                            <Link to={`/?category=${category.toLocaleLowerCase()}`} key={category} itemProp="itemListElement" itemScope itemType="https://schema.org/ListItem">
+                                                <NavLink
+                                                    variant="filled"
+                                                    itemProp="item"
+                                                    active={params.get("category")?.toLowerCase() === category.toLowerCase()}
+                                                    key={category}
+                                                    icon={icons[category]}
+                                                    label={category}
+                                                    color={colors[category]}
+                                                    rightSection={
+                                                        <Badge size="md" variant="filled" color={colors[category]}>
+                                                            {categories[category]}
+                                                        </Badge>
+                                                    }
+                                                />
+                                            </Link>
+                                        ))}
+                                    <Link to={"/?category=favorites"} itemProp="itemListElement" itemScope itemType="https://schema.org/ListItem">
+                                        <NavLink
+                                            variant="filled"
+                                            color={colors["Favorites"]}
+                                            active={params.get("category") === "favorites"}
+                                            key={"favorites"}
+                                            icon={<IconStar size="20" stroke="1.5" />}
+                                            label={"Favorites"}
+                                            rightSection={
+                                                <Badge size="md" variant="filled" color={"yellow.5"}>
+                                                    {favorites.length}
+                                                </Badge>
+                                            }
+                                        />
+                                    </Link>
+                                
+                                    <Divider />
 
-                                <Tabs defaultValue="about">
-                                    <Tabs.List position="apart">
-                                        <Tabs.Tab value="about" icon={<IconUserCircle size={18} />}>About</Tabs.Tab>
-                                        <Tabs.Tab value="testimonials" icon={<IconQuote size={18} />}>Testimonials</Tabs.Tab>
-                                    </Tabs.List>
+                                    <Box style={{ position: "relative", bottom: 0 }}>
+                                        <Tabs defaultValue="about">
+                                            <Tabs.List position="apart">
+                                                <Tabs.Tab value="about" icon={<IconUserCircle size={18} />}>About</Tabs.Tab>
+                                                <Tabs.Tab value="testimonials" icon={<IconQuote size={18} />}>Testimonials</Tabs.Tab>
+                                            </Tabs.List>
 
-                                    <Tabs.Panel value="about">
-                                        <About />
-                                    </Tabs.Panel>
+                                            <Tabs.Panel value="about">
+                                                <About />
+                                            </Tabs.Panel>
 
-                                    <Tabs.Panel value="testimonials">
-                                        <Testimonials />
-                                    </Tabs.Panel>
-                                </Tabs>
+                                            <Tabs.Panel value="testimonials">
+                                                <Testimonials />
+                                            </Tabs.Panel>
+                                        </Tabs>
+                                    </Box>
 
-                                <Divider />
+                                    <Divider />
+
+                                    <Grid gutter={0}>
+                                        <Grid.Col span={3} sx={theme => ({ borderRight: borderColor(theme) })}>
+                                            <Button leftIcon={<IconBrandTwitter size={15} />} fullWidth={true} size="sm" variant="light" component="a" href="https://twitter.com/CanIDevTools">
+                                                Twitter
+                                            </Button>
+                                        </Grid.Col>
+                                        <Grid.Col span={3} sx={theme => ({ borderRight: borderColor(theme) })}>
+                                            <Button leftIcon={<IconBrandGithub size={15} />} fullWidth={true} size="sm" variant="light" component="a" href="https://github.com/pankajparashar/canidev.tools">
+                                                Github
+                                            </Button>
+                                            <Divider orientation="vertical" />
+                                        </Grid.Col>
+                                        <Grid.Col span={3} sx={theme => ({ borderRight: borderColor(theme) })}>
+                                            <Button leftIcon={<IconNews size={15} />} fullWidth={true} size="sm" variant="light" component="a" href="https://canidevtools.substack.com">
+                                                Substack
+                                            </Button>
+                                            <Divider orientation="vertical" />
+                                        </Grid.Col>
+                                        <Grid.Col span={3}>
+                                            <Button leftIcon={<IconBrightness size={15} />} fullWidth={true} size="sm" variant="light" onClick={toggleColorScheme}>
+                                                Theme
+                                            </Button>
+                                        </Grid.Col>
+                                    </Grid>
+
+                                    <Divider />
+                                </Box>
                             </Collapse>
 
                         </Stack>
