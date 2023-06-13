@@ -23,5 +23,5 @@
   },
   "Polypane": {
     "Notes": "1. Inspect an element > Navigate to the styles tab \n2. Click the \"propety\" field under the style you want to edit, and the devtools will automatically suggest appropriate style properties and values for the current element. \n"
-  },
+  }
 }

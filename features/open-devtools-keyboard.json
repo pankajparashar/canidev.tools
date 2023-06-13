@@ -28,5 +28,5 @@
   },
   "Polypane": {
     "Notes": "1. Press `Cmd/Ctrl+Shift+P` to toggle the devtools panel, `Cmd/Ctrl+Shift+I` to open the Element inspector directly and `F12` or `Cmd/Ctrl+Opt/Alt+I` to open the Chromium devtools directly.\n"
-  },
+  }
 }

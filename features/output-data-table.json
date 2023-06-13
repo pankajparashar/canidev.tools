@@ -32,5 +32,5 @@
   "Polypane": {
     "References": "1. Console messages [Polypane Docs](https://polypane.app/docs/console/#console-messages)\n",
     "Notes": "Open **Console**. Use `console.table()` to output arrays of array or array of objects in a sortable, tabular format.\n"
-  },
+  }
 }

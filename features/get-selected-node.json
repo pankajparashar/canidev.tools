@@ -33,7 +33,7 @@
     "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1659243167/get-selected-node-chrome_uf5o4m.mp4",
     "Notes": "1. Use `$0` to access the currently selected node. Additionally, `$1`, `$2`, `$3`, ... will give you the last selected nodes in the reverse chronological order.\n"
   },
-  "polypane": {
+  "Polypane": {
     "Notes": "1. Use `$0` to access the currently selected node. Additionally, `$1`, `$2`, `$3` and `$4` will give you the last selected nodes in the reverse chronological order.\n",
     "References": "1. Console commands, [Polypane docs](https://polypane.app/docs/console/#available-commands)\n"
   }

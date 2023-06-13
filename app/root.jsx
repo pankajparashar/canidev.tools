@@ -62,6 +62,7 @@ export function loader() {
     fs.readdirSync(`${__dirname}/../features`).forEach(name => {
         const filename = path.join("features", name);
         const file = fs.readFileSync(filename);
+        console.log(filename)
         const feature = JSON.parse(file);
 
         const category = feature.Category;
