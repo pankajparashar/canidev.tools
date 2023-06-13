@@ -1,0 +1,14 @@
+{
+    "Name": "Inspect CSS nesting",
+    "Slug": "inspect-css-nesting",
+    "Description": "Can I inspect CSS nesting styles?",
+    "Category": "CSS",
+
+    "Authors": ["@pankajparashar"],
+
+    "Firefox": {
+        "Notes": [
+            "1. "
+        ]
+    }
+}

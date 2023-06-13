@@ -57,11 +57,14 @@ export let headers = () => {
   };
 };
 
-export function loader({ params }) {
+export async function loader({ params }) {
   const filename = path.join('features', params.feature + '.json');
   const file = fs.readFileSync(filename);
   const record = JSON.parse(file);
-  record.LastModifiedTime = fs.statSync(filename).ctime
+
+  let response = await fetch(`https://api.github.com/repos/pankajparashar/canidev.tools/commits?path=${filename}`)
+  response = await response.json()
+  record.LastModifiedTime = response[0]["commit"]["committer"]["date"]
 
   if (record.Related) {
     record.Related = record.Related.map(slug => {
@@ -218,7 +221,7 @@ export default function Feature() {
           <Divider />
           <SimpleGrid cols={2} spacing={0}>
             <Alert p="lg" title="Last Modified" styles={_ => ({ title: { marginBottom: 0 }})} sx={theme => ({ borderRight: borderColor(theme), borderBottom: borderColor(theme) })}>
-              {feature.LastModifiedTime}
+              {formatDistanceToNow(new Date(feature.LastModifiedTime), { addSuffix: true })}
             </Alert>
 
             <Alert p="lg" title="Authors" styles={_ => ({ title: { marginBottom: 0 }})} sx={theme => ({ borderBottom: borderColor(theme) })}>
