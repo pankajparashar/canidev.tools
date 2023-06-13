@@ -4,7 +4,7 @@
   "Description": "Can I select one or more elements from the console?",
   "Category": "Console",
   "LastModifiedTime": "2022-07-31T07:00:37.000Z",
-  "Author": "@pankajparashar",
+  "Author": ["@pankajparashar", "@kilianvalkhof"],
   "Chrome": {
     "References": "Console Utilities - Chrome DevTools [Docs](https://developer.chrome.com/docs/devtools/console/utilities/#recent-many)\n",
     "Notes": "1. `$(selector [, startNode])` returns the reference to the first DOM element with the specified CSS selector. This command is equivalent to calling `document.querySelector()`.\n2. `$$(selector [, startNode])` returns an array of elements that match the given CSS selector. This command is equivalent to calling `document.querySelectorAll()`.\n",

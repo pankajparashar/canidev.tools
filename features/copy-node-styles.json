@@ -4,7 +4,7 @@
     "Description": "Can I copy the styles applied to an element?",
     "Category": "Elements",
 
-    "Author": "@pankajparashar",
+    "Author": ["@pankajparashar", "@kilianvalkhof"],
 
     "Chrome": {
         "Notes": [

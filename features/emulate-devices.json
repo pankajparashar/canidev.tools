@@ -4,7 +4,7 @@
   "Description": "Can I emulate devices to test responsiveness of a page?",
   "Category": "Elements",
   "LastModifiedTime": "2022-07-09T09:11:51.000Z",
-  "Author": "@pankajparashar",
+  "Author": ["@pankajparashar", "@kilianvalkhof"],
   "Chrome": {
     "Share": "https://twitter.com/CanIDevTools/status/1533823550389637120",
     "Notes": "1. Open devtools using `Cmd+Opt+I` (on MacOS) or `Ctrl+Shift+I` (on Windows/Linux).\n2. Press `Cmd+Shift+M` (on MacOS) or `Ctrl+Shift+M` (on Windows/Linux) or click the devices icon in the top right to \"Toggle device toolbar\".\n",

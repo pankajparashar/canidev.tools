@@ -5,7 +5,7 @@
   "Category": "Console",
   "Newsletter": "tips-tricks-16",
   "LastModifiedTime": "2022-09-21T02:50:12.000Z",
-  "Author": "@pankajparashar",
+  "Author": ["@pankajparashar", "@kilianvalkhof"],
   "Chrome": {
     "Share": "https://twitter.com/CanIDevTools/status/1553610736454184960",
     "References": "1. \"Console Utilities\", by Chrome DevTools [Docs](https://developer.chrome.com/docs/devtools/console/utilities/#recent-many)\n",

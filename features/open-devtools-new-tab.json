@@ -4,7 +4,7 @@
   "Description": "Can I open developer tools automatically with new tab or window?",
   "Category": "Other",
   "LastModifiedTime": "2023-04-28T20:22:08.000Z",
-  "Author": "@pankajparashar",
+  "Author": ["@pankajparashar", "@kilianvalkhof"],
   "Chrome": {
     "References": "\n",
     "Notes": "**a. MacOS**: In the terminal, pass the `--auto-open-devtools-for-tabs` flag to while launching Chrome.\n```\n/Applications/Google\\ Chrome.app/Contents/MacOS/Google\\ Chrome --auto-open-devtools-for-tabs\n```\n\n**b. Windows**: Right-click the Chrome shortcut > Properties and add the flag at the end of the Target line. Alternatively, run the following from your command-line,\n```\n\"C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe\" -auto-open-devtools-for-tabs\n```\n",

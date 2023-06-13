@@ -222,9 +222,14 @@ export default function Feature() {
             </Alert>
 
             <Alert p="lg" title="Author" styles={_ => ({ title: { marginBottom: 0 }})} sx={theme => ({ borderBottom: borderColor(theme) })}>
-              <Anchor variant="link" href={`https://twitter.com/${feature.Author}`}>
-                {feature.Author}
-              </Anchor>
+              {Array.isArray(feature.Author) ? 
+                  <div>
+                    {feature.Author.map(author => 
+                        <div><Anchor key={author} variant="link" href={`https://twitter.com/${author}`}>{author}</Anchor></div>)}
+                  </div>
+                  :
+                  <Anchor variant="link" href={`https://twitter.com/${feature.Author}`}>{feature.Author}</Anchor>
+              }
             </Alert>
 
             <Alert p="lg" title="Test Live" styles={_ => ({ title: { marginBottom: 0 }})} sx={theme => ({ borderRight: borderColor(theme) })}>

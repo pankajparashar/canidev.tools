@@ -4,7 +4,7 @@
   "Description": "Can I see the tab order of the web page?",
   "Category": "Accessibility",
   "LastModifiedTime": "2022-07-15T06:48:41.000Z",
-  "Author": "@pankajparashar",
+  "Author": ["@pankajparashar", "@kilianvalkhof"],
   "Chrome": {
     "References": "[1] \"Source order viewer\", by [Chrome DevTools Docs](https://developer.chrome.com/blog/new-in-devtools-92/#source-order)\n",
     "Notes": "1. In the **Elements** tab > Open the **Accessibility** pane on the right. \n2. Scroll down to the **Source Order Viewer** section, check the option \"Show source order\" to view the order of source elements on the screen.\n"

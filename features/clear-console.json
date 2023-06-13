@@ -4,7 +4,7 @@
   "Description": "Can I clear the console?",
   "Category": "Console",
   "LastModifiedTime": "2022-07-09T09:05:30.000Z",
-  "Author": "@pankajparashar",
+  "Author": ["@pankajparashar", "@kilianvalkhof"],
   "Chrome": {
     "Share": "https://twitter.com/CanIDevTools/status/1534415758494924801",
     "References": "1. \"console.clear()\" - [MDN Docs](https://developer.mozilla.org/en-US/docs/Web/API/console/clear)\n2. \"console API\" - [Can I Use](https://caniuse.com/mdn-api_console_clear)\n",
