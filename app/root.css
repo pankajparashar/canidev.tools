@@ -63,13 +63,13 @@ blockquote {
 
 @media screen and (min-width: 350px)  {
   .h_100vh {
-    height: calc(100vh - 250px);
+    height: calc(100vh - 190px);
   }
 }
 
 @media screen and (min-width: 700px)  {
   .h_100vh {
-    height: calc(100vh - 200px);
+    height: calc(100vh - 150px);
   }
 }
 

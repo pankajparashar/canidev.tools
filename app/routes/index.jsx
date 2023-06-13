@@ -248,8 +248,8 @@ export default function Index() {
                     </Box>
                 ))}
             </ScrollArea>
-            <Box className="grid" sx={theme => ({ borderTop: borderColor(theme) })}>
-                <Grid gutter="0">
+            <Box className="grid">
+                <Grid gutter="0" sx={theme => ({ borderTop: borderColor(theme) })}>
                     <Grid.Col span={10} sx={theme => ({ borderRight: borderColor(theme) })}>
                         <Button variant="light" size="sm" fullWidth={true} leftIcon={<IconTextPlus size={20} />} component="a" href="https://github.com/pankajparashar/canidev.tools/issues/new">
                             {" Add New"}
@@ -261,7 +261,7 @@ export default function Index() {
                         </Button>
                     </Grid.Col>
                 </Grid>
-                <SimpleGrid cols={6} spacing={0} verticalSpacing={0} align="center" sx={theme => ({ borderRight: borderColor(theme) })}>
+                <SimpleGrid cols={6} spacing={0} verticalSpacing={0} align="center" sx={theme => ({ borderRight: borderColor(theme), borderTop: borderColor(theme) })}>
                     <Button size="sm" variant="subtle" sx={theme => ({ borderRight: borderColor(theme) })}>
                         {count.Chrome}
                     </Button>
