@@ -1526,6 +1526,13 @@ Can I inspect CSS grid?
 3. Open the **Layout** pane. When grids are included on a page, the Layout pane includes a Grid section containing a number of options for viewing those grids.
 
  
+## Inspect CSS Nesting
+Can I inspect CSS nesting styles?
+
+### [Chrome](https://canidev.tools/inspect-css-nesting/chrome) 
+1. Inspect element with CSS nesting rules applied > Nesting rules are available in the **Styles** pane to view and edit. 
+### [Firefox](https://canidev.tools/inspect-css-nesting/firefox) 
+1. Inspect element with CSS nesting rules applied > Nesting rules are available in the **Rules** pane to view and edit. 
 ## Inspect CSS Position
 Can I inspect & edit the absolutely positioned elements visually?
 

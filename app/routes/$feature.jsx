@@ -64,7 +64,7 @@ export async function loader({ params }) {
 
   let response = await fetch(`https://api.github.com/repos/pankajparashar/canidev.tools/commits?path=${filename}`)
   response = await response.json()
-  record.LastModifiedTime = response[0]["commit"]["committer"]["date"]
+  record.LastModifiedTime = response && Array.isArray(response) ? response[0]["commit"]["committer"]["date"] : (new Date())
 
   if (record.Related) {
     record.Related = record.Related.map(slug => {
