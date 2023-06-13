@@ -4,7 +4,7 @@
   "Description": "Can I enable vertical and horizontal rulers on the page when I hover on the elements?",
   "Category": "Elements",
   "LastModifiedTime": "2022-07-08T04:59:25.000Z",
-  "Author": "@pankajparashar",
+  "Author": ["@pankajparashar", "@kilianvalkhof"],
   "Chrome": {
     "Notes": "1. Open **Settings** (`Shift+?` or `F1`) > **Preferences** > Scroll down to the **Elements** section, and enable \"Show rulers on hover\".\n"
   },
@@ -19,5 +19,8 @@
   },
   "Opera": {
     "Notes": "1. Open Settings (`Shift+?` or `F1`) > Preferences > Scroll down to the Elements section, and enable \"Show rulers on hover\".\n\n"
+  },
+  "Polypane": {
+    "Notes": "1. Press `Cmd/Ctrl+G` to toggle rulers on the top and left sides of all panes.\n\n"
   }
 }

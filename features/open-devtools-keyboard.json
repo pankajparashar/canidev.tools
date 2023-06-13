@@ -4,7 +4,7 @@
   "Description": "Can I open developer tools with the keyboard?",
   "Category": "Other",
   "LastModifiedTime": "2022-07-09T08:07:42.000Z",
-  "Author": "@pankajparashar",
+  "Author": ["@pankajparashar", "@kilianvalkhof"],
   "Chrome": {
     "Share": "https://twitter.com/CanIDevTools/status/1504404457274363904",
     "References": "1. [Keyboard shortcuts](https://developer.chrome.com/docs/devtools/shortcuts/#open) by Chrome Developers\n",
@@ -24,6 +24,9 @@
   },
   "Opera": {
     "References": "\n",
-    "Notes": "1. Launch Chrome > Press `F12`. Alternatively, you can also use `Cmd+Option+I` (on Mac) and `Ctrl+Shift+I` (on Windows/Linux) to open the last used panel.\n"
+    "Notes": "1. Launch Opera > Press `F12`. Alternatively, you can also use `Cmd+Option+I` (on Mac) and `Ctrl+Shift+I` (on Windows/Linux) to open the last used panel.\n"
+  },
+  "Polypane": {
+    "Notes": "1. Press `Cmd/Ctrl+Shift+P` to toggle the devtools panel, `Cmd/Ctrl+Shift+I` to open the Element inspector directly and `F12` or `Cmd/Ctrl+Opt/Alt+I` to open the Chromium devtools directly.\n"
   }
 }

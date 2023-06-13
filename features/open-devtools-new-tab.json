@@ -4,7 +4,7 @@
   "Description": "Can I open developer tools automatically with new tab or window?",
   "Category": "Other",
   "LastModifiedTime": "2023-04-28T20:22:08.000Z",
-  "Author": "@pankajparashar",
+  "Author": ["@pankajparashar", "@kilianvalkhof"],
   "Chrome": {
     "References": "\n",
     "Notes": "**a. MacOS**: In the terminal, pass the `--auto-open-devtools-for-tabs` flag to while launching Chrome.\n```\n/Applications/Google\\ Chrome.app/Contents/MacOS/Google\\ Chrome --auto-open-devtools-for-tabs\n```\n\n**b. Windows**: Right-click the Chrome shortcut > Properties and add the flag at the end of the Target line. Alternatively, run the following from your command-line,\n```\n\"C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe\" -auto-open-devtools-for-tabs\n```\n",
@@ -16,5 +16,8 @@
   },
   "Edge": {
     "Notes": "1. **MacOS**: In the terminal, pass the `--auto-open-devtools-for-tabs` flag to while launching Edge.\n```\n/Applications/Microsoft\\ Edge.app/Contents/MacOS/Microsoft\\ Edge --auto-open-devtools-for-tabs https://web.dev\n```\n1. **Windows**: Right-click the Edge shortcut > Properties and add the flag at the end of the Target line. Alternatively, run the following from your command-line,\n```\n\"C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\edge.exe\" -auto-open-devtools-for-tabs\n```\n"
+  },
+  "Polypane": {
+    "Notes": "1. Open the devtools\n2. In the File menu select \"Set Current Tab as Default New Tab\".\n"
   }
 }

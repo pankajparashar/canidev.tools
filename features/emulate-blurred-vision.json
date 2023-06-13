@@ -5,7 +5,7 @@
   "Category": "Accessibility",
   "Newsletter": "tips-tricks-3",
   "LastModifiedTime": "2023-03-14T14:18:45.000Z",
-  "Author": "@pankajparashar",
+  "Author": ["@pankajparashar", "@kilianvalkhof"],
   "Chrome": {
     "Share": "https://twitter.com/CanIDevTools/status/1637145317995937793",
     "References": "\n",
@@ -23,5 +23,8 @@
     "Share": "https://twitter.com/CanIDevTools/status/1637145317995937793",
     "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1679160201/emulate-blurred-vision-opera_esiiom.mp4",
     "Notes": "1. Run **Command** (`Cmd+Shift+P` or `Ctrl+Shift+P`) > \"Show Rendering\" (Drawer).\n2. Navigate to the **Emulate** **vision** **deficiencies** section and choose \"Blurred vision\".\n"
+  },
+  "Polypane": {
+    "Notes": "1. Open the \"debug tools\" of an individual pane.\n2. Go to the \"Simulators\" tab.\n3. Choose between \"Far-sightedness\" and \"Astigmatism\".\n"
   }
 }

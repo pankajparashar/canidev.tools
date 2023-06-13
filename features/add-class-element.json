@@ -5,7 +5,7 @@
   "Category": "CSS",
   "Newsletter": "tips-tricks-22",
   "LastModifiedTime": "2022-10-10T05:11:49.000Z",
-  "Author": "@pankajparashar",
+  "Author": ["@pankajparashar", "@kilianvalkhof"],
   "Chrome": {
     "Share": "https://twitter.com/CanIDevTools/status/1578999582402699264",
     "Notes": "1. Inspect the element > Look for \".cls\" button in the Styles pane next to the Filter field.\n2. Click the button and search for the existing class names to add to the element.\n",
@@ -31,5 +31,9 @@
     "Share": "https://twitter.com/CanIDevTools/status/1578999582402699264",
     "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1665297139/add-class-element-opera_isw5dt.mp4",
     "Notes": "1. Inspect the element > Look for \".cls\" button in the Styles pane next to the Filter field.\n2. Click the button and search for the existing class names to add to the element.\n"
+  },
+  "Polypane": {
+    "Notes": "1. Inspect the element > Open the \"attributes\" tab \n2. Add a new class into the class field, known classes from the page and CSS will automatically be suggested.\n3. If there is no class attribute yet, add it as a new attribute and known classes will also be automatically suggested.",
+    "References": "1. \"Add class to an element\" [documentation](https://polypane.app/docs/elements-panel/#classes)\n"
   }
 }

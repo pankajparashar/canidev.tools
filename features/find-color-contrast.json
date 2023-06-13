@@ -4,7 +4,7 @@
   "Description": "Can I find the contrast ratio of a color?",
   "Category": "Accessibility",
   "LastModifiedTime": "2023-02-05T13:27:38.000Z",
-  "Author": "@pankajparashar",
+  "Author": ["@pankajparashar", "@kilianvalkhof"],
   "Chrome": {
     "References": "[1] \"Color Picker\" - [Chrome DevTools Docs](https://developer.chrome.com/docs/devtools/css/reference/#color-picker)\n",
     "Notes": "1. Inspect element > In the **Styles** pane, click the color square next to the `color` property. This will open the color panel.\n2. Expand the \"Contrast Ratio\" section to see more details whether the color value meets the W3C recommendation.\n3. Use the \"reload\" icon next to AA/AAA to use the suggested color to fix the low color contrast ratio.\n"
@@ -17,5 +17,9 @@
   },
   "Opera": {
     "Notes": "1. Inspect element > In the Styles pane, click the color square next to the `color` property. This will open the color panel.\n2. Expand the \"Contrast Ratio\" section to see more details whether the color value meets the W3C recommendation.\n3. Use the \"reload\" icon next to AA/AAA to use the suggested color to fix the low color contrast ratio.\n"
+  },
+  "Polypane": {
+    "Notes": "1. Inspect element > In the Navigator you can see the contrast ratio score (AA, A or an X for failing contrast). Hover it for the precise ratio or go to the A11y tab for more information.\n2. To get a fix, go to the \"Debug tools\" of a pane, then under \"Accessibility\" click \"Contrast checker\". Suggestions will be shown in the page.\n",
+    "References": "1. \"Element Navigator\" - [Polypane Docs](Element info)\n2. \"Contrast checker\" - [Polypane Docs](https://polypane.app/docs/debug-tools/#contrast-checker)\n"
   }
 }

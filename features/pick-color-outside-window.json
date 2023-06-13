@@ -4,7 +4,7 @@
   "Description": "Can I use the color picker to pick colors from outside the browser window?",
   "Category": "CSS",
   "LastModifiedTime": "2023-02-11T13:50:03.000Z",
-  "Author": "@pankajparashar",
+  "Author": ["@pankajparashar", "@kilianvalkhof"],
   "Chrome": {
     "Share": "https://twitter.com/yisibl/status/1513834953104310279",
     "References": "[1] \"Color picker\" - [Chrome DevTools Docs](https://developer.chrome.com/blog/new-in-devtools-103/#color)\n",
@@ -22,5 +22,9 @@
   "Opera": {
     "References": "\n",
     "Notes": "1. Open **Settings** (or press `Shift+?` or `F1`) > Experiments > Apply filter on \"color picker\".\n2. Check the \"Enable color picking outside the browser window\" option > Reload DevTools.\n3. In the **Styles** pane, click on any color preview to open a color picker. Use the eyedropper to pick color from anywhere.\n"
+  },
+  "Polypane": {
+    "Notes": "1. Click the **Color picker** in the address bar.\n 2. Use the eyedropper to pick color from anywhere.\n3. You can also start the color picker with `Opt/Alt+Shift+P`.\n",
+    "References": "1. Color picker - [Polypane Docs](https://polypane.app/docs/color-picker/)\n"
   }
 }

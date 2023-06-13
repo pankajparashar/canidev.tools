@@ -5,7 +5,7 @@
   "Category": "Other",
   "Newsletter": "tips-tricks-11",
   "LastModifiedTime": "2022-09-17T13:36:43.000Z",
-  "Author": "@pankajparashar",
+  "Author": ["@pankajparashar", "@kilianvalkhof"],
   "Chrome": {
     "Share": "https://twitter.com/CanIDevTools/status/1556184233353179137",
     "Notes": "1. Open **Settings** (`F1` or `Shift+?`) > Devices > Click \"Add custom device...\". \n2. Enter the \"Device Name\" and other details associated with the device. Click the \"Add\" button.\n",
@@ -26,5 +26,9 @@
     "Share": "https://twitter.com/CanIDevTools/status/1556184233353179137",
     "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1659854384/add-custom-device-chrome_g3ad70.mp4",
     "Notes": "1. Open **Settings** (`F1` or `Shift+?`) > Devices > Click \"Add custom device...\". \n2. Enter the \"Device Name\" and other details associated with the device. Click the \"Add\" button.\n"
+  },
+  "Polypane": {
+    "Notes": "1. Click the \"+\" button in the workspace, double-click anywhere in the free space, or press `Ctrl/Cmd+N`  \n2. Once the new device is added you can resize it manually and set the device and emulation options with the Emulation settings.",
+    "References": "1. \"Adding and removing panes\" [documentation](https://polypane.app/docs/pane-management/#adding-and-removing-panes)\n2. \"Emulation settings\" [documentation](https://polypane.app/docs/emulation/)\n"
   }
 }

@@ -4,7 +4,7 @@
   "Description": "Can I inspect CSS cascade layers?",
   "Category": "CSS",
   "LastModifiedTime": "2022-07-09T09:04:05.000Z",
-  "Author": "@pankajparashar",
+  "Author": ["@pankajparashar", "@kilianvalkhof"],
   "Chrome": {
     "Share": "https://twitter.com/CanIDevTools/status/1535572218855448577",
     "References": "1. \"What's New In DevTools (Chrome 101)\" - [Chrome Developers](https://developer.chrome.com/blog/new-in-devtools-101/#layer)\n2. \"CSS Cascade Layer Demo\" - [Jecelyn Yeen](https://jec.fyi/demo/cascade-layer)\n",
@@ -28,5 +28,8 @@
   "Opera": {
     "References": "\n",
     "Notes": "1. Inspect the element that is part of the `@layer`. In the **Styles** pane, each layer and its corresponding styles are visible.\n2. Clicking on the layer name will reveal the **CSS layers** section at the top which will contain the layer order, that drives the specificity.\n"
+  },
+  "Polypane": {
+    "Notes": "1. Inspect the element that is part of the `@layer`. In the **Styles** pane, each layer and its corresponding styles are visible.\n"
   }
 }

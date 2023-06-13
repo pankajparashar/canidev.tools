@@ -5,7 +5,7 @@
   "Category": "CSS",
   "Newsletter": "tips-tricks-23",
   "LastModifiedTime": "2022-10-10T08:49:33.000Z",
-  "Author": "@pankajparashar",
+  "Author": ["@pankajparashar", "@kilianvalkhof"],
   "Chrome": {
     "Share": "https://twitter.com/CanIDevTools/status/1579372110736416768",
     "Notes": "1. Inspect element > In the **Styles** pane, click \"element.style\" to input the inline style.\n\n",
@@ -31,5 +31,8 @@
     "Share": "https://twitter.com/CanIDevTools/status/1579372110736416768",
     "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1665383922/add-inline-styles-opera_c0tpwt.mp4",
     "Notes": "1. Inspect element > In the **Styles** pane, click \"element.style\" to input the inline style.\n"
+  },
+  "Polypane": {
+    "Notes": "1. Inspect element > In the **Styles** pane, click \"property\" under \"element.style\" to input the inline style.\n\n"
   }
 }

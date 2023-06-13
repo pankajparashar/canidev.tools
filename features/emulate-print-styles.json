@@ -4,7 +4,7 @@
   "Description": "Can I emulate print media query?",
   "Category": "CSS",
   "LastModifiedTime": "2022-07-09T09:02:23.000Z",
-  "Author": "@pankajparashar",
+  "Author": ["@pankajparashar", "@kilianvalkhof"],
   "Chrome": {
     "Notes": "1. Launch devtools > Open \"Command Menu\" using `Cmd+Shift+P` (Mac) or `Ctrl+Shift+P` (Windows, Linux, Chrome OS).\n2. Search for \"Show Rendering\" and press Enter (this will open the Rendering panel next to the Console).\n3. Scroll down to the section \"Emulate CSS Media Type\" and select \"print\".\n"
   },
@@ -25,7 +25,7 @@
     "Share": "https://twitter.com/CanIDevTools/status/1667169735845314570",
     "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1686315555/emulate-print-styles-polypane_pltycu.mp4",
     "Notes": [
-      "1. Click **Change Options** from the top toolbar > **Media** (tab) > Select **print** to emulate the print media styles."
+      "1. Click **Change Media and Emulations** from the top toolbar > **Media** (tab) > Select **print** to emulate the print media styles."
     ]
   }
 }

@@ -4,7 +4,7 @@
   "Description": "Can I emulate different color schemes for dark and light mode?",
   "Category": "CSS",
   "LastModifiedTime": "2022-06-30T06:18:38.000Z",
-  "Author": "@pankajparashar",
+  "Author": ["@pankajparashar", "@kilianvalkhof"],
   "Chrome": {
     "Share": "https://twitter.com/jecfish/status/1514209534566313986",
     "References": "\n",
@@ -27,5 +27,9 @@
     "References": "\n",
     "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1649915966/Videos/emulate-color-schemes-chrome.mp4",
     "Notes": "1. Open devtools > Inside the \"Styles\" pane, right next to the \"+\" button, click the Icon \"Toggle common rendering emulations\".\n2. Choose the `prefers-color-scheme` option to emulate the corresponding color scheme.\n"
+  },
+  "Polypane": {
+    "References": "1. Media emulation [documentation](https://polypane.app/docs/emulation/#media)\n",
+    "Notes": "1. Open the \"Media and Emulation\" settings of a pane.\n2. Under \"Media features\", Toggle between light and dark values for `prefers-color-scheme`.\n"
   }
 }

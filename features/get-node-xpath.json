@@ -5,7 +5,7 @@
   "Category": "Elements",
   "Newsletter": "tips-tricks-4",
   "LastModifiedTime": "2022-09-17T13:40:00.000Z",
-  "Author": "@pankajparashar",
+  "Author": ["@pankajparashar", "@kilianvalkhof"],
   "Chrome": {
     "Share": "https://twitter.com/CanIDevTools/status/1542517123536539648",
     "References": "\n",
@@ -26,5 +26,8 @@
   "Opera": {
     "Share": "https://twitter.com/CanIDevTools/status/1542518884036911104",
     "Notes": "1. Inspect the element > Right click on the node in the DOM tree > Copy > Copy full XPath\n\n"
+  },
+  "Polypane": {
+    "Notes": "In the **Elements** panel, click the \"Copy\" icon in the navigator, then select \"Copy Xpath\"\n"
   }
 }

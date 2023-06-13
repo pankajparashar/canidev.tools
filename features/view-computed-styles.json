@@ -4,7 +4,7 @@
   "Description": "Can I view computed styles?",
   "Category": "CSS",
   "LastModifiedTime": "2022-07-09T09:04:19.000Z",
-  "Author": "@pankajparashar",
+  "Author": ["@pankajparashar", "@kilianvalkhof"],
   "Chrome": {
     "Notes": "1. Inspect the element > Navigate to the Computed tab in the panel next to the DOM tree.\n2. Click the \"Show All\" checkbox to see all the inherited values.\n"
   },
@@ -19,5 +19,8 @@
   },
   "Opera": {
     "Notes": "1. Inspect the element > Navigate to the Computed tab in the panel next to the DOM tree.\n2. Click the \"Show All\" checkbox to see all the inherited values.\n"
+  },
+  "Polypane": {
+    "Notes": "1. Inspect the element > Navigate to the Computed tab in the panel next to the \"Style\" tab.\n2. Click the \"Show All\" checkbox to see all the inherited values.\n"
   }
 }

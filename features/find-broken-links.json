@@ -4,13 +4,13 @@
     "Description": "Can I find links on a page that return Error 404, 500?",
     "Category": "Other",
 
-    "Author": "@pankajparashar",
+    "Author": ["@pankajparashar", "@kilianvalkhof"],
 
     "Polypane": {
         "Share": "https://twitter.com/CanIDevTools/status/1667588930152087554",
         "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1686418102/find-broken-links-polypane_oer4vx.mp4",
         "Notes": [
-            "1. Open DevTools panel (`F12`) > Info > Outline. Select \"Links\" from the dropdown menu at the top.",
+            "1. Open DevTools panel (`Cmd/Ctrl+Shift+P`) > Info > Outline. Select \"Links\" from the dropdown menu at the top.",
             "2. Scroll through the list of links to identify broken links reporting status code with 404, 500."
         ]
     }
