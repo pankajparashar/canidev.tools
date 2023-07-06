@@ -9,14 +9,14 @@
   "Chrome": {
     "Notes": [
       "1. In the **Network** panel, right click on the column headers > Response Headers > Manage Header Columns.",
-      "2. In the **Manage Header Columns** popup window, click \"Add Custom Header\". Enter the custom header name, and click **Add** to add a new column to the Network requests table.",
+      "2. In the **Manage Header Columns** popup window, click \"Add Custom Header\". Enter the custom header name, and click **Add** to add a new column to the Network requests table."
     ]
   },
 
   "Edge": {
     "Notes": [
       "1. In the **Network** panel, right click on the column headers > Response Headers > Manage Header Columns.",
-      "2. In the **Manage Header Columns** popup window, click \"Add Custom Header\". Enter the custom header name, and click **Add** to add a new column to the Network requests table.",
+      "2. In the **Manage Header Columns** popup window, click \"Add Custom Header\". Enter the custom header name, and click **Add** to add a new column to the Network requests table."
     ]
   }
 }
