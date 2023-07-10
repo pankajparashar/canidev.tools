@@ -84,6 +84,15 @@ Can I add a custom device for a responsive design mode?
 ### [Polypane](https://canidev.tools/add-custom-device/polypane) 
 1. Click the "+" button in the workspace, double-click anywhere in the free space, or press `Ctrl/Cmd+N`  
 2. Once the new device is added you can resize it manually and set the device and emulation options with the Emulation settings. 
+## Add custom headers to Network table
+Can I add custom header columns to the Network requests table?
+
+### [Chrome](https://canidev.tools/add-custom-headers-network/chrome) 
+1. In the **Network** panel, right click on the column headers > Response Headers > Manage Header Columns.
+2. In the **Manage Header Columns** popup window, click "Add Custom Header". Enter the custom header name, and click **Add** to add a new column to the Network requests table. 
+### [Edge](https://canidev.tools/add-custom-headers-network/edge) 
+1. In the **Network** panel, right click on the column headers > Response Headers > Manage Header Columns.
+2. In the **Manage Header Columns** popup window, click "Add Custom Header". Enter the custom header name, and click **Add** to add a new column to the Network requests table. 
 ## Add inline styles
 Can I add inline styles to an HTML element?
 
