@@ -18,13 +18,13 @@
   "Edge": {
     "Notes": [
       "1. Inspect the element with CSS transition or animation applied. In the **Styles** pane, click the icon next to the timing function to open the **Easing editor** to play around with the timing functions."
-    ],
+    ]
   },
   
   "Opera": {
     "Notes": [
       "1. Inspect the element with CSS transition or animation applied. In the **Styles** pane, click the icon next to the timing function to open the **Easing editor** to play around with the timing functions."
-    ],
+    ]
   },
 
   "Firefox": {
