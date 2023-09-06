@@ -1,0 +1,20 @@
+{
+    "Name": "Capture HD screenshot",
+    "Slug": "capture-hd-screenshot",
+    "Description": "Can I capture high definition screenshot of a page?",
+    "Category": "Other",
+    
+    "Authors": "@pankajparashar",
+    "Related": [
+        "capture-screenshot-console",
+        "capture-viewport-screenshot",
+        "capture-full-page-screenshot",
+        "capture-node-screenshot"
+    ],
+    
+    "Firefox": {
+        "Notes": [
+            "1. In **Console**, run the `:screenshot --dpr 2` command to take a high definiton screenshot with the device pixel ratio set to 2."
+        ]
+    }
+}

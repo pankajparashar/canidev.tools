@@ -1,0 +1,27 @@
+{
+  "Name": "Go to file",
+  "Slug": "go-to-file",
+  "Description": "Can i jump to file by searching for a filename?",
+  "Category": "Sources",
+  "LastModifiedTime": "2022-08-22T04:46:05.000Z",
+  "Authors": "@pankajparashar",
+  "Chrome": {
+    "Share": "https://twitter.com/jecfish/status/1523451005626593280",
+    "References": "\n",
+    "Notes": "1. Run Command menu using `Cmd+Shift+P` (on Mac) or `Ctrl+Shift+P` (on Windows/Linux) > Type filename to filter on the matching files > Press `Enter`.\n",
+    "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1652108007/Videos/search-files-chrome.mp4"
+  },
+  "Firefox": {
+    "Notes": "1. In the **Debugger** tab, use `Cmd+P` or `Ctrl+P` to open the search panel where you can type keyword to search for matching filenames.\n2. Press `Enter` to trigger the search.\n"
+  },
+  "Edge": {
+    "Notes": "1. Open devtools using `Cmd+Opt+I` (on Mac) or `Ctrl+Shift+I` (on Windows/Linux) > Sources.\n2. Run Command menu using `Cmd+Shift+P` (on Mac) or `Ctrl+Shift+P` (on Windows/Linux) > Type filename to filter on the matching files > Press `Enter`.\n\n"
+  },
+  "Safari": {
+    "Notes": "1. Anywhere in the web inspector, press `Cmd+P` to search for files matching the filename.\n"
+  },
+  "Opera": {
+    "References": "\n",
+    "Notes": "1. Open devtools using `Cmd+Opt+I` (on Mac) or `Ctrl+Shift+I` (on Windows/Linux) > Sources.\n2. Run Command menu using `Cmd+Shift+P` (on Mac) or `Ctrl+Shift+P` (on Windows/Linux) > Type filename to filter on the matching files > Press `Enter`.\n"
+  }
+}

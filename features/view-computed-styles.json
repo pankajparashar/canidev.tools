@@ -1,0 +1,26 @@
+{
+  "Name": "View computed styles",
+  "Slug": "view-computed-styles",
+  "Description": "Can I view computed styles?",
+  "Category": "CSS",
+  "LastModifiedTime": "2022-07-09T09:04:19.000Z",
+  "Authors": ["@pankajparashar", "@kilianvalkhof"],
+  "Chrome": {
+    "Notes": "1. Inspect the element > Navigate to the Computed tab in the panel next to the DOM tree.\n2. Click the \"Show All\" checkbox to see all the inherited values.\n"
+  },
+  "Firefox": {
+    "Notes": "1. Inspect the element > Navigate to the Computed tab in the panel next to the DOM tree.\n2. Click the \"Browser Styles\" checkbox to see all the values inherited from the user agent.\n\n"
+  },
+  "Edge": {
+    "Notes": "1. Inspect the element > Navigate to the Computed tab in the panel next to the DOM tree.\n2. Click the \"Show All\" checkbox to see all the inherited values.\n\n"
+  },
+  "Safari": {
+    "Notes": "1. Inspect the element > Navigate to the Computed tab in the panel next to the DOM tree.\n2. Click the filter icon > Select \"Show All\" to see all the inherited values.\n\n"
+  },
+  "Opera": {
+    "Notes": "1. Inspect the element > Navigate to the Computed tab in the panel next to the DOM tree.\n2. Click the \"Show All\" checkbox to see all the inherited values.\n"
+  },
+  "Polypane": {
+    "Notes": "1. Inspect the element > Navigate to the Computed tab in the panel next to the \"Style\" tab.\n2. Click the \"Show All\" checkbox to see all the inherited values.\n"
+  }
+}

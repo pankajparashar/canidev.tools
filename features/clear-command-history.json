@@ -1,0 +1,22 @@
+{
+  "Name": "Clear command history",
+  "Slug": "clear-command-history",
+  "Description": "Can I clear the command history of the console?",
+  "Category": "Console",
+  "Newsletter": "tips-tricks-9",
+  "LastModifiedTime": "2022-09-17T13:38:23.000Z",
+  "Authors": "@pankajparashar",
+  "Chrome": {
+    "Share": "https://twitter.com/CanIDevTools/status/1555394008456646656",
+    "Notes": "In the **Console** tab, right click anywhere > select \"Clear console history\" to remove all the commands from its history.\n",
+    "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1659669026/clear-command-history-chrome_vmlcs6.mp4"
+  },
+  "Edge": {
+    "Notes": "In the **Console** tab, right click anywhere > select \"Clear console history\" to remove all the commands from its history.\n",
+    "Share": "https://twitter.com/CanIDevTools/status/1555394008456646656"
+  },
+  "Opera": {
+    "Share": "https://twitter.com/CanIDevTools/status/1555394008456646656",
+    "Notes": "In the **Console** tab, right click anywhere > select \"Clear console history\" to remove all the commands from its history.\n"
+  }
+}

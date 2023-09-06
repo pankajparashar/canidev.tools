@@ -1,0 +1,24 @@
+{
+    "Name": "Display FPS on page",
+    "Slug": "display-fps",
+    "Description": "Can I display the current frames per second (FPS) of the page?",
+    "Category": "Performance",
+    
+    "Authors": "@pankajparashar",
+    
+    "Chrome": {
+        "Notes": [
+            "1. Open **Command Menu** (`Cmd+Shift+P` or `Ctrl+Shift+P`) > Run \"Show frames per second (FPS) meter\"."
+        ]
+    },
+    "Edge": {
+        "Notes": [
+            "1. Open **Command Menu** (`Cmd+Shift+P` or `Ctrl+Shift+P`) > Run \"Show frames per second (FPS) meter\"."
+        ]
+    },
+    "Opera": {
+        "Notes": [
+            "1. Open **Command Menu** (`Cmd+Shift+P` or `Ctrl+Shift+P`) > Run \"Show frames per second (FPS) meter\"."
+        ]
+    }
+}

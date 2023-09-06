@@ -1,0 +1,19 @@
+{
+    "Name": "Inspect CSS Nesting",
+    "Slug": "inspect-css-nesting",
+    "Description": "Can I inspect CSS nesting styles?",
+    "Category": "CSS",
+
+    "Authors": ["@pankajparashar"],
+
+    "Chrome": {
+        "Notes": [
+            "1. Inspect element with CSS nesting rules applied > Nesting rules are available in the **Styles** pane to view and edit."
+        ]
+    },
+    "Firefox": {
+        "Notes": [
+            "1. Inspect element with CSS nesting rules applied > Nesting rules are available in the **Rules** pane to view and edit."
+        ]
+    }
+}

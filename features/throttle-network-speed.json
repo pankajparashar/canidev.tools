@@ -1,0 +1,27 @@
+{
+  "Name": "Throttle network speed",
+  "Slug": "throttle-network-speed",
+  "Description": "Can I throttle network speed to simulate slower network connections like 2G, 3G etc.,?",
+  "Category": "Network",
+  "LastModifiedTime": "2022-10-03T15:04:56.000Z",
+  "Authors": ["@pankajparashar", "@kilianvalkhof"],
+  "Related": ["throttle-cpu-speed"],
+  "Chrome": {
+    "Notes": "1. In **Network** > Click the dropdown \"No Throttling\" and select a value to throttle the network speed.\n"
+  },
+  "Firefox": {
+    "Notes": "1. In Network > Click the dropdown \"No Throttling\" and select a value to throttle the network speed.\n\n"
+  },
+  "Edge": {
+    "Notes": "1. In Network > Click the dropdown \"No Throttling\" and select a value to throttle the network speed.\n\n"
+  },
+  "Opera": {
+    "Notes": "1. In Network > Click the dropdown \"No Throttling\" and select a value to throttle the network speed.\n\n"
+  },
+  "Polypane": {
+    "Notes": [
+      "1. Open **Change Media and Emulation** settings of a pane and go to the \"Network\" tab",
+      "2. Toggle the **Throttle network speed** switch to Fast 3G, Slow 3G or Offline."
+    ]
+  }
+}

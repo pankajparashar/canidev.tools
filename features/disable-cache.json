@@ -1,0 +1,26 @@
+{
+  "Name": "Disable cache",
+  "Slug": "disable-cache",
+  "Description": "Can I disable cache for the network requests?",
+  "Category": "Network",
+  "LastModifiedTime": "2022-07-09T09:07:41.000Z",
+  "Authors": ["@pankajparashar", "@kilianvalkhof"],
+  "Chrome": {
+    "Notes": "1. Open Network panel > Look for \"Disable cache\" in the toolbar at the top.\n"
+  },
+  "Firefox": {
+    "Notes": "1. Open Network panel > Look for \"Disable Cache\" in the toolbar at the top.\n"
+  },
+  "Edge": {
+    "Notes": "1. Open Network panel > Look for \"Disable Cache\" in the toolbar at the top.\n"
+  },
+  "Safari": {
+    "Notes": "1. Open Network panel > Look for the icon in the top right of the toolbar with tooltip \"Ignore the resource cache when loading resources\".\n"
+  },
+  "Opera": {
+    "Notes": "1. Open Network panel > Look for \"Disable cache\" in the toolbar at the top.\n"
+  },
+  "Polypane": {
+    "Notes": "1. In the Edit menu, select \"Disable cache\" and choose to disable it just for the current session, or persistently.\n"
+  }
+}

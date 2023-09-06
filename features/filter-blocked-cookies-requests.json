@@ -1,0 +1,14 @@
+{
+    "Name": "Filter blocked cookies requests",
+    "Slug": "filter-blocked-cookies-requests",
+    "Description": "Can I filter network requests with blocked response cookies?",
+    "Category": "Network",
+
+    "Authors": "@pankajparashar",
+
+    "Chrome": {
+        "Notes": [
+            "1. In the **Network** panel, enable the **Has blocked cookies** option to only show requests with blocked response cookies."
+        ]
+    }
+}

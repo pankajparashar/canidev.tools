@@ -1,0 +1,24 @@
+{
+  "Name": "Find by XPath",
+  "Slug": "find-by-xpath",
+  "Description": "Can I find elements in the DOM tree using xpath?",
+  "Category": "Elements",
+  "LastModifiedTime": "2022-07-07T12:14:52.000Z",
+  "Authors": "@pankajparashar",
+  "Chrome": {
+    "Notes": "1. Open devtools using Cmd+Opt+I (on MacOS) or Ctrl+Shift+I (on Windows/Linux/ChromeOS) > Elements.\n2. Press Cmd+F or Ctrl+F to open the search bar at the bottom of the Elements panel.\n3. Enter XPath to find the element in the DOM node.\n"
+  },
+  "Firefox": {
+    "Notes": "1. Open devtools using Cmd+Opt+I (on MacOS) or Ctrl+Shift+I (on Windows/Linux/ChromeOS) > Inspector.\n2. Press Cmd+F or Ctrl+F to open the search bar at the top of the Inspector panel.\n3. Enter the xpath to find the element in the DOM node.\n",
+    "References": "\n"
+  },
+  "Edge": {
+    "Notes": "1. Open devtools using Cmd+Opt+I (on MacOS) or Ctrl+Shift+I (on Windows/Linux/ChromeOS) > Elements.\n2. Press Cmd+F or Ctrl+F to open the search bar at the bottom of the Elements panel.\n3. Enter XPath to find the element in the DOM node.\n\n"
+  },
+  "Safari": {
+    "Notes": "1. In the **Elements** tab, use `Cmd+F` or `Ctrl+F` to open the search bar at the top of the Elements panel.\n2. Enter the xpath to find the element in the DOM node.\n\n"
+  },
+  "Opera": {
+    "Notes": "1. Open devtools using Cmd+Opt+I (on MacOS) or Ctrl+Shift+I (on Windows/Linux/ChromeOS) > Elements.\n2. Press Cmd+F or Ctrl+F to open the search bar at the bottom of the Elements panel.\n3. Enter XPath to find the element in the DOM node.\n"
+  }
+}

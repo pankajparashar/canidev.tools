@@ -1,0 +1,14 @@
+{
+    "Name": "Clear network log",
+    "Slug": "clear-network-log",
+    "Description": "Can I clear network log?",
+    "Category": "Network",
+
+    "Authors": "@pankajparashar",
+
+    "Chrome": {
+        "Notes": [
+            "1. In the **Network** panel, click the **Clear network log** (`Cmd+K` or `Ctrl+L`) button in the toolbar to clear all the network requests."
+        ]
+    }
+}

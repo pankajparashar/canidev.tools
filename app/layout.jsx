@@ -2,12 +2,25 @@ import "@mantine/core/styles.css";
 import React from "react";
 import { MantineProvider, ColorSchemeScript } from "@mantine/core";
 
-export const metadata = {
-  title: "Mantine Next.js template",
-  description: "I am using Mantine with Next.js!",
-};
+import { AppLayout } from "../components/app-layout";
+import "./globals.css"
+
+import * as fs from "fs";
+import path from "path";
 
 export default function RootLayout({ children }) {
+
+  const categories = {};
+  fs.readdirSync(`features`).forEach((name) => {
+    const filename = path.join("features", name);
+    const file = fs.readFileSync(filename);
+    const feature = JSON.parse(file);
+
+    const category = feature.Category;
+    categories[category] =
+      category in categories ? categories[category] + 1 : 1;
+  });
+
   return (
     <html lang="en">
       <head>
@@ -15,7 +28,11 @@ export default function RootLayout({ children }) {
         <link rel="shortcut icon" href="/favicon.svg" />
       </head>
       <body>
-        <MantineProvider>{children}</MantineProvider>
+        <MantineProvider theme={{
+          fontFamily: '"Operator Mono", sans-serif',
+        }}>
+          <AppLayout categories={categories}>{children}</AppLayout>
+        </MantineProvider>
       </body>
     </html>
   );

@@ -1,0 +1,26 @@
+{
+  "Name": "Disable JavaScript",
+  "Slug": "disable-javascript",
+  "Description": "Can I disable JavaScript on a web page?",
+  "Category": "JavaScript",
+  "LastModifiedTime": "2022-09-14T14:31:11.000Z",
+  "Authors": ["@pankajparashar", "@kilianvalkhof"],
+  "Chrome": {
+    "Notes": "1. Open devtools. Press `Shift+Cmd+P` on Mac or `Ctrl+Shit+P` on Windows/Linux/Chrome OS to open the Command Menu.\n2. Search for \"Disable JavaScript\" and press `Enter` to execute the command.\n3. The yellow warning icon next to the Sources panel is the indicator that the JavaScript is disabled. It will continue to be disabled until the devtools is closed.\n"
+  },
+  "Firefox": {
+    "Notes": "1. Navigate to `about:config` in the address bar. Click on \"Accept the Risk and Continue\" while proceeding with caution.\n2. Search for \"javascript.enabled\" in the preference textbox.\n3. Toggle the boolean value to False, using the `⇋` button.\n\n"
+  },
+  "Edge": {
+    "Notes": "1. Open devtools. Press `Shift+Cmd+P` on Mac or `Ctrl+Shit+P` on Windows/Linux/Chrome OS to open the Command Menu.\n2. Search for \"Disable JavaScript\" and press `Enter` to execute the command.\n3. The yellow warning icon next to the Sources panel is the indicator that the JavaScript is disabled. It will continue to be disabled until the devtools is closed.\n\n"
+  },
+  "Safari": {
+    "Notes": "1. In the menu bar, navigate to Safari > Preferences.\n2. Click on the Security tab. Under the Web Content section, uncheck the \"Enable JavaScript\" checkbox.\n"
+  },
+  "Opera": {
+    "Notes": "1. Open devtools. Press `Shift+Cmd+P` on Mac or `Ctrl+Shit+P` on Windows/Linux/Chrome OS to open the Command Menu.\n2. Search for \"Disable JavaScript\" and press `Enter` to execute the command.\n3. The yellow warning icon next to the Sources panel is the indicator that the JavaScript is disabled. It will continue to be disabled until the devtools is closed.\n"
+  },
+  "Polypane": {
+    "Notes": "1. Open the \"debug tools\" of an individual pane.\n2. under \"Disable features\", select \"Disable JS\".\n"
+  }
+}

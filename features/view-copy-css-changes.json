@@ -1,0 +1,19 @@
+{
+  "Name": "View & Copy CSS changes",
+  "Slug": "view-copy-css-changes",
+  "Description": "Can I view and copy the CSS changes applied to an element?",
+  "Category": "CSS",
+  "Newsletter": "tips-tricks-31",
+  "LastModifiedTime": "2022-10-21T07:24:12.000Z",
+  "Authors": "@pankajparashar",
+  "Firefox": {
+    "Share": "https://twitter.com/CanIDevTools/status/1583343036637270016",
+    "Notes": "1. In the **Rules** pane, apply changes to the CSS declarations, and then click on the **Changes** pane to see the diff. Click \"Copy All Changes\" button to copy the modified styles, with previous declaration automatically commented.\n",
+    "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1666325796/view-copy-css-changes-firefox_fwo5gx.mp4"
+  },
+  "Safari": {
+    "Share": "https://twitter.com/CanIDevTools/status/1583356847305936896",
+    "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1666325795/view-copy-css-changes-safari_w6olze.mp4",
+    "Notes": "1. In the **Styles** pane, apply changes to the CSS declarations, and then click on the **Changes** pane to see the diff.\n"
+  }
+}

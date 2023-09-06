@@ -1,0 +1,14 @@
+{
+    "Name": "Copy as PowerShell",
+    "Slug": "copy-as-powershell",
+    "Description": "Can I copy the request as a powershell script?",
+    "Category": "Network",
+
+    "Authors": "@pankajparashar",
+
+    "Chrome": {
+        "Notes": [
+            "1. In the **Network** panel, right click on the network request > Copy > Copy as PowerShell."
+        ]
+    }
+}

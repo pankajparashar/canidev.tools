@@ -1,0 +1,34 @@
+{
+  "Name": "Run snippets",
+  "Slug": "run-snippets",
+  "Description": "Can I run snippet of code in devtools?",
+  "Category": "Sources",
+  "Newsletter": "tips-tricks-13",
+  "LastModifiedTime": "2022-10-23T12:33:59.000Z",
+  "Authors": "@pankajparashar",
+  "Chrome": {
+    "Share": "https://twitter.com/CanIDevTools/status/1559114513370456064",
+    "References": "[1] \"Run Snippets of JavaScript\", by Chrome Devtools [docs](https://developer.chrome.com/docs/devtools/javascript/snippets/).\n",
+    "Notes": "1. **Sources** > In the left sidebar, open **Snippets** > Click \"+ New snippet\". This will open an empty file in the main view.\n2. Enter the snippet and press `Cmd+Enter` to run the code.\n3. Additionally, you can also save the snippet and run it directly from the **Command** **Menu** using `!<script>`.\n",
+    "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1660547902/run-snippets-chrome_jsjtiz.mp4"
+  },
+  "Firefox": {
+    "Share": "https://twitter.com/CanIDevTools/status/1559208618762702848",
+    "Notes": "1. Open **Console** (`Cmd+Opt+K` or `Ctrl+Shift+K`) > Switch to multi-editor mode (`Cmd+B` or `Ctrl+B`).\n2. This will open the editor next to the **Console**, where you can enter the snippet and click \"Run\" to execute.\n",
+    "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1660578613/run-snippets-firefox_lirpn4.mp4"
+  },
+  "Edge": {
+    "Notes": "1. **Sources** > In the left sidebar, open **Snippets** > Click \"+ New snippet\". This will open an empty file in the main view.\n2. Enter the snippet and press `Cmd+Enter` to run the code.\n3. Additionally, you can also save the snippet and run it directly from the **Command** **Menu** using `!<script>`.\n",
+    "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1660547899/run-snippets-edge_ez6fe5.mp4"
+  },
+  "Safari": {
+    "Share": "https://twitter.com/CanIDevTools/status/1584163777368707073",
+    "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1666528627/run-snippets-safari_p3udd4.mp4",
+    "Notes": "1. In **Sources** > Click the \"+\" button to **Create** **Resource** > \"Console Snippet...\". Input the name of the snippet and enter the script.\n2. Click the **Play** button next to the snippet name to execute the code in **Console**. \n"
+  },
+  "Opera": {
+    "Share": "https://twitter.com/CanIDevTools/status/1559191098836234242",
+    "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1660568831/run-snippets-opera_imc6za.mp4",
+    "Notes": "1. **Sources** > In the left sidebar, open **Snippets** > Click \"+ New snippet\". This will open an empty file in the main view.\n2. Enter the snippet and press `Cmd+Enter` to run the code.\n3. Additionally, you can also save the snippet and run it directly from the **Command** **Menu** using `!<script>`.\n"
+  }
+}

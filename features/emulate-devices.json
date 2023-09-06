@@ -1,0 +1,36 @@
+{
+  "Name": "Emulate devices",
+  "Slug": "emulate-devices",
+  "Description": "Can I emulate devices to test responsiveness of a page?",
+  "Category": "Elements",
+  "LastModifiedTime": "2022-07-09T09:11:51.000Z",
+  "Authors": ["@pankajparashar", "@kilianvalkhof"],
+  "Chrome": {
+    "Share": "https://twitter.com/CanIDevTools/status/1533823550389637120",
+    "Notes": "1. Open devtools using `Cmd+Opt+I` (on MacOS) or `Ctrl+Shift+I` (on Windows/Linux).\n2. Press `Cmd+Shift+M` (on MacOS) or `Ctrl+Shift+M` (on Windows/Linux) or click the devices icon in the top right to \"Toggle device toolbar\".\n",
+    "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1654448196/Videos/emulate-devices-chrome_tdr5f4.mp4"
+  },
+  "Firefox": {
+    "Share": "https://twitter.com/CanIDevTools/status/1533830432080691200",
+    "Notes": "There are three ways to toggle Responsive Design Mode:\n1. From the Firefox menu: Select **Responsive Design Mode** from the **Web Developer** submenu in the Firefox Menu (or **Tools** menu if you display the menu bar or are on macOS).\n2. From the Developer Tools toolbox: Press the **Responsive Design Mode** button in the Toolbox’s toolbar.\n3. From the keyboard: Press **Ctrl**+**Shift**+**M** (or **Cmd**+**Opt**+**M** on macOS).\n",
+    "References": "1. \"Responsive Design Mode\" - [Firefox Source Docs](https://firefox-source-docs.mozilla.org/devtools-user/responsive_design_mode/)\n"
+  },
+  "Edge": {
+    "Notes": "1. Open devtools using `Cmd+Opt+I` (on MacOS) or `Ctrl+Shift+I` (on Windows/Linux).\n2. Press `Cmd+Shift+M` (on MacOS) or `Ctrl+Shift+M` (on Windows/Linux) or click the devices icon in the top right to \"Toggle device toolbar\".\n",
+    "Share": "https://twitter.com/CanIDevTools/status/1533824857859063808",
+    "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1654526481/Videos/emulate-devices-edge_dilkky.mp4",
+    "References": "1. \"Device Emulation\" - [Microsoft Edge Docs](https://docs.microsoft.com/en-us/microsoft-edge/devtools-guide-chromium/device-mode/)\n"
+  },
+  "Safari": {
+    "Share": "https://twitter.com/CanIDevTools/status/1533833879949549568",
+    "References": "1. \"How to enable responsive design mode\" - [BrowserStack](https://www.browserstack.com/guide/enable-responsive-design-mode-in-safari-and-firefox)\n",
+    "Notes": "1. From the menu bar: Develop > Enter Responsive Design Mode (or press `Ctrl+Cmd+R`).\n"
+  },
+  "Opera": {
+    "Notes": "1. Open devtools using `Cmd+Opt+I` (on MacOS) or `Ctrl+Shift+I` (on Windows/Linux).\n2. Press `Cmd+Shift+M` (on MacOS) or `Ctrl+Shift+M` (on Windows/Linux) or click the devices icon in the top right to \"Toggle device toolbar\".\n"
+  },
+  "Polypane": {
+    "Notes": "1. Click the title of a pane.\n2. Select one of the 30+ available device presets\n3. Optionally, switch between the _viewport size_ and _device size_. Viewport size takes the device UI into account to give you the real available space.\n",
+    "References": "1. \"Device presets\" - [documentation](https://polypane.app/docs/device-presets/)\n"
+  }
+}

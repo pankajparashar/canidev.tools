@@ -1,0 +1,26 @@
+{
+  "Name": "Reorder Tabs & Panes",
+  "Slug": "reorder-tabs-panes",
+  "Description": "Can I reorder tabs & panes in the devtools panel?",
+  "Category": "Elements",
+  "LastModifiedTime": "2023-01-30T06:59:09.000Z",
+  "Authors": "@pankajparashar",
+  "Chrome": {
+    "References": "[1] \"Reorder pane\" - [Chrome DevTools Docs](https://developer.chrome.com/blog/new-in-devtools-103/#reorder-pane)\n",
+    "Notes": "1. In the main browser window, drag and drop tabs (or panes) anywhere across the tab-bar to reorder tabs (or panes) based on preference.\n2. Once re-ordered, the order will persist for future devtools sessions.\n",
+    "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1656824829/Videos/reorder-panes-chrome.mp4"
+  },
+  "Firefox": {
+    "Notes": "1. In the main browser window, drag and drop tabs (or panes) anywhere across the tab-bar to reorder tabs (or panes) based on preference.\n2. Once re-ordered, the order will persist for future devtools sessions.\n",
+    "References": "1. In the main browser window, drag and drop tabs anywhere across the tab-bar to reorder tabs based on preference.\n2. Once re-ordered, the order will persist for future devtools sessions.\n3. This does not work for panes within a tab.\n\n"
+  },
+  "Edge": {
+    "Notes": "1. In the main browser window, drag and drop tabs (or panes) anywhere across the tab-bar to reorder tabs (or panes) based on preference.\n2. Once re-ordered, the order will persist for future devtools sessions.\n\n"
+  },
+  "Safari": {
+    "Notes": "1. In the main browser window, drag and drop tabs anywhere across the tab-bar to reorder tabs based on preference.\n2. Once re-ordered, the order will persist for future devtools sessions.\n3. This does not work for panes within a tab.\n\n"
+  },
+  "Opera": {
+    "Notes": "1. In the main browser window, drag and drop tabs (or panes) anywhere across the tab-bar to reorder tabs (or panes) based on preference.\n2. Once re-ordered, the order will persist for future devtools sessions.\n\n"
+  }
+}
