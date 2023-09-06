@@ -3,13 +3,12 @@ import React from "react";
 import { MantineProvider, ColorSchemeScript } from "@mantine/core";
 
 import { AppLayout } from "../components/app-layout";
-import "./globals.css"
+import "../public/globals.css";
 
 import * as fs from "fs";
 import path from "path";
 
 export default function RootLayout({ children }) {
-
   const categories = {};
   fs.readdirSync(`features`).forEach((name) => {
     const filename = path.join("features", name);
@@ -28,9 +27,11 @@ export default function RootLayout({ children }) {
         <link rel="shortcut icon" href="/favicon.svg" />
       </head>
       <body>
-        <MantineProvider theme={{
-          fontFamily: '"Operator Mono", sans-serif',
-        }}>
+        <MantineProvider
+          theme={{
+            fontFamily: '"Operator Mono", sans-serif',
+          }}
+        >
           <AppLayout categories={categories}>{children}</AppLayout>
         </MantineProvider>
       </body>
