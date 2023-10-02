@@ -9,8 +9,8 @@
   "Chrome": {
     "Notes": [
       "In the Network panel, right click on the request and select 'Override content'. Devtools will prompt to select a folder to store the overrides in.",
-      "Onve the overrides are setup, Devtools will navigate to Sources > Overrides > Editor to override content.",
-      "Override resources are highlighted with a purple dot in the Network panel."
+      "Once the overrides are setup, Devtools will navigate to Sources > Overrides > Editor to override content.",
+      "Overriden resources are highlighted with a purple dot in the Network panel."
     ]
   }
 }
