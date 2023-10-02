@@ -1,0 +1,14 @@
+{
+  "Name": "Hide extention requests",
+  "Description": "Can I hide network requests sent by extensions?",
+  "Slug": "hide-extention-requests",
+
+  "Category": "Network",
+  "Authors": ["@pankajparashar"],
+
+  "Chrome": {
+    "Notes": [
+      "In the Network panel, check the Hide extension URLs option in the toolbar."
+    ]
+  }
+}
