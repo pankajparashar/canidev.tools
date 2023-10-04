@@ -1,20 +1,15 @@
-import * as fs from "fs";
-import path from "path";
+"use client";
+
+import { useContext } from "react";
 
 import { Divider, NavLink, SimpleGrid, Button, Box, TextInput } from "@mantine/core";
 import { IconCheckbox, IconMinus, IconBrandChrome, IconBrandFirefox, IconBrandEdge, IconBrandSafari, IconBrandOpera } from "@tabler/icons-react";
 
 import Link from "next/link";
+import { DataContext } from "../components/data-provider";
 
 export default function Page() {
-    const features = [];
-    fs.readdirSync("features").forEach(name => {
-        const filename = path.join("features", name);
-        const file = fs.readFileSync(filename);
-        const feature = JSON.parse(file);
-
-        features.push(feature);
-    });
+    const { features } = useContext(DataContext);
 
     return (
         <>

@@ -6,13 +6,16 @@ import { MantineProvider, ColorSchemeScript } from "@mantine/core";
 
 import "../public/style.css";
 import { AppLayout } from "../components/app-layout";
+import { DataProvider } from "../components/data-provider";
 
 export default function RootLayout({ children }) {
     const categories = {};
+    const features = [];
     fs.readdirSync(`features`).forEach(name => {
         const filename = path.join("features", name);
         const file = fs.readFileSync(filename);
         const feature = JSON.parse(file);
+        features.push(feature);
 
         const category = feature.Category;
         categories[category] = category in categories ? categories[category] + 1 : 1;
@@ -30,7 +33,9 @@ export default function RootLayout({ children }) {
             </head>
             <body>
                 <MantineProvider theme={theme}>
-                    <AppLayout categories={categories}>{children}</AppLayout>
+                    <DataProvider features={features} categories={categories}>
+                        <AppLayout categories={categories}>{children}</AppLayout>
+                    </DataProvider>
                 </MantineProvider>
             </body>
         </html>

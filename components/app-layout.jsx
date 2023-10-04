@@ -1,12 +1,19 @@
 "use client";
 
-import { useRef, useEffect } from "react";
+import { useRef, useEffect, useContext } from "react";
+import { useSearchParams } from "next/navigation";
+import Link from "next/link";
+
 import { useDisclosure } from "@mantine/hooks";
 import { AppShell, Burger, Group, ScrollArea, Anchor, NavLink, Divider } from "@mantine/core";
 
 import { IconListDetails, IconBrandSpeedtest, IconCode, IconBoxMargin, IconAccessible, IconReportMedical, IconTerminal2, IconBrandNextjs, IconAffiliate, IconHexagons, IconCrosshair } from "@tabler/icons-react";
+import { DataContext } from "./data-provider";
 
 export const AppLayout = props => {
+    const { categories } = useContext(DataContext);
+
+    const searchParams = useSearchParams();
     const [opened, { toggle }] = useDisclosure();
     const icons = {
         CSS: <IconBoxMargin size={20} stroke={1.5} />,
@@ -31,8 +38,8 @@ export const AppLayout = props => {
             </AppShell.Header>
             <AppShell.Navbar p="md">
                 <AppShell.Section grow component={ScrollArea}>
-                    <NavLink label="All" variant="filled" active leftSection={<IconListDetails stroke={1.5} size={20} />} rightSection={152} />
-                    {Object.entries(props.categories).map(([category, count]) => (
+                    <NavLink label="All" variant="filled" active={searchParams.get("category") === null} component={Link} href="/" leftSection={<IconListDetails stroke={1.5} size={20} />} rightSection={152} />
+                    {Object.entries(categories).map(([category, count]) => (
                         <NavLink
                             styles={{
                                 label: { fontSize: "var(--mantine-font-size-md)" },
@@ -41,6 +48,13 @@ export const AppLayout = props => {
                             key={category}
                             rightSection={count}
                             leftSection={icons[category]}
+                            variant={searchParams.get("category") === category ? "filled" : "default"}
+                            component={Link}
+                            active={searchParams.get("category") === category}
+                            href={{
+                                pathname: "/",
+                                query: { category },
+                            }}
                         />
                     ))}
                 </AppShell.Section>

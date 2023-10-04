@@ -1,14 +1,17 @@
-import * as fs from "fs";
-import path from "path";
+"use client";
 
-import { SimpleGrid, Button, NavLink, Link, Divider } from "@mantine/core";
+import { useContext } from "react";
+import { DataContext } from "../../components/data-provider";
+
+import { SimpleGrid, Button, NavLink, Divider } from "@mantine/core";
 import { IconCheckbox, IconMinus, IconBrandSafari, IconBrandEdge, IconBrandChrome, IconBrandFirefox, IconBrandOpera } from "@tabler/icons-react";
 import { IconBrandSpeedtest, IconCode, IconBoxMargin, IconAccessible, IconReportMedical, IconTerminal2, IconBrandNextjs, IconAffiliate, IconHexagons, IconCrosshair } from "@tabler/icons-react";
 
 export default function Page({ params }) {
-    const filename = path.join("features", params.slug + ".json");
-    const file = fs.readFileSync(filename);
-    const feature = JSON.parse(file);
+    const { features } = useContext(DataContext);
+    const feature = features.find(f => f.Slug === params.slug);
+    console.log(feature, params.slug);
+
     const icons = {
         CSS: <IconBoxMargin stroke={1.5} />,
         Accessibility: <IconAccessible stroke={1.5} />,
@@ -35,7 +38,6 @@ export default function Page({ params }) {
                             description: { fontSize: "var(--mantine-font-size-md)", wordBreak: "break-all" },
                         }}
                         href={feature.Slug}
-                        leftSection={icons[feature.Category]}
                     />
                 </div>
                 <div>
@@ -44,6 +46,7 @@ export default function Page({ params }) {
                             <Button variant="transparent" fullWidth>
                                 <IconBrandChrome />
                             </Button>
+                            <Divider />
                             <Button variant="transparent" disabled={!feature.Chrome} fullWidth>
                                 {feature.Chrome ? <IconCheckbox stroke={1.5} /> : <IconMinus stroke={1.5} />}
                             </Button>
@@ -52,6 +55,7 @@ export default function Page({ params }) {
                             <Button variant="transparent" fullWidth>
                                 <IconBrandFirefox />
                             </Button>
+                            <Divider />
                             <Button variant="transparent" disabled={!feature.Firefox} fullWidth>
                                 {feature.Firefox ? <IconCheckbox stroke={1.5} /> : <IconMinus stroke={1.5} />}
                             </Button>
@@ -60,6 +64,7 @@ export default function Page({ params }) {
                             <Button variant="transparent" fullWidth>
                                 <IconBrandEdge />
                             </Button>
+                            <Divider />
                             <Button variant="transparent" disabled={!feature.Edge} fullWidth>
                                 {feature.Edge ? <IconCheckbox stroke={1.5} /> : <IconMinus stroke={1.5} />}
                             </Button>
@@ -68,6 +73,7 @@ export default function Page({ params }) {
                             <Button variant="transparent" fullWidth>
                                 <IconBrandSafari />
                             </Button>
+                            <Divider />
                             <Button variant="transparent" disabled={!feature.Safari} fullWidth>
                                 {feature.Safari ? <IconCheckbox stroke={1.5} /> : <IconMinus stroke={1.5} />}
                             </Button>
@@ -76,6 +82,7 @@ export default function Page({ params }) {
                             <Button variant="transparent" fullWidth>
                                 <IconBrandOpera />
                             </Button>
+                            <Divider />
                             <Button variant="transparent" disabled={!feature.Opera} fullWidth>
                                 {feature.Opera ? <IconCheckbox stroke={1.5} /> : <IconMinus stroke={1.5} />}
                             </Button>
@@ -84,6 +91,7 @@ export default function Page({ params }) {
                             <Button variant="transparent" fullWidth>
                                 <IconBrandPolypane />
                             </Button>
+                            <Divider />
                             <Button variant="transparent" disabled={!feature.Polypane} fullWidth>
                                 {feature.Polypane ? <IconCheckbox stroke={1.5} /> : <IconMinus stroke={1.5} />}
                             </Button>
