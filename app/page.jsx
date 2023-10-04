@@ -26,37 +26,37 @@ export default function Page() {
                             <Button variant="transparent" fullWidth>
                                 <IconBrandChrome />
                             </Button>
-                            <Divider size="sm" />
+                            <Divider />
                         </Box>
                         <div>
                             <Button variant="transparent" fullWidth>
                                 <IconBrandFirefox />
                             </Button>
-                            <Divider size="sm" />
+                            <Divider />
                         </div>
                         <div>
                             <Button variant="transparent" fullWidth>
                                 <IconBrandEdge />
                             </Button>
-                            <Divider size="sm" />
+                            <Divider />
                         </div>
                         <div>
                             <Button variant="transparent" fullWidth>
                                 <IconBrandSafari />
                             </Button>
-                            <Divider size="sm" />
+                            <Divider />
                         </div>
                         <div>
                             <Button variant="transparent" fullWidth>
                                 <IconBrandOpera />
                             </Button>
-                            <Divider size="sm" />
+                            <Divider />
                         </div>
                         <div>
                             <Button variant="transparent" fullWidth>
                                 <IconBrandPolypane />
                             </Button>
-                            <Divider size="sm" />
+                            <Divider />
                         </div>
                     </SimpleGrid>
                 </div>

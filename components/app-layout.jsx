@@ -1,7 +1,8 @@
 "use client";
 
+import { useRef, useEffect } from "react";
 import { useDisclosure } from "@mantine/hooks";
-import { AppShell, Burger, Group, ScrollArea, Anchor, NavLink } from "@mantine/core";
+import { AppShell, Burger, Group, ScrollArea, Anchor, NavLink, Divider } from "@mantine/core";
 
 import { IconListDetails, IconBrandSpeedtest, IconCode, IconBoxMargin, IconAccessible, IconReportMedical, IconTerminal2, IconBrandNextjs, IconAffiliate, IconHexagons, IconCrosshair } from "@tabler/icons-react";
 
@@ -43,8 +44,24 @@ export const AppLayout = props => {
                         />
                     ))}
                 </AppShell.Section>
+                <Divider />
+                <AppShell.Section></AppShell.Section>
             </AppShell.Navbar>
             <AppShell.Main>{props.children}</AppShell.Main>
         </AppShell>
     );
+};
+
+const CarbonAd = () => {
+    const reference = useRef();
+
+    useEffect(() => {
+        reference.current.innerHTML = "";
+        const s = document.createElement("script");
+        s.id = "_carbonads_js";
+        s.src = `//cdn.carbonads.com/carbon.js?serve=CEAIVKJJ&placement=wwwcanidevtools`;
+        reference.current.appendChild(s);
+    }, []);
+
+    return <div ref={reference} />;
 };
