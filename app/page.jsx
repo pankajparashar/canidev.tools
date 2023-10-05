@@ -3,13 +3,16 @@
 import { useContext } from "react";
 
 import { Divider, NavLink, SimpleGrid, Button, Box, TextInput } from "@mantine/core";
-import { IconCheckbox, IconMinus, IconBrandChrome, IconBrandFirefox, IconBrandEdge, IconBrandSafari, IconBrandOpera } from "@tabler/icons-react";
+import { IconCheckbox, IconChevronRight, IconMinus, IconBrandChrome, IconBrandFirefox, IconBrandEdge, IconBrandSafari, IconBrandOpera } from "@tabler/icons-react";
 
 import Link from "next/link";
+import { useSearchParams } from "next/navigation";
+
 import { DataContext } from "../components/data-provider";
 
 export default function Page() {
     const { features } = useContext(DataContext);
+    const searchParams = useSearchParams();
 
     return (
         <>
@@ -56,57 +59,60 @@ export default function Page() {
                     </SimpleGrid>
                 </div>
             </SimpleGrid>
-            {features.map(feature => (
-                <SimpleGrid cols={{ base: 1, md: 2 }} key={feature.Slug} verticalSpacing={0}>
-                    <div>
-                        <NavLink
-                            pl="0"
-                            label={feature.Name}
-                            styles={{
-                                label: { fontSize: "var(--mantine-font-size-md)" },
-                            }}
-                            component={Link}
-                            href={feature.Slug}
-                        />
-                        <Divider variant="dashed" />
-                    </div>
-                    <div>
-                        <SimpleGrid cols={6} h="100%" spacing={0} verticalSpacing={0}>
-                            <div>
-                                <Button variant="transparent" fullWidth>
-                                    {feature.Chrome ? <IconCheckbox stroke={1.5} /> : <IconMinus stroke={1.5} />}
-                                </Button>
-                            </div>
-                            <div>
-                                <Button variant="transparent" fullWidth>
-                                    {feature.Firefox ? <IconCheckbox stroke={1.5} /> : <IconMinus stroke={1.5} />}
-                                </Button>
-                            </div>
-                            <div>
-                                <Button variant="transparent" fullWidth>
-                                    {feature.Edge ? <IconCheckbox stroke={1.5} /> : <IconMinus stroke={1.5} />}
-                                </Button>
-                            </div>
-                            <div>
-                                <Button variant="transparent" fullWidth>
-                                    {feature.Safari ? <IconCheckbox stroke={1.5} /> : <IconMinus stroke={1.5} />}
-                                </Button>
-                            </div>
-                            <div>
-                                <Button variant="transparent" fullWidth>
-                                    {feature.Opera ? <IconCheckbox stroke={1.5} /> : <IconMinus stroke={1.5} />}
-                                </Button>
-                            </div>
-                            <div>
-                                <Button variant="transparent" fullWidth>
-                                    {feature.Polypane ? <IconCheckbox stroke={1.5} /> : <IconMinus stroke={1.5} />}
-                                </Button>
-                            </div>
-                        </SimpleGrid>
-                        <Divider />
-                    </div>
-                </SimpleGrid>
-            ))}
+            {features
+                .filter(f => searchParams.get("category") === null || f.Category === searchParams.get("category"))
+                .map(feature => (
+                    <SimpleGrid cols={{ base: 1, md: 2 }} key={feature.Slug} verticalSpacing={0}>
+                        <div>
+                            <NavLink
+                                pl="0"
+                                label={feature.Name}
+                                styles={{
+                                    label: { fontSize: "var(--mantine-font-size-md)" },
+                                }}
+                                component={Link}
+                                href={feature.Slug}
+                                rightSection={<IconChevronRight stroke={1} />}
+                            />
+                            <Divider variant="dashed" />
+                        </div>
+                        <div>
+                            <SimpleGrid cols={6} h="100%" spacing={0} verticalSpacing={0}>
+                                <div>
+                                    <Button variant="transparent" fullWidth>
+                                        {feature.Chrome ? <IconCheckbox stroke={1.5} /> : <IconMinus stroke={1.5} />}
+                                    </Button>
+                                </div>
+                                <div>
+                                    <Button variant="transparent" fullWidth>
+                                        {feature.Firefox ? <IconCheckbox stroke={1.5} /> : <IconMinus stroke={1.5} />}
+                                    </Button>
+                                </div>
+                                <div>
+                                    <Button variant="transparent" fullWidth>
+                                        {feature.Edge ? <IconCheckbox stroke={1.5} /> : <IconMinus stroke={1.5} />}
+                                    </Button>
+                                </div>
+                                <div>
+                                    <Button variant="transparent" fullWidth>
+                                        {feature.Safari ? <IconCheckbox stroke={1.5} /> : <IconMinus stroke={1.5} />}
+                                    </Button>
+                                </div>
+                                <div>
+                                    <Button variant="transparent" fullWidth>
+                                        {feature.Opera ? <IconCheckbox stroke={1.5} /> : <IconMinus stroke={1.5} />}
+                                    </Button>
+                                </div>
+                                <div>
+                                    <Button variant="transparent" fullWidth>
+                                        {feature.Polypane ? <IconCheckbox stroke={1.5} /> : <IconMinus stroke={1.5} />}
+                                    </Button>
+                                </div>
+                            </SimpleGrid>
+                            <Divider />
+                        </div>
+                    </SimpleGrid>
+                ))}
         </>
     );
 }

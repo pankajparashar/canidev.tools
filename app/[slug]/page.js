@@ -2,15 +2,15 @@
 
 import { useContext } from "react";
 import { DataContext } from "../../components/data-provider";
+import { CodeHighlightTabs } from "@mantine/code-highlight";
 
-import { SimpleGrid, Button, NavLink, Divider } from "@mantine/core";
+import { SimpleGrid, Button, NavLink, Divider, Grid } from "@mantine/core";
 import { IconCheckbox, IconMinus, IconBrandSafari, IconBrandEdge, IconBrandChrome, IconBrandFirefox, IconBrandOpera } from "@tabler/icons-react";
 import { IconBrandSpeedtest, IconCode, IconBoxMargin, IconAccessible, IconReportMedical, IconTerminal2, IconBrandNextjs, IconAffiliate, IconHexagons, IconCrosshair } from "@tabler/icons-react";
 
 export default function Page({ params }) {
     const { features } = useContext(DataContext);
     const feature = features.find(f => f.Slug === params.slug);
-    console.log(feature, params.slug);
 
     const icons = {
         CSS: <IconBoxMargin stroke={1.5} />,
@@ -27,79 +27,12 @@ export default function Page({ params }) {
 
     return (
         <>
-            <SimpleGrid cols={{ base: 1, md: 2 }} key={feature.Slug} verticalSpacing={0}>
-                <div>
-                    <NavLink
-                        pl="0"
-                        label={feature.Name}
-                        description={feature.Description}
-                        styles={{
-                            label: { fontSize: "var(--mantine-font-size-md)", fontWeight: "bold" },
-                            description: { fontSize: "var(--mantine-font-size-md)", wordBreak: "break-all" },
-                        }}
-                        href={feature.Slug}
-                    />
-                </div>
-                <div>
-                    <SimpleGrid cols={6} h="100%" spacing={0}>
-                        <div>
-                            <Button variant="transparent" fullWidth>
-                                <IconBrandChrome />
-                            </Button>
-                            <Divider />
-                            <Button variant="transparent" disabled={!feature.Chrome} fullWidth>
-                                {feature.Chrome ? <IconCheckbox stroke={1.5} /> : <IconMinus stroke={1.5} />}
-                            </Button>
-                        </div>
-                        <div>
-                            <Button variant="transparent" fullWidth>
-                                <IconBrandFirefox />
-                            </Button>
-                            <Divider />
-                            <Button variant="transparent" disabled={!feature.Firefox} fullWidth>
-                                {feature.Firefox ? <IconCheckbox stroke={1.5} /> : <IconMinus stroke={1.5} />}
-                            </Button>
-                        </div>
-                        <div>
-                            <Button variant="transparent" fullWidth>
-                                <IconBrandEdge />
-                            </Button>
-                            <Divider />
-                            <Button variant="transparent" disabled={!feature.Edge} fullWidth>
-                                {feature.Edge ? <IconCheckbox stroke={1.5} /> : <IconMinus stroke={1.5} />}
-                            </Button>
-                        </div>
-                        <div>
-                            <Button variant="transparent" fullWidth>
-                                <IconBrandSafari />
-                            </Button>
-                            <Divider />
-                            <Button variant="transparent" disabled={!feature.Safari} fullWidth>
-                                {feature.Safari ? <IconCheckbox stroke={1.5} /> : <IconMinus stroke={1.5} />}
-                            </Button>
-                        </div>
-                        <div>
-                            <Button variant="transparent" fullWidth>
-                                <IconBrandOpera />
-                            </Button>
-                            <Divider />
-                            <Button variant="transparent" disabled={!feature.Opera} fullWidth>
-                                {feature.Opera ? <IconCheckbox stroke={1.5} /> : <IconMinus stroke={1.5} />}
-                            </Button>
-                        </div>
-                        <div>
-                            <Button variant="transparent" fullWidth>
-                                <IconBrandPolypane />
-                            </Button>
-                            <Divider />
-                            <Button variant="transparent" disabled={!feature.Polypane} fullWidth>
-                                {feature.Polypane ? <IconCheckbox stroke={1.5} /> : <IconMinus stroke={1.5} />}
-                            </Button>
-                        </div>
-                    </SimpleGrid>
-                </div>
-            </SimpleGrid>
-            <Divider />
+            <Grid>
+                <Grid.Col span={{ base: 12, md: 6 }}></Grid.Col>
+                <Grid.Col span={{ base: 12, md: 6 }}>
+                    <CodeHighlightTabs withExpandButton defaultExpanded={false} expandCodeLabel="Show full code" collapseCodeLabel="Show less" language="tsx" code={[{ fileName: `${feature.Slug}.json`, code: JSON.stringify(feature, null, 2), language: "json" }]} />
+                </Grid.Col>
+            </Grid>
         </>
     );
 }

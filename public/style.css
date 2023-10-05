@@ -15,3 +15,9 @@
     font-style: normal;
     font-display: swap;
 }
+
+@media (prefers-color-scheme: dark) {
+    .logo {
+        filter: invert(1);
+    }
+}

@@ -5,9 +5,9 @@ import { useSearchParams } from "next/navigation";
 import Link from "next/link";
 
 import { useDisclosure } from "@mantine/hooks";
-import { AppShell, Burger, Group, ScrollArea, Anchor, NavLink, Divider } from "@mantine/core";
+import { ActionIcon, AppShell, Burger, Group, ScrollArea, Anchor, NavLink, Divider, Text, Button } from "@mantine/core";
 
-import { IconListDetails, IconBrandSpeedtest, IconCode, IconBoxMargin, IconAccessible, IconReportMedical, IconTerminal2, IconBrandNextjs, IconAffiliate, IconHexagons, IconCrosshair } from "@tabler/icons-react";
+import { IconBrightness, IconListDetails, IconBrandSpeedtest, IconCode, IconBoxMargin, IconAccessible, IconReportMedical, IconTerminal2, IconBrandNextjs, IconAffiliate, IconHexagons, IconCrosshair } from "@tabler/icons-react";
 import { DataContext } from "./data-provider";
 
 export const AppLayout = props => {
@@ -32,13 +32,23 @@ export const AppLayout = props => {
         <AppShell header={{ height: 50 }} navbar={{ width: 300, breakpoint: "sm", collapsed: { mobile: !opened } }} padding="md">
             <AppShell.Header>
                 <Group h="100%" px="md" justify="space-between">
-                    <Anchor href="/">canidev.tools</Anchor>
-                    <Burger opened={opened} onClick={toggle} hiddenFrom="sm" size="sm" />
+                    <Group gap={"xs"}>
+                        <img src="/logo.png" width="48px" className="logo" />
+                        <Anchor href="/">
+                            <Text>canidev.tools</Text>
+                        </Anchor>
+                    </Group>
+                    <Group gap="xs" align="center">
+                        <ActionIcon variant="subtle">
+                            <IconBrightness />
+                        </ActionIcon>
+                        <Burger opened={opened} onClick={toggle} hiddenFrom="sm" size="sm" />
+                    </Group>
                 </Group>
             </AppShell.Header>
             <AppShell.Navbar p="md">
                 <AppShell.Section grow component={ScrollArea}>
-                    <NavLink label="All" variant="filled" active={searchParams.get("category") === null} component={Link} href="/" leftSection={<IconListDetails stroke={1.5} size={20} />} rightSection={152} />
+                    <NavLink label="All" variant="filled" active={searchParams.get("category") === null} component={Link} href="/" leftSection={<IconListDetails stroke={1.5} size={20} />} rightSection={Object.values(categories).reduce((a, b) => a + b, 0)} />
                     {Object.entries(categories).map(([category, count]) => (
                         <NavLink
                             styles={{
@@ -48,7 +58,6 @@ export const AppLayout = props => {
                             key={category}
                             rightSection={count}
                             leftSection={icons[category]}
-                            variant={searchParams.get("category") === category ? "filled" : "default"}
                             component={Link}
                             active={searchParams.get("category") === category}
                             href={{

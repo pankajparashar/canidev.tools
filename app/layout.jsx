@@ -2,9 +2,11 @@ import * as fs from "fs";
 import path from "path";
 
 import "@mantine/core/styles.css";
-import { MantineProvider, ColorSchemeScript } from "@mantine/core";
+import { MantineProvider, ColorSchemeScript, useMantineColorScheme } from "@mantine/core";
 
 import "../public/style.css";
+import "@mantine/code-highlight/styles.css";
+
 import { AppLayout } from "../components/app-layout";
 import { DataProvider } from "../components/data-provider";
 
@@ -22,6 +24,7 @@ export default function RootLayout({ children }) {
     });
     const theme = {
         fontFamily: "Operator Mono",
+        fontFamilyMonospace: "Operator Mono",
         primaryColor: "dark",
         defaultRadius: 0,
     };
@@ -32,7 +35,7 @@ export default function RootLayout({ children }) {
                 <ColorSchemeScript />
             </head>
             <body>
-                <MantineProvider theme={theme}>
+                <MantineProvider theme={theme} defaultColorScheme="auto">
                     <DataProvider features={features} categories={categories}>
                         <AppLayout categories={categories}>{children}</AppLayout>
                     </DataProvider>
