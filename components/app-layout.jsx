@@ -5,9 +5,9 @@ import { useSearchParams } from "next/navigation";
 import Link from "next/link";
 
 import { useDisclosure } from "@mantine/hooks";
-import { ActionIcon, AppShell, Burger, Group, ScrollArea, NavLink, Divider, useMantineColorScheme } from "@mantine/core";
+import { Accordion, ActionIcon, AppShell, Burger, Group, ScrollArea, NavLink, Divider, useMantineColorScheme } from "@mantine/core";
 
-import { IconBrightness, IconListDetails, IconBrandSpeedtest, IconCode, IconBoxMargin, IconAccessible, IconReportMedical, IconTerminal2, IconBrandNextjs, IconAffiliate, IconHexagons, IconCrosshair } from "@tabler/icons-react";
+import { IconTags, IconBrightness, IconListDetails, IconBrandSpeedtest, IconCode, IconBoxMargin, IconAccessible, IconReportMedical, IconTerminal2, IconBrandNextjs, IconAffiliate, IconHexagons, IconCrosshair } from "@tabler/icons-react";
 import { DataContext } from "./data-provider";
 
 export const AppLayout = props => {
@@ -46,25 +46,38 @@ export const AppLayout = props => {
             </AppShell.Header>
             <AppShell.Navbar p="md">
                 <AppShell.Section grow component={ScrollArea}>
-                    <NavLink label="All" variant="filled" active={searchParams.get("category") === null} component={Link} href="/" leftSection={<IconListDetails stroke={1.5} size={20} />} rightSection={Object.values(categories).reduce((a, b) => a + b, 0)} />
-                    {Object.entries(categories).map(([category, count]) => (
-                        <NavLink
-                            styles={{
-                                label: { fontSize: "var(--mantine-font-size-md)" },
-                            }}
-                            label={category}
-                            key={category}
-                            rightSection={count}
-                            leftSection={icons[category]}
-                            component={Link}
-                            variant="filled"
-                            active={searchParams.get("category") === category}
-                            href={{
-                                pathname: "/",
-                                query: { category },
-                            }}
-                        />
-                    ))}
+                    <Accordion defaultValue="categories" variant="filled">
+                        <Accordion.Item key="categories" value="categories">
+                            <Accordion.Control>Categories</Accordion.Control>
+                            <Accordion.Panel>
+                                <NavLink label="All" variant="filled" active={searchParams.get("category") === null} component={Link} href="/" leftSection={<IconListDetails stroke={1.5} size={20} />} rightSection={Object.values(categories).reduce((a, b) => a + b, 0)} />
+                                {Object.entries(categories).map(([category, count]) => (
+                                    <NavLink
+                                        styles={{
+                                            label: { fontSize: "var(--mantine-font-size-md)" },
+                                        }}
+                                        label={category}
+                                        key={category}
+                                        rightSection={count}
+                                        leftSection={icons[category]}
+                                        component={Link}
+                                        variant="filled"
+                                        active={searchParams.get("category") === category}
+                                        href={{
+                                            pathname: "/",
+                                            query: { category },
+                                        }}
+                                    />
+                                ))}
+                            </Accordion.Panel>
+                        </Accordion.Item>
+                        <Accordion.Item key="tags" value="tags">
+                            <Accordion.Control>Tags</Accordion.Control>
+                            <Accordion.Panel>
+                                <NavLink label="#screenshot" leftSection={<IconTags />} />
+                            </Accordion.Panel>
+                        </Accordion.Item>
+                    </Accordion>
                 </AppShell.Section>
                 <Divider />
                 <AppShell.Section></AppShell.Section>
