@@ -2,10 +2,9 @@ import * as fs from "fs";
 import path from "path";
 
 import "@mantine/core/styles.css";
-import { MantineProvider, ColorSchemeScript, useMantineColorScheme } from "@mantine/core";
+import { MantineProvider, ColorSchemeScript } from "@mantine/core";
 
 import "../public/style.css";
-import "@mantine/code-highlight/styles.css";
 
 import { AppLayout } from "../components/app-layout";
 import { DataProvider } from "../components/data-provider";

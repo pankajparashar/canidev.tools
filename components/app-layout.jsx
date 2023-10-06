@@ -5,13 +5,14 @@ import { useSearchParams } from "next/navigation";
 import Link from "next/link";
 
 import { useDisclosure } from "@mantine/hooks";
-import { ActionIcon, AppShell, Burger, Group, ScrollArea, Anchor, NavLink, Divider, Text, Button } from "@mantine/core";
+import { ActionIcon, AppShell, Burger, Group, ScrollArea, NavLink, Divider, useMantineColorScheme } from "@mantine/core";
 
 import { IconBrightness, IconListDetails, IconBrandSpeedtest, IconCode, IconBoxMargin, IconAccessible, IconReportMedical, IconTerminal2, IconBrandNextjs, IconAffiliate, IconHexagons, IconCrosshair } from "@tabler/icons-react";
 import { DataContext } from "./data-provider";
 
 export const AppLayout = props => {
     const { categories } = useContext(DataContext);
+    const { toggleColorScheme } = useMantineColorScheme();
 
     const searchParams = useSearchParams();
     const [opened, { toggle }] = useDisclosure();
@@ -34,12 +35,9 @@ export const AppLayout = props => {
                 <Group h="100%" px="md" justify="space-between">
                     <Group gap={"xs"}>
                         <img src="/logo.png" width="48px" className="logo" />
-                        <Anchor href="/">
-                            <Text>canidev.tools</Text>
-                        </Anchor>
                     </Group>
                     <Group gap="xs" align="center">
-                        <ActionIcon variant="subtle">
+                        <ActionIcon variant="subtle" onClick={toggleColorScheme}>
                             <IconBrightness />
                         </ActionIcon>
                         <Burger opened={opened} onClick={toggle} hiddenFrom="sm" size="sm" />

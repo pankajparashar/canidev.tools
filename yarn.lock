@@ -45,15 +45,7 @@
   resolved "https://registry.npmjs.org/@floating-ui/utils/-/utils-0.1.1.tgz"
   integrity sha512-m0G6wlnhm/AX0H12IOWtK8gASEMffnX08RtKkCgTdHb9JpHKGloI7icFfLg9ZmQeavcvR0PKmzxClyuFPSjKWw==
 
-"@mantine/code-highlight@^7.1.2":
-  version "7.1.2"
-  resolved "https://registry.npmjs.org/@mantine/code-highlight/-/code-highlight-7.1.2.tgz"
-  integrity sha512-pP0cOdyEoM0aIRmm7T+KAdq6V2N4gQEzcvRx0gd6UhGbPS4f8iLwraIST0jnyS7tAfereP25VqNeedWepHsK/A==
-  dependencies:
-    clsx "2.0.0"
-    highlight.js "^11.7.0"
-
-"@mantine/core@^7.1.2", "@mantine/core@7.1.2":
+"@mantine/core@^7.1.2":
   version "7.1.2"
   resolved "https://registry.npmjs.org/@mantine/core/-/core-7.1.2.tgz"
   integrity sha512-EZg82V/+uA2bM981mEUOUGfqKIRsMfvxLdAPQpurhtqsnq4yBj1xjC3KzX/Eas9QhhHuR+4DJJyGTuO9aOK6nQ==
@@ -65,7 +57,7 @@
     react-textarea-autosize "8.5.3"
     type-fest "^3.13.1"
 
-"@mantine/hooks@7.1.2":
+"@mantine/hooks@^7.1.2", "@mantine/hooks@7.1.2":
   version "7.1.2"
   resolved "https://registry.npmjs.org/@mantine/hooks/-/hooks-7.1.2.tgz"
   integrity sha512-2sqfBKse/aJq93zEpIn4OY+jRACmDIWBixfBgobRfltDyeL8G+3223LSAaeT6ZD8+h2YBJVmbCD5QY7bx2l11Q==
@@ -148,11 +140,6 @@ graceful-fs@^4.1.2:
   version "4.2.11"
   resolved "https://registry.npmjs.org/graceful-fs/-/graceful-fs-4.2.11.tgz"
   integrity sha512-RbJ5/jmFcNNCcDV5o9eTnBLJ/HszWV0P73bc+Ff4nS/rJj+YaS6IGyiOL0VoBYX+l1Wrl3k63h/KrH+nhJ0XvQ==
-
-highlight.js@^11.7.0:
-  version "11.8.0"
-  resolved "https://registry.npmjs.org/highlight.js/-/highlight.js-11.8.0.tgz"
-  integrity sha512-MedQhoqVdr0U6SSnWPzfiadUcDHfN/Wzq25AkXiQv9oiOO/sG0S7XkvpFIqWBl9Yq1UYyYOOVORs5UW2XlPyzg==
 
 invariant@^2.2.4:
   version "2.2.4"

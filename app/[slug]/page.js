@@ -2,10 +2,8 @@
 
 import { useContext } from "react";
 import { DataContext } from "../../components/data-provider";
-import { CodeHighlightTabs } from "@mantine/code-highlight";
 
 import { SimpleGrid, Button, NavLink, Divider, Grid } from "@mantine/core";
-import { IconCheckbox, IconMinus, IconBrandSafari, IconBrandEdge, IconBrandChrome, IconBrandFirefox, IconBrandOpera } from "@tabler/icons-react";
 import { IconBrandSpeedtest, IconCode, IconBoxMargin, IconAccessible, IconReportMedical, IconTerminal2, IconBrandNextjs, IconAffiliate, IconHexagons, IconCrosshair } from "@tabler/icons-react";
 
 export default function Page({ params }) {
@@ -29,9 +27,7 @@ export default function Page({ params }) {
         <>
             <Grid>
                 <Grid.Col span={{ base: 12, md: 6 }}></Grid.Col>
-                <Grid.Col span={{ base: 12, md: 6 }}>
-                    <CodeHighlightTabs withExpandButton defaultExpanded={false} expandCodeLabel="Show full code" collapseCodeLabel="Show less" language="tsx" code={[{ fileName: `${feature.Slug}.json`, code: JSON.stringify(feature, null, 2), language: "json" }]} />
-                </Grid.Col>
+                <Grid.Col span={{ base: 12, md: 6 }}></Grid.Col>
             </Grid>
         </>
     );
