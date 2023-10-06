@@ -34,7 +34,7 @@ export default function RootLayout({ children }) {
                 <ColorSchemeScript />
             </head>
             <body>
-                <MantineProvider theme={theme} defaultColorScheme="auto">
+                <MantineProvider theme={theme} defaultColorScheme="light">
                     <DataProvider features={features} categories={categories}>
                         <AppLayout categories={categories}>{children}</AppLayout>
                     </DataProvider>

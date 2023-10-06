@@ -57,6 +57,7 @@ export const AppLayout = props => {
                             rightSection={count}
                             leftSection={icons[category]}
                             component={Link}
+                            variant="filled"
                             active={searchParams.get("category") === category}
                             href={{
                                 pathname: "/",
