@@ -26,6 +26,10 @@ export default function RootLayout({ children }) {
         fontFamilyMonospace: "Operator Mono",
         primaryColor: "dark",
         defaultRadius: 0,
+        breakpoints: {
+            sm: "700px",
+            md: "1150px",
+        },
     };
 
     return (
@@ -34,7 +38,7 @@ export default function RootLayout({ children }) {
                 <ColorSchemeScript />
             </head>
             <body>
-                <MantineProvider theme={theme} defaultColorScheme="light">
+                <MantineProvider theme={theme} defaultColorScheme="auto">
                     <DataProvider features={features} categories={categories}>
                         <AppLayout categories={categories}>{children}</AppLayout>
                     </DataProvider>

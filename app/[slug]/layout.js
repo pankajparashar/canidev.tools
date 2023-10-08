@@ -2,13 +2,18 @@
 
 import { useContext } from "react";
 import { DataContext } from "../../components/data-provider";
+import { useRouter, usePathname } from "next/navigation";
 
-import { SimpleGrid, Button, NavLink, Divider, Grid, Stack } from "@mantine/core";
-import { IconCheckbox, IconMinus, IconBrandSafari, IconBrandEdge, IconBrandChrome, IconBrandFirefox, IconBrandOpera } from "@tabler/icons-react";
+import { Paper, Badge, Alert, Divider, Group, Button, Tabs } from "@mantine/core";
+import { IconBrandGithub, IconMinus, IconBrandSafari, IconBrandEdge, IconBrandChrome, IconBrandFirefox, IconBrandOpera } from "@tabler/icons-react";
 
 import { IconBrandSpeedtest, IconCode, IconBoxMargin, IconAccessible, IconReportMedical, IconTerminal2, IconBrandNextjs, IconAffiliate, IconHexagons, IconCrosshair } from "@tabler/icons-react";
 
 export default function Layout({ children, params }) {
+    const router = useRouter();
+    const pathname = usePathname();
+    const browser = pathname.split("/")[2];
+
     const { features } = useContext(DataContext);
     const feature = features.find(f => f.Slug === params.slug);
     const icons = {
@@ -20,92 +25,41 @@ export default function Layout({ children, params }) {
         JavaScript: <IconBrandNextjs stroke={1.5} />,
         Network: <IconAffiliate stroke={1.5} />,
         Other: <IconHexagons stroke={1.5} />,
-        Sources: <IconCode stroke={1.5} />,
+        Sources: <IconCode stroke={2.5} />,
         Performance: <IconBrandSpeedtest stroke={1.5} />,
     };
 
     return (
-        <Stack>
-            <Grid justify="end" align="end">
-                <Grid.Col span={{ base: 12, md: 6 }}>
-                    <NavLink
-                        pb="sm"
-                        active
-                        variant="light"
-                        label={feature.Name}
-                        description={feature.Description}
-                        leftSection={icons[feature.Category]}
-                        styles={{
-                            label: { fontSize: "var(--mantine-font-size-md)", fontWeight: "bold" },
-                            description: { fontSize: "var(--mantine-font-size-md)", wordBreak: "break-all" },
-                        }}
-                        href={feature.Slug}
-                    />
-                    <Divider />
-                </Grid.Col>
-                <Grid.Col span={{ base: 12, md: 6 }}>
-                    <SimpleGrid cols={6} h="100%" spacing={0}>
-                        <div>
-                            <Button variant="transparent" fullWidth>
-                                <IconBrandChrome />
-                            </Button>
-                            <Divider />
-                            <Button variant="transparent" disabled={!feature.Chrome} fullWidth>
-                                {feature.Chrome ? <IconCheckbox stroke={1.5} /> : <IconMinus stroke={1.5} />}
-                            </Button>
-                        </div>
-                        <div>
-                            <Button variant="transparent" fullWidth>
-                                <IconBrandFirefox />
-                            </Button>
-                            <Divider />
-                            <Button variant="transparent" disabled={!feature.Firefox} fullWidth>
-                                {feature.Firefox ? <IconCheckbox stroke={1.5} /> : <IconMinus stroke={1.5} />}
-                            </Button>
-                        </div>
-                        <div>
-                            <Button variant="transparent" fullWidth>
-                                <IconBrandEdge />
-                            </Button>
-                            <Divider />
-                            <Button variant="transparent" disabled={!feature.Edge} fullWidth>
-                                {feature.Edge ? <IconCheckbox stroke={1.5} /> : <IconMinus stroke={1.5} />}
-                            </Button>
-                        </div>
-                        <div>
-                            <Button variant="transparent" fullWidth>
-                                <IconBrandSafari />
-                            </Button>
-                            <Divider />
-                            <Button variant="transparent" disabled={!feature.Safari} fullWidth>
-                                {feature.Safari ? <IconCheckbox stroke={1.5} /> : <IconMinus stroke={1.5} />}
-                            </Button>
-                        </div>
-                        <div>
-                            <Button variant="transparent" fullWidth>
-                                <IconBrandOpera />
-                            </Button>
-                            <Divider />
-                            <Button variant="transparent" disabled={!feature.Opera} fullWidth>
-                                {feature.Opera ? <IconCheckbox stroke={1.5} /> : <IconMinus stroke={1.5} />}
-                            </Button>
-                        </div>
-                        <div>
-                            <Button variant="transparent" fullWidth>
-                                <IconBrandPolypane />
-                            </Button>
-                            <Divider />
-                            <Button variant="transparent" disabled={!feature.Polypane} fullWidth>
-                                {feature.Polypane ? <IconCheckbox stroke={1.5} /> : <IconMinus stroke={1.5} />}
-                            </Button>
-                        </div>
-                    </SimpleGrid>
-                    <Divider />
-                </Grid.Col>
-            </Grid>
-
+        <Paper className="column" shadow="xs" w="100%" withBorder>
+            <Group justify="space-between" p="xs">
+                <Badge size="lg" variant="dot" radius="0">
+                    {feature.Category}
+                </Badge>
+                <Button size="xs" variant="light" leftSection={<IconBrandGithub size={20} stroke={1.5} />}>
+                    Edit
+                </Button>
+            </Group>
+            <Divider />
+            <Alert
+                title={feature.Name}
+                styles={{
+                    title: { fontSize: "var(--mantine-font-size-md)", marginBottom: 0 },
+                    message: { fontSize: "var(--mantine-font-size-md)", wordBreak: "break-word" },
+                }}>
+                {feature.Description}
+            </Alert>
+            <Tabs value={browser} onChange={value => router.push(`/${params.slug}/${value}`)}>
+                <Tabs.List grow justify="space-between">
+                    <Tabs.Tab value="chrome" leftSection={<IconBrandChrome stroke={1.5} />} disabled={!feature.Chrome}></Tabs.Tab>
+                    <Tabs.Tab value="firefox" leftSection={<IconBrandFirefox stroke={1.5} />} disabled={!feature.Firefox}></Tabs.Tab>
+                    <Tabs.Tab value="edge" leftSection={<IconBrandEdge stroke={1.5} />} disabled={!feature.Edge}></Tabs.Tab>
+                    <Tabs.Tab value="safari" leftSection={<IconBrandSafari stroke={1.5} />} disabled={!feature.Safari}></Tabs.Tab>
+                    <Tabs.Tab value="opera" leftSection={<IconBrandOpera stroke={1.5} />} disabled={!feature.Opera}></Tabs.Tab>
+                    <Tabs.Tab value="polypane" leftSection={<IconBrandPolypane stroke={1.5} />} disabled={!feature.Polypane}></Tabs.Tab>
+                </Tabs.List>
+            </Tabs>
             {children}
-        </Stack>
+        </Paper>
     );
 }
 

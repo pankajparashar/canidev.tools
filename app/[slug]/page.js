@@ -3,7 +3,7 @@
 import { useContext } from "react";
 import { DataContext } from "../../components/data-provider";
 
-import { SimpleGrid, Button, NavLink, Divider, Grid } from "@mantine/core";
+import { ScrollArea, Timeline, Text } from "@mantine/core";
 import { IconBrandSpeedtest, IconCode, IconBoxMargin, IconAccessible, IconReportMedical, IconTerminal2, IconBrandNextjs, IconAffiliate, IconHexagons, IconCrosshair } from "@tabler/icons-react";
 
 export default function Page({ params }) {
@@ -23,14 +23,7 @@ export default function Page({ params }) {
         Performance: <IconBrandSpeedtest stroke={1.5} />,
     };
 
-    return (
-        <>
-            <Grid>
-                <Grid.Col span={{ base: 12, md: 6 }}></Grid.Col>
-                <Grid.Col span={{ base: 12, md: 6 }}></Grid.Col>
-            </Grid>
-        </>
-    );
+    return <ScrollArea></ScrollArea>;
 }
 
 const IconBrandPolypane = () => (

@@ -2,118 +2,23 @@
 
 import { useContext } from "react";
 
-import { Divider, NavLink, SimpleGrid, Button, Box, TextInput } from "@mantine/core";
+import { Paper, NavLink, SimpleGrid, Button, Box, TextInput } from "@mantine/core";
 import { IconCheckbox, IconChevronRight, IconMinus, IconBrandChrome, IconBrandFirefox, IconBrandEdge, IconBrandSafari, IconBrandOpera } from "@tabler/icons-react";
 
 import Link from "next/link";
-import { useSearchParams } from "next/navigation";
+import { useSearchParams, usePathname } from "next/navigation";
 
 import { DataContext } from "../components/data-provider";
 
-export default function Page() {
+export default function Page({ children }) {
     const { features } = useContext(DataContext);
     const searchParams = useSearchParams();
+    const pathname = usePathname();
 
     return (
-        <>
-            <SimpleGrid cols={{ base: 1, md: 2 }} verticalSpacing={0}>
-                <TextInput variant="filled" />
-                <div>
-                    <SimpleGrid cols={6} spacing={0} verticalSpacing={0} h="100%">
-                        <Box h="100%">
-                            <Button variant="transparent" fullWidth>
-                                <IconBrandChrome />
-                            </Button>
-                            <Divider />
-                        </Box>
-                        <div>
-                            <Button variant="transparent" fullWidth>
-                                <IconBrandFirefox />
-                            </Button>
-                            <Divider />
-                        </div>
-                        <div>
-                            <Button variant="transparent" fullWidth>
-                                <IconBrandEdge />
-                            </Button>
-                            <Divider />
-                        </div>
-                        <div>
-                            <Button variant="transparent" fullWidth>
-                                <IconBrandSafari />
-                            </Button>
-                            <Divider />
-                        </div>
-                        <div>
-                            <Button variant="transparent" fullWidth>
-                                <IconBrandOpera />
-                            </Button>
-                            <Divider />
-                        </div>
-                        <div>
-                            <Button variant="transparent" fullWidth>
-                                <IconBrandPolypane />
-                            </Button>
-                            <Divider />
-                        </div>
-                    </SimpleGrid>
-                </div>
-            </SimpleGrid>
-            {features
-                .filter(f => searchParams.get("category") === null || f.Category === searchParams.get("category"))
-                .map(feature => (
-                    <SimpleGrid cols={{ base: 1, md: 2 }} key={feature.Slug} verticalSpacing={0}>
-                        <div>
-                            <NavLink
-                                pl="0"
-                                label={feature.Name}
-                                styles={{
-                                    label: { fontSize: "var(--mantine-font-size-md)" },
-                                }}
-                                component={Link}
-                                href={feature.Slug}
-                                rightSection={<IconChevronRight stroke={1} />}
-                            />
-                            <Divider variant="dashed" />
-                        </div>
-                        <div>
-                            <SimpleGrid cols={6} h="100%" spacing={0} verticalSpacing={0}>
-                                <div>
-                                    <Button variant="transparent" fullWidth>
-                                        {feature.Chrome ? <IconCheckbox stroke={1.5} /> : <IconMinus stroke={1.5} />}
-                                    </Button>
-                                </div>
-                                <div>
-                                    <Button variant="transparent" fullWidth>
-                                        {feature.Firefox ? <IconCheckbox stroke={1.5} /> : <IconMinus stroke={1.5} />}
-                                    </Button>
-                                </div>
-                                <div>
-                                    <Button variant="transparent" fullWidth>
-                                        {feature.Edge ? <IconCheckbox stroke={1.5} /> : <IconMinus stroke={1.5} />}
-                                    </Button>
-                                </div>
-                                <div>
-                                    <Button variant="transparent" fullWidth>
-                                        {feature.Safari ? <IconCheckbox stroke={1.5} /> : <IconMinus stroke={1.5} />}
-                                    </Button>
-                                </div>
-                                <div>
-                                    <Button variant="transparent" fullWidth>
-                                        {feature.Opera ? <IconCheckbox stroke={1.5} /> : <IconMinus stroke={1.5} />}
-                                    </Button>
-                                </div>
-                                <div>
-                                    <Button variant="transparent" fullWidth>
-                                        {feature.Polypane ? <IconCheckbox stroke={1.5} /> : <IconMinus stroke={1.5} />}
-                                    </Button>
-                                </div>
-                            </SimpleGrid>
-                            <Divider />
-                        </div>
-                    </SimpleGrid>
-                ))}
-        </>
+        <Paper className="column" shadow="xs" withBorder visibleFrom="md">
+            1
+        </Paper>
     );
 }
 
