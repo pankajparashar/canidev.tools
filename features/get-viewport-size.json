@@ -10,8 +10,7 @@
     "Notes": [
       "1. Open DevTools panel docked to the page. Resize the Devtools panel to view the current viewport size in top-right."
     ],
-    "References": [
-      "1. 'See the viewport size', [Devtools Tips](https://devtoolstips.org/tips/en/see-viewport-size/)"
+    "References": "\"See the viewport size\", [Devtools Tips](https://devtoolstips.org/tips/en/see-viewport-size/)"
     ]
   },
 
@@ -21,35 +20,27 @@
       "2. Under Available Toolbox Buttons, select the Toggle rulers for the page setting. The Toggle rulers for the page icon appears in the DevTools toolbar.",
       "3. Click the ruler icon to display rulers in the webpage. In addition to the top and left rulers which now are visible in the webpage, the viewport size is displayed in an overlay, in the top-right corner of the webpage."
     ],
-    "References": [
-      "1. 'See the viewport size', [Devtools Tips](https://devtoolstips.org/tips/en/see-viewport-size/)"
-    ]
+    "References": "\"See the viewport size\", [Devtools Tips](https://devtoolstips.org/tips/en/see-viewport-size/)"
   },
 
   "Edge": {
     "Notes": [
       "1. Open DevTools panel docked to the page. Resize the Devtools panel to view the current viewport size in top-right."
     ],
-    "References": [
-      "1. 'See the viewport size', [Devtools Tips](https://devtoolstips.org/tips/en/see-viewport-size/)"
-    ]
+    "References": "\"See the viewport size\", [Devtools Tips](https://devtoolstips.org/tips/en/see-viewport-size/)"
   },
 
   "Safari": {
     "Notes": [
       "1. In Web Inspector, click the Show Rulers button to enable the ruler and viewport size on the page."
     ],
-    "References": [
-      "1. 'See the viewport size', [Devtools Tips](https://devtoolstips.org/tips/en/see-viewport-size/)"
-    ]
+    "References": "\"See the viewport size\", [Devtools Tips](https://devtoolstips.org/tips/en/see-viewport-size/)"
   },
 
   "Opera": {
     "Notes": [
       "1. Open DevTools panel docked to the page. Resize the Devtools panel to view the current viewport size in top-right."
     ],
-    "References": [
-      "1. 'See the viewport size', [Devtools Tips](https://devtoolstips.org/tips/en/see-viewport-size/)"
-    ]
+    "References": "\"See the viewport size\", [Devtools Tips](https://devtoolstips.org/tips/en/see-viewport-size/)"
   }
 }
