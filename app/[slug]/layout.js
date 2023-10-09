@@ -30,7 +30,7 @@ export default function Layout({ children, params }) {
     };
 
     return (
-        <Paper className="column" shadow="xs" w="100%" withBorder>
+        <Paper className="column" w="100%" withBorder>
             <Group justify="space-between" p="xs">
                 <Badge size="lg" variant="dot" radius="0">
                     {feature.Category}

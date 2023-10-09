@@ -3,7 +3,8 @@ import { useContext } from "react";
 import { marked } from "marked";
 
 import { DataContext } from "../../../components/data-provider";
-import { ScrollArea, Accordion, Box, Text } from "@mantine/core";
+import { ScrollArea, Accordion, Box, Text, Divider } from "@mantine/core";
+import { IconWorld, IconNotes } from "@tabler/icons-react";
 
 export default function Page({ params }) {
     const { features } = useContext(DataContext);
@@ -19,28 +20,25 @@ export default function Page({ params }) {
                     content: { padding: 0 },
                 }}>
                 <Accordion.Item value="video">
-                    <Accordion.Control>
-                        <Text weight="700">Video</Text>
+                    <Accordion.Control icon={<IconWorld stroke={1} />}>
+                        <Text fw={700}>{browser}</Text>
                     </Accordion.Control>
                     <Accordion.Panel p="0">
                         <video controls autoPlay loop muted playsInline preload="metadata" src={feature[browser]?.MP4 + "#t=0.1"} />
                     </Accordion.Panel>
                 </Accordion.Item>
                 <Accordion.Item value="notes">
-                    <Accordion.Control>Notes</Accordion.Control>
+                    <Accordion.Control icon={<IconNotes stroke={1} />}>
+                        <Text fw={700}>Notes</Text>
+                    </Accordion.Control>
                     <Accordion.Panel>
                         <Box
-                            pl="xs"
-                            pb="xs"
-                            pr="xs"
                             dangerouslySetInnerHTML={{
                                 __html: feature[browser].Notes ? marked.parse(Array.isArray(feature[browser].Notes) ? feature[browser].Notes.join("\n") : feature[browser].Notes) : "",
                             }}
                         />
+                        <Divider label="References" labelPosition="left" variant="dashed" pl="sm" />
                         <Box
-                            pl="xs"
-                            pb="xs"
-                            pr="xs"
                             dangerouslySetInnerHTML={{
                                 __html: feature[browser].References ? marked.parse(Array.isArray(feature[browser].References) ? feature[browser].References.join("\n") : feature[browser].References) : "",
                             }}

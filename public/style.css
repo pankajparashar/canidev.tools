@@ -4,15 +4,14 @@
 
 @media (min-width: 1150px) {
     .grid {
-        grid-template-columns: 1fr 1fr;
-        gap: 1em;
+        grid-template-columns: 500px 1fr;
     }
 }
 
 .column {
     position: sticky;
     top: 4em;
-    height: calc(100dvh - 5em);
+    height: calc(100dvh - 3em);
     overflow: auto;
 }
 
