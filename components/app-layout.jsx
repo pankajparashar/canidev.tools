@@ -32,7 +32,7 @@ export const AppLayout = props => {
     };
 
     return (
-        <AppShell header={{ height: 50 }} navbar={{ width: 300, breakpoint: "sm", collapsed: { mobile: !opened } }} padding="0">
+        <AppShell header={{ height: 50 }} navbar={{ width: 350, breakpoint: "sm", collapsed: { mobile: !opened } }} padding="0">
             <AppShell.Header>
                 <Group h="100%" px="md" justify="space-between" hiddenFrom="sm">
                     <Group gap={"xs"}>{/* <img src="/logo.png" width="48px" className="logo" /> */}</Group>
