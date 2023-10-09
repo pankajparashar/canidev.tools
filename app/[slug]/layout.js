@@ -48,7 +48,7 @@ export default function Layout({ children, params }) {
                 }}>
                 {feature.Description}
             </Alert>
-            <Tabs value={browser} onChange={value => router.push(`/${params.slug}/${value}`)}>
+            <Tabs value={browser} onChange={value => router.push(`/${params.slug}/${value}`)} variant="pills">
                 <Tabs.List grow justify="space-between">
                     <Tabs.Tab value="chrome" leftSection={<IconBrandChrome stroke={1.5} />} disabled={!feature.Chrome}></Tabs.Tab>
                     <Tabs.Tab value="firefox" leftSection={<IconBrandFirefox stroke={1.5} />} disabled={!feature.Firefox}></Tabs.Tab>
@@ -58,6 +58,7 @@ export default function Layout({ children, params }) {
                     <Tabs.Tab value="polypane" leftSection={<IconBrandPolypane stroke={1.5} />} disabled={!feature.Polypane}></Tabs.Tab>
                 </Tabs.List>
             </Tabs>
+            <Divider />
             {children}
         </Paper>
     );
