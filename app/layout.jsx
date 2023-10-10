@@ -1,5 +1,6 @@
 import * as fs from "fs";
 import path from "path";
+import { Analytics } from "@vercel/analytics/react";
 
 import "@mantine/core/styles.css";
 import { MantineProvider, ColorSchemeScript } from "@mantine/core";
@@ -48,6 +49,7 @@ export default function RootLayout({ children }) {
                         <AppLayout categories={categories}>{children}</AppLayout>
                     </DataProvider>
                 </MantineProvider>
+                <Analytics />
             </body>
         </html>
     );
