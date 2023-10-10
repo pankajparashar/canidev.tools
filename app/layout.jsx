@@ -1,11 +1,10 @@
-import * as fs from "fs";
-import path from "path";
 import { Analytics } from "@vercel/analytics/react";
 
 import "@mantine/core/styles.css";
 import { MantineProvider, ColorSchemeScript } from "@mantine/core";
 
 import "../public/style.css";
+import { getData } from "../lib/data";
 
 import { AppLayout } from "../components/app-layout";
 import { DataProvider } from "../components/data-provider";
@@ -16,19 +15,7 @@ export const metadata = {
 };
 
 export default function RootLayout({ children }) {
-    const categories = {};
-    const features = [];
-    const dir = path.resolve("features");
-
-    fs.readdirSync(dir).forEach(name => {
-        const filename = path.join("features", name);
-        const file = fs.readFileSync(filename);
-        const feature = JSON.parse(file);
-        features.push(feature);
-
-        const category = feature.Category;
-        categories[category] = category in categories ? categories[category] + 1 : 1;
-    });
+    const { categories, features } = getData();
     const theme = {
         fontFamily: "Operator Mono",
         fontFamilyMonospace: "Operator Mono",
