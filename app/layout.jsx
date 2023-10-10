@@ -18,8 +18,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
     const categories = {};
     const features = [];
+
     fs.readdirSync(`features`).forEach(name => {
-        const filename = path.join("features", name);
+        const filename = path.join(process.cwd(), "features", name);
         const file = fs.readFileSync(filename);
         const feature = JSON.parse(file);
         features.push(feature);

@@ -5,7 +5,7 @@ import { useSearchParams, usePathname } from "next/navigation";
 import Link from "next/link";
 
 import { useDisclosure, useMediaQuery } from "@mantine/hooks";
-import { Text, Box, Tabs, Anchor, TextInput, Accordion, ActionIcon, AppShell, Burger, Group, ScrollArea, NavLink, Divider, useMantineColorScheme } from "@mantine/core";
+import { Box, Tabs, Anchor, TextInput, Accordion, ActionIcon, AppShell, Burger, Group, ScrollArea, NavLink, Divider, useMantineColorScheme } from "@mantine/core";
 
 import { IconBrightness, IconListDetails, IconBrandSpeedtest, IconCode, IconBoxMargin, IconAccessible, IconReportMedical, IconTerminal2, IconBrandNextjs, IconAffiliate, IconHexagons, IconCrosshair, IconChevronRight } from "@tabler/icons-react";
 import { DataContext } from "./data-provider";
