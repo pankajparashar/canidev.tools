@@ -3,34 +3,19 @@
 import { useContext } from "react";
 import { DataContext } from "../../components/data-provider";
 import { IconBrandPolypane } from "../../components/tabler-icons";
-import { useRouter, usePathname, useSearchParams } from "next/navigation";
+import { useRouter, usePathname } from "next/navigation";
 
 import { Paper, Badge, Alert, Divider, Group, Button, Tabs, Text } from "@mantine/core";
-import { IconBrandGithub, IconMinus, IconBrandSafari, IconBrandEdge, IconBrandChrome, IconBrandFirefox, IconBrandOpera } from "@tabler/icons-react";
-
-import { IconBrandSpeedtest, IconCode, IconBoxMargin, IconAccessible, IconReportMedical, IconTerminal2, IconBrandNextjs, IconAffiliate, IconHexagons, IconCrosshair } from "@tabler/icons-react";
+import { IconBrandGithub, IconBrandSafari, IconBrandEdge, IconBrandChrome, IconBrandFirefox, IconBrandOpera } from "@tabler/icons-react";
 
 export default function Layout({ children, params }) {
     const router = useRouter();
     const pathname = usePathname();
-    const searchParams = useSearchParams();
 
     const browser = pathname.split("/")[2];
 
     const { features } = useContext(DataContext);
     const feature = features.find(f => f.Slug === params.slug);
-    const icons = {
-        CSS: <IconBoxMargin stroke={1.5} />,
-        Accessibility: <IconAccessible stroke={1.5} />,
-        Audit: <IconReportMedical stroke={1.5} />,
-        Console: <IconTerminal2 stroke={1.5} />,
-        Elements: <IconCrosshair stroke={1.5} />,
-        JavaScript: <IconBrandNextjs stroke={1.5} />,
-        Network: <IconAffiliate stroke={1.5} />,
-        Other: <IconHexagons stroke={1.5} />,
-        Sources: <IconCode stroke={2.5} />,
-        Performance: <IconBrandSpeedtest stroke={1.5} />,
-    };
 
     return (
         <Paper className="column" w="100%" withBorder style={{ borderTop: 0, borderBottom: 0 }}>

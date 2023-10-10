@@ -9,6 +9,11 @@ import "../public/style.css";
 import { AppLayout } from "../components/app-layout";
 import { DataProvider } from "../components/data-provider";
 
+export const metadata = {
+    title: "Can I DevTools?",
+    description: "It is like @CanIUse, but for the browser devtools, created by Pankaj Parashar and curated by community.",
+};
+
 export default function RootLayout({ children }) {
     const categories = {};
     const features = [];

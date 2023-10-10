@@ -12,7 +12,7 @@ export default function Page({ params }) {
     const browser = params.browser.charAt(0).toUpperCase() + params.browser.slice(1);
 
     return (
-        <ScrollArea mah={"100%"}>
+        <ScrollArea.Autosize mah={"100%"} type="never">
             <Accordion
                 defaultValue="video"
                 styles={{
@@ -46,6 +46,6 @@ export default function Page({ params }) {
                     </Accordion.Panel>
                 </Accordion.Item>
             </Accordion>
-        </ScrollArea>
+        </ScrollArea.Autosize>
     );
 }
