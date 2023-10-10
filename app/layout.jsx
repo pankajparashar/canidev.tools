@@ -20,6 +20,9 @@ export default function RootLayout({ children }) {
     const features = [];
 
     console.log("###", process.cwd(), __dirname);
+    fs.readdirSync(process.cwd()).forEach(file => {
+        console.log(file);
+    });
 
     fs.readdirSync(path.resolve(process.cwd(), "features")).forEach(name => {
         const filename = path.join(process.cwd(), "features", name);
