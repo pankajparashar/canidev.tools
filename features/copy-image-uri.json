@@ -3,15 +3,27 @@
   "Slug": "copy-image-uri",
   "Description": "Can I copy an image as a data URI?",
   "Category": "Network",
-  "LastModifiedTime": "2023-01-06T21:39:32.000Z",
+  
   "Authors": "@pankajparashar",
+  
   "Chrome": {
-    "Notes": "1. In the **Network** panel, click the image request to open a side panel containing the request details. \n2. Open the **Preview** tab to preview the image and right click on the image > Copy image as data URI\n"
+    "Notes": [
+      "1. In the **Network** panel, click the image request to open a side panel containing the request details. \n2. Open the **Preview** tab to preview the image and right click on the image > Copy image as data URI\n"
+    ],
+    "References": "\"Convert images to data-urls\", [Devtools Tips](https://devtoolstips.org/tips/en/convert-image-to-data-url/)"
   },
+  
   "Edge": {
-    "Notes": "1. In the **Network** panel, click the image request to open a side panel containing the request details. \n2. Open the **Preview** tab to preview the image and right click on the image > Copy image as data URI\n"
+    "Notes": [
+      "1. In the **Network** panel, click the image request to open a side panel containing the request details. \n2. Open the **Preview** tab to preview the image and right click on the image > Copy image as data URI\n"
+    ],
+    "References": "\"Convert images to data-urls\", [Devtools Tips](https://devtoolstips.org/tips/en/convert-image-to-data-url/)"
   },
+  
   "Opera": {
-    "Notes": "1. In the **Network** panel, click the image request to open a side panel containing the request details. \n2. Open the **Preview** tab to preview the image and right click on the image > Copy image as data URI\n"
+    "Notes": [
+      "1. In the **Network** panel, click the image request to open a side panel containing the request details. \n2. Open the **Preview** tab to preview the image and right click on the image > Copy image as data URI\n"
+    ],
+    "References": "\"Convert images to data-urls\", [Devtools Tips](https://devtoolstips.org/tips/en/convert-image-to-data-url/)"
   }
 }

@@ -1,0 +1,14 @@
+{
+  "Name": "Find offset parent",
+  "Slug": "find-offset-parent",
+  "Description": "Can I find the offset parent of an element?",
+  "Category": "CSS",
+
+  "Authors": ["@kilian"],
+
+  "Polypane": {
+    "Notes": [
+      "1. Inspect the element in the **Elements** panel. Open the **Debug** tab, scroll down to the **Context** section to find the offset parent of the element."
+    ]
+  }
+}
