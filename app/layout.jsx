@@ -19,7 +19,9 @@ export default function RootLayout({ children }) {
     const categories = {};
     const features = [];
 
-    fs.readdirSync(`features`).forEach(name => {
+    console.log("###", process.cwd(), __dirname);
+
+    fs.readdirSync(path.resolve(process.cwd(), "features")).forEach(name => {
         const filename = path.join(process.cwd(), "features", name);
         const file = fs.readFileSync(filename);
         const feature = JSON.parse(file);
