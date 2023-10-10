@@ -1,13 +1,13 @@
 "use client";
 
-import { useRef, useEffect, useContext, Children } from "react";
+import { useRef, useEffect, useContext } from "react";
 import { useSearchParams, usePathname } from "next/navigation";
 import Link from "next/link";
 
 import { useDisclosure, useMediaQuery } from "@mantine/hooks";
-import { em, px, Box, Grid, SimpleGrid, TextInput, Accordion, ActionIcon, AppShell, Burger, Group, ScrollArea, NavLink, Divider, useMantineColorScheme } from "@mantine/core";
+import { Text, Box, Tabs, Anchor, TextInput, Accordion, ActionIcon, AppShell, Burger, Group, ScrollArea, NavLink, Divider, useMantineColorScheme } from "@mantine/core";
 
-import { IconTags, IconBrightness, IconListDetails, IconBrandSpeedtest, IconCode, IconBoxMargin, IconAccessible, IconReportMedical, IconTerminal2, IconBrandNextjs, IconAffiliate, IconHexagons, IconCrosshair, IconChevronRight } from "@tabler/icons-react";
+import { IconBrightness, IconListDetails, IconBrandSpeedtest, IconCode, IconBoxMargin, IconAccessible, IconReportMedical, IconTerminal2, IconBrandNextjs, IconAffiliate, IconHexagons, IconCrosshair, IconChevronRight } from "@tabler/icons-react";
 import { DataContext } from "./data-provider";
 
 export const AppLayout = props => {
@@ -34,8 +34,12 @@ export const AppLayout = props => {
     return (
         <AppShell header={{ height: 50 }} navbar={{ width: 350, breakpoint: "sm", collapsed: { mobile: !opened } }} padding="0">
             <AppShell.Header>
-                <Group h="100%" px="md" justify="space-between" hiddenFrom="sm">
-                    <Group gap={"xs"}>{/* <img src="/logo.png" width="48px" className="logo" /> */}</Group>
+                <Group px="md" justify="space-between" h="100%">
+                    <Group gap={"xs"}>
+                        <Anchor href="/">
+                            <img src="/logo.png" height="49px" className="logo" />
+                        </Anchor>
+                    </Group>
                     <Group gap="xs" align="center">
                         <ActionIcon variant="subtle" onClick={toggleColorScheme}>
                             <IconBrightness />
@@ -73,8 +77,9 @@ export const AppLayout = props => {
                         </Accordion.Item>
                     </Accordion>
                 </AppShell.Section>
-                <Divider />
-                <AppShell.Section></AppShell.Section>
+                <AppShell.Section>
+                    <CarbonAd />
+                </AppShell.Section>
             </AppShell.Navbar>
             <AppShell.Main>
                 {isMobile && pathname !== "/" ? (
@@ -97,7 +102,10 @@ export const AppLayout = props => {
                                             active={pathname.includes(feature.Slug)}
                                             variant={pathname.includes(feature.Slug) ? "filled" : "default"}
                                             component={Link}
-                                            href={`/${feature.Slug}`}
+                                            href={{
+                                                pathname: `/${feature.Slug}`,
+                                                query: Object.fromEntries(searchParams),
+                                            }}
                                             rightSection={<IconChevronRight stroke={1} />}
                                         />
                                         <Divider variant="dashed" />
@@ -123,5 +131,21 @@ const CarbonAd = () => {
         reference.current.appendChild(s);
     }, []);
 
-    return <div ref={reference} />;
+    return (
+        <Tabs defaultValue="ads" placement="right" inverted={true}>
+            <Tabs.List p={0} size="xs" justify="space-between">
+                <Tabs.Tab value="ads" size={"xs"}>
+                    Carbon Ads
+                </Tabs.Tab>
+                <Tabs.Tab value="about" size={"xs"}>
+                    About
+                </Tabs.Tab>
+            </Tabs.List>
+
+            <Tabs.Panel value="ads">
+                <div ref={reference} />
+            </Tabs.Panel>
+            <Tabs.Panel value="about" p="xs"></Tabs.Panel>
+        </Tabs>
+    );
 };

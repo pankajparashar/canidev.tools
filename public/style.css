@@ -11,12 +11,43 @@
 .column {
     position: sticky;
     top: 4em;
-    height: calc(100dvh - 3em);
+    height: calc(100dvh - 3.2em);
     overflow: auto;
+}
+
+.logo {
+    border-bottom: 2px solid;
+    filter: invert(0);
+}
+
+@media (prefers-color-scheme: dark) {
+    .logo {
+        filter: invert(0);
+    }
 }
 
 video {
     width: 100%;
+}
+
+ol {
+    list-style-type: square;
+    margin-left: 0;
+}
+
+#carbonads {
+    font-size: 13px;
+    display: block;
+}
+#carbonads a {
+    text-decoration: none;
+}
+.carbon-poweredby {
+    visibility: hidden;
+}
+.carbon-img {
+    float: left;
+    padding-right: 10px;
 }
 
 @font-face {

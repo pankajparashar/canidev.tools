@@ -2,9 +2,10 @@
 
 import { useContext } from "react";
 import { DataContext } from "../../components/data-provider";
-import { useRouter, usePathname } from "next/navigation";
+import { IconBrandPolypane } from "../../components/tabler-icons";
+import { useRouter, usePathname, useSearchParams } from "next/navigation";
 
-import { Paper, Badge, Alert, Divider, Group, Button, Tabs } from "@mantine/core";
+import { Paper, Badge, Alert, Divider, Group, Button, Tabs, Text } from "@mantine/core";
 import { IconBrandGithub, IconMinus, IconBrandSafari, IconBrandEdge, IconBrandChrome, IconBrandFirefox, IconBrandOpera } from "@tabler/icons-react";
 
 import { IconBrandSpeedtest, IconCode, IconBoxMargin, IconAccessible, IconReportMedical, IconTerminal2, IconBrandNextjs, IconAffiliate, IconHexagons, IconCrosshair } from "@tabler/icons-react";
@@ -12,6 +13,8 @@ import { IconBrandSpeedtest, IconCode, IconBoxMargin, IconAccessible, IconReport
 export default function Layout({ children, params }) {
     const router = useRouter();
     const pathname = usePathname();
+    const searchParams = useSearchParams();
+
     const browser = pathname.split("/")[2];
 
     const { features } = useContext(DataContext);
@@ -30,13 +33,15 @@ export default function Layout({ children, params }) {
     };
 
     return (
-        <Paper className="column" w="100%" withBorder>
-            <Group justify="space-between" p="xs">
-                <Badge size="lg" variant="dot" radius="0">
+        <Paper className="column" w="100%" withBorder style={{ borderTop: 0, borderBottom: 0 }}>
+            <Group justify="space-between">
+                <Badge size="lg" variant="dot" radius="0" p="md" style={{ borderTop: 0, borderBottom: 0, borderLeft: 0 }}>
                     {feature.Category}
                 </Badge>
-                <Button size="xs" variant="light" leftSection={<IconBrandGithub size={20} stroke={1.5} />}>
-                    Edit
+                <Button variant="default" size="sm" leftSection={<IconBrandGithub size={20} stroke={1.5} />} style={{ borderBottom: 0, borderTop: 0 }}>
+                    <Text fw="700" size="sm">
+                        Edit
+                    </Text>
                 </Button>
             </Group>
             <Divider />
@@ -63,11 +68,3 @@ export default function Layout({ children, params }) {
         </Paper>
     );
 }
-
-const IconBrandPolypane = () => (
-    <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-brand-polypane" width="25" height="25" viewBox="0 0 24 24" strokeWidth="2" stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round">
-        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-        <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
-        <path d="M 21,12 H 15 M 15,4 V 14 H 9 M 9,4 V 16 H 4" />
-    </svg>
-);

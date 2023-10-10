@@ -33,16 +33,14 @@ export default function Page({ params }) {
                     </Accordion.Control>
                     <Accordion.Panel>
                         <Box
-                            p="xs"
                             dangerouslySetInnerHTML={{
-                                __html: feature[browser].Notes ? marked.parse(Array.isArray(feature[browser].Notes) ? feature[browser].Notes.join("\n") : feature[browser].Notes) : "",
+                                __html: feature[browser]?.Notes ? marked.parse(Array.isArray(feature[browser].Notes) ? feature[browser].Notes.join("\n") : feature[browser].Notes) : "",
                             }}
                         />
-                        <Divider label="References" labelPosition="left" variant="dashed" p="sm" />
+                        <Divider label="References" labelPosition="left" variant="dashed" pl="md" pr="md" />
                         <Box
-                            p="xs"
                             dangerouslySetInnerHTML={{
-                                __html: feature[browser].References ? marked.parse(Array.isArray(feature[browser].References) ? feature[browser].References.join("\n") : feature[browser].References) : "",
+                                __html: feature[browser]?.References ? marked.parse(Array.isArray(feature[browser].References) ? feature[browser].References.join("\n") : feature[browser].References) : "",
                             }}
                         />
                     </Accordion.Panel>
