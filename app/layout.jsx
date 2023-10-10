@@ -5,7 +5,7 @@ import { Analytics } from "@vercel/analytics/react";
 import "@mantine/core/styles.css";
 import { MantineProvider, ColorSchemeScript } from "@mantine/core";
 
-import "../../public/style.css";
+import "../public/style.css";
 
 import { AppLayout } from "../components/app-layout";
 import { DataProvider } from "../components/data-provider";
