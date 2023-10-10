@@ -5,7 +5,7 @@ import { Analytics } from "@vercel/analytics/react";
 import "@mantine/core/styles.css";
 import { MantineProvider, ColorSchemeScript } from "@mantine/core";
 
-import "../public/style.css";
+import "../../public/style.css";
 
 import { AppLayout } from "../components/app-layout";
 import { DataProvider } from "../components/data-provider";
@@ -19,12 +19,7 @@ export default function RootLayout({ children }) {
     const categories = {};
     const features = [];
 
-    console.log("###", process.cwd(), __dirname);
-    fs.readdirSync(process.cwd()).forEach(file => {
-        console.log(file);
-    });
-
-    fs.readdirSync(path.resolve(process.cwd(), "features")).forEach(name => {
+    fs.readdirSync(path.join(process.cwd(), "features")).forEach(name => {
         const filename = path.join(process.cwd(), "features", name);
         const file = fs.readFileSync(filename);
         const feature = JSON.parse(file);
