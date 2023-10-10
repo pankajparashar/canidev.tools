@@ -3,7 +3,7 @@ import { ScrollArea } from "@mantine/core";
 import * as fs from "fs";
 import path from "path";
 
-export function generateMetadata({ params }) {
+export function generateMetadata1({ params }) {
     const filename = path.join("features", params.slug + ".json");
     const file = fs.readFileSync(filename);
     const feature = JSON.parse(file);
