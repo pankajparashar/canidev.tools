@@ -77,7 +77,7 @@ Can I add a custom device for a responsive design mode?
 [Polypane](https://canidev.tools/add-custom-device/polypane): 
 1. Click the "+" button in the workspace, double-click anywhere in the free space, or press `Ctrl/Cmd+N`  
 2. Once the new device is added you can resize it manually and set the device and emulation options with the Emulation settings. 
-## Add columns to Network table
+## Add custom headers to Network table
 Can I add custom header columns to the Network requests table?
 
 [Chrome](https://canidev.tools/add-custom-headers-network/chrome): 
@@ -148,6 +148,25 @@ Can I autocomplete style declaration just using values?
 1. Inspect an element > Navigate to the styles tab 
 2. Click the "propety" field under the style you want to edit, and the devtools will automatically suggest appropriate style properties and values for the current element. 
  
+## Block request URL
+Can I block a network request?
+
+[Chrome](https://canidev.tools/block-request-by-url/chrome): 
+1. In the **Network** tab, right click on the request and select "Block request URL". This will open the "Network request blocking" drawer that will let you manage all your blocked requests.
+ 
+[Firefox](https://canidev.tools/block-request-by-url/firefox): 
+1. In the **Network** tab, right click on the request and select "Block URL". This will open the "Blocking" pane in the left sidebar to manage all the blocking requests.
+ 
+[Edge](https://canidev.tools/block-request-by-url/edge): 
+1. In the **Network** tab, right click on the request and select "Block request URL". This will open the "Network request blocking" drawer that will let you manage all your blocked requests.
+ 
+[Safari](https://canidev.tools/block-request-by-url/safari): 
+1. In the **Network** tab, right click on the request **Name**, and select "Block Request URL".
+2. In the **Sources** tab, under the **Local Overrides** section in the left sidebar, you can manage the blocked request.
+ 
+[Opera](https://canidev.tools/block-request-by-url/opera): 
+1. In the **Network** tab, right click on the request and select "Block request URL". This will open the "Network request blocking" drawer that will let you manage all your blocked requests.
+ 
 ## Block request domain
 Can I block all network requests of a domain?
 
@@ -190,25 +209,6 @@ Can I block all network request matching a URL pattern?
 [Opera](https://canidev.tools/block-request-url-pattern/opera): 
 1. Open **Command** **Menu** (`Cmd+Shift+P` or `Ctrl+Shift+P`) > Run "Show Network request blocking". This will open the **Network** **request** **blocking** drawer.
 2. Click the "+" button and add the URL pattern > Add. Reload the page for the changes to take effect. Filter on **Blocked** **Requests** by enabling the checkbox in the toolbar.
- 
-## Block request URL
-Can I block a network request?
-
-[Chrome](https://canidev.tools/block-request-by-url/chrome): 
-1. In the **Network** tab, right click on the request and select "Block request URL". This will open the "Network request blocking" drawer that will let you manage all your blocked requests.
- 
-[Firefox](https://canidev.tools/block-request-by-url/firefox): 
-1. In the **Network** tab, right click on the request and select "Block URL". This will open the "Blocking" pane in the left sidebar to manage all the blocking requests.
- 
-[Edge](https://canidev.tools/block-request-by-url/edge): 
-1. In the **Network** tab, right click on the request and select "Block request URL". This will open the "Network request blocking" drawer that will let you manage all your blocked requests.
- 
-[Safari](https://canidev.tools/block-request-by-url/safari): 
-1. In the **Network** tab, right click on the request **Name**, and select "Block Request URL".
-2. In the **Sources** tab, under the **Local Overrides** section in the left sidebar, you can manage the blocked request.
- 
-[Opera](https://canidev.tools/block-request-by-url/opera): 
-1. In the **Network** tab, right click on the request and select "Block request URL". This will open the "Network request blocking" drawer that will let you manage all your blocked requests.
  
 ## Capture full page screenshot
 Can I take full page screenshot of a website?
@@ -1188,6 +1188,11 @@ Can I find inactive styles applied to an element?
 1. Enable authoring hints, by opening **Settings** (`F1`) > **Experiments** > Filter on "authoring hints" > Check "Enable CSS Authoring hints..."
 2. In **Elements** > Locate the authored styles in the **Styles** pane > Inactive declarations have an "i" icon, which on hover reveals a tooltip displaying more information.
  
+## Find offset parent
+Can I find the offset parent of an element?
+
+[Polypane](https://canidev.tools/find-offset-parent/polypane): 
+1. Inspect the element in the **Elements** panel. Open the **Debug** tab, scroll down to the **Context** section to find the offset parent of the element. 
 ## Find unused CSS
 Can I find unused styles on a web page?
 
@@ -1307,6 +1312,21 @@ Can I refer the currently selected node in the DOM tree from the console?
 [Polypane](https://canidev.tools/get-selected-node/polypane): 
 1. Use `$0` to access the currently selected node. Additionally, `$1`, `$2`, `$3` and `$4` will give you the last selected nodes in the reverse chronological order.
  
+## Get viewport size
+Can I get the viewport size?
+
+[Chrome](https://canidev.tools/get-viewport-size/chrome): 
+1. Open DevTools panel docked to the page. Resize the Devtools panel to view the current viewport size in top-right. 
+[Firefox](https://canidev.tools/get-viewport-size/firefox): 
+1. Open DevTools and go to the Settings panel (F1).
+2. Under Available Toolbox Buttons, select the Toggle rulers for the page setting. The Toggle rulers for the page icon appears in the DevTools toolbar.
+3. Click the ruler icon to display rulers in the webpage. In addition to the top and left rulers which now are visible in the webpage, the viewport size is displayed in an overlay, in the top-right corner of the webpage. 
+[Edge](https://canidev.tools/get-viewport-size/edge): 
+1. Open DevTools panel docked to the page. Resize the Devtools panel to view the current viewport size in top-right. 
+[Safari](https://canidev.tools/get-viewport-size/safari): 
+1. In Web Inspector, click the Show Rulers button to enable the ruler and viewport size on the page. 
+[Opera](https://canidev.tools/get-viewport-size/opera): 
+1. Open DevTools panel docked to the page. Resize the Devtools panel to view the current viewport size in top-right. 
 ## Go to file
 Can i jump to file by searching for a filename?
 
@@ -1329,6 +1349,11 @@ Can i jump to file by searching for a filename?
 1. Open devtools using `Cmd+Opt+I` (on Mac) or `Ctrl+Shift+I` (on Windows/Linux) > Sources.
 2. Run Command menu using `Cmd+Shift+P` (on Mac) or `Ctrl+Shift+P` (on Windows/Linux) > Type filename to filter on the matching files > Press `Enter`.
  
+## Hide extention requests
+Can I hide network requests sent by extensions?
+
+[Chrome](https://canidev.tools/hide-extention-requests/chrome): 
+In the Network panel, check the Hide extension URLs option in the toolbar. 
 ## Ignore extension scripts
 Can I ignore extention scripts while debugging?
 
@@ -1916,6 +1941,13 @@ Can I override global objects on page load before other scripts run?
 1. In the **Sources** panel, click **Add** **Resource** (+) button in the bottom of the left sidebar > select "Inspector Bootstrap Script".
 2. Add the code snippet to override the behaviour of the global objects that is guaranteed to run before any other code.
  
+## Override response body
+Can I override the body of a network request?
+
+[Chrome](https://canidev.tools/override-response-body/chrome): 
+In the Network panel, right click on the request and select 'Override content'. Devtools will prompt to select a folder to store the overrides in.
+Once the overrides are setup, Devtools will navigate to Sources > Overrides > Editor to override content.
+Overriden resources are highlighted with a purple dot in the Network panel. 
 ## Override response headers
 Can I override headers of the network response?
 

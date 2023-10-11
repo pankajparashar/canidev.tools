@@ -4,7 +4,7 @@ import "@mantine/core/styles.css";
 import { MantineProvider, ColorSchemeScript } from "@mantine/core";
 
 import "../public/style.css";
-import { getData } from "../lib/data";
+import fetch from "isomorphic-unfetch";
 
 import { AppLayout } from "../components/app-layout";
 import { DataProvider } from "../components/data-provider";
@@ -14,8 +14,14 @@ export const metadata = {
     description: "It is like @CanIUse, but for the browser devtools, created by Pankaj Parashar and curated by community.",
 };
 
-export default function RootLayout({ children }) {
-    const { categories, features } = getData();
+export default async function RootLayout({ children }) {
+    const features = await fetch(`https://canidev.tools/data.json`).then(res => res.json());
+    const categories = {};
+    features.forEach(feature => {
+        const category = feature.Category;
+        categories[category] = category in categories ? categories[category] + 1 : 1;
+    });
+
     const theme = {
         fontFamily: "Operator Mono",
         fontFamilyMonospace: "Operator Mono",
