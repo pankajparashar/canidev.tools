@@ -134,18 +134,12 @@ const CarbonAd = () => {
     return (
         <Tabs defaultValue="ads" placement="right" inverted={true}>
             <Tabs.List p={0} size="xs" justify="space-between">
-                <Tabs.Tab value="ads" size={"xs"}>
+                <Tabs.Tab value="ads" pl={0} pr={0}>
                     Carbon Ads
-                </Tabs.Tab>
-                <Tabs.Tab value="about" size={"xs"}>
-                    About
                 </Tabs.Tab>
             </Tabs.List>
 
-            <Tabs.Panel value="ads">
-                <div ref={reference} />
-            </Tabs.Panel>
-            <Tabs.Panel value="about" p="xs"></Tabs.Panel>
+            <Tabs.Panel value="ads" ref={reference} />
         </Tabs>
     );
 };

@@ -14,7 +14,7 @@ export default function Page({ params }) {
     return (
         <ScrollArea.Autosize mah={"100%"} type="never">
             <Accordion
-                defaultValue="video"
+                defaultValue={feature.MP4 ? "video" : "notes"}
                 styles={{
                     itemTitle: { fontWeight: "bold" },
                     content: { padding: 0 },
@@ -31,7 +31,7 @@ export default function Page({ params }) {
                     <Accordion.Control icon={<IconNotes stroke={1} />}>
                         <Text fw={700}>Notes</Text>
                     </Accordion.Control>
-                    <Accordion.Panel>
+                    <Accordion.Panel maw={"750px"} pr="xs">
                         <Box
                             dangerouslySetInnerHTML={{
                                 __html: feature[browser]?.Notes ? marked.parse(Array.isArray(feature[browser].Notes) ? feature[browser].Notes.join("\n") : feature[browser].Notes) : "",

@@ -20,7 +20,15 @@ export default function Layout({ children, params }) {
     return (
         <Paper className="column" w="100%" withBorder style={{ borderTop: 0, borderBottom: 0 }}>
             <Group justify="space-between">
-                <Badge size="lg" variant="dot" radius="0" p="md" style={{ borderTop: 0, borderBottom: 0, borderLeft: 0 }}>
+                <Badge
+                    size="lg"
+                    variant="dot"
+                    radius="0"
+                    p="md"
+                    style={{ borderTop: 0, borderBottom: 0 }}
+                    styles={{
+                        label: { fontSize: "var(--mantine-font-size-sm)" },
+                    }}>
                     {feature.Category}
                 </Badge>
                 <Button variant="default" size="sm" leftSection={<IconBrandGithub size={20} stroke={1.5} />} style={{ borderBottom: 0, borderTop: 0 }}>
@@ -38,6 +46,7 @@ export default function Layout({ children, params }) {
                 }}>
                 {feature.Description}
             </Alert>
+            <Divider />
             <Tabs value={browser} onChange={value => router.push(`/${params.slug}/${value}`)} variant="pills">
                 <Tabs.List grow justify="space-between">
                     <Tabs.Tab value="chrome" leftSection={<IconBrandChrome stroke={1.5} />} disabled={!feature.Chrome}></Tabs.Tab>
