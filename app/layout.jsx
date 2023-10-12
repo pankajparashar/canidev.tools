@@ -1,3 +1,6 @@
+import * as fs from "fs";
+import path from "path";
+
 import { Analytics } from "@vercel/analytics/react";
 
 import "@mantine/core/styles.css";
@@ -14,9 +17,15 @@ export const metadata = {
 };
 
 export default async function RootLayout({ children }) {
-    const features = await fetch(`https://canidev.tools/data.json`).then(res => res.json());
     const categories = {};
-    features.forEach(feature => {
+    const features = [];
+
+    fs.readdirSync("features").forEach(name => {
+        const filename = path.join("features", name);
+        const file = fs.readFileSync(filename);
+        const feature = JSON.parse(file);
+        features.push(feature);
+
         const category = feature.Category;
         categories[category] = category in categories ? categories[category] + 1 : 1;
     });

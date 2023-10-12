@@ -1,4 +1,5 @@
 "use client";
+
 import { useContext } from "react";
 import { marked } from "marked";
 
@@ -14,7 +15,7 @@ export default function Page({ params }) {
     return (
         <ScrollArea.Autosize mah={"100%"} type="never">
             <Accordion
-                defaultValue={feature.MP4 ? "video" : "notes"}
+                defaultValue={feature[browser]?.MP4 ? "video" : "notes"}
                 styles={{
                     itemTitle: { fontWeight: "bold" },
                     content: { padding: 0 },
