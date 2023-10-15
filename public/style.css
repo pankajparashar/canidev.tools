@@ -17,12 +17,11 @@
 
 .logo {
     border-bottom: 2px solid;
-    filter: invert(0);
 }
 
 @media (prefers-color-scheme: dark) {
     .logo {
-        filter: invert(0);
+        filter: invert(1);
     }
 }
 
