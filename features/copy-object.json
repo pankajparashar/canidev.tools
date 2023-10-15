@@ -1,32 +1,32 @@
 {
-  "Name": "Copy object",
-  "Slug": "copy-object",
-  "Description": "Can I copy an object from console?",
-  "Category": "Console",
-  "Newsletter": "tips-tricks-10",
-  "LastModifiedTime": "2022-09-17T13:37:24.000Z",
-  "Authors": "@pankajparashar",
-  "Chrome": {
-    "Share": "https://twitter.com/CanIDevTools/status/1555788963855859712",
-    "References": "Console utilities API [reference](https://developer.chrome.com/docs/devtools/console/utilities/#copy-function)\n",
-    "Notes": "`copy(object)` copies a string representation of the specified object to the clipboard.\n",
-    "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1659762914/copy-object-chrome_pyxbyj.mp4"
-  },
-  "Firefox": {
-    "Share": "https://twitter.com/CanIDevTools/status/1555788963855859712",
-    "Notes": "1. `copy(object)` copies a string representation of the specified object to the clipboard.\n"
-  },
-  "Edge": {
-    "Notes": "`copy(object)` copies a string representation of the specified object to the clipboard.\n",
-    "Share": "https://twitter.com/CanIDevTools/status/1555788963855859712"
-  },
-  "Safari": {
-    "Share": "https://twitter.com/CanIDevTools/status/1555788963855859712",
-    "Notes": "`copy(object)` copies a string representation of the specified object to the clipboard.\n"
-  },
-  "Opera": {
-    "Share": "https://twitter.com/CanIDevTools/status/1555788963855859712",
-    "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1659762914/copy-object-chrome_pyxbyj.mp4",
-    "Notes": "`copy(object)` copies a string representation of the specified object to the clipboard.\n"
-  }
+    "Name": "Copy object",
+    "Slug": "copy-object",
+    "Description": "Can I copy an object from console?",
+    "Category": "Console",
+    "Newsletter": "tips-tricks-10",
+    "LastModifiedTime": "2022-09-17T13:37:24.000Z",
+    "Authors": "@pankajparashar",
+    "Chrome": {
+        "Share": "https://twitter.com/CanIDevTools/status/1555788963855859712",
+        "References": "Console utilities API [reference](https://developer.chrome.com/docs/devtools/console/utilities/#copy-function)\n",
+        "Notes": ["1. `copy(object)` copies a string representation of the specified object to the clipboard.\n"],
+        "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1659762914/copy-object-chrome_pyxbyj.mp4"
+    },
+    "Firefox": {
+        "Share": "https://twitter.com/CanIDevTools/status/1555788963855859712",
+        "Notes": ["1. `copy(object)` copies a string representation of the specified object to the clipboard.\n"]
+    },
+    "Edge": {
+        "Notes": ["1. `copy(object)` copies a string representation of the specified object to the clipboard.\n"],
+        "Share": "https://twitter.com/CanIDevTools/status/1555788963855859712"
+    },
+    "Safari": {
+        "Share": "https://twitter.com/CanIDevTools/status/1555788963855859712",
+        "Notes": ["1. `copy(object)` copies a string representation of the specified object to the clipboard.\n"]
+    },
+    "Opera": {
+        "Share": "https://twitter.com/CanIDevTools/status/1555788963855859712",
+        "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1659762914/copy-object-chrome_pyxbyj.mp4",
+        "Notes": ["1. `copy(object)` copies a string representation of the specified object to the clipboard.\n"]
+    }
 }

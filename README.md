@@ -55,6 +55,21 @@ Can I set a conditional breakpoint while debugging code?
 1. In **Sources**, right click the line number and select "Add a conditional breakpoint..."
 2. Input the conditional expression on which the execution should pause, and press `Enter`.
  
+## Add custom columns to Network table
+Can I add custom columns to the Network requests table?
+
+[Chrome](https://canidev.tools/add-custom-columns-network/chrome): 
+1. In the **Network** panel, right click on the column headers > Response Headers > Manage Header Columns.
+2. In the **Manage Header Columns** popup window, click "Add Custom Header". Enter the custom header name, and click **Add** to add a new column to the Network requests table.
+ 
+[Edge](https://canidev.tools/add-custom-columns-network/edge): 
+1. In the **Network** panel, right click on the column headers > Response Headers > Manage Header Columns.
+2. In the **Manage Header Columns** popup window, click "Add Custom Header". Enter the custom header name, and click **Add** to add a new column to the Network requests table.
+ 
+[Opera](https://canidev.tools/add-custom-columns-network/opera): 
+1. In the **Network** panel, right click on the column headers > Response Headers > Manage Header Columns.
+2. In the **Manage Header Columns** popup window, click "Add Custom Header". Enter the custom header name, and click **Add** to add a new column to the Network requests table.
+ 
 ## Add custom device
 Can I add a custom device for a responsive design mode?
 
@@ -77,18 +92,6 @@ Can I add a custom device for a responsive design mode?
 [Polypane](https://canidev.tools/add-custom-device/polypane): 
 1. Click the "+" button in the workspace, double-click anywhere in the free space, or press `Ctrl/Cmd+N`  
 2. Once the new device is added you can resize it manually and set the device and emulation options with the Emulation settings. 
-## Add custom columns to Network table
-Can I add custom columns to the Network requests table?
-
-[Chrome](https://canidev.tools/add-custom-columns-network/chrome): 
-1. In the **Network** panel, right click on the column headers > Response Headers > Manage Header Columns.
-2. In the **Manage Header Columns** popup window, click "Add Custom Header". Enter the custom header name, and click **Add** to add a new column to the Network requests table. 
-[Edge](https://canidev.tools/add-custom-columns-network/edge): 
-1. In the **Network** panel, right click on the column headers > Response Headers > Manage Header Columns.
-2. In the **Manage Header Columns** popup window, click "Add Custom Header". Enter the custom header name, and click **Add** to add a new column to the Network requests table. 
-[Opera](https://canidev.tools/add-custom-columns-network/opera): 
-1. In the **Network** panel, right click on the column headers > Response Headers > Manage Header Columns.
-2. In the **Manage Header Columns** popup window, click "Add Custom Header". Enter the custom header name, and click **Add** to add a new column to the Network requests table. 
 ## Add inline styles
 Can I add inline styles to an HTML element?
 
@@ -444,22 +447,22 @@ Can I copy the request as a powershell script?
 Can I copy a node's path as a CSS selector?
 
 [Chrome](https://canidev.tools/copy-css-selector/chrome): 
-In the **Elements** tab, right click on the element in the DOM tree > Copy > Copy selector.
+1. In the **Elements** tab, right click on the element in the DOM tree > Copy > Copy selector.
  
 [Firefox](https://canidev.tools/copy-css-selector/firefox): 
 1. In the **Inspector** tab, right click on the element in the DOM tree > Copy > CSS Selector.
  
 [Edge](https://canidev.tools/copy-css-selector/edge): 
-In the **Elements** tab, right click on the element in the DOM tree > Copy > Copy selector.
+1. In the **Elements** tab, right click on the element in the DOM tree > Copy > Copy selector.
  
 [Safari](https://canidev.tools/copy-css-selector/safari): 
 In the **Elements** tab, right click on the element in the DOM tree > Copy > Selector Path.
  
 [Opera](https://canidev.tools/copy-css-selector/opera): 
-In the **Elements** tab, right click on the element in the DOM tree > Copy > Copy selector.
+1. In the **Elements** tab, right click on the element in the DOM tree > Copy > Copy selector.
  
 [Polypane](https://canidev.tools/copy-css-selector/polypane): 
-In the **Elements** panel, click the "Copy" icon in the navigator, then select "Copy CSS Selector"
+1. In the **Elements** tab, right click on the element in the DOM tree > Copy > Copy selector.
  
 ## Copy image as data URI
 Can I copy an image as a data URI?
@@ -504,19 +507,19 @@ Can I copy the styles applied to an element?
 Can I copy an object from console?
 
 [Chrome](https://canidev.tools/copy-object/chrome): 
-`copy(object)` copies a string representation of the specified object to the clipboard.
+1. `copy(object)` copies a string representation of the specified object to the clipboard.
  
 [Firefox](https://canidev.tools/copy-object/firefox): 
 1. `copy(object)` copies a string representation of the specified object to the clipboard.
  
 [Edge](https://canidev.tools/copy-object/edge): 
-`copy(object)` copies a string representation of the specified object to the clipboard.
+1. `copy(object)` copies a string representation of the specified object to the clipboard.
  
 [Safari](https://canidev.tools/copy-object/safari): 
-`copy(object)` copies a string representation of the specified object to the clipboard.
+1. `copy(object)` copies a string representation of the specified object to the clipboard.
  
 [Opera](https://canidev.tools/copy-object/opera): 
-`copy(object)` copies a string representation of the specified object to the clipboard.
+1. `copy(object)` copies a string representation of the specified object to the clipboard.
  
 ## Copy response text
 Can I copy the response object as text?
@@ -767,11 +770,14 @@ Can I disable JavaScript on a web page?
 Can I display the current frames per second (FPS) of the page?
 
 [Chrome](https://canidev.tools/display-fps/chrome): 
-1. Open **Command Menu** (`Cmd+Shift+P` or `Ctrl+Shift+P`) > Run "Show frames per second (FPS) meter". 
+1. Open **Command Menu** (`Cmd+Shift+P` or `Ctrl+Shift+P`) > Run "Show frames per second (FPS) meter".
+ 
 [Edge](https://canidev.tools/display-fps/edge): 
-1. Open **Command Menu** (`Cmd+Shift+P` or `Ctrl+Shift+P`) > Run "Show frames per second (FPS) meter". 
+1. Open **Command Menu** (`Cmd+Shift+P` or `Ctrl+Shift+P`) > Run "Show frames per second (FPS) meter".
+ 
 [Opera](https://canidev.tools/display-fps/opera): 
-1. Open **Command Menu** (`Cmd+Shift+P` or `Ctrl+Shift+P`) > Run "Show frames per second (FPS) meter". 
+1. Open **Command Menu** (`Cmd+Shift+P` or `Ctrl+Shift+P`) > Run "Show frames per second (FPS) meter".
+ 
 ## Drag & Drop element
 Can I drag & drop nodes anywhere inside the DOM tree?
 
@@ -976,19 +982,19 @@ Can I filter blocked network requests?
 Can I filter multiple resource types in the Network tab?
 
 [Chrome](https://canidev.tools/filter-multiple-resources/chrome): 
-Open devtools > Open the "Network" tab. Hold `Cmd` or `Ctrl` key while clicking on the Resource type.
+1. Open devtools > Open the "Network" tab. Hold `Cmd` or `Ctrl` key while clicking on the Resource type.
  
 [Firefox](https://canidev.tools/filter-multiple-resources/firefox): 
 1. In **Network** tab. Hold `Cmd` or `Ctrl` key while clicking on the Resource type.
  
 [Edge](https://canidev.tools/filter-multiple-resources/edge): 
-Open devtools > Open the Network tab. Hold `Cmd` or `Ctrl` key while clicking on the Resource type.
+1. Open devtools > Open the "Network" tab. Hold `Cmd` or `Ctrl` key while clicking on the Resource type.
  
 [Safari](https://canidev.tools/filter-multiple-resources/safari): 
-Open devtools > Open the Network tab. Hold `Cmd` or `Ctrl` key while clicking on the Resource type.
+1. Open devtools > Open the "Network" tab. Hold `Cmd` or `Ctrl` key while clicking on the Resource type.
  
 [Opera](https://canidev.tools/filter-multiple-resources/opera): 
-Open devtools > Open the "Network" tab. Hold `Cmd` or `Ctrl` key while clicking on the Resource type.
+1. Open devtools > Open the "Network" tab. Hold `Cmd` or `Ctrl` key while clicking on the Resource type.
  
 ## Filter requests by domain
 Can I filter network requests by domain name?
@@ -1353,7 +1359,8 @@ Can i jump to file by searching for a filename?
 Can I hide network requests sent by extensions?
 
 [Chrome](https://canidev.tools/hide-extention-requests/chrome): 
-In the Network panel, check the Hide extension URLs option in the toolbar. 
+1. In the Network panel, check the Hide extension URLs option in the toolbar.
+ 
 ## Ignore extension scripts
 Can I ignore extention scripts while debugging?
 
@@ -1629,17 +1636,22 @@ Can I inspect and edit various CSS font properties like, font-size, line-height 
 
 [Chrome](https://canidev.tools/inspect-font-properties/chrome): 
 1. Open **Settings** (`F1` or `Shift+?`) > Experiments > Check the "Enable the new Font Editor tool within the Styles pane" box > Reload.
-2. In the **Styles** pane, click the "AA" icon in the bottom right of the selector box to open the **Font Editor** tool which allows you to tweak various font properties. 
+2. In the **Styles** pane, click the "AA" icon in the bottom right of the selector box to open the **Font Editor** tool which allows you to tweak various font properties.
+ 
 [Firefox](https://canidev.tools/inspect-font-properties/firefox): 
-1. Inspect the element using font properties > Navigate to the **Fonts** pane in the sidebar > Use the editor tool to tweak the various font properties. 
+1. Inspect the element using font properties > Navigate to the **Fonts** pane in the sidebar > Use the editor tool to tweak the various font properties.
+ 
 [Edge](https://canidev.tools/inspect-font-properties/edge): 
 1. Open **Settings** (`F1` or `Shift+?`) > Experiments > Check the "Enable the new Font Editor tool within the Styles pane" box > Reload.
-2. In the **Styles** pane, click the "AA" icon in the bottom right of the selector box to open the **Font Editor** tool which allows you to tweak various font properties. 
+2. In the **Styles** pane, click the "AA" icon in the bottom right of the selector box to open the **Font Editor** tool which allows you to tweak various font properties.
+ 
 [Safari](https://canidev.tools/inspect-font-properties/safari): 
-1. Inspect element > Navigate to the **Font** panel to see information about the active font for the selected DOM node in the DOM Tree, providing computed values for both basic properties (e.g. size, style, weight, etc.) and advanced properties (e.g. ligatures, alternate glyphs, variations, etc.) 
+1. Inspect element > Navigate to the **Font** panel to see information about the active font for the selected DOM node in the DOM Tree, providing computed values for both basic properties (e.g. size, style, weight, etc.) and advanced properties (e.g. ligatures, alternate glyphs, variations, etc.)
+ 
 [Opera](https://canidev.tools/inspect-font-properties/opera): 
 1. Open **Settings** (`F1` or `Shift+?`) > Experiments > Check the "Enable the new Font Editor tool within the Styles pane" box > Reload.
-2. In the **Styles** pane, click the "AA" icon in the bottom right of the selector box to open the **Font Editor** tool which allows you to tweak various font properties. 
+2. In the **Styles** pane, click the "AA" icon in the bottom right of the selector box to open the **Font Editor** tool which allows you to tweak various font properties.
+ 
 ## Inspect requests
 Can I inspect Network requests?
 
@@ -1744,22 +1756,22 @@ Can I prevent the debugger from pausing at exceptions?
 Can I open the console using the keyboard?
 
 [Chrome](https://canidev.tools/open-console-keyboard/chrome): 
-Use `Cmd+Opt+J` or `Ctrl+Shift+J` to directly open the **Console** tab.
+1. Use `Cmd+Opt+J` or `Ctrl+Shift+J` to directly open the **Console** tab.
  
 [Firefox](https://canidev.tools/open-console-keyboard/firefox): 
 1. Use `Cmd+Opt+K` or `Ctrl+Shift+K` to directly open the **Console** tab.
  
 [Edge](https://canidev.tools/open-console-keyboard/edge): 
-Use `Cmd+Opt+J` or `Ctrl+Shift+J` to directly open the **Console** tab.
+1. Use `Cmd+Opt+J` or `Ctrl+Shift+J` to directly open the **Console** tab.
  
 [Safari](https://canidev.tools/open-console-keyboard/safari): 
 Use Cmd+Opt+C to directly open the **Console** tab.
  
 [Opera](https://canidev.tools/open-console-keyboard/opera): 
-Use `Cmd+Opt+J` or `Ctrl+Shift+J` to directly open the **Console** tab.
+1. Use `Cmd+Opt+J` or `Ctrl+Shift+J` to directly open the **Console** tab.
  
 [Polypane](https://canidev.tools/open-console-keyboard/polypane): 
-Use `Ctrl/Cmd+Shift+J` to directly open the **Console** tab.
+1. Use `Cmd+Opt+J` or `Ctrl+Shift+J` to directly open the **Console** tab.
  
 ## Open devtools with keyboard
 Can I open developer tools with the keyboard?
