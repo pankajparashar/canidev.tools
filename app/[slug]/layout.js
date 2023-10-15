@@ -25,7 +25,7 @@ export default function Layout({ children, params }) {
                     variant="dot"
                     radius="0"
                     p="md"
-                    style={{ borderTop: 0, borderBottom: 0 }}
+                    style={{ borderTop: 0, borderBottom: 0, borderLeft: 0 }}
                     styles={{
                         label: { fontSize: "var(--mantine-font-size-sm)" },
                     }}>
