@@ -5,7 +5,7 @@ export async function generateStaticParams() {
     const paths = [];
     fs.readdirSync("features").map(name => {
         ["chrome", "firefox", "edge", "safari", "opera", "polypane"].forEach(browser => {
-            paths.push({ browser, slug: path.basename(name) });
+            paths.push({ browser, slug: path.basename(name, ".json") });
         });
     });
     return paths;
