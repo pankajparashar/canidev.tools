@@ -96,8 +96,10 @@ export const AppLayout = props => {
                                             pl={isMobile ? 0 : "xs"}
                                             pr={isMobile ? 0 : "xs"}
                                             label={feature.Name}
+                                            description={feature.Description}
                                             styles={{
                                                 label: { fontSize: "var(--mantine-font-size-md)" },
+                                                description: { fontSize: "var(--mantine-font-size-md)" },
                                             }}
                                             active={pathname.includes(feature.Slug)}
                                             variant={pathname.includes(feature.Slug) ? "filled" : "default"}
