@@ -29,6 +29,16 @@ code {
     filter: invert(1);
 }
 
+li a:link,
+li a:visited,
+#carbonads a {
+    color: #0074de;
+    text-decoration: none;
+}
+li a:hover {
+    border-bottom: 1px solid;
+}
+
 video {
     width: 100%;
 }
