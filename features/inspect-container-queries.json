@@ -1,23 +1,19 @@
 {
-  "Name": "Inspect container queries",
-  "Slug": "inspect-container-queries",
-  "Description": "Can I inspect and debug container queries in the devtools?",
-  "Category": "CSS",
-  "LastModifiedTime": "2022-07-03T05:21:53.000Z",
-  "Authors": ["@pankajparashar", "@kilianvalkhof"],
-  "Chrome": {
-    "References": "[1] \"Container Queries\" - [Chrome DevTools Docs](https://developer.chrome.com/docs/devtools/css/container-queries/)\n",
-    "Notes": "1. Every element defined as a query container has a `container` badge next to it in the **Elements** panel. The badge toggles a dotted-line overlay of the container and its descendants.\n2. To find and select a container element that caused the query to take effect, hover over and click the element name above the `@container` declaration. \n3. When hovered over, the name turns into a link to the element in the **Elements** panel and the **Styles** pane displays the queried property and its current value.\n",
-    "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1656825850/Videos/inspect-container-queries-chrome_fiy7sn.mp4"
-  },
-  "Safari": {
-    "Notes": [
-      "1. Inspect the element with `container-type` property. All the child elements using the Container query will have the `@container` decorator on top of the selector, which can be edited to affect the size of the container."
-    ]
-  },
-  "Polypane": {
-    "Notes": [
-      "1. Inspect the element with `container-type` property. All the child elements using the Container query will have the `@container` decorator on top of the selector."
-    ]
-  }
+    "Name": "Inspect container queries",
+    "Slug": "inspect-container-queries",
+    "Description": "Can I inspect and debug container queries in the devtools?",
+    "Category": "CSS",
+    "LastModifiedTime": "2022-07-03T05:21:53.000Z",
+    "Authors": ["@pankajparashar", "@kilianvalkhof"],
+    "Chrome": {
+        "References": "[1] \"Container Queries\" - [Chrome DevTools Docs](https://developer.chrome.com/docs/devtools/css/container-queries/)\n",
+        "Notes": "1. Every element defined as a query container has a `container` badge next to it in the **Elements** panel. The badge toggles a dotted-line overlay of the container and its descendants.\n2. To find and select a container element that caused the query to take effect, hover over and click the element name above the `@container` declaration. \n3. When hovered over, the name turns into a link to the element in the **Elements** panel and the **Styles** pane displays the queried property and its current value.\n",
+        "Video": "https://res.cloudinary.com/canidevtools/video/upload/v1656825850/Videos/inspect-container-queries-chrome_fiy7sn.mp4"
+    },
+    "Safari": {
+        "Notes": ["1. Inspect the element with `container-type` property. All the child elements using the Container query will have the `@container` decorator on top of the selector, which can be edited to affect the size of the container."]
+    },
+    "Polypane": {
+        "Notes": ["1. Inspect the element with `container-type` property. All the child elements using the Container query will have the `@container` decorator on top of the selector."]
+    }
 }

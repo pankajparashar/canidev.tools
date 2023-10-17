@@ -1,44 +1,33 @@
 {
-	"Name": "Find inactive styles",
-	"Slug": "find-inactive-styles",
-	"Description": "Can I find inactive styles applied to an element?",
-	"Category": "CSS",
-  
-	"Newsletter": "tips-tricks-15",
-	"Authors": "@pankajparashar",
-  
-	"Chrome": {
-		"Share": "https://twitter.com/CanIDevTools/status/1571519143115108353",
-		"MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1663480849/find-inactive-styles-chrome_f0qouj.mp4",
-		"Notes": [
-			"1. Enable authoring hints, by opening **Settings** (`F1`) > **Experiments** > Filter on \"authoring hints\" > Check \"Enable CSS Authoring hints...\"",
-			"2. In **Elements** > Locate the authored styles in the **Styles** pane > Inactive declarations have an \"i\" icon, which on hover reveals a tooltip displaying more information.\n"
-		]
-	},
-	
-	"Firefox": {
-		"Share": "https://twitter.com/CanIDevTools/status/1571520604150575114",
-		"MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1663497088/find-inactive-styles-firefox_ip5jow.mp4",
-		"Notes": [
-			"1. In **Inspector** > Locate the styles in the **Rules** pane. Inactive styles will have an \"i\" icon next to it, which on hover will reveal more information about it.\n"
-		]
-	},
+    "Name": "Find inactive styles",
+    "Slug": "find-inactive-styles",
+    "Description": "Can I find inactive styles applied to an element?",
+    "Category": "CSS",
 
-	"Edge": {
-		"Share": "https://twitter.com/CanIDevTools/status/1571519895124475904",
-		"MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1663483151/find-inactive-styles-edge_m0f4mc.mp4",
-		"Notes": [
-			"1. Enable authoring hints, by opening **Settings** (`F1`) > **Experiments** > Filter on \"authoring hints\" > Check \"Enable CSS Authoring hints...\"",
-			"2. In **Elements** > Locate the authored styles in the **Styles** pane > Inactive declarations have an \"i\" icon, which on hover reveals a tooltip displaying more information.\n"
-		]
-	},
+    "Newsletter": "tips-tricks-15",
+    "Authors": "@pankajparashar",
 
-	"Opera": {
-		"Share": "https://twitter.com/CanIDevTools/status/1571519895124475904",
-		"MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1665571811/find-inactive-styles-opera_cd5y89.mp4",
-		"Notes": [
-			"1. Enable authoring hints, by opening **Settings** (`F1`) > **Experiments** > Filter on \"authoring hints\" > Check \"Enable CSS Authoring hints...\"",
-			"2. In **Elements** > Locate the authored styles in the **Styles** pane > Inactive declarations have an \"i\" icon, which on hover reveals a tooltip displaying more information.\n"
-		]
-	}
+    "Chrome": {
+        "Share": "https://twitter.com/CanIDevTools/status/1571519143115108353",
+        "Video": "https://res.cloudinary.com/canidevtools/video/upload/v1663480849/find-inactive-styles-chrome_f0qouj.mp4",
+        "Notes": ["1. Enable authoring hints, by opening **Settings** (`F1`) > **Experiments** > Filter on \"authoring hints\" > Check \"Enable CSS Authoring hints...\"", "2. In **Elements** > Locate the authored styles in the **Styles** pane > Inactive declarations have an \"i\" icon, which on hover reveals a tooltip displaying more information.\n"]
+    },
+
+    "Firefox": {
+        "Share": "https://twitter.com/CanIDevTools/status/1571520604150575114",
+        "Video": "https://res.cloudinary.com/canidevtools/video/upload/v1663497088/find-inactive-styles-firefox_ip5jow.mp4",
+        "Notes": ["1. In **Inspector** > Locate the styles in the **Rules** pane. Inactive styles will have an \"i\" icon next to it, which on hover will reveal more information about it.\n"]
+    },
+
+    "Edge": {
+        "Share": "https://twitter.com/CanIDevTools/status/1571519895124475904",
+        "Video": "https://res.cloudinary.com/canidevtools/video/upload/v1663483151/find-inactive-styles-edge_m0f4mc.mp4",
+        "Notes": ["1. Enable authoring hints, by opening **Settings** (`F1`) > **Experiments** > Filter on \"authoring hints\" > Check \"Enable CSS Authoring hints...\"", "2. In **Elements** > Locate the authored styles in the **Styles** pane > Inactive declarations have an \"i\" icon, which on hover reveals a tooltip displaying more information.\n"]
+    },
+
+    "Opera": {
+        "Share": "https://twitter.com/CanIDevTools/status/1571519895124475904",
+        "Video": "https://res.cloudinary.com/canidevtools/video/upload/v1665571811/find-inactive-styles-opera_cd5y89.mp4",
+        "Notes": ["1. Enable authoring hints, by opening **Settings** (`F1`) > **Experiments** > Filter on \"authoring hints\" > Check \"Enable CSS Authoring hints...\"", "2. In **Elements** > Locate the authored styles in the **Styles** pane > Inactive declarations have an \"i\" icon, which on hover reveals a tooltip displaying more information.\n"]
+    }
 }

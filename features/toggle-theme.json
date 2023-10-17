@@ -1,36 +1,36 @@
 {
-  "Name": "Toggle light & dark theme",
-  "Slug": "toggle-theme",
-  "Description": "Can I switch to light or dark theme in devtools?",
-  "Category": "Other",
-  "Newsletter": "tips-tricks-8",
-  "LastModifiedTime": "2022-09-17T13:36:52.000Z",
-  "Authors": ["@pankajparashar", "@kilianvalkhof"],
-  "Chrome": {
-    "Share": "https://twitter.com/CanIDevTools/status/1553710371579449345",
-    "Notes": "Open **Command** **Menu** (`Cmd/Ctrl+Shift+P`) & Run > \"Switch to light/dark theme\" (Appearance) > Press `Enter`.\n",
-    "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1659265856/toggle-theme-chrome_a0daev.mp4"
-  },
-  "Firefox": {
-    "Share": "https://twitter.com/CanIDevTools/status/1553710858215165952",
-    "Notes": "1. Open **Settings** (`F1`) > Under the **Themes** section, select \"Dark\" or \"Light\" to switch themes.\n",
-    "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1659266448/toggle-theme-firefox_q1tjns.mp4"
-  },
-  "Edge": {
-    "Notes": "Open **Command** **Menu** (`Cmd/Ctrl+Shift+P`) & Run > \"Switch to light/dark theme\" (Appearance) > Press `Enter`.\n",
-    "Share": "https://twitter.com/CanIDevTools/status/1553710371579449345"
-  },
-  "Safari": {
-    "Share": "https://twitter.com/CanIDevTools/status/1553711229306253314",
-    "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1659266982/toggle-theme-safari_gfmxlc.mp4",
-    "Notes": "Open **Settings** (`Cmd+,`) > General > Appearance > Select \"Dark\" or \"Light\" to change the appearance.\n"
-  },
-  "Opera": {
-    "Share": "https://twitter.com/CanIDevTools/status/1553710371579449345",
-    "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1659265856/toggle-theme-chrome_a0daev.mp4",
-    "Notes": "Open **Command** **Menu** (`Cmd/Ctrl+Shift+P`) & Run > \"Switch to light/dark theme\" (Appearance) > Press `Enter`.\n"
-  },
-  "Polypane": {
-    "Notes": "Press `Cmd/Ctrl+I` or select \"Toggle Dark Mode\" in the \"View\" Menu.\n"
-  }
+    "Name": "Toggle light & dark theme",
+    "Slug": "toggle-theme",
+    "Description": "Can I switch to light or dark theme in devtools?",
+    "Category": "Other",
+    "Newsletter": "tips-tricks-8",
+    "LastModifiedTime": "2022-09-17T13:36:52.000Z",
+    "Authors": ["@pankajparashar", "@kilianvalkhof"],
+    "Chrome": {
+        "Share": "https://twitter.com/CanIDevTools/status/1553710371579449345",
+        "Notes": "Open **Command** **Menu** (`Cmd/Ctrl+Shift+P`) & Run > \"Switch to light/dark theme\" (Appearance) > Press `Enter`.\n",
+        "Video": "https://res.cloudinary.com/canidevtools/video/upload/v1659265856/toggle-theme-chrome_a0daev.mp4"
+    },
+    "Firefox": {
+        "Share": "https://twitter.com/CanIDevTools/status/1553710858215165952",
+        "Notes": "1. Open **Settings** (`F1`) > Under the **Themes** section, select \"Dark\" or \"Light\" to switch themes.\n",
+        "Video": "https://res.cloudinary.com/canidevtools/video/upload/v1659266448/toggle-theme-firefox_q1tjns.mp4"
+    },
+    "Edge": {
+        "Notes": "Open **Command** **Menu** (`Cmd/Ctrl+Shift+P`) & Run > \"Switch to light/dark theme\" (Appearance) > Press `Enter`.\n",
+        "Share": "https://twitter.com/CanIDevTools/status/1553710371579449345"
+    },
+    "Safari": {
+        "Share": "https://twitter.com/CanIDevTools/status/1553711229306253314",
+        "Video": "https://res.cloudinary.com/canidevtools/video/upload/v1659266982/toggle-theme-safari_gfmxlc.mp4",
+        "Notes": "Open **Settings** (`Cmd+,`) > General > Appearance > Select \"Dark\" or \"Light\" to change the appearance.\n"
+    },
+    "Opera": {
+        "Share": "https://twitter.com/CanIDevTools/status/1553710371579449345",
+        "Video": "https://res.cloudinary.com/canidevtools/video/upload/v1659265856/toggle-theme-chrome_a0daev.mp4",
+        "Notes": "Open **Command** **Menu** (`Cmd/Ctrl+Shift+P`) & Run > \"Switch to light/dark theme\" (Appearance) > Press `Enter`.\n"
+    },
+    "Polypane": {
+        "Notes": "Press `Cmd/Ctrl+I` or select \"Toggle Dark Mode\" in the \"View\" Menu.\n"
+    }
 }

@@ -1,31 +1,29 @@
 {
-  "Name": "Emulate print styles",
-  "Slug": "emulate-print-styles",
-  "Description": "Can I emulate print media query?",
-  "Category": "CSS",
-  "LastModifiedTime": "2022-07-09T09:02:23.000Z",
-  "Authors": ["@pankajparashar", "@kilianvalkhof"],
-  "Chrome": {
-    "Notes": "1. Launch devtools > Open \"Command Menu\" using `Cmd+Shift+P` (Mac) or `Ctrl+Shift+P` (Windows, Linux, Chrome OS).\n2. Search for \"Show Rendering\" and press Enter (this will open the Rendering panel next to the Console).\n3. Scroll down to the section \"Emulate CSS Media Type\" and select \"print\".\n"
-  },
-  "Firefox": {
-    "Notes": "1. Inspect > In the \"Filter Styles\" section on the right, look for the icon with the title, \"Toggle print media simulation for the page\".\n",
-    "References": "1. \"Examine and edit CSS\" - [Firefox Source Docs](https://firefox-source-docs.mozilla.org/devtools-user/page_inspector/how_to/examine_and_edit_css/index.html#view-media-rules-for-print)\n2. \"Issue #8\" - Nicolas ([@nclm](https://github.com/pankajparashar/canidev.tools/issues/8))\n"
-  },
-  "Edge": {
-    "Notes": "1. Launch devtools > Open \"Command Menu\" using `Cmd+Shift+P` (Mac) or `Ctrl+Shift+P` (Windows, Linux, Chrome OS).\n2. Search for \"Show Rendering\" and press Enter (this will open the Rendering panel next to the Console).\n3. Scroll down to the section \"Emulate CSS Media Type\" and select \"print\".\n"
-  },
-  "Safari": {
-    "Notes": "1. In the **Elements** panel, click the printer icon in the toolbar at the top to force the page to use the print media styles.\n"
-  },
-  "Opera": {
-    "Notes": "1. Launch devtools > Open \"Command Menu\" using `Cmd+Shift+P` (Mac) or `Ctrl+Shift+P` (Windows, Linux, Chrome OS).\n2. Search for \"Show Rendering\" and press Enter (this will open the Rendering panel next to the Console).\n3. Scroll down to the section \"Emulate CSS Media Type\" and select \"print\".\n"
-  },
-  "Polypane": {
-    "Share": "https://twitter.com/CanIDevTools/status/1667169735845314570",
-    "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1686315555/emulate-print-styles-polypane_pltycu.mp4",
-    "Notes": [
-      "1. Click **Change Media and Emulations** from the top toolbar > **Media** (tab) > Select **print** to emulate the print media styles."
-    ]
-  }
+    "Name": "Emulate print styles",
+    "Slug": "emulate-print-styles",
+    "Description": "Can I emulate print media query?",
+    "Category": "CSS",
+    "LastModifiedTime": "2022-07-09T09:02:23.000Z",
+    "Authors": ["@pankajparashar", "@kilianvalkhof"],
+    "Chrome": {
+        "Notes": "1. Launch devtools > Open \"Command Menu\" using `Cmd+Shift+P` (Mac) or `Ctrl+Shift+P` (Windows, Linux, Chrome OS).\n2. Search for \"Show Rendering\" and press Enter (this will open the Rendering panel next to the Console).\n3. Scroll down to the section \"Emulate CSS Media Type\" and select \"print\".\n"
+    },
+    "Firefox": {
+        "Notes": "1. Inspect > In the \"Filter Styles\" section on the right, look for the icon with the title, \"Toggle print media simulation for the page\".\n",
+        "References": "1. \"Examine and edit CSS\" - [Firefox Source Docs](https://firefox-source-docs.mozilla.org/devtools-user/page_inspector/how_to/examine_and_edit_css/index.html#view-media-rules-for-print)\n2. \"Issue #8\" - Nicolas ([@nclm](https://github.com/pankajparashar/canidev.tools/issues/8))\n"
+    },
+    "Edge": {
+        "Notes": "1. Launch devtools > Open \"Command Menu\" using `Cmd+Shift+P` (Mac) or `Ctrl+Shift+P` (Windows, Linux, Chrome OS).\n2. Search for \"Show Rendering\" and press Enter (this will open the Rendering panel next to the Console).\n3. Scroll down to the section \"Emulate CSS Media Type\" and select \"print\".\n"
+    },
+    "Safari": {
+        "Notes": "1. In the **Elements** panel, click the printer icon in the toolbar at the top to force the page to use the print media styles.\n"
+    },
+    "Opera": {
+        "Notes": "1. Launch devtools > Open \"Command Menu\" using `Cmd+Shift+P` (Mac) or `Ctrl+Shift+P` (Windows, Linux, Chrome OS).\n2. Search for \"Show Rendering\" and press Enter (this will open the Rendering panel next to the Console).\n3. Scroll down to the section \"Emulate CSS Media Type\" and select \"print\".\n"
+    },
+    "Polypane": {
+        "Share": "https://twitter.com/CanIDevTools/status/1667169735845314570",
+        "Video": "https://res.cloudinary.com/canidevtools/video/upload/v1686315555/emulate-print-styles-polypane_pltycu.mp4",
+        "Notes": ["1. Click **Change Media and Emulations** from the top toolbar > **Media** (tab) > Select **print** to emulate the print media styles."]
+    }
 }

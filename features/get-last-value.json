@@ -1,40 +1,40 @@
 {
-  "Name": "Get last evaluated value",
-  "Slug": "get-last-value",
-  "Description": "Can I get the last evaluated value in the console?",
-  "Category": "Console",
-  "Newsletter": "tips-tricks-7",
-  "LastModifiedTime": "2022-09-21T02:55:49.000Z",
-  "Authors": ["@pankajparashar", "@kilianvalkhof"],
-  "Chrome": {
-    "Share": "https://twitter.com/CanIDevTools/status/1553378242366545920",
-    "References": "1. \"Console Utilities\", by Chrome DevTools [Docs](https://developer.chrome.com/docs/devtools/console/utilities/#recent)\n",
-    "Notes": "1. `$_` returns the value of the most recently evaluated expression.\n",
-    "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1659185438/get-last-value-chrome_udgaci.mp4"
-  },
-  "Firefox": {
-    "Share": "https://twitter.com/CanIDevTools/status/1553378242366545920",
-    "Notes": "1. `$_` returns the value of the most recently evaluated expression.\n",
-    "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1659187996/get-last-value-firefox_u8azho.mp4"
-  },
-  "Edge": {
-    "Notes": "1. `$_` returns the value of the most recently evaluated expression.\n",
-    "Share": "https://twitter.com/CanIDevTools/status/1553378242366545920",
-    "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1659188555/get-last-value-edge_gujpbg.mp4"
-  },
-  "Safari": {
-    "Share": "https://twitter.com/CanIDevTools/status/1553378242366545920",
-    "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1659188866/get-last-value-safari_ckgbub.mp4",
-    "References": "1. \"Console Command Line API\", by [Webkit](https://webkit.org/web-inspector/console-command-line-api/)\n\n",
-    "Notes": "1. `$_` returns the value of the most recently evaluated expression.\n2. Additionally, Safari also lets you access past values in chronological order, using `$1, $2, $3`, ...\n"
-  },
-  "Opera": {
-    "Share": "https://twitter.com/CanIDevTools/status/1553378242366545920",
-    "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1659185438/get-last-value-chrome_udgaci.mp4",
-    "Notes": "1. `$_` returns the value of the most recently evaluated expression.\n"
-  },
-  "Polypane": {
-    "References": "1. \"Available console commands\", [Polypane Docs](https://polypane.app/docs/console/#available-commands)\n",
-    "Notes": "1. `$_` returns the value of the most recently evaluated expression.\n"
-  }
+    "Name": "Get last evaluated value",
+    "Slug": "get-last-value",
+    "Description": "Can I get the last evaluated value in the console?",
+    "Category": "Console",
+    "Newsletter": "tips-tricks-7",
+    "LastModifiedTime": "2022-09-21T02:55:49.000Z",
+    "Authors": ["@pankajparashar", "@kilianvalkhof"],
+    "Chrome": {
+        "Share": "https://twitter.com/CanIDevTools/status/1553378242366545920",
+        "References": "1. \"Console Utilities\", by Chrome DevTools [Docs](https://developer.chrome.com/docs/devtools/console/utilities/#recent)\n",
+        "Notes": "1. `$_` returns the value of the most recently evaluated expression.\n",
+        "Video": "https://res.cloudinary.com/canidevtools/video/upload/v1659185438/get-last-value-chrome_udgaci.mp4"
+    },
+    "Firefox": {
+        "Share": "https://twitter.com/CanIDevTools/status/1553378242366545920",
+        "Notes": "1. `$_` returns the value of the most recently evaluated expression.\n",
+        "Video": "https://res.cloudinary.com/canidevtools/video/upload/v1659187996/get-last-value-firefox_u8azho.mp4"
+    },
+    "Edge": {
+        "Notes": "1. `$_` returns the value of the most recently evaluated expression.\n",
+        "Share": "https://twitter.com/CanIDevTools/status/1553378242366545920",
+        "Video": "https://res.cloudinary.com/canidevtools/video/upload/v1659188555/get-last-value-edge_gujpbg.mp4"
+    },
+    "Safari": {
+        "Share": "https://twitter.com/CanIDevTools/status/1553378242366545920",
+        "Video": "https://res.cloudinary.com/canidevtools/video/upload/v1659188866/get-last-value-safari_ckgbub.mp4",
+        "References": "1. \"Console Command Line API\", by [Webkit](https://webkit.org/web-inspector/console-command-line-api/)\n\n",
+        "Notes": "1. `$_` returns the value of the most recently evaluated expression.\n2. Additionally, Safari also lets you access past values in chronological order, using `$1, $2, $3`, ...\n"
+    },
+    "Opera": {
+        "Share": "https://twitter.com/CanIDevTools/status/1553378242366545920",
+        "Video": "https://res.cloudinary.com/canidevtools/video/upload/v1659185438/get-last-value-chrome_udgaci.mp4",
+        "Notes": "1. `$_` returns the value of the most recently evaluated expression.\n"
+    },
+    "Polypane": {
+        "References": "1. \"Available console commands\", [Polypane Docs](https://polypane.app/docs/console/#available-commands)\n",
+        "Notes": "1. `$_` returns the value of the most recently evaluated expression.\n"
+    }
 }

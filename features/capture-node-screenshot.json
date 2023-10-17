@@ -1,43 +1,39 @@
 {
-  "Name": "Capture node screenshot",
-  "Slug": "capture-node-screenshot",
-  "Description": "Can I take screenshot of a DOM node?",
-  "Category": "Elements",
-  "Newsletter": "tips-tricks-37",
-  "LastModifiedTime": "2023-02-05T06:50:49.000Z",
-  "Authors": ["@pankajparashar", "@kilianvalkhof"],
-  "Related": [
-    "capture-screenshot-console",
-    "capture-viewport-screenshot",
-    "capture-full-page-screenshot"
-  ],
-  "Chrome": {
-    "Share": "https://twitter.com/CanIDevTools/status/1621023980206583809",
-    "Notes": "1. In the **Elements** panel, right click on the node and select \"Capture node screenshot\".\n2. It retains visible background colour of elements with no background colour applied.\n",
-    "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1675241512/capture-node-screenshot-chrome_wvdumf.mp4"
-  },
-  "Firefox": {
-    "Share": "https://twitter.com/CanIDevTools/status/1621025611530780673",
-    "Notes": "1. In the **Inspector** panel, right click on the node, and select \"Screenshot Node\".\n2. Firefox does not retain background transparency of the element in the screenshot.\n",
-    "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1675241512/capture-node-screenshot-firefox_qmq5if.mp4"
-  },
-  "Edge": {
-    "Notes": "1. In the **Elements** panel, right click on the node and select \"Capture node screenshot\".\n2. It retains visible background colour of elements with no background colour applied.\n",
-    "Share": "https://twitter.com/CanIDevTools/status/1539621151215058945",
-    "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1675577844/capture-node-screenshot-edge_z4fpvx.mp4"
-  },
-  "Safari": {
-    "Share": "https://twitter.com/CanIDevTools/status/1621055417391673344",
-    "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1675241512/capture-node-screenshot-safari_jg6eup.mp4",
-    "Notes": "1. In the **Elements** panel, right click on the node in the DOM tree and click on \"Capture Screenshot\". \n2. Safari preserves the transparency for the elements with no applied background colour.\n"
-  },
-  "Opera": {
-    "Share": "https://twitter.com/CanIDevTools/status/1539621846941061120",
-    "MP4": "https://res.cloudinary.com/canidevtools/video/upload/v1675577837/capture-node-screenshot-opera_z3qdu2.mp4",
-    "Notes": "1. In the **Elements** panel, right click on the node and select \"Capture node screenshot\".\n2. It retains visible background colour of elements with no background colour applied.\n"
-  },
-  "Polypane": {
-    "Notes": "1. Click the \"Camera\" icon above the pane you want to screenshot and select \"Element\". 2. Click the element you want to screenshot. 3. Alternatively, click the \"Camera\" icon in the Element inspector to screenshot the selected DOM node.\n",
-    "References": "1. \"Element screenshots\" [documentation](https://polypane.app/docs/making-screenshots/#element-screenshots)\n"
-  }
+    "Name": "Capture node screenshot",
+    "Slug": "capture-node-screenshot",
+    "Description": "Can I take screenshot of a DOM node?",
+    "Category": "Elements",
+    "Newsletter": "tips-tricks-37",
+    "LastModifiedTime": "2023-02-05T06:50:49.000Z",
+    "Authors": ["@pankajparashar", "@kilianvalkhof"],
+    "Related": ["capture-screenshot-console", "capture-viewport-screenshot", "capture-full-page-screenshot"],
+    "Chrome": {
+        "Share": "https://twitter.com/CanIDevTools/status/1621023980206583809",
+        "Notes": "1. In the **Elements** panel, right click on the node and select \"Capture node screenshot\".\n2. It retains visible background colour of elements with no background colour applied.\n",
+        "Video": "https://res.cloudinary.com/canidevtools/video/upload/v1675241512/capture-node-screenshot-chrome_wvdumf.mp4"
+    },
+    "Firefox": {
+        "Share": "https://twitter.com/CanIDevTools/status/1621025611530780673",
+        "Notes": "1. In the **Inspector** panel, right click on the node, and select \"Screenshot Node\".\n2. Firefox does not retain background transparency of the element in the screenshot.\n",
+        "Video": "https://res.cloudinary.com/canidevtools/video/upload/v1675241512/capture-node-screenshot-firefox_qmq5if.mp4"
+    },
+    "Edge": {
+        "Notes": "1. In the **Elements** panel, right click on the node and select \"Capture node screenshot\".\n2. It retains visible background colour of elements with no background colour applied.\n",
+        "Share": "https://twitter.com/CanIDevTools/status/1539621151215058945",
+        "Video": "https://res.cloudinary.com/canidevtools/video/upload/v1675577844/capture-node-screenshot-edge_z4fpvx.mp4"
+    },
+    "Safari": {
+        "Share": "https://twitter.com/CanIDevTools/status/1621055417391673344",
+        "Video": "https://res.cloudinary.com/canidevtools/video/upload/v1675241512/capture-node-screenshot-safari_jg6eup.mp4",
+        "Notes": "1. In the **Elements** panel, right click on the node in the DOM tree and click on \"Capture Screenshot\". \n2. Safari preserves the transparency for the elements with no applied background colour.\n"
+    },
+    "Opera": {
+        "Share": "https://twitter.com/CanIDevTools/status/1539621846941061120",
+        "Video": "https://res.cloudinary.com/canidevtools/video/upload/v1675577837/capture-node-screenshot-opera_z3qdu2.mp4",
+        "Notes": "1. In the **Elements** panel, right click on the node and select \"Capture node screenshot\".\n2. It retains visible background colour of elements with no background colour applied.\n"
+    },
+    "Polypane": {
+        "Notes": "1. Click the \"Camera\" icon above the pane you want to screenshot and select \"Element\". 2. Click the element you want to screenshot. 3. Alternatively, click the \"Camera\" icon in the Element inspector to screenshot the selected DOM node.\n",
+        "References": "1. \"Element screenshots\" [documentation](https://polypane.app/docs/making-screenshots/#element-screenshots)\n"
+    }
 }
