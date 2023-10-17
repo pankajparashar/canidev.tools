@@ -40,6 +40,7 @@ export default function Layout({ children, params }) {
             <Divider />
             <Alert
                 title={feature.Name}
+                color="gray"
                 styles={{
                     title: { fontSize: "var(--mantine-font-size-md)", marginBottom: 0 },
                     message: { fontSize: "var(--mantine-font-size-md)", wordBreak: "break-word" },
