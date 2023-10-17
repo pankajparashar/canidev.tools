@@ -55,7 +55,7 @@ Can I set a conditional breakpoint while debugging code?
 1. In **Sources**, right click the line number and select "Add a conditional breakpoint..."
 2. Input the conditional expression on which the execution should pause, and press `Enter`.
  
-## Add custom columns to Network table
+## Add custom columns to Network
 Can I add custom columns to the Network requests table?
 
 [Chrome](https://canidev.tools/add-custom-columns-network/chrome): 
@@ -375,10 +375,8 @@ In the **Console** tab, right click anywhere > select "Clear console history" to
 Can I clear the console?
 
 [Chrome](https://canidev.tools/clear-console/chrome): 
-Three ways to clear a console:
-1. Press `Ctrl+L` (on Windows/Linux) or `Cmd+K` (on MacOS) to clear the console.
-2. Click on the "Clear Console" icon in the toolbar on the top left side.
-3. Use `console.clear()` on the command line.
+1. Click the "Clear console" icon (top-left) or use the keyboard shortcut, `Ctrl+L` or `Cmd+K`.
+2. Alternatively, you can run `console.clear()` on the command line to clear the console.
  
 [Firefox](https://canidev.tools/clear-console/firefox): 
 Three ways to clear a console:
@@ -387,10 +385,8 @@ Three ways to clear a console:
 3. Use `console.clear()` on the command line.
  
 [Edge](https://canidev.tools/clear-console/edge): 
-Three ways to clear a console:
-1. Press `Ctrl+L` (on Windows/Linux) or `Cmd+K` (on MacOS) to clear the console.
-2. Click on the "Clear Console" icon in the toolbar on the top left side.
-3. Use `console.clear()` on the command line.
+1. Click the "Clear console" icon (top-left) or use the keyboard shortcut, `Ctrl+L` or `Cmd+K`.
+2. Alternatively, you can run `console.clear()` on the command line to clear the console.
  
 [Safari](https://canidev.tools/clear-console/safari): 
 Three ways to clear a console:
@@ -399,16 +395,12 @@ Three ways to clear a console:
 3. Use `console.clear()` on the command line.
  
 [Opera](https://canidev.tools/clear-console/opera): 
-Three ways to clear a console:
-1. Press `Ctrl+L` (on Windows/Linux) or `Cmd+K` (on MacOS) to clear the console.
-2. Click on the "Clear Console" icon in the toolbar on the top left side.
-3. Use `console.clear()` on the command line.
+1. Click the "Clear console" icon (top-left) or use the keyboard shortcut, `Ctrl+L` or `Cmd+K`.
+2. Alternatively, you can run `console.clear()` on the command line to clear the console.
  
 [Polypane](https://canidev.tools/clear-console/polypane): 
-Three ways to clear a console:
-1. Press `Cmd/Ctrl+Shift+K` to clear the console.
-2. Click on the "Clear Console" icon in the toolbar on the top left side.
-3. Use `console.clear()` on the command line.
+1. Click the "Clear console" icon (top-left) or use the keyboard shortcut, `Ctrl+Shift+K` or `Cmd+Shift+K`.
+2. Alternatively, you can run `console.clear()` on the command line to clear the console.
  
 ## Clear network log
 Can I clear network log?
