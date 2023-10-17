@@ -31,7 +31,7 @@ export default function Layout({ children, params }) {
                     }}>
                     {feature.Category}
                 </Badge>
-                <Button variant="default" size="sm" leftSection={<IconBrandGithub size={20} stroke={1.5} />} style={{ borderBottom: 0, borderTop: 0 }}>
+                <Button variant="default" size="sm" leftSection={<IconBrandGithub size={20} stroke={1.5} />} style={{ borderBottom: 0, borderTop: 0 }} component="a" href={`https://github.com/pankajparashar/canidev.tools/edit/v3/features/${feature.Slug}.json`}>
                     <Text fw="700" size="sm">
                         Edit
                     </Text>
