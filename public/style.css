@@ -19,6 +19,12 @@
     border-bottom: 2px solid;
 }
 
+pre,
+code {
+    font-family: inherit;
+    color: deeppink;
+}
+
 @media (prefers-color-scheme: dark) {
     .logo {
         filter: invert(1);
