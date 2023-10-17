@@ -25,10 +25,8 @@ code {
     color: deeppink;
 }
 
-@media (prefers-color-scheme: dark) {
-    .logo {
-        filter: invert(1);
-    }
+:root[data-mantine-color-scheme="dark"] .logo {
+    filter: invert(1);
 }
 
 video {
