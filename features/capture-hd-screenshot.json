@@ -1,20 +1,29 @@
 {
     "Name": "Capture HD screenshot",
     "Slug": "capture-hd-screenshot",
-    "Description": "Can I capture high definition screenshot of a page?",
+    "Description": "Can I capture a high definition screenshot of the page?",
     "Category": "Other",
-    
+
     "Authors": "@pankajparashar",
-    "Related": [
-        "capture-screenshot-console",
-        "capture-viewport-screenshot",
-        "capture-full-page-screenshot",
-        "capture-node-screenshot"
-    ],
-    
+    "Related": ["capture-screenshot-console", "capture-viewport-screenshot", "capture-full-page-screenshot", "capture-node-screenshot"],
+
     "Firefox": {
-        "Notes": [
-            "1. In **Console**, run the `:screenshot --dpr 2` command to take a high definiton screenshot with the device pixel ratio set to 2."
-        ]
+        "Notes": ["1. In the **Console** panel, run the command `:screenshot --dpr 2` to take a high definiton screenshot of the page with the device pixel ratio set to 2."],
+        "References": ["1. \"Web console helpers\", [Firefox Source Docs](https://firefox-source-docs.mozilla.org/devtools-user/web_console/helpers/index.html#web-console-helpers).", "2. \"Take high resolution screenshots of web pages\", [Devtools Tips](https://devtoolstips.org/tips/en/take-high-res-screenshots/)."]
+    },
+
+    "Chrome": {
+        "Notes": ["1. In Devtools, click the **Toggle device toolbar** icon (`Cmd+Shift+M` or `Ctrl+Shift+M`) to enter the responsive design mode.", "2. In the device toolbar, click **More options** (`⋮`) > **Add device pixel ratio**. In the action bar at the top of the viewport, select a DPR value from the new DPR drop-down menu."],
+        "References": ["1. \"Set device pixel ratio\", [Chrome Devtools Docs](https://developer.chrome.com/docs/devtools/device-mode/#dpr).", "2. \"Take high resolution screenshots of web pages\", [Devtools Tips](https://devtoolstips.org/tips/en/take-high-res-screenshots/)."]
+    },
+
+    "Edge": {
+        "Notes": ["1. In Devtools, click the **Toggle device toolbar** icon (`Cmd+Shift+M` or `Ctrl+Shift+M`) to enter the responsive design mode.", "2. In the device toolbar, click **More options** (`⋮`) > **Add device pixel ratio**. In the action bar at the top of the viewport, select a DPR value from the new DPR drop-down menu."],
+        "References": ["1. \"Take high resolution screenshots of web pages\", [Devtools Tips](https://devtoolstips.org/tips/en/take-high-res-screenshots/)."]
+    },
+
+    "Opera": {
+        "Notes": ["1. In Devtools, click the **Toggle device toolbar** icon (`Cmd+Shift+M` or `Ctrl+Shift+M`) to enter the responsive design mode.", "2. In the device toolbar, click **More options** (`⋮`) > **Add device pixel ratio**. In the action bar at the top of the viewport, select a DPR value from the new DPR drop-down menu."],
+        "References": ["1. \"Take high resolution screenshots of web pages\", [Devtools Tips](https://devtoolstips.org/tips/en/take-high-res-screenshots/)."]
     }
 }
