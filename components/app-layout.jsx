@@ -87,7 +87,7 @@ export const AppLayout = props => {
                 ) : (
                     <Box className="grid">
                         <ScrollArea h={"calc(100dvh - 4em)"} type="never" scrollbarSize={5} scrollHideDelay={0} p="md" pb="0">
-                            <TextInput variant="filled" placeholder={`Search ${searchParams.get("category") || "All"}`} leftSection={<IconListSearch stroke={1.5} size={20} />} leftSectionPointerEvents="none" rightSection={<IconArrowBack stroke={1.5} size={20} />} />
+                            <TextInput variant="filled" placeholder={`Search ${searchParams.get("category") || "All"}`} leftSection={<IconListSearch stroke={1.5} size={20} />} leftSectionPointerEvents="none" rightSection={<IconArrowBack stroke={1.5} size={20} />} mb="md" />
                             {features
                                 .filter(f => searchParams.get("category") === null || f.Category === searchParams.get("category"))
                                 .map(feature => (
@@ -99,7 +99,7 @@ export const AppLayout = props => {
                                             description={feature.Description}
                                             styles={{
                                                 label: { fontSize: "var(--mantine-font-size-md)" },
-                                                description: { fontSize: "var(--mantine-font-size-md)" },
+                                                description: { fontSize: "var(--mantine-font-size-md)", fontStyle: "italic", letterSpacing: ".1px" },
                                             }}
                                             active={pathname.includes(feature.Slug)}
                                             variant={pathname.includes(feature.Slug) ? "filled" : "default"}
