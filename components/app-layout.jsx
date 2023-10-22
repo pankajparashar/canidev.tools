@@ -5,7 +5,7 @@ import { useSearchParams, usePathname } from "next/navigation";
 import Link from "next/link";
 
 import { useDisclosure, useMediaQuery } from "@mantine/hooks";
-import { Box, Tabs, Anchor, TextInput, Accordion, ActionIcon, AppShell, Burger, Group, ScrollArea, NavLink, Divider, useMantineColorScheme } from "@mantine/core";
+import { Affix, Box, Tabs, Anchor, TextInput, Accordion, ActionIcon, AppShell, Burger, Group, ScrollArea, NavLink, Divider, useMantineColorScheme } from "@mantine/core";
 
 import { IconArrowBack, IconListSearch, IconBrightness, IconListDetails, IconBrandSpeedtest, IconCode, IconBoxMargin, IconAccessible, IconReportMedical, IconTerminal2, IconBrandNextjs, IconAffiliate, IconHexagons, IconCrosshair, IconChevronRight } from "@tabler/icons-react";
 import { DataContext } from "./data-provider";
@@ -87,8 +87,10 @@ export const AppLayout = props => {
                 ) : (
                     <Box className="grid">
                         <ScrollArea h={"calc(100dvh - 4em)"} type="never" scrollbarSize={5} scrollHideDelay={0} p="md" pb="0">
-                            <TextInput variant="filled" placeholder={`Search ${searchParams.get("category") || "All"}`} leftSection={<IconListSearch stroke={1.5} size={20} />} leftSectionPointerEvents="none" rightSection={<IconArrowBack stroke={1.5} size={20} />} mb="md" />
-                            <Divider />
+                            <Box style={{ position: "sticky", top: 0 }}>
+                                <TextInput variant="filled" placeholder={`Search ${searchParams.get("category") || "All"}`} leftSection={<IconListSearch stroke={1.5} size={20} />} leftSectionPointerEvents="none" rightSection={<IconArrowBack stroke={1.5} size={20} />} />
+                                <Divider />
+                            </Box>
                             {features
                                 .filter(f => searchParams.get("category") === null || f.Category === searchParams.get("category"))
                                 .map(feature => (
