@@ -13,6 +13,7 @@ export default function Layout({ children, params }) {
     const pathname = usePathname();
 
     const browser = pathname.split("/")[2];
+    const borderColor = theme => `1px solid var(--_app-shell-border-color)`;
 
     const { features } = useContext(DataContext);
     const feature = features.find(f => f.Slug === params.slug);
@@ -49,12 +50,12 @@ export default function Layout({ children, params }) {
             </Alert>
             <Divider />
             <Tabs value={browser} onChange={value => router.push(`/${params.slug}/${value}`)} variant="pills">
-                <Tabs.List grow justify="space-between">
-                    <Tabs.Tab value="chrome" leftSection={<IconBrandChrome stroke={1.5} />} disabled={!feature.Chrome}></Tabs.Tab>
-                    <Tabs.Tab value="firefox" leftSection={<IconBrandFirefox stroke={1.5} />} disabled={!feature.Firefox}></Tabs.Tab>
-                    <Tabs.Tab value="edge" leftSection={<IconBrandEdge stroke={1.5} />} disabled={!feature.Edge}></Tabs.Tab>
-                    <Tabs.Tab value="safari" leftSection={<IconBrandSafari stroke={1.5} />} disabled={!feature.Safari}></Tabs.Tab>
-                    <Tabs.Tab value="opera" leftSection={<IconBrandOpera stroke={1.5} />} disabled={!feature.Opera}></Tabs.Tab>
+                <Tabs.List grow justify="space-between" spacing={0} style={{ gap: 0 }}>
+                    <Tabs.Tab style={{ borderRight: borderColor() }} value="chrome" leftSection={<IconBrandChrome stroke={1.5} />} disabled={!feature.Chrome}></Tabs.Tab>
+                    <Tabs.Tab style={{ borderRight: borderColor() }} value="firefox" leftSection={<IconBrandFirefox stroke={1.5} />} disabled={!feature.Firefox}></Tabs.Tab>
+                    <Tabs.Tab style={{ borderRight: borderColor() }} value="edge" leftSection={<IconBrandEdge stroke={1.5} />} disabled={!feature.Edge}></Tabs.Tab>
+                    <Tabs.Tab style={{ borderRight: borderColor() }} value="safari" leftSection={<IconBrandSafari stroke={1.5} />} disabled={!feature.Safari}></Tabs.Tab>
+                    <Tabs.Tab style={{ borderRight: borderColor() }} value="opera" leftSection={<IconBrandOpera stroke={1.5} />} disabled={!feature.Opera}></Tabs.Tab>
                     <Tabs.Tab value="polypane" leftSection={<IconBrandPolypane stroke={1.5} />} disabled={!feature.Polypane}></Tabs.Tab>
                 </Tabs.List>
             </Tabs>
