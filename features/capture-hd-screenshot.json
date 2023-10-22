@@ -14,6 +14,7 @@
 
     "Chrome": {
         "Video": "https://res.cloudinary.com/canidevtools/video/upload/v1698008639/capture-hd-screenshot-chrome.mp4",
+        "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1698009792/capture-hd-screenshot-chrome.png",
         "Share": "https://twitter.com/CanIDevTools/status/1716201822698807701",
         "Notes": ["1. In Devtools, click the **Toggle device toolbar** icon (`Cmd+Shift+M` or `Ctrl+Shift+M`) to enter the responsive design mode.", "2. In the device toolbar, click **More options** (`⋮`) > **Add device pixel ratio**. In the action bar at the top of the viewport, select a DPR value from the new DPR drop-down menu."],
         "References": ["1. \"Set device pixel ratio\", [Chrome Devtools Docs](https://developer.chrome.com/docs/devtools/device-mode/#dpr).", "2. \"Take high resolution screenshots of web pages\", [Devtools Tips](https://devtoolstips.org/tips/en/take-high-res-screenshots/)."]
