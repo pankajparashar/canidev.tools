@@ -96,15 +96,15 @@ export const AppLayout = props => {
                                 .map(feature => (
                                     <div key={feature.Slug}>
                                         <NavLink
-                                            px={pathname.includes(feature.Slug) ? "xs" : 0}
+                                            px={pathname === "/" + feature.Slug ? "xs" : 0}
                                             label={feature.Name}
                                             description={feature.Description}
                                             styles={{
                                                 label: { fontSize: "var(--mantine-font-size-md)" },
                                                 description: { fontSize: "var(--mantine-font-size-md)" },
                                             }}
-                                            active={pathname.includes(feature.Slug)}
-                                            variant={pathname.includes(feature.Slug) ? "filled" : "default"}
+                                            active={pathname === "/" + feature.Slug}
+                                            variant={pathname === "/" + feature.Slug ? "filled" : "default"}
                                             component={Link}
                                             href={{
                                                 pathname: `/${feature.Slug}`,
