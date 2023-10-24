@@ -4,7 +4,7 @@ import { useContext } from "react";
 import { marked } from "marked";
 
 import { ScrollArea, Accordion, Box, Text, Divider } from "@mantine/core";
-import { IconNotes, IconBrandSafari, IconBrandEdge, IconBrandChrome, IconBrandFirefox, IconBrandOpera } from "@tabler/icons-react";
+import { IconBrandYoutube, IconNotes, IconBrandSafari, IconBrandEdge, IconBrandChrome, IconBrandFirefox, IconBrandOpera } from "@tabler/icons-react";
 
 import { DataContext } from "../../../components/data-provider";
 import { IconBrandPolypane } from "../../../components/tabler-icons";
@@ -32,8 +32,8 @@ export default function Page({ params }) {
                     content: { padding: 0 },
                 }}>
                 <Accordion.Item value="video">
-                    <Accordion.Control icon={icons[browser]}>
-                        <Text fw={700}>{browser}</Text>
+                    <Accordion.Control icon={<IconBrandYoutube stroke={1} />}>
+                        <Text fw={700}>Video</Text>
                     </Accordion.Control>
                     <Accordion.Panel p="0">
                         <video controls autoPlay loop muted playsInline preload="metadata" src={feature[browser]?.Video + "#t=0.1"} />
