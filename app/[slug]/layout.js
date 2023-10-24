@@ -4,6 +4,7 @@ import { useContext } from "react";
 import { DataContext } from "../../components/data-provider";
 import { IconBrandPolypane } from "../../components/tabler-icons";
 import { useRouter, usePathname } from "next/navigation";
+import { useDisclosure, useMediaQuery } from "@mantine/hooks";
 
 import { Paper, Badge, Alert, Divider, Group, Button, Tabs, Text } from "@mantine/core";
 import { IconBrandGithub, IconBrandSafari, IconBrandEdge, IconBrandChrome, IconBrandFirefox, IconBrandOpera } from "@tabler/icons-react";
@@ -12,6 +13,7 @@ import { IconArrowBack, IconListSearch, IconBrightness, IconListDetails, IconBra
 export default function Layout({ children, params }) {
     const router = useRouter();
     const pathname = usePathname();
+    const isMobile = useMediaQuery("(max-width: 700px)");
 
     const browser = pathname.split("/")[2];
     const borderColor = theme => `1px solid var(--_app-shell-border-color)`;
@@ -54,7 +56,7 @@ export default function Layout({ children, params }) {
             </Group>
             <Divider />
             <Alert
-                icon={icons[feature.Category]}
+                icon={isMobile ? null : icons[feature.Category]}
                 title={feature.Name}
                 styles={{
                     title: { fontSize: "var(--mantine-font-size-md)", marginBottom: 0 },
