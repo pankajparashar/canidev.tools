@@ -9,8 +9,8 @@
         "lint": "next lint"
     },
     "dependencies": {
-        "@mantine/core": "^7.1.2",
-        "@mantine/hooks": "^7.1.2",
+        "@mantine/core": "^7.1.5",
+        "@mantine/hooks": "^7.1.5",
         "@tabler/icons-react": "^2.34.0",
         "@vercel/analytics": "^1.1.0",
         "marked": "^9.1.0",
