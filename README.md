@@ -299,7 +299,9 @@ Can I capture a high definition screenshot of the page?
 
 [Chrome](https://canidev.tools/capture-hd-screenshot/chrome): 
 1. In Devtools, click the **Toggle device toolbar** icon (`Cmd+Shift+M` or `Ctrl+Shift+M`) to enter the responsive design mode.
-2. In the device toolbar, click **More options** (`⋮`) > **Add device pixel ratio**. In the action bar at the top of the viewport, select a DPR value from the new DPR drop-down menu.![](https://res.cloudinary.com/canidevtools/image/upload/v1698009792/capture-hd-screenshot-chrome.png)
+2. In the device toolbar, click **More options** (`⋮`) > **Add device pixel ratio**. In the action bar at the top of the viewport, select a DPR value from the new DPR drop-down menu.
+3. Click **More options** > select **Capture screenshot** for viewport or **Capture full size screenshot** for the entire page.
+![](https://res.cloudinary.com/canidevtools/image/upload/v1698009792/capture-hd-screenshot-chrome.png)
 
 [Firefox](https://canidev.tools/capture-hd-screenshot/firefox): 
 1. In the **Console** panel, run the command `:screenshot --dpr 2` to take a high definiton screenshot of the page with the device pixel ratio set to 2.
@@ -307,10 +309,12 @@ Can I capture a high definition screenshot of the page?
 [Edge](https://canidev.tools/capture-hd-screenshot/edge): 
 1. In Devtools, click the **Toggle device toolbar** icon (`Cmd+Shift+M` or `Ctrl+Shift+M`) to enter the responsive design mode.
 2. In the device toolbar, click **More options** (`⋮`) > **Add device pixel ratio**. In the action bar at the top of the viewport, select a DPR value from the new DPR drop-down menu.
+3. Click **More options** > select **Capture screenshot** for viewport or **Capture full size screenshot** for the entire page.
 
 [Opera](https://canidev.tools/capture-hd-screenshot/opera): 
 1. In Devtools, click the **Toggle device toolbar** icon (`Cmd+Shift+M` or `Ctrl+Shift+M`) to enter the responsive design mode.
 2. In the device toolbar, click **More options** (`⋮`) > **Add device pixel ratio**. In the action bar at the top of the viewport, select a DPR value from the new DPR drop-down menu.
+3. Click **More options** > select **Capture screenshot** for viewport or **Capture full size screenshot** for the entire page.
 
 ## Capture node screenshot
 Can I take screenshot of a DOM node?
