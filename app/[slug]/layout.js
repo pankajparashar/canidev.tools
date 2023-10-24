@@ -7,6 +7,7 @@ import { useRouter, usePathname } from "next/navigation";
 
 import { Paper, Badge, Alert, Divider, Group, Button, Tabs, Text } from "@mantine/core";
 import { IconBrandGithub, IconBrandSafari, IconBrandEdge, IconBrandChrome, IconBrandFirefox, IconBrandOpera } from "@tabler/icons-react";
+import { IconArrowBack, IconListSearch, IconBrightness, IconListDetails, IconBrandSpeedtest, IconCode, IconBoxMargin, IconAccessible, IconReportMedical, IconTerminal2, IconBrandNextjs, IconAffiliate, IconHexagons, IconCrosshair, IconChevronRight } from "@tabler/icons-react";
 
 export default function Layout({ children, params }) {
     const router = useRouter();
@@ -17,6 +18,19 @@ export default function Layout({ children, params }) {
 
     const { features } = useContext(DataContext);
     const feature = features.find(f => f.Slug === params.slug);
+
+    const icons = {
+        CSS: <IconBoxMargin size={20} stroke={1} />,
+        Accessibility: <IconAccessible size={20} stroke={1} />,
+        Audit: <IconReportMedical size={20} stroke={1} />,
+        Console: <IconTerminal2 size={20} stroke={1} />,
+        Elements: <IconCrosshair size={20} stroke={1} />,
+        JavaScript: <IconBrandNextjs size={20} stroke={1} />,
+        Network: <IconAffiliate size={20} stroke={1} />,
+        Other: <IconHexagons size={20} stroke={1} />,
+        Sources: <IconCode size={20} stroke={1} />,
+        Performance: <IconBrandSpeedtest size={20} stroke={1} />,
+    };
 
     return (
         <Paper className="column" w="100%" withBorder style={{ borderTop: 0, borderBottom: 0 }}>
@@ -40,11 +54,12 @@ export default function Layout({ children, params }) {
             </Group>
             <Divider />
             <Alert
+                icon={icons[feature.Category]}
                 title={feature.Name}
-                color="gray"
                 styles={{
                     title: { fontSize: "var(--mantine-font-size-md)", marginBottom: 0 },
                     message: { fontSize: "var(--mantine-font-size-md)", wordBreak: "break-word" },
+                    icon: { marginTop: "5px" },
                 }}>
                 {feature.Description}
             </Alert>

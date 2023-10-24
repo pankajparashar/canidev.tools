@@ -88,7 +88,7 @@ export const AppLayout = props => {
                     <Box className="grid">
                         <ScrollArea h={"calc(100dvh - 4em)"} type="never" scrollbarSize={5} scrollHideDelay={0} p="md" pb="0">
                             <Box style={{ position: "sticky", top: 0, backgroundColor: "var(--mantine-color-body)" }}>
-                                <TextInput variant="filled" placeholder={`Search ${searchParams.get("category") || "All"}`} leftSection={<IconListSearch stroke={1.5} size={20} />} leftSectionPointerEvents="none" rightSection={<IconArrowBack stroke={1.5} size={20} />} mb="xs" />
+                                <TextInput variant="filled" placeholder={`Search ${searchParams.get("category") || "All"}`} leftSection={<IconListSearch stroke={1.5} size={20} />} leftSectionPointerEvents="none" rightSection={<IconArrowBack stroke={1.5} size={20} />} mb="md" />
                                 <Divider />
                             </Box>
                             {features

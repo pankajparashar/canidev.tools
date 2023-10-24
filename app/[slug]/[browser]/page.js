@@ -3,14 +3,25 @@
 import { useContext } from "react";
 import { marked } from "marked";
 
-import { DataContext } from "../../../components/data-provider";
 import { ScrollArea, Accordion, Box, Text, Divider } from "@mantine/core";
-import { IconWorld, IconNotes } from "@tabler/icons-react";
+import { IconNotes, IconBrandSafari, IconBrandEdge, IconBrandChrome, IconBrandFirefox, IconBrandOpera } from "@tabler/icons-react";
+
+import { DataContext } from "../../../components/data-provider";
+import { IconBrandPolypane } from "../../../components/tabler-icons";
 
 export default function Page({ params }) {
     const { features } = useContext(DataContext);
     const feature = features.find(f => f.Slug === params.slug);
     const browser = params.browser.charAt(0).toUpperCase() + params.browser.slice(1);
+
+    const icons = {
+        Chrome: <IconBrandChrome stroke={1} />,
+        Firefox: <IconBrandFirefox stroke={1} />,
+        Edge: <IconBrandEdge stroke={1} />,
+        Safari: <IconBrandSafari stroke={1} />,
+        Opera: <IconBrandOpera stroke={1} />,
+        Polypane: <IconBrandPolypane stroke={1} />,
+    };
 
     return (
         <ScrollArea.Autosize mah={"100%"} type="never">
@@ -21,7 +32,7 @@ export default function Page({ params }) {
                     content: { padding: 0 },
                 }}>
                 <Accordion.Item value="video">
-                    <Accordion.Control icon={<IconWorld stroke={1} />}>
+                    <Accordion.Control icon={icons[browser]}>
                         <Text fw={700}>{browser}</Text>
                     </Accordion.Control>
                     <Accordion.Panel p="0">
