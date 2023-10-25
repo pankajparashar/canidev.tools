@@ -19,6 +19,13 @@
     border-bottom: 2px solid;
 }
 
+pre {
+    background-color: var(--_item-filled-color);  
+    text-wrap: pretty;
+    padding: 5px;
+    margin-top: 0
+}
+
 pre,
 code {
     font-family: inherit;

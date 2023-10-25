@@ -49,7 +49,7 @@ export default function Page({ params }) {
                                 __html: feature[browser]?.Notes ? marked.parse(Array.isArray(feature[browser].Notes) ? feature[browser].Notes.join("\n") : feature[browser].Notes) : "",
                             }}
                         />
-                        <Divider label="References" labelPosition="left" variant="dashed" pl="md" pr="md" />
+                        {feature[browser]?.References ? <Divider label="References" labelPosition="left" variant="dashed" pl="md" pr="md" /> : null}
                         <Box
                             dangerouslySetInnerHTML={{
                                 __html: feature[browser]?.References ? marked.parse(Array.isArray(feature[browser].References) ? feature[browser].References.join("\n") : feature[browser].References) : "",
