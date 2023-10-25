@@ -5,7 +5,7 @@ import { useSearchParams, usePathname } from "next/navigation";
 import Link from "next/link";
 
 import { useDisclosure, useMediaQuery } from "@mantine/hooks";
-import { Affix, Box, Tabs, Anchor, TextInput, Accordion, ActionIcon, AppShell, Burger, Group, ScrollArea, NavLink, Divider, useMantineColorScheme } from "@mantine/core";
+import { Affix, Box, Tabs, Text, Anchor, TextInput, Accordion, ActionIcon, AppShell, Burger, Group, ScrollArea, NavLink, Divider, useMantineColorScheme } from "@mantine/core";
 
 import { IconArrowBack, IconListSearch, IconBrightness, IconListDetails, IconBrandSpeedtest, IconCode, IconBoxMargin, IconAccessible, IconReportMedical, IconTerminal2, IconBrandNextjs, IconAffiliate, IconHexagons, IconCrosshair, IconChevronRight } from "@tabler/icons-react";
 import { DataContext } from "./data-provider";
@@ -86,9 +86,9 @@ export const AppLayout = props => {
                     <Box>{props.children}</Box>
                 ) : (
                     <Box className="grid">
-                        <ScrollArea h={"calc(100dvh - 4em)"} type="never" scrollbarSize={5} scrollHideDelay={0} p="md" pb="0">
+                        <ScrollArea h={"calc(100dvh - 4em)"} type="never" scrollbarSize={5} scrollHideDelay={0} p="0" pb="0">
                             <Box style={{ position: "sticky", top: 0, backgroundColor: "var(--mantine-color-body)" }}>
-                                <TextInput variant="filled" placeholder={`Search ${searchParams.get("category") || "All"}`} leftSection={<IconListSearch stroke={1.5} size={20} />} leftSectionPointerEvents="none" rightSection={<IconArrowBack stroke={1.5} size={20} />} mb="md" />
+                                <TextInput variant="filled" placeholder={`Search ${searchParams.get("category") || "All"}`} leftSection={<IconListSearch stroke={1.5} size={20} />} leftSectionPointerEvents="none" rightSection={<IconArrowBack stroke={1.5} size={20} />} p="md" />
                                 <Divider />
                             </Box>
                             {features
@@ -96,7 +96,7 @@ export const AppLayout = props => {
                                 .map(feature => (
                                     <div key={feature.Slug}>
                                         <NavLink
-                                            px={pathname === "/" + feature.Slug ? "xs" : 0}
+                                            p="md"
                                             label={feature.Name}
                                             description={feature.Description}
                                             styles={{

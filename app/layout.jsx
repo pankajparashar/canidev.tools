@@ -20,10 +20,13 @@ export default async function RootLayout({ children }) {
     const categories = {};
     const features = [];
 
-    fs.readdirSync("features").forEach(name => {
-        const filename = path.join("features", name);
-        const file = fs.readFileSync(filename);
-        const feature = JSON.parse(file);
+    fs.readdirSync("features").forEach(filename => {
+        const filepath = path.join("features", filename);
+        const fileobj = fs.readFileSync(filepath);
+        const mtime = fs.statSync(filepath).mtime
+        
+        const feature = JSON.parse(fileobj);
+        feature.mtime = mtime.toLocaleDateString();
         features.push(feature);
 
         const category = feature.Category;
