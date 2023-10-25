@@ -312,6 +312,8 @@ Can I capture a high definition screenshot of the page?
 2. In the device toolbar, click **More options** (`⋮`) > **Add device pixel ratio**. In the action bar at the top of the viewport, select a DPR value from the new DPR drop-down menu.
 3. Click **More options** > select **Capture screenshot** for viewport or **Capture full size screenshot** for the entire page.
 
+![](https://res.cloudinary.com/canidevtools/image/upload/v1698273938/capture-hd-screenshot-edge.png)
+
 [Opera](https://canidev.tools/capture-hd-screenshot/opera): 
 1. In Devtools, click the **Toggle device toolbar** icon (`Cmd+Shift+M` or `Ctrl+Shift+M`) to enter the responsive design mode.
 2. In the device toolbar, click **More options** (`⋮`) > **Add device pixel ratio**. In the action bar at the top of the viewport, select a DPR value from the new DPR drop-down menu.
@@ -2224,47 +2226,31 @@ Can I open developer tools using a mouse?
 
 
 ## Open devtools with new tab
-Can I open developer tools automatically with new tab or window?
+Can I open developer tools by default with a new tab or a window?
 
 [Chrome](https://canidev.tools/open-devtools-new-tab/chrome): 
-**a. MacOS**: In the terminal, pass the `--auto-open-devtools-for-tabs` flag to while launching Chrome.
-```
-/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --auto-open-devtools-for-tabs
-```
-
-**b. Windows**: Right-click the Chrome shortcut > Properties and add the flag at the end of the Target line. Alternatively, run the following from your command-line,
-```
-"C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" -auto-open-devtools-for-tabs
-```
-
+1. **MacOS**: In the terminal, pass the `--auto-open-devtools-for-tabs` flag to while launching Chrome. <pre>/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --auto-open-devtools-for-tabs</pre>
+2. **Windows**: Right-click the Chrome shortcut > Properties and add the flag at the end of the Target line. Alternatively, run the following from your command-line. <pre>C:\Program Files (x86)\Google\Chrome\Application\chrome.exe -auto-open-devtools-for-tabs</pre>
 
 [Firefox](https://canidev.tools/open-devtools-new-tab/firefox): 
-Firefox provides the `-devtools` command line parameter to launch a new window with devtools open by default.
-
-a. **Windows:**
-Open Run > Enter command, `firefox -devtools`.  
-b. **MacOS:**
-In the terminal, enter the following commands,
-```
+1. Firefox provides the `-devtools` command line parameter to launch a new window with devtools open by default.
+2. In **Windows:** Open Run > Enter command, <pre>> firefox -devtools</pre>In **MacOS:** In the terminal, enter the following commands, <pre>
 $ cd /Applications/Firefox.app/Contents/MacOS
-$ ./firefox -devtools
-```
-
+$ ./firefox -devtools</pre>
 
 [Edge](https://canidev.tools/open-devtools-new-tab/edge): 
-1. **MacOS**: In the terminal, pass the `--auto-open-devtools-for-tabs` flag to while launching Edge.
-```
-/Applications/Microsoft\ Edge.app/Contents/MacOS/Microsoft\ Edge --auto-open-devtools-for-tabs https://web.dev
-```
-1. **Windows**: Right-click the Edge shortcut > Properties and add the flag at the end of the Target line. Alternatively, run the following from your command-line,
-```
-"C:\Program Files (x86)\Microsoft\Edge\Application\edge.exe" -auto-open-devtools-for-tabs
-```
+1. At the command line, open Microsoft Edge, passing in the --auto-open-devtools-for-tabs flag, as follows:
+2. **Windows**: <pre>start msedge --auto-open-devtools-for-tabs 
+Start-Process -FilePath "msedge" -ArgumentList "--auto-open-devtools-for-tabs</pre> 
+**MacOS**: <pre>/Applications/Microsoft\ Edge.app/Contents/MacOS/Microsoft\ Edge --auto-open-devtools-for-tabs</pre> 
+ **Linux**: <pre>microsoft-edge-dev --auto-open-devtools-for-tabs</pre>
 
+[Opera](https://canidev.tools/open-devtools-new-tab/opera): 
+1. **MacOS**: In the terminal, pass the `--auto-open-devtools-for-tabs` flag to while launching Opera. <pre>/Applications/Opera/Contents/MacOS/Opera --auto-open-devtools-for-tabs</pre>
+2. **Windows**: Right-click the Opera shortcut > Properties and add the flag at the end of the Target line. Alternatively, run the following from your command-line. <pre>C:\Program Files (x86)\Opera\opera.exe -auto-open-devtools-for-tabs</pre>
 
 [Polypane](https://canidev.tools/open-devtools-new-tab/polypane): 
-1. Open the devtools
-2. In the File menu select "Set Current Tab as Default New Tab".
+1. Open DevTools > In the File menu select "Set Current Tab as Default New Tab".
 
 
 ## Output data as table
