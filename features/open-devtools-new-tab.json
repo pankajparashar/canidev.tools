@@ -24,6 +24,7 @@
     "Edge": {
         "Video": "https://res.cloudinary.com/canidevtools/video/upload/l_watermark,w_100,o_10/open-devtools-new-tab-edge.mp4",
         "Image": "https://res.cloudinary.com/canidevtools/image/upload/l_watermark,w_100,o_10/open-devtools-new-tab-edge.png",
+        "Share": "https://twitter.com/CanIDevTools/status/1717681871234945515",
         "Notes": [
             "1. At the command line, open Microsoft Edge, passing in the --auto-open-devtools-for-tabs flag, as follows:",
             "2. **Windows**: <pre>start msedge --auto-open-devtools-for-tabs \nStart-Process -FilePath \"msedge\" -ArgumentList \"--auto-open-devtools-for-tabs</pre> \n**MacOS**: <pre>/Applications/Microsoft\\ Edge.app/Contents/MacOS/Microsoft\\ Edge --auto-open-devtools-for-tabs</pre> \n **Linux**: <pre>microsoft-edge --auto-open-devtools-for-tabs</pre>"
