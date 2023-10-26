@@ -2226,7 +2226,7 @@ Can I open developer tools using a mouse?
 
 
 ## Open devtools with new tab
-Can I open developer tools by default with a new tab or a window?
+Can I open developer tools by default with a new tab or a new window?
 
 [Chrome](https://canidev.tools/open-devtools-new-tab/chrome): 
 1. **MacOS**: In the terminal, pass the `--auto-open-devtools-for-tabs` flag to while launching Chrome. <pre>/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --auto-open-devtools-for-tabs</pre>
