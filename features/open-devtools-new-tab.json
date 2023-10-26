@@ -1,7 +1,7 @@
 {
     "Name": "Open devtools with new tab",
     "Slug": "open-devtools-new-tab",
-    "Description": "Can I open developer tools by default with a new tab or a window?",
+    "Description": "Can I open developer tools by default with a new tab or a new window?",
     "Category": "Other",
 
     "Authors": ["@pankajparashar", "@kilianvalkhof"],
