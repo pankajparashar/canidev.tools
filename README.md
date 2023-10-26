@@ -2243,7 +2243,8 @@ $ ./firefox -devtools</pre>
 2. **Windows**: <pre>start msedge --auto-open-devtools-for-tabs 
 Start-Process -FilePath "msedge" -ArgumentList "--auto-open-devtools-for-tabs</pre> 
 **MacOS**: <pre>/Applications/Microsoft\ Edge.app/Contents/MacOS/Microsoft\ Edge --auto-open-devtools-for-tabs</pre> 
- **Linux**: <pre>microsoft-edge-dev --auto-open-devtools-for-tabs</pre>
+ **Linux**: <pre>microsoft-edge --auto-open-devtools-for-tabs</pre>
+![](https://res.cloudinary.com/canidevtools/image/upload/l_watermark,w_100,o_10/open-devtools-new-tab-edge.png)
 
 [Opera](https://canidev.tools/open-devtools-new-tab/opera): 
 1. **MacOS**: In the terminal, pass the `--auto-open-devtools-for-tabs` flag to while launching Opera. <pre>/Applications/Opera/Contents/MacOS/Opera --auto-open-devtools-for-tabs</pre>
