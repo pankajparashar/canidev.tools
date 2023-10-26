@@ -18,8 +18,8 @@
     },
 
     "Chrome": {
-        "Video": "https://res.cloudinary.com/canidevtools/video/upload/v1698008639/capture-hd-screenshot-chrome.mp4",
-        "Image": "https://res.cloudinary.com/canidevtools/image/upload/v1698009792/capture-hd-screenshot-chrome.png",
+        "Video": "https://res.cloudinary.com/canidevtools/video/upload/l_watermark,w_100,o_10/capture-hd-screenshot-chrome.mp4",
+        "Image": "https://res.cloudinary.com/canidevtools/image/upload/l_watermark,w_100,o_10/capture-hd-screenshot-chrome.png",
         "Share": "https://twitter.com/CanIDevTools/status/1716201822698807701",
         "Notes": [
             "1. In Devtools, click the **Toggle device toolbar** icon (`Cmd+Shift+M` or `Ctrl+Shift+M`) to enter the responsive design mode.", 
