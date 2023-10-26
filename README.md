@@ -302,7 +302,7 @@ Can I capture a high definition screenshot of the page?
 2. In the device toolbar, click **More options** (`⋮`) > **Add device pixel ratio**. In the action bar at the top of the viewport, select a DPR value from the new DPR drop-down menu.
 3. Click **More options** > select **Capture screenshot** for viewport or **Capture full size screenshot** for the entire page.
 
-![](https://res.cloudinary.com/canidevtools/image/upload/v1698009792/capture-hd-screenshot-chrome.png)
+![](https://res.cloudinary.com/canidevtools/image/upload/l_watermark,w_100,o_10/capture-hd-screenshot-chrome.png)
 
 [Firefox](https://canidev.tools/capture-hd-screenshot/firefox): 
 1. In the **Console** panel, run the command `:screenshot --dpr 2` to take a high definiton screenshot of the page with the device pixel ratio set to 2.
