@@ -1,5 +1,5 @@
 ## Add audio breakpoint
-Can I add audio breakpoint whenever a line of code is executed?
+Can I add an audio breakpoint for debugging the source code?
 
 [Safari](https://canidev.tools/add-audio-breakpoint/safari): 
 1. In **Sources** > Add a breakpoint by clicking the line number > Right click and select "Edit Breakpoint...".
@@ -7,7 +7,7 @@ Can I add audio breakpoint whenever a line of code is executed?
 
 
 ## Add class to element
-Can I add a class to an HTML element?
+Can I add an existing CSS class to an HTML element?
 
 [Chrome](https://canidev.tools/add-class-element/chrome): 
 1. Inspect the element > Look for ".cls" button in the Styles pane next to the Filter field.
