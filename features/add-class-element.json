@@ -1,7 +1,7 @@
 {
     "Name": "Add class to element",
     "Slug": "add-class-element",
-    "Description": "Can I add a class to an HTML element?",
+    "Description": "Can I add an existing CSS class to an HTML element?",
     "Category": "CSS",
     "Newsletter": "tips-tricks-22",
     "LastModifiedTime": "2022-10-10T05:11:49.000Z",
