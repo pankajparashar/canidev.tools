@@ -60,6 +60,8 @@ export default async function RootLayout({ children }) {
                   type="image/<generated>"
                   sizes="<generated>"
                 />
+                <meta name="theme-color" content="#000000" />
+
                 <ColorSchemeScript />
             </head>
             <body>
