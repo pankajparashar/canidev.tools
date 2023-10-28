@@ -158,14 +158,15 @@ export const AppLayout = props => {
 };
 
 const CarbonAd = () => {
-    const reference = useRef();
+    const adRef = useRef();
 
-    useEffect(() => {
-        reference.current.innerHTML = "";
+    useEffect(() => {        
+        adRef.current.addEventListener("DOMNodeInserted", event => event.target.id === "carbonads_1" && event.target.remove())
+                
         const s = document.createElement("script");
         s.id = "_carbonads_js";
         s.src = `//cdn.carbonads.com/carbon.js?serve=CEAIVKJJ&placement=wwwcanidevtools`;
-        reference.current.appendChild(s);
+        adRef.current.appendChild(s);
     }, []);
 
     return (
@@ -176,7 +177,7 @@ const CarbonAd = () => {
                 </Tabs.Tab>
             </Tabs.List>
 
-            <Tabs.Panel value="ads" ref={reference} />
+            <Tabs.Panel value="ads" ref={adRef} />
         </Tabs>
     );
 };
