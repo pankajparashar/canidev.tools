@@ -1,22 +1,35 @@
 "use client";
 
 import { useRef, useEffect, useContext } from "react";
-import { useSearchParams, usePathname } from "next/navigation";
+import { useSearchParams, useRouter, usePathname } from "next/navigation";
 import Link from "next/link";
 
 import { useDisclosure, useMediaQuery } from "@mantine/hooks";
-import { Affix, Box, Tabs, Text, Anchor, TextInput, Accordion, ActionIcon, AppShell, Burger, Group, ScrollArea, NavLink, Divider, useMantineColorScheme } from "@mantine/core";
+import { Tooltip, Affix, Box, Tabs, Text, Anchor, TextInput, Accordion, ActionIcon, AppShell, Burger, Group, ScrollArea, NavLink, Divider, useMantineColorScheme } from "@mantine/core";
 
-import { IconArrowBack, IconListSearch, IconBrightness, IconListDetails, IconBrandSpeedtest, IconCode, IconBoxMargin, IconAccessible, IconReportMedical, IconTerminal2, IconBrandNextjs, IconAffiliate, IconHexagons, IconCrosshair, IconChevronRight } from "@tabler/icons-react";
+import { IconStar, IconArrowBack, IconListSearch, IconBrightness, IconListDetails, IconBrandSpeedtest, IconCode, IconBoxMargin, IconAccessible, IconReportMedical, IconTerminal2, IconBrandNextjs, IconAffiliate, IconHexagons, IconCrosshair, IconChevronRight } from "@tabler/icons-react";
 import { DataContext } from "./data-provider";
 
 export const AppLayout = props => {
-    const { categories, features } = useContext(DataContext);
+    const searchParams = useSearchParams();
+    const category = searchParams.get("category")
+    const query = searchParams.get("q")
+    
+    const router = useRouter()
     const { toggleColorScheme } = useMantineColorScheme();
+
+    let { categories, features } = useContext(DataContext);
+    features = features
+        .filter(f => category === null || f.Category === category)
+        .filter(f => query === null || 
+                f.Name.toLowerCase().includes(query.toLowerCase()) || 
+                f.Description.toLowerCase().includes(query.toLowerCase()) || 
+                f.Slug.toLowerCase().includes(query.toLowerCase()))
+    
     const isMobile = useMediaQuery("(max-width: 1150px)");
     const pathname = usePathname();
+    const activeSlug = pathname.split("/")[1]
 
-    const searchParams = useSearchParams();
     const [opened, { toggle }] = useDisclosure();
     const icons = {
         CSS: <IconBoxMargin size={20} stroke={1.5} />,
@@ -52,7 +65,7 @@ export const AppLayout = props => {
                 <AppShell.Section grow component={ScrollArea}>
                     <Accordion defaultValue="categories" variant="filled">
                         <Accordion.Item key="categories" value="categories">
-                            <Accordion.Control>Categories</Accordion.Control>
+                            <Accordion.Control>Categories ({Object.keys(categories).length})</Accordion.Control>
                             <Accordion.Panel>
                                 <NavLink label="All" variant="filled" active={searchParams.get("category") === null} component={Link} href="/" leftSection={<IconListDetails stroke={1.5} size={20} />} rightSection={Object.values(categories).reduce((a, b) => a + b, 0)} />
                                 {Object.entries(categories).map(([category, count]) => (
@@ -86,24 +99,45 @@ export const AppLayout = props => {
                     <Box>{props.children}</Box>
                 ) : (
                     <Box className="grid">
-                        <ScrollArea h={"calc(100dvh - 4em)"} type="never" scrollbarSize={5} scrollHideDelay={0} p="md" pb="0">
+                        <ScrollArea h={"calc(100dvh - 4em)"} type="hover" scrollbarSize={10} scrollHideDelay={0} p="md" pb="0">
                             <Box style={{ position: "sticky", top: 0, backgroundColor: "var(--mantine-color-body)" }}>
-                                <TextInput variant="filled" placeholder={`Search ${searchParams.get("category") || "All"}`} leftSection={<IconListSearch stroke={1.5} size={20} />} leftSectionPointerEvents="none" rightSection={<IconArrowBack stroke={1.5} size={20} />} pb="md" />
+                                <TextInput 
+                                    variant="filled" 
+                                    placeholder={`Search ${searchParams.get("category") || "All"} records (${features.length})`} 
+                                    leftSection={<IconListSearch stroke={1.5} size={20} />} 
+                                    leftSectionPointerEvents="none" 
+                                    rightSection={
+                                        <Tooltip label="Press Enter" position="left-center" withArrow>
+                                            <IconArrowBack stroke={1.5} size={20} />
+                                        </Tooltip>
+                                    }
+                                    pb="md"
+                                    onKeyPress={event => {
+                                        const value = event.target.value.trim();
+                                        if (event.key === "Enter") {
+                                            const params = new URLSearchParams(searchParams);
+                                            if (value) params.set("q", value);
+                                            else params.delete("q");
+                                            
+                                            router.push(pathname + "?" + params.toString())                                         
+                                        }
+                                    }}
+                                />
                                 <Divider />
                             </Box>
                             {features
-                                .filter(f => searchParams.get("category") === null || f.Category === searchParams.get("category"))
                                 .map(feature => (
                                     <div key={feature.Slug}>
                                         <NavLink
+                                            px={isMobile ? 0 : "xs" }
                                             label={feature.Name}
                                             description={feature.Description}
                                             styles={{
                                                 label: { fontSize: "var(--mantine-font-size-md)" },
                                                 description: { fontSize: "var(--mantine-font-size-md)" },
                                             }}
-                                            active={pathname === "/" + feature.Slug}
-                                            variant={pathname === "/" + feature.Slug ? "filled" : "default"}
+                                            active={activeSlug === feature.Slug}
+                                            variant={activeSlug === feature.Slug ? "filled" : "default"}
                                             component={Link}
                                             href={{
                                                 pathname: `/${feature.Slug}`,
