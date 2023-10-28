@@ -305,7 +305,8 @@ Can I capture a high definition screenshot of the page?
 ![](https://res.cloudinary.com/canidevtools/image/upload/l_watermark,w_100,o_10/capture-hd-screenshot-chrome.png)
 
 [Firefox](https://canidev.tools/capture-hd-screenshot/firefox): 
-1. In the **Console** panel, run the command `:screenshot --dpr 2` to take a high definiton screenshot of the page with the device pixel ratio set to 2.
+1. In the **Console** panel, run the command `:screenshot --dpr 3` to take a high definition screenshot of the page with the device pixel ratio set to 3.
+![](https://res.cloudinary.com/canidevtools/image/upload/l_watermark,w_100,o_10/capture-hd-screenshot-firefox.png)
 
 [Edge](https://canidev.tools/capture-hd-screenshot/edge): 
 1. In Devtools, click the **Toggle device toolbar** icon (`Cmd+Shift+M` or `Ctrl+Shift+M`) to enter the responsive design mode.
