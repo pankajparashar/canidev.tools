@@ -8,8 +8,11 @@
     "Related": ["capture-screenshot-console", "capture-viewport-screenshot", "capture-full-page-screenshot", "capture-node-screenshot"],
 
     "Firefox": {
+        "Video": "https://res.cloudinary.com/canidevtools/video/upload/l_watermark,w_100,o_10/capture-hd-screenshot-firefox.mp4",
+        "Image": "https://res.cloudinary.com/canidevtools/image/upload/l_watermark,w_100,o_10/capture-hd-screenshot-firefox.png",
+        "Share": "https://twitter.com/CanIDevTools/status/1718369812928184650",
         "Notes": [
-            "1. In the **Console** panel, run the command `:screenshot --dpr 2` to take a high definiton screenshot of the page with the device pixel ratio set to 2."
+            "1. In the **Console** panel, run the command `:screenshot --dpr 3` to take a high definition screenshot of the page with the device pixel ratio set to 3."
         ],
         "References": [
             "1. \"Web console helpers\", [Firefox Source Docs](https://firefox-source-docs.mozilla.org/devtools-user/web_console/helpers/index.html#web-console-helpers).", 
