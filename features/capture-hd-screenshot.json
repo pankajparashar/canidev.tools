@@ -9,7 +9,7 @@
 
     "Firefox": {
         "Video": "https://res.cloudinary.com/canidevtools/video/upload/l_watermark,w_100,o_10/capture-hd-screenshot-firefox.mp4",
-        "Image": "https://res.cloudinary.com/canidevtools/image/upload/l_watermark,w_100,o_10/capture-hd-screenshot-firefox.png",
+        "Image": "https://res.cloudinary.com/canidevtools/image/upload/l_watermark,w_50,o_10/capture-hd-screenshot-firefox.png",
         "Share": "https://twitter.com/CanIDevTools/status/1718369812928184650",
         "Notes": [
             "1. In the **Console** panel, run the command `:screenshot --dpr 3` to take a high definition screenshot of the page with the device pixel ratio set to 3.\n"
