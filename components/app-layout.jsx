@@ -119,7 +119,7 @@ export const AppLayout = props => {
                                             if (value) params.set("q", value);
                                             else params.delete("q");
                                             
-                                            router.push(pathname + "?" + params.toString())                                         
+                                            router.push("/" + "?" + params.toString())                                         
                                         }
                                     }}
                                 />
@@ -145,7 +145,7 @@ export const AppLayout = props => {
                                             }}
                                             rightSection={<IconChevronRight stroke={1} />}
                                         />
-                                        <Divider variant="dashed" />
+                                        <Divider />
                                     </div>
                                 ))}
                         </ScrollArea>
