@@ -14,7 +14,7 @@ export async function generateMetadata({ params }) {
 
     return {
         title: `${feature.Name} | Can I DevTools`,
-        description: feature.description
+        description: feature.Description
     };
 }
 

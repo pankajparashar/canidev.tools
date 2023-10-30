@@ -19,7 +19,7 @@ export async function generateMetadata({ params }) {
 
     return {
         title: `${browser} | ${feature.Name} | Can I DevTools`,
-        description: feature.description,
+        description: feature.Description,
     };
 }
 
