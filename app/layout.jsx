@@ -14,6 +14,7 @@ import { DataProvider } from "../components/data-provider";
 export const metadata = {
     title: "Can I DevTools?",
     description: "It is like @CanIUse, but for the browser devtools, created by Pankaj Parashar and curated by community.",
+    metadataBase: new URL('https://canidev.tools')
 };
 
 export default async function RootLayout({ children }) {
