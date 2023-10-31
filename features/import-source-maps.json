@@ -1,0 +1,35 @@
+{
+	"Name": "Import source maps",
+	"Description": "Can I import source maps manually to debug production code?",
+	"Slug": "import-source-maps",
+	
+	"Category": "Sources",
+	"Authors": ["@pankajparashar"],
+	
+	"Chrome": {
+		"Notes": [
+			"1. In the **Sources** panel, open the script, right click in the Editor, and select **Add source map...** from the menu.",
+			"2. Enter the source map URL, click Add. On successful addition, the source map will appear in the **Developer Resources** drawer and the editor status bar."
+		],
+		"References": [
+			"1. \"Load a source map manually\", [Chrome DevTools Docs](https://developer.chrome.com/docs/devtools/developer-resources/#load)."
+		]
+	},
+	
+	"Edge": {
+		"Notes": [
+			"1. In the **Sources** panel, open the script, right click in the Editor, and select **Add source map...** from the menu.",
+			"2. Enter the source map URL, click Add. On successful addition, the source map will appear in the **Developer Resources** drawer and the editor status bar."
+		],
+		"References": [
+			"1. \"Mapping minified code to your source code to show readable code\", [Edge DevTools Guide](https://learn.microsoft.com/en-us/microsoft-edge/devtools-guide-chromium/sources/#mapping-minified-code-to-your-source-code-to-show-readable-code)."
+		]
+	},
+	
+	"Opera": {
+		"Notes": [
+			"1. In the **Sources** panel, open the script, right click in the Editor, and select **Add source map...** from the menu.",
+			"2. Enter the source map URL, click Add. On successful addition, the source map will appear in the **Developer Resources** drawer and the editor status bar."
+		]
+	}
+}

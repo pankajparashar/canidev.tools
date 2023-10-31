@@ -1,0 +1,17 @@
+{
+	"Name": "Inspect CSS at-rule",
+	"Description": "Can I inspect the @property CSS at-rules applied to an element?",
+	"Slug": "inspect-css-at-rule",
+
+	"Category": "CSS",
+	"Authors": ["@pankajparashar"],
+	
+	"Chrome": {
+		"Notes": [
+			"1. To inspect your registered custom properties, in **Elements > Styles**, hover over the property name and see its descriptors in a tooltip. In the tooltip, click the link to view the registered property in the collapsible @property section."
+		],
+		"References": [
+			"1. \"New section for custom properties in Elements > Styles\", [What's new in DevTools 118](https://developer.chrome.com/blog/new-in-devtools-118/#css)."
+		]
+	}
+}
