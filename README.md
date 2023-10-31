@@ -673,6 +673,18 @@ Can I copy style declarations as JavaScript object?
 1. Inspect element > In the **Styles** pane, right click on the style declaration and select "Copy declaration as JS" or "Copy all declarations as JS" to copy one or all styles.
 
 
+## Deactivate breakpoints
+Can I temporarily deactivate breakpoints while debugging source code?
+
+[Chrome](https://canidev.tools/deactivate-breakpoints/chrome): 
+1. In the **Sources** panel, open the **Breakpoints** pane, click the **Deactivate breakpoints** (`Cmd+F8` or `Ctrl+F8`) icon to prevent the execution from pausing at breakpoints.
+
+[Edge](https://canidev.tools/deactivate-breakpoints/edge): 
+1. In the **Sources** panel, open the **Breakpoints** pane, click the **Deactivate breakpoints** (`Cmd+F8` or `Ctrl+F8`) icon to prevent the execution from pausing at breakpoints.
+
+[Opera](https://canidev.tools/deactivate-breakpoints/opera): 
+1. In the **Sources** panel, open the **Breakpoints** pane, click the **Deactivate breakpoints** (`Cmd+F8` or `Ctrl+F8`) icon to prevent the execution from pausing at breakpoints.
+
 ## Debug attr change
 Can I set breakpoint and debug attr changes of a node?
 
