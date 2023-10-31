@@ -1746,6 +1746,21 @@ Can I import and export network activity to a HAR file?
 
 
 
+## Import source maps
+Can I import source maps manually to debug production code?
+
+[Chrome](https://canidev.tools/import-source-maps/chrome): 
+1. In the **Sources** panel, open the script, right click in the Editor, and select **Add source map...** from the menu.
+2. Enter the source map URL, click Add. On successful addition, the source map will appear in the **Developer Resources** drawer and the editor status bar.
+
+[Edge](https://canidev.tools/import-source-maps/edge): 
+1. In the **Sources** panel, open the script, right click in the Editor, and select **Add source map...** from the menu.
+2. Enter the source map URL, click Add. On successful addition, the source map will appear in the **Developer Resources** drawer and the editor status bar.
+
+[Opera](https://canidev.tools/import-source-maps/opera): 
+1. In the **Sources** panel, open the script, right click in the Editor, and select **Add source map...** from the menu.
+2. Enter the source map URL, click Add. On successful addition, the source map will appear in the **Developer Resources** drawer and the editor status bar.
+
 ## Inspect Box shadow
 Can I inspect CSS box shadow using an editor?
 
@@ -1842,6 +1857,12 @@ Can I inspect CSS animations & keyframes using the devtools?
 2. Trigger the animation to record it on the timeline. Now you can use the buttons in the **Controls** section to adjust the replay speed of the animation.
 3. Use the **Timeline** section to scrub the animation or jump to a specific point in animation. Use the **Details** section modify the timing & the delay of the animation.
 
+
+## Inspect CSS at-rule
+Can I inspect the @property CSS at-rules applied to an element?
+
+[Chrome](https://canidev.tools/inspect-css-at-rule/chrome): 
+1. To inspect your registered custom properties, in **Elements > Styles**, hover over the property name and see its descriptors in a tooltip. In the tooltip, click the link to view the registered property in the collapsible @property section.
 
 ## Inspect CSS Filters
 Can I inspect CSS filters using an editor in devtools?
