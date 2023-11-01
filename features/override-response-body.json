@@ -5,12 +5,13 @@
 
   "Category": "Network",
   "Authors": ["@pankajparashar"],
+  "Related": ["add-custom-columns-network"],
 
   "Chrome": {
     "Notes": [
-      "In the Network panel, right click on the request and select 'Override content'. Devtools will prompt to select a folder to store the overrides in.",
-      "Once the overrides are setup, Devtools will navigate to Sources > Overrides > Editor to override content.",
-      "Overriden resources are highlighted with a purple dot in the Network panel."
+      "1. In the **Network** panel, right click on the request and select \"Override content\". Devtools will prompt to select a folder to store the overrides in.",
+      "2. Once the overrides are setup, Devtools will navigate to **Sources > Overrides > Editor** to override content. Overriden resources are highlighted with a purple dot in the **Network** panel.",
+      "3. The **Network** panel has a **Has overrides** column and a corresponding `has-overrides:[content|headers|yes|no]` filter. To see the **Has overrides** column, right-click the table header and select it."
     ]
   }
 }
