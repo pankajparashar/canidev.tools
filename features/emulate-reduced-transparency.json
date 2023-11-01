@@ -1,0 +1,17 @@
+{
+	"Name": "Emulate reduced transparency",
+	"Description": "Can I emulate reduced transparency CSS media feature?",
+	"Slug": "emulate-reduced-transparency",
+	
+	"Category": "CSS",
+	"Authors": ["@pankajparashar"],
+	
+	"Chrome": {
+		"Notes": [
+			"1. Open **Command Menu** (`Cmd+Shift+P` or `Ctrl+Shift+P`) > Run \"Show Rendering\". Scroll down to the **Emulate CSS media** features section and select `prefers-reduced-transparency: reduce` to apply the effect."
+		],
+		"References": [
+			"1. \"Emulate prefers-reduced-transparency media feature\", [What's New in DevTools (Chrome 118)](https://developer.chrome.com/blog/new-in-devtools-118/#reduced-transparency)."
+		]
+	}
+}

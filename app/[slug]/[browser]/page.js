@@ -12,7 +12,9 @@ import { IconBrandPolypane } from "../../../components/tabler-icons";
 export default function Page({ params }) {
     const { features } = useContext(DataContext);
     const feature = features.find(f => f.Slug === params.slug);
-    const browser = params.browser.charAt(0).toUpperCase() + params.browser.slice(1);
+    
+    const name = params.browser.charAt(0).toUpperCase() + params.browser.slice(1);
+    const browser = feature[name]
 
     const icons = {
         Chrome: <IconBrandChrome stroke={1} />,
@@ -26,7 +28,7 @@ export default function Page({ params }) {
     return (
         <ScrollArea.Autosize mah={"100%"} type="never">
             <Accordion
-                defaultValue={feature[browser]?.Video ? "video" : "notes"}
+                defaultValue={browser.Video ? "video" : "notes"}
                 styles={{
                     itemTitle: { fontWeight: "bold" },
                     content: { padding: 0 },
@@ -36,7 +38,7 @@ export default function Page({ params }) {
                         <Text fw={700}>Video</Text>
                     </Accordion.Control>
                     <Accordion.Panel p="0">
-                        <video controls autoPlay loop muted playsInline preload="metadata" src={feature[browser]?.Video + "#t=0.1"} />
+                        <video controls autoPlay loop muted playsInline preload="metadata" src={browser?.Video + "#t=0.1"} />
                     </Accordion.Panel>
                 </Accordion.Item>
                 <Accordion.Item value="notes">
@@ -46,15 +48,20 @@ export default function Page({ params }) {
                     <Accordion.Panel maw={"750px"} pr="xs">
                         <Box
                             dangerouslySetInnerHTML={{
-                                __html: feature[browser]?.Notes ? marked.parse(Array.isArray(feature[browser].Notes) ? feature[browser].Notes.join("\n") : feature[browser].Notes) : "",
+                                __html: browser?.Notes ? 
+                                            marked.parse(Array.isArray(browser.Notes) ? browser.Notes.join("\n") : browser.Notes) : "",
                             }}
                         />
-                        {feature[browser]?.References ? <Divider label="References" labelPosition="left" variant="dashed" pl="md" pr="md" /> : null}
-                        <Box
-                            dangerouslySetInnerHTML={{
-                                __html: feature[browser]?.References ? marked.parse(Array.isArray(feature[browser].References) ? feature[browser].References.join("\n") : feature[browser].References) : "",
-                            }}
-                        />
+                        {browser.References ? 
+                            <>
+                                <Divider label="Read more" labelPosition="centre" variant="dashed" px="md" />
+                                <Box
+                                    dangerouslySetInnerHTML={{
+                                        __html: browser.References ? marked.parse(Array.isArray(browser.References) ? browser.References.join("\n") : browser.References) : "",
+                                    }}
+                                />
+                            </> 
+                        : null}                        
                     </Accordion.Panel>
                 </Accordion.Item>
             </Accordion>
