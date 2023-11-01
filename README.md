@@ -3123,6 +3123,27 @@ Can I use the easing editor to edit transitions and animations?
 [Opera](https://canidev.tools/use-easing-editor/opera): 
 1. Inspect the element with CSS transition or animation applied. In the **Styles** pane, click the icon next to the timing function to open the **Easing editor** to play around with the timing functions.
 
+## Use live expressions
+Can I watch JavaScript values in real time with Live Expressions?
+
+[Chrome](https://canidev.tools/use-live-expressions/chrome): 
+1. In the **Console** panel, click the **Create live expression** icon. Input the expression in the text box and press `Enter`.
+2. The value below the pinned expression is its result. The result updates every 250ms.
+3. For a multi-line expression, start a new line using `Shift+Enter`.
+4. To use multiple live expressions, click the same icon again to add a new expression. To remove the expression, click the `X` button next to it.
+
+[Edge](https://canidev.tools/use-live-expressions/edge): 
+1. In the **Console** panel, click the **Create live expression** icon. Input the expression in the text box and press `Enter`.
+2. The value below the pinned expression is its result. The result updates every 250ms.
+3. For a multi-line expression, start a new line using `Shift+Enter`.
+4. To use multiple live expressions, click the same icon again to add a new expression. To remove the expression, click the `X` button next to it.
+
+[Opera](https://canidev.tools/use-live-expressions/opera): 
+1. In the **Console** panel, click the **Create live expression** icon. Input the expression in the text box and press `Enter`.
+2. The value below the pinned expression is its result. The result updates every 250ms.
+3. For a multi-line expression, start a new line using `Shift+Enter`.
+4. To use multiple live expressions, click the same icon again to add a new expression. To remove the expression, click the `X` button next to it.
+
 ## View accessibility tree
 Can I view the accessibility tree?
 
