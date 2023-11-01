@@ -3280,6 +3280,18 @@ Can I view and copy the CSS changes applied to an element?
 1. In the **Styles** pane, apply changes to the CSS declarations, and then click on the **Changes** pane to see the diff.
 
 
+## View HTTP Status Text
+Can I view the human readable text of the HTTP status codes?
+
+[Chrome](https://canidev.tools/view-http-status-text/chrome): 
+1. In the **Network** panel, click to open the network request. In the **Headers** tab, under **General**, contains the HTTP status code along with the human readable text.
+
+[Edge](https://canidev.tools/view-http-status-text/edge): 
+1. In the **Network** panel, click to open the network request. In the **Headers** tab, under **General**, contains the HTTP status code along with the human readable text.
+
+[Opera](https://canidev.tools/view-http-status-text/opera): 
+1. In the **Network** panel, click to open the network request. In the **Headers** tab, under **General**, contains the HTTP status code along with the human readable text.
+
 ## View in 3D
 Can I view a web page in 3D?
 
