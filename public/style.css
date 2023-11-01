@@ -50,7 +50,7 @@ video {
     width: 100%;
 }
 
-ol {
+ol, ul {
     list-style-type: square;
     margin-left: 0;
 }
