@@ -1146,6 +1146,12 @@ Can I emulate print media query?
 [Polypane](https://canidev.tools/emulate-print-styles/polypane): 
 1. Click **Change Media and Emulations** from the top toolbar > **Media** (tab) > Select **print** to emulate the print media styles.
 
+## Emulate reduced transparency
+Can I emulate reduced transparency CSS media feature?
+
+[Chrome](https://canidev.tools/emulate-reduced-transparency/chrome): 
+1. Open **Command Menu** (`Cmd+Shift+P` or `Ctrl+Shift+P`) > Run "Show Rendering". Scroll down to the **Emulate CSS media** features section and select `prefers-reduced-transparency: reduce` to apply the effect.
+
 ## Expand DOM nodes recursively
 Can I expand DOM nodes recursively in the DOM tree?
 
