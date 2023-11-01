@@ -2394,19 +2394,18 @@ Can I override global objects on page load before other scripts run?
 Can I override the body of a network request?
 
 [Chrome](https://canidev.tools/override-response-body/chrome): 
-In the Network panel, right click on the request and select 'Override content'. Devtools will prompt to select a folder to store the overrides in.
-Once the overrides are setup, Devtools will navigate to Sources > Overrides > Editor to override content.
-Overriden resources are highlighted with a purple dot in the Network panel.
+1. In the **Network** panel, right click on the request and select "Override content". Devtools will prompt to select a folder to store the overrides in.
+2. Once the overrides are setup, Devtools will navigate to **Sources > Overrides > Editor** to override content. Overriden resources are highlighted with a purple dot in the **Network** panel.
+3. The **Network** panel has a **Has overrides** column and a corresponding `has-overrides:[content|headers|yes|no]` filter. To see the **Has overrides** column, right-click the table header and select it.
 
 ## Override response headers
 Can I override headers of the network response?
 
 [Chrome](https://canidev.tools/override-response-headers/chrome): 
-1. In the **Network** panel, right click on the request and select "Override headers".
-2. Select the path where the overrides will be saved > Allow permissions to access the path.
-3. Under **Response headers** section, click "Add header" to add a custom key-value pair
-4. Use the **header overrides** option to manage your custom headers across all domains.
-5. Request with overriden headers are highlighted with purple dot next to the **Status** code.
+1. In the **Network** panel, right click on the request and select "Override headers". Select the path where the overrides will be saved > Allow permissions to access the path.
+2. Under **Response headers** section, click "Add header" to add a custom key-value pair. Use the **header overrides** option to manage your custom headers across all domains.
+3. Request with overriden headers are highlighted with purple dot next to the **Status** code.
+4. The **Network** panel has a **Has overrides** column and a corresponding `has-overrides:[content|headers|yes|no]` filter. To see the **Has overrides** column, right-click the table header and select it.
 
 ## Override user agent
 Can I override the user agent to emulate different profiles?
