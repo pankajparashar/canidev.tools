@@ -50,7 +50,9 @@ export default function Page({ params }) {
                                 styles={{
                                     label: { fontSize: "var(--mantine-font-size-sm)" }
                                 }}
-                                variant="light" color="gray">{browser.Version}+</Badge> : ""}</Text>
+                                variant="light" 
+                                color="gray"
+                            >{browser.Version}+</Badge> : ""}</Text>
                     </Accordion.Control>
                     <Accordion.Panel maw={"750px"} pr="xs">
                         <Box
