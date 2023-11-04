@@ -22,16 +22,16 @@ export default function Layout({ children, params }) {
     const feature = features.find(f => f.Slug === params.slug);
 
     const icons = {
-        CSS: <IconBoxMargin size={20} stroke={1} />,
-        Accessibility: <IconAccessible size={20} stroke={1} />,
-        Audit: <IconReportMedical size={20} stroke={1} />,
-        Console: <IconTerminal2 size={20} stroke={1} />,
-        Elements: <IconCrosshair size={20} stroke={1} />,
-        JavaScript: <IconBrandNextjs size={20} stroke={1} />,
-        Network: <IconAffiliate size={20} stroke={1} />,
-        Other: <IconHexagons size={20} stroke={1} />,
-        Sources: <IconCode size={20} stroke={1} />,
-        Performance: <IconBrandSpeedtest size={20} stroke={1} />,
+        CSS: <IconBoxMargin />,
+        Accessibility: <IconAccessible/>,
+        Audit: <IconReportMedical />,
+        Console: <IconTerminal2 />,
+        Elements: <IconCrosshair  />,
+        JavaScript: <IconBrandNextjs  />,
+        Network: <IconAffiliate  />,
+        Other: <IconHexagons  />,
+        Sources: <IconCode  />,
+        Performance: <IconBrandSpeedtest  />,
     };
 
     return (
