@@ -39,7 +39,7 @@ export default function Page({ params }) {
                     </Accordion.Control>
                     <Accordion.Panel p="0">
                         <video controls autoPlay loop muted playsInline preload="metadata" 
-                            src={browser.Video ? browser.Video + "#t=0.1" : "https://placehold.co/1920x1080.mp4?text=Add+video"} />
+                            src={browser.Video ? browser.Video + "#t=0.1" : "https://placehold.co/1920x1080.mp4?font=roboto"} />
                     </Accordion.Panel>
                 </Accordion.Item>
                 <Accordion.Item value="notes">
