@@ -2115,6 +2115,14 @@ Can I pretty print minified JavaScript code?
 1. In the **Sources** tab, open the `.js` file from the left sidebar. Click the pretty print icon `{}` from the top toolbar to toggle between pretty print and original source format. 
 
 
+## Preview social media cards
+Can I preview the social media cards for websites like Facebook, X etc
+
+[Polypane](https://canidev.tools/preview-social-media-cards/polypane): 
+1. In Developer Tools, open **Info > Meta**. Scroll down to the **Social media previews** section to see cards for each social media website like X, Facebook, LinkedIn etc.
+2. This also works with `localhost` while running the app locally. Use the **Overwrite domain** button to preview the card with production URL.
+3. Toggle the **light/dark** buttons to preview the card in the light and the dark mode respectively.
+
 ## Record & replay user journey
 Can I record and replay all the user actions performed on the website?
 
