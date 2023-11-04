@@ -4,8 +4,8 @@ import { useRef, useEffect, useContext } from "react";
 import { useSearchParams, useRouter, usePathname } from "next/navigation";
 import Link from "next/link";
 
-import { useDisclosure, useMediaQuery } from "@mantine/hooks";
 import { Tooltip, Affix, Box, Tabs, Text, Anchor, TextInput, Accordion, ActionIcon, AppShell, Burger, Group, ScrollArea, NavLink, Divider, useMantineColorScheme } from "@mantine/core";
+import { useDisclosure, useMediaQuery } from "@mantine/hooks";
 
 import { IconStar, IconArrowBack, IconListSearch, IconBrightness, IconListDetails, IconBrandSpeedtest, IconCode, IconBoxMargin, IconAccessible, IconReportMedical, IconTerminal2, IconBrandNextjs, IconAffiliate, IconHexagons, IconCrosshair, IconChevronRight } from "@tabler/icons-react";
 import { DataContext } from "./data-provider";
@@ -103,7 +103,7 @@ export const AppLayout = props => {
                             <Box style={{ position: "sticky", top: 0, backgroundColor: "var(--mantine-color-body)" }}>
                                 <TextInput 
                                     variant="filled" 
-                                    placeholder={`Search ${searchParams.get("category") || "All"} records (${features.length})`} 
+                                    placeholder={`Search ${features.length} records`} 
                                     leftSection={<IconListSearch stroke={1.5} size={20} />} 
                                     leftSectionPointerEvents="none" 
                                     rightSection={
