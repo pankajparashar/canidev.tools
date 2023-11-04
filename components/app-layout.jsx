@@ -4,10 +4,10 @@ import { useRef, useEffect, useContext } from "react";
 import { useSearchParams, useRouter, usePathname } from "next/navigation";
 import Link from "next/link";
 
-import { Tooltip, Affix, Box, Tabs, Text, Anchor, TextInput, Accordion, ActionIcon, AppShell, Burger, Group, ScrollArea, NavLink, Divider, useMantineColorScheme } from "@mantine/core";
+import { Alert, Tooltip, Affix, Box, Tabs, Text, Anchor, TextInput, Accordion, ActionIcon, AppShell, Burger, Group, ScrollArea, NavLink, Divider, useMantineColorScheme } from "@mantine/core";
 import { useDisclosure, useMediaQuery } from "@mantine/hooks";
 
-import { IconStar, IconArrowBack, IconListSearch, IconBrightness, IconListDetails, IconBrandSpeedtest, IconCode, IconBoxMargin, IconAccessible, IconReportMedical, IconTerminal2, IconBrandNextjs, IconAffiliate, IconHexagons, IconCrosshair, IconChevronRight } from "@tabler/icons-react";
+import { IconNews, IconUserCircle, IconStar, IconArrowBack, IconListSearch, IconBrightness, IconListDetails, IconBrandSpeedtest, IconCode, IconBoxMargin, IconAccessible, IconReportMedical, IconTerminal2, IconBrandNextjs, IconAffiliate, IconHexagons, IconCrosshair, IconChevronRight } from "@tabler/icons-react";
 import { DataContext } from "./data-provider";
 
 export const AppLayout = props => {
@@ -91,7 +91,7 @@ export const AppLayout = props => {
                     </Accordion>
                 </AppShell.Section>
                 <AppShell.Section>
-                    <CarbonAd />
+                    <NavFooter />
                 </AppShell.Section>
             </AppShell.Navbar>
             <AppShell.Main>
@@ -157,7 +157,7 @@ export const AppLayout = props => {
     );
 };
 
-const CarbonAd = () => {
+const NavFooter = () => {
     const adRef = useRef();
 
     useEffect(() => {        
@@ -172,12 +172,18 @@ const CarbonAd = () => {
     return (
         <Tabs defaultValue="ads" placement="right" inverted={true}>
             <Tabs.List p={0} size="xs" justify="space-between">
-                <Tabs.Tab value="ads" pl={0} pr={0}>
+                <Tabs.Tab value="ads" px={0} leftSection={<IconNews />}>
                     Carbon Ads
+                </Tabs.Tab>
+                <Tabs.Tab value="about" px={0} leftSection={<IconUserCircle />}>
+                    About
                 </Tabs.Tab>
             </Tabs.List>
 
             <Tabs.Panel value="ads" ref={adRef} />
+            <Tabs.Panel value="about">
+                <Alert color="gray">It is like <a href="//caniuse.com">@CanIUse</a> but for the browser devtools. It is created by <a href="//pankajparashar.com">@PankajParashar</a>, and curated by the community.</Alert>
+            </Tabs.Panel>
         </Tabs>
     );
 };

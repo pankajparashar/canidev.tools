@@ -38,7 +38,7 @@ code {
 
 li a:link,
 li a:visited,
-#carbonads a {
+a {
     color: #0074de;
     text-decoration: none;
 }
