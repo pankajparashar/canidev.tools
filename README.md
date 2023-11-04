@@ -960,6 +960,8 @@ Can I emulate reduced transparency CSS media feature?
 [Chrome](https://canidev.tools/emulate-reduced-transparency/chrome): 
 1. Open **Command Menu** (`Cmd+Shift+P` or `Ctrl+Shift+P`) > Run "Show Rendering". Scroll down to the **Emulate CSS media** features section and select `prefers-reduced-transparency: reduce` to apply the effect.
 
+![](https://res.cloudinary.com/canidevtools/image/upload/l_watermark,w_100,o_10/emulate-reduced-transparency-chrome.png)
+
 ## Expand DOM nodes recursively
 Can I expand DOM nodes recursively in the DOM tree?
 
