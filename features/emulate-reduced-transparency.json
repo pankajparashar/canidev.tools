@@ -12,7 +12,7 @@
 		"Share": "https://twitter.com/CanIDevTools/status/1720938896555397567",
 		"Version": "118",
 		"Notes": [
-			"1. Open **Command Menu** (`Cmd+Shift+P` or `Ctrl+Shift+P`) > Run \"Show Rendering\". Scroll down to the **Emulate CSS media** features section and select `prefers-reduced-transparency: reduce` to apply the effect."
+			"1. Open **Command Menu** (`Cmd+Shift+P` or `Ctrl+Shift+P`) > Run \"Show Rendering\". Scroll down to the **Emulate CSS media** features section and select `prefers-reduced-transparency: reduce` to apply the effect.\n"
 		],
 		"References": [
 			"1. \"Emulate prefers-reduced-transparency media feature\", [What's New in DevTools (Chrome 118)](https://developer.chrome.com/blog/new-in-devtools-118/#reduced-transparency)."
