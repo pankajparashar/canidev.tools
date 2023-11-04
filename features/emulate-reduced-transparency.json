@@ -7,6 +7,10 @@
 	"Authors": ["@pankajparashar"],
 	
 	"Chrome": {
+		"Video": "https://res.cloudinary.com/canidevtools/video/upload/l_watermark,w_100,o_10/emulate-reduced-transparency-chrome.mp4",
+		"Image": "https://res.cloudinary.com/canidevtools/image/upload/l_watermark,w_100,o_10/emulate-reduced-transparency-chrome.png",
+		"Share": "https://twitter.com/CanIDevTools/status/1720938896555397567",
+		"Version": "118",
 		"Notes": [
 			"1. Open **Command Menu** (`Cmd+Shift+P` or `Ctrl+Shift+P`) > Run \"Show Rendering\". Scroll down to the **Emulate CSS media** features section and select `prefers-reduced-transparency: reduce` to apply the effect."
 		],
