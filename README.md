@@ -29,11 +29,6 @@ Can I add an existing CSS class to an HTML element?
 2. Click the button and search for the existing class names to add to the element.
 
 
-[Opera](https://canidev.tools/add-class-element/opera): 
-1. Inspect the element > Look for ".cls" button in the Styles pane next to the Filter field.
-2. Click the button and search for the existing class names to add to the element.
-
-
 [Polypane](https://canidev.tools/add-class-element/polypane): 
 1. Inspect the element > Open the "attributes" tab 
 2. Add a new class into the class field, known classes from the page and CSS will automatically be suggested.
@@ -62,11 +57,6 @@ Can I set a conditional breakpoint while debugging code?
 2. Input the conditional expression on which the execution should pause, and press `Enter`.
 
 
-[Opera](https://canidev.tools/add-conditional-breakpoint/opera): 
-1. In **Sources**, right click the line number and select "Add a conditional breakpoint..."
-2. Input the conditional expression on which the execution should pause, and press `Enter`.
-
-
 ## Add custom columns to Network
 Can I add custom columns to the Network requests table?
 
@@ -76,11 +66,6 @@ Can I add custom columns to the Network requests table?
 
 
 [Edge](https://canidev.tools/add-custom-columns-network/edge): 
-1. In the **Network** panel, right click on the column headers > Response Headers > Manage Header Columns.
-2. In the **Manage Header Columns** popup window, click "Add Custom Header". Enter the custom header name, and click **Add** to add a new column to the Network requests table.
-
-
-[Opera](https://canidev.tools/add-custom-columns-network/opera): 
 1. In the **Network** panel, right click on the column headers > Response Headers > Manage Header Columns.
 2. In the **Manage Header Columns** popup window, click "Add Custom Header". Enter the custom header name, and click **Add** to add a new column to the Network requests table.
 
@@ -99,11 +84,6 @@ Can I add a custom device for a responsive design mode?
 
 
 [Edge](https://canidev.tools/add-custom-device/edge): 
-1. Open **Settings** (`F1` or `Shift+?`) > Devices > Click "Add custom device...". 
-2. Enter the "Device Name" and other details associated with the device. Click the "Add" button.
-
-
-[Opera](https://canidev.tools/add-custom-device/opera): 
 1. Open **Settings** (`F1` or `Shift+?`) > Devices > Click "Add custom device...". 
 2. Enter the "Device Name" and other details associated with the device. Click the "Add" button.
 
@@ -134,10 +114,6 @@ Can I add inline styles to an HTML element?
 
 
 
-[Opera](https://canidev.tools/add-inline-styles/opera): 
-1. Inspect element > In the **Styles** pane, click "element.style" to input the inline style.
-
-
 [Polypane](https://canidev.tools/add-inline-styles/polypane): 
 1. Inspect element > In the **Styles** pane, click "property" under "element.style" to input the inline style.
 
@@ -158,10 +134,6 @@ Can I add log points to source code for debugging?
 1. In **Sources** > Right click on the line number and select "Add logpoint..." > Input the log statement to print in the **Console** without actually writing `console.log` statements.
 
 
-[Opera](https://canidev.tools/add-logpoint/opera): 
-1. In **Sources** > Right click on the line number and select "Add logpoint..." > Input the log statement to print in the **Console** without actually writing `console.log` statements.
-
-
 ## Autocomplete styles using values
 Can I autocomplete style declaration just using values?
 
@@ -171,11 +143,6 @@ Can I autocomplete style declaration just using values?
 
 
 [Edge](https://canidev.tools/autocomplete-styles-values/edge): 
-1. Inspect an element > Navigate to the styles section (next to the DOM tree).
-2. Add new styles by directly entering the values like "bold", "italic" etc., and the devtools will automatically suggest the corresponding `<property>: <value>` pair for the given input.
-
-
-[Opera](https://canidev.tools/autocomplete-styles-values/opera): 
 1. Inspect an element > Navigate to the styles section (next to the DOM tree).
 2. Add new styles by directly entering the values like "bold", "italic" etc., and the devtools will automatically suggest the corresponding `<property>: <value>` pair for the given input.
 
@@ -205,10 +172,6 @@ Can I block a network request?
 2. In the **Sources** tab, under the **Local Overrides** section in the left sidebar, you can manage the blocked request.
 
 
-[Opera](https://canidev.tools/block-request-by-url/opera): 
-1. In the **Network** tab, right click on the request and select "Block request URL". This will open the "Network request blocking" drawer that will let you manage all your blocked requests.
-
-
 ## Block request domain
 Can I block all network requests of a domain?
 
@@ -228,10 +191,6 @@ Can I block all network requests of a domain?
 [Safari](https://canidev.tools/block-request-domain/safari): 
 1. In the **Network** panel, right click on the request and select "Create Response Local Override" to open the **Sources** panel, which contains the list of all local overrides.
 2. Right click on the override and select "Edit Local Override...". Add the domain name in the URL pattern and use Status as `404: Not Found` to block all the network requests for that domain.
-
-
-[Opera](https://canidev.tools/block-request-domain/opera): 
-1. In the **Network** panel, right click on the network request, and select "Block request domain". This will open the **Network request blocking** drawer that will let you manage blocked network requests. 
 
 
 ## Block request by URL pattern
@@ -257,11 +216,6 @@ Can I block all network request matching a URL pattern?
 2. Select the **Type** as "Block", and enter the regex for the URL pattern to override the network request for. Reload the page to see the changes take effect.
 
 
-[Opera](https://canidev.tools/block-request-url-pattern/opera): 
-1. Open **Command** **Menu** (`Cmd+Shift+P` or `Ctrl+Shift+P`) > Run "Show Network request blocking". This will open the **Network** **request** **blocking** drawer.
-2. Click the "+" button and add the URL pattern > Add. Reload the page for the changes to take effect. Filter on **Blocked** **Requests** by enabling the checkbox in the toolbar.
-
-
 ## Capture full page screenshot
 Can I take full page screenshot of a website?
 
@@ -283,11 +237,6 @@ Can I take full page screenshot of a website?
 [Safari](https://canidev.tools/capture-full-page-screenshot/safari): 
 1. In the **Elements** panel, right click on the `html` node and select "Capture Screenshot".
 2. This will save a PNG image with current date time as the filename in the **Downloads** directory.
-
-
-[Opera](https://canidev.tools/capture-full-page-screenshot/opera): 
-1. Open **Command** **Menu** (`Cmd+Shift+P` or `Ctrl+Shift+P`) & Run > "Capture full size screenshot" and press `Enter`.
-2. This will save a PNG image with url as the filename in the **Downloads** directory.
 
 
 [Polypane](https://canidev.tools/capture-full-page-screenshot/polypane): 
@@ -316,11 +265,6 @@ Can I capture a high definition screenshot of the page?
 
 ![](https://res.cloudinary.com/canidevtools/image/upload/l_watermark,w_100,o_10/capture-hd-screenshot-edge.png)
 
-[Opera](https://canidev.tools/capture-hd-screenshot/opera): 
-1. In Devtools, click the **Toggle device toolbar** icon (`Cmd+Shift+M` or `Ctrl+Shift+M`) to enter the responsive design mode.
-2. In the device toolbar, click **More options** (`⋮`) > **Add device pixel ratio**. In the action bar at the top of the viewport, select a DPR value from the new DPR drop-down menu.
-3. Click **More options** > select **Capture screenshot** for viewport or **Capture full size screenshot** for the entire page.
-
 ## Capture node screenshot
 Can I take screenshot of a DOM node?
 
@@ -344,11 +288,6 @@ Can I take screenshot of a DOM node?
 2. Safari preserves the transparency for the elements with no applied background colour.
 
 
-[Opera](https://canidev.tools/capture-node-screenshot/opera): 
-1. In the **Elements** panel, right click on the node and select "Capture node screenshot".
-2. It retains visible background colour of elements with no background colour applied.
-
-
 [Polypane](https://canidev.tools/capture-node-screenshot/polypane): 
 1. Click the "Camera" icon above the pane you want to screenshot and select "Element". 2. Click the element you want to screenshot. 3. Alternatively, click the "Camera" icon in the Element inspector to screenshot the selected DOM node.
 
@@ -364,11 +303,6 @@ Can I capture node creation stack trace?
 [Edge](https://canidev.tools/capture-node-stacktrace/edge): 
 1. Enable "Capture node creation stacks" in Settings (`F1`) > Experiments.
 2. In the **Elements** panel > Select the node > Open the **Stack** **Trace** pane in the side panel to show the stack trace of the node creation.
-
-
-[Opera](https://canidev.tools/capture-node-stacktrace/opera): 
-1. Enable "Capture node creation stacks" in Settings (`F1`) > Experiments.
-2. In the **Elements** panel > Select the node > Open the **Stack** **Trace** pane in the side panel to show the stack trace of the node creation. 
 
 
 ## Capture screenshot via console
@@ -408,10 +342,6 @@ Can I take a screenshot of the viewport?
 1. In **Console**, use `console.screenshot()` to capture the screenshot of the viewport. 
 
 
-[Opera](https://canidev.tools/capture-viewport-screenshot/opera): 
-1. Open **Command** **menu** (`Cmd+Shift+P` or `Ctrl+Shift+P`) > Run "Capture screenshot" > Press `Enter`. By default, the screenshot will be saved in the `Downloads` directory.
-
-
 [Polypane](https://canidev.tools/capture-viewport-screenshot/polypane): 
 1. Click the "Camera" icon above the pane you want to screenshot and select "Viewport". This will open the screenshot in the screenshot editor.
 
@@ -438,11 +368,6 @@ Can I change authored color format to other formats like hsl, hwb etc?
 1. In the **Styles** pane, hold the `Shift` key and click on the color preview box to cycle through the various color formats like `hex`, `rgb`, and `colors.`
 
 
-[Opera](https://canidev.tools/change-color-format/opera): 
-1. In the **Styles** pane, hold the `Shift` key and click on the color preview box to cycle through the various color formats like `rgb`, `hsl`, and `hwb`.
-2. Alternatively, you can change the color format in the [color picker](https://developer.chrome.com/docs/devtools/css/reference/#color-picker) using the up-down arrow keys.
-
-
 ## Change devtools language
 Can I change the language of developer tools?
 
@@ -456,11 +381,6 @@ Can I change the language of developer tools?
 2. Alternatively, Run **Command** (`Cmd+Shift+P` or `Ctrl+Shift+P`) > Input the language > select the language labelled "Appearance" > Reload DevTools. 
 
 
-[Opera](https://canidev.tools/change-devtools-language/opera): 
-1. Open **Settings** (`F1` or `Shift+?`) > Preferences > Under **Languages**, select the language from the dropdown > Reload DevTools.
-2. Alternatively, Run **Command** (`Cmd+Shift+P` or `Ctrl+Shift+P`) > Input the language > select the language labelled "Appearance" > Reload DevTools. 
-
-
 ## Clear command history
 Can I clear the command history of the console?
 
@@ -469,10 +389,6 @@ In the **Console** tab, right click anywhere > select "Clear console history" to
 
 
 [Edge](https://canidev.tools/clear-command-history/edge): 
-In the **Console** tab, right click anywhere > select "Clear console history" to remove all the commands from its history.
-
-
-[Opera](https://canidev.tools/clear-command-history/opera): 
 In the **Console** tab, right click anywhere > select "Clear console history" to remove all the commands from its history.
 
 
@@ -503,11 +419,6 @@ Three ways to clear a console:
 3. Use `console.clear()` on the command line.
 
 
-[Opera](https://canidev.tools/clear-console/opera): 
-1. Click the "Clear console" icon (top-left) or use the keyboard shortcut, `Ctrl+L` or `Cmd+K`.
-2. Alternatively, you can run `console.clear()` on the command line to clear the console.
-
-
 [Polypane](https://canidev.tools/clear-console/polypane): 
 1. Click the "Clear console" icon (top-left) or use the keyboard shortcut, `Ctrl+Shift+K` or `Cmd+Shift+K`.
 2. Alternatively, you can run `console.clear()` on the command line to clear the console.
@@ -536,10 +447,6 @@ In the **Network** tab, right click on the request, Copy > Copy as cURL will cop
 
 [Safari](https://canidev.tools/copy-as-curl/safari): 
 In the **Network** tab, right click on the request, "Copy as cURL" will copy the request with cURL command to the clipboard.
-
-
-[Opera](https://canidev.tools/copy-as-curl/opera): 
-In the **Network** tab, right click on the request, Copy > Copy as cURL will copy the request with cURL command to the clipboard.
 
 
 ## Copy as Fetch
@@ -573,10 +480,6 @@ Can I copy a node's path as a CSS selector?
 In the **Elements** tab, right click on the element in the DOM tree > Copy > Selector Path.
 
 
-[Opera](https://canidev.tools/copy-css-selector/opera): 
-1. In the **Elements** tab, right click on the element in the DOM tree > Copy > Copy selector.
-
-
 [Polypane](https://canidev.tools/copy-css-selector/polypane): 
 1. In the **Elements** tab, right click on the element in the DOM tree > Copy > Copy selector.
 
@@ -594,11 +497,6 @@ Can I copy an image as a data URI?
 2. Open the **Preview** tab to preview the image and right click on the image > Copy image as data URI
 
 
-[Opera](https://canidev.tools/copy-image-uri/opera): 
-1. In the **Network** panel, click the image request to open a side panel containing the request details. 
-2. Open the **Preview** tab to preview the image and right click on the image > Copy image as data URI
-
-
 ## Copy as JS expression
 Can I copy a node's path to be used as a JavaScript expression?
 
@@ -607,10 +505,6 @@ Can I copy a node's path to be used as a JavaScript expression?
 
 
 [Edge](https://canidev.tools/copy-js-expression/edge): 
-1. In the **Elements** tab, right click on the node in the DOM tree > Copy > Copy JS path. This will copy the query selector to the node that can be used in the JS code.
-
-
-[Opera](https://canidev.tools/copy-js-expression/opera): 
 1. In the **Elements** tab, right click on the node in the DOM tree > Copy > Copy JS path. This will copy the query selector to the node that can be used in the JS code.
 
 
@@ -648,10 +542,6 @@ Can I copy an object from console?
 1. `copy(object)` copies a string representation of the specified object to the clipboard.
 
 
-[Opera](https://canidev.tools/copy-object/opera): 
-1. `copy(object)` copies a string representation of the specified object to the clipboard.
-
-
 ## Copy response text
 Can I copy the response object as text?
 
@@ -669,10 +559,6 @@ Can I copy style declarations as JavaScript object?
 1. Inspect element > In the **Styles** pane, right click on the style declaration and select "Copy declaration as JS" or "Copy all declarations as JS" to copy one or all styles.
 
 
-[Opera](https://canidev.tools/copy-styles-js/opera): 
-1. Inspect element > In the **Styles** pane, right click on the style declaration and select "Copy declaration as JS" or "Copy all declarations as JS" to copy one or all styles.
-
-
 ## Deactivate breakpoints
 Can I temporarily deactivate breakpoints while debugging source code?
 
@@ -680,9 +566,6 @@ Can I temporarily deactivate breakpoints while debugging source code?
 1. In the **Sources** panel, open the **Breakpoints** pane, click the **Deactivate breakpoints** (`Cmd+F8` or `Ctrl+F8`) icon to prevent the execution from pausing at breakpoints.
 
 [Edge](https://canidev.tools/deactivate-breakpoints/edge): 
-1. In the **Sources** panel, open the **Breakpoints** pane, click the **Deactivate breakpoints** (`Cmd+F8` or `Ctrl+F8`) icon to prevent the execution from pausing at breakpoints.
-
-[Opera](https://canidev.tools/deactivate-breakpoints/opera): 
 1. In the **Sources** panel, open the **Breakpoints** pane, click the **Deactivate breakpoints** (`Cmd+F8` or `Ctrl+F8`) icon to prevent the execution from pausing at breakpoints.
 
 ## Debug attr change
@@ -709,11 +592,6 @@ Can I set breakpoint and debug attr changes of a node?
 2. Reload the page.
 
 
-[Opera](https://canidev.tools/debug-attr-change/opera): 
-1. Inspect element > Right click on the node in the DOM tree.
-2. Select "Break on" > "attribute modifications". Reload the page.
-
-
 ## Debug Event Listeners
 Can I debug event listeners by setting a breakpoint on all or specific events?
 
@@ -736,11 +614,6 @@ Can I debug event listeners by setting a breakpoint on all or specific events?
 1. In the **Sources** tab, click the "+" button from the left sidebar in the **Breakpoints** section > Select "Events Breakpoint".
 2. Enter the name of the event in the popup form to apply a breakpoint for a specific event.
 3. Alternatively, you can set breakpoint on all the events by selecting "All Events" after clicking the "+" button.
-
-
-[Opera](https://canidev.tools/debug-event-listeners/opera): 
-1. In the **Sources** tab, expand the **Event** **Listeners** **Breakpoints** section to see the list of event categories.
-2. Expand a category and enable the checkbox for the event that needs to be debugged.
 
 
 ## Debug JavaScript
@@ -771,13 +644,6 @@ Can I debug JavaScript using devtools?
 1. In the **Sources** tab, open the `.js` file from the the left sidebar. Set a breakpoint by clicking on the line number.
 2. Perform the action necessary to trigger that line of code, which will pause the execution at the breakpoint.
 3. Once activated, use the toolbar on the left sidebar (top) to step-in/step-out, watch expressions, local vars while debugging through the code.
-4. Alternatively, you can also add the `debugger;` statement in the code to pause execution of the code at that line.
-
-
-[Opera](https://canidev.tools/debug-javascript/opera): 
-1. In the **Sources** tab, open the `.js` file from the **Page** panel in the left sidebar. Set a breakpoint by clicking on the line number.
-2. Perform the action necessary to trigger that line of code, which will pause the execution at the breakpoint.
-3. Use the toolbar on the right sidebar to step-in/step-out, watch expressions, local vars while debugging through the code.
 4. Alternatively, you can also add the `debugger;` statement in the code to pause execution of the code at that line.
 
 
@@ -845,14 +711,6 @@ Can I debug XHR or fetch calls by setting a breakpoint for a specific or all req
 3. Alternatively, you can set breakpoint on all the requests by selecting "All Requests" after clicking the "+" button.
 
 
-[Opera](https://canidev.tools/debug-xhr-fetch-calls/opera): 
-1. Click the **Sources** tab.
-2. Expand the **XHR Breakpoints** pane.
-3. Click **Add breakpoint**.
-4. Enter the string which you want to break on. DevTools pauses when this string is present anywhere in an XHR's request URL.
-5. Press Enter to confirm.
-
-
 ## Delete node
 Can I delete a node from the DOM tree?
 
@@ -885,11 +743,6 @@ Can I detect memory leaks in my web app using devtools?
 3. Take snapshot using the **Camera** icon after each repetition. Use the **Compare** button to compare the snapshots for any visible memory spikes.
 
 
-[Opera](https://canidev.tools/detect-memory-leaks/opera): 
-1. Open devtools using `Cmd+Opt+I` (on Mac) or `Ctrl+Shift+I` (on Windows/Linux) > Memory.
-2. Check memory usage > Memory going only ⬆️ is a bad sign! > Capture snapshot to preview memory allocation > Find redundant objects > Navigate to where you allocated them.
-
-
 ## Disable cache
 Can I disable cache for the network requests?
 
@@ -907,10 +760,6 @@ Can I disable cache for the network requests?
 
 [Safari](https://canidev.tools/disable-cache/safari): 
 1. Open Network panel > Look for the icon in the top right of the toolbar with tooltip "Ignore the resource cache when loading resources".
-
-
-[Opera](https://canidev.tools/disable-cache/opera): 
-1. Open Network panel > Look for "Disable cache" in the toolbar at the top.
 
 
 [Polypane](https://canidev.tools/disable-cache/polypane): 
@@ -945,12 +794,6 @@ Can I disable JavaScript on a web page?
 2. Click on the Security tab. Under the Web Content section, uncheck the "Enable JavaScript" checkbox.
 
 
-[Opera](https://canidev.tools/disable-javascript/opera): 
-1. Open devtools. Press `Shift+Cmd+P` on Mac or `Ctrl+Shit+P` on Windows/Linux/Chrome OS to open the Command Menu.
-2. Search for "Disable JavaScript" and press `Enter` to execute the command.
-3. The yellow warning icon next to the Sources panel is the indicator that the JavaScript is disabled. It will continue to be disabled until the devtools is closed.
-
-
 [Polypane](https://canidev.tools/disable-javascript/polypane): 
 1. Open the "debug tools" of an individual pane.
 2. under "Disable features", select "Disable JS".
@@ -964,10 +807,6 @@ Can I display the current frames per second (FPS) of the page?
 
 
 [Edge](https://canidev.tools/display-fps/edge): 
-1. Open **Command Menu** (`Cmd+Shift+P` or `Ctrl+Shift+P`) > Run "Show frames per second (FPS) meter".
-
-
-[Opera](https://canidev.tools/display-fps/opera): 
 1. Open **Command Menu** (`Cmd+Shift+P` or `Ctrl+Shift+P`) > Run "Show frames per second (FPS) meter".
 
 
@@ -994,11 +833,6 @@ Can I drag & drop nodes anywhere inside the DOM tree?
 1. Select any DOM node from the DOM tree, drag and drop anywhere in the tree to place the element.
 
 
-[Opera](https://canidev.tools/drag-drop-element/opera): 
-1. Right click > Inspect element or Press `Cmd+Opt+I` (on Mac) or `Ctrl+Shift+I` (on Windows/Linux).
-2. Select the node and drag-n-drop to a different part of the DOM tree.
-
-
 ## Duplicate node
 Can I duplicate a node in the DOM tree?
 
@@ -1020,11 +854,6 @@ Can I emulate blurred vision on a page?
 
 
 [Edge](https://canidev.tools/emulate-blurred-vision/edge): 
-1. Run **Command** (`Cmd+Shift+P` or `Ctrl+Shift+P`) > "Show Rendering" (Drawer).
-2. Navigate to the **Emulate** **vision** **deficiencies** section and choose "Blurred vision".
-
-
-[Opera](https://canidev.tools/emulate-blurred-vision/opera): 
 1. Run **Command** (`Cmd+Shift+P` or `Ctrl+Shift+P`) > "Show Rendering" (Drawer).
 2. Navigate to the **Emulate** **vision** **deficiencies** section and choose "Blurred vision".
 
@@ -1056,11 +885,6 @@ Can I emulate different color schemes for dark and light mode?
 Open **Web Inspector** using `Cmd+Opt+I`. Look for the icon in the top right of the Elements panel, to toggle between "Force Dark Appearance" and "Use Default Appearance".
 
 
-[Opera](https://canidev.tools/emulate-color-schemes/opera): 
-1. Open devtools > Inside the "Styles" pane, right next to the "+" button, click the Icon "Toggle common rendering emulations".
-2. Choose the `prefers-color-scheme` option to emulate the corresponding color scheme.
-
-
 [Polypane](https://canidev.tools/emulate-color-schemes/polypane): 
 1. Open the "Media and Emulation" settings of a pane.
 2. Under "Media features", Toggle between light and dark values for `prefers-color-scheme`.
@@ -1090,11 +914,6 @@ There are three ways to toggle Responsive Design Mode:
 1. From the menu bar: Develop > Enter Responsive Design Mode (or press `Ctrl+Cmd+R`).
 
 
-[Opera](https://canidev.tools/emulate-devices/opera): 
-1. Open devtools using `Cmd+Opt+I` (on MacOS) or `Ctrl+Shift+I` (on Windows/Linux).
-2. Press `Cmd+Shift+M` (on MacOS) or `Ctrl+Shift+M` (on Windows/Linux) or click the devices icon in the top right to "Toggle device toolbar".
-
-
 [Polypane](https://canidev.tools/emulate-devices/polypane): 
 1. Click the title of a pane.
 2. Select one of the 30+ available device presets
@@ -1106,11 +925,6 @@ Can I emulate detection of the user state as idle?
 
 [Chrome](https://canidev.tools/emulate-idle-detection/chrome): 
 1. Open **Command Menu** (`Cmd+Shift+P` or `Ctrl+Shift+P`) > Run "Sensors" > Press `Enter`.
-2. Scroll down to the section "Emulate Idle Detector state" and select the appropriate option to force the selected idle state for emulation.
-
-
-[Opera](https://canidev.tools/emulate-idle-detection/opera): 
-1. Open Command Menu (`Cmd+Shift+P` or `Ctrl+Shift+P`) > Run "Sensors" > Press `Enter`.
 2. Scroll down to the section "Emulate Idle Detector state" and select the appropriate option to force the selected idle state for emulation.
 
 
@@ -1135,12 +949,6 @@ Can I emulate print media query?
 
 [Safari](https://canidev.tools/emulate-print-styles/safari): 
 1. In the **Elements** panel, click the printer icon in the toolbar at the top to force the page to use the print media styles.
-
-
-[Opera](https://canidev.tools/emulate-print-styles/opera): 
-1. Launch devtools > Open "Command Menu" using `Cmd+Shift+P` (Mac) or `Ctrl+Shift+P` (Windows, Linux, Chrome OS).
-2. Search for "Show Rendering" and press Enter (this will open the Rendering panel next to the Console).
-3. Scroll down to the section "Emulate CSS Media Type" and select "print".
 
 
 [Polypane](https://canidev.tools/emulate-print-styles/polypane): 
@@ -1176,11 +984,6 @@ Can I expand DOM nodes recursively in the DOM tree?
 2. (Or) Use `Opt+Click` or `Alt+Click` on the arrow preceding the node with the keyboard.
 
 
-[Opera](https://canidev.tools/expand-dom-nodes-recursively/opera): 
-1. Right click on the node in the DOM tree, select "Expand recursively". 
-2. (Or) Use `Opt+Click` or `Alt+Click` on the arrow preceding the node with the keyboard.
-
-
 ## Extend DevTools UI
 Can I extend DevTools to customise UI?
 
@@ -1201,11 +1004,6 @@ Can I extend DevTools to customise UI?
 
 [Safari](https://canidev.tools/extend-devtools-ui/safari): 
 1. To create a Safari web extension, you create an Xcode project using the Safari Extension App template. The project includes the Safari web extension as a macOS or iOS app extension that users can download from the App Store and install in Safari.
-
-
-[Opera](https://canidev.tools/extend-devtools-ui/opera): 
-1. Opera uses Chromium DevTools which can be extended to add new UI panels and sidebars, interact with the inspected page, get information about network requests, and more.
-2. Refer the official guide to extend [Chrome DevTools](https://developer.chrome.com/docs/extensions/mv3/devtools/).
 
 
 ## Filter blocked cookies requests
@@ -1239,10 +1037,6 @@ Can I filter multiple resource types in the Network tab?
 1. Open devtools > Open the "Network" tab. Hold `Cmd` or `Ctrl` key while clicking on the Resource type.
 
 
-[Opera](https://canidev.tools/filter-multiple-resources/opera): 
-1. Open devtools > Open the "Network" tab. Hold `Cmd` or `Ctrl` key while clicking on the Resource type.
-
-
 ## Filter requests by domain
 Can I filter network requests by domain name?
 
@@ -1259,12 +1053,6 @@ Can I filter network requests by domain name?
 [Edge](https://canidev.tools/filter-requests-domain/edge): 
 1. In **Network** > Enter `domain:` in the "Filter" field followed by the domain to filter the network requests on.
 2. **Filter** field also suggests the list of domain names to choose from.
-
-
-[Opera](https://canidev.tools/filter-requests-domain/opera): 
-1. In **Network** > Enter `domain:` in the "Filter" field followed by the domain to filter the network requests on.
-2. Filter field also suggests the list of domain names to choose from.
-
 
 
 ## Filter requests by keyword
@@ -1289,11 +1077,6 @@ Can I filter requests in the Network tab with a keyword?
 1. In the **Network** tab, use the "Filter Full URL" input field to filter network requests for a specific keyword.
 
 
-[Opera](https://canidev.tools/filter-requests-keyword/opera): 
-1. Open the **Network** tab > Use the "Filter" input field to filter network requests based on a specific keyword. 
-2. Use the "Invert" checkbox to filter on requests which does not match the keyword.
-
-
 ## Filter requests by properties
 Can I filter requests in the Network tab using specific properties?
 
@@ -1307,11 +1090,6 @@ Can I filter requests in the Network tab using specific properties?
 
 
 [Edge](https://canidev.tools/filter-requests-properties/edge): 
-1. Use the Filter text box to filter requests by properties, such as the domain or size of the request.
-2. You can use multiple properties simultaneously by separating each property with a space. For example, `mime-type:image/gif larger-than:1K` displays all GIFs that are larger than one kilobyte. These multi-property filters are equivalent to AND operations. OR operations are currently not supported.
-
-
-[Opera](https://canidev.tools/filter-requests-properties/opera): 
 1. Use the Filter text box to filter requests by properties, such as the domain or size of the request.
 2. You can use multiple properties simultaneously by separating each property with a space. For example, `mime-type:image/gif larger-than:1K` displays all GIFs that are larger than one kilobyte. These multi-property filters are equivalent to AND operations. OR operations are currently not supported.
 
@@ -1357,12 +1135,6 @@ Can I find elements in the DOM tree using xpath?
 
 
 
-[Opera](https://canidev.tools/find-by-xpath/opera): 
-1. Open devtools using Cmd+Opt+I (on MacOS) or Ctrl+Shift+I (on Windows/Linux/ChromeOS) > Elements.
-2. Press Cmd+F or Ctrl+F to open the search bar at the bottom of the Elements panel.
-3. Enter XPath to find the element in the DOM node.
-
-
 ## Find color contrast
 Can I find the contrast ratio of a color?
 
@@ -1380,12 +1152,6 @@ Can I find the contrast ratio of a color?
 
 [Edge](https://canidev.tools/find-color-contrast/edge): 
 1. Inspect element > In the **Styles** pane, click the color square next to the `color` property. This will open the color panel.
-2. Expand the "Contrast Ratio" section to see more details whether the color value meets the W3C recommendation.
-3. Use the "reload" icon next to AA/AAA to use the suggested color to fix the low color contrast ratio.
-
-
-[Opera](https://canidev.tools/find-color-contrast/opera): 
-1. Inspect element > In the Styles pane, click the color square next to the `color` property. This will open the color panel.
 2. Expand the "Contrast Ratio" section to see more details whether the color value meets the W3C recommendation.
 3. Use the "reload" icon next to AA/AAA to use the suggested color to fix the low color contrast ratio.
 
@@ -1416,11 +1182,6 @@ Can I find elements in the DOM tree using CSS selector?
 
 [Safari](https://canidev.tools/find-element-css-selector/safari): 
 1. In the **Elements** tab, use `Cmd+F` or `Ctrl+F` to open the search box. Type the CSS selector and then press `Enter` to find elements matching the condition.
-
-
-[Opera](https://canidev.tools/find-element-css-selector/opera): 
-1. Open devtools > Click the "Elements" panel > Press `Cmd+F` (on Mac) or `Ctrl+F` (on Windows/Linux/Chrome OS) to open the search bar.
-2. Enter the CSS selector to search an element in the DOM tree.
 
 
 ## Find expensive CSS selectors
@@ -1454,11 +1215,6 @@ Can I find in files for a specific keyword?
 1. Anywhere in the web inspector, press `Cmd+Shift+F` to find in files for a specific keyword.
 
 
-[Opera](https://canidev.tools/find-in-files/opera): 
-1. Open **Command** **Menu** (`Cmd+Shift+P` or `Ctrl+Shift+P`) > Run > "Show Search" (Drawer).
-2. Enter the search query in the text field and press `Enter` to search across all download resources.
-
-
 ## Find inactive styles
 Can I find inactive styles applied to an element?
 
@@ -1472,11 +1228,6 @@ Can I find inactive styles applied to an element?
 
 
 [Edge](https://canidev.tools/find-inactive-styles/edge): 
-1. Enable authoring hints, by opening **Settings** (`F1`) > **Experiments** > Filter on "authoring hints" > Check "Enable CSS Authoring hints..."
-2. In **Elements** > Locate the authored styles in the **Styles** pane > Inactive declarations have an "i" icon, which on hover reveals a tooltip displaying more information.
-
-
-[Opera](https://canidev.tools/find-inactive-styles/opera): 
 1. Enable authoring hints, by opening **Settings** (`F1`) > **Experiments** > Filter on "authoring hints" > Check "Enable CSS Authoring hints..."
 2. In **Elements** > Locate the authored styles in the **Styles** pane > Inactive declarations have an "i" icon, which on hover reveals a tooltip displaying more information.
 
@@ -1502,12 +1253,6 @@ Can I find unused styles on a web page?
 3. Click the "Reload" button to see the unused styles per CSS file. 
 
 
-[Opera](https://canidev.tools/find-unused-css/opera): 
-1. Launch Devtools > Open Command Menu using "Cmd+Shift+P" (on Mac) or "Ctrl+Shift+P" (on Windows/Linus/Chrome OS).
-2. Search for "Show Coverage" (this will open the Coverage drawer next to the Console).
-3. Click the "Reload" button to see the unused styles per CSS file. 
-
-
 ## Find unused JavaScript
 Can I find unused JavaScript code on the page?
 
@@ -1524,11 +1269,6 @@ Can I find unused JavaScript code on the page?
 [Safari](https://canidev.tools/find-unused-js/safari): 
 1. In the **Sources** panel, open the JS file from the left sidebar. Click the "C" icon in the toolbar (top-right) to fade unexecuted code. 
 2. Reload the page to fade unexecuted code.
-
-
-[Opera](https://canidev.tools/find-unused-js/opera): 
-1. Open **Command** Menu using `Cmd+Shift+P` or `Ctrl+Shift+P`. Search for "Show Coverage" and press `Enter`. (this will open the **Coverage** drawer next to the Console).
-2. Click the "Reload" button to see the unused JavaScript bytes per file. Clicking the row, will open the file in the **Sources** panel highlighting the unused lines with red colour.
 
 
 ## Focus form elements
@@ -1570,10 +1310,6 @@ Can I get the last evaluated value in the console?
 2. Additionally, Safari also lets you access past values in chronological order, using `$1, $2, $3`, ...
 
 
-[Opera](https://canidev.tools/get-last-value/opera): 
-1. `$_` returns the value of the most recently evaluated expression.
-
-
 [Polypane](https://canidev.tools/get-last-value/polypane): 
 1. `$_` returns the value of the most recently evaluated expression.
 
@@ -1595,11 +1331,6 @@ Can I get the xpath of a node in the DOM tree?
 
 [Safari](https://canidev.tools/get-node-xpath/safari): 
 1. Inspect element > Right click on the node in the DOM tree > Copy > XPath.
-
-
-[Opera](https://canidev.tools/get-node-xpath/opera): 
-1. Inspect the element > Right click on the node in the DOM tree > Copy > Copy full XPath
-
 
 
 [Polypane](https://canidev.tools/get-node-xpath/polypane): 
@@ -1626,10 +1357,6 @@ Can I refer the currently selected node in the DOM tree from the console?
 
 
 
-[Opera](https://canidev.tools/get-selected-node/opera): 
-1. Use `$0` to access the currently selected node. Additionally, `$1`, `$2`, `$3`, ... will give you the last selected nodes in the reverse chronological order.
-
-
 [Polypane](https://canidev.tools/get-selected-node/polypane): 
 1. Use `$0` to access the currently selected node. Additionally, `$1`, `$2`, `$3` and `$4` will give you the last selected nodes in the reverse chronological order.
 
@@ -1651,9 +1378,6 @@ Can I get the viewport size?
 [Safari](https://canidev.tools/get-viewport-size/safari): 
 1. In Web Inspector, click the Show Rulers button to enable the ruler and viewport size on the page.
 
-[Opera](https://canidev.tools/get-viewport-size/opera): 
-1. Open DevTools panel docked to the page. Resize the Devtools panel to view the current viewport size in top-right.
-
 ## Go to file
 Can i jump to file by searching for a filename?
 
@@ -1674,11 +1398,6 @@ Can i jump to file by searching for a filename?
 
 [Safari](https://canidev.tools/go-to-file/safari): 
 1. Anywhere in the web inspector, press `Cmd+P` to search for files matching the filename.
-
-
-[Opera](https://canidev.tools/go-to-file/opera): 
-1. Open devtools using `Cmd+Opt+I` (on Mac) or `Ctrl+Shift+I` (on Windows/Linux) > Sources.
-2. Run Command menu using `Cmd+Shift+P` (on Mac) or `Ctrl+Shift+P` (on Windows/Linux) > Type filename to filter on the matching files > Press `Enter`.
 
 
 ## Hide extention requests
@@ -1719,13 +1438,6 @@ Can I ignore scripts while debugging?
 1. In the **Sources** panel, right click on any script and select **Blackbox script** or click the eye icon next to the script name in the source tree.
 2. To ignore multiple scripts with a pattern, go to Settings > Blackbox > Enter the regex pattern to ignore scripts in bulk.
 
-[Opera](https://canidev.tools/ignore-scripts-debug/opera): 
-1. In **Sources** > Open **Page** (left sidebar) > Right click on the script to be ignored and select "Add script to ignore list". Debugger will omit this script from the call stack and gray out in the file tree.
-2. Alternatively, you can also add a script to the ignore list from the **Call** **Stack** pane by using the same option from the right click menu.
-3. To ignore multiple scripts using a pattern, open **Settings** (`F1`) > Ignore List > Enable Ignore Listing. Click the "Add Pattern" button and enter the regex pattern matching the scripts to be ignored.
-4. All the ignored scripts will be available under **Custom** **exclusion** **rules** section in **Ignore List**.
-
-
 ## Import & Export HAR file
 Can I import and export network activity to a HAR file?
 
@@ -1747,11 +1459,6 @@ Can I import and export network activity to a HAR file?
 1. In the **Network** panel, use the **Import** & **Export** buttons to import and export HAR file respectively.
 
 
-[Opera](https://canidev.tools/import-export-har/opera): 
-1. In the **Network** panel, use the **Up** (↑) and **Down** (↓) arrow buttons in the toolbar to **Import** and **Export** all the network activity into a HAR file.
-
-
-
 ## Import source maps
 Can I import source maps manually to debug production code?
 
@@ -1760,10 +1467,6 @@ Can I import source maps manually to debug production code?
 2. Enter the source map URL, click Add. On successful addition, the source map will appear in the **Developer Resources** drawer and the editor status bar.
 
 [Edge](https://canidev.tools/import-source-maps/edge): 
-1. In the **Sources** panel, open the script, right click in the Editor, and select **Add source map...** from the menu.
-2. Enter the source map URL, click Add. On successful addition, the source map will appear in the **Developer Resources** drawer and the editor status bar.
-
-[Opera](https://canidev.tools/import-source-maps/opera): 
 1. In the **Sources** panel, open the script, right click in the Editor, and select **Add source map...** from the menu.
 2. Enter the source map URL, click Add. On successful addition, the source map will appear in the **Developer Resources** drawer and the editor status bar.
 
@@ -1792,16 +1495,6 @@ Can I inspect CSS box shadow using an editor?
 1. Inspect Element with `box-shadow` property applied. Click the square icon before the box shadow value to open the box shadow editor.
 2. In the editor, you can change the Offset X/Y, Inset, Blur, Spread and Color properties of the box shadow
 
-[Opera](https://canidev.tools/inspect-box-shadow/opera): 
-1. Inspect the element with box shadow > In the **Styles** pane, click the icon next to the `box-shadow` property to open the box shadow editor.
-2. Change the shadow properties:
-    - **Type** (only for `box-shadow`). Pick Outset or Inset.
-    - **X and Y offsets**. Drag the blue dot or specify values.
-    - **Blur**. Drag the slider or specify a value.
-    - **Spread** (only for `box-shadow`). Drag the slider or specify a value.
-
-
-
 ## Inspect container queries
 Can I inspect and debug container queries in the devtools?
 
@@ -1829,11 +1522,6 @@ Can I inspect & tweak the CSS angle unit values applied to a property?
 
 
 
-[Opera](https://canidev.tools/inspect-css-angles/opera): 
-1. Inspect the element using CSS angle unit values > Styles > Click the icon next to the angle unit to open a visual editor to apply the angle value.
-
-
-
 ## Inspect CSS Animation
 Can I inspect CSS animations & keyframes using the devtools?
 
@@ -1856,12 +1544,6 @@ Can I inspect CSS animations & keyframes using the devtools?
 [Safari](https://canidev.tools/inspect-css-animation/safari): 
 1. Open devtools > Open the "Timelines" tab > Ensure that "Media and Animations" is enabled in the left panel.
 2. Now reload the page or trigger the animation to see the timeline in the bottom panel. 
-
-
-[Opera](https://canidev.tools/inspect-css-animation/opera): 
-1. Open **Command** **Menu** (`Cmd+Shift+P` or `Ctrl+Shift+P`) > Run  "Show Animations" and press `Enter.`
-2. Trigger the animation to record it on the timeline. Now you can use the buttons in the **Controls** section to adjust the replay speed of the animation.
-3. Use the **Timeline** section to scrub the animation or jump to a specific point in animation. Use the **Details** section modify the timing & the delay of the animation.
 
 
 ## Inspect CSS at-rule
@@ -1905,12 +1587,6 @@ Can I inspect CSS flexbox?
 2. From the right sidebar, select "Layout", and scroll down to the **Flexbox** section, that has few page overlay options to help visualize and debug flexbox containers.
 
 
-[Opera](https://canidev.tools/inspect-css-flexbox/opera): 
-1. When an HTML element on your page has `display: flex` or `display: inline-flex` applied to it, you can see a `flex` badge next to it in the Elements panel.
-2. In the Styles pane, you can see the flexbox editor button next to the `display: flex` declaration.
-3. Click on it to open the flexbox editor. The editor displays a list of flexbox properties. Each property's value options are displayed as icon buttons.
-
-
 ## Inspect CSS Grid
 Can I inspect CSS grid?
 
@@ -1937,13 +1613,6 @@ Can I inspect CSS grid?
 1. When an HTML element on your page has `display: grid` or `display: inline-grid` applied to it, you can see a `grid` badge next to it in the Elements panel.
 2. Clicking the badge to toggle the display of a grid overlay on the page. The overlay appears over the element, laid out like a grid to show the position of its grid lines and tracks.
 3. Open the **Layout** pane. When grids are included on a page, the Layout pane includes a Grid section containing a number of options for viewing those grids.
-
-
-[Opera](https://canidev.tools/inspect-css-grid/opera): 
-1. When an HTML element on your page has `display: grid` or `display: inline-grid` applied to it, you can see a `grid` badge next to it in the **Elements** panel.
-2. Clicking the badge to toggle the display of a grid overlay on the page. The overlay appears over the element, laid out like a grid to show the position of its grid lines and tracks.
-3. Open the **Layout** pane. When grids are included on a page, the Layout pane includes a Grid section containing a number of options for viewing those grids.
-
 
 
 ## Inspect CSS Nesting
@@ -2004,10 +1673,6 @@ Can I inspect CSS variables?
 1. In **Styles** pane, hover over the variable name to see the value in the tooltip. Click the link to jump to the section where the variable is defined.
 
 
-[Opera](https://canidev.tools/inspect-css-vars/opera): 
-1. In **Styles** pane, hover over the variable name to see the value in the tooltip. Click the link to jump to the section where the variable is defined.
-
-
 ## Inspect devtools
 Can I inspect the browser's developer tool?
 
@@ -2022,11 +1687,6 @@ Can I inspect the browser's developer tool?
 
 
 [Edge](https://canidev.tools/inspect-devtools/edge): 
-1. Inside devtools, press `Cmd+Shift+I `or `Ctrl+Shift+I` to  inspect the devtools panel itself using new instance of devtools.
-2. Important to note, you can keep using this shortcut to inspecting new instance of devtools recursively.
-
-
-[Opera](https://canidev.tools/inspect-devtools/opera): 
 1. Inside devtools, press `Cmd+Shift+I `or `Ctrl+Shift+I` to  inspect the devtools panel itself using new instance of devtools.
 2. Important to note, you can keep using this shortcut to inspecting new instance of devtools recursively.
 
@@ -2052,11 +1712,6 @@ Can I inspect and edit various CSS font properties like, font-size, line-height 
 1. Inspect element > Navigate to the **Font** panel to see information about the active font for the selected DOM node in the DOM Tree, providing computed values for both basic properties (e.g. size, style, weight, etc.) and advanced properties (e.g. ligatures, alternate glyphs, variations, etc.)
 
 
-[Opera](https://canidev.tools/inspect-font-properties/opera): 
-1. Open **Settings** (`F1` or `Shift+?`) > Experiments > Check the "Enable the new Font Editor tool within the Styles pane" box > Reload.
-2. In the **Styles** pane, click the "AA" icon in the bottom right of the selector box to open the **Font Editor** tool which allows you to tweak various font properties.
-
-
 ## Inspect requests
 Can I inspect Network requests?
 
@@ -2076,10 +1731,6 @@ Can I inspect Network requests?
 1. Open devtools > Click on the Network panel (This will show a section containing table of network requests).
 
 
-[Opera](https://canidev.tools/inspect-requests/opera): 
-1. Open devtools > Click on the Network panel (This will show a section containing table of network requests).
-
-
 ## Inspect CSS scroll snap
 Can I inspect & visualize CSS scroll snap layout?
 
@@ -2089,12 +1740,6 @@ Can I inspect & visualize CSS scroll snap layout?
 
 
 [Edge](https://canidev.tools/inspect-scroll-snap/edge): 
-1. When an HTML element on your page (e.g. this [demo](https://mathiasbynens.github.io/css-dbg-stories/css-scroll-snap.html) page) has `scroll-snap-type` applied to it, you can see a `scroll-snap` badge next to it in the Elements panel. Click the badge to toggle the display of a scroll-snap overlay on the page.
-2. In the example above, you can see dot marks on snap edges. The scroll port has solid outlined while the snap items have dash outlines. The scroll padding is filled in green color while the scroll margin is filled in orange.
-
-
-
-[Opera](https://canidev.tools/inspect-scroll-snap/opera): 
 1. When an HTML element on your page (e.g. this [demo](https://mathiasbynens.github.io/css-dbg-stories/css-scroll-snap.html) page) has `scroll-snap-type` applied to it, you can see a `scroll-snap` badge next to it in the Elements panel. Click the badge to toggle the display of a scroll-snap overlay on the page.
 2. In the example above, you can see dot marks on snap edges. The scroll port has solid outlined while the snap items have dash outlines. The scroll padding is filled in green color while the scroll margin is filled in orange.
 
@@ -2141,11 +1786,6 @@ Can I trace style declarations in the original source file?
 
 
 
-[Opera](https://canidev.tools/locate-styles-source/opera): 
-1. Inspect element > Find the corresponding declaration in the "Styles" pane. 
-2. Click the `<filename>:<lineno>` link adjacent to the declaration to locate the style in the source file.
-
-
 ## Measure distance on page
 Can I measure straight line distance between any two points on the page?
 
@@ -2173,11 +1813,6 @@ Can I prevent the debugger from pausing at exceptions?
 1. In **Sources**, right click on the line that throws exceptions, select "Edit Breakpoint..." > Enter the condition as `false`.
 
 
-[Opera](https://canidev.tools/never-pause-exceptions/opera): 
-1. In **Sources**, right click on the line number that throws an exception and select "Never pause here".
-
-
-
 ## Open Console with keyboard
 Can I open the console using the keyboard?
 
@@ -2195,10 +1830,6 @@ Can I open the console using the keyboard?
 
 [Safari](https://canidev.tools/open-console-keyboard/safari): 
 Use Cmd+Opt+C to directly open the **Console** tab.
-
-
-[Opera](https://canidev.tools/open-console-keyboard/opera): 
-1. Use `Cmd+Opt+J` or `Ctrl+Shift+J` to directly open the **Console** tab.
 
 
 [Polypane](https://canidev.tools/open-console-keyboard/polypane): 
@@ -2224,10 +1855,6 @@ Can I open developer tools with the keyboard?
 In the menu bar, navigate to Safari > Preferences > Click on the **Advanced** tab, check "Show Develop menu in menu bar".
 
 Press `Option+Cmd+I` to open the devtools.
-
-
-[Opera](https://canidev.tools/open-devtools-keyboard/opera): 
-1. Launch Opera > Press `F12`. Alternatively, you can also use `Cmd+Option+I` (on Mac) and `Ctrl+Shift+I` (on Windows/Linux) to open the last used panel.
 
 
 [Polypane](https://canidev.tools/open-devtools-keyboard/polypane): 
@@ -2257,11 +1884,6 @@ Can I open developer tools using a mouse?
 2. Again in the menu bar, navigate to Develop > Show Web Inspector.
 
 
-[Opera](https://canidev.tools/open-devtools-mouse/opera): 
-1. Launch Opera → Click on the vertical three dots icon (near top right of the window).
-2. Navigate to More Tools > Developer Tools.
-
-
 [Polypane](https://canidev.tools/open-devtools-mouse/polypane): 
 1. Click the "Panel" Icon in the header, then in the panel go to to the "Edit" tab and then the "Elements" tab.
 
@@ -2286,10 +1908,6 @@ Start-Process -FilePath "msedge" -ArgumentList "--auto-open-devtools-for-tabs</p
 **MacOS**: <pre>/Applications/Microsoft\ Edge.app/Contents/MacOS/Microsoft\ Edge --auto-open-devtools-for-tabs</pre> 
  **Linux**: <pre>microsoft-edge --auto-open-devtools-for-tabs</pre>
 ![](https://res.cloudinary.com/canidevtools/image/upload/l_watermark,w_100,o_10/open-devtools-new-tab-edge.png)
-
-[Opera](https://canidev.tools/open-devtools-new-tab/opera): 
-1. **MacOS**: In the terminal, pass the `--auto-open-devtools-for-tabs` flag to while launching Opera. <pre>/Applications/Opera/Contents/MacOS/Opera --auto-open-devtools-for-tabs</pre>
-2. **Windows**: Right-click the Opera shortcut > Properties and add the flag at the end of the Target line. Alternatively, run the following from your command-line. <pre>C:\Program Files (x86)\Opera\opera.exe -auto-open-devtools-for-tabs</pre>
 
 [Polypane](https://canidev.tools/open-devtools-new-tab/polypane): 
 1. Open DevTools > In the File menu select "Set Current Tab as Default New Tab".
@@ -2347,22 +1965,6 @@ console.table([
 Open **Console** using `Cmd+Opt+C`. Use `console.table()` to output arrays of array or array of objects in a sortable, tabular format.
 
 
-[Opera](https://canidev.tools/output-data-table/opera): 
-1. Open console using `Cmd+Opt+J` or `Ctrl+Shift+J`.
-2. Use `console.table()` to output an array of arrays, or array of objects in a sortable, tabular format. For example, 
-```
-console.table([[10, true, "blue"],[5, false]])
-```
-1. If the number of elements in each object is not equal, the table will display `undefined` in cells for which there is no data.
-2. There is an optional second argument which allows you to explicitly specify which columns to output.
-```
-console.table([
-  {population:8173194, country:"UK", elevation:"24m"},
-  {population:8336697, country:"USA", elevation:"10m"}
-],["population", "country"])
-```
-
-
 [Polypane](https://canidev.tools/output-data-table/polypane): 
 Open **Console**. Use `console.table()` to output arrays of array or array of objects in a sortable, tabular format.
 
@@ -2377,12 +1979,6 @@ Can I override location to match a different geographic region?
 
 
 [Edge](https://canidev.tools/override-geolocation/edge): 
-1. Open **Command** **Menu** (`Cmd+Shift+P` or `Ctrl+Shift+P`) > Run "Show Sensors". This will open the **Sensors** drawer.
-2. Select a location from the **Location** dropdown or choose **Other** to manually enter the Latitude/Longitude. 
-3. Use the **Manage** button to add a new custom location.
-
-
-[Opera](https://canidev.tools/override-geolocation/opera): 
 1. Open **Command** **Menu** (`Cmd+Shift+P` or `Ctrl+Shift+P`) > Run "Show Sensors". This will open the **Sensors** drawer.
 2. Select a location from the **Location** dropdown or choose **Other** to manually enter the Latitude/Longitude. 
 3. Use the **Manage** button to add a new custom location.
@@ -2435,11 +2031,6 @@ Can I override the user agent to emulate different profiles?
 1. In the **Menu Bar**, Developer > User Agent > Select the user agent. Choose "Other..." to use a custom user agent string.
 
 
-[Opera](https://canidev.tools/override-useragent/opera): 
-1. Open **Command** **Menu** (`Cmd+Shift+P` or `Ctrl+Shift+P`) and Run > "Show network conditions". This will open the **Network** **conditions** drawer.
-2. In the **User** **agent** section, disable "Use browser default" and select the user agent from the list below or enter your own custom string.
-
-
 [Polypane](https://canidev.tools/override-useragent/polypane): 
 1. Open the **Change Media and Emulations** settings of a pane
 2. Go to the "Emulation" tab.
@@ -2463,12 +2054,6 @@ Can I use the color picker to pick colors from outside the browser window?
 
 [Safari](https://canidev.tools/pick-color-outside-window/safari): 
 1. In the **Styles** pane, click on any color preview to open a color picker. Use the eyedropper to pick color from anywhere.
-
-
-[Opera](https://canidev.tools/pick-color-outside-window/opera): 
-1. Open **Settings** (or press `Shift+?` or `F1`) > Experiments > Apply filter on "color picker".
-2. Check the "Enable color picking outside the browser window" option > Reload DevTools.
-3. In the **Styles** pane, click on any color preview to open a color picker. Use the eyedropper to pick color from anywhere.
 
 
 [Polypane](https://canidev.tools/pick-color-outside-window/polypane): 
@@ -2497,11 +2082,6 @@ Can I preserve console logs across page reloads?
 
 [Safari](https://canidev.tools/preserve-console-logs/safari): 
 1. In the **Console** tab, select the "Preserve Log" checkbox in the toolbar (top) to persist logs across page reloads.
-
-
-[Opera](https://canidev.tools/preserve-console-logs/opera): 
-1. Open console using `Cmd+Opt+J` or `Ctrl+Shift+J` > Click on the gear icon in top right to open "Console settings".
-2. Check "Preserve log" to preserve log statements between page reloads.
 
 
 [Polypane](https://canidev.tools/preserve-console-logs/polypane): 
@@ -2533,11 +2113,6 @@ Can I pretty print minified JavaScript code?
 
 [Safari](https://canidev.tools/pretty-print-js/safari): 
 1. In the **Sources** tab, open the `.js` file from the left sidebar. Click the pretty print icon `{}` from the top toolbar to toggle between pretty print and original source format. 
-
-
-[Opera](https://canidev.tools/pretty-print-js/opera): 
-1. In the Sources tab, open the `.js` file from the left sidebar. In the bottom tray, click the icon `{}` titled "Pretty print" to pretty print the JavaScript code. 
-2. This will open the formatted file in a new tab suffixed ":formatted".
 
 
 ## Record & replay user journey
@@ -2572,12 +2147,6 @@ Can I reorder tabs & panes in the devtools panel?
 1. In the main browser window, drag and drop tabs anywhere across the tab-bar to reorder tabs based on preference.
 2. Once re-ordered, the order will persist for future devtools sessions.
 3. This does not work for panes within a tab.
-
-
-
-[Opera](https://canidev.tools/reorder-tabs-panes/opera): 
-1. In the main browser window, drag and drop tabs (or panes) anywhere across the tab-bar to reorder tabs (or panes) based on preference.
-2. Once re-ordered, the order will persist for future devtools sessions.
 
 
 
@@ -2630,10 +2199,6 @@ To restore the default theme, placement, tools order, and any other customised s
 To restore the default theme, placement, tools order, and any other customised settings, select Settings > Preferences > Restore defaults and refresh.
 
 
-[Opera](https://canidev.tools/restore-default-settings/opera): 
-To restore the default theme, placement, tools order, and any other customised settings, select Settings > Preferences > Restore defaults and reload.
-
-
 [Polypane](https://canidev.tools/restore-default-settings/polypane): 
 In the Help menu, select "Delete settings and restart".
 
@@ -2657,10 +2222,6 @@ Can I run the previously executed commands in the console?
 [Safari](https://canidev.tools/run-previous-commands/safari): 
 1. Use the `Up` arrow key to scroll through the list of previously executed commands and then press `Enter`.
 
-
-
-[Opera](https://canidev.tools/run-previous-commands/opera): 
-1. Use the `Up` arrow key to scroll through the list of previously executed commands and then press `Enter`.
 
 
 [Polypane](https://canidev.tools/run-previous-commands/polypane): 
@@ -2692,12 +2253,6 @@ Can I run snippet of code in devtools?
 2. Click the **Play** button next to the snippet name to execute the code in **Console**. 
 
 
-[Opera](https://canidev.tools/run-snippets/opera): 
-1. **Sources** > In the left sidebar, open **Snippets** > Click "+ New snippet". This will open an empty file in the main view.
-2. Enter the snippet and press `Cmd+Enter` to run the code.
-3. Additionally, you can also save the snippet and run it directly from the **Command** **Menu** using `!<script>`.
-
-
 ## Scroll node into view
 Can I scroll a DOM node into the viewport?
 
@@ -2720,10 +2275,6 @@ Can I select one or more elements using XPath expression?
 
 
 [Safari](https://canidev.tools/select-elements-xpath/safari): 
-`$x(path [, startNode])` returns an array of DOM elements that match the given XPath expression. It has an optional second parameter, `startNode`, that specifies an element or Node from which to search for elements.
-
-
-[Opera](https://canidev.tools/select-elements-xpath/opera): 
 `$x(path [, startNode])` returns an array of DOM elements that match the given XPath expression. It has an optional second parameter, `startNode`, that specifies an element or Node from which to search for elements.
 
 
@@ -2753,11 +2304,6 @@ Can I select one or more elements from the console?
 
 
 
-[Opera](https://canidev.tools/select-elements/opera): 
-1. `$(selector [, startNode])` returns the reference to the first DOM element with the specified CSS selector. This command is equivalent to calling `document.querySelector()`.
-2. `$$(selector [, startNode])` returns an array of elements that match the given CSS selector. This command is equivalent to calling `document.querySelectorAll()`.
-
-
 [Polypane](https://canidev.tools/select-elements/polypane): 
 1. `$(selector)` returns the reference to the first DOM element with the specified CSS selector. This command is equivalent to calling `document.querySelector()`.
 2. `$$(selector)` returns an array of elements that match the given CSS selector. This command is equivalent to calling `document.querySelectorAll()`.
@@ -2775,12 +2321,6 @@ Can I set a custom keyboard shortcuts in devtools?
 
 [Edge](https://canidev.tools/set-keyboard-shortcuts/edge): 
 1. Press `Cmd+Shift+P` or `Ctrl+Shift+P` to launch the **Command Menu** > Type "Shortcuts" > Press `Enter`.
-2. Click the "Edit" icon next to the shortcut. Apply the shortcut and Save.
-
-
-[Opera](https://canidev.tools/set-keyboard-shortcuts/opera): 
-> Enable "Enable keyboard shortcut editor" in the **Experiments**, using `Cmd+Shift+P` or `Ctrl+Shift+P` > Show Experiments > Reload DevTools.
-1. Press `Cmd+Shift+P` or `Ctrl+Shift+P` to launch the **Command** **Menu** > Type "Shortcuts" > Press `Enter`.
 2. Click the "Edit" icon next to the shortcut. Apply the shortcut and Save.
 
 
@@ -2803,11 +2343,6 @@ Can I enable vertical and horizontal rulers on the page when I hover on the elem
 1. Open **Settings** (`Cmd+,`) > Elements > Enable "Show page rulers and node border lines"
 
 
-[Opera](https://canidev.tools/show-rulers-hover/opera): 
-1. Open Settings (`Shift+?` or `F1`) > Preferences > Scroll down to the Elements section, and enable "Show rulers on hover".
-
-
-
 [Polypane](https://canidev.tools/show-rulers-hover/polypane): 
 1. Press `Cmd/Ctrl+G` to toggle rulers on the top and left sides of all panes.
 
@@ -2827,11 +2362,6 @@ Can I see the tab order of the web page?
 
 
 [Edge](https://canidev.tools/show-tab-order/edge): 
-1. In the **Elements** tab > Open the **Accessibility** pane on the right. 
-2. Scroll down to the **Source Order Viewer** section, check the option "Show source order" to view the order of source elements on the screen.
-
-
-[Opera](https://canidev.tools/show-tab-order/opera): 
 1. In the **Elements** tab > Open the **Accessibility** pane on the right. 
 2. Scroll down to the **Source Order Viewer** section, check the option "Show source order" to view the order of source elements on the screen.
 
@@ -2862,11 +2392,6 @@ Can I see full URL path of the network requests?
 1. In the **Network** panel, right click on the column header, and select "Path" to add a new column showing the URL path for the resource.
 
 
-[Opera](https://canidev.tools/show-url-path/opera): 
-1. In the **Network** tab, open "Network settings" (top-right).
-2. Check the option "Use large request rows" to show the URL path under the resource name.
-
-
 ## Simulate device orientation
 Can I simulate device orientation to mock built-in accelerometer, gyroscope & compass?
 
@@ -2876,11 +2401,6 @@ Can I simulate device orientation to mock built-in accelerometer, gyroscope & co
 
 
 [Edge](https://canidev.tools/simulate-device-orientation/edge): 
-1. Open **Command** **Menu** (`Cmd+Shift+P` or `Ctrl+Shift+P`) > Run "Show Sensors" > Press `Enter`. This will open the **Sensors** drawer at the bottom of the Devtools panel.
-2. From the **Orientations** list, select a preset orientation or drag the device to set custom orientation.
-
-
-[Opera](https://canidev.tools/simulate-device-orientation/opera): 
 1. Open **Command** **Menu** (`Cmd+Shift+P` or `Ctrl+Shift+P`) > Run "Show Sensors" > Press `Enter`. This will open the **Sensors** drawer at the bottom of the Devtools panel.
 2. From the **Orientations** list, select a preset orientation or drag the device to set custom orientation.
 
@@ -2950,17 +2470,6 @@ console.log(
 ```
 
 
-[Opera](https://canidev.tools/style-console-logs/opera): 
-1. Open console using `Cmd+Option+J` or `Ctrl+Shift+J`.
-2. Prefix the log statement with `%c`, and supply the CSS styles as the second argument to `console.log()`. For example, 
-```
-console.log(
-  "%cThis is green text with yellow background",
-  "color:green; background:yellow"
-)
-```
-
-
 [Polypane](https://canidev.tools/style-console-logs/polypane): 
 1. Open console
 2. Prefix the log statement with `%c`, and supply the CSS styles as the second argument to `console.log()`. For example, 
@@ -2989,9 +2498,6 @@ Can I target iframes while debugging from the Console panel?
 1. In the **Console** panel, select the target iframe from the "Execution context for $0" dropdown (bottom-right).
 
 
-[Opera](https://canidev.tools/target-iframe-console/opera): 
-1. In the **Console** panel, click the "top" menu, and select the iframe to target in the **Console**.
-
 ## Throttle CPU speed
 Can I throttle CPU speed to simulate slower machines?
 
@@ -3000,10 +2506,6 @@ Can I throttle CPU speed to simulate slower machines?
 
 
 [Edge](https://canidev.tools/throttle-cpu-speed/edge): 
-1. In the **Performance** panel, open **Settings** using the gear icon and select the "CPU: No throttling" dropdown to choose "4x/6x slowdown".
-
-
-[Opera](https://canidev.tools/throttle-cpu-speed/opera): 
 1. In the **Performance** panel, open **Settings** using the gear icon and select the "CPU: No throttling" dropdown to choose "4x/6x slowdown".
 
 
@@ -3028,11 +2530,6 @@ Can I throttle network speed to simulate slower network connections like 2G, 3G 
 
 
 [Edge](https://canidev.tools/throttle-network-speed/edge): 
-1. In Network > Click the dropdown "No Throttling" and select a value to throttle the network speed.
-
-
-
-[Opera](https://canidev.tools/throttle-network-speed/opera): 
 1. In Network > Click the dropdown "No Throttling" and select a value to throttle the network speed.
 
 
@@ -3064,11 +2561,6 @@ Can I toggle the element state like hover, visited, focus etc.,?
 2. In the styles section (next to the DOM tree), right at the top toolbar, you'll find checkboxes for different pseudo states, which you can toggle to view the corresponding CSS.
 
 
-[Opera](https://canidev.tools/toggle-element-state/opera): 
-1. Inspect an element > In the Styles pane (next to the DOM tree), click the `:hov` button next to the Filter box.
-2. Use the checkboxes to force the element state to any of the listed pseudo classes to view the corresponding CSS applied.
-
-
 ## Toggle light & dark theme
 Can I switch to light or dark theme in devtools?
 
@@ -3086,10 +2578,6 @@ Open **Command** **Menu** (`Cmd/Ctrl+Shift+P`) & Run > "Switch to light/dark the
 
 [Safari](https://canidev.tools/toggle-theme/safari): 
 Open **Settings** (`Cmd+,`) > General > Appearance > Select "Dark" or "Light" to change the appearance.
-
-
-[Opera](https://canidev.tools/toggle-theme/opera): 
-Open **Command** **Menu** (`Cmd/Ctrl+Shift+P`) & Run > "Switch to light/dark theme" (Appearance) > Press `Enter`.
 
 
 [Polypane](https://canidev.tools/toggle-theme/polypane): 
@@ -3120,9 +2608,6 @@ Can I use the easing editor to edit transitions and animations?
 [Safari](https://canidev.tools/use-easing-editor/safari): 
 1. Inspect the element with CSS transition or animation applied. In the styles section, click the icon next to the timing function to open the **Cubic-bezier editor** to play around with the timing functions.
 
-[Opera](https://canidev.tools/use-easing-editor/opera): 
-1. Inspect the element with CSS transition or animation applied. In the **Styles** pane, click the icon next to the timing function to open the **Easing editor** to play around with the timing functions.
-
 ## Use live expressions
 Can I watch JavaScript values in real time with Live Expressions?
 
@@ -3133,12 +2618,6 @@ Can I watch JavaScript values in real time with Live Expressions?
 4. To use multiple live expressions, click the same icon again to add a new expression. To remove the expression, click the `X` button next to it.
 
 [Edge](https://canidev.tools/use-live-expressions/edge): 
-1. In the **Console** panel, click the **Create live expression** icon. Input the expression in the text box and press `Enter`.
-2. The value below the pinned expression is its result. The result updates every 250ms.
-3. For a multi-line expression, start a new line using `Shift+Enter`.
-4. To use multiple live expressions, click the same icon again to add a new expression. To remove the expression, click the `X` button next to it.
-
-[Opera](https://canidev.tools/use-live-expressions/opera): 
 1. In the **Console** panel, click the **Create live expression** icon. Input the expression in the text box and press `Enter`.
 2. The value below the pinned expression is its result. The result updates every 250ms.
 3. For a multi-line expression, start a new line using `Shift+Enter`.
@@ -3159,11 +2638,6 @@ Can I view the accessibility tree?
 
 [Edge](https://canidev.tools/view-accessibility-tree/edge): 
 1. Inspect > Elements > Open the Accessibility pane on the right (Click the >> icon to show more tabs, if hidden) > Check "Enable full-page accessibility tree" > Reload Devtools.
-2. Click on the floating icon in the top right in the Elements panel which says, "Switch to Accessibility tree view".
-
-
-[Opera](https://canidev.tools/view-accessibility-tree/opera): 
-1. Inspect > Open the Accessibility pane on the right (Click the >> icon to show more tabs, if hidden) > Check "Enable full-page accessibility tree" > Reload Devtools.
 2. Click on the floating icon in the top right in the Elements panel which says, "Switch to Accessibility tree view".
 
 
@@ -3192,11 +2666,6 @@ Can I view ARIA attributes of an element?
 2. Scroll down to the **Accessibility** section, expand to see all the ARA attributes for the selected node.
 
 
-[Opera](https://canidev.tools/view-aria-attrs/opera): 
-1. Inspect the element in the DOM tree.
-2. Click on the Accessibility tab (It maybe hidden behind the "More Tabs" button). Scroll down to the section which says, "ARIA Attributes".
-
-
 [Polypane](https://canidev.tools/view-aria-attrs/polypane): 
 1. Inspect the element in the DOM tree.
 2. Click on the "A11y" tab. All "ARIA Attributes" are listed here.
@@ -3222,11 +2691,6 @@ Can I inspect CSS cascade layers?
 
 [Safari](https://canidev.tools/view-cascade-layers/safari): 
 1. Inspect the element that is part of the `@layer`. In the Styles pane, each layer and its corresponding styles are visible.
-
-
-[Opera](https://canidev.tools/view-cascade-layers/opera): 
-1. Inspect the element that is part of the `@layer`. In the **Styles** pane, each layer and its corresponding styles are visible.
-2. Clicking on the layer name will reveal the **CSS layers** section at the top which will contain the layer order, that drives the specificity.
 
 
 [Polypane](https://canidev.tools/view-cascade-layers/polypane): 
@@ -3259,11 +2723,6 @@ Can I view computed styles?
 
 
 
-[Opera](https://canidev.tools/view-computed-styles/opera): 
-1. Inspect the element > Navigate to the Computed tab in the panel next to the DOM tree.
-2. Click the "Show All" checkbox to see all the inherited values.
-
-
 [Polypane](https://canidev.tools/view-computed-styles/polypane): 
 1. Inspect the element > Navigate to the Computed tab in the panel next to the "Style" tab.
 2. Click the "Show All" checkbox to see all the inherited values.
@@ -3289,9 +2748,6 @@ Can I view the human readable text of the HTTP status codes?
 [Edge](https://canidev.tools/view-http-status-text/edge): 
 1. In the **Network** panel, click to open the network request. In the **Headers** tab, under **General**, contains the HTTP status code along with the human readable text.
 
-[Opera](https://canidev.tools/view-http-status-text/opera): 
-1. In the **Network** panel, click to open the network request. In the **Headers** tab, under **General**, contains the HTTP status code along with the human readable text.
-
 ## View in 3D
 Can I view a web page in 3D?
 
@@ -3307,15 +2763,6 @@ Can I view a web page in 3D?
 [Edge](https://canidev.tools/view-in-3d/edge): 
 1. In the devtools, open the **Command** Menu using, `Cmd+Shift+P` or `Ctrl+Shift+P.` Search for "Show 3D View" and press `Enter`.
 2. This will open the **3D View** drawer next to the **Console**. For developers, it is useful to visualise a web page in three dimensions to,
-    - Find out how complex a web page is
-    - Spot out-of-viewport elements
-    - Debug z-index stacking issues
-    - Debug performance issues with composite layers
-
-
-[Opera](https://canidev.tools/view-in-3d/opera): 
-1. Open **Command** **Menu** (`Cmd+Shift+P` or `Ctrl+Shift+P`) > Run > Show Layers. This will open a new tab called **Layers**.
-2. For developers, it is useful to visualise a web page in three dimensions to,
     - Find out how complex a web page is
     - Spot out-of-viewport elements
     - Debug z-index stacking issues
@@ -3345,11 +2792,6 @@ Can I view the styles applied to a pseudo element?
 2. The CSS applied to the element is visible in the panel, adjacent to the DOM tree.
 
 
-[Opera](https://canidev.tools/view-styles-element/opera): 
-1. Right click on the element and select "Inspect" (This will open the Elements panel in the devtools with selected element highlighted in the DOM tree).  
-2. The CSS applied to the element is visible in the "Styles" tab, adjacent to the DOM tree.
-
-
 [Polypane](https://canidev.tools/view-styles-element/polypane): 
 1. Right click on the element and select "Inspect" (This will open the Elements panel in the devtools with selected element highlighted in the DOM tree).  
 2. The CSS applied to the element is visible in the "Styles" tab, below the Element Navigator.
@@ -3374,10 +2816,6 @@ Can I view the size of the data transferred over the network?
 1. In the **Network** panel, the footer contains the size of the data transferred in Bytes. If a filter is applied, then it displays the size of the filtered resources.
 
 
-[Opera](https://canidev.tools/view-transferred-size/opera): 
-1. In the **Network** panel, the footer contains the size of the data transferred in Bytes. If a filter is applied, then it displays the size of the filtered resources followed by all the resources.
-
-
 ## Zoom In & Out Devtools
 Can I zoom in and out of the devtools panel?
 
@@ -3400,11 +2838,5 @@ Can I zoom in and out of the devtools panel?
 [Safari](https://canidev.tools/zoom-inout-devtools/safari): 
 1. In **Web Inspector** > Use `Cmd+` or `Ctrl+` to increase the zoom level. Use `Cmd-` or `Ctrl-` to decrease the zoom level. To reset the zoom level, press `Ctrl+0` or `Cmd+0`.
 2. (Or) **Settings** (`Cmd,`) > General > Zoom.
-
-
-[Opera](https://canidev.tools/zoom-inout-devtools/opera): 
-1. In **Developer** **Tools** > Open **Command** **Menu** (`Cmd+Shift+P` or `Ctrl+Shift+P`) and Run > "Zoom in" or `Cmd+` or `Ctrl+` to increase the zoom level.
-2. Run > "Zoom out" or `Cmd-` or `Ctrl-` to decrease the zoom level.
-3. Run > "Reset zoom level" or `Cmd+0` or `Ctrl+0` to reset the zoom level.
 
 
