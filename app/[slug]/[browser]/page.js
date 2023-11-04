@@ -3,7 +3,7 @@
 import { useContext } from "react";
 import { marked } from "marked";
 
-import { ScrollArea, Accordion, Box, Text, Divider } from "@mantine/core";
+import { ScrollArea, Accordion, Box, Text, Divider, Badge } from "@mantine/core";
 import { IconBrandYoutube, IconNotes, IconBrandSafari, IconBrandEdge, IconBrandChrome, IconBrandFirefox, IconBrandOpera } from "@tabler/icons-react";
 
 import { DataContext } from "../../../components/data-provider";
@@ -44,7 +44,13 @@ export default function Page({ params }) {
                 </Accordion.Item>
                 <Accordion.Item value="notes">
                     <Accordion.Control icon={<IconNotes stroke={1} />}>
-                        <Text fw={700}>Notes</Text>
+                        <Text fw={700}>Notes {browser.Version ? 
+                            <Badge 
+                                radius="xs" 
+                                styles={{
+                                    label: { fontSize: "var(--mantine-font-size-sm)" }
+                                }}
+                                variant="light" color="gray">{browser.Version}+</Badge> : ""}</Text>
                     </Accordion.Control>
                     <Accordion.Panel maw={"750px"} pr="xs">
                         <Box
