@@ -48,6 +48,7 @@ li a:hover {
 
 video {
     width: 100%;
+    margin-bottom: -8px
 }
 
 ol, ul {
