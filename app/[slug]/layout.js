@@ -72,7 +72,6 @@ export default function Layout({ children, params }) {
                     <Tabs.Tab style={{ borderRight: borderColor() }} value="firefox" leftSection={<IconBrandFirefox stroke={1.5} />} disabled={!feature.Firefox}></Tabs.Tab>
                     <Tabs.Tab style={{ borderRight: borderColor() }} value="edge" leftSection={<IconBrandEdge stroke={1.5} />} disabled={!feature.Edge}></Tabs.Tab>
                     <Tabs.Tab style={{ borderRight: borderColor() }} value="safari" leftSection={<IconBrandSafari stroke={1.5} />} disabled={!feature.Safari}></Tabs.Tab>
-                    <Tabs.Tab style={{ borderRight: borderColor() }} value="opera" leftSection={<IconBrandOpera stroke={1.5} />} disabled={!feature.Opera}></Tabs.Tab>
                     <Tabs.Tab value="polypane" leftSection={<IconBrandPolypane stroke={1.5} />} disabled={!feature.Polypane}></Tabs.Tab>
                 </Tabs.List>
             </Tabs>

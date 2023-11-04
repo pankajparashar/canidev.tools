@@ -18,6 +18,15 @@
 .logo {
     border-bottom: 2px solid;
 }
+.hero {
+    width: 100%; 
+    height: 100%;
+    background-image: url("/hero.svg");
+    background-size: 50% auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    filter: grayscale(50%) opacity(100%);
+}
 
 pre {
     background-color: var(--_item-filled-color);  
@@ -34,6 +43,9 @@ code {
 
 :root[data-mantine-color-scheme="dark"] .logo {
     filter: invert(1);
+}
+:root[data-mantine-color-scheme="dark"] .hero {
+    filter: grayscale(50%) opacity(50%);
 }
 
 li a:link,

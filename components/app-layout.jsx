@@ -129,7 +129,7 @@ export const AppLayout = props => {
                                 .map(feature => (
                                     <div key={feature.Slug}>
                                         <NavLink
-                                            px={isMobile ? 0 : "xs" }
+                                            px={"xs"}
                                             label={feature.Name}
                                             description={feature.Description}
                                             styles={{
@@ -170,19 +170,19 @@ const NavFooter = () => {
     }, []);
 
     return (
-        <Tabs defaultValue="ads" placement="right" inverted={true}>
+        <Tabs defaultValue="ads" placement="right" inverted={false}>
             <Tabs.List p={0} size="xs" justify="space-between">
-                <Tabs.Tab value="ads" px={0} leftSection={<IconNews />}>
+                <Tabs.Tab value="ads" px={0} leftSection={<IconNews size={20} />}>
                     Carbon Ads
                 </Tabs.Tab>
-                <Tabs.Tab value="about" px={0} leftSection={<IconUserCircle />}>
+                <Tabs.Tab value="about" px={0} leftSection={<IconUserCircle size={20} />}>
                     About
                 </Tabs.Tab>
             </Tabs.List>
 
-            <Tabs.Panel value="ads" ref={adRef} />
+            <Tabs.Panel value="ads" ref={adRef} pt={"sm"}/>
             <Tabs.Panel value="about">
-                <Alert color="gray">It is like <a href="//caniuse.com">@CanIUse</a> but for the browser devtools. It is created by <a href="//pankajparashar.com">@PankajParashar</a>, and curated by the community.</Alert>
+                <Alert color="gray">It is like <a href="//caniuse.com">@CanIUse</a> but for the browser devtools. It is created by <a href="//pankajparashar.com">@pankajparashar</a>, and curated by the community..</Alert>
             </Tabs.Panel>
         </Tabs>
     );
