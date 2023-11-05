@@ -962,6 +962,12 @@ Can I emulate reduced transparency CSS media feature?
 
 ![](https://res.cloudinary.com/canidevtools/image/upload/l_watermark,w_100,o_10/emulate-reduced-transparency-chrome.png)
 
+[Polypane](https://canidev.tools/emulate-reduced-transparency/polypane): 
+1. In Developer Tools, click the **Change Media and Emulations** button in the toolbar to open the popup.
+2. In the **Media** tab, click the **reduce** toggle button to preview the page with reduced transparency effect. Revert the effect by clicking the **no-preference** button.
+
+![](https://res.cloudinary.com/canidevtools/image/upload/l_watermark,w_100,o_10/emulate-reduced-transparency-polypane.png)
+
 ## Expand DOM nodes recursively
 Can I expand DOM nodes recursively in the DOM tree?
 
