@@ -13,7 +13,7 @@
 		"Share": "https://twitter.com/CanIDevTools/status/1721299138283716885",
 		"Notes": [
 			"1. Inspect the element that has `@scope` rules applied. The ruleset will be visible in the **Style** pane under the `@scope` block declaration.",
-			"2. Hover over the **scoping root element** to highlight the element on the page. Click the element to directly jump to the node in the **Element** tree."
+			"2. Hover over the **scoping root element** to highlight the element on the page. Click the element to directly jump to the node in the **Element** tree.\n"
 		],
 		"References": [
 			"1. \"@scope support in the elements panel\", [Polypane blog](https://polypane.app/blog/polypane-16-workflow-improvements-scoped-styles-and-chromium-118/)."
