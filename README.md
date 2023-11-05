@@ -1745,6 +1745,7 @@ Can I inspect the CSS @scope at-rules and the scoping root element?
 [Polypane](https://canidev.tools/inspect-scope-at-rules/polypane): 
 1. Inspect the element that has `@scope` rules applied. The ruleset will be visible in the **Style** pane under the `@scope` block declaration.
 2. Hover over the **scoping root element** to highlight the element on the page. Click the element to directly jump to the node in the **Element** tree.
+
 ![](https://res.cloudinary.com/canidevtools/image/upload/l_watermark,w_100,o_10/inspect-scope-at-rules-polypane.png)
 
 ## Inspect CSS scroll snap
