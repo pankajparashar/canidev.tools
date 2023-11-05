@@ -1742,6 +1742,14 @@ Can I inspect Network requests?
 ## Inspect @scope rules
 Can I inspect the CSS @scope at-rules and the scoping root element?
 
+[Chrome](https://canidev.tools/inspect-scope-at-rules/chrome): 
+1. Inspect the element that has `@scope` rules applied. The ruleset will be visible in the **Styles** pane under the `@scope` block declaration.
+
+
+[Edge](https://canidev.tools/inspect-scope-at-rules/edge): 
+1. Inspect the element that has `@scope` rules applied. The ruleset will be visible in the **Styles** pane under the `@scope` block declaration.
+
+
 [Polypane](https://canidev.tools/inspect-scope-at-rules/polypane): 
 1. Inspect the element that has `@scope` rules applied. The ruleset will be visible in the **Style** pane under the `@scope` block declaration.
 2. Hover over the **scoping root element** to highlight the element on the page. Click the element to directly jump to the node in the **Element** tree.
