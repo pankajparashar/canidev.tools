@@ -182,7 +182,7 @@ const NavFooter = () => {
 
             <Tabs.Panel value="ads" ref={adRef} pt={"sm"}/>
             <Tabs.Panel value="about">
-                <Alert color="gray">It is like <a href="//caniuse.com">@CanIUse</a> but for the browser devtools. It is created by <a href="//pankajparashar.com">@pankajparashar</a>, and curated by the community..</Alert>
+                <Alert color="gray" pt={"xs"}>It is like <a href="//caniuse.com">@CanIUse</a> but for the browser devtools, created by <a href="//pankajparashar.com">@pankajparashar</a>, and curated by the community.</Alert>
             </Tabs.Panel>
         </Tabs>
     );
