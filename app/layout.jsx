@@ -14,7 +14,20 @@ import { DataProvider } from "../components/data-provider";
 export const metadata = {
     title: "Can I DevTools?",
     description: "It is like @CanIUse, but for the browser devtools, created by Pankaj Parashar and curated by community.",
-    metadataBase: new URL('https://canidev.tools')
+    metadataBase: new URL('https://canidev.tools'),
+    twitter: {
+        card: 'summary_large_image',
+        title: 'Can I DevTools?',
+        description: "It is like @CanIUse, but for the browser devtools, created by Pankaj Parashar and curated by community.",
+        creator: '@CanIDevTools',
+        site: 'canidev.tools'
+    },
+    openGraph: {
+        title: 'Can I DevTools?',
+        description: "It is like @CanIUse, but for the browser devtools, created by Pankaj Parashar and curated by community.",
+        url: 'https://canidev.tools',
+        type: 'website'
+    }
 };
 
 export default async function RootLayout({ children }) {
