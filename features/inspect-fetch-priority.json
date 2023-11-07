@@ -1,0 +1,32 @@
+{
+	"Name": "Inspect fetch priority",
+	"Description": "Can I inspect the fetchpriority applied to the resources?",
+	"Slug": "inspect-fetch-priority",
+	
+	"Category": "Network",
+	"Authors": ["@pankajparashar"],
+	
+	"Chrome": {
+		"Notes": [
+			"1. In the **Network** panel, right click on the any of the column headers, and select **Priority** from the menu. This will add a new column in the **Network** table indicating the `fetchpriority` for each resource."
+		]
+	},
+	
+	"Firefox": {
+		"Notes": [
+			"1. In the **Network** panel, right click on the any of the column headers, and select **Priority** from the menu. This will add a new column in the **Network** table indicating the `fetchpriority` for each resource."
+		]
+	},
+	
+	"Edge": {
+		"Notes": [
+			"1. In the **Network** panel, right click on the any of the column headers, and select **Priority** from the menu. This will add a new column in the **Network** table indicating the `fetchpriority` for each resource."
+		]
+	},
+	
+	"Safari": {
+		"Notes": [
+			"1. In the **Network** panel, right click on the any of the column headers, and select **Priority** from the menu. This will add a new column in the **Network** table indicating the `fetchpriority` for each resource."
+		]
+	}
+}
