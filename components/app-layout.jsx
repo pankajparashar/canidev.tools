@@ -4,10 +4,10 @@ import { useRef, useEffect, useContext } from "react";
 import { useSearchParams, useRouter, usePathname } from "next/navigation";
 import Link from "next/link";
 
-import { Alert, Tooltip, Affix, Box, Button, Tabs, Text, Anchor, TextInput, Accordion, ActionIcon, AppShell, Burger, Group, ScrollArea, NavLink, Divider, useMantineColorScheme } from "@mantine/core";
+import { Alert, Tooltip, Affix, Box, Button, Tabs, Text, Anchor, TextInput, Accordion, ActionIcon, AppShell, Burger, Group, ScrollArea, NavLink, Divider, SimpleGrid, useMantineColorScheme } from "@mantine/core";
 import { useDisclosure, useMediaQuery } from "@mantine/hooks";
 
-import { IconBrandStripe, IconNews, IconUserCircle, IconStar, IconArrowBack, IconListSearch, IconBrightness, IconListDetails, IconBrandSpeedtest, IconCode, IconBoxMargin, IconAccessible, IconReportMedical, IconTerminal2, IconBrandNextjs, IconAffiliate, IconHexagons, IconCrosshair, IconChevronRight } from "@tabler/icons-react";
+import { IconBrandGithub, IconBrandX, IconBrandStripe, IconNews, IconUserCircle, IconStar, IconArrowBack, IconListSearch, IconBrightness, IconListDetails, IconBrandSpeedtest, IconCode, IconBoxMargin, IconAccessible, IconReportMedical, IconTerminal2, IconBrandNextjs, IconAffiliate, IconHexagons, IconCrosshair, IconChevronRight } from "@tabler/icons-react";
 
 import { IconBrandSubStack } from "./tabler-icons"
 import { DataContext } from "./data-provider";
@@ -193,18 +193,17 @@ const NavFooter = () => {
             <Tabs.Panel value="about">
                 <Alert color="gray" pt={"xs"}>
                     It is like <a href="//caniuse.com">@CanIUse</a> but for the browser devtools, created by <a href="//pankajparashar.com">@pankajparashar</a>, and curated by the community.
-                    <br /><br />
-                    <Button
-                        component="a"
-                        href="https://canidevtools.substack.com/"
-                        target="_blank"
-                        fullWidth
-                        variant="gradient"
-                        gradient={{ from: 'orange', to: 'yellow', deg: 356 }}
-                        leftSection={<IconBrandSubStack size={20} />}
-                    >
-                        Subscribe to SubStack!
-                    </Button>
+                    <SimpleGrid cols={3} spacing={0} mt="xs">
+                        <Tooltip withArrow label="Substack" position="top">
+                            <Button fullWidth variant="default" component="a" href="https://canidevtools.substack.com/" target="_blank"><IconBrandSubStack size={15}/></Button>
+                        </Tooltip>
+                        <Tooltip withArrow label="Github" position="top">
+                            <Button fullWidth variant="default" component="a" href="https://github.com/pankajparashar/canidev.tools" target="_blank"><IconBrandGithub size={20} /></Button>
+                        </Tooltip>
+                        <Tooltip withArrow label="Twitter" position="top">
+                            <Button fullWidth variant="default" component="a" href="https://twitter.com/canidevtools" target="_blank"><IconBrandX size={20} /></Button>
+                        </Tooltip>
+                    </SimpleGrid>
                 </Alert>
             </Tabs.Panel>
         </Tabs>
