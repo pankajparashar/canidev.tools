@@ -4,10 +4,12 @@ import { useRef, useEffect, useContext } from "react";
 import { useSearchParams, useRouter, usePathname } from "next/navigation";
 import Link from "next/link";
 
-import { Alert, Tooltip, Affix, Box, Tabs, Text, Anchor, TextInput, Accordion, ActionIcon, AppShell, Burger, Group, ScrollArea, NavLink, Divider, useMantineColorScheme } from "@mantine/core";
+import { Alert, Tooltip, Affix, Box, Button, Tabs, Text, Anchor, TextInput, Accordion, ActionIcon, AppShell, Burger, Group, ScrollArea, NavLink, Divider, useMantineColorScheme } from "@mantine/core";
 import { useDisclosure, useMediaQuery } from "@mantine/hooks";
 
-import { IconNews, IconUserCircle, IconStar, IconArrowBack, IconListSearch, IconBrightness, IconListDetails, IconBrandSpeedtest, IconCode, IconBoxMargin, IconAccessible, IconReportMedical, IconTerminal2, IconBrandNextjs, IconAffiliate, IconHexagons, IconCrosshair, IconChevronRight } from "@tabler/icons-react";
+import { IconBrandStripe, IconNews, IconUserCircle, IconStar, IconArrowBack, IconListSearch, IconBrightness, IconListDetails, IconBrandSpeedtest, IconCode, IconBoxMargin, IconAccessible, IconReportMedical, IconTerminal2, IconBrandNextjs, IconAffiliate, IconHexagons, IconCrosshair, IconChevronRight } from "@tabler/icons-react";
+
+import { IconBrandSubStack } from "./tabler-icons"
 import { DataContext } from "./data-provider";
 
 export const AppLayout = props => {
@@ -180,9 +182,22 @@ const NavFooter = () => {
                 </Tabs.Tab>
             </Tabs.List>
 
-            <Tabs.Panel value="ads" ref={adRef} pt={"sm"}/>
+            <Tabs.Panel value="ads">
+                <Alert ref={adRef} p={"xs"} px={0} variant="light" color="gray"></Alert>
+            </Tabs.Panel>
             <Tabs.Panel value="about">
-                <Alert color="gray" pt={"xs"}>It is like <a href="//caniuse.com">@CanIUse</a> but for the browser devtools, created by <a href="//pankajparashar.com">@pankajparashar</a>, and curated by the community.</Alert>
+                <Alert color="gray" pt={"xs"}>
+                    It is like <a href="//caniuse.com">@CanIUse</a> but for the browser devtools, created by <a href="//pankajparashar.com">@pankajparashar</a>, and curated by the community.
+                    <br /><br />
+                    <Button
+                        fullWidth
+                        variant="gradient"
+                        gradient={{ from: 'orange', to: 'yellow', deg: 356 }}
+                        leftSection={<IconBrandSubStack size={20} />}
+                    >
+                        Subscribe to SubStack!
+                    </Button>
+                </Alert>
             </Tabs.Panel>
         </Tabs>
     );
