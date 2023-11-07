@@ -45,6 +45,11 @@ export const AppLayout = props => {
         Sources: <IconCode size={20} stroke={1.5} />,
         Performance: <IconBrandSpeedtest size={20} stroke={1.5} />,
     };
+    
+    useEffect(() => {
+        console.log({activeSlug})
+        document.getElementById(activeSlug)?.scrollIntoView({ block: "end", inline: "nearest" })
+    }, [])
 
     return (
         <AppShell header={{ height: 50 }} navbar={{ width: 350, breakpoint: "sm", collapsed: { mobile: !opened } }} padding="0">
@@ -129,7 +134,7 @@ export const AppLayout = props => {
                             </Box>
                             {features
                                 .map(feature => (
-                                    <div key={feature.Slug}>
+                                    <div key={feature.Slug} id={feature.Slug}>
                                         <NavLink
                                             px={"xs"}
                                             label={feature.Name}
