@@ -195,13 +195,19 @@ const NavFooter = () => {
                     It is like <a href="//caniuse.com">@CanIUse</a> but for the browser devtools, created by <a href="//pankajparashar.com">@pankajparashar</a>, and curated by the community.
                     <SimpleGrid cols={3} spacing={0} mt="xs">
                         <Tooltip withArrow label="Substack" position="top">
-                            <Button fullWidth variant="default" component="a" href="https://canidevtools.substack.com/" target="_blank"><IconBrandSubStack size={15}/></Button>
+                            <Button size="xs" fullWidth variant="default" component="a" href="https://canidevtools.substack.com/" target="_blank">
+                                <IconBrandSubStack size={15}/>
+                            </Button>
                         </Tooltip>
                         <Tooltip withArrow label="Github" position="top">
-                            <Button fullWidth variant="default" component="a" href="https://github.com/pankajparashar/canidev.tools" target="_blank"><IconBrandGithub size={20} /></Button>
+                            <Button size="xs" fullWidth variant="default" component="a" href="https://github.com/pankajparashar/canidev.tools" target="_blank">
+                                <IconBrandGithub size={20} />
+                            </Button>
                         </Tooltip>
                         <Tooltip withArrow label="Twitter" position="top">
-                            <Button fullWidth variant="default" component="a" href="https://twitter.com/canidevtools" target="_blank"><IconBrandX size={20} /></Button>
+                            <Button size="xs" fullWidth variant="default" component="a" href="https://twitter.com/canidevtools" target="_blank">
+                                <IconBrandX size={20} />
+                            </Button>
                         </Tooltip>
                     </SimpleGrid>
                 </Alert>
