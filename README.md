@@ -1699,6 +1699,21 @@ Can I inspect the browser's developer tool?
 2. Important to note, you can keep using this shortcut to inspecting new instance of devtools recursively.
 
 
+## Inspect fetch priority
+Can I inspect the fetchpriority applied to the resources?
+
+[Chrome](https://canidev.tools/inspect-fetch-priority/chrome): 
+1. In the **Network** panel, right click on the any of the column headers, and select **Priority** from the menu. This will add a new column in the **Network** table indicating the `fetchpriority` for each resource.
+
+[Firefox](https://canidev.tools/inspect-fetch-priority/firefox): 
+1. In the **Network** panel, right click on the any of the column headers, and select **Priority** from the menu. This will add a new column in the **Network** table indicating the `fetchpriority` for each resource.
+
+[Edge](https://canidev.tools/inspect-fetch-priority/edge): 
+1. In the **Network** panel, right click on the any of the column headers, and select **Priority** from the menu. This will add a new column in the **Network** table indicating the `fetchpriority` for each resource.
+
+[Safari](https://canidev.tools/inspect-fetch-priority/safari): 
+1. In the **Network** panel, right click on the any of the column headers, and select **Priority** from the menu. This will add a new column in the **Network** table indicating the `fetchpriority` for each resource.
+
 ## Inspect Font properties
 Can I inspect and edit various CSS font properties like, font-size, line-height etc?
 
