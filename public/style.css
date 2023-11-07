@@ -87,25 +87,14 @@ ol, ul {
         display: -webkit-box;
         -webkit-box-orient: vertical;
     }
-    
+        
     .carbon-img {
         padding-top: 5px;
         height: auto;
     }
 
-
-#carbonads a {
-    text-decoration: none;
-}
-
 .carbon-poweredby {
-    display: none !important;
-    font-weight: bold;
-    display: inline-block;
-    font-style: italic;
-}
-
-.carbon-img {
+    display: none
 }
 
 @font-face {

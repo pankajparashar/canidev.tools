@@ -1,13 +1,13 @@
 "use client";
 
-import { useRef, useEffect, useContext } from "react";
+import { useRef, useEffect, useContext, useState } from "react";
 import { useSearchParams, useRouter, usePathname } from "next/navigation";
 import Link from "next/link";
 
 import { Alert, Tooltip, Affix, Box, Button, Tabs, Text, Anchor, TextInput, Accordion, ActionIcon, AppShell, Burger, Group, ScrollArea, NavLink, Divider, SimpleGrid, useMantineColorScheme } from "@mantine/core";
 import { useDisclosure, useMediaQuery } from "@mantine/hooks";
 
-import { IconBrandGithub, IconBrandX, IconBrandStripe, IconNews, IconUserCircle, IconStar, IconArrowBack, IconListSearch, IconBrightness, IconListDetails, IconBrandSpeedtest, IconCode, IconBoxMargin, IconAccessible, IconReportMedical, IconTerminal2, IconBrandNextjs, IconAffiliate, IconHexagons, IconCrosshair, IconChevronRight } from "@tabler/icons-react";
+import { IconQuote, IconBroadcast, IconBrandGithub, IconBrandX, IconBrandStripe, IconNews, IconUserCircle, IconStar, IconArrowBack, IconListSearch, IconBrightness, IconListDetails, IconBrandSpeedtest, IconCode, IconBoxMargin, IconAccessible, IconReportMedical, IconTerminal2, IconBrandNextjs, IconAffiliate, IconHexagons, IconCrosshair, IconChevronRight } from "@tabler/icons-react";
 
 import { IconBrandSubStack } from "./tabler-icons"
 import { DataContext } from "./data-provider";
@@ -166,6 +166,7 @@ export const AppLayout = props => {
 
 const NavFooter = () => {
     const adRef = useRef();
+    const [activeTab, setActiveTab] = useState("ads");
 
     useEffect(() => {        
         adRef.current.addEventListener("DOMNodeInserted", event => event.target.id === "carbonads_1" && event.target.remove())
@@ -177,14 +178,13 @@ const NavFooter = () => {
     }, []);
 
     return (
-        <Tabs defaultValue="ads" placement="right" inverted={false}>
-            <Tabs.List p={0} size="xs" justify="space-between">
-                <Tabs.Tab value="ads" px={0} leftSection={<IconNews size={20} />}>
+        <Tabs placement="right" inverted={false} value={activeTab} onChange={setActiveTab}>
+            <Tabs.List justify="space-between">
+                <Tabs.Tab value="ads" leftSection={<IconBroadcast size={20} />}>
                     Carbon Ads
                 </Tabs.Tab>
-                <Tabs.Tab value="about" px={0} leftSection={<IconUserCircle size={20} />}>
-                    About
-                </Tabs.Tab>
+                <Tabs.Tab value="about" leftSection={<IconUserCircle size={20} />} ml="auto" />
+                <Tabs.Tab value="testimonials" leftSection={<IconQuote size={20} />} />
             </Tabs.List>
 
             <Tabs.Panel value="ads">
@@ -192,7 +192,7 @@ const NavFooter = () => {
             </Tabs.Panel>
             <Tabs.Panel value="about">
                 <Alert color="gray" pt={"xs"}>
-                    It is like <a href="//caniuse.com">@CanIUse</a> but for the browser devtools, created by <a href="//pankajparashar.com">@pankajparashar</a>, and curated by the community.
+                    It is like <a href="//caniuse.com">@CanIUse</a> but for the browser devtools, created by <a href="//pankajparashar.com">@pankajparashar</a>, and curated by the community. Built with <a href="https://nextjs.org/">Next.js</a> && Deployed on <a href="https://vercel.com/">Vercel</a>.
                     <SimpleGrid cols={3} spacing={0} mt="xs">
                         <Tooltip withArrow label="Substack" position="top">
                             <Button size="xs" fullWidth variant="default" component="a" href="https://canidevtools.substack.com/" target="_blank">
@@ -211,6 +211,9 @@ const NavFooter = () => {
                         </Tooltip>
                     </SimpleGrid>
                 </Alert>
+            </Tabs.Panel>
+            <Tabs.Panel value="testimonials">
+                
             </Tabs.Panel>
         </Tabs>
     );
