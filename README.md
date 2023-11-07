@@ -1387,7 +1387,7 @@ Can I get the viewport size?
 1. In Web Inspector, click the Show Rulers button to enable the ruler and viewport size on the page.
 
 ## Go to file
-Can i jump to file by searching for a filename?
+Can I jump to a file by searching with a filename?
 
 [Chrome](https://canidev.tools/go-to-file/chrome): 
 1. Run Command menu using `Cmd+Shift+P` (on Mac) or `Ctrl+Shift+P` (on Windows/Linux) > Type filename to filter on the matching files > Press `Enter`.
