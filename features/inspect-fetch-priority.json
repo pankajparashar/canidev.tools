@@ -8,7 +8,8 @@
 	
 	"Chrome": {
 		"Notes": [
-			"1. In the **Network** panel, right click on the any of the column headers, and select **Priority** from the menu. This will add a new column in the **Network** table indicating the `fetchpriority` for each resource."
+			"1. In the **Network** panel, enable **Big request rows** from the network **Settings**. Right click on the any of the column headers, and select **Priority** from the menu.",
+			"2. This will add a new column in the **Network** table indicating the `fetchpriority` for each resource with values like `Low|High|Lowest|Highest`.\n"
 		]
 	},
 	
@@ -20,7 +21,8 @@
 	
 	"Edge": {
 		"Notes": [
-			"1. In the **Network** panel, right click on the any of the column headers, and select **Priority** from the menu. This will add a new column in the **Network** table indicating the `fetchpriority` for each resource."
+			"1. In the **Network** panel, enable **Big request rows** from the network **Settings**. Right click on the any of the column headers, and select **Priority** from the menu.",
+			"2. This will add a new column in the **Network** table indicating the `fetchpriority` for each resource with values like `Low|High|Lowest|Highest`.\n"
 		]
 	},
 	
