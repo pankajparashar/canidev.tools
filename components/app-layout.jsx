@@ -190,6 +190,9 @@ const NavFooter = () => {
                     It is like <a href="//caniuse.com">@CanIUse</a> but for the browser devtools, created by <a href="//pankajparashar.com">@pankajparashar</a>, and curated by the community.
                     <br /><br />
                     <Button
+                        component="a"
+                        href="https://canidevtools.substack.com/"
+                        target="_blank"
                         fullWidth
                         variant="gradient"
                         gradient={{ from: 'orange', to: 'yellow', deg: 356 }}
