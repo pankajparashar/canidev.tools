@@ -1703,13 +1703,17 @@ Can I inspect the browser's developer tool?
 Can I inspect the fetchpriority applied to the resources?
 
 [Chrome](https://canidev.tools/inspect-fetch-priority/chrome): 
-1. In the **Network** panel, right click on the any of the column headers, and select **Priority** from the menu. This will add a new column in the **Network** table indicating the `fetchpriority` for each resource.
+1. In the **Network** panel, enable **Big request rows** from the network **Settings**. Right click on the any of the column headers, and select **Priority** from the menu.
+2. This will add a new column in the **Network** table indicating the `fetchpriority` for each resource with values like `Low|High|Lowest|Highest`.
+
 
 [Firefox](https://canidev.tools/inspect-fetch-priority/firefox): 
 1. In the **Network** panel, right click on the any of the column headers, and select **Priority** from the menu. This will add a new column in the **Network** table indicating the `fetchpriority` for each resource.
 
 [Edge](https://canidev.tools/inspect-fetch-priority/edge): 
-1. In the **Network** panel, right click on the any of the column headers, and select **Priority** from the menu. This will add a new column in the **Network** table indicating the `fetchpriority` for each resource.
+1. In the **Network** panel, enable **Big request rows** from the network **Settings**. Right click on the any of the column headers, and select **Priority** from the menu.
+2. This will add a new column in the **Network** table indicating the `fetchpriority` for each resource with values like `Low|High|Lowest|Highest`.
+
 
 [Safari](https://canidev.tools/inspect-fetch-priority/safari): 
 1. In the **Network** panel, right click on the any of the column headers, and select **Priority** from the menu. This will add a new column in the **Network** table indicating the `fetchpriority` for each resource.
