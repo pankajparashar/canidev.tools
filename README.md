@@ -802,6 +802,17 @@ Can I disable JavaScript on a web page?
 2. under "Disable features", select "Disable JS".
 
 
+## Disable local fonts
+Can I disable local fonts to validate @font-face rules?
+
+[Chrome](https://canidev.tools/disable-local-fonts/chrome): 
+1. Open **Command Menu** (`Cmd+Shift+P` or `Ctrl+Shift+P`) > Run "Show Rendering" to open the **Rendering** drawer.
+2. Scroll down to locate the **Disable local fonts** option and select the checkbox to disable local fonts. Reload the page to apply the setting.
+
+[Edge](https://canidev.tools/disable-local-fonts/edge): 
+1. Open **Command Menu** (`Cmd+Shift+P` or `Ctrl+Shift+P`) > Run "Show Rendering" to open the **Rendering** drawer.
+2. Scroll down to locate the **Disable local fonts** option and select the checkbox to disable local fonts. Reload the page to apply the setting.
+
 ## Display FPS on page
 Can I display the current frames per second (FPS) of the page?
 
