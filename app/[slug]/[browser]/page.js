@@ -3,7 +3,7 @@
 import { useContext } from "react";
 import { marked } from "marked";
 
-import { Group, ActionIcon, ScrollArea, Accordion, Box, Text, Divider, Badge } from "@mantine/core";
+import { Spoiler, Alert, Group, ActionIcon, ScrollArea, Accordion, Box, Text, Divider, Badge } from "@mantine/core";
 import { IconShare2, IconBrandYoutube, IconNotes, IconBrandSafari, IconBrandEdge, IconBrandChrome, IconBrandFirefox, IconBrandOpera } from "@tabler/icons-react";
 
 import { DataContext } from "../../../components/data-provider";
@@ -65,14 +65,22 @@ export default function Page({ params }) {
                         />
                         {browser.References ? 
                             <>
-                                <Divider label="Read more" labelPosition="centre" variant="dashed" px="md" />
-                                <Box
-                                    dangerouslySetInnerHTML={{
-                                        __html: browser.References ? marked.parse(Array.isArray(browser.References) ? browser.References.join("\n") : browser.References) : "",
-                                    }}
-                                />
-                            </> 
-                        : null}                        
+                            <Text fw={700} ml="lg" mb="sm">References↓</Text>
+                            <Alert 
+                                p={0} 
+                                ml="lg" 
+                                mb="md"
+                                color="gray" 
+                                styles={{
+                                    message: { fontSize: "var(--mantine-font-size-md)", wordBreak: "break-word" },
+                                }}>
+                                    <Box
+                                        dangerouslySetInnerHTML={{
+                                            __html: browser.References ? marked.parse(Array.isArray(browser.References) ? browser.References.join("\n") : browser.References) : "",
+                                        }}
+                                    />
+                            </Alert></>
+                         : null}     
                     </Accordion.Panel>
                 </Accordion.Item>
             </Accordion>
