@@ -41,7 +41,7 @@ export default async function RootLayout({ children }) {
         const mtime = fs.statSync(filepath).mtime
         
         const feature = JSON.parse(fileobj);
-        feature.mtime = mtime.toLocaleDateString();
+        feature.LastModifiedTime = mtime.toLocaleDateString();
         features.push(feature);
 
         const category = feature.Category;
