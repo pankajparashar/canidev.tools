@@ -56,6 +56,7 @@ export default function Layout({ children, params }) {
             </Group>
             <Divider />
             <Alert
+                color="gray"
                 icon={isMobile ? null : icons[feature.Category]}
                 title={feature.Name}
                 styles={{

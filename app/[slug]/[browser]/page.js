@@ -67,7 +67,9 @@ export default function Page({ params }) {
                             <>
                             <Text fw={700} ml="lg" mb="sm">References↓</Text>
                             <Alert 
-                                p={0} 
+                                p={0}
+                                pr="xs"
+                                fs="italic"
                                 ml="lg" 
                                 mb="md"
                                 color="gray" 

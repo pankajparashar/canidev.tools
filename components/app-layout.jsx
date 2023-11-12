@@ -47,7 +47,7 @@ export const AppLayout = props => {
     };
     
     useEffect(() => {
-        document.getElementById(activeSlug)?.scrollIntoView({ block: "center", inline: "nearest", behavior: "smooth" })
+        document.getElementById(activeSlug)?.scrollIntoView({ block: "start", inline: "nearest" })
     }, [])
 
     return (
@@ -133,7 +133,7 @@ export const AppLayout = props => {
                             </Box>
                             {features
                                 .map(feature => (
-                                    <div key={feature.Slug} id={feature.Slug}>
+                                    <div key={feature.Slug} id={feature.Slug} className="smt">
                                         <NavLink
                                             px={"xs"}
                                             label={feature.Name}
@@ -190,7 +190,7 @@ const NavFooter = () => {
                 <Alert ref={adRef} p={"xs"} px={0} variant="light" color="gray"></Alert>
             </Tabs.Panel>
             <Tabs.Panel value="about">
-                <Alert color="gray" pt={"xs"}>
+                <Alert color="gray" pt={"xs"} fs="italic">
                     It is like <a href="//caniuse.com">@CanIUse</a> but for the browser devtools, created by <a href="//pankajparashar.com">@pankajparashar</a>, and curated by the community. Built with <a href="https://nextjs.org/">Next.js</a> && Deployed on <a href="https://vercel.com/">Vercel</a>.
                     <SimpleGrid cols={3} spacing={0} mt="xs">
                         <Tooltip withArrow label="Substack" position="top">
