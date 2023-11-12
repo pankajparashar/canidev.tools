@@ -9,6 +9,7 @@
 	"Chrome": {
 		"Image": "https://res.cloudinary.com/canidevtools/image/upload/l_watermark,w_100,o_10/inspect-popup-overlays-chrome.png",
 		"Video": "https://res.cloudinary.com/canidevtools/video/upload/l_watermark,w_100,o_10/inspect-popup-overlays-chrome.mp4",
+		"Share": "https://twitter.com/CanIDevTools/status/1723756605685256606",
 		"Notes": [
 			"1. Open the **Command Menu** (`Cmd+Shift+P` or `Ctrl+Shift+P`) > Run \"Show Rendering\" to open the **Rendering** drawer.",
 			"2. Scroll down and select **Emulate a focused page** option to inspect the popup element in DevTools."
