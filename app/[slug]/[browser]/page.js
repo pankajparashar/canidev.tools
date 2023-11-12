@@ -46,15 +46,10 @@ export default function Page({ params }) {
                 </Accordion.Item>
                 <Accordion.Item value="notes">
                     <Accordion.Control icon={<IconNotes stroke={1} />}>
-                        <Text fw={700}>Notes {browser.Version ? 
-                            <Badge 
-                                radius="xs" 
-                                styles={{
-                                    label: { fontSize: "var(--mantine-font-size-sm)" }
-                                }}
-                                variant="light" 
-                                color="gray"
-                            >{browser.Version}+</Badge> : ""}</Text>
+                        <Group justify="space-between" pr="sm">
+                            <Text fw={700}>Notes</Text>
+                            {browser.Version ? <Text c="dimmed">{`v${browser.Version}+`}</Text> : ""}
+                        </Group>
                     </Accordion.Control>
                     <Accordion.Panel maw={"750px"} pr="xs">
                         <Box

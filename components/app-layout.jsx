@@ -178,9 +178,9 @@ const NavFooter = () => {
     }, []);
 
     return (
-        <Tabs placement="right" inverted={false} value={activeTab} onChange={setActiveTab}>
+        <Tabs placement="right" inverted={true} value={activeTab} onChange={setActiveTab}>
             <Tabs.List justify="space-between">
-                <Tabs.Tab value="ads" leftSection={<IconBroadcast size={20} />}>
+                <Tabs.Tab value="ads">
                     
                 </Tabs.Tab>
                 {/* <Tabs.Tab value="about" leftSection={<IconUserCircle size={20} />} ml="auto" />

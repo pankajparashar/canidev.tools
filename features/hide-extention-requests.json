@@ -7,6 +7,6 @@
     "Authors": ["@pankajparashar"],
 
     "Chrome": {
-        "Notes": ["1. In the Network panel, check the Hide extension URLs option in the toolbar.\n"]
+        "Notes": ["1. In the **Network** panel, check the **Hide extension URLs** option in the toolbar."]
     }
 }
