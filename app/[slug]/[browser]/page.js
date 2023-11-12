@@ -69,7 +69,6 @@ export default function Page({ params }) {
                             <Alert 
                                 p={0}
                                 pr="xs"
-                                fs="italic"
                                 ml="lg" 
                                 mb="md"
                                 color="gray" 

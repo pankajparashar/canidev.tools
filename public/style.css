@@ -95,7 +95,6 @@ ol, ul {
         overflow: hidden;
         display: -webkit-box;
         -webkit-box-orient: vertical;
-        font-style: italic;
     }
         
     .carbon-img {
