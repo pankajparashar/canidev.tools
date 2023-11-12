@@ -72,7 +72,7 @@ export default function Page({ params }) {
                                 mb="md"
                                 color="gray" 
                                 styles={{
-                                    message: { fontSize: "var(--mantine-font-size-md)", wordBreak: "break-word" },
+                                    message: { fontSize: "var(--mantine-font-size-md)", wordBreak: "break-word", marginTop: 0 },
                                 }}>
                                     <Box
                                         dangerouslySetInnerHTML={{
