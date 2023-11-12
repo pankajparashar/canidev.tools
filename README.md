@@ -1745,6 +1745,7 @@ Can I inspect the popup overlay elements like the Dropdown lists, menus, etc.,
 [Chrome](https://canidev.tools/inspect-popup-overlays/chrome): 
 1. Open the **Command Menu** (`Cmd+Shift+P` or `Ctrl+Shift+P`) > Run "Show Rendering" to open the **Rendering** drawer.
 2. Scroll down and select **Emulate a focused page** option to inspect the popup element in DevTools.
+![](https://res.cloudinary.com/canidevtools/image/upload/l_watermark,w_100,o_10/inspect-popup-overlays-chrome.png)
 
 [Edge](https://canidev.tools/inspect-popup-overlays/edge): 
 1. Open the **Command Menu** (`Cmd+Shift+P` or `Ctrl+Shift+P`) > Run "Show Rendering" to open the **Rendering** drawer.
