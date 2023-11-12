@@ -65,7 +65,7 @@ export default function Page({ params }) {
                         />
                         {browser.References ? 
                             <>
-                            <Text fw={700} ml="lg" mb="sm">References↓</Text>
+                            <Text fw={700} ml="lg" mb="sm">References:</Text>
                             <Alert 
                                 p={0}
                                 pr="xs"
