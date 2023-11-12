@@ -38,13 +38,12 @@ export default function Layout({ children, params }) {
         <Paper className="column" w="100%" withBorder style={{ borderTop: 0, borderBottom: 0 }}>
             <Group justify="space-between">
                 <Badge
-                    size="lg"
                     variant="dot"
                     radius="0"
                     p="md"
                     style={{ borderTop: 0, borderBottom: 0, borderLeft: 0 }}
                     styles={{
-                        label: { fontSize: "var(--mantine-font-size-sm)" },
+                        label: { fontSize: "var(--mantine-font-size-sm)", letterSpacing: "1px" },
                     }}>
                     {feature.Category}
                 </Badge>

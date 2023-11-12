@@ -183,8 +183,8 @@ const NavFooter = () => {
                 <Tabs.Tab value="ads" leftSection={<IconBroadcast size={20} />}>
                     
                 </Tabs.Tab>
-                <Tabs.Tab value="about" leftSection={<IconUserCircle size={20} />} ml="auto" />
-                <Tabs.Tab value="testimonials" leftSection={<IconQuote size={20} />} />
+                {/* <Tabs.Tab value="about" leftSection={<IconUserCircle size={20} />} ml="auto" />
+                <Tabs.Tab value="testimonials" leftSection={<IconQuote size={20} />} /> */}
             </Tabs.List>
 
             <Tabs.Panel value="ads">
@@ -192,7 +192,7 @@ const NavFooter = () => {
             </Tabs.Panel>
             <Tabs.Panel value="about">
                 <Alert color="gray" pt={"xs"} styles={{
-                    
+                    message: { fontSize: "var(--mantine-font-size-md)", wordBreak: "break-word", marginTop: 0 },
                 }}>
                     It is like <a href="//caniuse.com">@CanIUse</a> but for the browser devtools, created by <a href="//pankajparashar.com">@pankajparashar</a>. Built with <a href="https://nextjs.org/">Next.js</a> && Deployed on <a href="https://vercel.com/">Vercel</a>.
                     <SimpleGrid cols={3} spacing={0} mt="sm">
