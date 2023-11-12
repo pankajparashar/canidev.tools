@@ -1428,8 +1428,7 @@ Can I jump to a file by searching with a filename?
 Can I hide network requests sent by extensions?
 
 [Chrome](https://canidev.tools/hide-extention-requests/chrome): 
-1. In the Network panel, check the Hide extension URLs option in the toolbar.
-
+1. In the **Network** panel, check the **Hide extension URLs** option in the toolbar.
 
 ## Ignore extension scripts
 Can I ignore extention scripts while debugging?
