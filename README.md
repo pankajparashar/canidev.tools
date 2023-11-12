@@ -1739,6 +1739,17 @@ Can I inspect and edit various CSS font properties like, font-size, line-height 
 1. Inspect element > Navigate to the **Font** panel to see information about the active font for the selected DOM node in the DOM Tree, providing computed values for both basic properties (e.g. size, style, weight, etc.) and advanced properties (e.g. ligatures, alternate glyphs, variations, etc.)
 
 
+## Inspect popup overlays
+Can I inspect the popup overlay elements like the Dropdown lists, menus, etc.,
+
+[Chrome](https://canidev.tools/inspect-popup-overlays/chrome): 
+1. Open the **Command Menu** (`Cmd+Shift+P` or `Ctrl+Shift+P`) > Run "Show Rendering" to open the **Rendering** drawer.
+2. Scroll down and select **Emulate a focused page** option to inspect the popup element in DevTools.
+
+[Edge](https://canidev.tools/inspect-popup-overlays/edge): 
+1. Open the **Command Menu** (`Cmd+Shift+P` or `Ctrl+Shift+P`) > Run "Show Rendering" to open the **Rendering** drawer.
+2. Scroll down and select **Emulate a focused page** option to inspect the popup element in DevTools.
+
 ## Inspect requests
 Can I inspect Network requests?
 
