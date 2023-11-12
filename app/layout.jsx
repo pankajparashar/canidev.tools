@@ -4,6 +4,7 @@ import path from "path";
 import { Analytics } from "@vercel/analytics/react";
 
 import "@mantine/core/styles.css";
+import '@mantine/carousel/styles.css';
 import { MantineProvider, ColorSchemeScript } from "@mantine/core";
 
 import "../public/style.css";

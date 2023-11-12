@@ -4,8 +4,9 @@ import { useRef, useEffect, useContext, useState } from "react";
 import { useSearchParams, useRouter, usePathname } from "next/navigation";
 import Link from "next/link";
 
-import { Alert, Tooltip, Affix, Box, Button, Tabs, Text, Anchor, TextInput, Accordion, ActionIcon, AppShell, Burger, Group, ScrollArea, NavLink, Divider, SimpleGrid, useMantineColorScheme } from "@mantine/core";
+import { Alert, Tooltip, Affix, Box, Button, Tabs, Text, Anchor, TextInput, Accordion, ActionIcon, AppShell, Burger, Group, ScrollArea, NavLink, Divider, SimpleGrid, Image, useMantineColorScheme } from "@mantine/core";
 import { useDisclosure, useMediaQuery } from "@mantine/hooks";
+import { Carousel } from '@mantine/carousel';
 
 import { IconQuote, IconBroadcast, IconBrandGithub, IconBrandX, IconBrandStripe, IconNews, IconUserCircle, IconStar, IconArrowBack, IconListSearch, IconBrightness, IconListDetails, IconBrandSpeedtest, IconCode, IconBoxMargin, IconAccessible, IconReportMedical, IconTerminal2, IconBrandNextjs, IconAffiliate, IconHexagons, IconCrosshair, IconChevronRight } from "@tabler/icons-react";
 
@@ -165,7 +166,7 @@ export const AppLayout = props => {
 
 const NavFooter = () => {
     const adRef = useRef();
-    const [activeTab, setActiveTab] = useState("ads");
+    const [activeTab, setActiveTab] = useState("testimonials");
 
     useEffect(() => {        
         adRef.current.addEventListener("DOMNodeInserted", event => event.target.id === "carbonads_1" && event.target.remove())
@@ -180,7 +181,7 @@ const NavFooter = () => {
         <Tabs placement="right" inverted={false} value={activeTab} onChange={setActiveTab}>
             <Tabs.List justify="space-between">
                 <Tabs.Tab value="ads" leftSection={<IconBroadcast size={20} />}>
-                    Carbon Ads
+                    
                 </Tabs.Tab>
                 <Tabs.Tab value="about" leftSection={<IconUserCircle size={20} />} ml="auto" />
                 <Tabs.Tab value="testimonials" leftSection={<IconQuote size={20} />} />
@@ -190,9 +191,11 @@ const NavFooter = () => {
                 <Alert ref={adRef} p={"xs"} px={0} variant="light" color="gray"></Alert>
             </Tabs.Panel>
             <Tabs.Panel value="about">
-                <Alert color="gray" pt={"xs"}>
-                    It is like <a href="//caniuse.com">@CanIUse</a> but for the browser devtools, created by <a href="//pankajparashar.com">@pankajparashar</a>, and curated by the community. Built with <a href="https://nextjs.org/">Next.js</a> && Deployed on <a href="https://vercel.com/">Vercel</a>.
-                    <SimpleGrid cols={3} spacing={0} mt="xs">
+                <Alert color="gray" pt={"xs"} styles={{
+                    
+                }}>
+                    It is like <a href="//caniuse.com">@CanIUse</a> but for the browser devtools, created by <a href="//pankajparashar.com">@pankajparashar</a>. Built with <a href="https://nextjs.org/">Next.js</a> && Deployed on <a href="https://vercel.com/">Vercel</a>.
+                    <SimpleGrid cols={3} spacing={0} mt="sm">
                         <Tooltip withArrow label="Substack" position="top">
                             <Button size="xs" fullWidth variant="default" component="a" href="https://canidevtools.substack.com/" target="_blank">
                                 <IconBrandSubStack size={15}/>
@@ -212,7 +215,14 @@ const NavFooter = () => {
                 </Alert>
             </Tabs.Panel>
             <Tabs.Panel value="testimonials">
-                
+                <Carousel autoplay dotPosition="right" loop withIndicators controlsOffset={0} height="100%" style={{ flex: 1 }}>
+                    {[
+                        'https://res.cloudinary.com/dw9fem4ki/image/upload/v1675244568/pika-1675244292768-1x_fctkaz.png',
+                        'https://res.cloudinary.com/dw9fem4ki/image/upload/v1675244568/pika-1675244314666-1x_ctlzo5.png',
+                        'https://res.cloudinary.com/dw9fem4ki/image/upload/v1675244568/pika-1675244249461-1x_jtuvnh.jpg',
+                        'https://res.cloudinary.com/dw9fem4ki/image/upload/v1675244568/pika-1675244351871-1x_hw0sqt.png'
+                    ].map((image) => <Image src={image} key={image} /> )}
+                </Carousel>
             </Tabs.Panel>
         </Tabs>
     );
