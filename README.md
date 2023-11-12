@@ -251,10 +251,12 @@ Can I capture a high definition screenshot of the page?
 2. In the device toolbar, click **More options** (`⋮`) > **Add device pixel ratio**. In the action bar at the top of the viewport, select a DPR value from the new DPR drop-down menu.
 3. Click **More options** > select **Capture screenshot** for viewport or **Capture full size screenshot** for the entire page.
 
+
 ![](https://res.cloudinary.com/canidevtools/image/upload/l_watermark,w_100,o_10/capture-hd-screenshot-chrome.png)
 
 [Firefox](https://canidev.tools/capture-hd-screenshot/firefox): 
 1. In the **Console** panel, run the command `:screenshot --dpr 3` to take a high definition screenshot of the page with the device pixel ratio set to 3.
+
 
 ![](https://res.cloudinary.com/canidevtools/image/upload/l_watermark,w_50,o_10/capture-hd-screenshot-firefox.png)
 
@@ -262,6 +264,7 @@ Can I capture a high definition screenshot of the page?
 1. In Devtools, click the **Toggle device toolbar** icon (`Cmd+Shift+M` or `Ctrl+Shift+M`) to enter the responsive design mode.
 2. In the device toolbar, click **More options** (`⋮`) > **Add device pixel ratio**. In the action bar at the top of the viewport, select a DPR value from the new DPR drop-down menu.
 3. Click **More options** > select **Capture screenshot** for viewport or **Capture full size screenshot** for the entire page.
+
 
 ![](https://res.cloudinary.com/canidevtools/image/upload/l_watermark,w_100,o_10/capture-hd-screenshot-edge.png)
 
@@ -960,11 +963,13 @@ Can I emulate reduced transparency CSS media feature?
 [Chrome](https://canidev.tools/emulate-reduced-transparency/chrome): 
 1. Open **Command Menu** (`Cmd+Shift+P` or `Ctrl+Shift+P`) > Run "Show Rendering". Scroll down to the **Emulate CSS media** features section and select `prefers-reduced-transparency: reduce` to apply the effect.
 
+
 ![](https://res.cloudinary.com/canidevtools/image/upload/l_watermark,w_100,o_10/emulate-reduced-transparency-chrome.png)
 
 [Polypane](https://canidev.tools/emulate-reduced-transparency/polypane): 
 1. In Developer Tools, click the **Change Media and Emulations** button in the toolbar to open the popup.
 2. In the **Media** tab, click the **reduce** toggle button to preview the page with reduced transparency effect. Revert the effect by clicking the **no-preference** button.
+
 
 ![](https://res.cloudinary.com/canidevtools/image/upload/l_watermark,w_100,o_10/emulate-reduced-transparency-polypane.png)
 
@@ -1745,6 +1750,7 @@ Can I inspect the popup overlay elements like the Dropdown lists, menus, etc.,
 [Chrome](https://canidev.tools/inspect-popup-overlays/chrome): 
 1. Open the **Command Menu** (`Cmd+Shift+P` or `Ctrl+Shift+P`) > Run "Show Rendering" to open the **Rendering** drawer.
 2. Scroll down and select **Emulate a focused page** option to inspect the popup element in DevTools.
+
 ![](https://res.cloudinary.com/canidevtools/image/upload/l_watermark,w_100,o_10/inspect-popup-overlays-chrome.png)
 
 [Edge](https://canidev.tools/inspect-popup-overlays/edge): 
@@ -1784,6 +1790,7 @@ Can I inspect the CSS @scope at-rules and the scoping root element?
 [Polypane](https://canidev.tools/inspect-scope-at-rules/polypane): 
 1. Inspect the element that has `@scope` rules applied. The ruleset will be visible in the **Style** pane under the `@scope` block declaration.
 2. Hover over the **scoping root element** to highlight the element on the page. Click the element to directly jump to the node in the **Element** tree.
+
 
 ![](https://res.cloudinary.com/canidevtools/image/upload/l_watermark,w_100,o_10/inspect-scope-at-rules-polypane.png)
 
@@ -1963,6 +1970,7 @@ $ ./firefox -devtools</pre>
 Start-Process -FilePath "msedge" -ArgumentList "--auto-open-devtools-for-tabs</pre> 
 **MacOS**: <pre>/Applications/Microsoft\ Edge.app/Contents/MacOS/Microsoft\ Edge --auto-open-devtools-for-tabs</pre> 
  **Linux**: <pre>microsoft-edge --auto-open-devtools-for-tabs</pre>
+
 ![](https://res.cloudinary.com/canidevtools/image/upload/l_watermark,w_100,o_10/open-devtools-new-tab-edge.png)
 
 [Polypane](https://canidev.tools/open-devtools-new-tab/polypane): 
@@ -2178,6 +2186,7 @@ Can I preview the social media cards for websites like Facebook, X etc
 1. In Developer Tools, open **Info > Meta**. Scroll down to the **Social media previews** section to see cards for each social media website like X, Facebook, LinkedIn etc.
 2. This also works with `localhost` while running the app locally. Use the **Overwrite domain** button to preview the card with production URL.
 3. Toggle the **light/dark** buttons to preview the card in the light and the dark mode respectively.
+
 
 ![](https://res.cloudinary.com/canidevtools/image/upload/l_watermark,w_100,o_10/preview-social-media-cards-polypane.png)
 
