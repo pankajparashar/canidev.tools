@@ -166,7 +166,7 @@ export const AppLayout = props => {
 
 const NavFooter = () => {
     const adRef = useRef();
-    const [activeTab, setActiveTab] = useState("testimonials");
+    const [activeTab, setActiveTab] = useState("ads");
 
     useEffect(() => {        
         adRef.current.addEventListener("DOMNodeInserted", event => event.target.id === "carbonads_1" && event.target.remove())
