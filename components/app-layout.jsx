@@ -47,8 +47,7 @@ export const AppLayout = props => {
     };
     
     useEffect(() => {
-        console.log({activeSlug})
-        document.getElementById(activeSlug)?.scrollIntoView({ block: "end", inline: "nearest" })
+        document.getElementById(activeSlug)?.scrollIntoView({ block: "center", inline: "nearest", behavior: "smooth" })
     }, [])
 
     return (
