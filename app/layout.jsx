@@ -49,8 +49,8 @@ export default async function RootLayout({ children }) {
     });
 
     const theme = {
-        fontFamily: "Favorit Mono",
-        fontFamilyMonospace: "Favorit Mono",
+        fontFamily: "Berkeley Mono",
+        fontFamilyMonospace: "Berkeley Mono",
         primaryColor: "dark",
         defaultRadius: 0,
         breakpoints: {
