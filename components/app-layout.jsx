@@ -273,6 +273,10 @@ export const AppLayout = (props) => {
                                             label: {
                                                 fontSize:
                                                     "var(--mantine-font-size-md)",
+                                                fontWeight:
+                                                    activeSlug === feature.Slug
+                                                        ? "bold"
+                                                        : "normal",
                                             },
                                             description: {
                                                 fontSize:
