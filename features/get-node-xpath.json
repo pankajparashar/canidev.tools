@@ -8,7 +8,7 @@
   "Authors": ["@pankajparashar", "@kilianvalkhof"],
   "Chrome": {
     "Share": "https://twitter.com/CanIDevTools/status/1542517123536539648",
-    "References": "\n",
+    
     "Notes": "1. Inspect the element > Right click on the node in the DOM tree > Copy > Copy full XPath\n"
   },
   "Firefox": {

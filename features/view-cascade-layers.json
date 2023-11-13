@@ -26,7 +26,7 @@
     "Notes": "1. Inspect the element that is part of the `@layer`. In the Styles pane, each layer and its corresponding styles are visible.\n"
   },
   "Opera": {
-    "References": "\n",
+    
     "Notes": "1. Inspect the element that is part of the `@layer`. In the **Styles** pane, each layer and its corresponding styles are visible.\n2. Clicking on the layer name will reveal the **CSS layers** section at the top which will contain the layer order, that drives the specificity.\n"
   },
   "Polypane": {

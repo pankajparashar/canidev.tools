@@ -21,7 +21,7 @@
     "Notes": "1. In the **Sources** tab, click the \"+\" button in the left sidebar within the **Breakpoints** section > Select \"URL Breakpoint...\"\n2. Use the popup form to apply breakpoint on specific keywords and matching conditions.\n3. Alternatively, you can set breakpoint on all the requests by selecting \"All Requests\" after clicking the \"+\" button.\n"
   },
   "Opera": {
-    "References": "\n",
+    
     "Notes": "1. Click the **Sources** tab.\n2. Expand the **XHR Breakpoints** pane.\n3. Click **Add breakpoint**.\n4. Enter the string which you want to break on. DevTools pauses when this string is present anywhere in an XHR's request URL.\n5. Press Enter to confirm.\n"
   }
 }

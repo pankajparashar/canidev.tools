@@ -20,7 +20,7 @@
         "Notes": "1. In the **Styles** pane, click on any color preview to open a color picker. Use the eyedropper to pick color from anywhere.\n"
     },
     "Opera": {
-        "References": "\n",
+        
         "Notes": "1. Open **Settings** (or press `Shift+?` or `F1`) > Experiments > Apply filter on \"color picker\".\n2. Check the \"Enable color picking outside the browser window\" option > Reload DevTools.\n3. In the **Styles** pane, click on any color preview to open a color picker. Use the eyedropper to pick color from anywhere.\n"
     },
     "Polypane": {

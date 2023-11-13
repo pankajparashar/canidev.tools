@@ -11,7 +11,7 @@
   },
   "Firefox": {
     "Notes": "1. In the devtools panel open the **Accessibility** tab.\n2. Select the checkbox \"Show Tabbing Order\" to highlight the tab order on the web page.\n",
-    "References": "\n"
+    
   },
   "Edge": {
     "Notes": "1. In the **Elements** tab > Open the **Accessibility** pane on the right. \n2. Scroll down to the **Source Order Viewer** section, check the option \"Show source order\" to view the order of source elements on the screen.\n"

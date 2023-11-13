@@ -7,7 +7,7 @@
     "Authors": ["@pankajparashar", "@kilianvalkhof"],
     "Chrome": {
         "Share": "https://twitter.com/jecfish/status/1514209534566313986",
-        "References": "\n",
+        
         "Notes": "1. Open devtools > Inside the \"Styles\" pane, right next to the \"+\" button, click the Icon \"Toggle common rendering emulations\".\n2. Choose the `prefers-color-scheme` option to emulate the corresponding color scheme.\n",
         "Video": "https://res.cloudinary.com/canidevtools/video/upload/v1649915966/Videos/emulate-color-schemes-chrome.mp4"
     },
@@ -24,7 +24,7 @@
         "Notes": "Open **Web Inspector** using `Cmd+Opt+I`. Look for the icon in the top right of the Elements panel, to toggle between \"Force Dark Appearance\" and \"Use Default Appearance\".\n"
     },
     "Opera": {
-        "References": "\n",
+        
         "Video": "https://res.cloudinary.com/canidevtools/video/upload/v1649915966/Videos/emulate-color-schemes-chrome.mp4",
         "Notes": "1. Open devtools > Inside the \"Styles\" pane, right next to the \"+\" button, click the Icon \"Toggle common rendering emulations\".\n2. Choose the `prefers-color-scheme` option to emulate the corresponding color scheme.\n"
     },

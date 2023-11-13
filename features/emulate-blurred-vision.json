@@ -8,7 +8,7 @@
     "Authors": ["@pankajparashar", "@kilianvalkhof"],
     "Chrome": {
         "Share": "https://twitter.com/CanIDevTools/status/1637145317995937793",
-        "References": "\n",
+        
         "Notes": "1. Run **Command** (`Cmd+Shift+P` or `Ctrl+Shift+P`) > \"Show Rendering\" (Drawer).\n2. Navigate to the **Emulate vision deficiencies** section and choose \"Blurred vision\".\n",
         "Video": "https://res.cloudinary.com/canidevtools/video/upload/v1678802960/emulate-blurred-vision-chrome_aj62ff.mp4"
     },
@@ -16,10 +16,10 @@
         "Notes": "1. Run **Command** (`Cmd+Shift+P` or `Ctrl+Shift+P`) > \"Show Rendering\" (Drawer).\n2. Navigate to the **Emulate** **vision** **deficiencies** section and choose \"Blurred vision\".\n",
         "Share": "https://twitter.com/CanIDevTools/status/1637145317995937793",
         "Video": "https://res.cloudinary.com/canidevtools/video/upload/v1679160200/emulate-blurred-vision-edge_muhj59.mp4",
-        "References": "\n"
+        
     },
     "Opera": {
-        "References": "\n",
+        
         "Share": "https://twitter.com/CanIDevTools/status/1637145317995937793",
         "Video": "https://res.cloudinary.com/canidevtools/video/upload/v1679160201/emulate-blurred-vision-opera_esiiom.mp4",
         "Notes": "1. Run **Command** (`Cmd+Shift+P` or `Ctrl+Shift+P`) > \"Show Rendering\" (Drawer).\n2. Navigate to the **Emulate** **vision** **deficiencies** section and choose \"Blurred vision\".\n"

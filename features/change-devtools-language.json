@@ -8,7 +8,7 @@
     "Authors": "@pankajparashar",
     "Chrome": {
         "Share": "https://twitter.com/CanIDevTools/status/1641881002589954048",
-        "References": "\n",
+        
         "Notes": "1. Open **Settings** (`F1` or `Shift+?`) > Preferences > Under **Languages**, select the language from the dropdown > Reload DevTools.\n2. Alternatively, Run **Command** (`Cmd+Shift+P` or `Ctrl+Shift+P`) > Input the language > select the language labelled \"Appearance\" > Reload DevTools. \n",
         "Video": "https://res.cloudinary.com/canidevtools/video/upload/v1680288722/change-devtools-language-chrome_xlzgjw.mp4"
     },

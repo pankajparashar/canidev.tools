@@ -25,7 +25,7 @@
         "Notes": "1. Open the **Timelines** tab. In the **Events** view, enable \"JavaScript Allocations\" panel in the left sidebar, by clicking the **Edit** button.\n2. Reload the page to start recording the timeline. Perform actions that are expected to be memory neutral.\n3. Take snapshot using the **Camera** icon after each repetition. Use the **Compare** button to compare the snapshots for any visible memory spikes.\n"
     },
     "Opera": {
-        "References": "\n",
+        
         "Notes": "1. Open devtools using `Cmd+Opt+I` (on Mac) or `Ctrl+Shift+I` (on Windows/Linux) > Memory.\n2. Check memory usage > Memory going only ⬆️ is a bad sign! > Capture snapshot to preview memory allocation > Find redundant objects > Navigate to where you allocated them.\n"
     }
 }
