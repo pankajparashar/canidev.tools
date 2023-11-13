@@ -405,7 +405,7 @@ const NavFooter = () => {
             </Tabs.Panel>
             <Tabs.Panel value="testimonials">
                 <Carousel
-                    autoplay
+                    autoPlay
                     loop
                     withIndicators
                     controlsOffset={0}
