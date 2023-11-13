@@ -188,7 +188,7 @@ const NavFooter = () => {
             </Tabs.List>
 
             <Tabs.Panel value="ads">
-                <Alert ref={adRef} p={"xs"} px={0} variant="light" color="gray"></Alert>
+                <Alert ref={adRef} p={"xs"} variant="light" color="gray"></Alert>
             </Tabs.Panel>
             <Tabs.Panel value="about">
                 <Alert color="gray" pt={"xs"} styles={{

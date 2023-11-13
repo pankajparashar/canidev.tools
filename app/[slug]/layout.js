@@ -43,7 +43,7 @@ export default function Layout({ children, params }) {
                     p="md"
                     style={{ borderTop: 0, borderBottom: 0, borderLeft: 0 }}
                     styles={{
-                        label: { fontSize: "var(--mantine-font-size-sm)", letterSpacing: "1px" },
+                        label: { fontSize: "var(--mantine-font-size-sm)" },
                     }}>
                     {feature.Category}
                 </Badge>

@@ -81,7 +81,7 @@ ol, ul {
 
 .carbon-wrap {
     display: flex;
-    gap: 1em;
+    gap: 10px;
 }
 
     .carbon-text {
@@ -91,15 +91,32 @@ ol, ul {
         overflow: hidden;
         display: -webkit-box;
         -webkit-box-orient: vertical;
+        text-wrap: pretty;
     }
         
     .carbon-img {
         padding-top: 5px;
         height: auto;
+        width: 100%;
     }
+    
+        .carbon-img img {
+            border-radius: 5px;
+            filter: grayscale(60%) contrast(170%) brightness(95%);
+        }
+        
+        .carbon-img img::before {
+        background: rgba(224, 138, 157, 0.23);
+        content: "";
+        height: 100%;
+        left: 0;
+        position: absolute;
+        top: 0;
+        width: 100%;
+        }
 
 .carbon-poweredby {
-    display: none
+    font-weight: bold
 }
 
 @font-face {
