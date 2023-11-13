@@ -1,36 +1,35 @@
 {
-  "Name": "Output data as table",
-  "Slug": "output-data-table",
-  "Description": "Can I output data in console in the table format?",
-  "Category": "Console",
-  "LastModifiedTime": "2022-07-09T09:06:32.000Z",
-  "Authors": ["@pankajparashar", "@kilianvalkhof"],
-  "Chrome": {
-    "Share": "https://twitter.com/CanIDevTools/status/1534520264482242560",
-    "References": "1. \"console.table()\" - [MDN Docs](https://developer.mozilla.org/en-US/docs/Web/API/console/table)\n2. \"console API: table\" - [Can I Use](https://caniuse.com/mdn-api_console_table)\n\n",
-    "Notes": "1. Open console using `Cmd+Opt+J` or `Ctrl+Shift+J`.\n2. Use `console.table()` to output an array of arrays, or array of objects in a sortable, tabular format. For example, \n```\nconsole.table([[10, true, \"blue\"],[5, false]])\n```\n1. If the number of elements in each object is not equal, the table will display `undefined` in cells for which there is no data.\n2. There is an optional second argument which allows you to explicitly specify which columns to output.\n```\nconsole.table([\n  {population:8173194, country:\"UK\", elevation:\"24m\"},\n  {population:8336697, country:\"USA\", elevation:\"10m\"}\n],[\"population\", \"country\"])\n```\n"
-  },
-  "Firefox": {
-    "Share": "https://twitter.com/CanIDevTools/status/1534518353360207872",
-    "Notes": "1. Open **Console** using `Cmd+Opt+K` or `Ctrl+Shift+K` > Use `console.table()` to output the object in tabulated format.\n\nExample:\n```\nconsole.table([\n  {population:8173194, country:\"UK\", elevation:\"24m\"},\n  {population:8336697, country:\"USA\", elevation:\"10m\"}\n],[\"population\", \"country\"])\n```\n",
-    "References": "1. \"console.table()\" - [MDN Docs](https://developer.mozilla.org/en-US/docs/Web/API/console/table)\n2. \"console API: table\" - [Can I Use](https://caniuse.com/mdn-api_console_table)\n"
-  },
-  "Edge": {
-    "Notes": "1. Open console using `Cmd+Opt+J` or `Ctrl+Shift+J`.\n2. Use `console.table()` to output an array of arrays, or array of objects in a sortable, tabular format. For example, \n```\nconsole.table([[10, true, \"blue\"],[5, false]])\n```\n1. If the number of elements in each object is not equal, the table will display `undefined` in cells for which there is no data.\n2. There is an optional second argument which allows you to explicitly specify which columns to output.\n```\nconsole.table([\n  {population:8173194, country:\"UK\", elevation:\"24m\"},\n  {population:8336697, country:\"USA\", elevation:\"10m\"}\n],[\"population\", \"country\"])\n```\n\n",
-    "Share": "https://twitter.com/CanIDevTools/status/1534531329580486656",
-    "References": "1. \"console.table()\" - [MDN Docs](https://developer.mozilla.org/en-US/docs/Web/API/console/table)\n2. \"console API: table\" - [Can I Use](https://caniuse.com/mdn-api_console_table)\n"
-  },
-  "Safari": {
-    "Share": "https://twitter.com/CanIDevTools/status/1534524241693253632",
-    "References": "1. \"console.table()\" - [MDN Docs](https://developer.mozilla.org/en-US/docs/Web/API/console/table)\n2. \"console API: table\" - [Can I Use](https://caniuse.com/mdn-api_console_table)\n",
-    "Notes": "Open **Console** using `Cmd+Opt+C`. Use `console.table()` to output arrays of array or array of objects in a sortable, tabular format.\n"
-  },
-  "Opera": {
-    
-    "Notes": "1. Open console using `Cmd+Opt+J` or `Ctrl+Shift+J`.\n2. Use `console.table()` to output an array of arrays, or array of objects in a sortable, tabular format. For example, \n```\nconsole.table([[10, true, \"blue\"],[5, false]])\n```\n1. If the number of elements in each object is not equal, the table will display `undefined` in cells for which there is no data.\n2. There is an optional second argument which allows you to explicitly specify which columns to output.\n```\nconsole.table([\n  {population:8173194, country:\"UK\", elevation:\"24m\"},\n  {population:8336697, country:\"USA\", elevation:\"10m\"}\n],[\"population\", \"country\"])\n```\n"
-  },
-  "Polypane": {
-    "References": "1. Console messages [Polypane Docs](https://polypane.app/docs/console/#console-messages)\n",
-    "Notes": "Open **Console**. Use `console.table()` to output arrays of array or array of objects in a sortable, tabular format.\n"
-  }
+    "Name": "Output data as table",
+    "Slug": "output-data-table",
+    "Description": "Can I output data in console in the table format?",
+    "Category": "Console",
+    "LastModifiedTime": "2022-07-09T09:06:32.000Z",
+    "Authors": ["@pankajparashar", "@kilianvalkhof"],
+    "Chrome": {
+        "Share": "https://twitter.com/CanIDevTools/status/1534520264482242560",
+        "References": "1. \"console.table()\" - [MDN Docs](https://developer.mozilla.org/en-US/docs/Web/API/console/table)\n2. \"console API: table\" - [Can I Use](https://caniuse.com/mdn-api_console_table)\n\n",
+        "Notes": "1. Open console using `Cmd+Opt+J` or `Ctrl+Shift+J`.\n2. Use `console.table()` to output an array of arrays, or array of objects in a sortable, tabular format. For example, \n```\nconsole.table([[10, true, \"blue\"],[5, false]])\n```\n1. If the number of elements in each object is not equal, the table will display `undefined` in cells for which there is no data.\n2. There is an optional second argument which allows you to explicitly specify which columns to output.\n```\nconsole.table([\n  {population:8173194, country:\"UK\", elevation:\"24m\"},\n  {population:8336697, country:\"USA\", elevation:\"10m\"}\n],[\"population\", \"country\"])\n```\n"
+    },
+    "Firefox": {
+        "Share": "https://twitter.com/CanIDevTools/status/1534518353360207872",
+        "Notes": "1. Open **Console** using `Cmd+Opt+K` or `Ctrl+Shift+K` > Use `console.table()` to output the object in tabulated format.\n\nExample:\n```\nconsole.table([\n  {population:8173194, country:\"UK\", elevation:\"24m\"},\n  {population:8336697, country:\"USA\", elevation:\"10m\"}\n],[\"population\", \"country\"])\n```\n",
+        "References": "1. \"console.table()\" - [MDN Docs](https://developer.mozilla.org/en-US/docs/Web/API/console/table)\n2. \"console API: table\" - [Can I Use](https://caniuse.com/mdn-api_console_table)\n"
+    },
+    "Edge": {
+        "Notes": "1. Open console using `Cmd+Opt+J` or `Ctrl+Shift+J`.\n2. Use `console.table()` to output an array of arrays, or array of objects in a sortable, tabular format. For example, \n```\nconsole.table([[10, true, \"blue\"],[5, false]])\n```\n1. If the number of elements in each object is not equal, the table will display `undefined` in cells for which there is no data.\n2. There is an optional second argument which allows you to explicitly specify which columns to output.\n```\nconsole.table([\n  {population:8173194, country:\"UK\", elevation:\"24m\"},\n  {population:8336697, country:\"USA\", elevation:\"10m\"}\n],[\"population\", \"country\"])\n```\n\n",
+        "Share": "https://twitter.com/CanIDevTools/status/1534531329580486656",
+        "References": "1. \"console.table()\" - [MDN Docs](https://developer.mozilla.org/en-US/docs/Web/API/console/table)\n2. \"console API: table\" - [Can I Use](https://caniuse.com/mdn-api_console_table)\n"
+    },
+    "Safari": {
+        "Share": "https://twitter.com/CanIDevTools/status/1534524241693253632",
+        "References": "1. \"console.table()\" - [MDN Docs](https://developer.mozilla.org/en-US/docs/Web/API/console/table)\n2. \"console API: table\" - [Can I Use](https://caniuse.com/mdn-api_console_table)\n",
+        "Notes": "Open **Console** using `Cmd+Opt+C`. Use `console.table()` to output arrays of array or array of objects in a sortable, tabular format.\n"
+    },
+    "Opera": {
+        "Notes": "1. Open console using `Cmd+Opt+J` or `Ctrl+Shift+J`.\n2. Use `console.table()` to output an array of arrays, or array of objects in a sortable, tabular format. For example, \n```\nconsole.table([[10, true, \"blue\"],[5, false]])\n```\n1. If the number of elements in each object is not equal, the table will display `undefined` in cells for which there is no data.\n2. There is an optional second argument which allows you to explicitly specify which columns to output.\n```\nconsole.table([\n  {population:8173194, country:\"UK\", elevation:\"24m\"},\n  {population:8336697, country:\"USA\", elevation:\"10m\"}\n],[\"population\", \"country\"])\n```\n"
+    },
+    "Polypane": {
+        "References": "1. Console messages [Polypane Docs](https://polypane.app/docs/console/#console-messages)\n",
+        "Notes": "Open **Console**. Use `console.table()` to output arrays of array or array of objects in a sortable, tabular format.\n"
+    }
 }

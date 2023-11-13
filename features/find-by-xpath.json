@@ -9,8 +9,7 @@
     "Notes": "1. Open devtools using Cmd+Opt+I (on MacOS) or Ctrl+Shift+I (on Windows/Linux/ChromeOS) > Elements.\n2. Press Cmd+F or Ctrl+F to open the search bar at the bottom of the Elements panel.\n3. Enter XPath to find the element in the DOM node.\n"
   },
   "Firefox": {
-    "Notes": "1. Open devtools using Cmd+Opt+I (on MacOS) or Ctrl+Shift+I (on Windows/Linux/ChromeOS) > Inspector.\n2. Press Cmd+F or Ctrl+F to open the search bar at the top of the Inspector panel.\n3. Enter the xpath to find the element in the DOM node.\n",
-    
+    "Notes": "1. Open devtools using Cmd+Opt+I (on MacOS) or Ctrl+Shift+I (on Windows/Linux/ChromeOS) > Inspector.\n2. Press Cmd+F or Ctrl+F to open the search bar at the top of the Inspector panel.\n3. Enter the xpath to find the element in the DOM node.\n"
   },
   "Edge": {
     "Notes": "1. Open devtools using Cmd+Opt+I (on MacOS) or Ctrl+Shift+I (on Windows/Linux/ChromeOS) > Elements.\n2. Press Cmd+F or Ctrl+F to open the search bar at the bottom of the Elements panel.\n3. Enter XPath to find the element in the DOM node.\n\n"
