@@ -3,7 +3,7 @@
   "Slug": "find-color-contrast",
   "Description": "Can I find the contrast ratio of a color?",
   "Category": "Accessibility",
-  "LastModifiedTime": "2023-02-05T13:27:38.000Z",
+  
   "Authors": ["@pankajparashar", "@kilianvalkhof"],
   "Chrome": {
     "References": "[1] \"Color Picker\" - [Chrome DevTools Docs](https://developer.chrome.com/docs/devtools/css/reference/#color-picker)\n",

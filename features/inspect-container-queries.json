@@ -3,7 +3,7 @@
     "Slug": "inspect-container-queries",
     "Description": "Can I inspect and debug container queries in the devtools?",
     "Category": "CSS",
-    "LastModifiedTime": "2022-07-03T05:21:53.000Z",
+    
     "Authors": ["@pankajparashar", "@kilianvalkhof"],
     "Chrome": {
         "References": "[1] \"Container Queries\" - [Chrome DevTools Docs](https://developer.chrome.com/docs/devtools/css/container-queries/)\n",

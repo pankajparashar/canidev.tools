@@ -4,7 +4,7 @@
     "Description": "Can I take screenshot of a DOM node?",
     "Category": "Elements",
     "Newsletter": "tips-tricks-37",
-    "LastModifiedTime": "2023-02-05T06:50:49.000Z",
+    
     "Authors": ["@pankajparashar", "@kilianvalkhof"],
     "Related": ["capture-screenshot-console", "capture-viewport-screenshot", "capture-full-page-screenshot"],
     "Chrome": {

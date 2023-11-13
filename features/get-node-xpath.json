@@ -4,7 +4,7 @@
     "Description": "Can I get the xpath of a node in the DOM tree?",
     "Category": "Elements",
     "Newsletter": "tips-tricks-4",
-    "LastModifiedTime": "2022-09-17T13:40:00.000Z",
+    
     "Authors": ["@pankajparashar", "@kilianvalkhof"],
     "Chrome": {
         "Share": "https://twitter.com/CanIDevTools/status/1542517123536539648",

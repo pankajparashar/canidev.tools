@@ -3,7 +3,7 @@
     "Slug": "find-unused-js",
     "Description": "Can I find unused JavaScript code on the page?",
     "Category": "JavaScript",
-    "LastModifiedTime": "2023-03-06T20:28:28.000Z",
+    
     "Authors": "@pankajparashar",
     "Chrome": {
         "References": "[1] \"Coverage: Find unused JavaScript and CSS\" - [Chrome DevTools Docs](https://developer.chrome.com/docs/devtools/coverage/)\n",

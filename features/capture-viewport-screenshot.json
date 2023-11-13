@@ -4,7 +4,7 @@
     "Description": "Can I take a screenshot of the viewport?",
     "Category": "Other",
     "Newsletter": "tips-tricks-44",
-    "LastModifiedTime": "2023-04-14T11:39:03.000Z",
+    
     "Authors": ["@pankajparashar", "@kilianvalkhof"],
     "Related": ["capture-screenshot-console", "capture-node-screenshot", "capture-full-page-screenshot"],
     "Chrome": {

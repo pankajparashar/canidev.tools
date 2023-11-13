@@ -3,7 +3,7 @@
   "Slug": "inspect-css-flexbox",
   "Description": "Can I inspect CSS flexbox?",
   "Category": "CSS",
-  "LastModifiedTime": "2022-07-06T07:04:37.000Z",
+  
   "Authors": "@pankajparashar",
   "Chrome": {
     "References": "[1] \"Inspect and Debug CSS Flexbox layouts\" - [Chrome Developers](https://developer.chrome.com/docs/devtools/css/flexbox/)\n",

@@ -4,7 +4,7 @@
     "Description": "Can I filter network requests by domain name?",
     "Category": "Network",
     "Newsletter": "tips-tricks-17",
-    "LastModifiedTime": "2022-09-21T09:12:05.000Z",
+    
     "Authors": "@pankajparashar",
     "Chrome": {
         "Share": "https://twitter.com/CanIDevTools/status/1572513134426071042",

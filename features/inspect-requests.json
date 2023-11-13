@@ -3,7 +3,7 @@
   "Slug": "inspect-requests",
   "Description": "Can I inspect Network requests?",
   "Category": "Network",
-  "LastModifiedTime": "2022-09-14T14:30:52.000Z",
+  
   "Authors": "@pankajparashar",
   "Chrome": {
     "Notes": "1. Open devtools > Click on the Network panel (This will show a section containing table of network requests).\n"

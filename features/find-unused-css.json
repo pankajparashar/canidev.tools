@@ -3,7 +3,7 @@
   "Slug": "find-unused-css",
   "Description": "Can I find unused styles on a web page?",
   "Category": "CSS",
-  "LastModifiedTime": "2022-07-09T09:02:38.000Z",
+  
   "Authors": "@pankajparashar",
   "Chrome": {
     "Notes": "1. Launch Devtools > Open Command Menu using \"Cmd+Shift+P\" (on Mac) or \"Ctrl+Shift+P\" (on Windows/Linus/Chrome OS).\n2. Search for \"Show Coverage\" (this will open the Coverage drawer next to the Console).\n3. Click the \"Reload\" button to see the unused styles per CSS file. \n"

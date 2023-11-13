@@ -3,7 +3,7 @@
     "Slug": "emulate-devices",
     "Description": "Can I emulate devices to test responsiveness of a page?",
     "Category": "Elements",
-    "LastModifiedTime": "2022-07-09T09:11:51.000Z",
+    
     "Authors": ["@pankajparashar", "@kilianvalkhof"],
     "Chrome": {
         "Share": "https://twitter.com/CanIDevTools/status/1533823550389637120",

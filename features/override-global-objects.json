@@ -3,7 +3,7 @@
   "Slug": "override-global-objects",
   "Description": "Can I override global objects on page load before other scripts run?",
   "Category": "JavaScript",
-  "LastModifiedTime": "2023-01-13T21:51:53.000Z",
+  
   "Authors": "@pankajparashar",
   "Safari": {
     "Notes": "1. In the **Sources** panel, click **Add** **Resource** (+) button in the bottom of the left sidebar > select \"Inspector Bootstrap Script\".\n2. Add the code snippet to override the behaviour of the global objects that is guaranteed to run before any other code.\n"

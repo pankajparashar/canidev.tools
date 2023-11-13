@@ -3,7 +3,7 @@
     "Slug": "show-url-path",
     "Description": "Can I see full URL path of the network requests?",
     "Category": "Network",
-    "LastModifiedTime": "2023-05-21T07:19:44.000Z",
+    
     "Authors": "@pankajparashar",
     "Chrome": {
         "Share": "https://twitter.com/CanIDevTools/status/1660180782793609222",

@@ -4,7 +4,7 @@
     "Description": "Can I emulate blurred vision on a page?",
     "Category": "Accessibility",
     "Newsletter": "tips-tricks-3",
-    "LastModifiedTime": "2023-03-14T14:18:45.000Z",
+    
     "Authors": ["@pankajparashar", "@kilianvalkhof"],
     "Chrome": {
         "Share": "https://twitter.com/CanIDevTools/status/1637145317995937793",

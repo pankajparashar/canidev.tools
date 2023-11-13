@@ -4,7 +4,7 @@
     "Description": "Can I block all network request matching a URL pattern?",
     "Category": "Network",
     "Newsletter": "tips-tricks-29",
-    "LastModifiedTime": "2022-10-18T13:18:56.000Z",
+    
     "Authors": "@pankajparashar",
     "Chrome": {
         "Share": "https://twitter.com/CanIDevTools/status/1582354903963299840",

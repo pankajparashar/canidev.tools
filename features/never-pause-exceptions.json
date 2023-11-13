@@ -4,7 +4,7 @@
     "Description": "Can I prevent the debugger from pausing at exceptions?",
     "Category": "Sources",
     "Newsletter": "tips-tricks-39",
-    "LastModifiedTime": "2023-02-10T04:17:31.000Z",
+    
     "Authors": "@pankajparashar",
     "Chrome": {
         "Share": "https://twitter.com/CanIDevTools/status/1623894836331028483",

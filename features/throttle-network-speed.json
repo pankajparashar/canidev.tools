@@ -3,7 +3,7 @@
   "Slug": "throttle-network-speed",
   "Description": "Can I throttle network speed to simulate slower network connections like 2G, 3G etc.,?",
   "Category": "Network",
-  "LastModifiedTime": "2022-10-03T15:04:56.000Z",
+  
   "Authors": ["@pankajparashar", "@kilianvalkhof"],
   "Related": ["throttle-cpu-speed"],
   "Chrome": {

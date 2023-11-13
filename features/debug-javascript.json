@@ -3,7 +3,7 @@
   "Slug": "debug-javascript",
   "Description": "Can I debug JavaScript using devtools?",
   "Category": "Sources",
-  "LastModifiedTime": "2022-10-21T15:28:35.000Z",
+  
   "Authors": "@pankajparashar",
   "Chrome": {
     "References": "[1] \"Debug JavaScript\", by Chrome DevTools [Docs](https://developer.chrome.com/docs/devtools/javascript/)\n",

@@ -3,7 +3,7 @@
     "Slug": "view-cascade-layers",
     "Description": "Can I inspect CSS cascade layers?",
     "Category": "CSS",
-    "LastModifiedTime": "2022-07-09T09:04:05.000Z",
+    
     "Authors": ["@pankajparashar", "@kilianvalkhof"],
     "Chrome": {
         "Share": "https://twitter.com/CanIDevTools/status/1535572218855448577",

@@ -3,7 +3,7 @@
   "Slug": "extend-devtools-ui",
   "Description": "Can I extend DevTools to customise UI?",
   "Category": "Other",
-  "LastModifiedTime": "2023-01-05T17:11:02.000Z",
+  
   "Authors": "@pankajparashar",
   "Chrome": {
     "References": "1. Extending Chrome DevTools, by [Chrome Developers](https://developer.chrome.com/docs/extensions/mv3/devtools/).\n",

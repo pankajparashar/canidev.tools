@@ -3,7 +3,7 @@
   "Slug": "inspect-css-grid",
   "Description": "Can I inspect CSS grid?",
   "Category": "CSS",
-  "LastModifiedTime": "2022-07-09T09:03:31.000Z",
+  
   "Authors": "@pankajparashar",
   "Chrome": {
     "References": "[1] \"Inspect CSS Grid\" - [Chrome Developers](https://developer.chrome.com/docs/devtools/css/grid/)\n",

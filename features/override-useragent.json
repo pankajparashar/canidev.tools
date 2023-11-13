@@ -3,7 +3,7 @@
     "Slug": "override-useragent",
     "Description": "Can I override the user agent to emulate different profiles?",
     "Category": "Network",
-    "LastModifiedTime": "2022-07-19T14:26:55.000Z",
+    
     "Authors": ["@pankajparashar", "@kilianvalkhof"],
     "Chrome": {
         "Share": "https://twitter.com/CanIDevTools/status/1549716753059483653",

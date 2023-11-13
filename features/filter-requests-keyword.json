@@ -3,7 +3,7 @@
   "Slug": "filter-requests-keyword",
   "Description": "Can I filter requests in the Network tab with a keyword?",
   "Category": "Network",
-  "LastModifiedTime": "2022-07-09T09:08:17.000Z",
+  
   "Authors": "@pankajparashar",
   "Chrome": {
     "Share": "https://twitter.com/CanIDevTools/status/1535512330456408065",

@@ -3,7 +3,7 @@
     "Slug": "select-elements",
     "Description": "Can I select one or more elements from the console?",
     "Category": "Console",
-    "LastModifiedTime": "2022-07-31T07:00:37.000Z",
+    
     "Authors": ["@pankajparashar", "@kilianvalkhof"],
     "Chrome": {
         "References": "Console Utilities - Chrome DevTools [Docs](https://developer.chrome.com/docs/devtools/console/utilities/#recent-many)\n",

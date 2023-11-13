@@ -3,7 +3,7 @@
     "Slug": "find-in-files",
     "Description": "Can I find in files for a specific keyword?",
     "Category": "Sources",
-    "LastModifiedTime": "2022-08-22T04:45:56.000Z",
+    
     "Authors": "@pankajparashar",
     "Chrome": {
         "References": "[1] \"Search: Find text..\", by Chrome DevTools [Docs](https://developer.chrome.com/docs/devtools/search/)\n",

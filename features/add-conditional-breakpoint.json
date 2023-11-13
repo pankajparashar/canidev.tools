@@ -4,7 +4,7 @@
     "Description": "Can I set a conditional breakpoint while debugging code?",
     "Category": "Sources",
     "Newsletter": "tips-tricks-32",
-    "LastModifiedTime": "2022-10-24T10:39:06.000Z",
+    
     "Authors": "@pankajparashar",
     "Chrome": {
         "Share": "https://twitter.com/CanIDevTools/status/1584450115083075584",

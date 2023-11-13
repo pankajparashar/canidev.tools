@@ -4,7 +4,7 @@
     "Description": "Can I capture node creation stack trace?",
     "Category": "Elements",
     "Newsletter": "tips-tricks-40",
-    "LastModifiedTime": "2023-03-01T22:01:11.000Z",
+    
     "Authors": "@pankajparashar",
     "Chrome": {
         "Share": "https://twitter.com/CanIDevTools/status/1627347721186312194",
