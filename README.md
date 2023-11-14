@@ -675,6 +675,13 @@ Can I debug unwanted scrollbars?
 1. Press `Cmd/Ctrl+D` to turn on layout debugging. Elements causing a scrollbar are marked in red.
 
 
+## Debug speculation rules
+Can I debug speculation rules for prefetch/prerender next page navigations?
+
+[Chrome](https://canidev.tools/debug-speculation-rules/chrome): 
+1. In the **Network** panel, prefetched resources have the **Type** as `prefetch` and the Request Headers will contain the header `Sec-Purpose: prefetch` which is used to identify such requests on the server-side.
+2. In the **Application** panel, under the **Preloading** section, which has three panes: (1) **Speculation Rules**: list the rulesets on the page. (2) **Preloads**: list the prefetched & prerendered URLs from the rulesets. (3) **This Page**: lists the prerendered status of the current page.
+
 ## Debug subtree change
 Can I debug by setting a breakpoint when the subtree of the node changes?
 
