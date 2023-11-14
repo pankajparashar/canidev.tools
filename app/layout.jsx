@@ -13,84 +13,80 @@ import { AppLayout } from "../components/app-layout";
 import { DataProvider } from "../components/data-provider";
 
 export const metadata = {
+  title: "Can I DevTools?",
+  description:
+    "It is like @CanIUse, but for the browser devtools, created by Pankaj Parashar and curated by community.",
+  metadataBase: new URL("https://canidev.tools"),
+  twitter: {
+    card: "summary_large_image",
     title: "Can I DevTools?",
     description:
-        "It is like @CanIUse, but for the browser devtools, created by Pankaj Parashar and curated by community.",
-    metadataBase: new URL("https://canidev.tools"),
-    twitter: {
-        card: "summary_large_image",
-        title: "Can I DevTools?",
-        description:
-            "It is like @CanIUse, but for the browser devtools, created by Pankaj Parashar and curated by community.",
-        creator: "@CanIDevTools",
-        site: "canidev.tools",
-    },
-    openGraph: {
-        title: "Can I DevTools?",
-        description:
-            "It is like @CanIUse, but for the browser devtools, created by Pankaj Parashar and curated by community.",
-        url: "https://canidev.tools",
-        type: "website",
-    },
+      "It is like @CanIUse, but for the browser devtools, created by Pankaj Parashar and curated by community.",
+    creator: "@CanIDevTools",
+    site: "canidev.tools",
+  },
+  openGraph: {
+    title: "Can I DevTools?",
+    description:
+      "It is like @CanIUse, but for the browser devtools, created by Pankaj Parashar and curated by community.",
+    url: "https://canidev.tools",
+    type: "website",
+  },
 };
 
 export default async function RootLayout({ children }) {
-    const categories = {};
-    const features = [];
+  const categories = {};
+  const features = [];
 
-    fs.readdirSync("features").forEach((filename) => {
-        const filepath = path.join("features", filename);
-        const fileobj = fs.readFileSync(filepath);
-        const mtime = fs.statSync(filepath).mtime;
+  fs.readdirSync("features").forEach((filename) => {
+    const filepath = path.join("features", filename);
+    const fileobj = fs.readFileSync(filepath);
+    const mtime = fs.statSync(filepath).mtime;
 
-        const feature = JSON.parse(fileobj);
-        feature.LastModifiedTime = mtime.toLocaleDateString();
-        features.push(feature);
+    const feature = JSON.parse(fileobj);
+    feature.LastModifiedTime = mtime.toLocaleDateString();
+    feature.Slug = path.basename(filename, ".json");
+    features.push(feature);
 
-        const category = feature.Category;
-        categories[category] =
-            category in categories ? categories[category] + 1 : 1;
-    });
+    const category = feature.Category;
+    categories[category] =
+      category in categories ? categories[category] + 1 : 1;
+  });
 
-    const theme = {
-        fontFamily: "ui-monospace",
-        fontFamilyMonospace: "ui-monospace",
-        primaryColor: "dark",
-        defaultRadius: 0,
-        breakpoints: {
-            sm: "700px",
-            md: "1150px",
-        },
-    };
+  const theme = {
+    fontFamily: "ui-monospace",
+    fontFamilyMonospace: "ui-monospace",
+    primaryColor: "dark",
+    defaultRadius: 0,
+    breakpoints: {
+      sm: "700px",
+      md: "1150px",
+    },
+  };
 
-    return (
-        <html lang="en">
-            <head>
-                <meta
-                    name="viewport"
-                    content="width=device-width, maximum-scale=1"
-                />
-                <link rel="icon" href="/favicon.ico" sizes="any" />
-                <link
-                    rel="apple-touch-icon"
-                    href="/apple-icon?<generated>"
-                    type="image/<generated>"
-                    sizes="<generated>"
-                />
-                <meta name="theme-color" content="#000000" />
+  return (
+    <html lang="en">
+      <head>
+        <meta name="viewport" content="width=device-width, maximum-scale=1" />
+        <link rel="icon" href="/favicon.ico" sizes="any" />
+        <link
+          rel="apple-touch-icon"
+          href="/apple-icon?<generated>"
+          type="image/<generated>"
+          sizes="<generated>"
+        />
+        <meta name="theme-color" content="#000000" />
 
-                <ColorSchemeScript />
-            </head>
-            <body>
-                <MantineProvider theme={theme} defaultColorScheme="auto">
-                    <DataProvider features={features} categories={categories}>
-                        <AppLayout categories={categories}>
-                            {children}
-                        </AppLayout>
-                    </DataProvider>
-                </MantineProvider>
-                <Analytics />
-            </body>
-        </html>
-    );
+        <ColorSchemeScript />
+      </head>
+      <body>
+        <MantineProvider theme={theme} defaultColorScheme="auto">
+          <DataProvider features={features} categories={categories}>
+            <AppLayout categories={categories}>{children}</AppLayout>
+          </DataProvider>
+        </MantineProvider>
+        <Analytics />
+      </body>
+    </html>
+  );
 }
