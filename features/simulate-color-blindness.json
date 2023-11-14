@@ -6,6 +6,7 @@
   "Authors": ["@pankajparashar"],
 
   "Polypane": {
+    "Share": "https://twitter.com/CanIDevTools/status/1724508437047050428",
     "Video": "https://res.cloudinary.com/canidevtools/video/upload/l_watermark,w_100,o_10/simulate-color-blindness-polypane.mp4",
     "Image": "https://res.cloudinary.com/canidevtools/image/upload/l_watermark,w_100,o_10/simulate-color-blindness-polypane.png",
     "Version": "16",
