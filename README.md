@@ -2488,7 +2488,9 @@ Can I see full URL path of the network requests?
 Can I simulate different color blindness conditions to test my web page?
 
 [Polypane](https://canidev.tools/simulate-color-blindness/polypane): 
+1. Click the **Debug tools** icon to open the list of available debug tools. Switch to the **Simulators** tab to find various color blindness conditions like, **Red-green**, **Blue-yellow**, and **Full** color blindness. Toggle the conditions to simulate the deficiency on the page.
 
+![](https://res.cloudinary.com/canidevtools/image/upload/l_watermark,w_100,o_10/simulate-color-blindness-polypane.png)
 
 ## Simulate device orientation
 Can I simulate device orientation to mock built-in accelerometer, gyroscope & compass?
