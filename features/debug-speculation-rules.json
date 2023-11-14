@@ -1,0 +1,19 @@
+{
+  "Name": "Debug speculation rules",
+  "Description": "Can I debug speculation rules for prefetch/prerender next page navigations?",
+  "Slug": "debug-speculation-rules",
+
+  "Category": "Network",
+  "Authors": ["@pankajparashar"],
+
+  "Chrome": {
+    "Notes": [
+      "1. In the **Network** panel, prefetched resources have the **Type** as `prefetch` and the Request Headers will contain the header `Sec-Purpose: prefetch` which is used to identify such requests on the server-side.",
+      "2. In the **Application** panel, under the **Preloading** section, which has three panes: (1) **Speculation Rules**: list the rulesets on the page. (2) **Preloads**: list the prefetched & prerendered URLs from the rulesets. (3) **This Page**: lists the prerendered status of the current page."
+    ],
+    "References": [
+      "1. Debug Speculation Rules, [Chrome Developers Blog](https://developer.chrome.com/blog/debugging-speculation-rules/)",
+      "2. Prerender pages in Chrome for instant page navigations, [Chrome Developers Blog](https://developer.chrome.com/blog/prerender-pages/)"
+    ]
+  }
+}
