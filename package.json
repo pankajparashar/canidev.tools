@@ -9,9 +9,9 @@
         "lint": "next lint"
     },
     "dependencies": {
-        "@mantine/carousel": "^7.2.1",
-        "@mantine/core": "7.2.1",
-        "@mantine/hooks": "7.2.1",
+        "@mantine/carousel": "7.2.2",
+        "@mantine/core": "7.2.2",
+        "@mantine/hooks": "7.2.2",
         "@tabler/icons-react": "2.40.0",
         "@vercel/analytics": "^1.1.0",
         "embla-carousel-react": "^7.1.0",
