@@ -1,6 +1,6 @@
 {
     "Name": "Never pause at exceptions",
-    "Slug": "never-pause-exceptions",
+
     "Description": "Can I prevent the debugger from pausing at exceptions?",
     "Category": "Sources",
     "Newsletter": "tips-tricks-39",

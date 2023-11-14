@@ -1,7 +1,7 @@
 {
 	"Name": "Inspect @scope rules",
 	"Description": "Can I inspect the CSS @scope at-rules and the scoping root element?",
-	"Slug": "inspect-scope-at-rules",
+
 	
 	"Category": "CSS",
 	"Authors": ["@pankajparashar"],

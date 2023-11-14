@@ -1,6 +1,6 @@
 {
   "Name": "Locate styles in source",
-  "Slug": "locate-styles-source",
+
   "Description": "Can I trace style declarations in the original source file?",
   "Category": "CSS",
   

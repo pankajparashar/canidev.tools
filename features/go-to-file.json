@@ -1,6 +1,6 @@
 {
     "Name": "Go to file",
-    "Slug": "go-to-file",
+
     "Description": "Can I jump to a file by searching with a filename?",
     "Category": "Sources",
     

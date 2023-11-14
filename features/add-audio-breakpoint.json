@@ -1,6 +1,6 @@
 {
     "Name": "Add audio breakpoint",
-    "Slug": "add-audio-breakpoint",
+
     "Description": "Can I add an audio breakpoint for debugging the source code?",
     "Category": "Sources",
     "Newsletter": "tips-tricks-21",

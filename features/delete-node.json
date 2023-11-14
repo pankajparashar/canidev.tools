@@ -1,6 +1,6 @@
 {
     "Name": "Delete node",
-    "Slug": "delete-node",
+
     "Description": "Can I delete a node from the DOM tree?",
     "Category": "Elements",
 

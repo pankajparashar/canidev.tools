@@ -1,6 +1,6 @@
 {
     "Name": "Scroll node into view",
-    "Slug": "scroll-node-into-view",
+
     "Description": "Can I scroll a DOM node into the viewport?",
     "Category": "Elements",
 

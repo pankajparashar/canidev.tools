@@ -1,7 +1,7 @@
 {
 	"Name": "Preview social media cards",
 	"Description": "Can I preview the social media cards for websites like Facebook, X etc",
-	"Slug": "preview-social-media-cards",
+
 	
 	"Category": "Other",
 	"Authors": ["@pankajparashar", "@kilianvalkhof"],

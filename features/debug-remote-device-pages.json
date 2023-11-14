@@ -1,7 +1,7 @@
 {
   "Name": "Debug remote device pages",
   "Description": "Can I debug websites on remote devices?",
-  "Slug": "debug-remote-device-pages",
+
   "Category": "Other",
   "Authors": "@pankajparashar",
   "Safari": {

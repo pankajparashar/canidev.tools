@@ -1,6 +1,6 @@
 {
     "Name": "Ignore scripts while debugging",
-    "Slug": "ignore-scripts-debug",
+
     "Description": "Can I ignore scripts while debugging?",
     "Category": "Sources",
     "Newsletter": "tips-tricks-42",

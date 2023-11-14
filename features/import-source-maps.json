@@ -1,7 +1,7 @@
 {
 	"Name": "Import source maps",
 	"Description": "Can I import source maps manually to debug production code?",
-	"Slug": "import-source-maps",
+
 	
 	"Category": "Sources",
 	"Authors": ["@pankajparashar"],

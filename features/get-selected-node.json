@@ -1,6 +1,6 @@
 {
     "Name": "Get selected node",
-    "Slug": "get-selected-node",
+
     "Description": "Can I refer the currently selected node in the DOM tree from the console?",
     "Category": "Console",
     "Newsletter": "tips-tricks-16",

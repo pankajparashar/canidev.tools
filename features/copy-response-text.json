@@ -1,6 +1,6 @@
 {
     "Name": "Copy response text",
-    "Slug": "copy-response-text",
+
     "Description": "Can I copy the response object as text?",
     "Category": "Network",
 

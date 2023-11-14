@@ -1,6 +1,6 @@
 {
     "Name": "Find broken links",
-    "Slug": "find-broken-links",
+
     "Description": "Can I find links on a page that return Error 404, 500?",
     "Category": "Other",
 

@@ -1,6 +1,6 @@
 {
     "Name": "Copy as PowerShell",
-    "Slug": "copy-as-powershell",
+
     "Description": "Can I copy the request as a powershell script?",
     "Category": "Network",
 

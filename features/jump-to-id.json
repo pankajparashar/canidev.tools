@@ -1,6 +1,6 @@
 {
     "Name": "Jump to Id",
-    "Slug": "jump-to-id",
+
     "Description": "Can I jump to the target element with an id from the source element?",
     "Category": "Elements",
     "Newsletter": "tips-tricks-36",

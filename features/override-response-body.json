@@ -1,7 +1,7 @@
 {
   "Name": "Override response body",
   "Description": "Can I override the body of a network request?",
-  "Slug": "override-response-body",
+
 
   "Category": "Network",
   "Authors": ["@pankajparashar"],

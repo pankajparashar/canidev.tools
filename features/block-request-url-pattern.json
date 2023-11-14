@@ -1,6 +1,6 @@
 {
     "Name": "Block request by URL pattern",
-    "Slug": "block-request-url-pattern",
+
     "Description": "Can I block all network request matching a URL pattern?",
     "Category": "Network",
     "Newsletter": "tips-tricks-29",

@@ -1,7 +1,7 @@
 {
 	"Name": "Disable local fonts",
 	"Description": "Can I disable local fonts to validate @font-face rules?",
-	"Slug": "disable-local-fonts",
+
 	"Category": "CSS",
 	"Authors": ["@pankajparashar"],
 	

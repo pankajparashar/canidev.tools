@@ -1,6 +1,6 @@
 {
     "Name": "Debug Event Listeners",
-    "Slug": "debug-event-listeners",
+
     "Description": "Can I debug event listeners by setting a breakpoint on all or specific events?",
     "Category": "Sources",
     

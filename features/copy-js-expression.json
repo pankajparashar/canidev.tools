@@ -1,6 +1,6 @@
 {
     "Name": "Copy as JS expression",
-    "Slug": "copy-js-expression",
+
     "Description": "Can I copy a node's path to be used as a JavaScript expression?",
     "Category": "Elements",
     

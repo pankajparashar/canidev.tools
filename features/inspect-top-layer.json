@@ -1,6 +1,6 @@
 {
     "Name": "Inspect top layer",
-    "Slug": "inspect-top-layer",
+
     "Description": "Can I inspect the top layer elements like dialog, popover etc?",
     "Category": "Elements",
     "Newsletter": "tips-tricks-35",

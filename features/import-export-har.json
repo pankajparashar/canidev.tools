@@ -1,6 +1,6 @@
 {
     "Name": "Import & Export HAR file",
-    "Slug": "import-export-har",
+
     "Description": "Can I import and export network activity to a HAR file?",
     "Category": "Network",
     "Newsletter": "tips-tricks-30",

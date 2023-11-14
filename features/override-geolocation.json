@@ -1,6 +1,6 @@
 {
     "Name": "Override geolocation",
-    "Slug": "override-geolocation",
+
     "Description": "Can I override location to match a different geographic region?",
     "Category": "Network",
     "Newsletter": "tips-tricks-14",

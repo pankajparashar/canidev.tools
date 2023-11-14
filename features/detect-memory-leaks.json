@@ -1,6 +1,6 @@
 {
     "Name": "Detect memory leaks",
-    "Slug": "detect-memory-leaks",
+
     "Description": "Can I detect memory leaks in my web app using devtools?",
     "Category": "JavaScript",
 

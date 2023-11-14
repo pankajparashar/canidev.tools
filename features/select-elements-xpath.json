@@ -1,6 +1,6 @@
 {
     "Name": "Select elements with XPath",
-    "Slug": "select-elements-xpath",
+
     "Description": "Can I select one or more elements using XPath expression?",
     "Category": "Console",
     

@@ -1,6 +1,6 @@
 {
     "Name": "Show URL path",
-    "Slug": "show-url-path",
+
     "Description": "Can I see full URL path of the network requests?",
     "Category": "Network",
     

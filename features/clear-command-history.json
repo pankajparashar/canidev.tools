@@ -1,6 +1,6 @@
 {
     "Name": "Clear command history",
-    "Slug": "clear-command-history",
+
     "Description": "Can I clear the command history of the console?",
     "Category": "Console",
     "Newsletter": "tips-tricks-9",

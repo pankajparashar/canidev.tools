@@ -1,6 +1,6 @@
 {
     "Name": "Find expensive CSS selectors",
-    "Slug": "find-expensive-selectors",
+
     "Description": "Can I find expensive CSS selectors?",
     "Category": "CSS",
     "Newsletter": "tips-tricks-38",

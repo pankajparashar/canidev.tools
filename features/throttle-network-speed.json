@@ -1,6 +1,6 @@
 {
   "Name": "Throttle network speed",
-  "Slug": "throttle-network-speed",
+
   "Description": "Can I throttle network speed to simulate slower network connections like 2G, 3G etc.,?",
   "Category": "Network",
   

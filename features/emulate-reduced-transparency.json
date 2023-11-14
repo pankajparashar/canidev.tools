@@ -1,7 +1,7 @@
 {
 	"Name": "Emulate reduced transparency",
 	"Description": "Can I emulate reduced transparency CSS media feature?",
-	"Slug": "emulate-reduced-transparency",
+
 	
 	"Category": "CSS",
 	"Authors": ["@pankajparashar"],

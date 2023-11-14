@@ -1,6 +1,6 @@
 {
     "Name": "Copy as Fetch",
-    "Slug": "copy-as-fetch",
+
     "Description": "Can I copy the request as window.fetch()?",
     "Category": "Network",
 

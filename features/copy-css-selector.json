@@ -1,6 +1,6 @@
 {
     "Name": "Copy as CSS selector",
-    "Slug": "copy-css-selector",
+
     "Description": "Can I copy a node's path as a CSS selector?",
     "Category": "Elements",
     

@@ -1,6 +1,6 @@
 {
   "Name": "Preserve console logs",
-  "Slug": "preserve-console-logs",
+
   "Description": "Can I preserve console logs across page reloads?",
   "Category": "Console",
   

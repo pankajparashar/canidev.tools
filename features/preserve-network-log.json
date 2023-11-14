@@ -1,6 +1,6 @@
 {
     "Name": "Preserve network log",
-    "Slug": "preserve-network-log",
+
     "Description": "Can I preserve network log on page reloads?",
     "Category": "Network",
 

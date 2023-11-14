@@ -1,7 +1,7 @@
 {
 	"Name": "Deactivate breakpoints",
 	"Description": "Can I temporarily deactivate breakpoints while debugging source code?",
-	"Slug": "deactivate-breakpoints",
+
 
 	"Category": "Sources",
 	"Authors": ["@pankajparashar"],

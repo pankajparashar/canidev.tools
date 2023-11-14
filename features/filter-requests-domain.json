@@ -1,6 +1,6 @@
 {
     "Name": "Filter requests by domain",
-    "Slug": "filter-requests-domain",
+
     "Description": "Can I filter network requests by domain name?",
     "Category": "Network",
     "Newsletter": "tips-tricks-17",

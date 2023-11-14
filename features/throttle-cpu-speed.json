@@ -1,6 +1,6 @@
 {
   "Name": "Throttle CPU speed",
-  "Slug": "throttle-cpu-speed",
+
   "Description": "Can I throttle CPU speed to simulate slower machines?",
   "Category": "Audit",
   

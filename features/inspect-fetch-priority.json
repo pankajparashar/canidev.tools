@@ -1,7 +1,7 @@
 {
 	"Name": "Inspect fetch priority",
 	"Description": "Can I inspect the fetchpriority applied to the resources?",
-	"Slug": "inspect-fetch-priority",
+
 	
 	"Category": "Network",
 	"Authors": ["@pankajparashar"],

@@ -1,6 +1,6 @@
 {
     "Name": "Filter blocked cookies requests",
-    "Slug": "filter-blocked-cookies-requests",
+
     "Description": "Can I filter network requests with blocked response cookies?",
     "Category": "Network",
 

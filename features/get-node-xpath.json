@@ -1,6 +1,6 @@
 {
     "Name": "Get node XPath",
-    "Slug": "get-node-xpath",
+
     "Description": "Can I get the xpath of a node in the DOM tree?",
     "Category": "Elements",
     "Newsletter": "tips-tricks-4",

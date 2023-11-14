@@ -1,6 +1,6 @@
 {
     "Name": "Open Console with keyboard",
-    "Slug": "open-console-keyboard",
+
     "Description": "Can I open the console using the keyboard?",
     "Category": "Console",
     "Authors": ["@pankajparashar", "@kilianvalkhof"],

@@ -1,6 +1,6 @@
 {
     "Name": "Block request domain",
-    "Slug": "block-request-domain",
+
     "Description": "Can I block all network requests of a domain?",
     "Category": "Network",
     "Newsletter": "tips-tricks-27",

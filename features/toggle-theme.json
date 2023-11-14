@@ -1,6 +1,6 @@
 {
     "Name": "Toggle light & dark theme",
-    "Slug": "toggle-theme",
+
     "Description": "Can I switch to light or dark theme in devtools?",
     "Category": "Other",
     "Newsletter": "tips-tricks-8",

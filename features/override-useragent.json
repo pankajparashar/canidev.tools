@@ -1,6 +1,6 @@
 {
     "Name": "Override user agent",
-    "Slug": "override-useragent",
+
     "Description": "Can I override the user agent to emulate different profiles?",
     "Category": "Network",
     

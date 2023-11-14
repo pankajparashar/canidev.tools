@@ -1,6 +1,6 @@
 {
   "Name": "Debug subtree change",
-  "Slug": "debug-subtree-change",
+
   "Description": "Can I debug by setting a breakpoint when the subtree of the node changes?",
   "Category": "Elements",
 

@@ -1,7 +1,7 @@
 {
   "Name": "Simulate color blindness",
   "Description": "Can I simulate different color blindness conditions to test my web page?",
-  "Slug": "simulate-color-blindness",
+
 
   "Category": "CSS",
   "Authors": ["@pankajparashar"],

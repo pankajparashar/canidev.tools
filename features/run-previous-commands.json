@@ -1,6 +1,6 @@
 {
   "Name": "Run previous commands",
-  "Slug": "run-previous-commands",
+
   "Description": "Can I run the previously executed commands in the console?",
   "Category": "Console",
   

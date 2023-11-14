@@ -1,6 +1,6 @@
 {
   "Name": "Debug node removal",
-  "Slug": "debug-node-removal",
+
   "Description": "Can I debug by setting a breakpoint when the node is removed from the DOM?",
   "Category": "Elements",
 

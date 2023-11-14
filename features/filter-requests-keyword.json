@@ -1,6 +1,6 @@
 {
   "Name": "Filter requests by keyword",
-  "Slug": "filter-requests-keyword",
+
   "Description": "Can I filter requests in the Network tab with a keyword?",
   "Category": "Network",
   

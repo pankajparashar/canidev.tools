@@ -1,6 +1,6 @@
 {
     "Name": "Duplicate node",
-    "Slug": "duplicate-node",
+
     "Description": "Can I duplicate a node in the DOM tree?",
     "Category": "Elements",
 

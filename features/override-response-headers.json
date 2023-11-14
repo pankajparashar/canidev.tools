@@ -1,6 +1,6 @@
 {
     "Name": "Override response headers",
-    "Slug": "override-response-headers",
+
     "Description": "Can I override headers of the network response?",
     "Category": "Network",
 

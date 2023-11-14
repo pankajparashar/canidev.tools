@@ -1,6 +1,6 @@
 {
     "Name": "Ignore extension scripts",
-    "Slug": "ignore-extension-scripts",
+
     "Description": "Can I ignore extention scripts while debugging?",
     "Category": "JavaScript",
     

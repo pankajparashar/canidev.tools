@@ -1,6 +1,6 @@
 {
     "Name": "Get last evaluated value",
-    "Slug": "get-last-value",
+
     "Description": "Can I get the last evaluated value in the console?",
     "Category": "Console",
     "Newsletter": "tips-tricks-7",

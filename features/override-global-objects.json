@@ -1,6 +1,6 @@
 {
   "Name": "Override global objects",
-  "Slug": "override-global-objects",
+
   "Description": "Can I override global objects on page load before other scripts run?",
   "Category": "JavaScript",
   

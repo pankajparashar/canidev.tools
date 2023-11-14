@@ -1,7 +1,7 @@
 {
   "Name": "Debug speculation rules",
   "Description": "Can I debug speculation rules for prefetch/prerender next page navigations?",
-  "Slug": "debug-speculation-rules",
+
 
   "Category": "Network",
   "Authors": ["@pankajparashar"],

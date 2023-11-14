@@ -1,6 +1,6 @@
 {
   "Name": "Copy cURL request",
-  "Slug": "copy-as-curl",
+
   "Description": "Can I copy a network request as cURL?",
   "Category": "Network",
   

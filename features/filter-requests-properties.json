@@ -1,6 +1,6 @@
 {
   "Name": "Filter requests by properties",
-  "Slug": "filter-requests-properties",
+
   "Description": "Can I filter requests in the Network tab using specific properties?",
   "Category": "Network",
   

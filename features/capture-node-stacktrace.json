@@ -1,6 +1,6 @@
 {
     "Name": "Capture node stacktrace",
-    "Slug": "capture-node-stacktrace",
+
     "Description": "Can I capture node creation stack trace?",
     "Category": "Elements",
     "Newsletter": "tips-tricks-40",

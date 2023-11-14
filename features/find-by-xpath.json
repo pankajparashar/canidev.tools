@@ -1,6 +1,6 @@
 {
   "Name": "Find by XPath",
-  "Slug": "find-by-xpath",
+
   "Description": "Can I find elements in the DOM tree using xpath?",
   "Category": "Elements",
   

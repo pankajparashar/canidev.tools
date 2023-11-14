@@ -1,7 +1,7 @@
 {
   "Name": "Get viewport size",
   "Description": "Can I get the viewport size?",
-  "Slug": "get-viewport-size",
+
   "Category": "CSS",
 
   "Authors": ["@pankajparashar"],

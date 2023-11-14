@@ -1,6 +1,6 @@
 {
   "Name": "Simulate device orientation",
-  "Slug": "simulate-device-orientation",
+
   "Description": "Can I simulate device orientation to mock built-in accelerometer, gyroscope & compass?",
   "Category": "Accessibility",
   

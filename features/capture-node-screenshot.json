@@ -1,6 +1,6 @@
 {
     "Name": "Capture node screenshot",
-    "Slug": "capture-node-screenshot",
+
     "Description": "Can I take screenshot of a DOM node?",
     "Category": "Elements",
     "Newsletter": "tips-tricks-37",

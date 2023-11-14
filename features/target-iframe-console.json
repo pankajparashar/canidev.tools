@@ -1,6 +1,6 @@
 {
     "Name": "Target iframe in console",
-    "Slug": "target-iframe-console",
+
     "Description": "Can I target iframes while debugging from the Console panel?",
     "Category": "Console",
 

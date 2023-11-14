@@ -1,6 +1,6 @@
 {
     "Name": "Display FPS on page",
-    "Slug": "display-fps",
+
     "Description": "Can I display the current frames per second (FPS) of the page?",
     "Category": "Performance",
 

@@ -1,6 +1,6 @@
 {
     "Name": "Block request URL",
-    "Slug": "block-request-by-url",
+
     "Description": "Can I block a network request?",
     "Category": "Network",
     "Newsletter": "tips-tricks-5",

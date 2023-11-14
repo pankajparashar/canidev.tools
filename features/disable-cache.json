@@ -1,6 +1,6 @@
 {
   "Name": "Disable cache",
-  "Slug": "disable-cache",
+
   "Description": "Can I disable cache for the network requests?",
   "Category": "Network",
   

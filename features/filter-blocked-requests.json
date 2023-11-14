@@ -1,6 +1,6 @@
 {
     "Name": "Filter blocked requests",
-    "Slug": "filter-blocked-requests",
+
     "Description": "Can I filter blocked network requests?",
     "Category": "Network",
 

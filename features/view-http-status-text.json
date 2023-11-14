@@ -1,7 +1,7 @@
 {
 	"Name": "View HTTP Status Text",
 	"Description": "Can I view the human readable text of the HTTP status codes?",
-	"Slug": "view-http-status-text",
+
 	
 	"Category": "Network",
 	"Authors": ["@pankajparashar"],

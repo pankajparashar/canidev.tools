@@ -1,6 +1,6 @@
 {
     "Name": "Find unused JavaScript",
-    "Slug": "find-unused-js",
+
     "Description": "Can I find unused JavaScript code on the page?",
     "Category": "JavaScript",
     
