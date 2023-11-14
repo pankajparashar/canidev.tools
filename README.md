@@ -2484,6 +2484,12 @@ Can I see full URL path of the network requests?
 1. In the **Network** panel, right click on the column header, and select "Path" to add a new column showing the URL path for the resource.
 
 
+## Simulate color blindness
+Can I simulate different color blindness conditions to test my web page?
+
+[Polypane](https://canidev.tools/simulate-color-blindness/polypane): 
+
+
 ## Simulate device orientation
 Can I simulate device orientation to mock built-in accelerometer, gyroscope & compass?
 
