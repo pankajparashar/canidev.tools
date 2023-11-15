@@ -8,15 +8,17 @@ import {
   Alert,
   Group,
   ActionIcon,
+  Badge,
+  Button,
   ScrollArea,
   Accordion,
   Box,
   Text,
   Tooltip,
   Divider,
-  Badge,
 } from "@mantine/core";
 import {
+  IconExternalLink,
   IconMessage2Share,
   IconBrandYoutube,
   IconNotes,
@@ -59,16 +61,20 @@ export default function Page({ params }) {
           <Accordion.Control icon={<IconBrandYoutube stroke={1} />}>
             <Group justify="space-between" pr="sm">
               <Text fw={700}>Video</Text>
-              <Tooltip label="Share" position="left" withArrow>
-                <ActionIcon
-                  variant="subtle"
-                  component="a"
-                  href={browser.Share}
-                  target="_blank"
-                >
-                  <IconMessage2Share size={20} color="gray" stroke={1.5} />
-                </ActionIcon>
-              </Tooltip>
+              <Badge
+                color="gray"
+                size="lg"
+                component="a"
+                href={browser.Share}
+                target="_blank"
+                styles={{
+                  label: {
+                    textTransform: "capitalize",
+                  },
+                }}
+              >
+                Share
+              </Badge>
             </Group>
           </Accordion.Control>
           <Accordion.Panel p="0">
@@ -92,7 +98,15 @@ export default function Page({ params }) {
             <Group justify="space-between" pr="sm">
               <Text fw={700}>Notes</Text>
               {browser.Version ? (
-                <Text c="dimmed">{`v${browser.Version}+`}</Text>
+                <Badge
+                  color="gray"
+                  size="lg"
+                  styles={{
+                    label: {
+                      textTransform: "lowercase",
+                    },
+                  }}
+                >{`v${browser.Version}+`}</Badge>
               ) : (
                 ""
               )}
