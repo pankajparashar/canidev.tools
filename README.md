@@ -1646,13 +1646,25 @@ Can I inspect CSS grid?
 
 
 ## Inspect CSS Nesting
-Can I inspect CSS nesting styles?
+Can I inspect CSS nesting rules applied to an element?
 
 [Chrome](https://canidev.tools/inspect-css-nesting/chrome): 
-1. Inspect element with CSS nesting rules applied > Nesting rules are available in the **Styles** pane to view and edit.
+1. Inspect the element that has CSS nesting rules applied. Nesting rules are available in the **Styles** pane to view and edit.
+
+![](https://res.cloudinary.com/canidevtools/image/upload/l_watermark,w_100,o_10/inspect-css-nesting-chrome.png)
 
 [Firefox](https://canidev.tools/inspect-css-nesting/firefox): 
-1. Inspect element with CSS nesting rules applied > Nesting rules are available in the **Rules** pane to view and edit.
+1. Inspect the element that has CSS nesting rules applied. Nesting rules are available in the **Rules** pane to view and edit.
+
+![](https://res.cloudinary.com/canidevtools/image/upload/l_watermark,w_100,o_10/inspect-css-nesting-firefox.png)
+
+[Edge](https://canidev.tools/inspect-css-nesting/edge): 
+1. Inspect the element that has CSS nesting rules applied. Nesting rules are available in the **Styles** pane to view and edit.
+
+[Polypane](https://canidev.tools/inspect-css-nesting/polypane): 
+1. Inspect the element that has CSS nesting rules applied. Nesting rules are available in the **Style** pane to view and edit.
+
+![](https://res.cloudinary.com/canidevtools/image/upload/l_watermark,w_100,o_10/inspect-css-nesting-polypane.png)
 
 ## Inspect CSS Position
 Can I inspect & edit the absolutely positioned elements visually?
