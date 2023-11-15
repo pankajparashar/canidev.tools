@@ -130,6 +130,7 @@ export default function Page({ params }) {
                   }}
                 >
                   <Box
+                    id="references"
                     dangerouslySetInnerHTML={{
                       __html: browser.References
                         ? marked.parse(

@@ -1,19 +1,40 @@
 {
-    "Name": "Inspect CSS Nesting",
+  "Name": "Inspect CSS Nesting",
+  "Description": "Can I inspect CSS nesting rules applied to an element?",
 
-    "Description": "Can I inspect CSS nesting styles?",
-    "Category": "CSS",
+  "Category": "CSS",
+  "Authors": ["@pankajparashar"],
 
-    "Authors": ["@pankajparashar"],
+  "Chrome": {
+    "Image": "https://res.cloudinary.com/canidevtools/image/upload/l_watermark,w_100,o_10/inspect-css-nesting-chrome.png",
+    "Video": "https://res.cloudinary.com/canidevtools/video/upload/l_watermark,w_100,o_10/inspect-css-nesting-chrome.mp4",
+    "Notes": [
+      "1. Inspect the element that has CSS nesting rules applied. Nesting rules are available in the **Styles** pane to view and edit."
+    ],
+    "References": [
+      "1. Debugging CSS Nesting with Chrome DevTools, [Chrome Developers Articles](https://developer.chrome.com/articles/css-nesting/#debugging-with-chrome-devtools)"
+    ]
+  },
 
-    "Chrome": {
-        "Notes": [
-            "1. Inspect element with CSS nesting rules applied > Nesting rules are available in the **Styles** pane to view and edit."
-        ]
-    },
-    "Firefox": {
-        "Notes": [
-            "1. Inspect element with CSS nesting rules applied > Nesting rules are available in the **Rules** pane to view and edit."
-        ]
-    }
+  "Edge": {
+    "Notes": [
+      "1. Inspect the element that has CSS nesting rules applied. Nesting rules are available in the **Styles** pane to view and edit."
+    ]
+  },
+
+  "Firefox": {
+    "Image": "https://res.cloudinary.com/canidevtools/image/upload/l_watermark,w_100,o_10/inspect-css-nesting-firefox.png",
+    "Video": "https://res.cloudinary.com/canidevtools/video/upload/l_watermark,w_100,o_10/inspect-css-nesting-firefox.mp4",
+    "Notes": [
+      "1. Inspect the element that has CSS nesting rules applied. Nesting rules are available in the **Rules** pane to view and edit."
+    ]
+  },
+
+  "Polypane": {
+    "Image": "https://res.cloudinary.com/canidevtools/image/upload/l_watermark,w_100,o_10/inspect-css-nesting-polypane.png",
+    "Video": "https://res.cloudinary.com/canidevtools/video/upload/l_watermark,w_100,o_10/inspect-css-nesting-polypane.mp4",
+    "Notes": [
+      "1. Inspect the element that has CSS nesting rules applied. Nesting rules are available in the **Style** pane to view and edit."
+    ]
+  }
 }

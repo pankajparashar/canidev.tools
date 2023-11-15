@@ -77,6 +77,12 @@ ul {
   margin-left: 0;
 }
 
+#references ol {
+  list-style-type: auto;
+  list-style-position: inside;
+  padding-left: 1em;
+}
+
 #carbonads {
   font-size: 14px;
   display: block;
