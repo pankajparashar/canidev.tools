@@ -6,6 +6,7 @@
   "Authors": ["@pankajparashar"],
 
   "Chrome": {
+    "Share": "https://twitter.com/CanIDevTools/status/1724839203903852600",
     "Image": "https://res.cloudinary.com/canidevtools/image/upload/l_watermark,w_100,o_10/inspect-css-nesting-chrome.png",
     "Video": "https://res.cloudinary.com/canidevtools/video/upload/l_watermark,w_100,o_10/inspect-css-nesting-chrome.mp4",
     "Notes": [
@@ -23,6 +24,7 @@
   },
 
   "Firefox": {
+    "Share": "https://twitter.com/CanIDevTools/status/1724838865058586979",
     "Image": "https://res.cloudinary.com/canidevtools/image/upload/l_watermark,w_100,o_10/inspect-css-nesting-firefox.png",
     "Video": "https://res.cloudinary.com/canidevtools/video/upload/l_watermark,w_100,o_10/inspect-css-nesting-firefox.mp4",
     "Notes": [
@@ -31,6 +33,7 @@
   },
 
   "Polypane": {
+    "Share": "https://twitter.com/CanIDevTools/status/1724838246277067190",
     "Image": "https://res.cloudinary.com/canidevtools/image/upload/l_watermark,w_100,o_10/inspect-css-nesting-polypane.png",
     "Video": "https://res.cloudinary.com/canidevtools/video/upload/l_watermark,w_100,o_10/inspect-css-nesting-polypane.mp4",
     "Notes": [
