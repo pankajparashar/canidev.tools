@@ -5,7 +5,7 @@
     "Category": "Elements",
     "Newsletter": "tips-tricks-36",
     
-    "Authors": "@pankajparashar",
+    "Authors": ["@pankajparashar"],
     "Firefox": {
         "Share": "https://twitter.com/CanIDevTools/status/1619713661655994375",
         "Notes": "1. Firefox links the element referencing the ID attribute to its target element in the same DOM, highlighted with an underline.\n2. Use `Cmd+Click` or `Ctrl+Click` to jump to the target element with the identifier.\n",

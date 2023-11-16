@@ -5,7 +5,7 @@
     "Category": "Console",
     "Newsletter": "tips-tricks-10",
     
-    "Authors": "@pankajparashar",
+    "Authors": ["@pankajparashar"],
     "Chrome": {
         "Share": "https://twitter.com/CanIDevTools/status/1555788963855859712",
         "References": "Console utilities API [reference](https://developer.chrome.com/docs/devtools/console/utilities/#copy-function)\n",

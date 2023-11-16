@@ -4,7 +4,7 @@
   "Description": "Can I copy an image as a data URI?",
   "Category": "Network",
   
-  "Authors": "@pankajparashar",
+  "Authors": ["@pankajparashar"],
   
   "Chrome": {
     "Notes": [

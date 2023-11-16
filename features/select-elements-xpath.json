@@ -4,7 +4,7 @@
     "Description": "Can I select one or more elements using XPath expression?",
     "Category": "Console",
     
-    "Authors": "@pankajparashar",
+    "Authors": ["@pankajparashar"],
     "Chrome": {
         "Share": "https://twitter.com/CanIDevTools/status/1555146143608508417",
         "References": "Console Utilities API [reference](https://developer.chrome.com/docs/devtools/console/utilities/#clear-function) \n",

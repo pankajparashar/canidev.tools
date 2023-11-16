@@ -4,7 +4,7 @@
     "Description": "Can I capture a high definition screenshot of the page?",
     "Category": "Other",
 
-    "Authors": "@pankajparashar",
+    "Authors": ["@pankajparashar"],
     "Related": ["capture-screenshot-console", "capture-viewport-screenshot", "capture-full-page-screenshot", "capture-node-screenshot"],
 
     "Firefox": {

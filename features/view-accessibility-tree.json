@@ -4,7 +4,7 @@
     "Description": "Can I view the accessibility tree?",
     "Category": "Accessibility",
     
-    "Authors": "@pankajparashar",
+    "Authors": ["@pankajparashar"],
     "Chrome": {
         "Share": "https://twitter.com/jecfish/status/1512088763198951431",
         "References": "1. Jecelyn Yeen on [Twitter](https://twitter.com/jecfish/status/1512088763198951431)\n2. Full Accessibility Tree by [Chrome Developers](https://developer.chrome.com/blog/full-accessibility-tree/)\n",

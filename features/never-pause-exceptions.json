@@ -5,7 +5,7 @@
     "Category": "Sources",
     "Newsletter": "tips-tricks-39",
     
-    "Authors": "@pankajparashar",
+    "Authors": ["@pankajparashar"],
     "Chrome": {
         "Share": "https://twitter.com/CanIDevTools/status/1623894836331028483",
         "Notes": "1. In **Sources**, right click on the line number that throws an exception and select \"Never pause here\".\n",

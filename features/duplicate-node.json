@@ -4,7 +4,7 @@
     "Description": "Can I duplicate a node in the DOM tree?",
     "Category": "Elements",
 
-    "Authors": "@pankajparashar",
+    "Authors": ["@pankajparashar"],
 
     "Chrome": {
         "Notes": [

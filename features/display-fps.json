@@ -4,7 +4,7 @@
     "Description": "Can I display the current frames per second (FPS) of the page?",
     "Category": "Performance",
 
-    "Authors": "@pankajparashar",
+    "Authors": ["@pankajparashar"],
 
     "Chrome": {
         "Notes": ["1. Open **Command Menu** (`Cmd+Shift+P` or `Ctrl+Shift+P`) > Run \"Show frames per second (FPS) meter\".\n"]

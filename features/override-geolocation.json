@@ -5,7 +5,7 @@
     "Category": "Network",
     "Newsletter": "tips-tricks-14",
     
-    "Authors": "@pankajparashar",
+    "Authors": ["@pankajparashar"],
     "Chrome": {
         "Share": "https://twitter.com/CanIDevTools/status/1571139882432745474",
         "References": "1. \"Override geolocation\", by Chrome DevTools [Docs](https://developer.chrome.com/docs/devtools/device-mode/geolocation/).\n2. \"Simulate geolocation\", by [DevTools Tips](https://devtoolstips.org/tips/en/simulate-geolocation/).\n",

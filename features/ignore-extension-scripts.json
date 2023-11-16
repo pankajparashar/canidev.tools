@@ -4,7 +4,7 @@
     "Description": "Can I ignore extention scripts while debugging?",
     "Category": "JavaScript",
     
-    "Authors": "@pankajparashar",
+    "Authors": ["@pankajparashar"],
     
     "Chrome": {
         "Notes": [

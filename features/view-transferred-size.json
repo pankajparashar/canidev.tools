@@ -4,7 +4,7 @@
   "Description": "Can I view the size of the data transferred over the network?",
   "Category": "Network",
   
-  "Authors": "@pankajparashar",
+  "Authors": ["@pankajparashar"],
   "Chrome": {
     "Notes": "1. In the **Network** panel, the footer contains the size of the data transferred in Bytes. If a filter is applied, then it displays the size of the filtered resources followed by all the resources.\n"
   },

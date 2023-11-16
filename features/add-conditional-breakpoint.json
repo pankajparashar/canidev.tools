@@ -5,7 +5,7 @@
     "Category": "Sources",
     "Newsletter": "tips-tricks-32",
     
-    "Authors": "@pankajparashar",
+    "Authors": ["@pankajparashar"],
     "Chrome": {
         "Share": "https://twitter.com/CanIDevTools/status/1584450115083075584",
         "Notes": "1. In **Sources**, right click the line number and select \"Add a conditional breakpoint...\"\n2. Input the conditional expression on which the execution should pause, and press `Enter`.\n",

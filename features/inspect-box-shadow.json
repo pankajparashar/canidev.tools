@@ -5,7 +5,7 @@
     "Category": "CSS",
     "Newsletter": "tips-tricks-18",
     
-    "Authors": "@pankajparashar",
+    "Authors": ["@pankajparashar"],
     "Chrome": {
         "Share": "https://twitter.com/CanIDevTools/status/1572808549335302144",
         "References": "1. \"CSS Box shadow editor\", by Chrome DevTools [Docs](https://developer.chrome.com/docs/devtools/css/reference/#shadow-editor)\n",

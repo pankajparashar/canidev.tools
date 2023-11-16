@@ -5,7 +5,7 @@
     "Category": "Accessibility",
     "Newsletter": "tips-tricks-6",
     
-    "Authors": "@pankajparashar",
+    "Authors": ["@pankajparashar"],
     "Chrome": {
         "Share": "https://twitter.com/CanIDevTools/status/1549021295308079105",
         "References": "[1] \"Keyboard shortcuts\", by Chrome Devtools [Docs](https://developer.chrome.com/docs/devtools/shortcuts/#global)\n",

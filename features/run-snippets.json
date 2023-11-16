@@ -5,7 +5,7 @@
     "Category": "Sources",
     "Newsletter": "tips-tricks-13",
     
-    "Authors": "@pankajparashar",
+    "Authors": ["@pankajparashar"],
     "Chrome": {
         "Share": "https://twitter.com/CanIDevTools/status/1559114513370456064",
         "References": "[1] \"Run Snippets of JavaScript\", by Chrome Devtools [docs](https://developer.chrome.com/docs/devtools/javascript/snippets/).\n",

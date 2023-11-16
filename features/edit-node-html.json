@@ -4,7 +4,7 @@
     "Description": "Can I edit the node as HTML?",
     "Category": "Elements",
 
-    "Authors": "@pankajparashar",
+    "Authors": ["@pankajparashar"],
 
     "Chrome": {
         "Notes": [

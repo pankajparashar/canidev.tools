@@ -4,7 +4,7 @@
     "Description": "Can I copy a node as HTML?",
     "Category": "Elements",
 
-    "Authors": "@pankajparashar",
+    "Authors": ["@pankajparashar"],
 
     "Chrome": {
         "Notes": [

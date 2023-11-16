@@ -4,7 +4,7 @@
     "Description": "Can I scroll a DOM node into the viewport?",
     "Category": "Elements",
 
-    "Authors": "@pankajparashar",
+    "Authors": ["@pankajparashar"],
 
     "Chrome": {
         "Notes": [

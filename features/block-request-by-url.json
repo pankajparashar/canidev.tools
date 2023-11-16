@@ -5,7 +5,7 @@
     "Category": "Network",
     "Newsletter": "tips-tricks-5",
     
-    "Authors": "@pankajparashar",
+    "Authors": ["@pankajparashar"],
     "Chrome": {
         "Share": "https://twitter.com/CanIDevTools/status/1581156847859683330",
         "References": "1. \"What's new in DevTools 59\", on Chrome Developers [Blog](https://developer.chrome.com/blog/new-in-devtools-59/#block-requests)\n",

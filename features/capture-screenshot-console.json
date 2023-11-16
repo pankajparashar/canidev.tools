@@ -5,7 +5,7 @@
     "Category": "Console",
     "Newsletter": "tips-tricks-41",
     
-    "Authors": "@pankajparashar",
+    "Authors": ["@pankajparashar"],
     "Related": ["capture-node-screenshot", "capture-viewport-screenshot", "capture-full-page-screenshot"],
     "Firefox": {
         "Share": "https://twitter.com/CanIDevTools/status/1631050880052019203",

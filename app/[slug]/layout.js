@@ -5,8 +5,22 @@ import { DataContext } from "../../components/data-provider";
 import { IconBrandPolypane } from "../../components/tabler-icons";
 import { useRouter, usePathname } from "next/navigation";
 import { useDisclosure, useMediaQuery } from "@mantine/hooks";
+import Link from "next/link";
 
-import { Paper, Badge, Alert, Divider, Group, Button, Tabs, Text } from "@mantine/core";
+import {
+	Box,
+	NavLink,
+	Accordion,
+	Paper,
+	Badge,
+	Alert,
+	Divider,
+	Group,
+	Button,
+	Tabs,
+	Text,
+	SimpleGrid,
+} from "@mantine/core";
 import {
 	IconBrandGithub,
 	IconBrandSafari,
@@ -14,14 +28,13 @@ import {
 	IconBrandChrome,
 	IconBrandFirefox,
 	IconBrandOpera,
-} from "@tabler/icons-react";
-import {
 	IconArrowBack,
 	IconListSearch,
 	IconBrightness,
 	IconListDetails,
 	IconBrandSpeedtest,
 	IconCode,
+	IconRoute,
 	IconBoxMargin,
 	IconAccessible,
 	IconReportMedical,
@@ -85,7 +98,7 @@ export default function Layout({ children, params }) {
 			</Group>
 			<Divider />
 			<Alert
-				variant="default"
+				color="gray"
 				icon={isMobile ? null : icons[feature.Category]}
 				title={feature.Name}
 				styles={{
@@ -126,7 +139,96 @@ export default function Layout({ children, params }) {
 				</Tabs.List>
 			</Tabs>
 			<Divider />
-			{children}
+			{browser ? (
+				children
+			) : (
+				<>
+					<SimpleGrid cols={{ base: 1, sm: 2 }} p="md">
+						<Alert
+							color="gray"
+							title="Authors"
+							styles={{
+								title: {
+									fontSize: "var(--mantine-font-size-md)",
+								},
+								message: {
+									fontSize: "var(--mantine-font-size-md)",
+									marginTop: 0,
+								},
+							}}>
+							{feature.Authors ? feature.Authors.join(", ") : ""}
+						</Alert>
+						<Alert
+							color="gray"
+							title="Last Modified"
+							styles={{
+								title: {
+									fontSize: "var(--mantine-font-size-md)",
+								},
+								message: {
+									fontSize: "var(--mantine-font-size-md)",
+									marginTop: 0,
+								},
+							}}>
+							{feature.LastModifiedTime}
+						</Alert>
+						<Alert
+							color="gray"
+							title="Newsletter"
+							styles={{
+								title: {
+									fontSize: "var(--mantine-font-size-md)",
+								},
+								message: {
+									fontSize: "var(--mantine-font-size-md)",
+									marginTop: 0,
+								},
+							}}>
+							{feature.Newsletter || "-"}
+						</Alert>
+					</SimpleGrid>
+					<Divider />
+					<Accordion
+						defaultValue="related"
+						styles={{
+							content: { padding: "0 1em" },
+						}}>
+						<Accordion.Item value="related">
+							<Accordion.Control icon={<IconRoute />} disabled={!feature.Related}>
+								<Text fw={700}>Related{`(${feature.Related ? feature.Related.length : 0})`}</Text>
+							</Accordion.Control>
+							<Divider />
+							{feature.Related ? (
+								<Accordion.Panel>
+									{feature.Related.map((f, idx) => (
+										<Box key={f.Slug}>
+											{idx !== 0 && <Divider />}
+											<NavLink
+												label={f.Name}
+												description={f.Description}
+												styles={{
+													label: {
+														fontSize: "var(--mantine-font-size-md)",
+													},
+													description: {
+														fontSize: "var(--mantine-font-size-md)",
+														maxWidth: "750px",
+													},
+												}}
+												component={Link}
+												href={{
+													pathname: `/${f.Slug}`,
+												}}
+												rightSection={<IconChevronRight stroke={1} />}
+											/>
+										</Box>
+									))}
+								</Accordion.Panel>
+							) : null}
+						</Accordion.Item>
+					</Accordion>
+				</>
+			)}
 		</Paper>
 	);
 }

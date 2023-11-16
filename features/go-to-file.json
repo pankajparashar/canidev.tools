@@ -4,7 +4,7 @@
     "Description": "Can I jump to a file by searching with a filename?",
     "Category": "Sources",
     
-    "Authors": "@pankajparashar",
+    "Authors": ["@pankajparashar"],
     "Chrome": {
         "Share": "https://twitter.com/jecfish/status/1523451005626593280",
         "Notes": "1. Run Command menu using `Cmd+Shift+P` (on Mac) or `Ctrl+Shift+P` (on Windows/Linux) > Type filename to filter on the matching files > Press `Enter`.\n",

@@ -4,7 +4,7 @@
     "Description": "Can I target iframes while debugging from the Console panel?",
     "Category": "Console",
 
-    "Authors": "@pankajparashar",
+    "Authors": ["@pankajparashar"],
 
     "Chrome": {
         "Share": "https://twitter.com/CanIDevTools/status/1667834716966334464",

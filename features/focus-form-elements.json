@@ -4,7 +4,7 @@
     "Description": "Can I focus on form elements in the DOM?",
     "Category": "Elements",
 
-    "Authors": "@pankajparashar",
+    "Authors": ["@pankajparashar"],
 
     "Chrome": {
         "Notes": [

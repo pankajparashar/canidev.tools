@@ -5,7 +5,7 @@
     "Category": "Other",
     "Newsletter": "tips-tricks-34",
     
-    "Authors": "@pankajparashar",
+    "Authors": ["@pankajparashar"],
     "Chrome": {
         "Share": "https://twitter.com/CanIDevTools/status/1604580723549151233",
         "Notes": "1. Inside devtools, press `Cmd+Shift+I `or `Ctrl+Shift+I` to  inspect the devtools panel itself using new instance of devtools.\n2. Important to note, you can keep using this shortcut to inspecting new instance of devtools recursively.\n",

@@ -5,7 +5,7 @@
     "Category": "Other",
     "Newsletter": "tips-tricks-43",
     
-    "Authors": "@pankajparashar",
+    "Authors": ["@pankajparashar"],
     "Chrome": {
         "Share": "https://twitter.com/CanIDevTools/status/1641881002589954048",
         
