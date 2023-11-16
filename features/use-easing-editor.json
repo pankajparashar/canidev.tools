@@ -1,41 +1,36 @@
 {
-  "Name": "Use easing editor",
+	"Name": "Use easing editor",
+	"Description": "Can I use the easing editor to edit transitions and animations?",
 
-  "Description": "Can I use the easing editor to edit transitions and animations?",
+	"Category": "CSS",
+	"Authors": ["@pankajparashar"],
 
-  "Category": "CSS",
-  "Authors": [
-    "@pankajparashar"
-  ],
+	"Chrome": {
+		"Notes": [
+			"1. Inspect the element with CSS transition or animation applied. In the **Styles** pane, click the icon next to the timing function to open the **Easing editor** to play around with the timing functions.",
+			"2. Click anywhere on the line to add a control point. Drag the point to change the easing of the animation. Double click on the point to remove it."
+		],
+		"References": [
+			"1. Easing editor, [Chrome DevTools Docs](https://developer.chrome.com/docs/devtools/css/reference/#edit-easing)"
+		]
+	},
 
-  "Chrome": {
-    "Notes": [
-      "1. Inspect the element with CSS transition or animation applied. In the **Styles** pane, click the icon next to the timing function to open the **Easing editor** to play around with the timing functions."
-    ],
-    "References": "1. \"Easing editor\", by [Chrome DevTools Docs](https://developer.chrome.com/docs/devtools/css/reference/#edit-easing)"
-  },
+	"Edge": {
+		"Notes": [
+			"1. Inspect the element with CSS transition or animation applied. In the **Styles** pane, click the icon next to the timing function to open the **Easing editor** to play around with the timing functions.",
+			"2. Click anywhere on the line to add a control point. Drag the point to change the easing of the animation. Double click on the point to remove it."
+		]
+	},
 
-  "Edge": {
-    "Notes": [
-      "1. Inspect the element with CSS transition or animation applied. In the **Styles** pane, click the icon next to the timing function to open the **Easing editor** to play around with the timing functions."
-    ]
-  },
-  
-  "Opera": {
-    "Notes": [
-      "1. Inspect the element with CSS transition or animation applied. In the **Styles** pane, click the icon next to the timing function to open the **Easing editor** to play around with the timing functions."
-    ]
-  },
+	"Firefox": {
+		"Notes": [
+			"1. Inspect the element with CSS transition or animation applied. In the **Rules** pane, click the icon next to the timing function to open the **Timing editor** to play around with the timing functions."
+		]
+	},
 
-  "Firefox": {
-    "Notes": [
-      "1. Inspect the element with CSS transition or animation applied. In the **Rules** pane, click the icon next to the timing function to open the **Timing editor** to play around with the timing functions."
-    ]
-  },
-
-  "Safari": {
-    "Notes": [
-      "1. Inspect the element with CSS transition or animation applied. In the styles section, click the icon next to the timing function to open the **Cubic-bezier editor** to play around with the timing functions."
-    ]
-  }
+	"Safari": {
+		"Notes": [
+			"1. Inspect the element with CSS transition or animation applied. In the styles section, click the icon next to the timing function to open the **Cubic-bezier editor** to play around with the timing functions."
+		]
+	}
 }
