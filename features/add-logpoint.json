@@ -2,7 +2,7 @@
     "Name": "Add logpoint",
 
     "Description": "Can I add log points to source code for debugging?",
-    "Category": "Sources",
+    "Category": "Debugger",
     "Newsletter": "tips-tricks-24",
     
     "Authors": ["@pankajparashar"],

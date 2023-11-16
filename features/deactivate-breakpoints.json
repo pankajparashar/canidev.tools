@@ -3,7 +3,7 @@
 	"Description": "Can I temporarily deactivate breakpoints while debugging source code?",
 
 
-	"Category": "Sources",
+	"Category": "Debugger",
 	"Authors": ["@pankajparashar"],
 	
 	"Chrome": {

@@ -2,7 +2,7 @@
     "Name": "Add conditional breakpoint",
 
     "Description": "Can I set a conditional breakpoint while debugging code?",
-    "Category": "Sources",
+    "Category": "Debugger",
     "Newsletter": "tips-tricks-32",
     
     "Authors": ["@pankajparashar"],

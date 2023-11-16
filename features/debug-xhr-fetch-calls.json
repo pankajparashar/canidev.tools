@@ -2,7 +2,7 @@
   "Name": "Debug XHR & Fetch calls",
 
   "Description": "Can I debug XHR or fetch calls by setting a breakpoint for a specific or all requests??",
-  "Category": "Sources",
+  "Category": "Debugger",
   
   "Authors": ["@pankajparashar"],
   "Chrome": {

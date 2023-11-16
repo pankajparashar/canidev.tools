@@ -2,7 +2,7 @@
   "Name": "Pretty print JavaScript",
 
   "Description": "Can I pretty print minified JavaScript code?",
-  "Category": "Sources",
+  "Category": "Debugger",
   
   "Authors": ["@pankajparashar"],
   "Chrome": {

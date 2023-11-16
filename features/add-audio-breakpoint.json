@@ -2,7 +2,7 @@
     "Name": "Add audio breakpoint",
 
     "Description": "Can I add an audio breakpoint for debugging the source code?",
-    "Category": "Sources",
+    "Category": "Debugger",
     "Newsletter": "tips-tricks-21",
     
     "Authors": ["@pankajparashar"],

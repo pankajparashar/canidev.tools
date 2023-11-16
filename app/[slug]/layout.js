@@ -66,7 +66,7 @@ export default function Layout({ children, params }) {
 		JavaScript: <IconBrandNextjs />,
 		Network: <IconAffiliate />,
 		Other: <IconHexagons />,
-		Sources: <IconCode />,
+		Debugger: <IconCode />,
 		Performance: <IconBrandSpeedtest />,
 	};
 

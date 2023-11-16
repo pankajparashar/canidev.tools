@@ -2,7 +2,7 @@
     "Name": "Never pause at exceptions",
 
     "Description": "Can I prevent the debugger from pausing at exceptions?",
-    "Category": "Sources",
+    "Category": "Debugger",
     "Newsletter": "tips-tricks-39",
     
     "Authors": ["@pankajparashar"],

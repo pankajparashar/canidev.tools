@@ -110,7 +110,6 @@ ul {
 
 .carbon-img img {
 	border-radius: 5px;
-	filter: grayscale(60%) contrast(170%) brightness(95%);
 }
 
 .carbon-img img::before {

@@ -2,7 +2,7 @@
     "Name": "Run snippets",
 
     "Description": "Can I run snippet of code in devtools?",
-    "Category": "Sources",
+    "Category": "Debugger",
     "Newsletter": "tips-tricks-13",
     
     "Authors": ["@pankajparashar"],

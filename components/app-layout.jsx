@@ -91,7 +91,7 @@ export const AppLayout = props => {
 		JavaScript: <IconBrandNextjs size={20} stroke={1.5} />,
 		Network: <IconAffiliate size={20} stroke={1.5} />,
 		Other: <IconHexagons size={20} stroke={1.5} />,
-		Sources: <IconCode size={20} stroke={1.5} />,
+		Debugger: <IconCode size={20} stroke={1.5} />,
 		Performance: <IconBrandSpeedtest size={20} stroke={1.5} />,
 	};
 

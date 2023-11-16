@@ -2,7 +2,7 @@
     "Name": "Debug Event Listeners",
 
     "Description": "Can I debug event listeners by setting a breakpoint on all or specific events?",
-    "Category": "Sources",
+    "Category": "Debugger",
     
     "Authors": ["@pankajparashar"],
     "Chrome": {

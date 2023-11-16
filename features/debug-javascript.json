@@ -2,7 +2,7 @@
   "Name": "Debug JavaScript",
 
   "Description": "Can I debug JavaScript using devtools?",
-  "Category": "Sources",
+  "Category": "Debugger",
   
   "Authors": ["@pankajparashar"],
   "Chrome": {

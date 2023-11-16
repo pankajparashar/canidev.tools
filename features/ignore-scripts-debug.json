@@ -2,7 +2,7 @@
     "Name": "Ignore scripts while debugging",
 
     "Description": "Can I ignore scripts while debugging?",
-    "Category": "Sources",
+    "Category": "Debugger",
     "Newsletter": "tips-tricks-42",
     
     "Authors": ["@pankajparashar"],
