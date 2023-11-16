@@ -2277,10 +2277,12 @@ Can I use the easing editor to edit transitions and animations?
 
 [Chrome](https://canidev.tools/use-easing-editor/chrome): 
 1. Inspect the element with CSS transition or animation applied. In the **Styles** pane, click the icon next to the timing function to open the **Easing editor** to play around with the timing functions.
+2. Click anywhere on the line to add a control point. Drag the point to change the easing of the animation. Double click on the point to remove it.
 [Firefox](https://canidev.tools/use-easing-editor/firefox): 
 1. Inspect the element with CSS transition or animation applied. In the **Rules** pane, click the icon next to the timing function to open the **Timing editor** to play around with the timing functions.
 [Edge](https://canidev.tools/use-easing-editor/edge): 
 1. Inspect the element with CSS transition or animation applied. In the **Styles** pane, click the icon next to the timing function to open the **Easing editor** to play around with the timing functions.
+2. Click anywhere on the line to add a control point. Drag the point to change the easing of the animation. Double click on the point to remove it.
 [Safari](https://canidev.tools/use-easing-editor/safari): 
 1. Inspect the element with CSS transition or animation applied. In the styles section, click the icon next to the timing function to open the **Cubic-bezier editor** to play around with the timing functions.
 ## Use live expressions
