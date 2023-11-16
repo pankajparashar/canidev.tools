@@ -64,8 +64,8 @@ export default async function RootLayout({ children }) {
 	});
 
 	const theme = {
-		fontFamily: "Sneak Mono",
-		fontFamilyMonospace: "ui-monospace",
+		fontFamily: "Operator Mono",
+		fontFamilyMonospace: "Operator Mono",
 		primaryColor: "dark",
 		defaultRadius: 0,
 		breakpoints: {
