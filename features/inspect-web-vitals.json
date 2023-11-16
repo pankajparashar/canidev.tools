@@ -1,0 +1,15 @@
+{
+	"Name": "Inspect web vitals",
+	"Description": "Can I inspect web vital statistics like CLS, LCP, FIP, etc.,",
+
+	"Category": "Performance",
+	"Authors": ["@pankajparashar"],
+
+	"Polypane": {
+		"Notes": [
+			"1. Open **App settings** > **Settings** tab and select **Web Vitals Status**. This will add a tiny green dot in the bottom left of the page.",
+			"2. Click the dot to open a popup containing the various web vital statistics like CLS, LCP, FIP, etc.,"
+		],
+		"References": ["1. Web vitals, [Polypane docs](https://polypane.app/docs/web-vitals/)"]
+	}
+}
