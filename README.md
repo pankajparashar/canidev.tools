@@ -1468,6 +1468,12 @@ Can I ignore scripts while debugging?
 1. In the **Sources** panel, right click on any script and select **Blackbox script** or click the eye icon next to the script name in the source tree.
 2. To ignore multiple scripts with a pattern, go to Settings > Blackbox > Enter the regex pattern to ignore scripts in bulk.
 
+## Ignore third-party scripts
+Can I ignore third-party scripts while debugging?
+
+[Firefox](https://canidev.tools/ignore-third-party-scripts/firefox): 
+1. In the **Debugger** panel, open **Debugger Settings** and select **Ignore Known Third-partyScripts** to ignore the third-party scripts defined in the [x_google_ignoreList](https://developer.chrome.com/articles/x-google-ignore-list/) sourcemaps extension.
+
 ## Import & Export HAR file
 Can I import and export network activity to a HAR file?
 
