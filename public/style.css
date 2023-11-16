@@ -56,14 +56,12 @@ code {
 	filter: grayscale(50%) opacity(50%);
 }
 
-li a:link,
-li a:visited,
 a {
 	color: #0074de;
 	text-decoration: none;
 }
-li a:hover {
-	border-bottom: 1px solid;
+a:hover {
+	font-weight: bold;
 }
 
 video {
