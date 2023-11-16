@@ -57,7 +57,7 @@ export default function Page({ params }) {
 					content: { padding: 0 },
 				}}>
 				<Accordion.Item value="video">
-					<Accordion.Control icon={<IconBrandYoutube stroke={1} />}>
+					<Accordion.Control icon={<IconBrandYoutube stroke={1} />} style={{ maxHeight: "45px" }}>
 						<Group justify="space-between" pr="sm">
 							<Text fw={700}>Video</Text>
 							<Badge
