@@ -193,7 +193,13 @@ export default function Layout({ children, params }) {
 									marginTop: 0,
 								},
 							}}>
-							{feature.Newsletter || "-"}
+							{feature.Newsletter ? (
+								<a href={`https://canidevtools.substack.com/p/${feature.Newsletter}`} target="_blank">
+									{feature.Newsletter}
+								</a>
+							) : (
+								"-"
+							)}
 						</Alert>
 					</SimpleGrid>
 					<Divider />
