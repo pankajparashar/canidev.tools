@@ -156,7 +156,16 @@ export default function Layout({ children, params }) {
 									marginTop: 0,
 								},
 							}}>
-							{feature.Authors ? feature.Authors.join(", ") : ""}
+							{feature.Authors
+								? feature.Authors.map((author, idx) => (
+										<>
+											<a href={`//twitter.com/${author}`} target="_blank">
+												{author}
+											</a>
+											{idx !== feature.Authors.length - 1 ? ", " : ""}
+										</>
+								  ))
+								: ""}
 						</Alert>
 						<Alert
 							color="gray"
