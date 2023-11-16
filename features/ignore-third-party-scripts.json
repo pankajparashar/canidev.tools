@@ -8,6 +8,7 @@
 	"Related": ["ignore-extension-scripts", "ignore-scripts-debug"],
 
 	"Firefox": {
+		"Share": "https://twitter.com/CanIDevTools/status/1725109290225316229",
 		"Video": "https://res.cloudinary.com/canidevtools/video/upload/l_watermark,w_100,o_10/ignore-third-party-scripts-firefox.mp4",
 		"Image": "https://res.cloudinary.com/canidevtools/image/upload/l_watermark,w_100,o_10/ignore-third-party-scripts-firefox.png",
 		"Notes": [

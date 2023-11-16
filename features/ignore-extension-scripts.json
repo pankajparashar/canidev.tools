@@ -4,6 +4,7 @@
 
 	"Category": "JavaScript",
 	"Authors": ["@pankajparashar"],
+	"Related": ["ignore-third-party-scripts", "ignore-scripts-debug"],
 
 	"Chrome": {
 		"Notes": ["1. Open **Settings** (`F1`) > Ignore List > Disable \"Content scripts injected by extensions\"."],
