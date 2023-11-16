@@ -255,7 +255,7 @@ export const AppLayout = props => {
 											<IconRss size={20} />
 										</Button>
 									</Grid.Col>
-									<Grid.Col span={8}>
+									<Grid.Col span={6}>
 										<Button variant="light" fullWidth>
 											<IconPlaylistAdd stroke={1.5} /> &nbsp;Add New
 										</Button>
