@@ -206,33 +206,36 @@ export default function Layout({ children, params }) {
 							<Accordion.Control icon={<IconRoute />} disabled={!feature.Related}>
 								<Text fw={700}>Related{`(${feature.Related ? feature.Related.length : 0})`}</Text>
 							</Accordion.Control>
-							<Divider />
+
 							{feature.Related ? (
-								<Accordion.Panel>
-									{feature.Related.map((f, idx) => (
-										<Box key={f.Slug}>
-											{idx !== 0 && <Divider />}
-											<NavLink
-												label={f.Name}
-												description={f.Description}
-												styles={{
-													label: {
-														fontSize: "var(--mantine-font-size-md)",
-													},
-													description: {
-														fontSize: "var(--mantine-font-size-md)",
-														maxWidth: "750px",
-													},
-												}}
-												component={Link}
-												href={{
-													pathname: `/${f.Slug}`,
-												}}
-												rightSection={<IconChevronRight stroke={1} />}
-											/>
-										</Box>
-									))}
-								</Accordion.Panel>
+								<>
+									<Divider />
+									<Accordion.Panel>
+										{feature.Related.map((f, idx) => (
+											<Box key={f.Slug}>
+												{idx !== 0 && <Divider />}
+												<NavLink
+													label={f.Name}
+													description={f.Description}
+													styles={{
+														label: {
+															fontSize: "var(--mantine-font-size-md)",
+														},
+														description: {
+															fontSize: "var(--mantine-font-size-md)",
+															maxWidth: "750px",
+														},
+													}}
+													component={Link}
+													href={{
+														pathname: `/${f.Slug}`,
+													}}
+													rightSection={<IconChevronRight stroke={1} />}
+												/>
+											</Box>
+										))}
+									</Accordion.Panel>
+								</>
 							) : null}
 						</Accordion.Item>
 					</Accordion>
