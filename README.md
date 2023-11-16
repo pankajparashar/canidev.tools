@@ -1546,6 +1546,12 @@ Can I inspect the top layer elements like dialog, popover etc?
 1. Inspect the `<dialog>` element. Scroll down to the end of the DOM tree to the `#top-layer` section, to visualise the currently active dialog elements.
 2. In the case of multiple elements, they stack on top of each other, and the last one is on top. 
 
+## Inspect web vitals
+Can I inspect web vital statistics like CLS, LCP, FIP, etc.,
+
+[Polypane](https://canidev.tools/inspect-web-vitals/polypane): 
+1. Open **App settings** > **Settings** tab and select **Web Vitals Status**. This will add a tiny green dot in the bottom left of the page.
+2. Click the dot to open a popup containing the various web vital statistics like CLS, LCP, FIP, etc.,
 ## Jump to Id
 Can I jump to the target element with an id from the source element?
 
