@@ -158,12 +158,12 @@ export default function Layout({ children, params }) {
 							}}>
 							{feature.Authors
 								? feature.Authors.map((author, idx) => (
-										<>
+										<span key={author}>
 											<a href={`//twitter.com/${author}`} target="_blank">
 												{author}
 											</a>
 											{idx !== feature.Authors.length - 1 ? ", " : ""}
-										</>
+										</span>
 								  ))
 								: ""}
 						</Alert>
