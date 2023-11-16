@@ -24,12 +24,14 @@ import {
 	Divider,
 	SimpleGrid,
 	Image,
+	Grid,
 	useMantineColorScheme,
 } from "@mantine/core";
 import { useDisclosure, useMediaQuery } from "@mantine/hooks";
 import { Carousel } from "@mantine/carousel";
 
 import {
+	IconSitemap,
 	IconQuote,
 	IconBroadcast,
 	IconBrandGithub,
@@ -53,6 +55,8 @@ import {
 	IconHexagons,
 	IconCrosshair,
 	IconChevronRight,
+	IconRss,
+	IconPlaylistAdd,
 } from "@tabler/icons-react";
 
 import { IconBrandSubStack } from "./tabler-icons";
@@ -223,6 +227,7 @@ export const AppLayout = props => {
 											},
 											description: {
 												fontSize: "var(--mantine-font-size-md)",
+												fontWeight: activeSlug === feature.Slug ? "bold" : "inherit",
 											},
 										}}
 										active={activeSlug === feature.Slug}
@@ -237,6 +242,31 @@ export const AppLayout = props => {
 									<Divider />
 								</div>
 							))}
+							<Box
+								style={{
+									position: "sticky",
+									bottom: 0,
+									backgroundColor: "var(--mantine-color-body)",
+								}}>
+								<Divider />
+								<Grid grow gutter="xs" mt="md">
+									<Grid.Col span={2}>
+										<Button variant="light" fullWidth>
+											<IconRss size={20} />
+										</Button>
+									</Grid.Col>
+									<Grid.Col span={8}>
+										<Button variant="light" fullWidth>
+											<IconPlaylistAdd stroke={1.5} /> &nbsp;Add New
+										</Button>
+									</Grid.Col>
+									<Grid.Col span={2}>
+										<Button variant="light" fullWidth>
+											<IconSitemap size={20} stroke={1.5} />
+										</Button>
+									</Grid.Col>
+								</Grid>
+							</Box>
 						</ScrollArea>
 						<Box>{props.children}</Box>
 					</Box>
