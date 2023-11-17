@@ -2102,6 +2102,11 @@ Can I see full URL path of the network requests?
 ## Simulate color blindness
 Can I simulate different color blindness conditions to test my web page?
 
+[Firefox](https://canidev.tools/simulate-color-blindness/firefox): 
+1. In the **Accessibility** panel, from the toolbar open the **Simulate** menu and select the type of deficiency to simulate the page for the users with that deficiency.
+
+![](https://res.cloudinary.com/canidevtools/image/upload/v1700241362/simulate-color-blindness-firefox.png)
+
 [Polypane](https://canidev.tools/simulate-color-blindness/polypane): 
 1. Click the **Debug tools** icon to open the list of available debug tools. Switch to the **Simulators** tab to find various color blindness conditions like, **Red-green**, **Blue-yellow**, and **Full** color blindness. Toggle the conditions to simulate the deficiency on the page.
 
