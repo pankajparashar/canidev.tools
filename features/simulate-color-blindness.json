@@ -1,20 +1,31 @@
 {
-  "Name": "Simulate color blindness",
-  "Description": "Can I simulate different color blindness conditions to test my web page?",
+	"Name": "Simulate color blindness",
+	"Description": "Can I simulate different color blindness conditions to test my web page?",
 
-  "Category": "CSS",
-  "Authors": ["@pankajparashar"],
+	"Category": "Accessibility",
+	"Authors": ["@pankajparashar"],
 
-  "Polypane": {
-    "Share": "https://twitter.com/CanIDevTools/status/1724508437047050428",
-    "Video": "https://res.cloudinary.com/canidevtools/video/upload/l_watermark,w_100,o_10/simulate-color-blindness-polypane.mp4",
-    "Image": "https://res.cloudinary.com/canidevtools/image/upload/l_watermark,w_100,o_10/simulate-color-blindness-polypane.png",
-    "Version": "16",
-    "Notes": [
-      "1. Click the **Debug tools** icon to open the list of available debug tools. Switch to the **Simulators** tab to find various color blindness conditions like, **Red-green**, **Blue-yellow**, and **Full** color blindness. Toggle the conditions to simulate the deficiency on the page."
-    ],
-    "References": [
-      "1. Developing for color blindness with Polypane, [Polypane Blog](https://polypane.app/blog/developing-for-color-blindness-with-polypane/)"
-    ]
-  }
+	"Polypane": {
+		"Share": "https://twitter.com/CanIDevTools/status/1724508437047050428",
+		"Video": "https://res.cloudinary.com/canidevtools/video/upload/l_watermark,w_100,o_10/simulate-color-blindness-polypane.mp4",
+		"Image": "https://res.cloudinary.com/canidevtools/image/upload/l_watermark,w_100,o_10/simulate-color-blindness-polypane.png",
+		"Version": "16",
+		"Notes": [
+			"1. Click the **Debug tools** icon to open the list of available debug tools. Switch to the **Simulators** tab to find various color blindness conditions like, **Red-green**, **Blue-yellow**, and **Full** color blindness. Toggle the conditions to simulate the deficiency on the page."
+		],
+		"References": [
+			"1. Developing for color blindness with Polypane, [Polypane Blog](https://polypane.app/blog/developing-for-color-blindness-with-polypane/)"
+		]
+	},
+
+	"Firefox": {
+		"Image": "https://res.cloudinary.com/canidevtools/image/upload/v1700241362/simulate-color-blindness-firefox.png",
+		"Video": "https://res.cloudinary.com/canidevtools/video/upload/v1700240753/simulate-color-blindness-firefox.mp4",
+		"Notes": [
+			"1. In the **Accessibility** panel, from the toolbar open the **Simulate** menu and select the type of deficiency to simulate the page for the users with that deficiency."
+		],
+		"References": [
+			"1. Color vision simulation, [Firefox Source Docs](https://firefox-source-docs.mozilla.org/devtools-user/accessibility_inspector/simulation/#color-vision-simulation)"
+		]
+	}
 }
