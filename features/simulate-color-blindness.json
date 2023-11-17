@@ -19,6 +19,7 @@
 	},
 
 	"Firefox": {
+		"Share": "https://twitter.com/CanIDevTools/status/1725567465583976612",
 		"Image": "https://res.cloudinary.com/canidevtools/image/upload/v1700241362/simulate-color-blindness-firefox.png",
 		"Video": "https://res.cloudinary.com/canidevtools/video/upload/v1700240753/simulate-color-blindness-firefox.mp4",
 		"Notes": [
