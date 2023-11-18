@@ -1,35 +1,40 @@
 {
-    "Name": "Add conditional breakpoint",
+	"Name": "Add conditional breakpoint",
+	"Description": "Can I set a conditional breakpoint while debugging code?",
 
-    "Description": "Can I set a conditional breakpoint while debugging code?",
-    "Category": "Debugger",
-    "Newsletter": "tips-tricks-32",
-    
-    "Authors": ["@pankajparashar"],
-    "Chrome": {
-        "Share": "https://twitter.com/CanIDevTools/status/1584450115083075584",
-        "Notes": "1. In **Sources**, right click the line number and select \"Add a conditional breakpoint...\"\n2. Input the conditional expression on which the execution should pause, and press `Enter`.\n",
-        "Video": "https://res.cloudinary.com/canidevtools/video/upload/v1666587566/add-conditional-breakpoint-chrome_jbfwrd.mp4"
-    },
-    "Firefox": {
-        "Share": "https://twitter.com/CanIDevTools/status/1584450626469400576",
-        "Notes": "1. In **Debugger**, right click the line number and select \"Add condition\"\n2. Input the conditional expression on which the execution should pause, and press `Enter`.\n",
-        "Video": "https://res.cloudinary.com/canidevtools/video/upload/v1666594638/add-conditional-breakpoint-firefox_ynn6wb.mp4"
-    },
-    "Edge": {
-        "Notes": "1. In **Sources**, right click the line number and select \"Add a conditional breakpoint...\"\n2. Input the conditional expression on which the execution should pause, and press `Enter`.\n",
-        "Share": "https://twitter.com/CanIDevTools/status/1584450115083075584",
-        "Video": "https://res.cloudinary.com/canidevtools/video/upload/v1666589421/add-conditional-breakpoint-edge_s1vqzn.mp4",
-        "References": "1. \"Conditional line-of-code breakpoints\", by Edge DevTools [Docs](https://learn.microsoft.com/en-us/microsoft-edge/devtools-guide-chromium/javascript/breakpoints#conditional-line-of-code-breakpoints)\n"
-    },
-    "Safari": {
-        "Share": "https://twitter.com/CanIDevTools/status/1584451143127945216",
-        "Video": "https://res.cloudinary.com/canidevtools/video/upload/v1666595851/add-conditional-breakpoint-safari_y5zkfg.mp4",
-        "Notes": "1. In **Sources**, click the line number to **Add Breakpoint** > Right click on the line number and select \"Edit Breakpoint...\".\n2. Input the conditional expression on which the execution should pause, and press `Enter`.\n"
-    },
-    "Opera": {
-        "Share": "https://twitter.com/CanIDevTools/status/1584450115083075584",
-        "Video": "https://res.cloudinary.com/canidevtools/video/upload/v1666596070/add-conditional-breakpoint-opera_ebynhz.mp4",
-        "Notes": "1. In **Sources**, right click the line number and select \"Add a conditional breakpoint...\"\n2. Input the conditional expression on which the execution should pause, and press `Enter`.\n"
-    }
+	"Category": "Debugger",
+	"Newsletter": "tips-tricks-32",
+
+	"Authors": ["@pankajparashar"],
+
+	"Chrome": {
+		"Share": "https://twitter.com/CanIDevTools/status/1584450115083075584",
+		"Notes": "1. In **Sources**, right click the line number and select \"Add a conditional breakpoint...\"\n2. Input the conditional expression on which the execution should pause, and press `Enter`.\n",
+		"Video": "https://res.cloudinary.com/canidevtools/video/upload/v1666587566/add-conditional-breakpoint-chrome_jbfwrd.mp4"
+	},
+
+	"Firefox": {
+		"Share": "https://twitter.com/CanIDevTools/status/1584450626469400576",
+		"Notes": [
+			"1. In **Debugger**, right click the line number and select \"Add condition\"\n2. Input the conditional expression on which the execution should pause, and press `Enter`."
+		],
+		"Video": "https://res.cloudinary.com/canidevtools/video/upload/v1666594638/add-conditional-breakpoint-firefox_ynn6wb.mp4"
+	},
+
+	"Edge": {
+		"Notes": [
+			"1. In the **Sources** panel, right click on the line number and select **Add conditional breakpoint...**. Enter the conditional expression and press `Enter`."
+		],
+		"Share": "https://twitter.com/CanIDevTools/status/1584450115083075584",
+		"Video": "https://res.cloudinary.com/canidevtools/video/upload/v1666589421/add-conditional-breakpoint-edge_s1vqzn.mp4",
+		"References": [
+			"1. Conditional line-of-code breakpoints, [Microsoft Edge DevTools Guide](https://learn.microsoft.com/en-us/microsoft-edge/devtools-guide-chromium/javascript/breakpoints#conditional-line-of-code-breakpoints)"
+		]
+	},
+
+	"Opera": {
+		"Share": "https://twitter.com/CanIDevTools/status/1584450115083075584",
+		"Video": "https://res.cloudinary.com/canidevtools/video/upload/v1666596070/add-conditional-breakpoint-opera_ebynhz.mp4",
+		"Notes": "1. In **Sources**, right click the line number and select \"Add a conditional breakpoint...\"\n2. Input the conditional expression on which the execution should pause, and press `Enter`.\n"
+	}
 }
