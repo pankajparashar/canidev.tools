@@ -17,9 +17,7 @@ Can I add an existing CSS class to an HTML element?
 2. Click the button and search for the existing class names to add to the element.
 
 [Edge](https://canidev.tools/add-class-element/edge): 
-1. Inspect the element > Look for ".cls" button in the Styles pane next to the Filter field.
-2. Click the button and search for the existing class names to add to the element.
-
+1. Select the element in the DOM tree. In the **Styles** pane, click **.cls** and search from the list of available class names in the **Add new class** textbox. Press `Enter` to add the class to the element.
 [Safari](https://canidev.tools/add-class-element/safari): 
 1. Inspect the element > Look for "Classes" button in bottom row of the styles section next to the Filter field.
 2. Click the button and search for the existing class names to add to the element.
@@ -38,15 +36,8 @@ Can I set a conditional breakpoint while debugging code?
 [Firefox](https://canidev.tools/add-conditional-breakpoint/firefox): 
 1. In **Debugger**, right click the line number and select "Add condition"
 2. Input the conditional expression on which the execution should pause, and press `Enter`.
-
 [Edge](https://canidev.tools/add-conditional-breakpoint/edge): 
-1. In **Sources**, right click the line number and select "Add a conditional breakpoint..."
-2. Input the conditional expression on which the execution should pause, and press `Enter`.
-
-[Safari](https://canidev.tools/add-conditional-breakpoint/safari): 
-1. In **Sources**, click the line number to **Add Breakpoint** > Right click on the line number and select "Edit Breakpoint...".
-2. Input the conditional expression on which the execution should pause, and press `Enter`.
-
+1. In the **Sources** panel, right click on the line number and select **Add conditional breakpoint...**. Enter the conditional expression and press `Enter`.
 ## Add custom columns to Network
 Can I add custom columns to the Network requests table?
 
@@ -70,9 +61,8 @@ Can I add a custom device for a responsive design mode?
 2. In **Device** **Settings**, click "Add Custom Device..." > Enter the **Name** and other related details > Click "Save".
 
 [Edge](https://canidev.tools/add-custom-device/edge): 
-1. Open **Settings** (`F1` or `Shift+?`) > Devices > Click "Add custom device...". 
-2. Enter the "Device Name" and other details associated with the device. Click the "Add" button.
-
+1. Open **Settings** (`F1` or `Shift+?`) > Devices > Click **Add custom device...**.
+2. Enter the **Device Name** and other details associated with the device. Click **Add** to add the custom device.
 [Polypane](https://canidev.tools/add-custom-device/polypane): 
 1. Click the "+" button in the workspace, double-click anywhere in the free space, or press `Ctrl/Cmd+N`  
 2. Once the new device is added you can resize it manually and set the device and emulation options with the Emulation settings.
@@ -87,9 +77,7 @@ Can I add inline styles to an HTML element?
 1. Inspect element > In the **Rules** pane, click "element​" to input the inline style.
 
 [Edge](https://canidev.tools/add-inline-styles/edge): 
-1. Inspect element > In the **Styles** pane, click "element.style" to input the inline style.
-
-
+1. Select the element in the DOM tree > In the **Styles** pane, click **element.style** and add the **property: value** declaration.
 [Safari](https://canidev.tools/add-inline-styles/safari): 
 1. Inspect element > In the **Styles** pane, click inside "Style Attribute​" braces to input the inline style.
 
