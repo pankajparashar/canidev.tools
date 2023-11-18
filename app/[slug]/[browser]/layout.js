@@ -20,6 +20,19 @@ export async function generateMetadata({ params }) {
 	return {
 		title: `${browser} | ${feature.Name} | Can I DevTools`,
 		description: feature.Description,
+		twitter: {
+			card: "summary_large_image",
+			title: `${browser} | ${feature.Name} | Can I DevTools`,
+			description: feature.Description,
+			creator: "@CanIDevTools",
+			site: "canidev.tools",
+		},
+		openGraph: {
+			title: `${browser} | ${feature.Name} | Can I DevTools`,
+			description: feature.Description,
+			url: "https://canidev.tools",
+			type: "website",
+		},
 	};
 }
 
