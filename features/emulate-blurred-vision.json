@@ -1,27 +1,29 @@
 {
-    "Name": "Emulate blurred vision",
+	"Name": "Emulate blurred vision",
+	"Description": "Can I emulate blurred vision on a page?",
 
-    "Description": "Can I emulate blurred vision on a page?",
-    "Category": "Accessibility",
-    "Newsletter": "tips-tricks-3",
-    
-    "Authors": ["@pankajparashar", "@kilianvalkhof"],
-    "Chrome": {
-        "Share": "https://twitter.com/CanIDevTools/status/1637145317995937793",
-        "Notes": "1. Run **Command** (`Cmd+Shift+P` or `Ctrl+Shift+P`) > \"Show Rendering\" (Drawer).\n2. Navigate to the **Emulate vision deficiencies** section and choose \"Blurred vision\".\n",
-        "Video": "https://res.cloudinary.com/canidevtools/video/upload/v1678802960/emulate-blurred-vision-chrome_aj62ff.mp4"
-    },
-    "Edge": {
-        "Notes": "1. Run **Command** (`Cmd+Shift+P` or `Ctrl+Shift+P`) > \"Show Rendering\" (Drawer).\n2. Navigate to the **Emulate** **vision** **deficiencies** section and choose \"Blurred vision\".\n",
-        "Share": "https://twitter.com/CanIDevTools/status/1637145317995937793",
-        "Video": "https://res.cloudinary.com/canidevtools/video/upload/v1679160200/emulate-blurred-vision-edge_muhj59.mp4"
-    },
-    "Opera": {        
-        "Share": "https://twitter.com/CanIDevTools/status/1637145317995937793",
-        "Video": "https://res.cloudinary.com/canidevtools/video/upload/v1679160201/emulate-blurred-vision-opera_esiiom.mp4",
-        "Notes": "1. Run **Command** (`Cmd+Shift+P` or `Ctrl+Shift+P`) > \"Show Rendering\" (Drawer).\n2. Navigate to the **Emulate** **vision** **deficiencies** section and choose \"Blurred vision\".\n"
-    },
-    "Polypane": {
-        "Notes": "1. Open the \"debug tools\" of an individual pane.\n2. Go to the \"Simulators\" tab.\n3. Choose between \"Far-sightedness\" and \"Astigmatism\".\n"
-    }
+	"Category": "Accessibility",
+	"Tags": ["emulation"],
+
+	"Newsletter": "tips-tricks-3",
+	"Authors": ["@pankajparashar", "@kilianvalkhof"],
+
+	"Chrome": {
+		"Share": "https://twitter.com/CanIDevTools/status/1637145317995937793",
+		"Notes": "1. Run **Command** (`Cmd+Shift+P` or `Ctrl+Shift+P`) > \"Show Rendering\" (Drawer).\n2. Navigate to the **Emulate vision deficiencies** section and choose \"Blurred vision\".\n",
+		"Video": "https://res.cloudinary.com/canidevtools/video/upload/v1678802960/emulate-blurred-vision-chrome_aj62ff.mp4"
+	},
+	"Edge": {
+		"Notes": "1. Run **Command** (`Cmd+Shift+P` or `Ctrl+Shift+P`) > \"Show Rendering\" (Drawer).\n2. Navigate to the **Emulate** **vision** **deficiencies** section and choose \"Blurred vision\".\n",
+		"Share": "https://twitter.com/CanIDevTools/status/1637145317995937793",
+		"Video": "https://res.cloudinary.com/canidevtools/video/upload/v1679160200/emulate-blurred-vision-edge_muhj59.mp4"
+	},
+	"Opera": {
+		"Share": "https://twitter.com/CanIDevTools/status/1637145317995937793",
+		"Video": "https://res.cloudinary.com/canidevtools/video/upload/v1679160201/emulate-blurred-vision-opera_esiiom.mp4",
+		"Notes": "1. Run **Command** (`Cmd+Shift+P` or `Ctrl+Shift+P`) > \"Show Rendering\" (Drawer).\n2. Navigate to the **Emulate** **vision** **deficiencies** section and choose \"Blurred vision\".\n"
+	},
+	"Polypane": {
+		"Notes": "1. Open the \"debug tools\" of an individual pane.\n2. Go to the \"Simulators\" tab.\n3. Choose between \"Far-sightedness\" and \"Astigmatism\".\n"
+	}
 }

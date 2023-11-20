@@ -3,6 +3,8 @@
 	"Description": "Can I simulate different color blindness conditions to test my web page?",
 
 	"Category": "Accessibility",
+	"Tags": ["simulation"],
+
 	"Authors": ["@pankajparashar"],
 
 	"Polypane": {

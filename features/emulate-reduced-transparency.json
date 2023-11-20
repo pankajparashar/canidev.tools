@@ -2,10 +2,11 @@
 	"Name": "Emulate reduced transparency",
 	"Description": "Can I emulate reduced transparency CSS media feature?",
 
-	
 	"Category": "CSS",
+	"Tags": ["emulation"],
+
 	"Authors": ["@pankajparashar"],
-	
+
 	"Chrome": {
 		"Video": "https://res.cloudinary.com/canidevtools/video/upload/l_watermark,w_100,o_10/emulate-reduced-transparency-chrome.mp4",
 		"Image": "https://res.cloudinary.com/canidevtools/image/upload/l_watermark,w_100,o_10/emulate-reduced-transparency-chrome.png",
@@ -18,7 +19,7 @@
 			"1. \"Emulate prefers-reduced-transparency media feature\", [What's New in DevTools (Chrome 118)](https://developer.chrome.com/blog/new-in-devtools-118/#reduced-transparency)."
 		]
 	},
-	
+
 	"Polypane": {
 		"Video": "https://res.cloudinary.com/canidevtools/video/upload/l_watermark,w_100,o_10/emulate-reduced-transparency-polypane.mp4",
 		"Image": "https://res.cloudinary.com/canidevtools/image/upload/l_watermark,w_100,o_10/emulate-reduced-transparency-polypane.png",

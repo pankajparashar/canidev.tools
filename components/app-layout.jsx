@@ -65,14 +65,16 @@ import { DataContext } from "./data-provider";
 export const AppLayout = props => {
 	const searchParams = useSearchParams();
 	const category = searchParams.get("category");
+	const tag = searchParams.get("tag");
 	const query = searchParams.get("q");
 
 	const router = useRouter();
 	const { toggleColorScheme } = useMantineColorScheme();
 
-	let { categories, features } = useContext(DataContext);
+	let { categories, features, tags } = useContext(DataContext);
 	features = features
 		.filter(f => category === null || f.Category === category)
+		.filter(f => tag === null || f.Tags?.includes(tag))
 		.filter(
 			f =>
 				query === null ||
@@ -129,11 +131,9 @@ export const AppLayout = props => {
 			</AppShell.Header>
 			<AppShell.Navbar p="md">
 				<AppShell.Section grow component={ScrollArea}>
-					<Accordion defaultValue="categories" variant="filled">
+					<Accordion defaultValue={tag ? "tags" : "categories"} variant="filled">
 						<Accordion.Item key="categories" value="categories">
-							<Accordion.Control>
-								<Text fw={700}>Categories ({Object.keys(categories).length})</Text>
-							</Accordion.Control>
+							<Accordion.Control>Categories ({Object.keys(categories).length})</Accordion.Control>
 							<Accordion.Panel>
 								<NavLink
 									label="All"
@@ -164,6 +164,32 @@ export const AppLayout = props => {
 										}}
 									/>
 								))}
+							</Accordion.Panel>
+						</Accordion.Item>
+						<Accordion.Item key="tags" value="tags">
+							<Accordion.Control>Tags ({Object.keys(tags).length})</Accordion.Control>
+							<Accordion.Panel>
+								{Object.entries(tags).map(([tag, slugs]) => {
+									return (
+										<NavLink
+											key={tag}
+											label={`#${tag}`}
+											rightSection={slugs.length}
+											component={Link}
+											variant="filled"
+											active={searchParams.get("tag") === tag}
+											href={{
+												pathname: "/",
+												query: { tag },
+											}}
+											styles={{
+												label: {
+													fontSize: "var(--mantine-font-size-md)",
+												},
+											}}
+										/>
+									);
+								})}
 							</Accordion.Panel>
 						</Accordion.Item>
 					</Accordion>

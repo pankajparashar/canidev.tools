@@ -3,8 +3,9 @@
 	"Description": "Can I override the body of a network request?",
 
 	"Category": "Network",
-	"Authors": ["@pankajparashar"],
+	"Tags": ["overrides"],
 
+	"Authors": ["@pankajparashar"],
 	"Related": ["override-response-headers"],
 
 	"Chrome": {

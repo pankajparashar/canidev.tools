@@ -37,6 +37,7 @@ export const metadata = {
 export default async function RootLayout({ children }) {
 	const categories = {};
 	const features = [];
+	const tags = {};
 
 	fs.readdirSync("features").forEach(filename => {
 		const filepath = path.join("features", filename);
@@ -50,6 +51,12 @@ export default async function RootLayout({ children }) {
 
 		const category = feature.Category;
 		categories[category] = category in categories ? categories[category] + 1 : 1;
+
+		if (feature.Tags) {
+			feature.Tags.forEach(tag => {
+				tags[tag] = tag in tags ? [...tags[tag], feature.Slug] : [feature.Slug];
+			});
+		}
 	});
 
 	features.forEach(feature => {
@@ -92,8 +99,8 @@ export default async function RootLayout({ children }) {
 			</head>
 			<body>
 				<MantineProvider theme={theme} defaultColorScheme="auto">
-					<DataProvider features={features} categories={categories}>
-						<AppLayout categories={categories}>{children}</AppLayout>
+					<DataProvider {...{ features, categories, tags }}>
+						<AppLayout>{children}</AppLayout>
 					</DataProvider>
 				</MantineProvider>
 				<Analytics />

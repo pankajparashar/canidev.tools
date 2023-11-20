@@ -1,8 +1,9 @@
 {
 	"Name": "Override response headers",
-
 	"Description": "Can I override headers of the network response?",
+
 	"Category": "Network",
+	"Tags": ["overrides"],
 
 	"Authors": ["@pankajparashar"],
 	"Related": ["override-response-body"],
