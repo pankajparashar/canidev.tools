@@ -13,14 +13,6 @@ export async function generateMetadata({ params }) {
 	const file = fs.readFileSync(filename);
 	const feature = JSON.parse(file);
 
-	try {
-		const views = await kv.get(params.slug);
-		console.log(params.slug, views);
-		await kv.set(params.slug, views ? Number(views) + 1 : 1);
-	} catch (err) {
-		console.log(err);
-	}
-
 	return {
 		title: `${feature.Name} | Can I DevTools`,
 		description: feature.Description,
@@ -40,6 +32,14 @@ export async function generateMetadata({ params }) {
 	};
 }
 
-export default function Page() {
+export default async function Page() {
+	try {
+		const views = await kv.get(params.slug);
+		console.log(params.slug, views);
+		await kv.set(params.slug, views ? Number(views) + 1 : 1);
+	} catch (err) {
+		console.log(err);
+	}
+
 	return <ScrollArea></ScrollArea>;
 }
