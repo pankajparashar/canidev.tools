@@ -34,7 +34,7 @@ import {
 	IconListDetails,
 	IconBrandSpeedtest,
 	IconCode,
-	IconRoute,
+	IconCirclesRelation,
 	IconBoxMargin,
 	IconAccessible,
 	IconReportMedical,
@@ -209,7 +209,9 @@ export default function Layout({ children, params }) {
 							content: { padding: "0 1em" },
 						}}>
 						<Accordion.Item value="related">
-							<Accordion.Control icon={<IconRoute />} disabled={!feature.Related}>
+							<Accordion.Control
+								icon={<IconCirclesRelation stroke={1.5} size={20} />}
+								disabled={!feature.Related}>
 								<Text fw={700}>Related{`(${feature.Related ? feature.Related.length : 0})`}</Text>
 							</Accordion.Control>
 

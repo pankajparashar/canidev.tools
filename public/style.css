@@ -8,6 +8,13 @@
 	}
 }
 
+:root[data-mantine-color-scheme="light"] ::placeholder {
+	color: #4e5255;
+}
+:root[data-mantine-color-scheme="dark"] ::placeholder {
+	color: #b6bcc9;
+}
+
 .column {
 	position: sticky;
 	top: 4em;
