@@ -139,8 +139,7 @@ Can I block all network requests of a domain?
 2. Add the domain name in the input box to block all the matching requests for that domain.
 
 [Edge](https://canidev.tools/block-request-domain/edge): 
-1. In the **Network** panel, right click on the network request, and select "Block request domain". This will open the **Network** **request** **blocking** drawer that will let you manage blocked network requests. 
-
+1. In the **Network** panel, right click on the network request, and select **Block request domain**. This will open the **Network request blocking** drawer that will let you manage the blocked network requests.
 [Safari](https://canidev.tools/block-request-domain/safari): 
 1. In the **Network** panel, right click on the request and select "Create Response Local Override" to open the **Sources** panel, which contains the list of all local overrides.
 2. Right click on the override and select "Edit Local Override...". Add the domain name in the URL pattern and use Status as `404: Not Found` to block all the network requests for that domain.
