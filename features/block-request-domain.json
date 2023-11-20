@@ -1,35 +1,38 @@
 {
-    "Name": "Block request domain",
+	"Name": "Block request domain",
+	"Description": "Can I block all network requests of a domain?",
 
-    "Description": "Can I block all network requests of a domain?",
-    "Category": "Network",
-    "Newsletter": "tips-tricks-27",
-    
-    "Authors": ["@pankajparashar"],
-    "Chrome": {
-        "Share": "https://twitter.com/CanIDevTools/status/1581551114427674624",
-        "Notes": "1. In the **Network** panel, right click on the network request, and select \"Block request domain\". This will open the **Network request blocking** drawer that will let you manage blocked network requests. \n",
-        "Video": "https://res.cloudinary.com/canidevtools/video/upload/v1665901195/block-request-domain-chrome_fi7oxw.mp4"
-    },
-    "Firefox": {
-        "Share": "https://twitter.com/CanIDevTools/status/1581551653446045696",
-        "Notes": "1. In the **Network** panel, click the \"Request Blocking\" icon in the toolbar to open the **Blocking** pane in the left sidebar.\n2. Add the domain name in the input box to block all the matching requests for that domain.\n",
-        "Video": "https://res.cloudinary.com/canidevtools/video/upload/v1665901185/block-request-domain-firefox_l8vozt.mp4"
-    },
-    "Edge": {
-        "Notes": "1. In the **Network** panel, right click on the network request, and select \"Block request domain\". This will open the **Network** **request** **blocking** drawer that will let you manage blocked network requests. \n",
-        "Share": "https://twitter.com/CanIDevTools/status/1581551114427674624",
-        "Video": "https://res.cloudinary.com/canidevtools/video/upload/v1665901192/block-request-domain-edge_sbo8bn.mp4",
-        "References": "1. \"Block a network request by using the Network tool\", on Edge DevTools [documentation](https://learn.microsoft.com/en-us/microsoft-edge/devtools-guide-chromium/network-request-blocking/network-request-blocking-tool#block-a-network-request-by-using-the-network-tool)\n"
-    },
-    "Safari": {
-        "Share": "https://twitter.com/CanIDevTools/status/1581555292138967040",
-        "Video": "https://res.cloudinary.com/canidevtools/video/upload/v1665901197/block-request-domain-safari_hwx933.mp4",
-        "Notes": "1. In the **Network** panel, right click on the request and select \"Create Response Local Override\" to open the **Sources** panel, which contains the list of all local overrides.\n2. Right click on the override and select \"Edit Local Override...\". Add the domain name in the URL pattern and use Status as `404: Not Found` to block all the network requests for that domain.\n"
-    },
-    "Opera": {
-        "Share": "https://twitter.com/CanIDevTools/status/1581551114427674624",
-        "Video": "https://res.cloudinary.com/canidevtools/video/upload/v1665901188/block-request-domain-opera_ldbxwr.mp4",
-        "Notes": "1. In the **Network** panel, right click on the network request, and select \"Block request domain\". This will open the **Network request blocking** drawer that will let you manage blocked network requests. \n"
-    }
+	"Category": "Network",
+	"Newsletter": "tips-tricks-27",
+
+	"Authors": ["@pankajparashar"],
+
+	"Chrome": {
+		"Share": "https://twitter.com/CanIDevTools/status/1581551114427674624",
+		"Notes": "1. In the **Network** panel, right click on the network request, and select \"Block request domain\". This will open the **Network request blocking** drawer that will let you manage blocked network requests. \n",
+		"Video": "https://res.cloudinary.com/canidevtools/video/upload/v1665901195/block-request-domain-chrome_fi7oxw.mp4"
+	},
+
+	"Firefox": {
+		"Share": "https://twitter.com/CanIDevTools/status/1581551653446045696",
+		"Notes": "1. In the **Network** panel, click the \"Request Blocking\" icon in the toolbar to open the **Blocking** pane in the left sidebar.\n2. Add the domain name in the input box to block all the matching requests for that domain.\n",
+		"Video": "https://res.cloudinary.com/canidevtools/video/upload/v1665901185/block-request-domain-firefox_l8vozt.mp4"
+	},
+
+	"Edge": {
+		"Notes": [
+			"1. In the **Network** panel, right click on the network request, and select **Block request domain**. This will open the **Network request blocking** drawer that will let you manage the blocked network requests."
+		],
+		"Share": "https://twitter.com/CanIDevTools/status/1581551114427674624",
+		"Video": "https://res.cloudinary.com/canidevtools/video/upload/v1665901192/block-request-domain-edge_sbo8bn.mp4",
+		"References": [
+			"1. Block a network request by using the Network tool, [Microsoft Edge DevTools Guide](https://learn.microsoft.com/en-us/microsoft-edge/devtools-guide-chromium/network-request-blocking/network-request-blocking-tool#block-a-network-request-by-using-the-network-tool)"
+		]
+	},
+
+	"Safari": {
+		"Share": "https://twitter.com/CanIDevTools/status/1581555292138967040",
+		"Video": "https://res.cloudinary.com/canidevtools/video/upload/v1665901197/block-request-domain-safari_hwx933.mp4",
+		"Notes": "1. In the **Network** panel, right click on the request and select \"Create Response Local Override\" to open the **Sources** panel, which contains the list of all local overrides.\n2. Right click on the override and select \"Edit Local Override...\". Add the domain name in the URL pattern and use Status as `404: Not Found` to block all the network requests for that domain.\n"
+	}
 }
