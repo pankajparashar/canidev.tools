@@ -123,8 +123,7 @@ Can I block a network request?
 1. In the **Network** tab, right click on the request and select "Block URL". This will open the "Blocking" pane in the left sidebar to manage all the blocking requests.
 
 [Edge](https://canidev.tools/block-request-by-url/edge): 
-1. In the **Network** tab, right click on the request and select "Block request URL". This will open the "Network request blocking" drawer that will let you manage all your blocked requests.
-
+1. In the **Network** panel, right click on the request and select **Block request URL**. This will open the **Network request blocking** drawer that will let you manage all the blocked requests.
 [Safari](https://canidev.tools/block-request-by-url/safari): 
 1. In the **Network** tab, right click on the request **Name**, and select "Block Request URL".
 2. In the **Sources** tab, under the **Local Overrides** section in the left sidebar, you can manage the blocked request.
