@@ -244,8 +244,10 @@ export const AppLayout = props => {
 							))}
 							<Box
 								style={{
-									position: "sticky",
+									position: "absolute",
+									width: "100%",
 									bottom: 0,
+									paddingRight: "var(--mantine-spacing-xl)",
 									backgroundColor: "var(--mantine-color-body)",
 								}}>
 								<Divider />
