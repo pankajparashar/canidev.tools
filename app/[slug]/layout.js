@@ -51,7 +51,7 @@ import {
 } from "@tabler/icons-react";
 
 export default function Layout({ children, params }) {
-	const [views, setViews] = useState();
+	const [views, setViews] = useState("-");
 	const router = useRouter();
 	const pathname = usePathname();
 	const isMobile = useMediaQuery("(max-width: 700px)");
