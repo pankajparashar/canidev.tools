@@ -98,7 +98,6 @@ export default function Layout({ children, params }) {
 			</Group>
 			<Divider />
 			<Alert
-				color="gray"
 				icon={isMobile ? null : icons[feature.Category]}
 				title={feature.Name}
 				styles={{
@@ -145,7 +144,6 @@ export default function Layout({ children, params }) {
 				<>
 					<SimpleGrid cols={{ base: 1, sm: 2 }} p="md">
 						<Alert
-							color="gray"
 							title="Authors"
 							styles={{
 								title: {
@@ -168,7 +166,6 @@ export default function Layout({ children, params }) {
 								: ""}
 						</Alert>
 						<Alert
-							color="gray"
 							title="Last Modified"
 							styles={{
 								title: {
@@ -182,7 +179,6 @@ export default function Layout({ children, params }) {
 							{feature.LastModifiedTime}
 						</Alert>
 						<Alert
-							color="gray"
 							title="Newsletter"
 							styles={{
 								title: {

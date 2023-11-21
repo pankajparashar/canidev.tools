@@ -74,6 +74,7 @@ export default async function RootLayout({ children }) {
 		fontFamily: "Operator Mono",
 		fontFamilyMonospace: "Operator Mono",
 		primaryColor: "dark",
+		primaryShade: 4,
 		defaultRadius: 0,
 		breakpoints: {
 			sm: "700px",
