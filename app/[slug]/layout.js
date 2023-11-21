@@ -1,6 +1,6 @@
 "use client";
 
-import { useContext } from "react";
+import { useContext, useState, useEffect } from "react";
 import { DataContext } from "../../components/data-provider";
 import { IconBrandPolypane } from "../../components/tabler-icons";
 import { useRouter, usePathname } from "next/navigation";
@@ -22,6 +22,10 @@ import {
 	SimpleGrid,
 } from "@mantine/core";
 import {
+	IconEye,
+	IconClockHour3,
+	IconNews,
+	IconUsers,
 	IconBrandGithub,
 	IconBrandSafari,
 	IconBrandEdge,
@@ -47,6 +51,7 @@ import {
 } from "@tabler/icons-react";
 
 export default function Layout({ children, params }) {
+	const [views, setViews] = useState();
 	const router = useRouter();
 	const pathname = usePathname();
 	const isMobile = useMediaQuery("(max-width: 700px)");
@@ -69,6 +74,26 @@ export default function Layout({ children, params }) {
 		Debugger: <IconCode />,
 		Performance: <IconBrandSpeedtest />,
 	};
+
+	useEffect(() => {
+		fetch(`https://real-catfish-46253.kv.vercel-storage.com/get/${params.slug}`, {
+			headers: {
+				Authorization:
+					"Bearer AbStASQgMTViZjljMWYtZDFjMS00YzExLWE2ZDgtMTQ1NTJmMWVkZDFlNTU2YWMzMzdmMTUyNGU4YjhjMjMzMjcxMTE1YjAxN2M=",
+			},
+		})
+			.then(response => response.json())
+			.then(data => {
+				const viewCount = typeof Number(data.result) === "number" ? Number(data.result) + 1 : 1;
+				setViews(viewCount);
+				fetch(`https://real-catfish-46253.kv.vercel-storage.com/set/${params.slug}/${viewCount}`, {
+					headers: {
+						Authorization:
+							"Bearer AbStASQgMTViZjljMWYtZDFjMS00YzExLWE2ZDgtMTQ1NTJmMWVkZDFlNTU2YWMzMzdmMTUyNGU4YjhjMjMzMjcxMTE1YjAxN2M=",
+					},
+				});
+			});
+	}, []);
 
 	return (
 		<Paper className="column" w="100%" withBorder style={{ borderTop: 0, borderBottom: 0 }}>
@@ -144,8 +169,10 @@ export default function Layout({ children, params }) {
 				<>
 					<SimpleGrid cols={{ base: 1, sm: 2 }} p="md">
 						<Alert
+							icon={<IconUsers />}
 							title="Authors"
 							styles={{
+								icon: { marginTop: "5px" },
 								title: {
 									fontSize: "var(--mantine-font-size-md)",
 								},
@@ -166,8 +193,10 @@ export default function Layout({ children, params }) {
 								: ""}
 						</Alert>
 						<Alert
+							icon={<IconClockHour3 />}
 							title="Last Modified"
 							styles={{
+								icon: { marginTop: "5px" },
 								title: {
 									fontSize: "var(--mantine-font-size-md)",
 								},
@@ -179,8 +208,10 @@ export default function Layout({ children, params }) {
 							{feature.LastModifiedTime}
 						</Alert>
 						<Alert
+							icon={<IconNews />}
 							title="Newsletter"
 							styles={{
+								icon: { marginTop: "5px" },
 								title: {
 									fontSize: "var(--mantine-font-size-md)",
 								},
@@ -196,6 +227,21 @@ export default function Layout({ children, params }) {
 							) : (
 								"-"
 							)}
+						</Alert>
+						<Alert
+							icon={<IconEye />}
+							title="Views"
+							styles={{
+								icon: { marginTop: "5px" },
+								title: {
+									fontSize: "var(--mantine-font-size-md)",
+								},
+								message: {
+									fontSize: "var(--mantine-font-size-md)",
+									marginTop: 0,
+								},
+							}}>
+							{views}
 						</Alert>
 					</SimpleGrid>
 					<Divider />
