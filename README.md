@@ -2487,28 +2487,6 @@ Can I see the tab order of the web page?
 1. Open DevTools panel (`Cmd/Ctrl+Shift+P`) > Info > Outline. Select "Focus Order" from the dropdown menu at the top.
 2. Click "Show Overlay" to visualize the tab order in each pane. tab order that goes against the reading direction is marked in red.
 
-## Show URL path
-Can I see full URL path of the network requests?
-
-[Chrome](https://canidev.tools/show-url-path/chrome): 
-1. In the **Network** tab, open "Network settings" (top-right).
-2. Check the option "Use large request rows" to show the URL path under the resource name<sup>[1]</sup>
-
-
-[Firefox](https://canidev.tools/show-url-path/firefox): 
-1. In the **Network** panel, right click on the column header, and select URL. This will add a new column in the grid, which contains the full URL of the resource.
-
-
-[Edge](https://canidev.tools/show-url-path/edge): 
-1. In the **Network** tab, open "Network settings" (top-right).
-2. Check the option "Use large request rows" to show the URL path under the resource name.
-
-
-
-[Safari](https://canidev.tools/show-url-path/safari): 
-1. In the **Network** panel, right click on the column header, and select "Path" to add a new column showing the URL path for the resource.
-
-
 ## Simulate color blindness
 Can I simulate different color blindness conditions to test my web page?
 
@@ -2948,6 +2926,23 @@ Can I view the size of the data transferred over the network?
 
 [Safari](https://canidev.tools/view-transferred-size/safari): 
 1. In the **Network** panel, the footer contains the size of the data transferred in Bytes. If a filter is applied, then it displays the size of the filtered resources.
+
+
+## View URL path
+Can I view the full URL path of the network requests?
+
+[Chrome](https://canidev.tools/view-url-path/chrome): 
+1. In the **Network** panel, open **Network settings** > Enable the **Big request rows** option to show the URL path under the resource name.
+
+[Firefox](https://canidev.tools/view-url-path/firefox): 
+1. In the **Network** panel, right click on the column header, and select URL. This will add a new column in the grid, which contains the full URL of the resource.
+
+
+[Edge](https://canidev.tools/view-url-path/edge): 
+1. In the **Network** panel, open **Network settings** > Enable the **Big request rows** option to show the URL path under the resource name.
+
+[Safari](https://canidev.tools/view-url-path/safari): 
+1. In the **Network** panel, right click on the column header, and select "Path" to add a new column showing the URL path for the resource.
 
 
 ## Zoom In & Out Devtools
