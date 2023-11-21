@@ -33,13 +33,5 @@ export async function generateMetadata({ params }) {
 }
 
 export default async function Page() {
-	try {
-		const views = await kv.get(params.slug);
-		console.log(params.slug, views);
-		await kv.set(params.slug, views ? Number(views) + 1 : 1);
-	} catch (err) {
-		console.log(err);
-	}
-
 	return <ScrollArea></ScrollArea>;
 }
