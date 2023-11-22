@@ -328,11 +328,10 @@ const NavFooter = () => {
 			</Tabs.List>
 
 			<Tabs.Panel value="ads">
-				<Alert ref={adRef} p={"xs"} variant="light" color="gray"></Alert>
+				<Alert ref={adRef} p={"xs"}></Alert>
 			</Tabs.Panel>
 			<Tabs.Panel value="about">
 				<Alert
-					color="gray"
 					pt={"xs"}
 					styles={{
 						message: {
