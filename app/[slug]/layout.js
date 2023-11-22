@@ -3,7 +3,7 @@
 import { useContext, useState, useEffect } from "react";
 import { DataContext } from "../../components/data-provider";
 import { IconBrandPolypane } from "../../components/tabler-icons";
-import { useRouter, usePathname } from "next/navigation";
+import { useRouter, usePathname, useSearchParams } from "next/navigation";
 import { useDisclosure, useMediaQuery } from "@mantine/hooks";
 import Link from "next/link";
 
@@ -54,6 +54,7 @@ export default function Layout({ children, params }) {
 	const [views, setViews] = useState("-");
 	const router = useRouter();
 	const pathname = usePathname();
+	const searchParams = useSearchParams();
 	const isMobile = useMediaQuery("(max-width: 700px)");
 
 	const browser = pathname.split("/")[2];
@@ -95,6 +96,10 @@ export default function Layout({ children, params }) {
 			});
 	}, []);
 
+	const onTabChange = value => {
+		router.push(`/${params.slug}/${value}?` + searchParams.toString());
+	};
+
 	return (
 		<Paper className="column" w="100%" withBorder style={{ borderTop: 0, borderBottom: 0 }}>
 			<Group justify="space-between" style={{ height: "40px" }}>
@@ -134,7 +139,7 @@ export default function Layout({ children, params }) {
 				{feature.Description}
 			</Alert>
 			<Divider />
-			<Tabs value={browser} onChange={value => router.push(`/${params.slug}/${value}`)} variant="pills">
+			<Tabs value={browser} onChange={value => onTabChange(value)} variant="pills">
 				<Tabs.List grow justify="space-between" spacing={0} style={{ gap: 0 }}>
 					<Tabs.Tab
 						style={{ borderRight: borderColor() }}
