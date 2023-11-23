@@ -195,7 +195,7 @@ export const AppLayout = props => {
 					</Accordion>
 				</AppShell.Section>
 				<AppShell.Section>
-					<NavFooter />
+					<NavFooter pathname={pathname} searchParams={searchParams} />
 				</AppShell.Section>
 			</AppShell.Navbar>
 			<AppShell.Main>
@@ -303,7 +303,8 @@ export const AppLayout = props => {
 	);
 };
 
-const NavFooter = () => {
+const NavFooter = props => {
+	console.log(props.pathname);
 	const adRef = useRef();
 	const [activeTab, setActiveTab] = useState("ads");
 
@@ -317,7 +318,7 @@ const NavFooter = () => {
 		s.id = "_carbonads_js";
 		s.src = `//cdn.carbonads.com/carbon.js?serve=CEAIVKJJ&placement=wwwcanidevtools`;
 		adRef.current.appendChild(s);
-	}, []);
+	}, [props.pathname, props.searchParams]);
 
 	return (
 		<Tabs placement="right" inverted={true} value={activeTab} onChange={setActiveTab}>
@@ -328,7 +329,7 @@ const NavFooter = () => {
 			</Tabs.List>
 
 			<Tabs.Panel value="ads">
-				<Alert ref={adRef} p={"xs"}></Alert>
+				<Alert ref={adRef} p={"xs"} key={props.pathname + props.searchParams.toString()}></Alert>
 			</Tabs.Panel>
 			<Tabs.Panel value="about">
 				<Alert
