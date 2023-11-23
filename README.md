@@ -1575,10 +1575,10 @@ Can I inspect CSS animations & keyframes using the devtools?
 2. Now reload the page or trigger the animation to see the timeline in the bottom panel. 
 
 
-## Inspect CSS at-rule
+## Inspect CSS @property rule
 Can I inspect the @property CSS at-rules applied to an element?
 
-[Chrome](https://canidev.tools/inspect-css-at-rule/chrome): 
+[Chrome](https://canidev.tools/inspect-css-at-property/chrome): 
 1. To inspect your registered custom properties, in **Elements > Styles**, hover over the property name and see its descriptors in a tooltip. In the tooltip, click the link to view the registered property in the collapsible @property section.
 
 ## Inspect CSS Filters
