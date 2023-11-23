@@ -1,0 +1,19 @@
+{
+	"Name": "View uncompressed size",
+	"Description": "Can I view the uncompressed size of a resources transferred over the network?",
+
+	"Category": "Network",
+	"Authors": ["@pankajparashar"],
+
+	"Chrome": {
+		"Notes": [
+			"1. In the **Network** panel, open **Network settings** and select **Big request rows** option. The uncompressed size of the resource is available in the **Size** column below the compressed size."
+		]
+	},
+
+	"Edge": {
+		"Notes": [
+			"1. In the **Network** panel, open **Network settings** and select **Big request rows** option. The uncompressed size of the resource is available in the **Size** column below the compressed size."
+		]
+	}
+}
