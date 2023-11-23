@@ -2928,6 +2928,15 @@ Can I view the size of the data transferred over the network?
 1. In the **Network** panel, the footer contains the size of the data transferred in Bytes. If a filter is applied, then it displays the size of the filtered resources.
 
 
+## View uncompressed size
+Can I view the uncompressed size of a resources transferred over the network?
+
+[Chrome](https://canidev.tools/view-uncompressed-size/chrome): 
+1. In the **Network** panel, open **Network settings** and select **Big request rows** option. The uncompressed size of the resource is available in the **Size** column below the compressed size.
+
+[Edge](https://canidev.tools/view-uncompressed-size/edge): 
+1. In the **Network** panel, open **Network settings** and select **Big request rows** option. The uncompressed size of the resource is available in the **Size** column below the compressed size.
+
 ## View URL path
 Can I view the full URL path of the network requests?
 
