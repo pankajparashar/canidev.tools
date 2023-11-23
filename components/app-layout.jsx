@@ -304,7 +304,6 @@ export const AppLayout = props => {
 };
 
 const NavFooter = props => {
-	console.log(props.pathname);
 	const adRef = useRef();
 	const [activeTab, setActiveTab] = useState("ads");
 
