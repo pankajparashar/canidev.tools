@@ -61,7 +61,6 @@ export default function Page({ params }) {
 						<Group justify="space-between" pr="sm">
 							<Text fw={700}>Video</Text>
 							<Badge
-								color="gray"
 								size="lg"
 								component="a"
 								href={browser.Share}
@@ -97,7 +96,6 @@ export default function Page({ params }) {
 							<Text fw={700}>Notes</Text>
 							{browser.Version ? (
 								<Badge
-									color="gray"
 									size="lg"
 									styles={{
 										label: {
