@@ -110,6 +110,7 @@ export default function Layout({ children, params }) {
 					py="lg"
 					style={{ borderTop: 0, borderBottom: 0, borderLeft: 0 }}
 					styles={{
+						root: { backgroundColor: "inherit" },
 						label: { fontSize: "var(--mantine-font-size-sm)" },
 					}}>
 					{feature.Category}
@@ -117,6 +118,9 @@ export default function Layout({ children, params }) {
 				<Button
 					variant="default"
 					size="sm"
+					styles={{
+						root: { backgroundColor: "inherit" },
+					}}
 					leftSection={<IconBrandGithub size={20} stroke={1.5} />}
 					style={{ borderBottom: 0, borderTop: 0 }}
 					component="a"
