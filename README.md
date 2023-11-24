@@ -715,6 +715,15 @@ Can I delete a node from the DOM tree?
 [Chrome](https://canidev.tools/delete-node/chrome): 
 1. In the **Elements** panel, right click on the node and select "Delete element".
 
+## Detect third-party cookies
+Can I detect if a website uses third-party cookies?
+
+[Chrome](https://canidev.tools/detect-3p-cookies/chrome): 
+1. In the **Application** panel, under the **Storage** section, expand **Cookies**. All the entries with third-party domains are the ones using cookies.
+
+[Edge](https://canidev.tools/detect-3p-cookies/edge): 
+1. In the **Application** panel, under the **Storage** section, expand **Cookies**. All the entries with third-party domains are the ones using cookies.
+
 ## Detect memory leaks
 Can I detect memory leaks in my web app using devtools?
 
