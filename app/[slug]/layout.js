@@ -33,8 +33,6 @@ export default function Layout({ children, params }) {
             .then(response => response.json())
             .then(data => {
                 const viewCount = /^[0-9]*$/.test(data.result) ? Number(data.result) + 1 : 1;
-                console.log(viewCount);
-
                 setViews(viewCount);
                 fetch(`https://real-catfish-46253.kv.vercel-storage.com/set/${params.slug}/${viewCount}`, {
                     headers: {
