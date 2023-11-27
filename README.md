@@ -1320,6 +1320,14 @@ Can I fuzzy autocomplete CSS properties?
 1. Safari allows you to autocomplete CSS properties with fuzzy matching like, entering `gtc` will suggest `grid-template-columns` in the suggestions box.
 
 
+## Get detached elements
+Can I get a list of all the detached elements to investigate memory leaks?
+
+[Edge](https://canidev.tools/get-detached-elements/edge): 
+1. Open Command Menu and Run Show Detached Elements. Click the Get detached elements button to list all of the currently detached elements.
+2. Click the Analyze button to take a memory heap snapshot. Once done, you can then double-click any of the detached elements' Ids to find the link between these elements and your JavaScript code in the Memory panel.
+3. Don't forget to click the Collect garbage button every once in a while to force garbage collection. Then get the detached elements again. Indeed, some elements may remain in memory simply because the browser hasn't yet cleaned them up. Forcing GC makes sure the list only contains the elements that are detached and cannot be cleaned up.
+
 ## Get last evaluated value
 Can I get the last evaluated value in the console?
 
@@ -1784,6 +1792,9 @@ Can I inspect and edit various CSS font properties like, font-size, line-height 
 1. Inspect element > Navigate to the **Font** panel to see information about the active font for the selected DOM node in the DOM Tree, providing computed values for both basic properties (e.g. size, style, weight, etc.) and advanced properties (e.g. ligatures, alternate glyphs, variations, etc.)
 
 
+## Inspect localstorage
+Can I inspect the localstorage of a website?
+
 ## Inspect popup overlays
 Can I inspect the popup overlay elements like the Dropdown lists, menus, etc.,
 
@@ -1850,6 +1861,9 @@ Can I inspect & visualize CSS scroll snap layout?
 
 
 
+## Inspect Session storage
+Can I inspect the session storage of a website?
+
 ## Inspect top layer
 Can I inspect the top layer elements like dialog, popover etc?
 
@@ -1898,10 +1912,10 @@ Can I trace style declarations in the original source file?
 
 
 
-## Measure distance on page
-Can I measure straight line distance between any two points on the page?
+## Measure portion of page
+Can I measure a portion of the page to compute the width, height and the distance between two points?
 
-[Firefox](https://canidev.tools/measure-distance-page/firefox): 
+[Firefox](https://canidev.tools/measure-portion-page/firefox): 
 1. Open **Settings**(`F1`) > Scroll down to the **Available Toolbox Buttons** section, and enable the option, "Measure a portion of the page". This will add a new **Ruler** button in the toolbox at the top.
 2. Click the Ruler button > Click and drag along the straight line to measure the straight line distance between any two points on the page.
 
@@ -2616,6 +2630,9 @@ Can I target iframes while debugging from the Console panel?
 [Safari](https://canidev.tools/target-iframe-console/safari): 
 1. In the **Console** panel, select the target iframe from the "Execution context for $0" dropdown (bottom-right).
 
+
+## Test Back/Forward cache
+Can I test the Back/Forward cache of a web app?
 
 ## Throttle CPU speed
 Can I throttle CPU speed to simulate slower machines?

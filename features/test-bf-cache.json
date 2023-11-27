@@ -1,0 +1,7 @@
+{
+    "Name": "Test Back/Forward cache",
+    "Description": "Can I test the Back/Forward cache of a web app?",
+
+    "Category": "Other",
+    "Authors": ["@pankajparashar"]
+}

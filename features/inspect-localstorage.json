@@ -1,0 +1,7 @@
+{
+    "Name": "Inspect localstorage",
+    "Description": "Can I inspect the localstorage of a website?",
+
+    "Category": "Storage",
+    "Authors": ["@pankajparashar"]
+}

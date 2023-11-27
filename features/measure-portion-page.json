@@ -1,0 +1,11 @@
+{
+    "Name": "Measure portion of page",
+    "Description": "Can I measure a portion of the page to compute the width, height and the distance between two points?",
+
+    "Category": "Other",
+    "Authors": ["@pankajparashar"],
+
+    "Firefox": {
+        "Notes": ["1. Open **Settings**(`F1`) > Scroll down to the **Available Toolbox Buttons** section, and enable the option, \"Measure a portion of the page\". This will add a new **Ruler** button in the toolbox at the top.", "2. Click the Ruler button > Click and drag along the straight line to measure the straight line distance between any two points on the page."]
+    }
+}

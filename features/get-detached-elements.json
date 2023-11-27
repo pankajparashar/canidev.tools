@@ -1,0 +1,12 @@
+{
+    "Name": "Get detached elements",
+    "Description": "Can I get a list of all the detached elements to investigate memory leaks?",
+
+    "Category": "Performance",
+    "Authors": ["@pankajparashar"],
+
+    "Edge": {
+        "Notes": ["1. Open Command Menu and Run Show Detached Elements. Click the Get detached elements button to list all of the currently detached elements.", "2. Click the Analyze button to take a memory heap snapshot. Once done, you can then double-click any of the detached elements' Ids to find the link between these elements and your JavaScript code in the Memory panel.", "3. Don't forget to click the Collect garbage button every once in a while to force garbage collection. Then get the detached elements again. Indeed, some elements may remain in memory simply because the browser hasn't yet cleaned them up. Forcing GC makes sure the list only contains the elements that are detached and cannot be cleaned up."],
+        "References": ["1. Debug DOM memory leaks with the Detached Elements tool, [Microsoft Edge DevTools Guide](https://learn.microsoft.com/en-us/microsoft-edge/devtools-guide-chromium/memory-problems/dom-leaks)"]
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "Name": "Inspect Session storage",
+    "Description": "Can I inspect the session storage of a website?",
+
+    "Category": "Storage",
+    "Authors": ["@pankajparashar"]
+}
