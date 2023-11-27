@@ -1876,8 +1876,9 @@ Can I inspect the top layer elements like dialog, popover etc?
 Can I inspect web vital statistics like CLS, LCP, FIP, etc.,
 
 [Polypane](https://canidev.tools/inspect-web-vitals/polypane): 
-1. Open **App settings** > **Settings** tab and select **Web Vitals Status**. This will add a tiny green dot in the bottom left of the page.
-2. Click the dot to open a popup containing the various web vital statistics like CLS, LCP, FIP, etc.,
+1. Open **App settings** > Under the **Settings** tab, select **Web Vitals Status**. This will add a tiny icon in the bottom left of the page.
+2. Click the icon to open a popup containing the various web vital statistics like CLS, LCP, FIP, etc.,
+3. Click the eye icon to inspect the stats directly on the page.
 
 ## Jump to Id
 Can I jump to the target element with an id from the source element?
