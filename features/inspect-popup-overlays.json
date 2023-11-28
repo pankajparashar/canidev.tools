@@ -1,28 +1,19 @@
 {
-	"Name": "Inspect popup overlays",
-	"Description": "Can I inspect the popup overlay elements like the Dropdown lists, menus, etc.,",
-	
+    "Name": "Inspect popup overlays",
+    "Description": "Can I inspect the popup overlay elements like the Dropdown lists, menus, etc.,",
 
-	"Category": "CSS",
-	"Authors": ["@pankajparashar"],
-	
-	"Chrome": {
-		"Image": "https://res.cloudinary.com/canidevtools/image/upload/l_watermark,w_100,o_10/inspect-popup-overlays-chrome.png",
-		"Video": "https://res.cloudinary.com/canidevtools/video/upload/l_watermark,w_100,o_10/inspect-popup-overlays-chrome.mp4",
-		"Share": "https://twitter.com/CanIDevTools/status/1723756605685256606",
-		"Notes": [
-			"1. Open the **Command Menu** (`Cmd+Shift+P` or `Ctrl+Shift+P`) > Run \"Show Rendering\" to open the **Rendering** drawer.",
-			"2. Scroll down and select **Emulate a focused page** option to inspect the popup element in DevTools."
-		],
-		"References": [
-			"1. Emulate a focused page, [Chrome DevTools Docs](https://developer.chrome.com/docs/devtools/rendering/apply-effects/#emulate-a-focused-page)."
-		]
-	},
-	
-	"Edge": {
-		"Notes": [
-			"1. Open the **Command Menu** (`Cmd+Shift+P` or `Ctrl+Shift+P`) > Run \"Show Rendering\" to open the **Rendering** drawer.",
-			"2. Scroll down and select **Emulate a focused page** option to inspect the popup element in DevTools."
-		]
-	}
+    "Category": "CSS",
+    "Authors": ["@pankajparashar"],
+
+    "Chrome": {
+        "Image": "https://res.cloudinary.com/canidevtools/image/upload/l_watermark,w_150,o_5/inspect-popup-overlays-chrome.png",
+        "Video": "https://res.cloudinary.com/canidevtools/video/upload/l_watermark,w_150,o_5/inspect-popup-overlays-chrome.mp4",
+        "Share": "https://twitter.com/CanIDevTools/status/1723756605685256606",
+        "Notes": ["1. Open the **Command Menu** (`Cmd+Shift+P` or `Ctrl+Shift+P`) > Run \"Show Rendering\" to open the **Rendering** drawer.", "2. Scroll down and select **Emulate a focused page** option to inspect the popup element in DevTools."],
+        "References": ["1. Emulate a focused page, [Chrome DevTools Docs](https://developer.chrome.com/docs/devtools/rendering/apply-effects/#emulate-a-focused-page)."]
+    },
+
+    "Edge": {
+        "Notes": ["1. Open the **Command Menu** (`Cmd+Shift+P` or `Ctrl+Shift+P`) > Run \"Show Rendering\" to open the **Rendering** drawer.", "2. Scroll down and select **Emulate a focused page** option to inspect the popup element in DevTools."]
+    }
 }
