@@ -6,6 +6,7 @@
     "Authors": ["@pankajparashar"],
 
     "Firefox": {
+        "Image": "https://res.cloudinary.com/canidevtools/image/upload/l_watermark,w_100,o_10/disable-debugger.statement-firefox.png",
         "Video": "https://res.cloudinary.com/canidevtools/video/upload/l_watermark,w_100,o_10/disable-debugger.statement-firefox.mp4",
         "Share": "https://twitter.com/CanIDevTools/status/1729433210709524538",
         "Notes": ["1. In the **Debugger** panel, expand the **Breakpoints** pane, and unselect the **Pause on debugger statement** option to prevent the debugger from pausing at the `debugger` statement."]
