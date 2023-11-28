@@ -6,6 +6,7 @@
     "Authors": ["@pankajparashar"],
     
     "Firefox": {
+        "Share": "https://twitter.com/CanIDevTools/status/1729521446614077739",
         "Version": "116",
         "Image": "https://res.cloudinary.com/canidevtools/image/upload/l_watermark,w_150,o_5/inspect-dns-over-https-firefox.png",
         "Video": "https://res.cloudinary.com/canidevtools/video/upload/l_watermark,w_150,o_5/inspect-dns-over-https-firefox.mp4",
