@@ -90,7 +90,6 @@ export default function Page({ params }) {
                                     pr="xs"
                                     ml="lg"
                                     mb="md"
-                                    color="gray"
                                     styles={{
                                         message: {
                                             fontSize: "var(--mantine-font-size-md)",
