@@ -780,7 +780,7 @@ Can I prevent the debugger from pausing at the debugger statement?
 1. In the **Debugger** panel, expand the **Breakpoints** pane, and unselect the **Pause on debugger statement** option to prevent the debugger from pausing at the `debugger` statement.
 
 
-![](https://res.cloudinary.com/canidevtools/image/upload/l_watermark,w_100,o_10/disable-debugger.statement-firefox.png)
+![](https://res.cloudinary.com/canidevtools/image/upload/l_watermark,w_100,o_10,g_south_west,x_15,y_15/disable-debugger.statement-firefox.png)
 
 ## Disable JavaScript
 Can I disable JavaScript on a web page?
