@@ -1,0 +1,11 @@
+{
+    "Name": "Disable debugger statement",
+    "Description": "Can I prevent the debugger from pausing at the debugger statement?",
+
+    "Category": "Debugger",
+    "Authors": ["@pankajparashar"],
+
+    "Firefox": {
+        "Notes": ["1. In the **Debugger** panel, expand the **Breakpoints** pane, and unselect the **Pause on debugger statement** option to prevent the debugger from pausing at the `debugger` statement."]
+    }
+}

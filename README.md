@@ -773,6 +773,12 @@ Can I disable cache for the network requests?
 1. In the Edit menu, select "Disable cache" and choose to disable it just for the current session, or persistently.
 
 
+## Disable debugger statement
+Can I prevent the debugger from pausing at the debugger statement?
+
+[Firefox](https://canidev.tools/disable-debugger-statement/firefox): 
+1. In the **Debugger** panel, expand the **Breakpoints** pane, and unselect the **Pause on debugger statement** option to prevent the debugger from pausing at the `debugger` statement.
+
 ## Disable JavaScript
 Can I disable JavaScript on a web page?
 
