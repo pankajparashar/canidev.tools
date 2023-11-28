@@ -128,13 +128,8 @@ export const AppLayout = props => {
                     <Box>{props.children}</Box>
                 ) : (
                     <Box className="grid">
-                        <ScrollArea h={"calc(100dvh - 4em)"} type="hover" scrollbarSize={10} scrollHideDelay={0} p="md" pb="0">
-                            <Box
-                                style={{
-                                    position: "sticky",
-                                    top: 0,
-                                    backgroundColor: "var(--mantine-color-body)",
-                                }}>
+                        <Box>
+                            <Box p="md" pb="0">
                                 <TextInput
                                     variant="filled"
                                     placeholder={`Search ${features.length} records`}
@@ -159,41 +154,37 @@ export const AppLayout = props => {
                                 />
                                 <Divider />
                             </Box>
-                            {features.map(feature => (
-                                <div key={feature.Slug} id={feature.Slug} className="smt">
-                                    <NavLink
-                                        px={"xs"}
-                                        label={feature.Name}
-                                        description={feature.Description}
-                                        styles={{
-                                            label: {
-                                                fontSize: "var(--mantine-font-size-md)",
-                                                fontWeight: activeSlug === feature.Slug ? "bold" : "inherit",
-                                            },
-                                            description: {
-                                                fontSize: "var(--mantine-font-size-md)",
-                                                fontWeight: activeSlug === feature.Slug ? "bold" : "inherit",
-                                            },
-                                        }}
-                                        active={activeSlug === feature.Slug}
-                                        variant={activeSlug === feature.Slug ? "filled" : "default"}
-                                        component={Link}
-                                        href={{
-                                            pathname: `/${feature.Slug}`,
-                                            query: Object.fromEntries(searchParams),
-                                        }}
-                                        rightSection={<IconChevronRight stroke={1} />}
-                                    />
-                                    <Divider />
-                                </div>
-                            ))}
-                            <Box
-                                style={{
-                                    position: "sticky",
-                                    width: "100%",
-                                    bottom: 0,
-                                    backgroundColor: "var(--mantine-color-body)",
-                                }}>
+                            <ScrollArea h={"calc(100dvh - 12em)"} type="hover" scrollbarSize={10} scrollHideDelay={0} p="md" pb="0" pt="0" className="">
+                                {features.map(feature => (
+                                    <div key={feature.Slug} id={feature.Slug}>
+                                        <NavLink
+                                            px={"xs"}
+                                            label={feature.Name}
+                                            description={feature.Description}
+                                            styles={{
+                                                label: {
+                                                    fontSize: "var(--mantine-font-size-md)",
+                                                    fontWeight: activeSlug === feature.Slug ? "bold" : "inherit",
+                                                },
+                                                description: {
+                                                    fontSize: "var(--mantine-font-size-md)",
+                                                    fontWeight: activeSlug === feature.Slug ? "bold" : "inherit",
+                                                },
+                                            }}
+                                            active={activeSlug === feature.Slug}
+                                            variant={activeSlug === feature.Slug ? "filled" : "default"}
+                                            component={Link}
+                                            href={{
+                                                pathname: `/${feature.Slug}`,
+                                                query: Object.fromEntries(searchParams),
+                                            }}
+                                            rightSection={<IconChevronRight stroke={1} />}
+                                        />
+                                        <Divider />
+                                    </div>
+                                ))}
+                            </ScrollArea>
+                            <Box p="md" pt="0">
                                 <Divider />
                                 <Grid grow gutter="xs" mt="md">
                                     <Grid.Col span={2}>
@@ -213,7 +204,7 @@ export const AppLayout = props => {
                                     </Grid.Col>
                                 </Grid>
                             </Box>
-                        </ScrollArea>
+                        </Box>
                         <Box>{props.children}</Box>
                     </Box>
                 )}
