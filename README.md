@@ -1761,6 +1761,15 @@ Can I inspect the browser's developer tool?
 2. Important to note, you can keep using this shortcut to inspecting new instance of devtools recursively.
 
 
+## Inspect DNS over HTTPS
+Can I inspect the network requests that were resolved with DoH (DNS over HTTPS)?
+
+[Firefox](https://canidev.tools/inspect-dns-over-https/firefox): 
+1. In the **Network** panel, open the request to see the details in the side pane. In the **Headers** tab, verify that the **DNS Resolution** property has the value **DNS over HTTPS**.
+
+
+![](https://res.cloudinary.com/canidevtools/image/upload/l_watermark,w_150,o_5/inspect-dns-over-https-firefox.png)
+
 ## Inspect fetch priority
 Can I inspect the fetchpriority applied to the resources?
 
