@@ -10,6 +10,7 @@
     },
     "dependencies": {
         "@mantine/carousel": "7.2.2",
+        "@mantine/code-highlight": "^7.2.2",
         "@mantine/core": "7.2.2",
         "@mantine/hooks": "7.2.2",
         "@tabler/icons-react": "2.40.0",

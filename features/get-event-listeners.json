@@ -6,6 +6,13 @@
     "Authors": ["@pankajparashar"],
     
     "Chrome": {
-        "Code": ""
-    }
+        "Code":
+            '''
+            $$("*").map(el => {
+                return { el, listeners: getEventListeners(el) };
+            }).filter(data => {
+                return Object.keys(data.listeners).length;
+            });
+            '''
+        }
 }

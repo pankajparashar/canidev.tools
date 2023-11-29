@@ -9,6 +9,7 @@ import "@mantine/carousel/styles.css";
 import { MantineProvider, ColorSchemeScript } from "@mantine/core";
 
 import "../public/style.css";
+import '@mantine/code-highlight/styles.css';
 
 import { AppLayout } from "../components/app-layout";
 import { DataProvider } from "../components/data-provider";
@@ -72,8 +73,8 @@ export default async function RootLayout({ children }) {
 	});
 
 	const theme = {
-		fontFamily: 'Supply, "Operator Mono"',
-		fontFamilyMonospace: 'Supply, "Operator Mono"',
+		fontFamily: '"Operator Mono"',
+		fontFamilyMonospace: '"Operator Mono"',
 		primaryColor: "dark",
 		primaryShade: 4,
 		defaultRadius: 0,
