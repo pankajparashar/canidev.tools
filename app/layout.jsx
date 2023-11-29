@@ -73,8 +73,8 @@ export default async function RootLayout({ children }) {
 	});
 
 	const theme = {
-		fontFamily: '"Operator Mono"',
-		fontFamilyMonospace: '"Operator Mono"',
+		fontFamily: 'Berkley',
+		fontFamilyMonospace: 'Berkley',
 		primaryColor: "dark",
 		primaryShade: 4,
 		defaultRadius: 0,
