@@ -1,6 +1,6 @@
 {
     "Name": "Get Event Listeners",
-    "Description": "Get all the event listeners on the page",
+    "Description": "Can I get all the event listeners on a web page?",
     
     "Category": "Tricks",
     "Authors": ["@pankajparashar"],

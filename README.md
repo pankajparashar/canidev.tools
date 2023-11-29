@@ -1338,7 +1338,7 @@ Can I get a list of all the detached elements to investigate memory leaks?
 3. Don't forget to click the Collect garbage button every once in a while to force garbage collection. Then get the detached elements again. Indeed, some elements may remain in memory simply because the browser hasn't yet cleaned them up. Forcing GC makes sure the list only contains the elements that are detached and cannot be cleaned up.
 
 ## Get Event Listeners
-Get all the event listeners on the page
+Can I get all the event listeners on a web page?
 
 [Chrome](https://canidev.tools/get-event-listeners/chrome): 
 undefined
