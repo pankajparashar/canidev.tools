@@ -1,14 +1,16 @@
 import * as fs from "fs";
 import path from "path";
 
+import HJSON from "hjson";
+
 export default function sitemap() {
 	const urlset = [];
 	fs.readdirSync("features").forEach(filename => {
 		const filepath = path.join("features", filename);
-		const fileobj = fs.readFileSync(filepath);
+		const fileobj = fs.readFileSync(filepath, "utf-8");
 		const mtime = fs.statSync(filepath).mtime;
 
-		const feature = JSON.parse(fileobj);
+		const feature = HJSON.parse(fileobj);
 		feature.LastModifiedTime = mtime.toLocaleDateString();
 		feature.Slug = path.basename(filename, ".json");
 

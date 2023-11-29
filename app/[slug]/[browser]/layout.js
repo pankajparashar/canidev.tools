@@ -1,6 +1,8 @@
 import * as fs from "fs";
 import path from "path";
 
+import HJSON from "hjson";
+
 export async function generateStaticParams() {
 	const paths = [];
 	fs.readdirSync("features").map(name => {
@@ -13,8 +15,8 @@ export async function generateStaticParams() {
 
 export async function generateMetadata({ params }) {
 	const filename = path.join("features", params.slug + ".json");
-	const file = fs.readFileSync(filename);
-	const feature = JSON.parse(file);
+	const file = fs.readFileSync(filename, 'utf-8');
+	const feature = HJSON.parse(file);
 	const browser = params.browser.charAt(0).toUpperCase() + params.browser.slice(1);
 
 	return {

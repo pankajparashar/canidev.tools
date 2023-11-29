@@ -1,8 +1,8 @@
-import { ScrollArea } from "@mantine/core";
-
 import * as fs from "fs";
 import path from "path";
-import { kv } from "@vercel/kv";
+
+import HJSON from "hjson";
+import { ScrollArea } from "@mantine/core";
 
 export async function generateStaticParams() {
 	return fs.readdirSync("features").map(name => ({ slug: path.basename(name, ".json") }));
@@ -10,8 +10,8 @@ export async function generateStaticParams() {
 
 export async function generateMetadata({ params }) {
 	const filename = path.join("features", params.slug + ".json");
-	const file = fs.readFileSync(filename);
-	const feature = JSON.parse(file);
+	const file = fs.readFileSync(filename, 'utf-8');
+	const feature = HJSON.parse(file);
 
 	return {
 		title: `${feature.Name} | Can I DevTools`,
