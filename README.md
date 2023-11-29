@@ -1568,6 +1568,9 @@ Can I inspect and debug container queries in the devtools?
 1. Elements with `container-type` as `inline-size` or `size` are decorated with the **container** badge in the **Inspector** panel.
 2. In the **Rules** view, `@container` declaration is underlined, on hover displays the container element. Click the crosshair icon to jump to the element in the Element tree.
 
+
+![](https://res.cloudinary.com/canidevtools/image/upload/v1701269027/inspect-container-queries-firefox.png)
+
 [Safari](https://canidev.tools/inspect-container-queries/safari): 
 1. Inspect the element with `container-type` property. All the child elements using the Container query will have the `@container` decorator on top of the selector, which can be edited to affect the size of the container.
 
