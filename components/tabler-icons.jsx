@@ -1,4 +1,4 @@
-import { IconBoxMargin, IconAccessible, IconReportMedical, IconTerminal2, IconCrosshair, IconBrandNextjs, IconAffiliate, IconHexagons, IconCode, IconBrandSpeedtest, IconDatabase } from "@tabler/icons-react";
+import { IconBoxMargin, IconAccessible, IconReportMedical, IconTerminal2, IconCrosshair, IconBrandNextjs, IconAffiliate, IconHexagons, IconCode, IconBrandSpeedtest, IconDatabase, IconPlayCard } from "@tabler/icons-react";
 
 export const IconBrandPolypane = props => (
     <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-brand-polypane" width="25" height="25" viewBox="0 0 24 24" strokeWidth={props.stroke} stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round">
@@ -26,4 +26,5 @@ export const ICONS = {
     Debugger: <IconCode size={20} stroke={1.5} />,
     Performance: <IconBrandSpeedtest size={20} stroke={1.5} />,
     Storage: <IconDatabase size={20} stroke={1.5} />,
+    Tricks: <IconPlayCard size={20} stroke={1.5} />
 };

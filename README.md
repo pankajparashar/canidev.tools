@@ -1337,6 +1337,12 @@ Can I get a list of all the detached elements to investigate memory leaks?
 2. Click the Analyze button to take a memory heap snapshot. Once done, you can then double-click any of the detached elements' Ids to find the link between these elements and your JavaScript code in the Memory panel.
 3. Don't forget to click the Collect garbage button every once in a while to force garbage collection. Then get the detached elements again. Indeed, some elements may remain in memory simply because the browser hasn't yet cleaned them up. Forcing GC makes sure the list only contains the elements that are detached and cannot be cleaned up.
 
+## Get Event Listeners
+Get all the event listeners on the page
+
+[Chrome](https://canidev.tools/get-event-listeners/chrome): 
+undefined
+
 ## Get last evaluated value
 Can I get the last evaluated value in the console?
 
