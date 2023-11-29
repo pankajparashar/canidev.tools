@@ -16,6 +16,7 @@
         "@vercel/analytics": "^1.1.0",
         "@vercel/kv": "^1.0.0",
         "embla-carousel-react": "^7.1.0",
+        "hjson": "^3.2.2",
         "marked": "^9.1.0",
         "next": "14.0.1",
         "react": "18.2.0",

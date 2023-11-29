@@ -2,6 +2,7 @@ import * as fs from "fs";
 import path from "path";
 
 import { Analytics } from "@vercel/analytics/react";
+import HJSON from "hjson";
 
 import "@mantine/core/styles.css";
 import "@mantine/carousel/styles.css";
@@ -41,10 +42,10 @@ export default async function RootLayout({ children }) {
 
 	fs.readdirSync("features").forEach(filename => {
 		const filepath = path.join("features", filename);
-		const fileobj = fs.readFileSync(filepath);
+		const fileobj = fs.readFileSync(filepath, 'utf8');
 		const mtime = fs.statSync(filepath).mtime;
 
-		const feature = JSON.parse(fileobj);
+		const feature = HJSON.parse(fileobj);
 		feature.LastModifiedTime = mtime.toLocaleDateString();
 		feature.Slug = path.basename(filename, ".json");
 		features.push(feature);

@@ -1,0 +1,11 @@
+{
+    "Name": "Get Event Listeners",
+    "Description": "Get all the event listeners on the page",
+    
+    "Category": "Tricks",
+    "Authors": ["@pankajparashar"],
+    
+    "Chrome": {
+        "Code": ""
+    }
+}
