@@ -3,9 +3,9 @@
 import { useContext } from "react";
 import { marked } from "marked";
 
-import { Alert, Group, Badge, ScrollArea, Accordion, Box, Text, Divider } from "@mantine/core";
-import { CodeHighlight } from '@mantine/code-highlight';
-import { IconCode, IconBrandYoutube, IconNotes } from "@tabler/icons-react";
+import { ActionIcon, Alert, Group, Badge, ScrollArea, Accordion, Box, Text, Divider } from "@mantine/core";
+import { CodeHighlight } from "@mantine/code-highlight";
+import { IconShare, IconCopy, IconCode, IconBrandYoutube, IconNotes } from "@tabler/icons-react";
 
 import { DataContext } from "../../../components/data-provider";
 
@@ -27,19 +27,9 @@ export default function Page({ params }) {
                     <Accordion.Control icon={<IconBrandYoutube stroke={1} />} style={{ maxHeight: "45px" }}>
                         <Group justify="space-between" pr="sm">
                             <Text fw={700}>Video</Text>
-                            <Badge
-                                variant={"light"}
-                                size="lg"
-                                component="a"
-                                href={browser.Share}
-                                target="_blank"
-                                styles={{
-                                    label: {
-                                        textTransform: "capitalize",
-                                    }
-                                }}>
-                                Share
-                            </Badge>
+                            <ActionIcon variant={"subtle"} component="a" href={browser.Share} target="_blank">
+                                <IconShare size={20} stroke={1.5} />
+                            </ActionIcon>
                         </Group>
                     </Accordion.Control>
                     <Accordion.Panel>
@@ -47,72 +37,67 @@ export default function Page({ params }) {
                         <video controls autoPlay loop muted playsInline preload="metadata" src={browser.Video ? browser.Video + "#t=0.1" : "https://placehold.co/1920x1080.mp4?font=roboto"} />
                     </Accordion.Panel>
                 </Accordion.Item>
-                <Divider />
-                {feature.Category !== "Tricks" ?
+                {feature.Category !== "Tricks" ? (
                     <Accordion.Item value="notes">
-                        <Accordion.Control icon={<IconNotes stroke={1} className="t_r" />}>
+                        <Accordion.Control icon={<IconNotes stroke={1} className="t_r" />} style={{ maxHeight: "45px" }}>
                             <Group justify="space-between" pr="sm">
                                 <Text fw={700}>Notes</Text>
-                                {browser.Version && <Badge size={"lg"} variant={"light"}>{browser.Version}</Badge>}
+                                {browser.Version && (
+                                    <Badge size={"lg"} variant={"light"}>
+                                        {browser.Version}
+                                    </Badge>
+                                )}
                             </Group>
                         </Accordion.Control>
                         <Accordion.Panel maw={"750px"} pr="xs">
                             <Box
                                 dangerouslySetInnerHTML={{
-                                __html: browser?.Notes ? marked.parse(Array.isArray(browser.Notes) ? browser.Notes.join("\n") : browser.Notes) : "",
+                                    __html: browser?.Notes ? marked.parse(Array.isArray(browser.Notes) ? browser.Notes.join("\n") : browser.Notes) : "",
                                 }}
                             />
                             {browser.References ? (
                                 <>
-                                <Text fw={700} ml="lg" mb="sm">
-                                    References:
-                                </Text>
-                                <Alert
-                                    p={0}
-                                    pr="xs"
-                                    ml="lg"
-                                    mb="md"
-                                    styles={{
-                                    message: {
-                                        fontSize: "var(--mantine-font-size-md)",
-                                        wordBreak: "break-word",
-                                        marginTop: 0,
-                                    },
-                                    }}>
-                                    <Box
-                                        id="references"
-                                        dangerouslySetInnerHTML={{
-                                        __html: browser.References ? marked.parse(Array.isArray(browser.References) ? browser.References.join("\n") : browser.References) : "",
-                                        }}
-                                    />
-                                </Alert>
+                                    <Text fw={700} ml="lg" mb="sm">
+                                        References:
+                                    </Text>
+                                    <Alert
+                                        p={0}
+                                        pr="xs"
+                                        ml="lg"
+                                        mb="md"
+                                        styles={{
+                                            message: {
+                                                fontSize: "var(--mantine-font-size-md)",
+                                                wordBreak: "break-word",
+                                                marginTop: 0,
+                                            },
+                                        }}>
+                                        <Box
+                                            id="references"
+                                            dangerouslySetInnerHTML={{
+                                                __html: browser.References ? marked.parse(Array.isArray(browser.References) ? browser.References.join("\n") : browser.References) : "",
+                                            }}
+                                        />
+                                    </Alert>
                                 </>
-                                ) : null}
-                        </Accordion.Panel>
-                    </Accordion.Item> :
-                    <Accordion.Item value={"notes"}>
-                        <Accordion.Control icon={<IconCode stroke={1.5}/>}>
-                            <Group justify="space-between" pr={"sm"}>
-                                <Text fw={700}>Code</Text>
-                                <Badge variant={"light"} size="lg" styles={{
-                                    label: {
-                                        textTransform: "capitalize",
-                                    }
-                                }}>
-                                    Copy
-                                </Badge>
-                            </Group>
-                        </Accordion.Control>
-                        <Divider/>
-                        <Accordion.Panel p={"md"}>
-                            <CodeHighlight
-                                withCopyButton={false}
-                                code={browser.Code}
-                                language="js"
-                            />
+                            ) : null}
                         </Accordion.Panel>
                     </Accordion.Item>
-                }
+                ) : (
+                    <Accordion.Item value={"notes"}>
+                        <Accordion.Control icon={<IconCode stroke={1} />} style={{ maxHeight: "45px" }}>
+                            <Group justify="space-between" pr={"sm"}>
+                                <Text fw={700}>Code</Text>
+                                <ActionIcon variant={"subtle"}>
+                                    <IconCopy size={20} stroke={1.5} />
+                                </ActionIcon>
+                            </Group>
+                        </Accordion.Control>
+                        <Accordion.Panel p={"md"}>
+                            <CodeHighlight withCopyButton={false} code={browser.Code} language="js" />
+                        </Accordion.Panel>
+                    </Accordion.Item>
+                )}
             </Accordion>
         </ScrollArea.Autosize>
     );
