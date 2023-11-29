@@ -69,26 +69,28 @@ export const AppLayout = props => {
                             <Accordion.Control>Categories ({Object.keys(categories).length})</Accordion.Control>
                             <Accordion.Panel>
                                 <NavLink label="All" variant="filled" active={searchParams.get("category") === null} component={Link} href="/" leftSection={<IconListDetails stroke={1.5} size={20} />} rightSection={Object.values(categories).reduce((a, b) => a + b, 0)} />
-                                {Object.entries(categories).map(([category, count]) => (
-                                    <NavLink
-                                        styles={{
-                                            label: {
-                                                fontSize: "var(--mantine-font-size-md)",
-                                            },
-                                        }}
-                                        label={category}
-                                        key={category}
-                                        rightSection={count}
-                                        leftSection={ICONS[category]}
-                                        component={Link}
-                                        variant="filled"
-                                        active={searchParams.get("category") === category}
-                                        href={{
-                                            pathname: "/",
-                                            query: { category },
-                                        }}
-                                    />
-                                ))}
+                                {Object.keys(categories)
+                                    .sort()
+                                    .map(category => (
+                                        <NavLink
+                                            styles={{
+                                                label: {
+                                                    fontSize: "var(--mantine-font-size-md)",
+                                                },
+                                            }}
+                                            label={category}
+                                            key={category}
+                                            rightSection={categories[category]}
+                                            leftSection={ICONS[category]}
+                                            component={Link}
+                                            variant="filled"
+                                            active={searchParams.get("category") === category}
+                                            href={{
+                                                pathname: "/",
+                                                query: { category },
+                                            }}
+                                        />
+                                    ))}
                             </Accordion.Panel>
                         </Accordion.Item>
                         <Accordion.Item key="tags" value="tags">
