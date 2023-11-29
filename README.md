@@ -2291,9 +2291,9 @@ Can I record and replay all the user actions performed on the website?
 
 [Chrome](https://canidev.tools/record-user-journey/chrome): 
 1. Open **Command Menu** (`Ctrl+Shift+P` or `Cmd+Shift+P`) > Run > Show Recorder (Panel).
+
 2. Click "Start new recording" > Enter name > Click "Start a new recording" > Perform actions on the page > Click "End recording".
 3. Click the "Replay" button to replay the recorded user journey.
-
 
 ## Reorder Tabs & Panes
 Can I reorder tabs & panes in the devtools panel?
@@ -2671,10 +2671,8 @@ Can I throttle CPU speed to simulate slower machines?
 [Chrome](https://canidev.tools/throttle-cpu-speed/chrome): 
 1. In the **Performance** panel, open **Settings** using the gear icon and select the "CPU: No throttling" dropdown to choose "4x/6x slowdown".
 
-
 [Edge](https://canidev.tools/throttle-cpu-speed/edge): 
 1. In the **Performance** panel, open **Settings** using the gear icon and select the "CPU: No throttling" dropdown to choose "4x/6x slowdown".
-
 
 ## Throttle CSS animation speed
 Can I throttle CSS animation playback speed?

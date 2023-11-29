@@ -1,20 +1,16 @@
 {
-  "Name": "Throttle CPU speed",
+    "Name": "Throttle CPU speed",
+    "Description": "Can I throttle CPU speed to simulate slower machines?",
 
-  "Description": "Can I throttle CPU speed to simulate slower machines?",
-  "Category": "Audit",
-  
-  "Authors": ["@pankajparashar"],
-  "Related": [
-    "throttle-network-speed"
-  ],
-  "Chrome": {
-    "Notes": "1. In the **Performance** panel, open **Settings** using the gear icon and select the \"CPU: No throttling\" dropdown to choose \"4x/6x slowdown\".\n"
-  },
-  "Edge": {
-    "Notes": "1. In the **Performance** panel, open **Settings** using the gear icon and select the \"CPU: No throttling\" dropdown to choose \"4x/6x slowdown\".\n"
-  },
-  "Opera": {
-    "Notes": "1. In the **Performance** panel, open **Settings** using the gear icon and select the \"CPU: No throttling\" dropdown to choose \"4x/6x slowdown\".\n"
-  }
+    "Category": "Performance",
+    "Authors": ["@pankajparashar"],
+
+    "Related": ["throttle-network-speed"],
+
+    "Chrome": {
+        "Notes": ["1. In the **Performance** panel, open **Settings** using the gear icon and select the \"CPU: No throttling\" dropdown to choose \"4x/6x slowdown\"."]
+    },
+    "Edge": {
+        "Notes": ["1. In the **Performance** panel, open **Settings** using the gear icon and select the \"CPU: No throttling\" dropdown to choose \"4x/6x slowdown\"."]
+    }
 }

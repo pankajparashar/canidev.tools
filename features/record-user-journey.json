@@ -1,13 +1,13 @@
 {
     "Name": "Record & replay user journey",
-
     "Description": "Can I record and replay all the user actions performed on the website?",
-    "Category": "Audit",
-    
+
+    "Category": "Other",
     "Authors": ["@pankajparashar"],
+
     "Chrome": {
-        "References": "1. \"Recorder\", by Chrome DevTools [Docs](https://developer.chrome.com/docs/devtools/recorder/)\n",
-        "Notes": "1. Open **Command Menu** (`Ctrl+Shift+P` or `Cmd+Shift+P`) > Run > Show Recorder (Panel).\n2. Click \"Start new recording\" > Enter name > Click \"Start a new recording\" > Perform actions on the page > Click \"End recording\".\n3. Click the \"Replay\" button to replay the recorded user journey.\n",
+        "References": ["1. \"Recorder\", by Chrome DevTools [Docs](https://developer.chrome.com/docs/devtools/recorder/)"],
+        "Notes": ["1. Open **Command Menu** (`Ctrl+Shift+P` or `Cmd+Shift+P`) > Run > Show Recorder (Panel).\n", "2. Click \"Start new recording\" > Enter name > Click \"Start a new recording\" > Perform actions on the page > Click \"End recording\".\n3. Click the \"Replay\" button to replay the recorded user journey."],
         "Video": "https://res.cloudinary.com/canidevtools/video/upload/v1658754413/record-user-journey-chrome_mm57nb.mp4"
     }
 }
