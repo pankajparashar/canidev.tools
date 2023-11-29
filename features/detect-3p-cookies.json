@@ -2,7 +2,7 @@
 	"Name": "Detect third-party cookies",
 	"Description": "Can I detect if a website uses third-party cookies?",
 
-	"Category": "Network",
+	"Category": "Storage",
 	"Authors": ["@pankajparashar"],
 
 	"Chrome": {
