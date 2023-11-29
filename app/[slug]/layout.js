@@ -4,22 +4,19 @@ import { useContext, useState, useEffect } from "react";
 import { DataContext } from "../../components/data-provider";
 import { IconBrandPolypane } from "../../components/tabler-icons";
 import { useRouter, usePathname, useSearchParams } from "next/navigation";
-import { useDisclosure, useMediaQuery } from "@mantine/hooks";
 import Link from "next/link";
 
 import { Box, NavLink, Accordion, Paper, Badge, Alert, Divider, Group, Button, Tabs, Text, SimpleGrid } from "@mantine/core";
-import { IconEye, IconClockHour3, IconNews, IconUsers, IconBrandGithub, IconBrandSafari, IconBrandEdge, IconBrandChrome, IconBrandFirefox, IconBrandOpera, IconArrowBack, IconListSearch, IconBrightness, IconListDetails, IconBrandSpeedtest, IconCode, IconCirclesRelation, IconBoxMargin, IconAccessible, IconReportMedical, IconTerminal2, IconBrandNextjs, IconAffiliate, IconHexagons, IconCrosshair, IconChevronRight } from "@tabler/icons-react";
-import { IconBrandSubStack, ICONS } from "../../components/tabler-icons";
+import { IconEye, IconClockHour3, IconNews, IconUsers, IconBrandGithub, IconBrandSafari, IconBrandEdge, IconBrandChrome, IconBrandFirefox, IconCirclesRelation, IconChevronRight } from "@tabler/icons-react";
 
 export default function Layout({ children, params }) {
     const [views, setViews] = useState("-");
     const router = useRouter();
     const pathname = usePathname();
     const searchParams = useSearchParams();
-    const isMobile = useMediaQuery("(max-width: 700px)");
 
     const browser = pathname.split("/")[2];
-    const borderColor = theme => `1px solid var(--_app-shell-border-color)`;
+    const borderColor = () => `1px solid var(--_app-shell-border-color)`;
 
     const { features } = useContext(DataContext);
     const feature = features.find(f => f.Slug === params.slug);
@@ -78,7 +75,6 @@ export default function Layout({ children, params }) {
             </Group>
             <Divider />
             <Alert
-                icon={isMobile ? null : ICONS[feature.Category]}
                 title={feature.Name}
                 styles={{
                     root: { border: 0 },
