@@ -62,6 +62,10 @@ code {
 }
 code {
     color: deeppink;
+    font-size: calc(1rem*var(--mantine-scale)) !important;
+}
+pre code {
+    color: inherit;
 }
 
 :root[data-mantine-color-scheme="dark"] .logo {
