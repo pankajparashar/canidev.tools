@@ -51,14 +51,15 @@ export default function Page({ params }) {
                         </Accordion.Control>
                         <Accordion.Panel maw={"750px"} pr="xs">
                             <Box
-                                mt={"lg"}
+                                mt="lg"
+                                mb="lg"
                                 dangerouslySetInnerHTML={{
                                     __html: browser?.Notes ? marked.parse(Array.isArray(browser.Notes) ? browser.Notes.join("\n") : browser.Notes) : "",
                                 }}
                             />
                             {browser.References ? (
                                 <>
-                                    <Text fw={700} ml="lg" mb="sm" mt={"lg"}>
+                                    <Text fw={700} ml="lg" mb="sm">
                                         References:
                                     </Text>
                                     <Alert
