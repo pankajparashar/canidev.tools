@@ -872,6 +872,19 @@ Can I edit the node as HTML?
 [Chrome](https://canidev.tools/edit-node-html/chrome): 
 1. In the **Elements** panel, right click on the node and select "Edit as HTML".
 
+## Edit and resend requests
+Can I edit and resend network requests?
+
+[Firefox](https://canidev.tools/edit-resend-requests/firefox): 
+- In the **Network** panel, right click on the request and select **Edit and Resend**.
+- This will open a **New Request** panel, where you can edit the method, URL, query string, headers and the body of the request.
+- Click **Send** to dispatch the request.
+
+[Edge](https://canidev.tools/edit-resend-requests/edge): 
+- In the **Network** panel, right click on the request and select **Edit and Resend**.
+- This will open the **Network Console** panel where you can edit the method, URL, query string, headers and the body of the request.
+- Click **Send** to dispatch the request.
+
 ## Emulate blurred vision
 Can I emulate blurred vision on a page?
 
