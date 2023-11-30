@@ -156,7 +156,7 @@ export const AppLayout = props => {
                                 />
                                 <Divider />
                             </Box>
-                            <ScrollArea h={"calc(100dvh - 12em)"} type="hover" scrollbarSize={10} scrollHideDelay={0} p="md" pb="0" pt="0" className="">
+                            <ScrollArea h={"calc(100dvh - 190px)"} type="hover" scrollbarSize={10} scrollHideDelay={0} p="md" pb="0" pt="0" className="">
                                 {features.map(feature => (
                                     <div key={feature.Slug} id={feature.Slug}>
                                         <NavLink
