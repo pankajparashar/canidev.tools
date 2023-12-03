@@ -653,7 +653,7 @@ Can I debug websites on remote devices?
 1. In the Menu bar, select **Develop** > Select the device > Select the page to open the **Web Inspector** for that URL.
 
 ## Debug scroll overflow
-Can I debug unwanted scrollbars?
+Can I debug container with scrollbars to identfy the element causing it?
 
 [Firefox](https://canidev.tools/debug-scroll-overflow/firefox): 
 1. In the **Inspector** panel, elements with scrollbars are decorated with the `scroll` badge. Click on the badge to jump to the element that caused the overflow.

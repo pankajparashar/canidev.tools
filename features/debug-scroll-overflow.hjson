@@ -1,6 +1,6 @@
 {
   "Name": "Debug scroll overflow",
-  "Description": "Can I debug unwanted scrollbars?",
+  "Description": "Can I debug container with scrollbars to identfy the element causing it?",
 
   "Category": "Elements",  
   "Authors": ["@pankajparashar", "@kilianvalkhof"],
