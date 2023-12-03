@@ -1,15 +1,25 @@
 {
   "Name": "Debug scroll overflow",
-
   "Description": "Can I debug unwanted scrollbars?",
-  "Category": "Elements",
-  
+
+  "Category": "Elements",  
   "Authors": ["@pankajparashar", "@kilianvalkhof"],
+
   "Firefox": {
-    "Notes": "1. In the **Inspector** panel, the elements with scrollbars have a `scroll` badge next to it. Click on the badge to jump to the element(s) that caused it.\n"
+    "Notes": 
+      '''
+      1. In the **Inspector** panel, elements with scrollbars are decorated with the `scroll` badge. Click on the badge to jump to the element that caused the overflow.
+      '''
   },
+
   "Polypane": {
-    "Notes": "1. Press `Cmd/Ctrl+D` to turn on layout debugging. Elements causing a scrollbar are marked in red.\n",
-    "References": "Layout Debugging [documentation](https://polypane.app/docs/layout-debugging/)"
+    "Notes": 
+      '''
+      1. Use `Cmd+D` or `Ctrl+D` to turn on layout debugging. Elements causing a scrollbar are highlighted in red.
+      ''',
+    "References":
+      '''
+      1. Layout Debugging, [Polypane Docs](https://polypane.app/docs/layout-debugging/).
+      '''
   }
 }

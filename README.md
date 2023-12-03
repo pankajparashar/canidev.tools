@@ -656,12 +656,10 @@ Can I debug websites on remote devices?
 Can I debug unwanted scrollbars?
 
 [Firefox](https://canidev.tools/debug-scroll-overflow/firefox): 
-1. In the **Inspector** panel, the elements with scrollbars have a `scroll` badge next to it. Click on the badge to jump to the element(s) that caused it.
-
+1. In the **Inspector** panel, elements with scrollbars are decorated with the `scroll` badge. Click on the badge to jump to the element that caused the overflow.
 
 [Polypane](https://canidev.tools/debug-scroll-overflow/polypane): 
-1. Press `Cmd/Ctrl+D` to turn on layout debugging. Elements causing a scrollbar are marked in red.
-
+1. Use `Cmd+D` or `Ctrl+D` to turn on layout debugging. Elements causing a scrollbar are highlighted in red.
 
 ## Debug speculation rules
 Can I debug speculation rules for prefetch/prerender next page navigations?
