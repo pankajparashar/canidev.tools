@@ -8,7 +8,7 @@ import { Alert, Tooltip, Affix, Box, Button, Tabs, Text, Anchor, TextInput, Acco
 import { useDisclosure, useMediaQuery } from "@mantine/hooks";
 import { Carousel } from "@mantine/carousel";
 
-import { IconSitemap, IconAd, IconQuote, IconBroadcast, IconBrandGithub, IconBrandX, IconBrandStripe, IconNews, IconUserCircle, IconStar, IconArrowBack, IconListSearch, IconBrightness, IconListDetails, IconBrandSpeedtest, IconCode, IconBoxMargin, IconAccessible, IconReportMedical, IconTerminal2, IconBrandNextjs, IconAffiliate, IconHexagons, IconCrosshair, IconChevronRight, IconRss, IconPlaylistAdd, IconDatabase } from "@tabler/icons-react";
+import { IconSitemap, IconAsteriskSimple, IconQuote, IconBroadcast, IconBrandGithub, IconBrandX, IconBrandStripe, IconNews, IconUserCircle, IconStar, IconArrowBack, IconListSearch, IconBrightness, IconListDetails, IconBrandSpeedtest, IconCode, IconBoxMargin, IconAccessible, IconReportMedical, IconTerminal2, IconBrandNextjs, IconAffiliate, IconHexagons, IconCrosshair, IconChevronRight, IconRss, IconPlaylistAdd, IconDatabase } from "@tabler/icons-react";
 
 import { IconBrandSubStack, ICONS } from "./tabler-icons";
 import { DataContext } from "./data-provider";
@@ -246,25 +246,27 @@ const NavFooter = props => {
                     pt={"xs"}
                     styles={{
                         message: {
-                            fontSize: "var(--mantine-font-size-md)",
                             wordBreak: "break-word",
                             marginTop: 0,
                         },
                     }}>
-                    It is like <a href="//caniuse.com">@CanIUse</a> but for the browser devtools, created by <a href="//pankajparashar.com">@pankajparashar</a>. Built with <a href="https://nextjs.org/">Next.js</a> && Deployed on <a href="https://vercel.com/">Vercel</a>.
-                    <SimpleGrid cols={3} spacing={0} mt="sm">
+                    It is like <a href="//caniuse.com">@CanIUse</a> but for the browser devtools, created by <a href="//pankajparashar.com">@pankajparashar</a> && curated by the community.
+                    <Text c="dimmed" size="sm" mt="xs">
+                        Built with <a href="https://nextjs.org/">@nextjs</a> ✪ Deployed on <a href="https://vercel.com/">@vercel</a> ✪ UI from <a href="/">@mantine</a>.
+                    </Text>
+                    <SimpleGrid cols={3} spacing={"1px"} mt="sm">
                         <Tooltip withArrow label="Substack" position="top">
-                            <Button size="xs" fullWidth variant="default" component="a" href="https://canidevtools.substack.com/" target="_blank">
+                            <Button size="xs" fullWidth variant="light" component="a" href="https://canidevtools.substack.com/" target="_blank">
                                 <IconBrandSubStack size={15} />
                             </Button>
                         </Tooltip>
                         <Tooltip withArrow label="Github" position="top">
-                            <Button size="xs" fullWidth variant="default" component="a" href="https://github.com/pankajparashar/canidev.tools" target="_blank">
+                            <Button size="xs" fullWidth variant="light" component="a" href="https://github.com/pankajparashar/canidev.tools" target="_blank">
                                 <IconBrandGithub size={20} />
                             </Button>
                         </Tooltip>
                         <Tooltip withArrow label="Twitter" position="top">
-                            <Button size="xs" fullWidth variant="default" component="a" href="https://twitter.com/canidevtools" target="_blank">
+                            <Button size="xs" fullWidth variant="light" component="a" href="https://twitter.com/canidevtools" target="_blank">
                                 <IconBrandX size={20} />
                             </Button>
                         </Tooltip>
