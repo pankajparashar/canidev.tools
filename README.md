@@ -1354,6 +1354,12 @@ Can I get all the event listeners on a web page?
 [Chrome](https://canidev.tools/get-event-listeners/chrome): 
 undefined
 
+[Edge](https://canidev.tools/get-event-listeners/edge): 
+undefined
+
+[Safari](https://canidev.tools/get-event-listeners/safari): 
+undefined
+
 ## Get last evaluated value
 Can I get the last evaluated value in the console?
 
@@ -2673,7 +2679,7 @@ Can I target iframes while debugging from the Console panel?
 1. In the **Console** panel, select the target iframe from the "Execution context for $0" dropdown (bottom-right).
 
 
-## Test Back/Forward cache
+## Test bfcache
 Can I test the Back/Forward cache of a web app?
 
 ## Throttle CPU speed

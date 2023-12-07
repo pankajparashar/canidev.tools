@@ -14,5 +14,27 @@
                 return Object.keys(data.listeners).length;
             });
             '''
-        }
+    },
+
+    "Edge": {
+        "Code":
+            '''
+            $$("*").map(el => {
+                return { el, listeners: getEventListeners(el) };
+            }).filter(data => {
+                return Object.keys(data.listeners).length;
+            });
+            '''
+    },
+
+    Safari: {
+        Code:
+            '''
+            $$("*").map(el => {
+                return { el, listeners: getEventListeners(el) };
+            }).filter(data => {
+                return Object.keys(data.listeners).length;
+            });
+            '''
+    }
 }

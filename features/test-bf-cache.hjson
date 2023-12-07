@@ -1,5 +1,5 @@
 {
-    "Name": "Test Back/Forward cache",
+    "Name": "Test bfcache",
     "Description": "Can I test the Back/Forward cache of a web app?",
 
     "Category": "Other",
