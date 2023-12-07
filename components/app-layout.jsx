@@ -8,7 +8,7 @@ import { Alert, Tooltip, Affix, Box, Button, Tabs, Text, Anchor, TextInput, Acco
 import { useDisclosure, useMediaQuery } from "@mantine/hooks";
 import { Carousel } from "@mantine/carousel";
 
-import { IconSitemap, IconQuote, IconBroadcast, IconBrandGithub, IconBrandX, IconBrandStripe, IconNews, IconUserCircle, IconStar, IconArrowBack, IconListSearch, IconBrightness, IconListDetails, IconBrandSpeedtest, IconCode, IconBoxMargin, IconAccessible, IconReportMedical, IconTerminal2, IconBrandNextjs, IconAffiliate, IconHexagons, IconCrosshair, IconChevronRight, IconRss, IconPlaylistAdd, IconDatabase } from "@tabler/icons-react";
+import { IconSitemap, IconAd, IconQuote, IconBroadcast, IconBrandGithub, IconBrandX, IconBrandStripe, IconNews, IconUserCircle, IconStar, IconArrowBack, IconListSearch, IconBrightness, IconListDetails, IconBrandSpeedtest, IconCode, IconBoxMargin, IconAccessible, IconReportMedical, IconTerminal2, IconBrandNextjs, IconAffiliate, IconHexagons, IconCrosshair, IconChevronRight, IconRss, IconPlaylistAdd, IconDatabase } from "@tabler/icons-react";
 
 import { IconBrandSubStack, ICONS } from "./tabler-icons";
 import { DataContext } from "./data-provider";
@@ -231,9 +231,11 @@ const NavFooter = props => {
     return (
         <Tabs placement="right" inverted={true} value={activeTab} onChange={setActiveTab}>
             <Tabs.List justify="space-between">
-                <Tabs.Tab value="ads"></Tabs.Tab>
-                {/* <Tabs.Tab value="about" leftSection={<IconUserCircle size={20} />} ml="auto" />
-                <Tabs.Tab value="testimonials" leftSection={<IconQuote size={20} />} /> */}
+                <Tabs.Tab value="ads" px={"xs"}>
+                    Ads
+                </Tabs.Tab>
+                <Tabs.Tab value="about" leftSection={<IconUserCircle size={20} />} ml="auto" />
+                <Tabs.Tab value="testimonials" leftSection={<IconQuote size={20} />} />
             </Tabs.List>
 
             <Tabs.Panel value="ads">
