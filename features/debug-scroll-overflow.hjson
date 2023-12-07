@@ -1,23 +1,25 @@
 {
-  "Name": "Debug scroll overflow",
-  "Description": "Can I debug container with scrollbars to identfy the element causing it?",
+  Name: "Debug scroll overflow",
+  Description: "Can I debug container with scrollbars to identfy the element causing it?",
 
-  "Category": "Elements",  
-  "Authors": ["@pankajparashar", "@kilianvalkhof"],
+  Category: "Elements",  
+  Authors: ["@pankajparashar", "@kilianvalkhof"],
 
-  "Firefox": {
-    "Notes": 
+  Firefox: {
+    Notes: 
       '''
       1. In the **Inspector** panel, elements with scrollbars are decorated with the `scroll` badge. Click on the badge to jump to the element that caused the overflow.
       '''
   },
 
-  "Polypane": {
-    "Notes": 
+  Polypane: {
+    Video: "https://res.cloudinary.com/canidevtools/video/upload/v1701936199/debug-scroll-overflow-polypane.mp4",
+    Image: "https://res.cloudinary.com/canidevtools/image/upload/v1701936626/debug-scroll-overflow-polypane-v1.png",
+    Notes: 
       '''
-      1. Use `Cmd+D` or `Ctrl+D` to turn on layout debugging. Elements causing a scrollbar are highlighted in red.
+      1. Use `Cmd+D` or `Ctrl+D` to turn on layout debugging. Elements causing a scrollbar are highlighted in red. There is also a **Horizontal overflow detector** icon in the bottom left of the page to quickly spot the element causing the scroll overflow.
       ''',
-    "References":
+    References:
       '''
       1. Layout Debugging, [Polypane Docs](https://polypane.app/docs/layout-debugging/).
       '''

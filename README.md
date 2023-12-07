@@ -659,7 +659,10 @@ Can I debug container with scrollbars to identfy the element causing it?
 1. In the **Inspector** panel, elements with scrollbars are decorated with the `scroll` badge. Click on the badge to jump to the element that caused the overflow.
 
 [Polypane](https://canidev.tools/debug-scroll-overflow/polypane): 
-1. Use `Cmd+D` or `Ctrl+D` to turn on layout debugging. Elements causing a scrollbar are highlighted in red.
+1. Use `Cmd+D` or `Ctrl+D` to turn on layout debugging. Elements causing a scrollbar are highlighted in red. There is also a **Horizontal overflow detector** icon in the bottom left of the page to quickly spot the element causing the scroll overflow.
+
+
+![](https://res.cloudinary.com/canidevtools/image/upload/v1701936626/debug-scroll-overflow-polypane-v1.png)
 
 ## Debug speculation rules
 Can I debug speculation rules for prefetch/prerender next page navigations?
