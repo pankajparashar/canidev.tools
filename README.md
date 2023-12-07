@@ -1511,7 +1511,7 @@ Can I ignore scripts while debugging?
 Can I ignore third-party scripts while debugging?
 
 [Firefox](https://canidev.tools/ignore-third-party-scripts/firefox): 
-1. In the **Debugger** panel, open **Debugger Settings** and select **Ignore Known Third-partyScripts** to ignore the third-party scripts defined in the [x_google_ignoreList](https://developer.chrome.com/articles/x-google-ignore-list/) sourcemaps extension.
+1. In the **Debugger** panel, open **Debugger Settings** and select **Ignore Known Third-partyScripts** to ignore the third-party scripts defined in the [ignoreList](https://developer.chrome.com/articles/x-google-ignore-list/) sourcemaps extension.
 
 
 ![](https://res.cloudinary.com/canidevtools/image/upload/l_watermark,w_150,o_5/ignore-third-party-scripts-firefox.png)
