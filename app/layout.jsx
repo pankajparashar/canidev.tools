@@ -70,8 +70,8 @@ export default async function RootLayout({ children }) {
     });
 
     const theme = {
-        fontFamily: "Berkley",
-        fontFamilyMonospace: "Berkley",
+        fontFamily: "mono",
+        fontFamilyMonospace: "mono",
         primaryColor: "dark",
         primaryShade: 4,
         defaultRadius: 0,
