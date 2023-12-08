@@ -84,7 +84,7 @@ export default async function RootLayout({ children }) {
         <html lang="en">
             <head>
                 <meta name="viewport" content="width=device-width, maximum-scale=1, initial-scale=1" />
-                <meta http-equiv="content-language" content="en-gb" />
+                <meta httpEquiv="content-language" content="en-gb" />
                 <link rel="canonical" href="https://canidev.tools" />
                 <link rel="icon" href="/favicon.ico" sizes="any" />
                 <link rel="apple-touch-icon" href="/apple-icon?<generated>" type="image/<generated>" sizes="<generated>" />
