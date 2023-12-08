@@ -4,11 +4,11 @@ import { useRef, useEffect, useContext, useState } from "react";
 import { useSearchParams, useRouter, usePathname } from "next/navigation";
 import Link from "next/link";
 
-import { Alert, Tooltip, Avatar, Box, Button, Tabs, Text, Anchor, TextInput, Accordion, ActionIcon, AppShell, Burger, Group, ScrollArea, NavLink, Divider, SimpleGrid, Image, Grid, useMantineColorScheme } from "@mantine/core";
+import { Alert, Tooltip, Avatar, Box, Button, Tabs, Menu, Anchor, TextInput, Accordion, ActionIcon, AppShell, Burger, Group, ScrollArea, NavLink, Divider, SimpleGrid, Image, Grid, useMantineColorScheme } from "@mantine/core";
 import { useDisclosure, useMediaQuery } from "@mantine/hooks";
 import { Carousel } from "@mantine/carousel";
 
-import { IconSitemap, IconAsteriskSimple, IconQuote, IconBroadcast, IconBrandGithub, IconBrandX, IconBrandStripe, IconNews, IconUserCircle, IconStar, IconArrowBack, IconListSearch, IconBrightness, IconListDetails, IconBrandSpeedtest, IconCode, IconBoxMargin, IconAccessible, IconReportMedical, IconTerminal2, IconBrandNextjs, IconAffiliate, IconHexagons, IconCrosshair, IconChevronRight, IconRss, IconPlaylistAdd, IconDatabase } from "@tabler/icons-react";
+import { IconSortAscending, IconSortDescending, IconFlame, IconSitemap, IconQuote, IconBrandGithub, IconBrandX, IconUserCircle, IconArrowBack, IconListSearch, IconBrightness, IconListDetails, IconChevronRight, IconRss, IconPlaylistAdd } from "@tabler/icons-react";
 
 import { IconBrandSubStack, ICONS } from "./tabler-icons";
 import { DataContext } from "./data-provider";
@@ -133,28 +133,46 @@ export const AppLayout = props => {
                     <Box className="grid">
                         <Box>
                             <Box p="md" pb="0">
-                                <TextInput
-                                    variant="filled"
-                                    placeholder={`Search ${features.length} records`}
-                                    leftSection={<IconListSearch stroke={1.5} size={20} />}
-                                    leftSectionPointerEvents="none"
-                                    rightSection={
-                                        <Tooltip label="Press Enter" position="left-center" withArrow>
-                                            <IconArrowBack stroke={1.5} size={20} />
-                                        </Tooltip>
-                                    }
-                                    pb="md"
-                                    onKeyPress={event => {
-                                        const value = event.target.value.trim();
-                                        if (event.key === "Enter") {
-                                            const params = new URLSearchParams(searchParams);
-                                            if (value) params.set("q", value);
-                                            else params.delete("q");
-
-                                            router.push("/" + "?" + params.toString());
-                                        }
-                                    }}
-                                />
+                                <Grid>
+                                    <Grid.Col span={10}>
+                                        <TextInput
+                                            variant="filled"
+                                            placeholder={`Search ${features.length} records`}
+                                            leftSection={<IconListSearch stroke={1.5} size={20} />}
+                                            leftSectionPointerEvents="none"
+                                            rightSection={
+                                                <Tooltip label="Press Enter" position="left-center" withArrow>
+                                                    <IconArrowBack stroke={1.5} size={20} />
+                                                </Tooltip>
+                                            }
+                                            pb="md"
+                                            onKeyDown={event => {
+                                                const value = event.target.value.trim();
+                                                if (event.key === "Enter") {
+                                                    const params = new URLSearchParams(searchParams);
+                                                    if (value) params.set("q", value);
+                                                    else params.delete("q");
+                                                    router.push("/" + "?" + params.toString());
+                                                }
+                                            }}
+                                        />
+                                    </Grid.Col>
+                                    <Grid.Col span={2}>
+                                        <Menu shadow="md" position="bottom-end">
+                                            <Menu.Target>
+                                                <Button variant="light">
+                                                    <IconSortAscending stroke={1.5} />
+                                                </Button>
+                                            </Menu.Target>
+                                            <Menu.Dropdown>
+                                                <Menu.Item leftSection={<IconSortAscending stroke={1.5} size={20} />}>Sort Ascending</Menu.Item>
+                                                <Menu.Item leftSection={<IconSortDescending stroke={1.5} size={20} />}>Sort Descending</Menu.Item>
+                                                <Menu.Divider />
+                                                <Menu.Item leftSection={<IconFlame stroke={1.5} size={20} />}>Most Popular</Menu.Item>
+                                            </Menu.Dropdown>
+                                        </Menu>
+                                    </Grid.Col>
+                                </Grid>
                                 <Divider />
                             </Box>
                             <ScrollArea h={"calc(100dvh - 190px)"} type="hover" scrollbarSize={10} scrollHideDelay={0} p="md" pb="0" pt="0" className="">
