@@ -8,7 +8,7 @@ import { Alert, Tooltip, Avatar, Box, Button, Tabs, Menu, Anchor, TextInput, Acc
 import { useDisclosure, useMediaQuery } from "@mantine/hooks";
 import { Carousel } from "@mantine/carousel";
 
-import { IconSortAscending, IconSortDescending, IconFlame, IconSitemap, IconQuote, IconBrandGithub, IconBrandX, IconUserCircle, IconArrowBack, IconListSearch, IconBrightness, IconListDetails, IconChevronRight, IconRss, IconPlaylistAdd } from "@tabler/icons-react";
+import { IconBookmark, IconSortAscending, IconSortDescending, IconFlame, IconSitemap, IconQuote, IconBrandGithub, IconBrandX, IconUserCircle, IconArrowBack, IconListSearch, IconBrightness, IconListDetails, IconChevronRight, IconRss, IconPlaylistAdd } from "@tabler/icons-react";
 
 import { IconBrandSubStack, ICONS } from "./tabler-icons";
 import { DataContext } from "./data-provider";
@@ -118,7 +118,8 @@ export const AppLayout = props => {
                                     return (
                                         <NavLink
                                             key={tag}
-                                            label={`#${tag}`}
+                                            label={tag}
+                                            leftSection={<IconBookmark stroke={1.5} size={20} />}
                                             rightSection={slugs.length}
                                             component={Link}
                                             variant="filled"
