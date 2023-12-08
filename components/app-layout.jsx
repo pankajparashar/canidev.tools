@@ -48,6 +48,7 @@ export const AppLayout = props => {
             }}
             padding="0">
             <AppShell.Header>
+                <h1 className="hide">Can I DevTools?</h1>
                 <Group px="md" justify="space-between" h="100%">
                     <Group gap={"xs"}>
                         <Anchor href="/">

@@ -6,6 +6,10 @@ body {
     display: grid;
 }
 
+.hide {
+    display: none;
+}
+
 @media (min-width: 1150px) {
     .grid {
         grid-template-columns: 500px 1fr;
