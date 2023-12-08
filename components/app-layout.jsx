@@ -251,7 +251,7 @@ const NavFooter = props => {
                         },
                     }}>
                     <Avatar src="https://github.com/pankajparashar.png" size="xl" styles={{ root: { float: "left" } }} mr="sm" component="a" href="https://pankajparashar.com" />
-                    It is like <a href="//caniuse.com">@CanIUse</a> but for the browser devtools, created by <a href="//pankajparashar.com">@pankajparashar</a>.
+                    It is like <a href="//caniuse.com">@CanIUse</a> but for the browser devtools, created by <a href="//pankajparashar.com">@pankajparashar</a> && curated by the community.
                     <SimpleGrid cols={3} spacing={"1px"} mt="sm">
                         <Tooltip withArrow label="Substack" position="top">
                             <Button size="xs" fullWidth variant="light" component="a" href="https://canidevtools.substack.com/" target="_blank">
