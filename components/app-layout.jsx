@@ -4,7 +4,7 @@ import { useRef, useEffect, useContext, useState } from "react";
 import { useSearchParams, useRouter, usePathname } from "next/navigation";
 import Link from "next/link";
 
-import { Alert, Tooltip, Affix, Box, Button, Tabs, Text, Anchor, TextInput, Accordion, ActionIcon, AppShell, Burger, Group, ScrollArea, NavLink, Divider, SimpleGrid, Image, Grid, useMantineColorScheme } from "@mantine/core";
+import { Alert, Tooltip, Avatar, Box, Button, Tabs, Text, Anchor, TextInput, Accordion, ActionIcon, AppShell, Burger, Group, ScrollArea, NavLink, Divider, SimpleGrid, Image, Grid, useMantineColorScheme } from "@mantine/core";
 import { useDisclosure, useMediaQuery } from "@mantine/hooks";
 import { Carousel } from "@mantine/carousel";
 
@@ -217,7 +217,7 @@ export const AppLayout = props => {
 
 const NavFooter = props => {
     const adRef = useRef();
-    const [activeTab, setActiveTab] = useState("ads");
+    const [activeTab, setActiveTab] = useState("about");
 
     useEffect(() => {
         adRef.current.addEventListener("DOMNodeInserted", event => event.target.id === "carbonads_1" && event.target.remove());
@@ -250,10 +250,8 @@ const NavFooter = props => {
                             marginTop: 0,
                         },
                     }}>
-                    It is like <a href="//caniuse.com">@CanIUse</a> but for the browser devtools, created by <a href="//pankajparashar.com">@pankajparashar</a> && curated by the community.
-                    <Text c="dimmed" size="sm" mt="xs">
-                        Built with <a href="https://nextjs.org/">@nextjs</a> ✪ Deployed on <a href="https://vercel.com/">@vercel</a> ✪ UI from <a href="/">@mantine</a>.
-                    </Text>
+                    <Avatar src="https://github.com/pankajparashar.png" size="xl" styles={{ root: { float: "left" } }} mr="sm" component="a" href="https://pankajparashar.com" />
+                    It is like <a href="//caniuse.com">@CanIUse</a> but for the browser devtools, created by <a href="//pankajparashar.com">@pankajparashar</a>.
                     <SimpleGrid cols={3} spacing={"1px"} mt="sm">
                         <Tooltip withArrow label="Substack" position="top">
                             <Button size="xs" fullWidth variant="light" component="a" href="https://canidevtools.substack.com/" target="_blank">
