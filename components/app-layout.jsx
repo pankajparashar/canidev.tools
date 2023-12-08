@@ -12,6 +12,7 @@ import { IconSortAscending, IconSortDescending, IconFlame, IconSitemap, IconQuot
 
 import { IconBrandSubStack, ICONS } from "./tabler-icons";
 import { DataContext } from "./data-provider";
+import { getViewCount } from "../lib/kv";
 
 export const AppLayout = props => {
     const searchParams = useSearchParams();
@@ -32,6 +33,14 @@ export const AppLayout = props => {
     switch (sort) {
         case "dsc":
             features = features.sort().reverse();
+            break;
+        case "popular":
+            // features = features.map(async f => {
+            //     const response = await getViewCount(f.Slug);
+            //     const data = response.json();
+            //     f.Count = data.result;
+            // });
+            // features.sort((f1, f2) => f2 - f1);
             break;
         default:
             features = features.sort();

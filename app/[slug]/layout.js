@@ -9,6 +9,8 @@ import Link from "next/link";
 import { Box, NavLink, Accordion, Paper, Badge, Alert, Divider, Group, Button, Tabs, Text, SimpleGrid } from "@mantine/core";
 import { IconEye, IconClockHour3, IconNews, IconUsers, IconBrandGithub, IconBrandSafari, IconBrandEdge, IconBrandChrome, IconBrandFirefox, IconCirclesRelation, IconChevronRight } from "@tabler/icons-react";
 
+import { getViewCount, setViewCount } from "../../lib/kv";
+
 export default function Layout({ children, params }) {
     const [views, setViews] = useState("-");
     const router = useRouter();
@@ -22,20 +24,12 @@ export default function Layout({ children, params }) {
     const feature = features.find(f => f.Slug === params.slug);
 
     useEffect(() => {
-        fetch(`https://real-catfish-46253.kv.vercel-storage.com/get/${params.slug}`, {
-            headers: {
-                Authorization: "Bearer AbStASQgMTViZjljMWYtZDFjMS00YzExLWE2ZDgtMTQ1NTJmMWVkZDFlNTU2YWMzMzdmMTUyNGU4YjhjMjMzMjcxMTE1YjAxN2M=",
-            },
-        })
+        getViewCount(params.slug)
             .then(response => response.json())
             .then(data => {
-                const viewCount = /^[0-9]*$/.test(data.result) ? Number(data.result) + 1 : 1;
-                setViews(viewCount);
-                fetch(`https://real-catfish-46253.kv.vercel-storage.com/set/${params.slug}/${viewCount}`, {
-                    headers: {
-                        Authorization: "Bearer AbStASQgMTViZjljMWYtZDFjMS00YzExLWE2ZDgtMTQ1NTJmMWVkZDFlNTU2YWMzMzdmMTUyNGU4YjhjMjMzMjcxMTE1YjAxN2M=",
-                    },
-                });
+                const count = /^[0-9]*$/.test(data.result) ? Number(data.result) + 1 : 1;
+                setViews(count);
+                setViewCount(params.slug, count);
             });
     }, []);
 
