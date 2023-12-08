@@ -384,42 +384,42 @@ In the **Console** tab, right click anywhere > select "Clear console history" to
 
 
 ## Clear console
-Can I clear the console?
+Can I clear the previous commands in the console?
 
 [Chrome](https://canidev.tools/clear-console/chrome): 
-1. Click the "Clear console" icon (top-left) or use the keyboard shortcut, `Ctrl+L` or `Cmd+K`.
-2. Alternatively, you can run `console.clear()` on the command line to clear the console.
-
+- Click the **Clear console** icon (top-left) or use the keyboard shortcut, `Ctrl+L` or `Cmd+K`.
+- Alternatively, you can run `console.clear()` in the console to clear the previous commands.
 
 [Firefox](https://canidev.tools/clear-console/firefox): 
-Three ways to clear a console:
-1. Press `Ctrl+L` (on Windows/Linux) or `Cmd+K` (on MacOS) to clear the console.
-2. Click on the "Clear the Web Console output" icon in the toolbar on the top left side.
-3. Use `console.clear()` on the command line.
-
+- Click the **Clear the Web Console output** icon in the toolbar or use `Ctrl+L` or `Cmd+K` to clear the console.
+- Alternatively, you can run `console.clear()` in the console to clear the previous commands.
 
 [Edge](https://canidev.tools/clear-console/edge): 
-1. Click the "Clear console" icon (top-left) or use the keyboard shortcut, `Ctrl+L` or `Cmd+K`.
-2. Alternatively, you can run `console.clear()` on the command line to clear the console.
-
+- Click the **Clear console** icon (top-left) or use the keyboard shortcut, `Ctrl+L` or `Cmd+K`.
+- Alternatively, you can run `console.clear()` in the console to clear the previous commands.
 
 [Safari](https://canidev.tools/clear-console/safari): 
-Three ways to clear a console:
-1. Press `Cmd+K` or `Ctrl+L` on the keyboard.
-2. Click the Trash icon in the top-right of the console toolbar.
-3. Use `console.clear()` on the command line.
-
+- Click the **Clear log** button (trash icon) or use `Cmd+K` or `Shift+L` to clear the console.
+- Alternatively, you can run `console.clear()` in the console to clear the previous commands.
 
 [Polypane](https://canidev.tools/clear-console/polypane): 
-1. Click the "Clear console" icon (top-left) or use the keyboard shortcut, `Ctrl+Shift+K` or `Cmd+Shift+K`.
-2. Alternatively, you can run `console.clear()` on the command line to clear the console.
-
+- Click the **Clear console** icon (top-left) or use the keyboard shortcut, `Ctrl+L` or `Cmd+K`.
+- Alternatively, you can run `console.clear()` in the console to clear the previous commands.
 
 ## Clear network log
-Can I clear network log?
+Can I clear the requests in the network log?
 
 [Chrome](https://canidev.tools/clear-network-log/chrome): 
-1. In the **Network** panel, click the **Clear network log** (`Cmd+K` or `Ctrl+L`) button in the toolbar to clear all the network requests.
+- In the **Network** panel, click the **Clear network log** button in the toolbar or press `Cmd+K` or `Ctrl+L` to clear all the network requests.
+
+[Firefox](https://canidev.tools/clear-network-log/firefox): 
+- In the **Network** panel, click the **Clear** button (trash icon) to clear all the network requests.
+
+[Edge](https://canidev.tools/clear-network-log/edge): 
+- In the **Network** panel, click the **Clear network log** button in the toolbar or press `Cmd+K` or `Ctrl+L` to clear all the network requests.
+
+[Safari](https://canidev.tools/clear-network-log/safari): 
+- In the **Network** panel, click the **Clear Network Items** button or press `Cmd+K` to clear all the network requests.
 
 ## Copy cURL request
 Can I copy a network request as cURL?

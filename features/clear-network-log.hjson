@@ -1,14 +1,35 @@
 {
-    "Name": "Clear network log",
+    Name: "Clear network log",
+    Description: "Can I clear the requests in the network log?",
 
-    "Description": "Can I clear network log?",
-    "Category": "Network",
+    Category: "Network",
+    Authors: ["@pankajparashar"],
 
-    "Authors": ["@pankajparashar"],
+    Chrome: {
+        Notes:
+            '''
+            - In the **Network** panel, click the **Clear network log** button in the toolbar or press `Cmd+K` or `Ctrl+L` to clear all the network requests.
+            '''
+    },
 
-    "Chrome": {
-        "Notes": [
-            "1. In the **Network** panel, click the **Clear network log** (`Cmd+K` or `Ctrl+L`) button in the toolbar to clear all the network requests."
-        ]
+    Edge: {
+        Notes:
+            '''
+            - In the **Network** panel, click the **Clear network log** button in the toolbar or press `Cmd+K` or `Ctrl+L` to clear all the network requests.
+            '''
+    },
+
+    Firefox: {
+        Notes:
+            '''
+            - In the **Network** panel, click the **Clear** button (trash icon) to clear all the network requests.
+            '''
+    },
+
+    Safari: {
+        Notes:
+            '''
+            - In the **Network** panel, click the **Clear Network Items** button or press `Cmd+K` to clear all the network requests.
+            '''
     }
 }
