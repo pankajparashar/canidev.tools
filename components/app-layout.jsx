@@ -18,6 +18,7 @@ export const AppLayout = props => {
     const category = searchParams.get("category");
     const tag = searchParams.get("tag");
     const query = searchParams.get("q");
+    const sort = searchParams.get("sort");
 
     const router = useRouter();
     const { toggleColorScheme } = useMantineColorScheme();
@@ -28,6 +29,13 @@ export const AppLayout = props => {
         .filter(f => tag === null || f.Tags?.includes(tag))
         .filter(f => query === null || f.Name.toLowerCase().includes(query.toLowerCase()) || f.Description.toLowerCase().includes(query.toLowerCase()) || f.Slug.toLowerCase().includes(query.toLowerCase()));
 
+    switch (sort) {
+        case "dsc":
+            features = features.sort().reverse();
+            break;
+        default:
+            features = features.sort();
+    }
     const isMobile = useMediaQuery("(max-width: 1150px)");
     const pathname = usePathname();
     const activeSlug = pathname.split("/")[1];
@@ -165,17 +173,42 @@ export const AppLayout = props => {
                                                 </Button>
                                             </Menu.Target>
                                             <Menu.Dropdown>
-                                                <Menu.Item leftSection={<IconSortAscending stroke={1.5} size={20} />}>Sort Ascending</Menu.Item>
-                                                <Menu.Item leftSection={<IconSortDescending stroke={1.5} size={20} />}>Sort Descending</Menu.Item>
+                                                <Menu.Item
+                                                    leftSection={<IconSortAscending stroke={1.5} />}
+                                                    size={20}
+                                                    component={Link}
+                                                    href={{
+                                                        pathname,
+                                                        query: { ...Object.fromEntries(searchParams), sort: "asc" },
+                                                    }}>
+                                                    Sort Ascending
+                                                </Menu.Item>
+                                                <Menu.Item
+                                                    leftSection={<IconSortDescending stroke={1.5} size={20} />}
+                                                    component={Link}
+                                                    href={{
+                                                        pathname,
+                                                        query: { ...Object.fromEntries(searchParams), sort: "dsc" },
+                                                    }}>
+                                                    Sort Descending
+                                                </Menu.Item>
                                                 <Menu.Divider />
-                                                <Menu.Item leftSection={<IconFlame stroke={1.5} size={20} />}>Most Popular</Menu.Item>
+                                                <Menu.Item
+                                                    leftSection={<IconFlame stroke={1.5} size={20} />}
+                                                    component={Link}
+                                                    href={{
+                                                        pathname,
+                                                        query: { ...Object.fromEntries(searchParams), sort: "popular" },
+                                                    }}>
+                                                    Most Popular
+                                                </Menu.Item>
                                             </Menu.Dropdown>
                                         </Menu>
                                     </Grid.Col>
                                 </Grid>
                                 <Divider />
                             </Box>
-                            <ScrollArea h={"calc(100dvh - 190px)"} type="hover" scrollbarSize={10} scrollHideDelay={0} p="md" pb="0" pt="0" className="">
+                            <ScrollArea h={"calc(100dvh - 190px)"} type="hover" scrollbarSize={10} scrollHideDelay={0} p="md" pb="0" pt="0">
                                 {features.map(feature => (
                                     <div key={feature.Slug} id={feature.Slug}>
                                         <NavLink
