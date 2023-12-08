@@ -78,6 +78,7 @@ export default function Layout({ children, params }) {
                 title={feature.Name}
                 styles={{
                     root: { border: 0 },
+                    body: { gap: 0 },
                     title: { fontSize: "var(--mantine-font-size-md)", marginBottom: 0 },
                     message: { fontSize: "var(--mantine-font-size-md)", wordBreak: "break-word", marginTop: 0 },
                     icon: { marginTop: "5px" },
