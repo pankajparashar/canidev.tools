@@ -11,12 +11,11 @@ export default function sitemap() {
         const mtime = fs.statSync(filepath).mtime;
 
         const feature = HJSON.parse(fileobj);
-        feature.LastModifiedTime = mtime;
-        feature.Slug = path.basename(filename, ".hjson");
+        const slug = path.basename(filename, ".hjson");
 
         urlset.push({
-            url: `https://canidev.tools/${feature.Slug}`,
-            lastModified: feature.LastModifiedTime,
+            url: `https://canidev.tools/${slug}`,
+            lastModified: mtime,
             changeFrequency: "monthly",
             priority: 1,
         });
@@ -24,8 +23,8 @@ export default function sitemap() {
         ["Chrome", "Firefox", "Edge", "Safari", "Opera"].forEach(browser => {
             if (browser in feature) {
                 urlset.push({
-                    url: `https://canidev.tools/${feature.Slug}/${browser.toLowerCase()}`,
-                    lastModified: feature.LastModifiedTime,
+                    url: `https://canidev.tools/${slug}/${browser.toLowerCase()}`,
+                    lastModified: mtime,
                     changeFrequency: "monthly",
                     priority: 1,
                 });
