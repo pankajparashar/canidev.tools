@@ -11,7 +11,7 @@ export default function sitemap() {
         const mtime = fs.statSync(filepath).mtime;
 
         const feature = HJSON.parse(fileobj);
-        feature.LastModifiedTime = mtime.toLocaleDateString();
+        feature.LastModifiedTime = mtime;
         feature.Slug = path.basename(filename, ".hjson");
 
         urlset.push({
