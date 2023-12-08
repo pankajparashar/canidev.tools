@@ -26,5 +26,5 @@ export const ICONS = {
     Debugger: <IconCode size={20} stroke={1.5} />,
     Performance: <IconBrandSpeedtest size={20} stroke={1.5} />,
     Storage: <IconDatabase size={20} stroke={1.5} />,
-    Tricks: <IconPlayCard size={20} stroke={1.5} />
+    Tricks: <IconPlayCard size={20} stroke={1.5} />,
 };
