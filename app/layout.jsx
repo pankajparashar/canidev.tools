@@ -1,7 +1,6 @@
 import * as fs from "fs";
 import path from "path";
 
-import { Analytics } from "@vercel/analytics/react";
 import HJSON from "hjson";
 
 import "@mantine/core/styles.css";
@@ -98,7 +97,6 @@ export default async function RootLayout({ children }) {
                         <AppLayout>{children}</AppLayout>
                     </DataProvider>
                 </MantineProvider>
-                <Analytics />
             </body>
         </html>
     );

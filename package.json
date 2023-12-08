@@ -9,17 +9,16 @@
         "lint": "next lint"
     },
     "dependencies": {
-        "@mantine/carousel": "7.2.2",
-        "@mantine/code-highlight": "^7.2.2",
-        "@mantine/core": "7.2.2",
-        "@mantine/hooks": "7.2.2",
-        "@tabler/icons-react": "2.40.0",
-        "@vercel/analytics": "^1.1.0",
-        "@vercel/kv": "^1.0.0",
-        "embla-carousel-react": "^7.1.0",
-        "hjson": "^3.2.2",
-        "marked": "^9.1.0",
-        "next": "14.0.3",
+        "@mantine/carousel": "7.3.1",
+        "@mantine/code-highlight": "7.3.1",
+        "@mantine/core": "7.3.1",
+        "@mantine/hooks": "7.3.1",
+        "@tabler/icons-react": "2.42.0",
+        "@vercel/kv": "1.0.1",
+        "embla-carousel-react": "8.0.0",
+        "hjson": "3.2.2",
+        "marked": "9.1.0",
+        "next": "14.0.4",
         "react": "18.2.0",
         "react-dom": "18.2.0"
     }
