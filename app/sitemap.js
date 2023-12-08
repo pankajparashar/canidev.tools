@@ -20,7 +20,7 @@ export default function sitemap() {
             priority: 1,
         });
 
-        ["Chrome", "Firefox", "Edge", "Safari", "Opera"].forEach(browser => {
+        ["Chrome", "Firefox", "Edge", "Safari", "Polypane"].forEach(browser => {
             if (browser in feature) {
                 urlset.push({
                     url: `https://canidev.tools/${slug}/${browser.toLowerCase()}`,
