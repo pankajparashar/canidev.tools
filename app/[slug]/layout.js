@@ -105,6 +105,7 @@ export default function Layout({ children, params }) {
                             icon={<IconUsers />}
                             title="Authors"
                             styles={{
+                                body: { gap: 0 },
                                 icon: { marginTop: "5px" },
                                 title: {
                                     fontSize: "var(--mantine-font-size-md)",
@@ -129,6 +130,7 @@ export default function Layout({ children, params }) {
                             icon={<IconClockHour3 />}
                             title="Last Modified"
                             styles={{
+                                body: { gap: 0 },
                                 icon: { marginTop: "5px" },
                                 title: {
                                     fontSize: "var(--mantine-font-size-md)",
@@ -144,6 +146,7 @@ export default function Layout({ children, params }) {
                             icon={<IconNews />}
                             title="Newsletter"
                             styles={{
+                                body: { gap: 0 },
                                 icon: { marginTop: "5px" },
                                 title: {
                                     fontSize: "var(--mantine-font-size-md)",
@@ -165,6 +168,7 @@ export default function Layout({ children, params }) {
                             icon={<IconEye />}
                             title="Views"
                             styles={{
+                                body: { gap: 0 },
                                 icon: { marginTop: "5px" },
                                 title: {
                                     fontSize: "var(--mantine-font-size-md)",
