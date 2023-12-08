@@ -217,7 +217,7 @@ export const AppLayout = props => {
 
 const NavFooter = props => {
     const adRef = useRef();
-    const [activeTab, setActiveTab] = useState("about");
+    const [activeTab, setActiveTab] = useState("ads");
 
     useEffect(() => {
         adRef.current.addEventListener("DOMNodeInserted", event => event.target.id === "carbonads_1" && event.target.remove());
@@ -243,7 +243,6 @@ const NavFooter = props => {
             </Tabs.Panel>
             <Tabs.Panel value="about">
                 <Alert
-                    pt={"xs"}
                     styles={{
                         message: {
                             wordBreak: "break-word",
