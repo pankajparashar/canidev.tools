@@ -89,9 +89,8 @@ export default async function RootLayout({ children }) {
                 <link rel="icon" href="/favicon.ico" sizes="any" />
                 <link rel="apple-touch-icon" href="/apple-icon?<generated>" type="image/<generated>" sizes="<generated>" />
                 <meta name="theme-color" content="#000000" />
-
                 <ColorSchemeScript />
-                <script defer data-domain="canidev.tools" src="/js/script.js"></script>
+                <script async src="https://eu.umami.is/script.js" data-website-id="cbe8d837-bf50-4d2d-b25b-d97148652211"></script>
             </head>
             <body>
                 <MantineProvider theme={theme} defaultColorScheme="auto">
