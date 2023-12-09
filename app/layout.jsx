@@ -98,6 +98,7 @@ export default async function RootLayout({ children }) {
                         <AppLayout>{children}</AppLayout>
                     </DataProvider>
                 </MantineProvider>
+                <script defer data-domain="canidev.tools" src="https://plausible.io/js/script.js"></script>
             </body>
         </html>
     );
