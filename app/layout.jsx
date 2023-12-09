@@ -91,7 +91,7 @@ export default async function RootLayout({ children }) {
                 <meta name="theme-color" content="#000000" />
 
                 <ColorSchemeScript />
-                <script defer data-domain="canidev.tools" src="https://plausible.io/js/script.js"></script>
+                <script defer data-domain="canidev.tools" src="/js/script.js"></script>
             </head>
             <body>
                 <MantineProvider theme={theme} defaultColorScheme="auto">
