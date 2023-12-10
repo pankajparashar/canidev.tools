@@ -85,12 +85,13 @@ export default async function RootLayout({ children }) {
             <head>
                 <meta name="viewport" content="width=device-width, maximum-scale=1, initial-scale=1" />
                 <meta httpEquiv="content-language" content="en-gb" />
+                <meta name="theme-color" content="#000000" />
+
                 <link rel="canonical" href="https://canidev.tools" />
                 <link rel="icon" href="/favicon.ico" sizes="any" />
                 <link rel="apple-touch-icon" href="/apple-icon?<generated>" type="image/<generated>" sizes="<generated>" />
-                <meta name="theme-color" content="#000000" />
+                <link rel="alternate" type="application/rss+xml" title={"RSS Feed"} href="/feed.xml" />
                 <ColorSchemeScript />
-                <script async src="https://eu.umami.is/script.js" data-website-id="cbe8d837-bf50-4d2d-b25b-d97148652211"></script>
             </head>
             <body>
                 <MantineProvider theme={theme} defaultColorScheme="auto">
@@ -98,6 +99,7 @@ export default async function RootLayout({ children }) {
                         <AppLayout>{children}</AppLayout>
                     </DataProvider>
                 </MantineProvider>
+                <script async src="https://eu.umami.is/script.js" data-website-id="cbe8d837-bf50-4d2d-b25b-d97148652211"></script>
             </body>
         </html>
     );
