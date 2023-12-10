@@ -175,7 +175,7 @@ export const AppLayout = props => {
                                         }}
                                     />
 
-                                    <Menu shadow="md" position="bottom-end">
+                                    <Menu shadow="md" position="bottom-end" offset={0}>
                                         <Menu.Target>
                                             <Button variant="light">
                                                 <IconSortAscending stroke={1.5} />
