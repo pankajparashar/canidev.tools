@@ -1914,6 +1914,18 @@ Can I inspect & visualize CSS scroll snap layout?
 ## Inspect Session storage
 Can I inspect the session storage of a website?
 
+[Chrome](https://canidev.tools/inspect-sessionstorage/chrome): 
+- In the **Application** panel, under the **Storage** section, expand **Session storage** from the left sidebar. Select the origin to view all the items stored in the session in a key-value format. Double-click the item to edit, right-click > **Delete** to remove the item from the session storage. 
+
+[Firefox](https://canidev.tools/inspect-sessionstorage/firefox): 
+- In the **Storage** panel, expand **Session Storage** from the left sidebar. Select the host to view all the items stored in the session in a key-value format. Double-click the item to edit, **+** to add a new item and right-click > **Delete** to remove the item from the session storage. 
+
+[Edge](https://canidev.tools/inspect-sessionstorage/edge): 
+- In the **Application** panel, under the **Storage** section, expand **Session storage** from the left sidebar. Select the origin to view all the items stored in the session in a key-value format. Double-click the item to edit, right-click > **Delete** to remove the item from the session storage. 
+
+[Safari](https://canidev.tools/inspect-sessionstorage/safari): 
+- In the **Storage** panel, under **All Storage** select **Session Storage** to view all the items stored in the session in a table. Double-click to edit the item, or click the trash icon to **Clear Session Storage**.
+
 ## Inspect top layer
 Can I inspect the top layer elements like dialog, popover etc?
 
