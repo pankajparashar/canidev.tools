@@ -255,7 +255,7 @@ export const AppLayout = props => {
                                         </Button>
                                     </Grid.Col>
                                     <Grid.Col span={6}>
-                                        <Button variant="light" fullWidth>
+                                        <Button variant="light" fullWidth component="a" href="#tally-open=mY4KvN&tally-align-left=1&tally-hide-title=1&tally-overlay=1&tally-auto-close=0">
                                             <IconPlaylistAdd stroke={1.5} /> &nbsp;Add New
                                         </Button>
                                     </Grid.Col>

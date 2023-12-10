@@ -103,6 +103,7 @@ export default async function RootLayout({ children }) {
                 </MantineProvider>
                 <SpeedInsights />
                 <script async src="https://eu.umami.is/script.js" data-website-id="cbe8d837-bf50-4d2d-b25b-d97148652211"></script>
+                <script async src="https://tally.so/widgets/embed.js"></script>
             </body>
         </html>
     );
