@@ -1842,7 +1842,7 @@ Can I inspect and edit various CSS font properties like, font-size, line-height 
 1. Inspect element > Navigate to the **Font** panel to see information about the active font for the selected DOM node in the DOM Tree, providing computed values for both basic properties (e.g. size, style, weight, etc.) and advanced properties (e.g. ligatures, alternate glyphs, variations, etc.)
 
 
-## Inspect localstorage
+## Inspect Local storage
 Can I inspect the localstorage of a website?
 
 ## Inspect popup overlays
