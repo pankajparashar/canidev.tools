@@ -260,7 +260,7 @@ export const AppLayout = props => {
                                         </Button>
                                     </Grid.Col>
                                     <Grid.Col span={2}>
-                                        <Button variant="light" fullWidth>
+                                        <Button variant="light" fullWidth component="a" href="/sitemap.xml">
                                             <IconSitemap size={20} stroke={1.5} />
                                         </Button>
                                     </Grid.Col>
