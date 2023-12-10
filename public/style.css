@@ -40,7 +40,7 @@ body {
     background-size: 50% auto;
     background-repeat: no-repeat;
     background-position: center;
-    filter: grayscale(50%) opacity(100%);
+    filter: grayscale(50%) opacity(75%);
 }
 
 .smt {
