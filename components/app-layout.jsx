@@ -151,71 +151,69 @@ export const AppLayout = props => {
                     <Box className="grid">
                         <Box>
                             <Box p="md" pb="0">
-                                <Grid>
-                                    <Grid.Col span={10}>
-                                        <TextInput
-                                            variant="filled"
-                                            placeholder={`Search ${features.length} records`}
-                                            leftSection={<IconListSearch stroke={1.5} size={20} />}
-                                            leftSectionPointerEvents="none"
-                                            rightSection={
-                                                <Tooltip label="Press Enter" position="left-center" withArrow>
-                                                    <IconArrowBack stroke={1.5} size={20} />
-                                                </Tooltip>
+                                <Group align="top" wrap="nowrap">
+                                    <TextInput
+                                        style={{ flexGrow: 1 }}
+                                        variant="filled"
+                                        placeholder={`Search ${features.length} records`}
+                                        leftSection={<IconListSearch stroke={1.5} size={20} />}
+                                        leftSectionPointerEvents="none"
+                                        rightSection={
+                                            <Tooltip label="Press Enter" position="left-center" withArrow>
+                                                <IconArrowBack stroke={1.5} size={20} />
+                                            </Tooltip>
+                                        }
+                                        pb="md"
+                                        onKeyDown={event => {
+                                            const value = event.target.value.trim();
+                                            if (event.key === "Enter") {
+                                                const params = new URLSearchParams(searchParams);
+                                                if (value) params.set("q", value);
+                                                else params.delete("q");
+                                                router.push("/" + "?" + params.toString());
                                             }
-                                            pb="md"
-                                            onKeyDown={event => {
-                                                const value = event.target.value.trim();
-                                                if (event.key === "Enter") {
-                                                    const params = new URLSearchParams(searchParams);
-                                                    if (value) params.set("q", value);
-                                                    else params.delete("q");
-                                                    router.push("/" + "?" + params.toString());
-                                                }
-                                            }}
-                                        />
-                                    </Grid.Col>
-                                    <Grid.Col span={2}>
-                                        <Menu shadow="md" position="bottom-end">
-                                            <Menu.Target>
-                                                <Button variant="light">
-                                                    <IconSortAscending stroke={1.5} />
-                                                </Button>
-                                            </Menu.Target>
-                                            <Menu.Dropdown>
-                                                <Menu.Item
-                                                    leftSection={<IconSortAscending stroke={1.5} />}
-                                                    size={20}
-                                                    component={Link}
-                                                    href={{
-                                                        pathname,
-                                                        query: { ...Object.fromEntries(searchParams), sort: "asc" },
-                                                    }}>
-                                                    Sort Ascending
-                                                </Menu.Item>
-                                                <Menu.Item
-                                                    leftSection={<IconSortDescending stroke={1.5} size={20} />}
-                                                    component={Link}
-                                                    href={{
-                                                        pathname,
-                                                        query: { ...Object.fromEntries(searchParams), sort: "dsc" },
-                                                    }}>
-                                                    Sort Descending
-                                                </Menu.Item>
-                                                <Menu.Divider />
-                                                <Menu.Item
-                                                    leftSection={<IconFlame stroke={1.5} size={20} />}
-                                                    component={Link}
-                                                    href={{
-                                                        pathname,
-                                                        query: { ...Object.fromEntries(searchParams), sort: "popular" },
-                                                    }}>
-                                                    Most Popular
-                                                </Menu.Item>
-                                            </Menu.Dropdown>
-                                        </Menu>
-                                    </Grid.Col>
-                                </Grid>
+                                        }}
+                                    />
+
+                                    <Menu shadow="md" position="bottom-end">
+                                        <Menu.Target>
+                                            <Button variant="light">
+                                                <IconSortAscending stroke={1.5} />
+                                            </Button>
+                                        </Menu.Target>
+                                        <Menu.Dropdown>
+                                            <Menu.Item
+                                                leftSection={<IconSortAscending stroke={1.5} />}
+                                                size={20}
+                                                component={Link}
+                                                href={{
+                                                    pathname,
+                                                    query: { ...Object.fromEntries(searchParams), sort: "asc" },
+                                                }}>
+                                                Sort Ascending
+                                            </Menu.Item>
+                                            <Menu.Item
+                                                leftSection={<IconSortDescending stroke={1.5} size={20} />}
+                                                component={Link}
+                                                href={{
+                                                    pathname,
+                                                    query: { ...Object.fromEntries(searchParams), sort: "dsc" },
+                                                }}>
+                                                Sort Descending
+                                            </Menu.Item>
+                                            <Menu.Divider />
+                                            <Menu.Item
+                                                leftSection={<IconFlame stroke={1.5} size={20} />}
+                                                component={Link}
+                                                href={{
+                                                    pathname,
+                                                    query: { ...Object.fromEntries(searchParams), sort: "popular" },
+                                                }}>
+                                                Most Popular
+                                            </Menu.Item>
+                                        </Menu.Dropdown>
+                                    </Menu>
+                                </Group>
                                 <Divider />
                             </Box>
                             <ScrollArea h={"calc(100dvh - 190px)"} type="hover" scrollbarSize={10} scrollHideDelay={0} p="md" pb="0" pt="0">
