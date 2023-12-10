@@ -250,7 +250,7 @@ export const AppLayout = props => {
                                 <Divider />
                                 <Grid grow gutter="xs" mt="md">
                                     <Grid.Col span={2}>
-                                        <Button variant="light" fullWidth>
+                                        <Button variant="light" fullWidth component="a" href="/feed.xml">
                                             <IconRss size={20} />
                                         </Button>
                                     </Grid.Col>
