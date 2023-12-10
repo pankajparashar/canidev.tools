@@ -5,6 +5,8 @@ import HJSON from "hjson";
 
 import "@mantine/core/styles.css";
 import "@mantine/carousel/styles.css";
+
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import { MantineProvider, ColorSchemeScript } from "@mantine/core";
 
 import "../public/style.css";
@@ -99,6 +101,7 @@ export default async function RootLayout({ children }) {
                         <AppLayout>{children}</AppLayout>
                     </DataProvider>
                 </MantineProvider>
+                <SpeedInsights />
                 <script async src="https://eu.umami.is/script.js" data-website-id="cbe8d837-bf50-4d2d-b25b-d97148652211"></script>
             </body>
         </html>

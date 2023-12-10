@@ -15,6 +15,7 @@
         "@mantine/hooks": "7.3.1",
         "@tabler/icons-react": "2.42.0",
         "@vercel/kv": "1.0.1",
+        "@vercel/speed-insights": "^1.0.1",
         "embla-carousel-react": "7.1.0",
         "hjson": "3.2.2",
         "marked": "9.1.0",
