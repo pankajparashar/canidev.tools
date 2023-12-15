@@ -53,6 +53,7 @@ export default function Layout({ children, params }) {
                     {feature.Category}
                 </Badge>
                 <Button
+                    data-umami-event="edit"
                     variant="default"
                     size="sm"
                     styles={{
@@ -111,13 +112,13 @@ export default function Layout({ children, params }) {
                             }}>
                             {feature.Authors
                                 ? feature.Authors.map((author, idx) => (
-                                      <span key={author}>
-                                          <a href={`//twitter.com/${author}`} target="_blank">
-                                              {author}
-                                          </a>
-                                          {idx !== feature.Authors.length - 1 ? ", " : ""}
-                                      </span>
-                                  ))
+                                    <span key={author}>
+                                        <a href={`//twitter.com/${author}`} target="_blank">
+                                            {author}
+                                        </a>
+                                        {idx !== feature.Authors.length - 1 ? ", " : ""}
+                                    </span>
+                                ))
                                 : ""}
                         </Alert>
                         <Alert

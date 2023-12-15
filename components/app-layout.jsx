@@ -12,7 +12,6 @@ import { IconBookmark, IconSortAscending, IconSortDescending, IconFlame, IconSit
 
 import { IconBrandSubStack, ICONS } from "./tabler-icons";
 import { DataContext } from "./data-provider";
-import { getViewCount } from "../lib/kv";
 
 export const AppLayout = props => {
     const searchParams = useSearchParams();
@@ -35,12 +34,6 @@ export const AppLayout = props => {
             features = features.sort().reverse();
             break;
         case "popular":
-            // features = features.map(async f => {
-            //     const response = await getViewCount(f.Slug);
-            //     const data = response.json();
-            //     f.Count = data.result;
-            // });
-            // features.sort((f1, f2) => f2 - f1);
             break;
         default:
             features = features.sort();
@@ -68,12 +61,12 @@ export const AppLayout = props => {
                 <h1 className="hide">Can I DevTools?</h1>
                 <Group px="md" justify="space-between" h="100%">
                     <Group gap={"xs"}>
-                        <Anchor href="/">
+                        <Anchor href="/" data-umami-event="root">
                             <img src="/logo.png" height="49px" className="logo" />
                         </Anchor>
                     </Group>
                     <Group gap="xs" align="center">
-                        <ActionIcon variant="subtle" onClick={toggleColorScheme}>
+                        <ActionIcon variant="subtle" onClick={toggleColorScheme} data-umami-event="theme">
                             <IconBrightness />
                         </ActionIcon>
                         <Burger opened={opened} onClick={toggle} hiddenFrom="sm" size="sm" />
@@ -171,13 +164,14 @@ export const AppLayout = props => {
                                                 if (value) params.set("q", value);
                                                 else params.delete("q");
                                                 router.push("/" + "?" + params.toString());
+                                                umami.track('search')
                                             }
                                         }}
                                     />
 
                                     <Menu shadow="md" position="bottom-end" offset={0}>
                                         <Menu.Target>
-                                            <Button variant="light">
+                                            <Button variant="light" data-umami-event="sort">
                                                 <IconSortAscending stroke={1.5} />
                                             </Button>
                                         </Menu.Target>
@@ -250,17 +244,17 @@ export const AppLayout = props => {
                                 <Divider />
                                 <Grid grow gutter="xs" mt="md">
                                     <Grid.Col span={2}>
-                                        <Button variant="light" fullWidth component="a" href="/feed.xml">
+                                        <Button variant="light" fullWidth component="a" href="/feed.xml" data-umami-event="rss">
                                             <IconRss size={20} />
                                         </Button>
                                     </Grid.Col>
                                     <Grid.Col span={6}>
-                                        <Button variant="light" fullWidth component="a" href="#tally-open=mY4KvN&tally-align-left=1&tally-hide-title=1&tally-overlay=1&tally-auto-close=0">
+                                        <Button variant="light" fullWidth component="a" href="#tally-open=mY4KvN&tally-align-left=1&tally-hide-title=1&tally-overlay=1&tally-auto-close=0" data-umami-event="add-new">
                                             <IconPlaylistAdd stroke={1.5} /> &nbsp;Add New
                                         </Button>
                                     </Grid.Col>
                                     <Grid.Col span={2}>
-                                        <Button variant="light" fullWidth component="a" href="/sitemap.xml">
+                                        <Button variant="light" fullWidth component="a" href="/sitemap.xml" data-umami-event="sitemap">
                                             <IconSitemap size={20} stroke={1.5} />
                                         </Button>
                                     </Grid.Col>

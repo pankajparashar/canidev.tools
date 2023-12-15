@@ -27,7 +27,7 @@ export default function Page({ params }) {
                     <Accordion.Control icon={<IconBrandYoutube stroke={1} />} style={{ maxHeight: "45px" }}>
                         <Group justify="space-between" pr="sm">
                             <Text fw={700}>Video</Text>
-                            <ActionIcon variant={"subtle"} component="a" href={browser.Share} target="_blank">
+                            <ActionIcon variant={"subtle"} component="a" href={browser.Share} target="_blank" data-umami-event="share">
                                 <IconShare size={20} stroke={1.5} />
                             </ActionIcon>
                         </Group>
