@@ -1,6 +1,6 @@
 {
 	"Name": "Add conditional breakpoint",
-	"Description": "Can I set a conditional breakpoint while debugging code?",
+	"Description": "Can I set a conditional breakpoint for debugging?",
 
 	"Category": "Debugger",
 	"Newsletter": "tips-tricks-32",
