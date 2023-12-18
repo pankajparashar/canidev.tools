@@ -27,7 +27,7 @@ import {
   Grid,
   useMantineColorScheme,
 } from "@mantine/core";
-import { useDisclosure, useMediaQuery } from "@mantine/hooks";
+import { useDisclosure, useMediaQuery, useLocalStorage } from "@mantine/hooks";
 import { Carousel } from "@mantine/carousel";
 
 import {
@@ -66,7 +66,12 @@ export const AppLayout = (props) => {
 
   let { categories, features, tags } = useContext(DataContext);
   features = features
-    .filter((f) => category === null || f.Category === category)
+    .filter(
+      (f) =>
+        category === null ||
+        f.Category === category ||
+        (category === "favorites" && favorites.has(f.Slug))
+    )
     .filter((f) => tag === null || f.Tags?.includes(tag))
     .filter(
       (f) =>
@@ -144,6 +149,11 @@ export const AppLayout = (props) => {
               </Accordion.Control>
               <Accordion.Panel>
                 <NavLink
+                  styles={{
+                    label: {
+                      fontSize: "var(--mantine-font-size-md)",
+                    },
+                  }}
                   label="All"
                   variant="filled"
                   active={searchParams.get("category") === null}
@@ -156,11 +166,19 @@ export const AppLayout = (props) => {
                   )}
                 />
                 <NavLink
+                  styles={{
+                    label: {
+                      fontSize: "var(--mantine-font-size-md)",
+                    },
+                  }}
                   label="Favorites"
                   variant="filled"
                   active={searchParams.get("category") === "favorites"}
                   component={Link}
-                  href="/"
+                  href={{
+                    pathname: "/",
+                    query: { category: "favorites" },
+                  }}
                   leftSection={ICONS["Favorites"]}
                   rightSection={favorites.size}
                 />
