@@ -165,23 +165,25 @@ export const AppLayout = (props) => {
                     0
                   )}
                 />
-                <NavLink
-                  styles={{
-                    label: {
-                      fontSize: "var(--mantine-font-size-md)",
-                    },
-                  }}
-                  label="Favorites"
-                  variant="filled"
-                  active={searchParams.get("category") === "favorites"}
-                  component={Link}
-                  href={{
-                    pathname: "/",
-                    query: { category: "favorites" },
-                  }}
-                  leftSection={ICONS["Favorites"]}
-                  rightSection={favorites.size}
-                />
+                {favorites.size > 0 ? (
+                  <NavLink
+                    styles={{
+                      label: {
+                        fontSize: "var(--mantine-font-size-md)",
+                      },
+                    }}
+                    label="Favorites"
+                    variant="filled"
+                    active={searchParams.get("category") === "favorites"}
+                    component={Link}
+                    href={{
+                      pathname: "/",
+                      query: { category: "favorites" },
+                    }}
+                    leftSection={ICONS["Favorites"]}
+                    rightSection={favorites.size}
+                  />
+                ) : null}
                 {Object.keys(categories)
                   .sort()
                   .map((category) => (
