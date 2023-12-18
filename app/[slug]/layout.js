@@ -1,10 +1,11 @@
 "use client";
 
-import { useContext } from "react";
+import { useContext, useState } from "react";
 import { DataContext } from "../../components/data-provider";
 import { IconBrandPolypane } from "../../components/tabler-icons";
 import { useRouter, usePathname, useSearchParams } from "next/navigation";
 import Link from "next/link";
+import { toggleFavorites, isFavorite } from "../../lib/kv";
 
 import {
   Paper,
@@ -20,6 +21,7 @@ import {
   ActionIcon,
 } from "@mantine/core";
 import {
+  IconStarFilled,
   IconStar,
   IconClockHour3,
   IconNews,
@@ -43,6 +45,7 @@ export default function Layout({ children, params }) {
 
   const { features } = useContext(DataContext);
   const feature = features.find((f) => f.Slug === params.slug);
+  const [isFav, setIsFav] = useState(isFavorite(feature.Slug));
 
   const onTabChange = (value) => {
     router.push(`/${params.slug}/${value}?` + searchParams.toString());
@@ -75,8 +78,18 @@ export default function Layout({ children, params }) {
           </ActionIcon>
         </Flex>
         <Flex align={"center"} gap="sm">
-          <ActionIcon variant="subtle">
-            <IconStar size={20} stroke={1.5} />
+          <ActionIcon
+            variant="subtle"
+            onClick={() => {
+              toggleFavorites(feature.Slug);
+              setIsFav(!isFav);
+            }}
+          >
+            {isFav ? (
+              <IconStarFilled size={20} stroke={1.5} />
+            ) : (
+              <IconStar size={20} stroke={1.5} />
+            )}
           </ActionIcon>
           <Button
             data-umami-event="edit"
@@ -241,15 +254,18 @@ export default function Layout({ children, params }) {
               }}
             >
               {feature.Tags &&
-                feature.Tags.map((tag) => (
-                  <Link
-                    href={{
-                      pathname: "/",
-                      query: { tag },
-                    }}
-                  >
-                    #{tag}
-                  </Link>
+                feature.Tags.map((tag, idx) => (
+                  <>
+                    <Link
+                      href={{
+                        pathname: "/",
+                        query: { tag },
+                      }}
+                    >
+                      {tag}
+                    </Link>
+                    {idx === feature.Tags.length - 1 ? "" : ", "}
+                  </>
                 ))}
             </Alert>
           </SimpleGrid>
