@@ -161,7 +161,7 @@ export const AppLayout = (props) => {
                   active={searchParams.get("category") === "favorites"}
                   component={Link}
                   href="/"
-                  leftSection={ICONS[category]}
+                  leftSection={ICONS["Favorites"]}
                   rightSection={favorites.size}
                 />
                 {Object.keys(categories)
