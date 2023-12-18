@@ -1,17 +1,12 @@
 "use client";
 
-import { useContext, useState, useEffect } from "react";
+import { useContext } from "react";
 import { DataContext } from "../../components/data-provider";
 import { IconBrandPolypane } from "../../components/tabler-icons";
 import { useRouter, usePathname, useSearchParams } from "next/navigation";
 import Link from "next/link";
 
-import { CodeHighlightTabs } from "@mantine/code-highlight";
-
 import {
-  Box,
-  NavLink,
-  Accordion,
   Paper,
   Badge,
   Alert,
@@ -26,7 +21,6 @@ import {
 } from "@mantine/core";
 import {
   IconStar,
-  IconFileTypeJs,
   IconClockHour3,
   IconNews,
   IconUsers,
@@ -36,14 +30,10 @@ import {
   IconBrandChrome,
   IconBrandFirefox,
   IconCirclesRelation,
-  IconChevronRight,
   IconBookmark,
 } from "@tabler/icons-react";
 
-import { getViewCount, setViewCount } from "../../lib/kv";
-
 export default function Layout({ children, params }) {
-  const [views, setViews] = useState("-");
   const router = useRouter();
   const pathname = usePathname();
   const searchParams = useSearchParams();
