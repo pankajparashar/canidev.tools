@@ -32,7 +32,7 @@ import {
   IconBrandChrome,
   IconBrandFirefox,
   IconCirclesRelation,
-  IconBookmark,
+  IconHash,
 } from "@tabler/icons-react";
 
 export default function Layout({ children, params }) {
@@ -240,7 +240,7 @@ export default function Layout({ children, params }) {
               )}
             </Alert>
             <Alert
-              icon={<IconBookmark />}
+              icon={<IconHash />}
               title="Tags"
               styles={{
                 body: { gap: 0 },

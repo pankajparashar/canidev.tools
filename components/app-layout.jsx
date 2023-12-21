@@ -31,7 +31,7 @@ import { useDisclosure, useMediaQuery, useLocalStorage } from "@mantine/hooks";
 import { Carousel } from "@mantine/carousel";
 
 import {
-  IconBookmark,
+  IconHash,
   IconSortAscending,
   IconSortDescending,
   IconFlame,
@@ -218,7 +218,7 @@ export const AppLayout = (props) => {
                     <NavLink
                       key={tag}
                       label={tag}
-                      leftSection={<IconBookmark stroke={1.5} size={20} />}
+                      leftSection={<IconHash stroke={1.5} size={20} />}
                       rightSection={slugs.length}
                       component={Link}
                       variant="filled"
