@@ -1,0 +1,21 @@
+{
+    Name: "Override CORS headers",
+    Description: "Can I override the CORS headers of the network response?",
+
+    Category: "Network",
+    Tags: ["overrides", "chrome"],
+
+    Authors: ["@pankajparashar"],
+
+    Chrome: {
+        Notes:
+            '''
+            - In the **Network** panel, open the failed request. Under the **Response Headers**, add the CORS header to set `Access-Control-Allow-Origin=*`. Modified requests are highlighted with a purple icon next to the **Status** code.
+            - To override multiple requests, click **Header Overrides** to open the **Overrides** panel under **Sources** and use the wildchars to match the pattern.
+            ''',
+        References:
+            '''
+            - Override HTTP Response Headers, [Chrome DevTools Docs](https://developer.chrome.com/docs/devtools/overrides/#override-headers).
+            '''
+    }
+}
