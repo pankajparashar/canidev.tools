@@ -23,5 +23,8 @@
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "rss": "^1.2.2"
+  },
+  "devDependencies": {
+    "capture-website": "^4.0.0"
   }
 }
