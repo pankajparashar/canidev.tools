@@ -3,7 +3,7 @@
     Description: "Can I inspect the markup of a custom element?"
 
     Category: "Elements",
-    Author: ["@pankajparashar"]
+    Authors: ["@pankajparashar"]
 
     Tags: ["firefox"],
     Firefox: {
