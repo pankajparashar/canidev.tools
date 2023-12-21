@@ -6,6 +6,7 @@
 	"Newsletter": "tips-tricks-11",
 
 	"Authors": ["@pankajparashar", "@kilianvalkhof"],
+    "Tags": ["chrome", "firefox", "edge", "polypane"],
 
 	"Chrome": {
 		"Share": "https://twitter.com/CanIDevTools/status/1556184233353179137",

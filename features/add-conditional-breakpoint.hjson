@@ -6,6 +6,7 @@
 	"Newsletter": "tips-tricks-32",
 
 	"Authors": ["@pankajparashar"],
+    "Tags": ["chrome", "firefox", "edge"],
 
 	"Chrome": {
 		"Share": "https://twitter.com/CanIDevTools/status/1584450115083075584",
@@ -30,11 +31,5 @@
 		"References": [
 			"1. Conditional line-of-code breakpoints, [Microsoft Edge DevTools Guide](https://learn.microsoft.com/en-us/microsoft-edge/devtools-guide-chromium/javascript/breakpoints#conditional-line-of-code-breakpoints)"
 		]
-	},
-
-	"Opera": {
-		"Share": "https://twitter.com/CanIDevTools/status/1584450115083075584",
-		"Video": "https://res.cloudinary.com/canidevtools/video/upload/v1666596070/add-conditional-breakpoint-opera_ebynhz.mp4",
-		"Notes": "1. In **Sources**, right click the line number and select \"Add a conditional breakpoint...\"\n2. Input the conditional expression on which the execution should pause, and press `Enter`.\n"
 	}
 }
