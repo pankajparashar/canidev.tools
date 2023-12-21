@@ -1,11 +1,10 @@
 "use client";
 
 import { Paper } from "@mantine/core";
-import { useColorScheme, useViewportSize } from "@mantine/hooks";
+import { useViewportSize } from "@mantine/hooks";
 
 export default function Page() {
-  const colorScheme = useColorScheme();
-  const { height, width } = useViewportSize();
+  const { height } = useViewportSize();
   return (
     <Paper
       className="column d_flex ai_center"
@@ -16,9 +15,8 @@ export default function Page() {
       <iframe
         height={Math.min(800, height - 50)}
         id="testimonialto-f12-tag-all-light-animated"
-        src="https://embed-v2.testimonial.to/w/f12?animated=on&theme=light&shadowColor=ffffff&speed=0.75&tag=all"
+        src="https://embed-v2.testimonial.to/w/f12?animated=on&theme=dark&shadowColor=ffffff&speed=0.75&tag=all"
         frameborder="0"
-        scrolling="no"
         width="100%"
       ></iframe>
     </Paper>
