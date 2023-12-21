@@ -455,7 +455,6 @@ const NavFooter = (props) => {
           leftSection={<IconUserCircle size={20} />}
           ml="auto"
         />
-        <Tabs.Tab value="testimonials" leftSection={<IconQuote size={20} />} />
       </Tabs.List>
 
       <Tabs.Panel value="ads">
@@ -524,25 +523,6 @@ const NavFooter = (props) => {
             </Tooltip>
           </SimpleGrid>
         </Alert>
-      </Tabs.Panel>
-      <Tabs.Panel value="testimonials">
-        <Carousel
-          autoPlay
-          loop
-          withIndicators
-          controlsOffset={0}
-          height="100%"
-          style={{ flex: 1 }}
-        >
-          {[
-            "https://res.cloudinary.com/dw9fem4ki/image/upload/v1675244568/pika-1675244292768-1x_fctkaz.png",
-            "https://res.cloudinary.com/dw9fem4ki/image/upload/v1675244568/pika-1675244314666-1x_ctlzo5.png",
-            "https://res.cloudinary.com/dw9fem4ki/image/upload/v1675244568/pika-1675244249461-1x_jtuvnh.jpg",
-            "https://res.cloudinary.com/dw9fem4ki/image/upload/v1675244568/pika-1675244351871-1x_hw0sqt.png",
-          ].map((image) => (
-            <Image src={image} key={image} />
-          ))}
-        </Carousel>
       </Tabs.Panel>
     </Tabs>
   );
