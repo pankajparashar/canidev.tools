@@ -2,7 +2,7 @@
     Name: "Use type profiler",
     Description: "Can I use a type profiler to identify the types inferred by the engine?"
 
-    Category: "Sources",
+    Category: "JavaScript",
     Authors: ["@pankajparashar"],
 
     Tags: ["safari"],
