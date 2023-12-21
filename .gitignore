@@ -3,3 +3,5 @@ node_modules
 .next
 .cache
 out
+engine.bin
+node_modules

@@ -33,7 +33,7 @@ Can I add an existing CSS class to an HTML element?
 3. If there is no class attribute yet, add it as a new attribute and known classes will also be automatically suggested.
 
 ## Add conditional breakpoint
-Can I set a conditional breakpoint while debugging code?
+Can I set a conditional breakpoint for debugging?
 
 [Chrome](https://canidev.tools/add-conditional-breakpoint/chrome): 
 1. In **Sources**, right click the line number and select "Add a conditional breakpoint..."
@@ -2160,6 +2160,13 @@ Open **Console** using `Cmd+Opt+C`. Use `console.table()` to output arrays of ar
 Open **Console**. Use `console.table()` to output arrays of array or array of objects in a sortable, tabular format.
 
 
+## Override CORS headers
+Can I override the CORS headers of the network response?
+
+[Chrome](https://canidev.tools/override-cors-headers/chrome): 
+- In the **Network** panel, open the failed request. Under the **Response Headers**, add the CORS header to set `Access-Control-Allow-Origin=*`. Modified requests are highlighted with a purple icon next to the **Status** code.
+- To override multiple requests, click **Header Overrides** to open the **Overrides** panel under **Sources** and use the wildchars to match the pattern.
+
 ## Override geolocation
 Can I override location to match a different geographic region?
 
@@ -2821,6 +2828,12 @@ Can I watch JavaScript values in real time with Live Expressions?
 2. The value below the pinned expression is its result. The result updates every 250ms.
 3. For a multi-line expression, start a new line using `Shift+Enter`.
 4. To use multiple live expressions, click the same icon again to add a new expression. To remove the expression, click the `X` button next to it.
+
+## Use type profiler
+Can I use a type profiler to identify the types inferred by the engine?
+
+[Safari](https://canidev.tools/use-type-profiler/safari): 
+- In the **Sources** panel, open the script from the left sidebar. Click the `T` icon in the top-right of the main toolbar to enable the type profiler
 
 ## View accessibility tree
 Can I view the accessibility tree?
