@@ -15,8 +15,8 @@ export default function Page() {
     >
       <iframe
         height={Math.min(800, height - 50)}
-        id="testimonialto-f12-tag-all-dark-animated"
-        src="https://embed-v2.testimonial.to/w/f12?animated=on&theme=dark&shadowColor=ffffff&speed=0.75&tag=all"
+        id="testimonialto-f12-tag-all-light-animated"
+        src="https://embed-v2.testimonial.to/w/f12?animated=on&theme=light&shadowColor=ffffff&speed=0.75&tag=all"
         frameborder="0"
         scrolling="no"
         width="100%"

@@ -23,7 +23,7 @@ import {
   NavLink,
   Divider,
   SimpleGrid,
-  Image,
+  Stack,
   Grid,
   useMantineColorScheme,
 } from "@mantine/core";
@@ -473,55 +473,60 @@ const NavFooter = (props) => {
             },
           }}
         >
-          <Avatar
-            src="https://github.com/pankajparashar.png"
-            size="xl"
-            styles={{ root: { float: "left" } }}
-            mr="sm"
-            component="a"
-            href="https://pankajparashar.com"
-          />
-          It is like <a href="//caniuse.com">@CanIUse</a> but for the browser
-          devtools, created by{" "}
-          <a href="//pankajparashar.com">@pankajparashar</a>.
-          <SimpleGrid cols={3} spacing={"1px"} mt="sm">
-            <Tooltip withArrow label="Substack" position="top">
-              <Button
-                size="xs"
-                fullWidth
-                variant="light"
+          <Stack gap={0}>
+            <Box>
+              <Avatar
+                size={"100px"}
+                radius="sm"
+                src="https://github.com/pankajparashar.png"
+                styles={{ root: { float: "left" } }}
+                mr="sm"
                 component="a"
-                href="https://canidevtools.substack.com/"
-                target="_blank"
-              >
-                <IconBrandSubStack size={15} />
-              </Button>
-            </Tooltip>
-            <Tooltip withArrow label="Github" position="top">
-              <Button
-                size="xs"
-                fullWidth
-                variant="light"
-                component="a"
-                href="https://github.com/pankajparashar/canidev.tools"
-                target="_blank"
-              >
-                <IconBrandGithub size={20} />
-              </Button>
-            </Tooltip>
-            <Tooltip withArrow label="Twitter" position="top">
-              <Button
-                size="xs"
-                fullWidth
-                variant="light"
-                component="a"
-                href="https://twitter.com/canidevtools"
-                target="_blank"
-              >
-                <IconBrandX size={20} />
-              </Button>
-            </Tooltip>
-          </SimpleGrid>
+                href="https://pankajparashar.com"
+              />
+              It is like <a href="//caniuse.com">@CanIUse</a> but for the
+              browser devtools, created by{" "}
+              <a href="//pankajparashar.com">@pankajparashar</a>.
+            </Box>
+            <SimpleGrid cols={3} spacing={"1px"} mt="sm">
+              <Tooltip withArrow label="Substack" position="top">
+                <Button
+                  size="xs"
+                  fullWidth
+                  variant="light"
+                  component="a"
+                  href="https://canidevtools.substack.com/"
+                  target="_blank"
+                >
+                  <IconBrandSubStack size={15} />
+                </Button>
+              </Tooltip>
+              <Tooltip withArrow label="Github" position="top">
+                <Button
+                  size="xs"
+                  fullWidth
+                  variant="light"
+                  component="a"
+                  href="https://github.com/pankajparashar/canidev.tools"
+                  target="_blank"
+                >
+                  <IconBrandGithub size={20} />
+                </Button>
+              </Tooltip>
+              <Tooltip withArrow label="Twitter" position="top">
+                <Button
+                  size="xs"
+                  fullWidth
+                  variant="light"
+                  component="a"
+                  href="https://twitter.com/canidevtools"
+                  target="_blank"
+                >
+                  <IconBrandX size={20} />
+                </Button>
+              </Tooltip>
+            </SimpleGrid>
+          </Stack>
         </Alert>
       </Tabs.Panel>
     </Tabs>
