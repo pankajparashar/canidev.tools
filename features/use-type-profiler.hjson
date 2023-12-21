@@ -1,0 +1,16 @@
+{
+    Name: "Use type profiler",
+    Description: "Can I use a type profiler to identify the types inferred by the engine?"
+
+    Category: "Sources",
+    Authors: ["@pankajparashar"],
+
+    Tags: ["safari"],
+
+    Safari: {
+        Notes: 
+            '''
+            - In the **Sources** panel, open the script from the left sidebar. Click the `T` icon in the top-right of the main toolbar to enable the type profiler
+            '''
+    }
+}
