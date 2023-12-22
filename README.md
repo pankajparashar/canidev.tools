@@ -488,6 +488,12 @@ Can I copy an image as a data URI?
 2. Open the **Preview** tab to preview the image and right click on the image > Copy image as data URI
 
 
+## Copy Img as background-image
+Can I copy the image url as a background-image property to directly use in CSS?
+
+[Polypane](https://canidev.tools/copy-img-bgimg/polypane): 
+- Right-click on the image, select **Copy** > **Copy as background-image**.
+
 ## Copy as JS expression
 Can I copy a node's path to be used as a JavaScript expression?
 
