@@ -1,0 +1,15 @@
+{
+	Name: "Copy Img as background-image",
+	Description: "Can I copy the image url as a background-image property to directly use in CSS?",
+	
+	Category: "CSS",
+	Authors: ["@pankajparashar"],
+	
+	Tags: ["@polypane"],
+	Polypane: {
+		Notes:
+			'''
+			- Right-click on the image, select **Copy** > **Copy as background-image**.
+			'''
+	}
+}
