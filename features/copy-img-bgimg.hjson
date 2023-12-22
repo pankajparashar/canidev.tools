@@ -8,6 +8,7 @@
 	Tags: ["polypane"],
 	Polypane: {
 		Version: 17,
+		Share: "",
 		Notes:
 			'''
 			- Right-click on the image, select **Copy** > **Copy as background-image**.
