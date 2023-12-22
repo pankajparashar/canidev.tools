@@ -751,6 +751,12 @@ Can I detect memory leaks in my web app using devtools?
 3. Take snapshot using the **Camera** icon after each repetition. Use the **Compare** button to compare the snapshots for any visible memory spikes.
 
 
+## Detect missing meta tags
+Can I detect the meta tags missing from the HTML?
+
+[Polypane](https://canidev.tools/detect-missing-meta-tags/polypane): 
+- Navigate to **Info** > **Meta** panel, under the **Site information** section, expand **Meta tags** to identify the required and optional missing meta tags on the page.
+
 ## Disable cache
 Can I disable cache for the network requests?
 
@@ -1774,6 +1780,12 @@ Can I inspect CSS variables?
 [Edge](https://canidev.tools/inspect-css-vars/edge): 
 1. In **Styles** pane, hover over the variable name to see the value in the tooltip. Click the link to jump to the section where the variable is defined.
 
+
+## Inspect custom element markup
+Can I inspect the markup of a custom element?
+
+[Firefox](https://canidev.tools/inspect-custom-element-markup/firefox): 
+- In Firefox, when inspecting elements (in the Inspector panel), you can click on the custom badge to go straight to the custom element's JavaScript source code.
 
 ## Inspect devtools
 Can I inspect the browser's developer tool?
