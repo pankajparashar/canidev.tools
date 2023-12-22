@@ -17,7 +17,7 @@ export async function GET() {
   });
 
   fs.readdirSync("features").forEach((filename) => {
-    const filepath = path.join("../features", filename);
+    const filepath = path.join("features", filename);
     const fileobj = fs.readFileSync(filepath, "utf-8");
     const mtime = fs.statSync(filepath).mtime;
 
