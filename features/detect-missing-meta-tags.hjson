@@ -9,6 +9,7 @@
 
     Polypane: {
         Version: 17,
+        Share: "https://twitter.com/CanIDevTools/status/1738196868432068818",
         Video: "https://res.cloudinary.com/canidevtools/video/upload/l_watermark,w_200,o_5/detect-missing-meta-tags-polypane.mp4",
         Notes: 
             '''
