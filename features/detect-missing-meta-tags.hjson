@@ -14,5 +14,9 @@
             '''
             - Navigate to **Info** > **Meta** panel, under the **Site information** section, expand **Meta tags** to identify the required and optional missing meta tags on the page.
             '''
+        References:
+            '''
+            1. Polypane 17, [https://polypane.app/blog/polypane-17-meta-panel-updates-reference-image-split-slider-and-chromium-120/](Polypane Blog).
+            '''
     }
 }
