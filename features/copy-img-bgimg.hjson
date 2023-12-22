@@ -5,7 +5,7 @@
 	Category: "CSS",
 	Authors: ["@pankajparashar"],
 	
-	Tags: ["@polypane"],
+	Tags: ["polypane"],
 	Polypane: {
 		Version: 17,
 		Notes:
