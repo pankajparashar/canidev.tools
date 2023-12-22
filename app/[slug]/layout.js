@@ -5,7 +5,6 @@ import { DataContext } from "../../components/data-provider";
 import { IconBrandPolypane } from "../../components/tabler-icons";
 import { useRouter, usePathname, useSearchParams } from "next/navigation";
 import Link from "next/link";
-import { toggleFavorites, isFavorite } from "../../lib/kv";
 import superjson from "superjson";
 import { useLocalStorage } from "@mantine/hooks";
 
@@ -88,13 +87,15 @@ export default function Layout({ children, params }) {
         <Flex align={"center"} gap="sm">
           <ActionIcon
             variant="subtle"
+            data-umami-event="favorites"
             onClick={() => {
+              const newFavorties = new Set(favorites);
               if (favorites.has(feature.Slug)) {
-                favorites.delete(feature.Slug);
+                newFavorties.delete(feature.Slug);
               } else {
-                favorites.add(feature.Slug);
+                newFavorties.add(feature.Slug);
               }
-              setFavorites(favorites);
+              setFavorites(newFavorties);
             }}
           >
             {favorites.has(feature.Slug) ? (
