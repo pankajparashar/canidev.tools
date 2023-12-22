@@ -6,6 +6,8 @@ import { IconBrandPolypane } from "../../components/tabler-icons";
 import { useRouter, usePathname, useSearchParams } from "next/navigation";
 import Link from "next/link";
 import { toggleFavorites, isFavorite } from "../../lib/kv";
+import superjson from "superjson";
+import { useLocalStorage } from "@mantine/hooks";
 
 import {
   Paper,
@@ -45,7 +47,13 @@ export default function Layout({ children, params }) {
 
   const { features } = useContext(DataContext);
   const feature = features.find((f) => f.Slug === params.slug);
-  const [isFav, setIsFav] = useState(isFavorite(feature.Slug));
+  const [favorites, setFavorites] = useLocalStorage({
+    key: "F12",
+    defaultValue: new Set(),
+    serialize: superjson.stringify,
+    deserialize: (str) =>
+      str === undefined ? new Set() : superjson.parse(str),
+  });
 
   const onTabChange = (value) => {
     router.push(`/${params.slug}/${value}?` + searchParams.toString());
@@ -81,11 +89,15 @@ export default function Layout({ children, params }) {
           <ActionIcon
             variant="subtle"
             onClick={() => {
-              toggleFavorites(feature.Slug);
-              setIsFav(!isFav);
+              if (favorites.has(feature.Slug)) {
+                favorites.delete(feature.Slug);
+              } else {
+                favorites.add(feature.Slug);
+              }
+              setFavorites(favorites);
             }}
           >
-            {isFav ? (
+            {favorites.has(feature.Slug) ? (
               <IconStarFilled size={20} stroke={1.5} />
             ) : (
               <IconStar size={20} stroke={1.5} />

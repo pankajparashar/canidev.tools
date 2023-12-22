@@ -22,7 +22,8 @@
     "next": "14.0.4",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "rss": "^1.2.2"
+    "rss": "^1.2.2",
+    "superjson": "^2.2.1"
   },
   "devDependencies": {
     "capture-website": "^4.0.0"

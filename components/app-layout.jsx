@@ -3,6 +3,7 @@
 import { useRef, useEffect, useContext, useState } from "react";
 import { useSearchParams, useRouter, usePathname } from "next/navigation";
 import Link from "next/link";
+import superjson from "superjson";
 
 import {
   Alert,
@@ -28,7 +29,6 @@ import {
   useMantineColorScheme,
 } from "@mantine/core";
 import { useDisclosure, useMediaQuery, useLocalStorage } from "@mantine/hooks";
-import { Carousel } from "@mantine/carousel";
 
 import {
   IconHash,
@@ -36,7 +36,6 @@ import {
   IconSortDescending,
   IconFlame,
   IconSitemap,
-  IconQuote,
   IconBrandGithub,
   IconBrandX,
   IconUserCircle,
@@ -51,7 +50,6 @@ import {
 
 import { IconBrandSubStack, ICONS } from "./tabler-icons";
 import { DataContext } from "./data-provider";
-import { getFavorites } from "../lib/kv";
 
 export const AppLayout = (props) => {
   const searchParams = useSearchParams();
@@ -59,7 +57,13 @@ export const AppLayout = (props) => {
   const tag = searchParams.get("tag");
   const query = searchParams.get("q");
   const sort = searchParams.get("sort");
-  const favorites = getFavorites();
+  const [favorites] = useLocalStorage({
+    key: "F12",
+    defaultValue: new Set(),
+    serialize: superjson.stringify,
+    deserialize: (str) =>
+      str === undefined ? new Set() : superjson.parse(str),
+  });
 
   const router = useRouter();
   const { toggleColorScheme } = useMantineColorScheme();
