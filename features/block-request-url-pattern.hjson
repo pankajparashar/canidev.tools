@@ -6,6 +6,7 @@
 	"Newsletter": "tips-tricks-29",
 
 	"Authors": ["@pankajparashar"],
+    Tags: ["chrome", "firefox", "edge", "safari"],
 
 	"Chrome": {
 		"Share": "https://twitter.com/CanIDevTools/status/1582354903963299840",
