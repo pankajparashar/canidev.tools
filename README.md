@@ -757,6 +757,9 @@ Can I detect the meta tags missing from the HTML?
 [Polypane](https://canidev.tools/detect-missing-meta-tags/polypane): 
 - Navigate to **Info** > **Meta** panel, under the **Site information** section, expand **Meta tags** to identify the required and optional missing meta tags on the page.
 
+
+![](https://res.cloudinary.com/canidevtools/image/upload/l_watermark,w_200,o_5/detect-missing-meta-tags-polypane_v1.png)
+
 ## Disable cache
 Can I disable cache for the network requests?
 

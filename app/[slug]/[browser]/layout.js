@@ -28,12 +28,28 @@ export async function generateMetadata({ params }) {
             description: feature.Description,
             creator: "@CanIDevTools",
             site: "canidev.tools",
+            images: [
+                {
+                    type: "image/png",
+                    width: 500,
+                    height: 255,
+                    url: `https://canidev.tools/images/${params.slug}.png`,
+                },
+            ],
         },
         openGraph: {
             title: `${browser} | ${feature.Name} | Can I DevTools`,
             description: feature.Description,
             url: "https://canidev.tools",
             type: "website",
+            images: [
+                {
+                    type: "image/png",
+                    width: 500,
+                    height: 255,
+                    url: `https://canidev.tools/images/${params.slug}.png`,
+                },
+            ],
         },
     };
 }
