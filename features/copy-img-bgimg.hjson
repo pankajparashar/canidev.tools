@@ -14,6 +14,10 @@
 		Notes:
 			'''
 			- Right-click on the image, select **Copy** > **Copy as background-image**.
+			''',
+		References:
+			'''
+			- Polypane 17, [Polypane blog](https://polypane.app/blog/polypane-17-meta-panel-updates-reference-image-split-slider-and-chromium-120/).
 			'''
 	}
 }

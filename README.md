@@ -494,6 +494,9 @@ Can I copy the image url as a background-image property to directly use in CSS?
 [Polypane](https://canidev.tools/copy-img-bgimg/polypane): 
 - Right-click on the image, select **Copy** > **Copy as background-image**.
 
+
+![](https://res.cloudinary.com/canidevtools/image/upload/l_watermark,w_200,o_5/copy-img-bgimg-polypane-v1.png)
+
 ## Copy as JS expression
 Can I copy a node's path to be used as a JavaScript expression?
 
