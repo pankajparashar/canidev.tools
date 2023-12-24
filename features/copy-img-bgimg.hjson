@@ -8,7 +8,9 @@
 	Tags: ["polypane"],
 	Polypane: {
 		Version: 17,
-		Share: "",
+		Video: "https://res.cloudinary.com/canidevtools/video/upload/l_watermark,w_200,o_5/copy-img-bgimg-polypane.mp4",
+		Image: "https://res.cloudinary.com/canidevtools/image/upload/l_watermark,w_200,o_5/copy-img-bgimg-polypane-v1.png",
+		Share: "https://twitter.com/CanIDevTools/status/1738894453526376796",
 		Notes:
 			'''
 			- Right-click on the image, select **Copy** > **Copy as background-image**.
