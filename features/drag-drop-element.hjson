@@ -1,10 +1,11 @@
 {
     "Name": "Drag & Drop element",
-
     "Description": "Can I drag & drop nodes anywhere inside the DOM tree?",
-    "Category": "Elements",
-    
+
+    "Category": "Elements",    
     "Authors": ["@pankajparashar"],
+
+    Tags: ["chrome", "edge", "firefox", "safari"],	
     "Chrome": {
         "Share": "https://twitter.com/CanIDevTools/status/1523314607418318851",
         "Notes": "1. Inspect element or Press `Cmd+Opt+I` (on Mac) or `Ctrl+Shift+I` (on Windows/Linux).\n2. Select the node and drag-n-drop to a different part of the DOM tree.\n",
@@ -21,8 +22,5 @@
     "Safari": {
         "References": "[1] \"Elements Tab\" - [Webkit](https://webkit.org/web-inspector/elements-tab/)\n",
         "Notes": "1. Select any DOM node from the DOM tree, drag and drop anywhere in the tree to place the element.\n"
-    },
-    "Opera": {
-        "Notes": "1. Right click > Inspect element or Press `Cmd+Opt+I` (on Mac) or `Ctrl+Shift+I` (on Windows/Linux).\n2. Select the node and drag-n-drop to a different part of the DOM tree.\n"
     }
 }

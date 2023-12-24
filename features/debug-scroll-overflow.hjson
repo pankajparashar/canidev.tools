@@ -1,10 +1,11 @@
 {
   Name: "Debug scroll overflow",
-  Description: "Can I debug container with scrollbars to identfy the element causing it?",
+  Description: "Can I debug container with scrollbars to identify the element causing it?",
 
   Category: "Elements",  
   Authors: ["@pankajparashar", "@kilianvalkhof"],
 
+  Tags: ["firefox", "polypane"],	
   Firefox: {
     Notes: 
       '''

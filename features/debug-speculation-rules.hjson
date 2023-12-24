@@ -2,10 +2,10 @@
   "Name": "Debug speculation rules",
   "Description": "Can I debug speculation rules for prefetch/prerender next page navigations?",
 
-
   "Category": "Network",
   "Authors": ["@pankajparashar"],
 
+  Tags: ["chrome"],	
   "Chrome": {
     "Notes": [
       "1. In the **Network** panel, prefetched resources have the **Type** as `prefetch` and the Request Headers will contain the header `Sec-Purpose: prefetch` which is used to identify such requests on the server-side.",

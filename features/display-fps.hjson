@@ -5,14 +5,12 @@
     "Category": "Performance",
 
     "Authors": ["@pankajparashar"],
+    Tags: ["chrome", "edge"],	
 
     "Chrome": {
         "Notes": ["1. Open **Command Menu** (`Cmd+Shift+P` or `Ctrl+Shift+P`) > Run \"Show frames per second (FPS) meter\".\n"]
     },
     "Edge": {
-        "Notes": ["1. Open **Command Menu** (`Cmd+Shift+P` or `Ctrl+Shift+P`) > Run \"Show frames per second (FPS) meter\".\n"]
-    },
-    "Opera": {
         "Notes": ["1. Open **Command Menu** (`Cmd+Shift+P` or `Ctrl+Shift+P`) > Run \"Show frames per second (FPS) meter\".\n"]
     }
 }

@@ -5,6 +5,7 @@
 	"Category": "CSS",
 	"Authors": ["@pankajparashar"],
 	
+	Tags: ["chrome", "edge"],	
 	"Chrome": {
 		"Notes": [
 			"1. Open **Command Menu** (`Cmd+Shift+P` or `Ctrl+Shift+P`) > Run \"Show Rendering\" to open the **Rendering** drawer.",

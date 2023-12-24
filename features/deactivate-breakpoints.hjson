@@ -2,10 +2,10 @@
 	"Name": "Deactivate breakpoints",
 	"Description": "Can I temporarily deactivate breakpoints while debugging source code?",
 
-
 	"Category": "Debugger",
 	"Authors": ["@pankajparashar"],
-	
+
+	Tags: ["chrome", "edge"],	
 	"Chrome": {
 		"Notes": [
 			"1. In the **Sources** panel, open the **Breakpoints** pane, click the **Deactivate breakpoints** (`Cmd+F8` or `Ctrl+F8`) icon to prevent the execution from pausing at breakpoints."

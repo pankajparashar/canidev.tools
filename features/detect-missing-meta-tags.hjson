@@ -6,7 +6,6 @@
     Authors: ["@pankajparashar"],
 
     Tags: ["polypane"],
-
     Polypane: {
         Version: 17,
         Share: "https://twitter.com/CanIDevTools/status/1738196868432068818",

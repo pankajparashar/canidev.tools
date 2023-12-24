@@ -1,10 +1,12 @@
 {
     "Name": "Debug Event Listeners",
-
     "Description": "Can I debug event listeners by setting a breakpoint on all or specific events?",
-    "Category": "Debugger",
-    
+
+    "Category": "Debugger",    
     "Authors": ["@pankajparashar"],
+
+    Tags: ["chrome", "edge", "firefox", "safari"],	
+
     "Chrome": {
         "References": "[1] \"Event listener breakpoints\", by Chrome DevTools [Docs](https://developer.chrome.com/docs/devtools/javascript/breakpoints/#event-listeners)\n",
         "Notes": "1. In the **Sources** tab, expand the **Event Listeners Breakpoints** section to see the list of event categories.\n2. Expand a category and enable the checkbox for the event that needs to be debugged.\n",
@@ -21,9 +23,5 @@
     "Safari": {
         "References": "[1] \"Event Breakpoints\" - [Webkit](https://webkit.org/web-inspector/event-breakpoints/)\n",
         "Notes": "1. In the **Sources** tab, click the \"+\" button from the left sidebar in the **Breakpoints** section > Select \"Events Breakpoint\".\n2. Enter the name of the event in the popup form to apply a breakpoint for a specific event.\n3. Alternatively, you can set breakpoint on all the events by selecting \"All Events\" after clicking the \"+\" button.\n"
-    },
-    "Opera": {
-        "Video": "https://res.cloudinary.com/canidevtools/video/upload/v1658474126/debug-event-listeners-chrome_sjiedd.mp4",
-        "Notes": "1. In the **Sources** tab, expand the **Event** **Listeners** **Breakpoints** section to see the list of event categories.\n2. Expand a category and enable the checkbox for the event that needs to be debugged.\n"
     }
 }

@@ -4,6 +4,8 @@
 
   "Category": "Other",
   "Authors": ["@pankajparashar"],
+  
+  Tags: ["safari"],	
   "Safari": {
     "Notes": [
       "1. In the Menu bar, select **Develop** > Select the device > Select the page to open the **Web Inspector** for that URL."

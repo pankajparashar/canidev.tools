@@ -5,6 +5,7 @@
     "Category": "Debugger",
     "Authors": ["@pankajparashar"],
 
+    Tags: ["firefox"],	
     "Firefox": {
         "Image": "https://res.cloudinary.com/canidevtools/image/upload/l_watermark,w_150,o_5/disable-debugger.statement-firefox.png",
         "Video": "https://res.cloudinary.com/canidevtools/video/upload/l_watermark,w_150,o_5/disable-debugger.statement-firefox.mp4",

@@ -1,10 +1,12 @@
 {
   "Name": "Debug attr change",
-
   "Description": "Can I set breakpoint and debug attr changes of a node?",
-  "Category": "Elements",
-  
+
+  "Category": "Elements",  
   "Authors": ["@pankajparashar"],
+
+  Tags: ["chrome", "edge", "firefox", "safari"],	
+
   "Chrome": {
     "Notes": "1. Inspect element > Right click on the node in the DOM tree.\n2. Select \"Break on\" > \"attribute modifications\". Reload the page.\n"
   },
@@ -17,7 +19,4 @@
   "Safari": {
     "Notes": "1. Inspect element > Right click on the DOM node > Select \"Break on\" > Select \"Attribute Modified\".\n2. Reload the page.\n"
   },
-  "Opera": {
-    "Notes": "1. Inspect element > Right click on the node in the DOM tree.\n2. Select \"Break on\" > \"attribute modifications\". Reload the page.\n"
-  }
 }
