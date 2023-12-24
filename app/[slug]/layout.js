@@ -268,7 +268,7 @@ export default function Layout({ children, params }) {
             >
               {feature.Tags &&
                 feature.Tags.map((tag, idx) => (
-                  <>
+                  <span key={tag}>
                     <Link
                       href={{
                         pathname: "/",
@@ -278,7 +278,7 @@ export default function Layout({ children, params }) {
                       {tag}
                     </Link>
                     {idx === feature.Tags.length - 1 ? "" : ", "}
-                  </>
+                  </span>
                 ))}
             </Alert>
           </SimpleGrid>
