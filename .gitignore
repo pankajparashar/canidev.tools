@@ -5,3 +5,4 @@ node_modules
 out
 engine.bin
 node_modules
+.commit
