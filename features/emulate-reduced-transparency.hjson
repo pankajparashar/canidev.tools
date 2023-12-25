@@ -8,8 +8,8 @@
     Authors: ["@pankajparashar"],
     Tags: ["chrome", "polypane"],
     Chrome: {
-        Video: "https://res.cloudinary.com/canidevtools/video/upload/l_watermark,w_150,o_5/emulate-reduced-transparency-chrome.mp4",
-        Image: "https://res.cloudinary.com/canidevtools/image/upload/l_watermark,w_150,o_5/emulate-reduced-transparency-chrome.png",
+        Video: "https://res.cloudinary.com/canidevtools/video/upload/l_watermark,w_200,o_5/emulate-reduced-transparency-chrome.mp4",
+        Image: "https://res.cloudinary.com/canidevtools/image/upload/l_watermark,w_200,o_5/emulate-reduced-transparency-chrome.png",
         Share: "https://twitter.com/CanIDevTools/status/1720938896555397567",
         Version: "118",
         Notes: ["1. Open **Command Menu** (`Cmd+Shift+P` or `Ctrl+Shift+P`) > Run \"Show Rendering\". Scroll down to the **Emulate CSS media** features section and select `prefers-reduced-transparency: reduce` to apply the effect.\n"],
@@ -17,8 +17,8 @@
     },
 
     Polypane: {
-        Video: "https://res.cloudinary.com/canidevtools/video/upload/l_watermark,w_150,o_5/emulate-reduced-transparency-polypane.mp4",
-        Image: "https://res.cloudinary.com/canidevtools/image/upload/l_watermark,w_150,o_5/emulate-reduced-transparency-polypane.png",
+        Video: "https://res.cloudinary.com/canidevtools/video/upload/l_watermark,w_200,o_5/emulate-reduced-transparency-polypane.mp4",
+        Image: "https://res.cloudinary.com/canidevtools/image/upload/l_watermark,w_200,o_5/emulate-reduced-transparency-polypane.png",
         Version: "16",
         Share: "https://twitter.com/CanIDevTools/status/1721105411598639384",
         Notes: ["1. In Developer Tools, click the **Change Media and Emulations** button in the toolbar to open the popup.", "2. In the **Media** tab, click the **reduce** toggle button to preview the page with reduced transparency effect. Revert the effect by clicking the **no-preference** button.\n"]

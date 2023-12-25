@@ -6,8 +6,8 @@
     Authors: ["@pankajparashar"],
 
     Polypane: {
-        Video: "https://res.cloudinary.com/canidevtools/video/upload/l_watermark,w_150,o_5/inspect-scope-at-rules-polypane.mp4",
-        Image: "https://res.cloudinary.com/canidevtools/image/upload/l_watermark,w_150,o_5/inspect-scope-at-rules-polypane.png",
+        Video: "https://res.cloudinary.com/canidevtools/video/upload/l_watermark,w_200,o_5/inspect-scope-at-rules-polypane.mp4",
+        Image: "https://res.cloudinary.com/canidevtools/image/upload/l_watermark,w_200,o_5/inspect-scope-at-rules-polypane.png",
         Version: "16",
         Share: "https://twitter.com/CanIDevTools/status/1721299138283716885",
         Notes: ["1. Inspect the element that has `@scope` rules applied. The ruleset will be visible in the **Style** pane under the `@scope` block declaration.", "2. Hover over the **scoping root element** to highlight the element on the page. Click the element to directly jump to the node in the **Element** tree.\n"],

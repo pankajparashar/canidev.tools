@@ -238,7 +238,7 @@ Can I capture a high definition screenshot of the page?
 
 
 
-![](https://res.cloudinary.com/canidevtools/image/upload/l_watermark,w_150,o_5/capture-hd-screenshot-chrome.png)
+![](https://res.cloudinary.com/canidevtools/image/upload/l_watermark,w_200,o_5/capture-hd-screenshot-chrome.png)
 
 [Firefox](https://canidev.tools/capture-hd-screenshot/firefox): 
 1. In the **Console** panel, run the command `:screenshot --dpr 3` to take a high definition screenshot of the page with the device pixel ratio set to 3.
@@ -254,7 +254,7 @@ Can I capture a high definition screenshot of the page?
 
 
 
-![](https://res.cloudinary.com/canidevtools/image/upload/l_watermark,w_150,o_5/capture-hd-screenshot-edge.png)
+![](https://res.cloudinary.com/canidevtools/image/upload/l_watermark,w_200,o_5/capture-hd-screenshot-edge.png)
 
 ## Capture node screenshot
 Can I take screenshot of a DOM node?
@@ -799,7 +799,7 @@ Can I prevent the debugger from pausing at the debugger statement?
 1. In the **Debugger** panel, expand the **Breakpoints** pane, and unselect the **Pause on debugger statement** option to prevent the debugger from pausing at the `debugger` statement.
 
 
-![](https://res.cloudinary.com/canidevtools/image/upload/l_watermark,w_150,o_5/disable-debugger.statement-firefox.png)
+![](https://res.cloudinary.com/canidevtools/image/upload/l_watermark,w_200,o_5/disable-debugger.statement-firefox.png)
 
 ## Disable JavaScript
 Can I disable JavaScript on a web page?
@@ -1021,7 +1021,7 @@ Can I emulate reduced transparency CSS media feature?
 
 
 
-![](https://res.cloudinary.com/canidevtools/image/upload/l_watermark,w_150,o_5/emulate-reduced-transparency-chrome.png)
+![](https://res.cloudinary.com/canidevtools/image/upload/l_watermark,w_200,o_5/emulate-reduced-transparency-chrome.png)
 
 [Polypane](https://canidev.tools/emulate-reduced-transparency/polypane): 
 1. In Developer Tools, click the **Change Media and Emulations** button in the toolbar to open the popup.
@@ -1029,7 +1029,7 @@ Can I emulate reduced transparency CSS media feature?
 
 
 
-![](https://res.cloudinary.com/canidevtools/image/upload/l_watermark,w_150,o_5/emulate-reduced-transparency-polypane.png)
+![](https://res.cloudinary.com/canidevtools/image/upload/l_watermark,w_200,o_5/emulate-reduced-transparency-polypane.png)
 
 ## Expand DOM nodes recursively
 Can I expand DOM nodes recursively in the DOM tree?
@@ -1535,7 +1535,7 @@ Can I ignore third-party scripts while debugging?
 1. In the **Debugger** panel, open **Debugger Settings** and select **Ignore Known Third-partyScripts** to ignore the third-party scripts defined in the [ignoreList](https://developer.chrome.com/articles/x-google-ignore-list/) sourcemaps extension.
 
 
-![](https://res.cloudinary.com/canidevtools/image/upload/l_watermark,w_150,o_5/ignore-third-party-scripts-firefox.png)
+![](https://res.cloudinary.com/canidevtools/image/upload/l_watermark,w_200,o_5/ignore-third-party-scripts-firefox.png)
 
 ## Import & Export HAR file
 Can I import and export network activity to a HAR file?
@@ -1727,13 +1727,13 @@ Can I inspect CSS nesting rules applied to an element?
 1. Inspect the element that has CSS nesting rules applied. Nesting rules are available in the **Styles** pane to view and edit.
 
 
-![](https://res.cloudinary.com/canidevtools/image/upload/l_watermark,w_150,o_5/inspect-css-nesting-chrome.png)
+![](https://res.cloudinary.com/canidevtools/image/upload/l_watermark,w_200,o_5/inspect-css-nesting-chrome.png)
 
 [Firefox](https://canidev.tools/inspect-css-nesting/firefox): 
 1. Inspect the element that has CSS nesting rules applied. Nesting rules are available in the **Rules** pane to view and edit.
 
 
-![](https://res.cloudinary.com/canidevtools/image/upload/l_watermark,w_150,o_5/inspect-css-nesting-firefox.png)
+![](https://res.cloudinary.com/canidevtools/image/upload/l_watermark,w_200,o_5/inspect-css-nesting-firefox.png)
 
 [Edge](https://canidev.tools/inspect-css-nesting/edge): 
 1. Inspect the element that has CSS nesting rules applied. Nesting rules are available in the **Styles** pane to view and edit.
@@ -1742,7 +1742,7 @@ Can I inspect CSS nesting rules applied to an element?
 1. Inspect the element that has CSS nesting rules applied. Nesting rules are available in the **Style** pane to view and edit.
 
 
-![](https://res.cloudinary.com/canidevtools/image/upload/l_watermark,w_150,o_5/inspect-css-nesting-polypane.png)
+![](https://res.cloudinary.com/canidevtools/image/upload/l_watermark,w_200,o_5/inspect-css-nesting-polypane.png)
 
 ## Inspect CSS Position
 Can I inspect & edit the absolutely positioned elements visually?
@@ -1828,7 +1828,7 @@ Can I inspect the network requests that were resolved with DoH (DNS over HTTPS)?
 1. In the **Network** panel, open the request to see the details in the side pane. In the **Headers** tab, verify that the **DNS Resolution** property has the value **DNS over HTTPS**.
 
 
-![](https://res.cloudinary.com/canidevtools/image/upload/l_watermark,w_150,o_5/inspect-dns-over-https-firefox.png)
+![](https://res.cloudinary.com/canidevtools/image/upload/l_watermark,w_200,o_5/inspect-dns-over-https-firefox.png)
 
 ## Inspect fetch priority
 Can I inspect the fetchpriority applied to the resources?
@@ -1881,7 +1881,7 @@ Can I inspect the popup overlay elements like the Dropdown lists, menus, etc.,
 2. Scroll down and select **Emulate a focused page** option to inspect the popup element in DevTools.
 
 
-![](https://res.cloudinary.com/canidevtools/image/upload/l_watermark,w_150,o_5/inspect-popup-overlays-chrome.png)
+![](https://res.cloudinary.com/canidevtools/image/upload/l_watermark,w_200,o_5/inspect-popup-overlays-chrome.png)
 
 [Edge](https://canidev.tools/inspect-popup-overlays/edge): 
 1. Open the **Command Menu** (`Cmd+Shift+P` or `Ctrl+Shift+P`) > Run "Show Rendering" to open the **Rendering** drawer.
@@ -1923,7 +1923,7 @@ Can I inspect the CSS @scope at-rules and the scoping root element?
 
 
 
-![](https://res.cloudinary.com/canidevtools/image/upload/l_watermark,w_150,o_5/inspect-scope-at-rules-polypane.png)
+![](https://res.cloudinary.com/canidevtools/image/upload/l_watermark,w_200,o_5/inspect-scope-at-rules-polypane.png)
 
 ## Inspect CSS scroll snap
 Can I inspect & visualize CSS scroll snap layout?
@@ -2126,7 +2126,7 @@ Start-Process -FilePath "msedge" -ArgumentList "--auto-open-devtools-for-tabs</p
  **Linux**: <pre>microsoft-edge --auto-open-devtools-for-tabs</pre>
 
 
-![](https://res.cloudinary.com/canidevtools/image/upload/l_watermark,w_150,o_5/open-devtools-new-tab-edge.png)
+![](https://res.cloudinary.com/canidevtools/image/upload/l_watermark,w_200,o_5/open-devtools-new-tab-edge.png)
 
 [Polypane](https://canidev.tools/open-devtools-new-tab/polypane): 
 1. Open DevTools > In the File menu select "Set Current Tab as Default New Tab".
@@ -2351,7 +2351,7 @@ Can I preview the social media cards for websites like Facebook, X etc
 
 
 
-![](https://res.cloudinary.com/canidevtools/image/upload/l_watermark,w_150,o_5/preview-social-media-cards-polypane.png)
+![](https://res.cloudinary.com/canidevtools/image/upload/l_watermark,w_200,o_5/preview-social-media-cards-polypane.png)
 
 ## Record & replay user journey
 Can I record and replay all the user actions performed on the website?
@@ -2615,13 +2615,13 @@ Can I simulate different color blindness conditions to test my web page?
 1. In the **Accessibility** panel, from the toolbar open the **Simulate** menu and select the type of deficiency to simulate the page for the users with that deficiency.
 
 
-![](https://res.cloudinary.com/canidevtools/image/upload/l_watermark,w_150,o_5/simulate-color-blindness-firefox.png)
+![](https://res.cloudinary.com/canidevtools/image/upload/l_watermark,w_200,o_5/simulate-color-blindness-firefox.png)
 
 [Polypane](https://canidev.tools/simulate-color-blindness/polypane): 
 1. Click the **Debug tools** icon to open the list of available debug tools. Switch to the **Simulators** tab to find various color blindness conditions like, **Red-green**, **Blue-yellow**, and **Full** color blindness. Toggle the conditions to simulate the deficiency on the page.
 
 
-![](https://res.cloudinary.com/canidevtools/image/upload/l_watermark,w_150,o_5/simulate-color-blindness-polypane.png)
+![](https://res.cloudinary.com/canidevtools/image/upload/l_watermark,w_200,o_5/simulate-color-blindness-polypane.png)
 
 ## Simulate device orientation
 Can I simulate device orientation to mock built-in accelerometer, gyroscope & compass?

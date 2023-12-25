@@ -7,8 +7,8 @@
 
     Polypane: {
         Version: "16",
-        Image: "https://res.cloudinary.com/canidevtools/image/upload/l_watermark,w_150,o_5/preview-social-media-cards-polypane.png",
-        Video: "https://res.cloudinary.com/canidevtools/video/upload/l_watermark,w_150,o_5/preview-social-media-cards-polypane.mp4",
+        Image: "https://res.cloudinary.com/canidevtools/image/upload/l_watermark,w_200,o_5/preview-social-media-cards-polypane.png",
+        Video: "https://res.cloudinary.com/canidevtools/video/upload/l_watermark,w_200,o_5/preview-social-media-cards-polypane.mp4",
         Share: "https://twitter.com/CanIDevTools/status/1718369812928184650",
         Notes: ["1. In Developer Tools, open **Info > Meta**. Scroll down to the **Social media previews** section to see cards for each social media website like X, Facebook, LinkedIn etc.", "2. This also works with `localhost` while running the app locally. Use the **Overwrite domain** button to preview the card with production URL.", "3. Toggle the **light/dark** buttons to preview the card in the light and the dark mode respectively.\n"],
         References: ["1. \"Rich snippets/social card previews\", [Polypane docs](https://polypane.app/docs/meta-information/#rich-snippetssocial-card-previews).", "2. \"Social media previews\", [Polypane](https://polypane.app/social-media-previews/)."]

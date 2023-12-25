@@ -16,8 +16,8 @@
     },
 
     Edge: {
-        Video: "https://res.cloudinary.com/canidevtools/video/upload/l_watermark,w_150,o_5/open-devtools-new-tab-edge.mp4",
-        Image: "https://res.cloudinary.com/canidevtools/image/upload/l_watermark,w_150,o_5/open-devtools-new-tab-edge.png",
+        Video: "https://res.cloudinary.com/canidevtools/video/upload/l_watermark,w_200,o_5/open-devtools-new-tab-edge.mp4",
+        Image: "https://res.cloudinary.com/canidevtools/image/upload/l_watermark,w_200,o_5/open-devtools-new-tab-edge.png",
         Share: "https://twitter.com/CanIDevTools/status/1717681871234945515",
         Notes: ["1. At the command line, open Microsoft Edge, passing in the --auto-open-devtools-for-tabs flag, as follows:", "2. **Windows**: <pre>start msedge --auto-open-devtools-for-tabs \nStart-Process -FilePath \"msedge\" -ArgumentList \"--auto-open-devtools-for-tabs</pre> \n**MacOS**: <pre>/Applications/Microsoft\\ Edge.app/Contents/MacOS/Microsoft\\ Edge --auto-open-devtools-for-tabs</pre> \n **Linux**: <pre>microsoft-edge --auto-open-devtools-for-tabs</pre>"],
         References: ["1. \"Have DevTools automatically open when you open a new tab\", [Microsoft Edge DevTools Docs](https://learn.microsoft.com/en-us/microsoft-edge/devtools-guide-chromium/overview#have-devtools-automatically-open-when-you-open-a-new-tab)."]

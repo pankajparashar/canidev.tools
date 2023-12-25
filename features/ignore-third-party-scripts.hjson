@@ -7,8 +7,8 @@
 
     Firefox: {
         Share: "https://twitter.com/CanIDevTools/status/1725109290225316229",
-        Video: "https://res.cloudinary.com/canidevtools/video/upload/l_watermark,w_150,o_5/ignore-third-party-scripts-firefox.mp4",
-        Image: "https://res.cloudinary.com/canidevtools/image/upload/l_watermark,w_150,o_5/ignore-third-party-scripts-firefox.png",
+        Video: "https://res.cloudinary.com/canidevtools/video/upload/l_watermark,w_200,o_5/ignore-third-party-scripts-firefox.mp4",
+        Image: "https://res.cloudinary.com/canidevtools/image/upload/l_watermark,w_200,o_5/ignore-third-party-scripts-firefox.png",
         Notes: ["1. In the **Debugger** panel, open **Debugger Settings** and select **Ignore Known Third-partyScripts** to ignore the third-party scripts defined in the [ignoreList](https://developer.chrome.com/articles/x-google-ignore-list/) sourcemaps extension."],
         References: ["1. Ignore third-party scripts, [Firefox source docs](https://firefox-source-docs.mozilla.org/devtools-user/debugger/how_to/ignoring_sources/index.html#ignore-third-party-scripts)", "2. The ignoreList source map extension, [Chrome Developer Articles](https://developer.chrome.com/articles/x-google-ignore-list/#what-is-ignorelist)"]
     }

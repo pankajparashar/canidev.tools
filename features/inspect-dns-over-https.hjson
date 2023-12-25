@@ -8,8 +8,8 @@
     Firefox: {
         Share: "https://twitter.com/CanIDevTools/status/1729521446614077739",
         Version: "116",
-        Image: "https://res.cloudinary.com/canidevtools/image/upload/l_watermark,w_150,o_5/inspect-dns-over-https-firefox.png",
-        Video: "https://res.cloudinary.com/canidevtools/video/upload/l_watermark,w_150,o_5/inspect-dns-over-https-firefox.mp4",
+        Image: "https://res.cloudinary.com/canidevtools/image/upload/l_watermark,w_200,o_5/inspect-dns-over-https-firefox.png",
+        Video: "https://res.cloudinary.com/canidevtools/video/upload/l_watermark,w_200,o_5/inspect-dns-over-https-firefox.mp4",
         Notes: [
             "1. In the **Network** panel, open the request to see the details in the side pane. In the **Headers** tab, verify that the **DNS Resolution** property has the value **DNS over HTTPS**."
         ],
