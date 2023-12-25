@@ -6,35 +6,44 @@
     Authors: ["@pankajparashar"],
     
     Chrome: {
-        "Code":
+        Share: "https://twitter.com/CanIDevTools/status/1739329624750891423",
+        Image: "https://res.cloudinary.com/canidevtools/image/upload/v1703523553/get-event-listeners.png",
+        Code:
             '''
-            $$("*").map(el => {
-                return { el, listeners: getEventListeners(el) };
-            }).filter(data => {
-                return Object.keys(data.listeners).length;
-            });
+            $$("*")
+              .map(node => ({
+                node, 
+                listeners: getEventListeners(node) 
+              }))
+              .filter(obj => Object.keys(obj.listeners).length);
             '''
     },
 
     Edge: {
-        "Code":
+        Share: "https://twitter.com/CanIDevTools/status/1739329624750891423",
+        Image: "https://res.cloudinary.com/canidevtools/image/upload/v1703523553/get-event-listeners.png",
+        Code:
             '''
-            $$("*").map(el => {
-                return { el, listeners: getEventListeners(el) };
-            }).filter(data => {
-                return Object.keys(data.listeners).length;
-            });
+            $$("*")
+              .map(node => ({
+                node, 
+                listeners: getEventListeners(node) 
+              }))
+              .filter(obj => Object.keys(obj.listeners).length);
             '''
     },
 
     Safari: {
+        Share: "https://twitter.com/CanIDevTools/status/1739329624750891423",
+        Image: "https://res.cloudinary.com/canidevtools/image/upload/v1703523553/get-event-listeners.png",
         Code:
             '''
-            $$("*").map(el => {
-                return { el, listeners: getEventListeners(el) };
-            }).filter(data => {
-                return Object.keys(data.listeners).length;
-            });
+            $$("*")
+              .map(node => ({
+                node, 
+                listeners: getEventListeners(node) 
+              }))
+              .filter(obj => Object.keys(obj.listeners).length);
             '''
     }
 }

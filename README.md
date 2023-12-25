@@ -1373,13 +1373,34 @@ Can I get a list of all the detached elements to investigate memory leaks?
 Can I get all the event listeners on a web page?
 
 [Chrome](https://canidev.tools/get-event-listeners/chrome): 
-undefined
+<pre>$$("*")
+  .map(node => ({
+    node, 
+    listeners: getEventListeners(node) 
+  }))
+  .filter(obj => Object.keys(obj.listeners).length);</pre>
+
+![](https://res.cloudinary.com/canidevtools/image/upload/v1703523553/get-event-listeners.png)
 
 [Edge](https://canidev.tools/get-event-listeners/edge): 
-undefined
+<pre>$$("*")
+  .map(node => ({
+    node, 
+    listeners: getEventListeners(node) 
+  }))
+  .filter(obj => Object.keys(obj.listeners).length);</pre>
+
+![](https://res.cloudinary.com/canidevtools/image/upload/v1703523553/get-event-listeners.png)
 
 [Safari](https://canidev.tools/get-event-listeners/safari): 
-undefined
+<pre>$$("*")
+  .map(node => ({
+    node, 
+    listeners: getEventListeners(node) 
+  }))
+  .filter(obj => Object.keys(obj.listeners).length);</pre>
+
+![](https://res.cloudinary.com/canidevtools/image/upload/v1703523553/get-event-listeners.png)
 
 ## Get last evaluated value
 Can I get the last evaluated value in the console?
