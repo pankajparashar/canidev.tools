@@ -8,6 +8,7 @@
 	"Newsletter": "tips-tricks-3",
 	"Authors": ["@pankajparashar", "@kilianvalkhof"],
 
+	Tags: ["chrome", "edge", "polypane"],
 	"Chrome": {
 		"Share": "https://twitter.com/CanIDevTools/status/1637145317995937793",
 		"Notes": "1. Run **Command** (`Cmd+Shift+P` or `Ctrl+Shift+P`) > \"Show Rendering\" (Drawer).\n2. Navigate to the **Emulate vision deficiencies** section and choose \"Blurred vision\".\n",

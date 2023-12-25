@@ -1,10 +1,11 @@
 {
   "Name": "Extend DevTools UI",
-
   "Description": "Can I extend DevTools to customise UI?",
+
   "Category": "Other",
-  
   "Authors": ["@pankajparashar"],
+
+  Tags: ["chrome", "firefox", "edge", "safari"],
   "Chrome": {
     "References": "1. Extending Chrome DevTools, by [Chrome Developers](https://developer.chrome.com/docs/extensions/mv3/devtools/).\n",
     "Notes": "1. Chrome DevTools can be extended to add new UI panels and sidebars, interact with the inspected page, get information about network requests, and more.\n2. Refer the official guide to extend [Chrome DevTools](https://developer.chrome.com/docs/extensions/mv3/devtools/).\n"
@@ -21,8 +22,4 @@
     "References": "1. \"Create a Safari web extension\", by [Apple Developers](https://developer.apple.com/documentation/safariservices/safari_web_extensions/creating_a_safari_web_extension)\n",
     "Notes": "1. To create a Safari web extension, you create an Xcode project using the Safari Extension App template. The project includes the Safari web extension as a macOS or iOS app extension that users can download from the App Store and install in Safari.\n"
   },
-  "Opera": {
-    "References": "1. Extending Chrome DevTools, by [Chrome Developers](https://developer.chrome.com/docs/extensions/mv3/devtools/).\n",
-    "Notes": "1. Opera uses Chromium DevTools which can be extended to add new UI panels and sidebars, interact with the inspected page, get information about network requests, and more.\n2. Refer the official guide to extend [Chrome DevTools](https://developer.chrome.com/docs/extensions/mv3/devtools/).\n"
-  }
 }

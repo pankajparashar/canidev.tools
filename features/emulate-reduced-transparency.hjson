@@ -6,7 +6,7 @@
     "Tags": ["emulation"],
 
     "Authors": ["@pankajparashar"],
-
+    Tags: ["chrome", "polypane"],
     "Chrome": {
         "Video": "https://res.cloudinary.com/canidevtools/video/upload/l_watermark,w_150,o_5/emulate-reduced-transparency-chrome.mp4",
         "Image": "https://res.cloudinary.com/canidevtools/image/upload/l_watermark,w_150,o_5/emulate-reduced-transparency-chrome.png",

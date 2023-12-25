@@ -6,11 +6,8 @@
 	"Tags": ["emulation"],
 
 	"Authors": ["@pankajparashar"],
-
+	Tags: ["chrome", ],
 	"Chrome": {
 		"Notes": "1. Open **Command Menu** (`Cmd+Shift+P` or `Ctrl+Shift+P`) > Run \"Sensors\" > Press `Enter`.\n2. Scroll down to the section \"Emulate Idle Detector state\" and select the appropriate option to force the selected idle state for emulation.\n"
 	},
-	"Opera": {
-		"Notes": "1. Open Command Menu (`Cmd+Shift+P` or `Ctrl+Shift+P`) > Run \"Sensors\" > Press `Enter`.\n2. Scroll down to the section \"Emulate Idle Detector state\" and select the appropriate option to force the selected idle state for emulation.\n"
-	}
 }

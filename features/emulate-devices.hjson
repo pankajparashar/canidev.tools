@@ -6,7 +6,7 @@
 	"Tags": ["emulation"],
 
 	"Authors": ["@pankajparashar", "@kilianvalkhof"],
-
+	Tags: ["chrome", "firefox", "edge", "safari", "polypane"],
 	"Chrome": {
 		"Share": "https://twitter.com/CanIDevTools/status/1533823550389637120",
 		"Notes": "1. Open devtools using `Cmd+Opt+I` (on MacOS) or `Ctrl+Shift+I` (on Windows/Linux).\n2. Press `Cmd+Shift+M` (on MacOS) or `Ctrl+Shift+M` (on Windows/Linux) or click the devices icon in the top right to \"Toggle device toolbar\".\n",
@@ -27,9 +27,6 @@
 		"Share": "https://twitter.com/CanIDevTools/status/1533833879949549568",
 		"References": "1. \"How to enable responsive design mode\" - [BrowserStack](https://www.browserstack.com/guide/enable-responsive-design-mode-in-safari-and-firefox)\n",
 		"Notes": "1. From the menu bar: Develop > Enter Responsive Design Mode (or press `Ctrl+Cmd+R`).\n"
-	},
-	"Opera": {
-		"Notes": "1. Open devtools using `Cmd+Opt+I` (on MacOS) or `Ctrl+Shift+I` (on Windows/Linux).\n2. Press `Cmd+Shift+M` (on MacOS) or `Ctrl+Shift+M` (on Windows/Linux) or click the devices icon in the top right to \"Toggle device toolbar\".\n"
 	},
 	"Polypane": {
 		"Notes": "1. Click the title of a pane.\n2. Select one of the 30+ available device presets\n3. Optionally, switch between the _viewport size_ and _device size_. Viewport size takes the device UI into account to give you the real available space.\n",
