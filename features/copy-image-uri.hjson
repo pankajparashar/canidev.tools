@@ -1,29 +1,29 @@
 {
-  "Name": "Copy image as data URI",
+  Name: "Copy image as data URI",
 
-  "Description": "Can I copy an image as a data URI?",
-  "Category": "Network",
+  Description: "Can I copy an image as a data URI?",
+  Category: "Network",
   
-  "Authors": ["@pankajparashar"],
+  Authors: ["@pankajparashar"],
   
-  "Chrome": {
-    "Notes": [
+  Chrome: {
+    Notes: [
       "1. In the **Network** panel, click the image request to open a side panel containing the request details. \n2. Open the **Preview** tab to preview the image and right click on the image > Copy image as data URI\n"
     ],
-    "References": "\"Convert images to data-urls\", [Devtools Tips](https://devtoolstips.org/tips/en/convert-image-to-data-url/)"
+    References: "\"Convert images to data-urls\", [Devtools Tips](https://devtoolstips.org/tips/en/convert-image-to-data-url/)"
   },
   
-  "Edge": {
-    "Notes": [
+  Edge: {
+    Notes: [
       "1. In the **Network** panel, click the image request to open a side panel containing the request details. \n2. Open the **Preview** tab to preview the image and right click on the image > Copy image as data URI\n"
     ],
-    "References": "\"Convert images to data-urls\", [Devtools Tips](https://devtoolstips.org/tips/en/convert-image-to-data-url/)"
+    References: "\"Convert images to data-urls\", [Devtools Tips](https://devtoolstips.org/tips/en/convert-image-to-data-url/)"
   },
   
   "Opera": {
-    "Notes": [
+    Notes: [
       "1. In the **Network** panel, click the image request to open a side panel containing the request details. \n2. Open the **Preview** tab to preview the image and right click on the image > Copy image as data URI\n"
     ],
-    "References": "\"Convert images to data-urls\", [Devtools Tips](https://devtoolstips.org/tips/en/convert-image-to-data-url/)"
+    References: "\"Convert images to data-urls\", [Devtools Tips](https://devtoolstips.org/tips/en/convert-image-to-data-url/)"
   }
 }

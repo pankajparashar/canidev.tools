@@ -1,25 +1,24 @@
 {
-  "Name": "Throttle network speed",
+  Name: "Throttle network speed",
 
-  "Description": "Can I throttle network speed to simulate slower network connections like 2G, 3G etc.,?",
-  "Category": "Network",
+  Description: "Can I throttle network speed to simulate slower network connections like 2G, 3G etc.,?",
+  Category: "Network",
   
-  "Authors": ["@pankajparashar", "@kilianvalkhof"],
-  "Related": ["throttle-cpu-speed"],
-  "Chrome": {
-    "Notes": "1. In **Network** > Click the dropdown \"No Throttling\" and select a value to throttle the network speed.\n"
+  Authors: ["@pankajparashar", "@kilianvalkhof"],
+  Chrome: {
+    Notes: "1. In **Network** > Click the dropdown \"No Throttling\" and select a value to throttle the network speed.\n"
   },
-  "Firefox": {
-    "Notes": "1. In Network > Click the dropdown \"No Throttling\" and select a value to throttle the network speed.\n\n"
+  Firefox: {
+    Notes: "1. In Network > Click the dropdown \"No Throttling\" and select a value to throttle the network speed.\n\n"
   },
-  "Edge": {
-    "Notes": "1. In Network > Click the dropdown \"No Throttling\" and select a value to throttle the network speed.\n\n"
+  Edge: {
+    Notes: "1. In Network > Click the dropdown \"No Throttling\" and select a value to throttle the network speed.\n\n"
   },
   "Opera": {
-    "Notes": "1. In Network > Click the dropdown \"No Throttling\" and select a value to throttle the network speed.\n\n"
+    Notes: "1. In Network > Click the dropdown \"No Throttling\" and select a value to throttle the network speed.\n\n"
   },
-  "Polypane": {
-    "Notes": [
+  Polypane: {
+    Notes: [
       "1. Open **Change Media and Emulation** settings of a pane and go to the \"Network\" tab",
       "2. Toggle the **Throttle network speed** switch to Fast 3G, Slow 3G or Offline."
     ]

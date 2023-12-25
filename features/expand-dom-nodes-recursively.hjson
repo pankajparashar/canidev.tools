@@ -1,21 +1,21 @@
 {
-  "Name": "Expand DOM nodes recursively",
-  "Description": "Can I expand DOM nodes recursively in the DOM tree?",
+  Name: "Expand DOM nodes recursively",
+  Description: "Can I expand DOM nodes recursively in the DOM tree?",
 
-  "Category": "Elements",  
-  "Authors": ["@pankajparashar"],
+  Category: "Elements",  
+  Authors: ["@pankajparashar"],
 
   Tags: ["chrome", "firefox", "edge", "safari"],
-  "Chrome": {
-    "Notes": "1. Right click on the node in the DOM tree, select \"Expand recursively\". \n2. (Or) Use `Opt+Click` or `Alt+Click` on the arrow preceding the node with the keyboard.\n"
+  Chrome: {
+    Notes: "1. Right click on the node in the DOM tree, select \"Expand recursively\". \n2. (Or) Use `Opt+Click` or `Alt+Click` on the arrow preceding the node with the keyboard.\n"
   },
-  "Firefox": {
-    "Notes": "1. Right click on the node in the DOM tree, select \"Expand All\". \n2. (Or) Use `Opt+Click` or `Alt+Click` on the arrow preceding the node with the keyboard.\n\n"
+  Firefox: {
+    Notes: "1. Right click on the node in the DOM tree, select \"Expand All\". \n2. (Or) Use `Opt+Click` or `Alt+Click` on the arrow preceding the node with the keyboard.\n\n"
   },
-  "Edge": {
-    "Notes": "1. Right click on the node in the DOM tree, select \"Expand recursively\". \n2. (Or) Use `Opt+Click` or `Alt+Click` on the arrow preceding the node with the keyboard.\n"
+  Edge: {
+    Notes: "1. Right click on the node in the DOM tree, select \"Expand recursively\". \n2. (Or) Use `Opt+Click` or `Alt+Click` on the arrow preceding the node with the keyboard.\n"
   },
-  "Safari": {
-    "Notes": "1. Right click on the node in the DOM tree, select \"Expand All\".\n2. (Or) Use `Opt+Click` or `Alt+Click` on the arrow preceding the node with the keyboard.\n"
+  Safari: {
+    Notes: "1. Right click on the node in the DOM tree, select \"Expand All\".\n2. (Or) Use `Opt+Click` or `Alt+Click` on the arrow preceding the node with the keyboard.\n"
   },
 }

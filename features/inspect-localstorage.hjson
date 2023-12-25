@@ -1,7 +1,7 @@
 {
-    "Name": "Inspect Local storage",
-    "Description": "Can I inspect the localstorage of a website?",
+    Name: "Inspect Local storage",
+    Description: "Can I inspect the localstorage of a website?",
 
-    "Category": "Storage",
-    "Authors": ["@pankajparashar"]
+    Category: "Storage",
+    Authors: ["@pankajparashar"]
 }

@@ -1,37 +1,35 @@
 {
-    "Name": "Capture HD screenshot",
-    "Description": "Can I capture a high definition screenshot of the page?",
+    Name: "Capture HD screenshot",
+    Description: "Can I capture a high definition screenshot of the page?",
 
-    "Category": "Other",
-    "Tags": ["screenshot"],
+    Category: "Other",
+    Tags: ["screenshot"],
 
-    "Authors": ["@pankajparashar"],
-    "Related": ["capture-screenshot-console", "capture-viewport-screenshot", "capture-full-page-screenshot", "capture-node-screenshot"],
-
-    "Firefox": {
-        "Video": "https://res.cloudinary.com/canidevtools/video/upload/l_watermark,w_150,o_5/capture-hd-screenshot-firefox.mp4",
-        "Image": "https://res.cloudinary.com/canidevtools/image/upload/l_watermark,w_50,o_10/capture-hd-screenshot-firefox.png",
-        "Share": "https://twitter.com/CanIDevTools/status/1718369812928184650",
-        "Notes": ["1. In the **Console** panel, run the command `:screenshot --dpr 3` to take a high definition screenshot of the page with the device pixel ratio set to 3.\n"],
-        "References": ["1. \"Web console helpers\", [Firefox Source Docs](https://firefox-source-docs.mozilla.org/devtools-user/web_console/helpers/index.html#web-console-helpers).", "2. \"Take high resolution screenshots of web pages\", [Devtools Tips](https://devtoolstips.org/tips/en/take-high-res-screenshots/)."]
+    Authors: ["@pankajparashar"],
+    Firefox: {
+        Video: "https://res.cloudinary.com/canidevtools/video/upload/l_watermark,w_150,o_5/capture-hd-screenshot-firefox.mp4",
+        Image: "https://res.cloudinary.com/canidevtools/image/upload/l_watermark,w_50,o_10/capture-hd-screenshot-firefox.png",
+        Share: "https://twitter.com/CanIDevTools/status/1718369812928184650",
+        Notes: ["1. In the **Console** panel, run the command `:screenshot --dpr 3` to take a high definition screenshot of the page with the device pixel ratio set to 3.\n"],
+        References: ["1. \"Web console helpers\", [Firefox Source Docs](https://firefox-source-docs.mozilla.org/devtools-user/web_console/helpers/index.html#web-console-helpers).", "2. \"Take high resolution screenshots of web pages\", [Devtools Tips](https://devtoolstips.org/tips/en/take-high-res-screenshots/)."]
     },
 
-    "Chrome": {
-        "Video": "https://res.cloudinary.com/canidevtools/video/upload/l_watermark,w_150,o_5/capture-hd-screenshot-chrome.mp4",
-        "Image": "https://res.cloudinary.com/canidevtools/image/upload/l_watermark,w_150,o_5/capture-hd-screenshot-chrome.png",
-        "Share": "https://twitter.com/CanIDevTools/status/1716201822698807701",
-        "Notes": ["1. In DevTools, click the **Toggle device toolbar** icon (`Cmd+Shift+M` or `Ctrl+Shift+M`) to enter the responsive design mode.", "2. In the device toolbar, click **More options** (`⋮`) > **Add device pixel ratio**. In the action bar at the top of the viewport, select a DPR value from the new DPR drop-down menu.", "3. Click **More options** > select **Capture screenshot** for viewport or **Capture full size screenshot** for the entire page.\n"],
-        "References": ["1. \"Set device pixel ratio\", [Chrome Devtools Docs](https://developer.chrome.com/docs/devtools/device-mode/#dpr).", "2. \"Take high resolution screenshots of web pages\", [Devtools Tips](https://devtoolstips.org/tips/en/take-high-res-screenshots/)."]
+    Chrome: {
+        Video: "https://res.cloudinary.com/canidevtools/video/upload/l_watermark,w_150,o_5/capture-hd-screenshot-chrome.mp4",
+        Image: "https://res.cloudinary.com/canidevtools/image/upload/l_watermark,w_150,o_5/capture-hd-screenshot-chrome.png",
+        Share: "https://twitter.com/CanIDevTools/status/1716201822698807701",
+        Notes: ["1. In DevTools, click the **Toggle device toolbar** icon (`Cmd+Shift+M` or `Ctrl+Shift+M`) to enter the responsive design mode.", "2. In the device toolbar, click **More options** (`⋮`) > **Add device pixel ratio**. In the action bar at the top of the viewport, select a DPR value from the new DPR drop-down menu.", "3. Click **More options** > select **Capture screenshot** for viewport or **Capture full size screenshot** for the entire page.\n"],
+        References: ["1. \"Set device pixel ratio\", [Chrome Devtools Docs](https://developer.chrome.com/docs/devtools/device-mode/#dpr).", "2. \"Take high resolution screenshots of web pages\", [Devtools Tips](https://devtoolstips.org/tips/en/take-high-res-screenshots/)."]
     },
 
-    "Edge": {
-        "Image": "https://res.cloudinary.com/canidevtools/image/upload/l_watermark,w_150,o_5/capture-hd-screenshot-edge.png",
-        "Notes": ["1. In Devtools, click the **Toggle device toolbar** icon (`Cmd+Shift+M` or `Ctrl+Shift+M`) to enter the responsive design mode.", "2. In the device toolbar, click **More options** (`⋮`) > **Add device pixel ratio**. In the action bar at the top of the viewport, select a DPR value from the new DPR drop-down menu.", "3. Click **More options** > select **Capture screenshot** for viewport or **Capture full size screenshot** for the entire page.\n"],
-        "References": ["1. \"Take high resolution screenshots of web pages\", [Devtools Tips](https://devtoolstips.org/tips/en/take-high-res-screenshots/)."]
+    Edge: {
+        Image: "https://res.cloudinary.com/canidevtools/image/upload/l_watermark,w_150,o_5/capture-hd-screenshot-edge.png",
+        Notes: ["1. In Devtools, click the **Toggle device toolbar** icon (`Cmd+Shift+M` or `Ctrl+Shift+M`) to enter the responsive design mode.", "2. In the device toolbar, click **More options** (`⋮`) > **Add device pixel ratio**. In the action bar at the top of the viewport, select a DPR value from the new DPR drop-down menu.", "3. Click **More options** > select **Capture screenshot** for viewport or **Capture full size screenshot** for the entire page.\n"],
+        References: ["1. \"Take high resolution screenshots of web pages\", [Devtools Tips](https://devtoolstips.org/tips/en/take-high-res-screenshots/)."]
     },
 
     "Opera": {
-        "Notes": ["1. In Devtools, click the **Toggle device toolbar** icon (`Cmd+Shift+M` or `Ctrl+Shift+M`) to enter the responsive design mode.", "2. In the device toolbar, click **More options** (`⋮`) > **Add device pixel ratio**. In the action bar at the top of the viewport, select a DPR value from the new DPR drop-down menu.", "3. Click **More options** > select **Capture screenshot** for viewport or **Capture full size screenshot** for the entire page."],
-        "References": ["1. \"Take high resolution screenshots of web pages\", [Devtools Tips](https://devtoolstips.org/tips/en/take-high-res-screenshots/)."]
+        Notes: ["1. In Devtools, click the **Toggle device toolbar** icon (`Cmd+Shift+M` or `Ctrl+Shift+M`) to enter the responsive design mode.", "2. In the device toolbar, click **More options** (`⋮`) > **Add device pixel ratio**. In the action bar at the top of the viewport, select a DPR value from the new DPR drop-down menu.", "3. Click **More options** > select **Capture screenshot** for viewport or **Capture full size screenshot** for the entire page."],
+        References: ["1. \"Take high resolution screenshots of web pages\", [Devtools Tips](https://devtoolstips.org/tips/en/take-high-res-screenshots/)."]
     }
 }

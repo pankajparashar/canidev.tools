@@ -1,7 +1,7 @@
 {
-    "Name": "Test bfcache",
-    "Description": "Can I test the Back/Forward cache of a web app?",
+    Name: "Test bfcache",
+    Description: "Can I test the Back/Forward cache of a web app?",
 
-    "Category": "Other",
-    "Authors": ["@pankajparashar"]
+    Category: "Other",
+    Authors: ["@pankajparashar"]
 }

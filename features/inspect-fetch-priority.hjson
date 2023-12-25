@@ -1,37 +1,37 @@
 {
-	"Name": "Inspect fetch priority",
-	"Description": "Can I inspect the fetchpriority applied to the resources?",
+	Name: "Inspect fetch priority",
+	Description: "Can I inspect the fetchpriority applied to the resources?",
 
 	
-	"Category": "Network",
-	"Authors": ["@pankajparashar"],
+	Category: "Network",
+	Authors: ["@pankajparashar"],
 	
-	"Chrome": {
-		"Notes": [
+	Chrome: {
+		Notes: [
 			"1. In the **Network** panel, enable **Big request rows** from the network **Settings**. Right click on the any of the column headers, and select **Priority** from the menu.",
 			"2. This will add a new column in the **Network** table indicating the `fetchpriority` for each resource with values like `Low|High|Lowest|Highest`.\n"
 		],
-		"References": [
+		References: [
 			"1. Changes in Fetch priority for network events, [Chrome Developers Blog](https://developer.chrome.com/blog/new-in-devtools-117/#performance).",
 			"2. Optimizing resource loading with the Fetch Priority API, [Web.dev Articles](https://web.dev/articles/fetch-priority)."
 		]
 	},
 	
-	"Firefox": {
-		"Notes": [
+	Firefox: {
+		Notes: [
 			"1. In the **Network** panel, right click on the any of the column headers, and select **Priority** from the menu. This will add a new column in the **Network** table indicating the `fetchpriority` for each resource."
 		]
 	},
 	
-	"Edge": {
-		"Notes": [
+	Edge: {
+		Notes: [
 			"1. In the **Network** panel, enable **Big request rows** from the network **Settings**. Right click on the any of the column headers, and select **Priority** from the menu.",
 			"2. This will add a new column in the **Network** table indicating the `fetchpriority` for each resource with values like `Low|High|Lowest|Highest`.\n"
 		]
 	},
 	
-	"Safari": {
-		"Notes": [
+	Safari: {
+		Notes: [
 			"1. In the **Network** panel, right click on the any of the column headers, and select **Priority** from the menu. This will add a new column in the **Network** table indicating the `fetchpriority` for each resource."
 		]
 	}

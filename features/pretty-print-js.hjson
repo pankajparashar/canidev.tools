@@ -1,23 +1,21 @@
 {
-  "Name": "Pretty print JavaScript",
+  Name: "Pretty print JavaScript",
 
-  "Description": "Can I pretty print minified JavaScript code?",
-  "Category": "Debugger",
+  Description: "Can I pretty print minified JavaScript code?",
+  Category: "Debugger",
   
-  "Authors": ["@pankajparashar"],
-  "Chrome": {
-    "Notes": "1. In the **Sources** tab, open the `.js` file from the left sidebar. In the bottom tray, click the icon `{}` titled \"Pretty print\" to pretty print the JavaScript code. \n2. This will open the formatted file in a new tab suffixed \":formatted\".\n"
+  Authors: ["@pankajparashar"],
+  Chrome: {
+    Notes: "1. In the **Sources** tab, open the `.js` file from the left sidebar. In the bottom tray, click the icon `{}` titled \"Pretty print\" to pretty print the JavaScript code. \n2. This will open the formatted file in a new tab suffixed \":formatted\".\n"
   },
-  "Firefox": {
-    "Notes": "1. In the **Debugger** tab, open the `.js` file from the **Sources** panel in the left sidebar. From the status bar in the bottom, click the `{}` icon to pretty print the source file.\n"
+  Firefox: {
+    Notes: "1. In the **Debugger** tab, open the `.js` file from the **Sources** panel in the left sidebar. From the status bar in the bottom, click the `{}` icon to pretty print the source file.\n"
   },
-  "Edge": {
-    "Notes": "1. In the **Sources** tab, open the `.js` file from the **Page** panel in the left sidebar. From the bottom status bar, click the `{}` icon to pretty print the source file.\n2. This action will open the formatted file in the new tab with the filename suffixed with `:formatted`.\n"
+  Edge: {
+    Notes: "1. In the **Sources** tab, open the `.js` file from the **Page** panel in the left sidebar. From the bottom status bar, click the `{}` icon to pretty print the source file.\n2. This action will open the formatted file in the new tab with the filename suffixed with `:formatted`.\n"
   },
-  "Safari": {
-    "Notes": "1. In the **Sources** tab, open the `.js` file from the left sidebar. Click the pretty print icon `{}` from the top toolbar to toggle between pretty print and original source format. \n"
+  Safari: {
+    Notes: "1. In the **Sources** tab, open the `.js` file from the left sidebar. Click the pretty print icon `{}` from the top toolbar to toggle between pretty print and original source format. \n"
   },
-  "Opera": {
-    "Notes": "1. In the Sources tab, open the `.js` file from the left sidebar. In the bottom tray, click the icon `{}` titled \"Pretty print\" to pretty print the JavaScript code. \n2. This will open the formatted file in a new tab suffixed \":formatted\".\n"
-  }
+  
 }

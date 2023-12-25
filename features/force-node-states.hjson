@@ -1,13 +1,13 @@
 {
-    "Name": "Force node states",
+    Name: "Force node states",
 
-    "Description": "Can I force the node to emulate a user action state like focus, hover etc?",
-    "Category": "Elements",
+    Description: "Can I force the node to emulate a user action state like focus, hover etc?",
+    Category: "Elements",
 
-    "Authors": ["@pankajparashar"],
+    Authors: ["@pankajparashar"],
 
-    "Chrome": {
-        "Notes": [
+    Chrome: {
+        Notes: [
             "1. In the **Elements** panel, right click on the node > Force state > Select from `:hover`, `:active`, `:focus`, `:visited` etc."
         ]
     }

@@ -1,13 +1,13 @@
 {
-    "Name": "Focus form elements",
+    Name: "Focus form elements",
 
-    "Description": "Can I focus on form elements in the DOM?",
-    "Category": "Elements",
+    Description: "Can I focus on form elements in the DOM?",
+    Category: "Elements",
 
-    "Authors": ["@pankajparashar"],
+    Authors: ["@pankajparashar"],
 
-    "Chrome": {
-        "Notes": [
+    Chrome: {
+        Notes: [
             "1. In the **Elements** panel, right click on the node and select \"Focus\"."
         ]
     }

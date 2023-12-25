@@ -1,22 +1,22 @@
 {
-    "Name": "Clear command history",
+    Name: "Clear command history",
 
-    "Description": "Can I clear the command history of the console?",
-    "Category": "Console",
-    "Newsletter": "tips-tricks-9",
+    Description: "Can I clear the command history of the console?",
+    Category: "Console",
+    Newsletter: "tips-tricks-9",
     
-    "Authors": ["@pankajparashar"],
-    "Chrome": {
-        "Share": "https://twitter.com/CanIDevTools/status/1555394008456646656",
-        "Notes": "In the **Console** tab, right click anywhere > select \"Clear console history\" to remove all the commands from its history.\n",
-        "Video": "https://res.cloudinary.com/canidevtools/video/upload/v1659669026/clear-command-history-chrome_vmlcs6.mp4"
+    Authors: ["@pankajparashar"],
+    Chrome: {
+        Share: "https://twitter.com/CanIDevTools/status/1555394008456646656",
+        Notes: "In the **Console** tab, right click anywhere > select \"Clear console history\" to remove all the commands from its history.\n",
+        Video: "https://res.cloudinary.com/canidevtools/video/upload/v1659669026/clear-command-history-chrome_vmlcs6.mp4"
     },
-    "Edge": {
-        "Notes": "In the **Console** tab, right click anywhere > select \"Clear console history\" to remove all the commands from its history.\n",
-        "Share": "https://twitter.com/CanIDevTools/status/1555394008456646656"
+    Edge: {
+        Notes: "In the **Console** tab, right click anywhere > select \"Clear console history\" to remove all the commands from its history.\n",
+        Share: "https://twitter.com/CanIDevTools/status/1555394008456646656"
     },
     "Opera": {
-        "Share": "https://twitter.com/CanIDevTools/status/1555394008456646656",
-        "Notes": "In the **Console** tab, right click anywhere > select \"Clear console history\" to remove all the commands from its history.\n"
+        Share: "https://twitter.com/CanIDevTools/status/1555394008456646656",
+        Notes: "In the **Console** tab, right click anywhere > select \"Clear console history\" to remove all the commands from its history.\n"
     }
 }

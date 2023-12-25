@@ -1,26 +1,26 @@
 {
-  "Name": "Show rulers on hover",
+  Name: "Show rulers on hover",
 
-  "Description": "Can I enable vertical and horizontal rulers on the page when I hover on the elements?",
-  "Category": "Elements",
+  Description: "Can I enable vertical and horizontal rulers on the page when I hover on the elements?",
+  Category: "Elements",
   
-  "Authors": ["@pankajparashar", "@kilianvalkhof"],
-  "Chrome": {
-    "Notes": "1. Open **Settings** (`Shift+?` or `F1`) > **Preferences** > Scroll down to the **Elements** section, and enable \"Show rulers on hover\".\n"
+  Authors: ["@pankajparashar", "@kilianvalkhof"],
+  Chrome: {
+    Notes: "1. Open **Settings** (`Shift+?` or `F1`) > **Preferences** > Scroll down to the **Elements** section, and enable \"Show rulers on hover\".\n"
   },
-  "Firefox": {
-    "Notes": "1. Open **Settings** (`F1`) > Scroll down to the **Available Toolbox Buttons** section, and enable \"Toggle rulers for the page\"\n"
+  Firefox: {
+    Notes: "1. Open **Settings** (`F1`) > Scroll down to the **Available Toolbox Buttons** section, and enable \"Toggle rulers for the page\"\n"
   },
-  "Edge": {
-    "Notes": "1. Open **Settings** (`Shift+?` or `F1`) > **Preferences** > Scroll down to the **Elements** section, and enable \"Show rulers on hover\".\n"
+  Edge: {
+    Notes: "1. Open **Settings** (`Shift+?` or `F1`) > **Preferences** > Scroll down to the **Elements** section, and enable \"Show rulers on hover\".\n"
   },
-  "Safari": {
-    "Notes": "1. Open **Settings** (`Cmd+,`) > Elements > Enable \"Show page rulers and node border lines\"\n"
+  Safari: {
+    Notes: "1. Open **Settings** (`Cmd+,`) > Elements > Enable \"Show page rulers and node border lines\"\n"
   },
   "Opera": {
-    "Notes": "1. Open Settings (`Shift+?` or `F1`) > Preferences > Scroll down to the Elements section, and enable \"Show rulers on hover\".\n\n"
+    Notes: "1. Open Settings (`Shift+?` or `F1`) > Preferences > Scroll down to the Elements section, and enable \"Show rulers on hover\".\n\n"
   },
-  "Polypane": {
-    "Notes": "1. Press `Cmd/Ctrl+G` to toggle rulers on the top and left sides of all panes.\n\n"
+  Polypane: {
+    Notes: "1. Press `Cmd/Ctrl+G` to toggle rulers on the top and left sides of all panes.\n\n"
   }
 }

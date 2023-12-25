@@ -1,13 +1,13 @@
 {
-  "Name": "Throttle CSS animation speed",
+  Name: "Throttle CSS animation speed",
 
-  "Description": "Can I throttle CSS animation playback speed?",
-  "Category": "CSS",
+  Description: "Can I throttle CSS animation playback speed?",
+  Category: "CSS",
   
-  "Authors": ["@pankajparashar"],
+  Authors: ["@pankajparashar"],
   
-  "Chrome": {
-    "Notes": [
+  Chrome: {
+    Notes: [
       "1. Inspect the element with CSS `animation` property applied.",
       "2. Open the **Command Menu** (`Cmd+Shift+P` or `Ctrl+Shift+P`) > Run \"Show Animations (Drawer)\".",
       "3. Use the buttons (**100%, 25%, 10%**) to throttle the playback speed of the CSS animation live."

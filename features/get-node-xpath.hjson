@@ -1,32 +1,32 @@
 {
-    "Name": "Get node XPath",
+    Name: "Get node XPath",
 
-    "Description": "Can I get the xpath of a node in the DOM tree?",
-    "Category": "Elements",
-    "Newsletter": "tips-tricks-4",
+    Description: "Can I get the xpath of a node in the DOM tree?",
+    Category: "Elements",
+    Newsletter: "tips-tricks-4",
     
-    "Authors": ["@pankajparashar", "@kilianvalkhof"],
-    "Chrome": {
-        "Share": "https://twitter.com/CanIDevTools/status/1542517123536539648",
-        "Notes": "1. Inspect the element > Right click on the node in the DOM tree > Copy > Copy full XPath\n"
+    Authors: ["@pankajparashar", "@kilianvalkhof"],
+    Chrome: {
+        Share: "https://twitter.com/CanIDevTools/status/1542517123536539648",
+        Notes: "1. Inspect the element > Right click on the node in the DOM tree > Copy > Copy full XPath\n"
     },
-    "Firefox": {
-        "Share": "https://twitter.com/CanIDevTools/status/1542517879241076737",
-        "Notes": "1. Inspect element > Right click on the node in the DOM tree > Copy > XPath\n"
+    Firefox: {
+        Share: "https://twitter.com/CanIDevTools/status/1542517879241076737",
+        Notes: "1. Inspect element > Right click on the node in the DOM tree > Copy > XPath\n"
     },
-    "Edge": {
-        "Notes": "1. Inspect element > Right click on the node in the DOM tree > Copy > Copy full XPath\n",
-        "Share": "https://twitter.com/CanIDevTools/status/1542518234439892992"
+    Edge: {
+        Notes: "1. Inspect element > Right click on the node in the DOM tree > Copy > Copy full XPath\n",
+        Share: "https://twitter.com/CanIDevTools/status/1542518234439892992"
     },
-    "Safari": {
-        "Share": "https://twitter.com/CanIDevTools/status/1542518565508874240",
-        "Notes": "1. Inspect element > Right click on the node in the DOM tree > Copy > XPath.\n"
+    Safari: {
+        Share: "https://twitter.com/CanIDevTools/status/1542518565508874240",
+        Notes: "1. Inspect element > Right click on the node in the DOM tree > Copy > XPath.\n"
     },
     "Opera": {
-        "Share": "https://twitter.com/CanIDevTools/status/1542518884036911104",
-        "Notes": "1. Inspect the element > Right click on the node in the DOM tree > Copy > Copy full XPath\n\n"
+        Share: "https://twitter.com/CanIDevTools/status/1542518884036911104",
+        Notes: "1. Inspect the element > Right click on the node in the DOM tree > Copy > Copy full XPath\n\n"
     },
-    "Polypane": {
-        "Notes": "In the **Elements** panel, click the \"Copy\" icon in the navigator, then select \"Copy Xpath\"\n"
+    Polypane: {
+        Notes: "In the **Elements** panel, click the \"Copy\" icon in the navigator, then select \"Copy Xpath\"\n"
     }
 }

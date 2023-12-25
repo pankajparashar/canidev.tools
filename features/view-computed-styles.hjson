@@ -1,26 +1,26 @@
 {
-  "Name": "View computed styles",
+  Name: "View computed styles",
 
-  "Description": "Can I view computed styles?",
-  "Category": "CSS",
+  Description: "Can I view computed styles?",
+  Category: "CSS",
   
-  "Authors": ["@pankajparashar", "@kilianvalkhof"],
-  "Chrome": {
-    "Notes": "1. Inspect the element > Navigate to the Computed tab in the panel next to the DOM tree.\n2. Click the \"Show All\" checkbox to see all the inherited values.\n"
+  Authors: ["@pankajparashar", "@kilianvalkhof"],
+  Chrome: {
+    Notes: "1. Inspect the element > Navigate to the Computed tab in the panel next to the DOM tree.\n2. Click the \"Show All\" checkbox to see all the inherited values.\n"
   },
-  "Firefox": {
-    "Notes": "1. Inspect the element > Navigate to the Computed tab in the panel next to the DOM tree.\n2. Click the \"Browser Styles\" checkbox to see all the values inherited from the user agent.\n\n"
+  Firefox: {
+    Notes: "1. Inspect the element > Navigate to the Computed tab in the panel next to the DOM tree.\n2. Click the \"Browser Styles\" checkbox to see all the values inherited from the user agent.\n\n"
   },
-  "Edge": {
-    "Notes": "1. Inspect the element > Navigate to the Computed tab in the panel next to the DOM tree.\n2. Click the \"Show All\" checkbox to see all the inherited values.\n\n"
+  Edge: {
+    Notes: "1. Inspect the element > Navigate to the Computed tab in the panel next to the DOM tree.\n2. Click the \"Show All\" checkbox to see all the inherited values.\n\n"
   },
-  "Safari": {
-    "Notes": "1. Inspect the element > Navigate to the Computed tab in the panel next to the DOM tree.\n2. Click the filter icon > Select \"Show All\" to see all the inherited values.\n\n"
+  Safari: {
+    Notes: "1. Inspect the element > Navigate to the Computed tab in the panel next to the DOM tree.\n2. Click the filter icon > Select \"Show All\" to see all the inherited values.\n\n"
   },
   "Opera": {
-    "Notes": "1. Inspect the element > Navigate to the Computed tab in the panel next to the DOM tree.\n2. Click the \"Show All\" checkbox to see all the inherited values.\n"
+    Notes: "1. Inspect the element > Navigate to the Computed tab in the panel next to the DOM tree.\n2. Click the \"Show All\" checkbox to see all the inherited values.\n"
   },
-  "Polypane": {
-    "Notes": "1. Inspect the element > Navigate to the Computed tab in the panel next to the \"Style\" tab.\n2. Click the \"Show All\" checkbox to see all the inherited values.\n"
+  Polypane: {
+    Notes: "1. Inspect the element > Navigate to the Computed tab in the panel next to the \"Style\" tab.\n2. Click the \"Show All\" checkbox to see all the inherited values.\n"
   }
 }

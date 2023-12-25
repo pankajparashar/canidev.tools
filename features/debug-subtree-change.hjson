@@ -1,12 +1,12 @@
 {
-  "Name": "Debug subtree change",
-  "Description": "Can I debug by setting a breakpoint when the subtree of the node changes?",
+  Name: "Debug subtree change",
+  Description: "Can I debug by setting a breakpoint when the subtree of the node changes?",
 
-  "Category": "Elements",
-  "Authors": ["@pankajparashar"],
+  Category: "Elements",
+  Authors: ["@pankajparashar"],
 
   Tags: ["chrome"],	 
-  "Chrome": {
-    "Notes": "1. Inspect element > Right click on the node in the DOM tree.\n2. Select \"Break on\" > \"subtree modifications\". Reload the page.\n"
+  Chrome: {
+    Notes: "1. Inspect element > Right click on the node in the DOM tree.\n2. Select \"Break on\" > \"subtree modifications\". Reload the page.\n"
   }
 }

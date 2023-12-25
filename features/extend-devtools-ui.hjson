@@ -1,25 +1,25 @@
 {
-  "Name": "Extend DevTools UI",
-  "Description": "Can I extend DevTools to customise UI?",
+  Name: "Extend DevTools UI",
+  Description: "Can I extend DevTools to customise UI?",
 
-  "Category": "Other",
-  "Authors": ["@pankajparashar"],
+  Category: "Other",
+  Authors: ["@pankajparashar"],
 
   Tags: ["chrome", "firefox", "edge", "safari"],
   Chrome: {
-    "References": "1. Extending Chrome DevTools, by [Chrome Developers](https://developer.chrome.com/docs/extensions/mv3/devtools/).\n",
-    "Notes": "1. Chrome DevTools can be extended to add new UI panels and sidebars, interact with the inspected page, get information about network requests, and more.\n2. Refer the official guide to extend [Chrome DevTools](https://developer.chrome.com/docs/extensions/mv3/devtools/).\n"
+    References: "1. Extending Chrome DevTools, by [Chrome Developers](https://developer.chrome.com/docs/extensions/mv3/devtools/).\n",
+    Notes: "1. Chrome DevTools can be extended to add new UI panels and sidebars, interact with the inspected page, get information about network requests, and more.\n2. Refer the official guide to extend [Chrome DevTools](https://developer.chrome.com/docs/extensions/mv3/devtools/).\n"
   },
-  "Firefox": {
-    "Notes": "1. Firefox uses WebExtensions APIs to extend the browser's built-in developer tools. Follow the [link](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Extending_the_developer_tools) to know how to develop extensions for the devtools.\n",
-    "References": "1. \"Extending the developer tools\", by [MDN](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Extending_the_developer_tools)\n"
+  Firefox: {
+    Notes: "1. Firefox uses WebExtensions APIs to extend the browser's built-in developer tools. Follow the [link](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Extending_the_developer_tools) to know how to develop extensions for the devtools.\n",
+    References: "1. \"Extending the developer tools\", by [MDN](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Extending_the_developer_tools)\n"
   },
-  "Edge": {
-    "Notes": "1. Edge DevTools can be extended to add new UI panels and sidebars, interact with the inspected page, get information about network requests, and more.\n2. Refer the official guide to extend [Edge DevTools](https://learn.microsoft.com/en-us/microsoft-edge/extensions-chromium/developer-guide/devtools-extension).\n\n",
-    "References": "1. Create an extension that customizes the DevTools UI, by [Edge DevTools](https://learn.microsoft.com/en-us/microsoft-edge/extensions-chromium/developer-guide/devtools-extension).\n"
+  Edge: {
+    Notes: "1. Edge DevTools can be extended to add new UI panels and sidebars, interact with the inspected page, get information about network requests, and more.\n2. Refer the official guide to extend [Edge DevTools](https://learn.microsoft.com/en-us/microsoft-edge/extensions-chromium/developer-guide/devtools-extension).\n\n",
+    References: "1. Create an extension that customizes the DevTools UI, by [Edge DevTools](https://learn.microsoft.com/en-us/microsoft-edge/extensions-chromium/developer-guide/devtools-extension).\n"
   },
-  "Safari": {
-    "References": "1. \"Create a Safari web extension\", by [Apple Developers](https://developer.apple.com/documentation/safariservices/safari_web_extensions/creating_a_safari_web_extension)\n",
-    "Notes": "1. To create a Safari web extension, you create an Xcode project using the Safari Extension App template. The project includes the Safari web extension as a macOS or iOS app extension that users can download from the App Store and install in Safari.\n"
+  Safari: {
+    References: "1. \"Create a Safari web extension\", by [Apple Developers](https://developer.apple.com/documentation/safariservices/safari_web_extensions/creating_a_safari_web_extension)\n",
+    Notes: "1. To create a Safari web extension, you create an Xcode project using the Safari Extension App template. The project includes the Safari web extension as a macOS or iOS app extension that users can download from the App Store and install in Safari.\n"
   },
 }

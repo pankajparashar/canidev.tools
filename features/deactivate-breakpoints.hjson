@@ -1,35 +1,28 @@
 {
-	"Name": "Deactivate breakpoints",
-	"Description": "Can I temporarily deactivate breakpoints while debugging source code?",
+	Name: "Deactivate breakpoints",
+	Description: "Can I temporarily deactivate breakpoints while debugging source code?",
 
-	"Category": "Debugger",
-	"Authors": ["@pankajparashar"],
+	Category: "Debugger",
+	Authors: ["@pankajparashar"],
 
 	Tags: ["chrome", "edge"],	
-	"Chrome": {
-		"Notes": [
+	Chrome: {
+		Notes: [
 			"1. In the **Sources** panel, open the **Breakpoints** pane, click the **Deactivate breakpoints** (`Cmd+F8` or `Ctrl+F8`) icon to prevent the execution from pausing at breakpoints."
 		],
-		"References": [
+		References: [
 			"1. \"Force execution, skipping breakpoints, when paused\", [DevTools Tips](https://devtoolstips.org/tips/en/force-execution-at-breakpoint/)."
 		]
 	},
 	
-	"Edge": {
-		"Notes": [
+	Edge: {
+		Notes: [
 			"1. In the **Sources** panel, open the **Breakpoints** pane, click the **Deactivate breakpoints** (`Cmd+F8` or `Ctrl+F8`) icon to prevent the execution from pausing at breakpoints."
 		],
-		"References": [
+		References: [
 			"1. \"Force execution, skipping breakpoints, when paused\", [DevTools Tips](https://devtoolstips.org/tips/en/force-execution-at-breakpoint/)."
 		]
 	},
 	
-	"Opera": {
-		"Notes": [
-			"1. In the **Sources** panel, open the **Breakpoints** pane, click the **Deactivate breakpoints** (`Cmd+F8` or `Ctrl+F8`) icon to prevent the execution from pausing at breakpoints."
-		],
-		"References": [
-			"1. \"Force execution, skipping breakpoints, when paused\", [DevTools Tips](https://devtoolstips.org/tips/en/force-execution-at-breakpoint/)."
-		]
-	}
+	
 }

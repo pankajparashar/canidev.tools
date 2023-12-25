@@ -1,11 +1,11 @@
 {
-    "Name": "Get Event Listeners",
-    "Description": "Can I get all the event listeners on a web page?",
+    Name: "Get Event Listeners",
+    Description: "Can I get all the event listeners on a web page?",
     
-    "Category": "Tricks",
-    "Authors": ["@pankajparashar"],
+    Category: "Tricks",
+    Authors: ["@pankajparashar"],
     
-    "Chrome": {
+    Chrome: {
         "Code":
             '''
             $$("*").map(el => {
@@ -16,7 +16,7 @@
             '''
     },
 
-    "Edge": {
+    Edge: {
         "Code":
             '''
             $$("*").map(el => {

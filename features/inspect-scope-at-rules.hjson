@@ -1,27 +1,27 @@
 {
-    "Name": "Inspect @scope rules",
-    "Description": "Can I inspect the CSS @scope at-rules and the scoping root element?",
+    Name: "Inspect @scope rules",
+    Description: "Can I inspect the CSS @scope at-rules and the scoping root element?",
 
-    "Category": "CSS",
-    "Authors": ["@pankajparashar"],
+    Category: "CSS",
+    Authors: ["@pankajparashar"],
 
-    "Polypane": {
-        "Video": "https://res.cloudinary.com/canidevtools/video/upload/l_watermark,w_150,o_5/inspect-scope-at-rules-polypane.mp4",
-        "Image": "https://res.cloudinary.com/canidevtools/image/upload/l_watermark,w_150,o_5/inspect-scope-at-rules-polypane.png",
-        "Version": "16",
-        "Share": "https://twitter.com/CanIDevTools/status/1721299138283716885",
-        "Notes": ["1. Inspect the element that has `@scope` rules applied. The ruleset will be visible in the **Style** pane under the `@scope` block declaration.", "2. Hover over the **scoping root element** to highlight the element on the page. Click the element to directly jump to the node in the **Element** tree.\n"],
-        "References": ["1. \"@scope support in the elements panel\", [Polypane blog](https://polypane.app/blog/polypane-16-workflow-improvements-scoped-styles-and-chromium-118/)."]
+    Polypane: {
+        Video: "https://res.cloudinary.com/canidevtools/video/upload/l_watermark,w_150,o_5/inspect-scope-at-rules-polypane.mp4",
+        Image: "https://res.cloudinary.com/canidevtools/image/upload/l_watermark,w_150,o_5/inspect-scope-at-rules-polypane.png",
+        Version: "16",
+        Share: "https://twitter.com/CanIDevTools/status/1721299138283716885",
+        Notes: ["1. Inspect the element that has `@scope` rules applied. The ruleset will be visible in the **Style** pane under the `@scope` block declaration.", "2. Hover over the **scoping root element** to highlight the element on the page. Click the element to directly jump to the node in the **Element** tree.\n"],
+        References: ["1. \"@scope support in the elements panel\", [Polypane blog](https://polypane.app/blog/polypane-16-workflow-improvements-scoped-styles-and-chromium-118/)."]
     },
 
-    "Chrome": {
-        "Version": "118",
-        "Notes": ["1. Inspect the element that has `@scope` rules applied. The ruleset will be visible in the **Styles** pane under the `@scope` block declaration.\n"],
-        "References": ["1. \"Limit the reach of your selectors with the CSS @scope at-rule\", [Chrome Developer articles](https://developer.chrome.com/articles/at-scope/).", "2. \"CSS @scope rule\", [New in Chrome 118](https://developer.chrome.com/blog/new-in-chrome-118/#css-scope)."]
+    Chrome: {
+        Version: "118",
+        Notes: ["1. Inspect the element that has `@scope` rules applied. The ruleset will be visible in the **Styles** pane under the `@scope` block declaration.\n"],
+        References: ["1. \"Limit the reach of your selectors with the CSS @scope at-rule\", [Chrome Developer articles](https://developer.chrome.com/articles/at-scope/).", "2. \"CSS @scope rule\", [New in Chrome 118](https://developer.chrome.com/blog/new-in-chrome-118/#css-scope)."]
     },
 
-    "Edge": {
-        "Version": "118",
-        "Notes": ["1. Inspect the element that has `@scope` rules applied. The ruleset will be visible in the **Styles** pane under the `@scope` block declaration.\n"]
+    Edge: {
+        Version: "118",
+        Notes: ["1. Inspect the element that has `@scope` rules applied. The ruleset will be visible in the **Styles** pane under the `@scope` block declaration.\n"]
     }
 }

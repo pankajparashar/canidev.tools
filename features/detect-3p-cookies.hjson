@@ -1,19 +1,19 @@
 {
-	"Name": "Detect third-party cookies",
-	"Description": "Can I detect if a website uses third-party cookies?",
+	Name: "Detect third-party cookies",
+	Description: "Can I detect if a website uses third-party cookies?",
 
-	"Category": "Storage",
-	"Authors": ["@pankajparashar"],
+	Category: "Storage",
+	Authors: ["@pankajparashar"],
 
 	Tags: ["chrome", "edge"],	
-	"Chrome": {
-		"Notes": [
+	Chrome: {
+		Notes: [
 			"1. In the **Application** panel, under the **Storage** section, expand **Cookies**. All the entries with third-party domains are the ones using cookies."
 		]
 	},
 
-	"Edge": {
-		"Notes": [
+	Edge: {
+		Notes: [
 			"1. In the **Application** panel, under the **Storage** section, expand **Cookies**. All the entries with third-party domains are the ones using cookies."
 		]
 	}

@@ -1,18 +1,18 @@
 {
-    "Name": "Copy node styles",
+    Name: "Copy node styles",
 
-    "Description": "Can I copy the styles applied to an element?",
-    "Category": "Elements",
+    Description: "Can I copy the styles applied to an element?",
+    Category: "Elements",
 
-    "Authors": ["@pankajparashar", "@kilianvalkhof"],
+    Authors: ["@pankajparashar", "@kilianvalkhof"],
 
-    "Chrome": {
-        "Notes": [
+    Chrome: {
+        Notes: [
             "1. In the **Elements** panel, right click on the node > Copy > Copy styles."
         ]
     },
-    "Polypane": {
-        "Notes": [
+    Polypane: {
+        Notes: [
             "1. In the **Elements** panel, go to the \"Computed\" tab and click the \"Copy styles\" button."
         ]
     }

@@ -1,13 +1,13 @@
 {
-	"Name": "Emulate idle detection",
-	"Description": "Can I emulate detection of the user state as idle?",
+	Name: "Emulate idle detection",
+	Description: "Can I emulate detection of the user state as idle?",
 
-	"Category": "Accessibility",
-	"Tags": ["emulation"],
+	Category: "Accessibility",
+	Tags: ["emulation"],
 
-	"Authors": ["@pankajparashar"],
+	Authors: ["@pankajparashar"],
 	Tags: ["chrome", ],
-	"Chrome": {
-		"Notes": "1. Open **Command Menu** (`Cmd+Shift+P` or `Ctrl+Shift+P`) > Run \"Sensors\" > Press `Enter`.\n2. Scroll down to the section \"Emulate Idle Detector state\" and select the appropriate option to force the selected idle state for emulation.\n"
+	Chrome: {
+		Notes: "1. Open **Command Menu** (`Cmd+Shift+P` or `Ctrl+Shift+P`) > Run \"Sensors\" > Press `Enter`.\n2. Scroll down to the section \"Emulate Idle Detector state\" and select the appropriate option to force the selected idle state for emulation.\n"
 	},
 }

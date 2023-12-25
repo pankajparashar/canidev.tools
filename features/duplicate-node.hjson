@@ -1,13 +1,13 @@
 {
-    "Name": "Duplicate node",
-    "Description": "Can I duplicate a node in the DOM tree?",
+    Name: "Duplicate node",
+    Description: "Can I duplicate a node in the DOM tree?",
 
-    "Category": "Elements",
-    "Authors": ["@pankajparashar"],
+    Category: "Elements",
+    Authors: ["@pankajparashar"],
 
     Tags: ["chrome"],
-    "Chrome": {
-        "Notes": [
+    Chrome: {
+        Notes: [
             "1. In the **Elements** panel, right click on the node and select \"Duplicate element\"."
         ]
     }

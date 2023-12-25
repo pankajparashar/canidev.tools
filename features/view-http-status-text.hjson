@@ -1,29 +1,25 @@
 {
-	"Name": "View HTTP Status Text",
-	"Description": "Can I view the human readable text of the HTTP status codes?",
+	Name: "View HTTP Status Text",
+	Description: "Can I view the human readable text of the HTTP status codes?",
 
 	
-	"Category": "Network",
-	"Authors": ["@pankajparashar"],
+	Category: "Network",
+	Authors: ["@pankajparashar"],
 	
-	"Chrome": {
-		"Notes": [
+	Chrome: {
+		Notes: [
 			"1. In the **Network** panel, click to open the network request. In the **Headers** tab, under **General**, contains the HTTP status code along with the human readable text."
 		],
-		"References": [
+		References: [
 			"1. \"What's New in DevTools (Chrome 117)\", [Chrome DevTools Blog](https://developer.chrome.com/blog/new-in-devtools-117/#status-codes)."
 		]
 	},
 	
-	"Edge": {
-		"Notes": [
+	Edge: {
+		Notes: [
 			"1. In the **Network** panel, click to open the network request. In the **Headers** tab, under **General**, contains the HTTP status code along with the human readable text."
 		]
 	},
 	
-	"Opera": {
-		"Notes": [
-			"1. In the **Network** panel, click to open the network request. In the **Headers** tab, under **General**, contains the HTTP status code along with the human readable text."
-		]
-	}
+	
 }

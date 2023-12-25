@@ -1,14 +1,14 @@
 {
-	"Name": "Filter third party requests",
+	Name: "Filter third party requests",
 
-	"Description": "Can I filter third party network requests?",
-	"Category": "Network",
-	"Tags": ["filter"],
+	Description: "Can I filter third party network requests?",
+	Category: "Network",
+	Tags: ["filter"],
 
-	"Authors": ["@pankajparashar"],
+	Authors: ["@pankajparashar"],
 
-	"Chrome": {
-		"Notes": [
+	Chrome: {
+		Notes: [
 			"1. In the **Network** panel, enable the **Third-party requests** option to show only requests with origin different from page origin."
 		]
 	}

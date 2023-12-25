@@ -1,23 +1,23 @@
 {
-	"Name": "Disable local fonts",
-	"Description": "Can I disable local fonts to validate @font-face rules?",
+	Name: "Disable local fonts",
+	Description: "Can I disable local fonts to validate @font-face rules?",
 
-	"Category": "CSS",
-	"Authors": ["@pankajparashar"],
+	Category: "CSS",
+	Authors: ["@pankajparashar"],
 	
 	Tags: ["chrome", "edge"],	
-	"Chrome": {
-		"Notes": [
+	Chrome: {
+		Notes: [
 			"1. Open **Command Menu** (`Cmd+Shift+P` or `Ctrl+Shift+P`) > Run \"Show Rendering\" to open the **Rendering** drawer.",
 			"2. Scroll down to locate the **Disable local fonts** option and select the checkbox to disable local fonts. Reload the page to apply the setting."
 		],
-		"References": [
+		References: [
 			"1. Disable local fonts, [Chrome DevTools Docs](https://developer.chrome.com/docs/devtools/rendering/apply-effects/#disable-local-fonts)."
 		]
 	},
 	
-	"Edge": {
-		"Notes": [
+	Edge: {
+		Notes: [
 			"1. Open **Command Menu** (`Cmd+Shift+P` or `Ctrl+Shift+P`) > Run \"Show Rendering\" to open the **Rendering** drawer.",
 			"2. Scroll down to locate the **Disable local fonts** option and select the checkbox to disable local fonts. Reload the page to apply the setting."
 		]

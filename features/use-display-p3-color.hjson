@@ -1,15 +1,15 @@
 {
-    "Name": "Use Display P3 color",
+    Name: "Use Display P3 color",
 
-    "Description": "Can I use Display P3 color format?",
-    "Category": "CSS",
-    "Newsletter": "tips-tricks-28",
+    Description: "Can I use Display P3 color format?",
+    Category: "CSS",
+    Newsletter: "tips-tricks-28",
     
-    "Authors": ["@pankajparashar"],
-    "Safari": {
-        "Share": "https://twitter.com/CanIDevTools/status/1581924482884964353",
-        "Video": "https://res.cloudinary.com/canidevtools/video/upload/v1665993566/convert-p3-color-safari_vse5nf.mp4",
-        "References": "1. \"Wide Gamut Color in CSS\", on Webkit [blog](https://webkit.org/blog/10042/wide-gamut-color-in-css-with-display-p3/).\n",
-        "Notes": "1. Right click on the color box > Select \"Convert to Display-P3\". This will change the color format to \\`display-p3\\`.\n2. Click the color box to open the color swatch. The white line shows the edge of sRGB. Everything on its top right is **Display-P3** colors not available in sRGB.\n3. For fallback, right click on the color box, and select \"Clamp to sRGB\" to convert to the closest available color in the sRGB space.\n"
+    Authors: ["@pankajparashar"],
+    Safari: {
+        Share: "https://twitter.com/CanIDevTools/status/1581924482884964353",
+        Video: "https://res.cloudinary.com/canidevtools/video/upload/v1665993566/convert-p3-color-safari_vse5nf.mp4",
+        References: "1. \"Wide Gamut Color in CSS\", on Webkit [blog](https://webkit.org/blog/10042/wide-gamut-color-in-css-with-display-p3/).\n",
+        Notes: "1. Right click on the color box > Select \"Convert to Display-P3\". This will change the color format to \\`display-p3\\`.\n2. Click the color box to open the color swatch. The white line shows the edge of sRGB. Everything on its top right is **Display-P3** colors not available in sRGB.\n3. For fallback, right click on the color box, and select \"Clamp to sRGB\" to convert to the closest available color in the sRGB space.\n"
     }
 }

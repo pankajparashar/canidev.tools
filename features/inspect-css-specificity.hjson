@@ -1,25 +1,25 @@
 {
-    "Name": "Inspect CSS specificity",
+    Name: "Inspect CSS specificity",
 
-    "Description": "Can I inspect specificity of a CSS selector?",
-    "Category": "CSS",
-    "Newsletter": "tips-tricks-19",
+    Description: "Can I inspect specificity of a CSS selector?",
+    Category: "CSS",
+    Newsletter: "tips-tricks-19",
     
-    "Authors": ["@pankajparashar"],
-    "Safari": {
-        "Share": "https://twitter.com/CanIDevTools/status/1573634703047151616",
-        "Video": "https://res.cloudinary.com/canidevtools/video/upload/v1664018473/inspect-css-specificity-safari_tphvrw.mp4",
-        "Notes": ["1. Inspect element > In the **Styles** pane, hover over the selector to reveal a tooltip displaying the specificity of that selector."]
+    Authors: ["@pankajparashar"],
+    Safari: {
+        Share: "https://twitter.com/CanIDevTools/status/1573634703047151616",
+        Video: "https://res.cloudinary.com/canidevtools/video/upload/v1664018473/inspect-css-specificity-safari_tphvrw.mp4",
+        Notes: ["1. Inspect element > In the **Styles** pane, hover over the selector to reveal a tooltip displaying the specificity of that selector."]
     },
-    "Polypane": {
-        "Share": "https://twitter.com/CanIDevTools/status/1665378741940363265",
-        "Video": "https://res.cloudinary.com/canidevtools/video/upload/v1685890182/inspect-css-specificity-polypane_claqbw.mp4",
-        "Notes": ["1. Inspect element (`Cmd+Shift+C` or `Ctrl+Shift+C`) > In the **Style** pane, the specificity is shown adjacent to the selector under the file name.", "2. Click the specificity to open the CSS Specificity calculator in the **Browse** panel."]
+    Polypane: {
+        Share: "https://twitter.com/CanIDevTools/status/1665378741940363265",
+        Video: "https://res.cloudinary.com/canidevtools/video/upload/v1685890182/inspect-css-specificity-polypane_claqbw.mp4",
+        Notes: ["1. Inspect element (`Cmd+Shift+C` or `Ctrl+Shift+C`) > In the **Style** pane, the specificity is shown adjacent to the selector under the file name.", "2. Click the specificity to open the CSS Specificity calculator in the **Browse** panel."]
     },
-    "Chrome": {
-        "Share": "https://twitter.com/CanIDevTools/status/1667023497002991616",
-        "Video": "https://res.cloudinary.com/canidevtools/video/upload/v1686283557/inspect-css-specificity-chrome_exa4yc.mp4",
-        "Notes": ["1. In **Elements** > **Styles** pane, hover over the selector name to see the specificity in a tooltip."],
-        "References": "1. \"Selector specificity in tooltips\", on [Chrome Developers](https://developer.chrome.com/blog/new-in-devtools-115/#specificity)."
+    Chrome: {
+        Share: "https://twitter.com/CanIDevTools/status/1667023497002991616",
+        Video: "https://res.cloudinary.com/canidevtools/video/upload/v1686283557/inspect-css-specificity-chrome_exa4yc.mp4",
+        Notes: ["1. In **Elements** > **Styles** pane, hover over the selector name to see the specificity in a tooltip."],
+        References: "1. \"Selector specificity in tooltips\", on [Chrome Developers](https://developer.chrome.com/blog/new-in-devtools-115/#specificity)."
     }
 }

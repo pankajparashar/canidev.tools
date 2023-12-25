@@ -1,44 +1,44 @@
 {
-	"Name": "Add class to element",
-	"Description": "Can I add an existing CSS class to an HTML element?",
+	Name: "Add class to element",
+	Description: "Can I add an existing CSS class to an HTML element?",
 
-	"Category": "CSS",
-	"Newsletter": "tips-tricks-22",
+	Category: "CSS",
+	Newsletter: "tips-tricks-22",
 
-	"Authors": ["@pankajparashar", "@kilianvalkhof"],
-    "Tags": ["chrome", "firefox", "edge", "safari", "polypane"],
+	Authors: ["@pankajparashar", "@kilianvalkhof"],
+    Tags: ["chrome", "firefox", "edge", "safari", "polypane"],
 
-	"Chrome": {
-		"Share": "https://twitter.com/CanIDevTools/status/1578999582402699264",
-		"Notes": "1. Inspect the element > Look for \".cls\" button in the Styles pane next to the Filter field.\n2. Click the button and search for the existing class names to add to the element.\n",
-		"Video": "https://res.cloudinary.com/canidevtools/video/upload/v1665291348/add-class-element-chrome_vlzwkv.mp4"
+	Chrome: {
+		Share: "https://twitter.com/CanIDevTools/status/1578999582402699264",
+		Notes: "1. Inspect the element > Look for \".cls\" button in the Styles pane next to the Filter field.\n2. Click the button and search for the existing class names to add to the element.\n",
+		Video: "https://res.cloudinary.com/canidevtools/video/upload/v1665291348/add-class-element-chrome_vlzwkv.mp4"
 	},
 
-	"Firefox": {
-		"Share": "https://twitter.com/CanIDevTools/status/1578999582402699264",
-		"Notes": "1. Inspect the element > Look for \".cls\" button in the styles section next to the Filter Styles field.\n2. Click the button and search for the existing class names to add to the element.\n",
-		"Video": "https://res.cloudinary.com/canidevtools/video/upload/v1665292235/add-class-element-firefox_s2lp0w.mp4"
+	Firefox: {
+		Share: "https://twitter.com/CanIDevTools/status/1578999582402699264",
+		Notes: "1. Inspect the element > Look for \".cls\" button in the styles section next to the Filter Styles field.\n2. Click the button and search for the existing class names to add to the element.\n",
+		Video: "https://res.cloudinary.com/canidevtools/video/upload/v1665292235/add-class-element-firefox_s2lp0w.mp4"
 	},
 
-	"Edge": {
-		"Notes": [
+	Edge: {
+		Notes: [
 			"1. Select the element in the DOM tree. In the **Styles** pane, click **.cls** and search from the list of available class names in the **Add new class** textbox. Press `Enter` to add the class to the element."
 		],
-		"Share": "https://twitter.com/CanIDevTools/status/1578999582402699264",
-		"Video": "https://res.cloudinary.com/canidevtools/video/upload/v1665293114/add-class-element-edge_abosm6.mp4",
-		"References": [
+		Share: "https://twitter.com/CanIDevTools/status/1578999582402699264",
+		Video: "https://res.cloudinary.com/canidevtools/video/upload/v1665293114/add-class-element-edge_abosm6.mp4",
+		References: [
 			"1. Add class to an element, [Microsoft Edge DevTools Guide](https://learn.microsoft.com/en-us/microsoft-edge/devtools-guide-chromium/css/reference#add-a-class-to-an-element)"
 		]
 	},
 
-	"Safari": {
-		"Share": "https://twitter.com/CanIDevTools/status/1579000031553916928",
-		"Video": "https://res.cloudinary.com/canidevtools/video/upload/v1665293973/add-class-element-safari_r5xzwg.mp4",
-		"Notes": "1. Inspect the element > Look for \"Classes\" button in bottom row of the styles section next to the Filter field.\n2. Click the button and search for the existing class names to add to the element.\n"
+	Safari: {
+		Share: "https://twitter.com/CanIDevTools/status/1579000031553916928",
+		Video: "https://res.cloudinary.com/canidevtools/video/upload/v1665293973/add-class-element-safari_r5xzwg.mp4",
+		Notes: "1. Inspect the element > Look for \"Classes\" button in bottom row of the styles section next to the Filter field.\n2. Click the button and search for the existing class names to add to the element.\n"
 	},
 
-	"Polypane": {
-		"Notes": "1. Inspect the element > Open the \"attributes\" tab \n2. Add a new class into the class field, known classes from the page and CSS will automatically be suggested.\n3. If there is no class attribute yet, add it as a new attribute and known classes will also be automatically suggested.",
-		"References": "1. \"Add class to an element\" [documentation](https://polypane.app/docs/elements-panel/#classes)\n"
+	Polypane: {
+		Notes: "1. Inspect the element > Open the \"attributes\" tab \n2. Add a new class into the class field, known classes from the page and CSS will automatically be suggested.\n3. If there is no class attribute yet, add it as a new attribute and known classes will also be automatically suggested.",
+		References: "1. \"Add class to an element\" [documentation](https://polypane.app/docs/elements-panel/#classes)\n"
 	}
 }

@@ -1,13 +1,13 @@
 {
-    "Name": "Copy response text",
+    Name: "Copy response text",
 
-    "Description": "Can I copy the response object as text?",
-    "Category": "Network",
+    Description: "Can I copy the response object as text?",
+    Category: "Network",
 
-    "Authors": ["@pankajparashar"],
+    Authors: ["@pankajparashar"],
 
-    "Chrome": {
-        "Notes": [
+    Chrome: {
+        Notes: [
             "1. In the **Network** panel, right click on the network request > Copy > Copy response."
         ]
     }

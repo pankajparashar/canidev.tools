@@ -1,28 +1,28 @@
 {
-	"Name": "Filter requests by keyword",
+	Name: "Filter requests by keyword",
 
-	"Description": "Can I filter requests in the Network tab with a keyword?",
-	"Category": "Network",
-	"Tags": ["filter"],
+	Description: "Can I filter requests in the Network tab with a keyword?",
+	Category: "Network",
+	Tags: ["filter"],
 
-	"Authors": ["@pankajparashar"],
-	"Chrome": {
-		"Share": "https://twitter.com/CanIDevTools/status/1535512330456408065",
-		"Notes": "1. Open the **Network** tab > Use the \"Filter\" input field to filter network requests based on a specific keyword. \n2. Use the \"Invert\" checkbox to filter on requests which does not match the keyword.\n"
+	Authors: ["@pankajparashar"],
+	Chrome: {
+		Share: "https://twitter.com/CanIDevTools/status/1535512330456408065",
+		Notes: "1. Open the **Network** tab > Use the \"Filter\" input field to filter network requests based on a specific keyword. \n2. Use the \"Invert\" checkbox to filter on requests which does not match the keyword.\n"
 	},
-	"Firefox": {
-		"Share": "https://twitter.com/CanIDevTools/status/1535513572410900485",
-		"Notes": "1. In the **Network** tab, use the \"Filter URLs\" text field to filter the network requests for a specific keyword. \n2. Prepending a minus (`-`) negates the filter. You can combine different filters together by separating them with a space.\n",
-		"References": "1. \"Filtering by properties\" - [Firefox Source Docs](https://firefox-source-docs.mozilla.org/devtools-user/network_monitor/request_list/#filtering-by-properties)\n"
+	Firefox: {
+		Share: "https://twitter.com/CanIDevTools/status/1535513572410900485",
+		Notes: "1. In the **Network** tab, use the \"Filter URLs\" text field to filter the network requests for a specific keyword. \n2. Prepending a minus (`-`) negates the filter. You can combine different filters together by separating them with a space.\n",
+		References: "1. \"Filtering by properties\" - [Firefox Source Docs](https://firefox-source-docs.mozilla.org/devtools-user/network_monitor/request_list/#filtering-by-properties)\n"
 	},
-	"Edge": {
-		"Notes": "1. Open the **Network** tab > Use the \"Filter\" input field to filter network requests based on a specific keyword. \n2. Use the \"Invert\" checkbox to filter on requests which does not match the keyword.\n"
+	Edge: {
+		Notes: "1. Open the **Network** tab > Use the \"Filter\" input field to filter network requests based on a specific keyword. \n2. Use the \"Invert\" checkbox to filter on requests which does not match the keyword.\n"
 	},
-	"Safari": {
-		"Share": "https://twitter.com/CanIDevTools/status/1535514483094917120",
-		"Notes": "1. In the **Network** tab, use the \"Filter Full URL\" input field to filter network requests for a specific keyword.\n"
+	Safari: {
+		Share: "https://twitter.com/CanIDevTools/status/1535514483094917120",
+		Notes: "1. In the **Network** tab, use the \"Filter Full URL\" input field to filter network requests for a specific keyword.\n"
 	},
 	"Opera": {
-		"Notes": "1. Open the **Network** tab > Use the \"Filter\" input field to filter network requests based on a specific keyword. \n2. Use the \"Invert\" checkbox to filter on requests which does not match the keyword.\n"
+		Notes: "1. Open the **Network** tab > Use the \"Filter\" input field to filter network requests based on a specific keyword. \n2. Use the \"Invert\" checkbox to filter on requests which does not match the keyword.\n"
 	}
 }

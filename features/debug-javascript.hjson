@@ -1,25 +1,25 @@
 {
-  "Name": "Debug JavaScript",
-  "Description": "Can I debug JavaScript using devtools?",
+  Name: "Debug JavaScript",
+  Description: "Can I debug JavaScript using devtools?",
 
-  "Category": "Debugger",  
-  "Authors": ["@pankajparashar"],
+  Category: "Debugger",  
+  Authors: ["@pankajparashar"],
   
   Tags: ["chrome", "edge", "firefox", "safari"],	
-  "Chrome": {
-    "References": "[1] \"Debug JavaScript\", by Chrome DevTools [Docs](https://developer.chrome.com/docs/devtools/javascript/)\n",
-    "Notes": "1. In the **Sources** tab, open the `.js` file from the **Page** panel in the left sidebar. Set a breakpoint by clicking on the line number.\n2. Perform the action necessary to trigger that line of code, which will pause the execution at the breakpoint.\n3. Use the toolbar on the right sidebar to step-in/step-out, watch expressions, local vars while debugging through the code.\n4. Alternatively, you can also add the `debugger;` statement in the code to pause execution of the code at that line.\n"
+  Chrome: {
+    References: "[1] \"Debug JavaScript\", by Chrome DevTools [Docs](https://developer.chrome.com/docs/devtools/javascript/)\n",
+    Notes: "1. In the **Sources** tab, open the `.js` file from the **Page** panel in the left sidebar. Set a breakpoint by clicking on the line number.\n2. Perform the action necessary to trigger that line of code, which will pause the execution at the breakpoint.\n3. Use the toolbar on the right sidebar to step-in/step-out, watch expressions, local vars while debugging through the code.\n4. Alternatively, you can also add the `debugger;` statement in the code to pause execution of the code at that line.\n"
   },
-  "Firefox": {
-    "Notes": "1. In the **Debugger** tab, open the `.js` file from the **Sources** panel in the left sidebar. Set a breakpoint by clicking on the line number.\n2. Perform the action necessary to trigger that line of code, which will pause the execution at the breakpoint.\n3. Use the toolbar on the right sidebar to step-in/step-out, watch expressions, local vars while debugging through the code.\n4. Alternatively, you can also add the `debugger;` statement in the code to pause execution of the code at that line.\n",
-    "References": "1. \"JavaScript Debugger\", by Firefox Source [Docs](https://firefox-source-docs.mozilla.org/devtools-user/debugger/)\n"
+  Firefox: {
+    Notes: "1. In the **Debugger** tab, open the `.js` file from the **Sources** panel in the left sidebar. Set a breakpoint by clicking on the line number.\n2. Perform the action necessary to trigger that line of code, which will pause the execution at the breakpoint.\n3. Use the toolbar on the right sidebar to step-in/step-out, watch expressions, local vars while debugging through the code.\n4. Alternatively, you can also add the `debugger;` statement in the code to pause execution of the code at that line.\n",
+    References: "1. \"JavaScript Debugger\", by Firefox Source [Docs](https://firefox-source-docs.mozilla.org/devtools-user/debugger/)\n"
   },
-  "Edge": {
-    "Notes": "1. In the **Sources** tab, open the `.js` file from the **Page** panel in the left sidebar. Set a breakpoint by clicking on the line number.\n2. Perform the action necessary to trigger that line of code, which will pause the execution at the breakpoint.\n3. Use the toolbar on the right sidebar to step-in/step-out, watch expressions, local vars while debugging through the code.\n4. Alternatively, you can also add the `debugger;` statement in the code to pause execution of the code at that line.\n",
-    "References": "[1] \"Use Debugger pane\", by Edge DevTools [Docs](https://docs.microsoft.com/en-us/microsoft-edge/devtools-guide-chromium/sources/#using-the-debugger-pane-to-debug-javascript-code)\n"
+  Edge: {
+    Notes: "1. In the **Sources** tab, open the `.js` file from the **Page** panel in the left sidebar. Set a breakpoint by clicking on the line number.\n2. Perform the action necessary to trigger that line of code, which will pause the execution at the breakpoint.\n3. Use the toolbar on the right sidebar to step-in/step-out, watch expressions, local vars while debugging through the code.\n4. Alternatively, you can also add the `debugger;` statement in the code to pause execution of the code at that line.\n",
+    References: "[1] \"Use Debugger pane\", by Edge DevTools [Docs](https://docs.microsoft.com/en-us/microsoft-edge/devtools-guide-chromium/sources/#using-the-debugger-pane-to-debug-javascript-code)\n"
   },
-  "Safari": {
-    "References": "[1] \"Debugging JavaScript\", by [Webkit](https://webkit.org/web-inspector/sources-tab/#debugging-javascript)\n",
-    "Notes": "1. In the **Sources** tab, open the `.js` file from the the left sidebar. Set a breakpoint by clicking on the line number.\n2. Perform the action necessary to trigger that line of code, which will pause the execution at the breakpoint.\n3. Once activated, use the toolbar on the left sidebar (top) to step-in/step-out, watch expressions, local vars while debugging through the code.\n4. Alternatively, you can also add the `debugger;` statement in the code to pause execution of the code at that line.\n"
+  Safari: {
+    References: "[1] \"Debugging JavaScript\", by [Webkit](https://webkit.org/web-inspector/sources-tab/#debugging-javascript)\n",
+    Notes: "1. In the **Sources** tab, open the `.js` file from the the left sidebar. Set a breakpoint by clicking on the line number.\n2. Perform the action necessary to trigger that line of code, which will pause the execution at the breakpoint.\n3. Once activated, use the toolbar on the left sidebar (top) to step-in/step-out, watch expressions, local vars while debugging through the code.\n4. Alternatively, you can also add the `debugger;` statement in the code to pause execution of the code at that line.\n"
   }
 }

@@ -1,23 +1,21 @@
 {
-  "Name": "Inspect requests",
+  Name: "Inspect requests",
 
-  "Description": "Can I inspect Network requests?",
-  "Category": "Network",
+  Description: "Can I inspect Network requests?",
+  Category: "Network",
   
-  "Authors": ["@pankajparashar"],
-  "Chrome": {
-    "Notes": "1. Open devtools > Click on the Network panel (This will show a section containing table of network requests).\n"
+  Authors: ["@pankajparashar"],
+  Chrome: {
+    Notes: "1. Open devtools > Click on the Network panel (This will show a section containing table of network requests).\n"
   },
-  "Firefox": {
-    "Notes": "1. Open devtools > Click on the Network panel (This will show a section containing table of network requests).\n"
+  Firefox: {
+    Notes: "1. Open devtools > Click on the Network panel (This will show a section containing table of network requests).\n"
   },
-  "Edge": {
-    "Notes": "1. Open devtools > Click on the Network panel (This will show a section containing table of network requests).\n"
+  Edge: {
+    Notes: "1. Open devtools > Click on the Network panel (This will show a section containing table of network requests).\n"
   },
-  "Safari": {
-    "Notes": "1. Open devtools > Click on the Network panel (This will show a section containing table of network requests).\n"
+  Safari: {
+    Notes: "1. Open devtools > Click on the Network panel (This will show a section containing table of network requests).\n"
   },
-  "Opera": {
-    "Notes": "1. Open devtools > Click on the Network panel (This will show a section containing table of network requests).\n"
-  }
+
 }

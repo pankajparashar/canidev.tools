@@ -1,13 +1,13 @@
 {
-    "Name": "Copy node as HTML",
+    Name: "Copy node as HTML",
 
-    "Description": "Can I copy a node as HTML?",
-    "Category": "Elements",
+    Description: "Can I copy a node as HTML?",
+    Category: "Elements",
 
-    "Authors": ["@pankajparashar"],
+    Authors: ["@pankajparashar"],
 
-    "Chrome": {
-        "Notes": [
+    Chrome: {
+        Notes: [
             "1. In the **Elements** panel, right click on the node > Copy > Copy outerHTML."
         ]
     }

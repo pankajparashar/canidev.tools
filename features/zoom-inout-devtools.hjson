@@ -1,37 +1,37 @@
 {
-    "Name": "Zoom In & Out Devtools",
+    Name: "Zoom In & Out Devtools",
 
-    "Description": "Can I zoom in and out of the devtools panel?",
-    "Category": "Accessibility",
-    "Newsletter": "tips-tricks-6",
+    Description: "Can I zoom in and out of the devtools panel?",
+    Category: "Accessibility",
+    Newsletter: "tips-tricks-6",
     
-    "Authors": ["@pankajparashar"],
-    "Chrome": {
-        "Share": "https://twitter.com/CanIDevTools/status/1549021295308079105",
-        "References": "[1] \"Keyboard shortcuts\", by Chrome Devtools [Docs](https://developer.chrome.com/docs/devtools/shortcuts/#global)\n",
-        "Notes": "1. In **Developer Tools** > Open **Command Menu** (`Cmd+Shift+P` or `Ctrl+Shift+P`) and Run > \"Zoom in\" or `Cmd+` or `Ctrl+` to increase the zoom level.\n2. Run > \"Zoom out\" or `Cmd-` or `Ctrl-` to decrease the zoom level.\n3. Run > \"Reset zoom level\" or `Cmd+0` or `Ctrl+0` to reset the zoom level.\n",
-        "Video": "https://res.cloudinary.com/canidevtools/video/upload/v1658123783/zoom-inout-devtools-chrome_v6g3dn.mp4"
+    Authors: ["@pankajparashar"],
+    Chrome: {
+        Share: "https://twitter.com/CanIDevTools/status/1549021295308079105",
+        References: "[1] \"Keyboard shortcuts\", by Chrome Devtools [Docs](https://developer.chrome.com/docs/devtools/shortcuts/#global)\n",
+        Notes: "1. In **Developer Tools** > Open **Command Menu** (`Cmd+Shift+P` or `Ctrl+Shift+P`) and Run > \"Zoom in\" or `Cmd+` or `Ctrl+` to increase the zoom level.\n2. Run > \"Zoom out\" or `Cmd-` or `Ctrl-` to decrease the zoom level.\n3. Run > \"Reset zoom level\" or `Cmd+0` or `Ctrl+0` to reset the zoom level.\n",
+        Video: "https://res.cloudinary.com/canidevtools/video/upload/v1658123783/zoom-inout-devtools-chrome_v6g3dn.mp4"
     },
-    "Firefox": {
-        "Share": "https://twitter.com/CanIDevTools/status/1549022587921252353",
-        "Notes": "1. In **Web Developer Tools** > Use `Cmd+` or `Ctrl+` to increase the zoom level. Use `Cmd-` or `Ctrl-` to decrease the zoom level. To reset the zoom level, press `Ctrl+0` or `Cmd+0`.\n",
-        "References": "1. \"All keyboard shortcuts\", by Firefox Source [Docs](https://firefox-source-docs.mozilla.org/devtools-user/keyboard_shortcuts/index.html)\n",
-        "Video": "https://res.cloudinary.com/canidevtools/video/upload/v1658124998/zoom-inout-devtools-firefox_fnggcg.mp4"
+    Firefox: {
+        Share: "https://twitter.com/CanIDevTools/status/1549022587921252353",
+        Notes: "1. In **Web Developer Tools** > Use `Cmd+` or `Ctrl+` to increase the zoom level. Use `Cmd-` or `Ctrl-` to decrease the zoom level. To reset the zoom level, press `Ctrl+0` or `Cmd+0`.\n",
+        References: "1. \"All keyboard shortcuts\", by Firefox Source [Docs](https://firefox-source-docs.mozilla.org/devtools-user/keyboard_shortcuts/index.html)\n",
+        Video: "https://res.cloudinary.com/canidevtools/video/upload/v1658124998/zoom-inout-devtools-firefox_fnggcg.mp4"
     },
-    "Edge": {
-        "Notes": "1. In **Developer** **Tools** > Open **Command** **Menu** (`Cmd+Shift+P` or `Ctrl+Shift+P`) and Run > \"Zoom in\" or `Cmd+` or `Ctrl+` to increase the zoom level.\n2. Run > \"Zoom out\" or `Cmd-` or `Ctrl-` to decrease the zoom level.\n3. Run > \"Reset zoom level\" or `Cmd+0` or `Ctrl+0` to reset the zoom level.\n",
-        "Share": "https://twitter.com/CanIDevTools/status/1549021295308079105",
-        "Video": "https://res.cloudinary.com/canidevtools/video/upload/v1658123207/zoom-inout-devtools-edge_cdxubb.mp4"
+    Edge: {
+        Notes: "1. In **Developer** **Tools** > Open **Command** **Menu** (`Cmd+Shift+P` or `Ctrl+Shift+P`) and Run > \"Zoom in\" or `Cmd+` or `Ctrl+` to increase the zoom level.\n2. Run > \"Zoom out\" or `Cmd-` or `Ctrl-` to decrease the zoom level.\n3. Run > \"Reset zoom level\" or `Cmd+0` or `Ctrl+0` to reset the zoom level.\n",
+        Share: "https://twitter.com/CanIDevTools/status/1549021295308079105",
+        Video: "https://res.cloudinary.com/canidevtools/video/upload/v1658123207/zoom-inout-devtools-edge_cdxubb.mp4"
     },
-    "Safari": {
-        "Share": "https://twitter.com/CanIDevTools/status/1549023102453297153",
-        "Video": "https://res.cloudinary.com/canidevtools/video/upload/v1658125721/zoom-inout-devtools-safari_ybud7x.mp4",
-        "References": "[x] \"Web Inspector Settings\", by [Webkit](https://webkit.org/web-inspector/web-inspector-settings/#general)  \n[x] \"Keyboard Shortcuts\", by [Webkit](https://webkit.org/web-inspector/keyboard-shortcuts/)\n",
-        "Notes": "1. In **Web Inspector** > Use `Cmd+` or `Ctrl+` to increase the zoom level. Use `Cmd-` or `Ctrl-` to decrease the zoom level. To reset the zoom level, press `Ctrl+0` or `Cmd+0`.\n2. (Or) **Settings** (`Cmd,`) > General > Zoom.\n"
+    Safari: {
+        Share: "https://twitter.com/CanIDevTools/status/1549023102453297153",
+        Video: "https://res.cloudinary.com/canidevtools/video/upload/v1658125721/zoom-inout-devtools-safari_ybud7x.mp4",
+        References: "[x] \"Web Inspector Settings\", by [Webkit](https://webkit.org/web-inspector/web-inspector-settings/#general)  \n[x] \"Keyboard Shortcuts\", by [Webkit](https://webkit.org/web-inspector/keyboard-shortcuts/)\n",
+        Notes: "1. In **Web Inspector** > Use `Cmd+` or `Ctrl+` to increase the zoom level. Use `Cmd-` or `Ctrl-` to decrease the zoom level. To reset the zoom level, press `Ctrl+0` or `Cmd+0`.\n2. (Or) **Settings** (`Cmd,`) > General > Zoom.\n"
     },
     "Opera": {
-        "Share": "https://twitter.com/CanIDevTools/status/1549021295308079105",
-        "Video": "https://res.cloudinary.com/canidevtools/video/upload/v1658123848/zoom-inout-devtools-opera_eb4xxg.mp4",
-        "Notes": "1. In **Developer** **Tools** > Open **Command** **Menu** (`Cmd+Shift+P` or `Ctrl+Shift+P`) and Run > \"Zoom in\" or `Cmd+` or `Ctrl+` to increase the zoom level.\n2. Run > \"Zoom out\" or `Cmd-` or `Ctrl-` to decrease the zoom level.\n3. Run > \"Reset zoom level\" or `Cmd+0` or `Ctrl+0` to reset the zoom level.\n"
+        Share: "https://twitter.com/CanIDevTools/status/1549021295308079105",
+        Video: "https://res.cloudinary.com/canidevtools/video/upload/v1658123848/zoom-inout-devtools-opera_eb4xxg.mp4",
+        Notes: "1. In **Developer** **Tools** > Open **Command** **Menu** (`Cmd+Shift+P` or `Ctrl+Shift+P`) and Run > \"Zoom in\" or `Cmd+` or `Ctrl+` to increase the zoom level.\n2. Run > \"Zoom out\" or `Cmd-` or `Ctrl-` to decrease the zoom level.\n3. Run > \"Reset zoom level\" or `Cmd+0` or `Ctrl+0` to reset the zoom level.\n"
     }
 }

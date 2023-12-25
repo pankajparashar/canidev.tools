@@ -1,26 +1,26 @@
 {
-    "Name": "Open Console with keyboard",
+    Name: "Open Console with keyboard",
 
-    "Description": "Can I open the console using the keyboard?",
-    "Category": "Console",
-    "Authors": ["@pankajparashar", "@kilianvalkhof"],
-    "Chrome": {
-        "References": "1. \"Keyboard shortcuts\" - [Chrome Developers](https://developer.chrome.com/docs/devtools/shortcuts/#open)\n",
-        "Notes": ["1. Use `Cmd+Opt+J` or `Ctrl+Shift+J` to directly open the **Console** tab.\n"]
+    Description: "Can I open the console using the keyboard?",
+    Category: "Console",
+    Authors: ["@pankajparashar", "@kilianvalkhof"],
+    Chrome: {
+        References: "1. \"Keyboard shortcuts\" - [Chrome Developers](https://developer.chrome.com/docs/devtools/shortcuts/#open)\n",
+        Notes: ["1. Use `Cmd+Opt+J` or `Ctrl+Shift+J` to directly open the **Console** tab.\n"]
     },
-    "Firefox": {
-        "Notes": "1. Use `Cmd+Opt+K` or `Ctrl+Shift+K` to directly open the **Console** tab.\n"
+    Firefox: {
+        Notes: "1. Use `Cmd+Opt+K` or `Ctrl+Shift+K` to directly open the **Console** tab.\n"
     },
-    "Edge": {
-        "Notes": ["1. Use `Cmd+Opt+J` or `Ctrl+Shift+J` to directly open the **Console** tab.\n"]
+    Edge: {
+        Notes: ["1. Use `Cmd+Opt+J` or `Ctrl+Shift+J` to directly open the **Console** tab.\n"]
     },
-    "Safari": {
-        "Notes": ["Use Cmd+Opt+C to directly open the **Console** tab.\n"]
+    Safari: {
+        Notes: ["Use Cmd+Opt+C to directly open the **Console** tab.\n"]
     },
     "Opera": {
-        "Notes": ["1. Use `Cmd+Opt+J` or `Ctrl+Shift+J` to directly open the **Console** tab.\n"]
+        Notes: ["1. Use `Cmd+Opt+J` or `Ctrl+Shift+J` to directly open the **Console** tab.\n"]
     },
-    "Polypane": {
-        "Notes": ["1. Use `Cmd+Opt+J` or `Ctrl+Shift+J` to directly open the **Console** tab.\n"]
+    Polypane: {
+        Notes: ["1. Use `Cmd+Opt+J` or `Ctrl+Shift+J` to directly open the **Console** tab.\n"]
     }
 }

@@ -1,26 +1,26 @@
 {
-  "Name": "Run previous commands",
+  Name: "Run previous commands",
 
-  "Description": "Can I run the previously executed commands in the console?",
-  "Category": "Console",
+  Description: "Can I run the previously executed commands in the console?",
+  Category: "Console",
   
-  "Authors": ["@pankajparashar", "@kilianvalkhof"],
-  "Chrome": {
-    "Notes": "1. Use the `Up` arrow key to scroll through the list of previously executed commands and then press `Enter`.\n"
+  Authors: ["@pankajparashar", "@kilianvalkhof"],
+  Chrome: {
+    Notes: "1. Use the `Up` arrow key to scroll through the list of previously executed commands and then press `Enter`.\n"
   },
-  "Firefox": {
-    "Notes": "1. Use the `Up` arrow key to scroll through the list of previously executed commands and then press `Enter`.\n\n"
+  Firefox: {
+    Notes: "1. Use the `Up` arrow key to scroll through the list of previously executed commands and then press `Enter`.\n\n"
   },
-  "Edge": {
-    "Notes": "1. Use the `Up` arrow key to scroll through the list of previously executed commands and then press `Enter`.\n"
+  Edge: {
+    Notes: "1. Use the `Up` arrow key to scroll through the list of previously executed commands and then press `Enter`.\n"
   },
-  "Safari": {
-    "Notes": "1. Use the `Up` arrow key to scroll through the list of previously executed commands and then press `Enter`.\n\n"
+  Safari: {
+    Notes: "1. Use the `Up` arrow key to scroll through the list of previously executed commands and then press `Enter`.\n\n"
   },
   "Opera": {
-    "Notes": "1. Use the `Up` arrow key to scroll through the list of previously executed commands and then press `Enter`.\n"
+    Notes: "1. Use the `Up` arrow key to scroll through the list of previously executed commands and then press `Enter`.\n"
   },
-  "Polypane": {
-    "Notes": "1. Use the `Up` arrow key to scroll through the list of previously executed commands and then press `Enter`.\n"
+  Polypane: {
+    Notes: "1. Use the `Up` arrow key to scroll through the list of previously executed commands and then press `Enter`.\n"
   }
 }

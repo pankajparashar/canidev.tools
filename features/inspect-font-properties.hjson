@@ -1,24 +1,24 @@
 {
-    "Name": "Inspect Font properties",
+    Name: "Inspect Font properties",
 
-    "Description": "Can I inspect and edit various CSS font properties like, font-size, line-height etc?",
-    "Category": "CSS",
+    Description: "Can I inspect and edit various CSS font properties like, font-size, line-height etc?",
+    Category: "CSS",
     
-    "Authors": ["@pankajparashar"],
-    "Chrome": {
-        "Notes": ["1. Open **Settings** (`F1` or `Shift+?`) > Experiments > Check the \"Enable the new Font Editor tool within the Styles pane\" box > Reload.", "2. In the **Styles** pane, click the \"AA\" icon in the bottom right of the selector box to open the **Font Editor** tool which allows you to tweak various font properties.\n"]
+    Authors: ["@pankajparashar"],
+    Chrome: {
+        Notes: ["1. Open **Settings** (`F1` or `Shift+?`) > Experiments > Check the \"Enable the new Font Editor tool within the Styles pane\" box > Reload.", "2. In the **Styles** pane, click the \"AA\" icon in the bottom right of the selector box to open the **Font Editor** tool which allows you to tweak various font properties.\n"]
     },
-    "Firefox": {
-        "Notes": ["1. Inspect the element using font properties > Navigate to the **Fonts** pane in the sidebar > Use the editor tool to tweak the various font properties.\n"]
+    Firefox: {
+        Notes: ["1. Inspect the element using font properties > Navigate to the **Fonts** pane in the sidebar > Use the editor tool to tweak the various font properties.\n"]
     },
-    "Edge": {
-        "Notes": ["1. Open **Settings** (`F1` or `Shift+?`) > Experiments > Check the \"Enable the new Font Editor tool within the Styles pane\" box > Reload.", "2. In the **Styles** pane, click the \"AA\" icon in the bottom right of the selector box to open the **Font Editor** tool which allows you to tweak various font properties.\n"]
+    Edge: {
+        Notes: ["1. Open **Settings** (`F1` or `Shift+?`) > Experiments > Check the \"Enable the new Font Editor tool within the Styles pane\" box > Reload.", "2. In the **Styles** pane, click the \"AA\" icon in the bottom right of the selector box to open the **Font Editor** tool which allows you to tweak various font properties.\n"]
     },
     "Opera": {
-        "Notes": ["1. Open **Settings** (`F1` or `Shift+?`) > Experiments > Check the \"Enable the new Font Editor tool within the Styles pane\" box > Reload.", "2. In the **Styles** pane, click the \"AA\" icon in the bottom right of the selector box to open the **Font Editor** tool which allows you to tweak various font properties.\n"]
+        Notes: ["1. Open **Settings** (`F1` or `Shift+?`) > Experiments > Check the \"Enable the new Font Editor tool within the Styles pane\" box > Reload.", "2. In the **Styles** pane, click the \"AA\" icon in the bottom right of the selector box to open the **Font Editor** tool which allows you to tweak various font properties.\n"]
     },
-    "Safari": {
-        "Notes": ["1. Inspect element > Navigate to the **Font** panel to see information about the active font for the selected DOM node in the DOM Tree, providing computed values for both basic properties (e.g. size, style, weight, etc.) and advanced properties (e.g. ligatures, alternate glyphs, variations, etc.)\n"],
-        "References": "1. \"Font Panel in the Elements Tab\", on [Webkit Docs](https://webkit.org/web-inspector/elements-tab/#font-panel)."
+    Safari: {
+        Notes: ["1. Inspect element > Navigate to the **Font** panel to see information about the active font for the selected DOM node in the DOM Tree, providing computed values for both basic properties (e.g. size, style, weight, etc.) and advanced properties (e.g. ligatures, alternate glyphs, variations, etc.)\n"],
+        References: "1. \"Font Panel in the Elements Tab\", on [Webkit Docs](https://webkit.org/web-inspector/elements-tab/#font-panel)."
     }
 }

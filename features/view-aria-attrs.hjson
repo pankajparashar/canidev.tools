@@ -1,27 +1,25 @@
 {
-  "Name": "View ARIA attrs",
+  Name: "View ARIA attrs",
 
-  "Description": "Can I view ARIA attributes of an element?",
-  "Category": "Accessibility",
+  Description: "Can I view ARIA attributes of an element?",
+  Category: "Accessibility",
   
-  "Authors": ["@pankajparashar", "@kilianvalkhof"],
-  "Chrome": {
-    "Notes": "1. Inspect the element in the DOM tree.\n2. Click on the Accessibility tab (It maybe hidden behind the \"More Tabs\" button). Scroll down to the section which says, \"ARIA Attributes\".\n"
+  Authors: ["@pankajparashar", "@kilianvalkhof"],
+  Chrome: {
+    Notes: "1. Inspect the element in the DOM tree.\n2. Click on the Accessibility tab (It maybe hidden behind the \"More Tabs\" button). Scroll down to the section which says, \"ARIA Attributes\".\n"
   },
-  "Firefox": {
-    "Notes": "1. Right click on the element on the page and select \"Inspect Accessibility Properties\".\n2. This will open the Accessibility tab. The ARIA attributes are available under the \"Properties\" panel on the right.\n\n"
+  Firefox: {
+    Notes: "1. Right click on the element on the page and select \"Inspect Accessibility Properties\".\n2. This will open the Accessibility tab. The ARIA attributes are available under the \"Properties\" panel on the right.\n\n"
   },
-  "Edge": {
-    "Notes": "1. Inspect the element in the DOM tree.\n2. Click on the Accessibility tab (It maybe hidden behind the \"More Tabs\" button). Scroll down to the section which says, \"ARIA Attributes\".\n\n"
+  Edge: {
+    Notes: "1. Inspect the element in the DOM tree.\n2. Click on the Accessibility tab (It maybe hidden behind the \"More Tabs\" button). Scroll down to the section which says, \"ARIA Attributes\".\n\n"
   },
-  "Safari": {
-    "Notes": "1. Inspect the element > Click the **Node** pane next to the DOM node.\n2. Scroll down to the **Accessibility** section, expand to see all the ARA attributes for the selected node.\n"
+  Safari: {
+    Notes: "1. Inspect the element > Click the **Node** pane next to the DOM node.\n2. Scroll down to the **Accessibility** section, expand to see all the ARA attributes for the selected node.\n"
   },
-  "Opera": {
-    "Notes": "1. Inspect the element in the DOM tree.\n2. Click on the Accessibility tab (It maybe hidden behind the \"More Tabs\" button). Scroll down to the section which says, \"ARIA Attributes\".\n"
-  },
-  "Polypane": {
-    "Notes": "1. Inspect the element in the DOM tree.\n2. Click on the \"A11y\" tab. All \"ARIA Attributes\" are listed here.\n",
-    "References": "1. Accessibility tab [Polypane Docs](https://polypane.app/docs/elements-panel/#a11y)"
+  
+  Polypane: {
+    Notes: "1. Inspect the element in the DOM tree.\n2. Click on the \"A11y\" tab. All \"ARIA Attributes\" are listed here.\n",
+    References: "1. Accessibility tab [Polypane Docs](https://polypane.app/docs/elements-panel/#a11y)"
   }
 }

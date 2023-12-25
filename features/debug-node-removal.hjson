@@ -1,12 +1,12 @@
 {
-  "Name": "Debug node removal",
-  "Description": "Can I debug by setting a breakpoint when the node is removed from the DOM?",
+  Name: "Debug node removal",
+  Description: "Can I debug by setting a breakpoint when the node is removed from the DOM?",
 
-  "Category": "Elements",
-  "Authors": ["@pankajparashar"],
+  Category: "Elements",
+  Authors: ["@pankajparashar"],
 
   Tags: ["chrome"],	 
-  "Chrome": {
-    "Notes": "1. Inspect element > Right click on the node in the DOM tree.\n2. Select \"Break on\" > \"node removal\". Reload the page.\n"
+  Chrome: {
+    Notes: "1. Inspect element > Right click on the node in the DOM tree.\n2. Select \"Break on\" > \"node removal\". Reload the page.\n"
   }
 }

@@ -1,13 +1,13 @@
 {
-    "Name": "Copy as Fetch",
+    Name: "Copy as Fetch",
 
-    "Description": "Can I copy the request as window.fetch()?",
-    "Category": "Network",
+    Description: "Can I copy the request as window.fetch()?",
+    Category: "Network",
 
-    "Authors": ["@pankajparashar"],
+    Authors: ["@pankajparashar"],
 
-    "Chrome": {
-        "Notes": [
+    Chrome: {
+        Notes: [
             "1. In the **Network** panel, right click on the network request > Copy > Copy as fetch."
         ]
     }

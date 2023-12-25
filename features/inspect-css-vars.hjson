@@ -1,23 +1,23 @@
 {
-  "Name": "Inspect CSS vars",
+  Name: "Inspect CSS vars",
 
-  "Description": "Can I inspect CSS variables?",
-  "Category": "CSS",
+  Description: "Can I inspect CSS variables?",
+  Category: "CSS",
   
-  "Authors": ["@pankajparashar"],
+  Authors: ["@pankajparashar"],
   
-  "Chrome": {
-    "Notes": [
+  Chrome: {
+    Notes: [
         "1. In **Styles** pane, hover over the variable name to see the value in the tooltip. Click the link to jump to the section where the variable is defined.\n"
       ]
   },
-  "Edge": {
-    "Notes": [
+  Edge: {
+    Notes: [
         "1. In **Styles** pane, hover over the variable name to see the value in the tooltip. Click the link to jump to the section where the variable is defined.\n"
       ]
   },
   "Opera": {
-    "Notes": [
+    Notes: [
         "1. In **Styles** pane, hover over the variable name to see the value in the tooltip. Click the link to jump to the section where the variable is defined.\n"
     ]
   }

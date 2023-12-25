@@ -1,27 +1,27 @@
 {
-    "Name": "Find in files",
+    Name: "Find in files",
 
-    "Description": "Can I find in files for a specific keyword?",
-    "Category": "Debugger",
+    Description: "Can I find in files for a specific keyword?",
+    Category: "Debugger",
     
-    "Authors": ["@pankajparashar"],
-    "Chrome": {
-        "References": "[1] \"Search: Find text..\", by Chrome DevTools [Docs](https://developer.chrome.com/docs/devtools/search/)\n",
-        "Notes": "1. Open **Command Menu** (`Cmd+Shift+P` or `Ctrl+Shift+P`) > Run > \"Show Search\" (Drawer).\n2. Enter the search query in the text field and press `Enter` to search across all download resources.\n",
-        "Video": "https://res.cloudinary.com/canidevtools/video/upload/v1658465804/find-in-files-chrome_ty4bkl.mp4"
+    Authors: ["@pankajparashar"],
+    Chrome: {
+        References: "[1] \"Search: Find text..\", by Chrome DevTools [Docs](https://developer.chrome.com/docs/devtools/search/)\n",
+        Notes: "1. Open **Command Menu** (`Cmd+Shift+P` or `Ctrl+Shift+P`) > Run > \"Show Search\" (Drawer).\n2. Enter the search query in the text field and press `Enter` to search across all download resources.\n",
+        Video: "https://res.cloudinary.com/canidevtools/video/upload/v1658465804/find-in-files-chrome_ty4bkl.mp4"
     },
-    "Firefox": {
-        "Notes": "1. In the **Debugger** tab, press `Cmd+Shift+F` or `Ctrl+Shift+F` to find in files for a specific keyword.\n"
+    Firefox: {
+        Notes: "1. In the **Debugger** tab, press `Cmd+Shift+F` or `Ctrl+Shift+F` to find in files for a specific keyword.\n"
     },
-    "Edge": {
-        "Notes": "1. Open **Command** **Menu** (`Cmd+Shift+P` or `Ctrl+Shift+P`) > Run > \"Show Search\" (Drawer).\n2. Enter the search query in the text field and press `Enter` to search across all download resources.\n",
-        "Video": "https://res.cloudinary.com/canidevtools/video/upload/v1658470540/find-in-files-edge_fs5y4c.mp4"
+    Edge: {
+        Notes: "1. Open **Command** **Menu** (`Cmd+Shift+P` or `Ctrl+Shift+P`) > Run > \"Show Search\" (Drawer).\n2. Enter the search query in the text field and press `Enter` to search across all download resources.\n",
+        Video: "https://res.cloudinary.com/canidevtools/video/upload/v1658470540/find-in-files-edge_fs5y4c.mp4"
     },
-    "Safari": {
-        "Notes": "1. Anywhere in the web inspector, press `Cmd+Shift+F` to find in files for a specific keyword.\n"
+    Safari: {
+        Notes: "1. Anywhere in the web inspector, press `Cmd+Shift+F` to find in files for a specific keyword.\n"
     },
     "Opera": {
-        "Video": "https://res.cloudinary.com/canidevtools/video/upload/v1658470652/find-in-files-opera_vgbjjs.mp4",
-        "Notes": "1. Open **Command** **Menu** (`Cmd+Shift+P` or `Ctrl+Shift+P`) > Run > \"Show Search\" (Drawer).\n2. Enter the search query in the text field and press `Enter` to search across all download resources.\n"
+        Video: "https://res.cloudinary.com/canidevtools/video/upload/v1658470652/find-in-files-opera_vgbjjs.mp4",
+        Notes: "1. Open **Command** **Menu** (`Cmd+Shift+P` or `Ctrl+Shift+P`) > Run > \"Show Search\" (Drawer).\n2. Enter the search query in the text field and press `Enter` to search across all download resources.\n"
     }
 }

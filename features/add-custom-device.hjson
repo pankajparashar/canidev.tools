@@ -1,40 +1,40 @@
 {
-	"Name": "Add custom device",
-	"Description": "Can I add a custom device for a responsive design mode?",
+	Name: "Add custom device",
+	Description: "Can I add a custom device for a responsive design mode?",
 
-	"Category": "Other",
-	"Newsletter": "tips-tricks-11",
+	Category: "Other",
+	Newsletter: "tips-tricks-11",
 
-	"Authors": ["@pankajparashar", "@kilianvalkhof"],
-    "Tags": ["chrome", "firefox", "edge", "polypane"],
+	Authors: ["@pankajparashar", "@kilianvalkhof"],
+    Tags: ["chrome", "firefox", "edge", "polypane"],
 
-	"Chrome": {
-		"Share": "https://twitter.com/CanIDevTools/status/1556184233353179137",
-		"Notes": "1. Open **Settings** (`F1` or `Shift+?`) > Devices > Click \"Add custom device...\". \n2. Enter the \"Device Name\" and other details associated with the device. Click the \"Add\" button.\n",
-		"Video": "https://res.cloudinary.com/canidevtools/video/upload/v1659854384/add-custom-device-chrome_g3ad70.mp4"
+	Chrome: {
+		Share: "https://twitter.com/CanIDevTools/status/1556184233353179137",
+		Notes: "1. Open **Settings** (`F1` or `Shift+?`) > Devices > Click \"Add custom device...\". \n2. Enter the \"Device Name\" and other details associated with the device. Click the \"Add\" button.\n",
+		Video: "https://res.cloudinary.com/canidevtools/video/upload/v1659854384/add-custom-device-chrome_g3ad70.mp4"
 	},
 
-	"Firefox": {
-		"Share": "https://twitter.com/CanIDevTools/status/1556184931604172800",
-		"Notes": "1. Open **Responsive** **Design** **Mode** (`Cmd+Opt+M` or `Ctrl+Shift+M`) > Select \"Edit List...\" from the list of devices.\n2. In **Device** **Settings**, click \"Add Custom Device...\" > Enter the **Name** and other related details > Click \"Save\".\n",
-		"References": "1. \"Responsive Design Mode\" - [Firefox Source Docs](https://firefox-source-docs.mozilla.org/devtools-user/responsive_design_mode/)\n",
-		"Video": "https://res.cloudinary.com/canidevtools/video/upload/v1659856478/add-custom-device-firefox_uqwxrz.mp4"
+	Firefox: {
+		Share: "https://twitter.com/CanIDevTools/status/1556184931604172800",
+		Notes: "1. Open **Responsive** **Design** **Mode** (`Cmd+Opt+M` or `Ctrl+Shift+M`) > Select \"Edit List...\" from the list of devices.\n2. In **Device** **Settings**, click \"Add Custom Device...\" > Enter the **Name** and other related details > Click \"Save\".\n",
+		References: "1. \"Responsive Design Mode\" - [Firefox Source Docs](https://firefox-source-docs.mozilla.org/devtools-user/responsive_design_mode/)\n",
+		Video: "https://res.cloudinary.com/canidevtools/video/upload/v1659856478/add-custom-device-firefox_uqwxrz.mp4"
 	},
 
-	"Edge": {
-		"Notes": [
+	Edge: {
+		Notes: [
 			"1. Open **Settings** (`F1` or `Shift+?`) > Devices > Click **Add custom device...**.",
 			"2. Enter the **Device Name** and other details associated with the device. Click **Add** to add the custom device."
 		],
-		"References": [
+		References: [
 			"1. Add a custom mobile device, [Microsoft Edge DevTools Guide](https://learn.microsoft.com/en-us/microsoft-edge/devtools-guide-chromium/device-mode/#add-a-custom-mobile-device)"
 		],
-		"Share": "https://twitter.com/CanIDevTools/status/1556184233353179137",
-		"Video": "https://res.cloudinary.com/canidevtools/video/upload/v1659856864/add-custom-device-edge_gf1pjd.mp4"
+		Share: "https://twitter.com/CanIDevTools/status/1556184233353179137",
+		Video: "https://res.cloudinary.com/canidevtools/video/upload/v1659856864/add-custom-device-edge_gf1pjd.mp4"
 	},
 
-	"Polypane": {
-		"Notes": "1. Click the \"+\" button in the workspace, double-click anywhere in the free space, or press `Ctrl/Cmd+N`  \n2. Once the new device is added you can resize it manually and set the device and emulation options with the Emulation settings.",
-		"References": "1. \"Adding and removing panes\" [documentation](https://polypane.app/docs/pane-management/#adding-and-removing-panes)\n2. \"Emulation settings\" [documentation](https://polypane.app/docs/emulation/)\n"
+	Polypane: {
+		Notes: "1. Click the \"+\" button in the workspace, double-click anywhere in the free space, or press `Ctrl/Cmd+N`  \n2. Once the new device is added you can resize it manually and set the device and emulation options with the Emulation settings.",
+		References: "1. \"Adding and removing panes\" [documentation](https://polypane.app/docs/pane-management/#adding-and-removing-panes)\n2. \"Emulation settings\" [documentation](https://polypane.app/docs/emulation/)\n"
 	}
 }

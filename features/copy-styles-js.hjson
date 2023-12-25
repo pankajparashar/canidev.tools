@@ -1,19 +1,19 @@
 {
-  "Name": "Copy styles as JS",
+  Name: "Copy styles as JS",
 
-  "Description": "Can I copy style declarations as JavaScript object?",
-  "Category": "CSS",
+  Description: "Can I copy style declarations as JavaScript object?",
+  Category: "CSS",
   
-  "Authors": ["@pankajparashar"],
-  "Chrome": {
-    "References": "[1] \"Copy as JS\", by Chrome Devtools [Docs](https://developer.chrome.com/blog/new-in-devtools-96/#copy-as-js)\n",
-    "Notes": "1. Inspect element > In the **Styles** pane, right click on the style declaration and select \"Copy declaration as JS\" or \"Copy all declarations as JS\" to copy one or all styles.\n"
+  Authors: ["@pankajparashar"],
+  Chrome: {
+    References: "[1] \"Copy as JS\", by Chrome Devtools [Docs](https://developer.chrome.com/blog/new-in-devtools-96/#copy-as-js)\n",
+    Notes: "1. Inspect element > In the **Styles** pane, right click on the style declaration and select \"Copy declaration as JS\" or \"Copy all declarations as JS\" to copy one or all styles.\n"
   },
-  "Edge": {
-    "Notes": "1. Inspect element > In the **Styles** pane, right click on the style declaration and select \"Copy declaration as JS\" or \"Copy all declarations as JS\" to copy one or all styles.\n",
-    "References": "[1] \"What's new in DevTools 93?\", by Edge Devtools [Docs](https://docs.microsoft.com/en-us/microsoft-edge/devtools-guide-chromium/whats-new/2021/07/devtools#copy-a-declaration-in-the-styles-pane-for-css-in-js-libraries)\n"
+  Edge: {
+    Notes: "1. Inspect element > In the **Styles** pane, right click on the style declaration and select \"Copy declaration as JS\" or \"Copy all declarations as JS\" to copy one or all styles.\n",
+    References: "[1] \"What's new in DevTools 93?\", by Edge Devtools [Docs](https://docs.microsoft.com/en-us/microsoft-edge/devtools-guide-chromium/whats-new/2021/07/devtools#copy-a-declaration-in-the-styles-pane-for-css-in-js-libraries)\n"
   },
   "Opera": {
-    "Notes": "1. Inspect element > In the **Styles** pane, right click on the style declaration and select \"Copy declaration as JS\" or \"Copy all declarations as JS\" to copy one or all styles.\n"
+    Notes: "1. Inspect element > In the **Styles** pane, right click on the style declaration and select \"Copy declaration as JS\" or \"Copy all declarations as JS\" to copy one or all styles.\n"
   }
 }

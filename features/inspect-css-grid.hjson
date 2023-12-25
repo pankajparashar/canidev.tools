@@ -1,26 +1,26 @@
 {
-  "Name": "Inspect CSS Grid",
+  Name: "Inspect CSS Grid",
 
-  "Description": "Can I inspect CSS grid?",
-  "Category": "CSS",
+  Description: "Can I inspect CSS grid?",
+  Category: "CSS",
   
-  "Authors": ["@pankajparashar"],
-  "Chrome": {
-    "References": "[1] \"Inspect CSS Grid\" - [Chrome Developers](https://developer.chrome.com/docs/devtools/css/grid/)\n",
-    "Notes": "1. When an HTML element on your page has `display: grid` or `display: inline-grid` applied to it, you can see a `grid` badge next to it in the **Elements** panel.\n2. Clicking the badge to toggle the display of a grid overlay on the page. The overlay appears over the element, laid out like a grid to show the position of its grid lines and tracks.\n3. Open the **Layout** pane. When grids are included on a page, the Layout pane includes a **Grid** section containing a number of options for viewing those grids<sup>[1]</sup>\n"
+  Authors: ["@pankajparashar"],
+  Chrome: {
+    References: "[1] \"Inspect CSS Grid\" - [Chrome Developers](https://developer.chrome.com/docs/devtools/css/grid/)\n",
+    Notes: "1. When an HTML element on your page has `display: grid` or `display: inline-grid` applied to it, you can see a `grid` badge next to it in the **Elements** panel.\n2. Clicking the badge to toggle the display of a grid overlay on the page. The overlay appears over the element, laid out like a grid to show the position of its grid lines and tracks.\n3. Open the **Layout** pane. When grids are included on a page, the Layout pane includes a **Grid** section containing a number of options for viewing those grids<sup>[1]</sup>\n"
   },
-  "Firefox": {
-    "Notes": "1. When an HTML element on your page has `display: grid` or `display: inline-grid` applied to it, you can see a `grid` badge next to it in the Elements panel.\n2. Clicking the badge to toggle the display of a grid overlay on the page. The overlay appears over the element, laid out like a grid to show the position of its grid lines and tracks.\n3. Open the **Layout** pane. When grids are included on a page, the Layout pane includes a Grid section containing a number of options for viewing those grids.\n",
-    "References": "1. \"CSS Grid Inspector\" - [Firefox Source Docs](https://firefox-source-docs.mozilla.org/devtools-user/page_inspector/how_to/examine_grid_layouts/index.html)\n"
+  Firefox: {
+    Notes: "1. When an HTML element on your page has `display: grid` or `display: inline-grid` applied to it, you can see a `grid` badge next to it in the Elements panel.\n2. Clicking the badge to toggle the display of a grid overlay on the page. The overlay appears over the element, laid out like a grid to show the position of its grid lines and tracks.\n3. Open the **Layout** pane. When grids are included on a page, the Layout pane includes a Grid section containing a number of options for viewing those grids.\n",
+    References: "1. \"CSS Grid Inspector\" - [Firefox Source Docs](https://firefox-source-docs.mozilla.org/devtools-user/page_inspector/how_to/examine_grid_layouts/index.html)\n"
   },
-  "Edge": {
-    "Notes": "1. When an HTML element on your page has `display: grid` or `display: inline-grid` applied to it, you can see a `grid` badge next to it in the **Elements** panel.\n2. Clicking the badge to toggle the display of a grid overlay on the page. The overlay appears over the element, laid out like a grid to show the position of its grid lines and tracks.\n3. Open the **Layout** pane. When grids are included on a page, the Layout pane includes a Grid section containing a number of options for viewing those grids.\n\n"
+  Edge: {
+    Notes: "1. When an HTML element on your page has `display: grid` or `display: inline-grid` applied to it, you can see a `grid` badge next to it in the **Elements** panel.\n2. Clicking the badge to toggle the display of a grid overlay on the page. The overlay appears over the element, laid out like a grid to show the position of its grid lines and tracks.\n3. Open the **Layout** pane. When grids are included on a page, the Layout pane includes a Grid section containing a number of options for viewing those grids.\n\n"
   },
-  "Safari": {
-    "References": "[1] \"Introducing CSS Grid Inspector\" - [Webkit](https://webkit.org/blog/11588/introducing-css-grid-inspector/)\n",
-    "Notes": "1. When an HTML element on your page has `display: grid` or `display: inline-grid` applied to it, you can see a `grid` badge next to it in the Elements panel.\n2. Clicking the badge to toggle the display of a grid overlay on the page. The overlay appears over the element, laid out like a grid to show the position of its grid lines and tracks.\n3. Open the **Layout** pane. When grids are included on a page, the Layout pane includes a Grid section containing a number of options for viewing those grids.\n"
+  Safari: {
+    References: "[1] \"Introducing CSS Grid Inspector\" - [Webkit](https://webkit.org/blog/11588/introducing-css-grid-inspector/)\n",
+    Notes: "1. When an HTML element on your page has `display: grid` or `display: inline-grid` applied to it, you can see a `grid` badge next to it in the Elements panel.\n2. Clicking the badge to toggle the display of a grid overlay on the page. The overlay appears over the element, laid out like a grid to show the position of its grid lines and tracks.\n3. Open the **Layout** pane. When grids are included on a page, the Layout pane includes a Grid section containing a number of options for viewing those grids.\n"
   },
   "Opera": {
-    "Notes": "1. When an HTML element on your page has `display: grid` or `display: inline-grid` applied to it, you can see a `grid` badge next to it in the **Elements** panel.\n2. Clicking the badge to toggle the display of a grid overlay on the page. The overlay appears over the element, laid out like a grid to show the position of its grid lines and tracks.\n3. Open the **Layout** pane. When grids are included on a page, the Layout pane includes a Grid section containing a number of options for viewing those grids.\n\n"
+    Notes: "1. When an HTML element on your page has `display: grid` or `display: inline-grid` applied to it, you can see a `grid` badge next to it in the **Elements** panel.\n2. Clicking the badge to toggle the display of a grid overlay on the page. The overlay appears over the element, laid out like a grid to show the position of its grid lines and tracks.\n3. Open the **Layout** pane. When grids are included on a page, the Layout pane includes a Grid section containing a number of options for viewing those grids.\n\n"
   }
 }

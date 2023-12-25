@@ -1,32 +1,32 @@
 {
-    "Name": "Open devtools with keyboard",
+    Name: "Open devtools with keyboard",
 
-    "Description": "Can I open developer tools with the keyboard?",
-    "Category": "Other",
+    Description: "Can I open developer tools with the keyboard?",
+    Category: "Other",
     
-    "Authors": ["@pankajparashar", "@kilianvalkhof"],
-    "Chrome": {
-        "Share": "https://twitter.com/CanIDevTools/status/1504404457274363904",
-        "References": "1. [Keyboard shortcuts](https://developer.chrome.com/docs/devtools/shortcuts/#open) by Chrome Developers\n",
-        "Notes": "1. Launch Chrome > Press `F12`. Alternatively, you can also use `Cmd+Option+I` (on Mac) and `Ctrl+Shift+I` (on Windows/Linux) to open the last used panel.\n",
-        "Video": "https://res.cloudinary.com/canidevtools/video/upload/v1647768584/Videos/open-devtools-keyboard-chrome.mp4"
+    Authors: ["@pankajparashar", "@kilianvalkhof"],
+    Chrome: {
+        Share: "https://twitter.com/CanIDevTools/status/1504404457274363904",
+        References: "1. [Keyboard shortcuts](https://developer.chrome.com/docs/devtools/shortcuts/#open) by Chrome Developers\n",
+        Notes: "1. Launch Chrome > Press `F12`. Alternatively, you can also use `Cmd+Option+I` (on Mac) and `Ctrl+Shift+I` (on Windows/Linux) to open the last used panel.\n",
+        Video: "https://res.cloudinary.com/canidevtools/video/upload/v1647768584/Videos/open-devtools-keyboard-chrome.mp4"
     },
-    "Firefox": {
-        "Notes": "1. Launch Firefox → Press `F12`.\n"
+    Firefox: {
+        Notes: "1. Launch Firefox → Press `F12`.\n"
     },
-    "Edge": {
-        "Notes": "1. Launch Edge → Press `F12`.\n",
-        "Video": "https://res.cloudinary.com/canidevtools/video/upload/v1647768584/open-devtools-keyboard-chrome.mp4"
+    Edge: {
+        Notes: "1. Launch Edge → Press `F12`.\n",
+        Video: "https://res.cloudinary.com/canidevtools/video/upload/v1647768584/open-devtools-keyboard-chrome.mp4"
     },
-    "Safari": {
-        "Video": "https://res.cloudinary.com/canidevtools/video/upload/v1654919612/Videos/open-devtools-keyboard-safari_xzslhm.mp4",
-        "Notes": "In the menu bar, navigate to Safari > Preferences > Click on the **Advanced** tab, check \"Show Develop menu in menu bar\".\n\nPress `Option+Cmd+I` to open the devtools.\n"
+    Safari: {
+        Video: "https://res.cloudinary.com/canidevtools/video/upload/v1654919612/Videos/open-devtools-keyboard-safari_xzslhm.mp4",
+        Notes: "In the menu bar, navigate to Safari > Preferences > Click on the **Advanced** tab, check \"Show Develop menu in menu bar\".\n\nPress `Option+Cmd+I` to open the devtools.\n"
     },
     "Opera": {
         
-        "Notes": "1. Launch Opera > Press `F12`. Alternatively, you can also use `Cmd+Option+I` (on Mac) and `Ctrl+Shift+I` (on Windows/Linux) to open the last used panel.\n"
+        Notes: "1. Launch Opera > Press `F12`. Alternatively, you can also use `Cmd+Option+I` (on Mac) and `Ctrl+Shift+I` (on Windows/Linux) to open the last used panel.\n"
     },
-    "Polypane": {
-        "Notes": "1. Press `Cmd/Ctrl+Shift+P` to toggle the devtools panel, `Cmd/Ctrl+Shift+I` to open the Element inspector directly and `F12` or `Cmd/Ctrl+Opt/Alt+I` to open the Chromium devtools directly.\n"
+    Polypane: {
+        Notes: "1. Press `Cmd/Ctrl+Shift+P` to toggle the devtools panel, `Cmd/Ctrl+Shift+I` to open the Element inspector directly and `F12` or `Cmd/Ctrl+Opt/Alt+I` to open the Chromium devtools directly.\n"
     }
 }

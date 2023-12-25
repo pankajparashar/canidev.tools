@@ -1,19 +1,19 @@
 {
-    "Name": "Inspect DNS over HTTPS",
-    "Description": "Can I inspect the network requests that were resolved with DoH (DNS over HTTPS)?",
+    Name: "Inspect DNS over HTTPS",
+    Description: "Can I inspect the network requests that were resolved with DoH (DNS over HTTPS)?",
     
-    "Category": "Network",
-    "Authors": ["@pankajparashar"],
+    Category: "Network",
+    Authors: ["@pankajparashar"],
     
-    "Firefox": {
-        "Share": "https://twitter.com/CanIDevTools/status/1729521446614077739",
-        "Version": "116",
-        "Image": "https://res.cloudinary.com/canidevtools/image/upload/l_watermark,w_150,o_5/inspect-dns-over-https-firefox.png",
-        "Video": "https://res.cloudinary.com/canidevtools/video/upload/l_watermark,w_150,o_5/inspect-dns-over-https-firefox.mp4",
-        "Notes": [
+    Firefox: {
+        Share: "https://twitter.com/CanIDevTools/status/1729521446614077739",
+        Version: "116",
+        Image: "https://res.cloudinary.com/canidevtools/image/upload/l_watermark,w_150,o_5/inspect-dns-over-https-firefox.png",
+        Video: "https://res.cloudinary.com/canidevtools/video/upload/l_watermark,w_150,o_5/inspect-dns-over-https-firefox.mp4",
+        Notes: [
             "1. In the **Network** panel, open the request to see the details in the side pane. In the **Headers** tab, verify that the **DNS Resolution** property has the value **DNS over HTTPS**."
         ],
-        "References": [
+        References: [
             "1. Networking, [Firefox 116 DevTools Newsletter](https://fxdx.dev/firefox-devtools-newsletter-116/)"
         ]
     }

@@ -1,17 +1,15 @@
 {
-	"Name": "Override response headers",
-	"Description": "Can I override headers of the network response?",
+	Name: "Override response headers",
+	Description: "Can I override headers of the network response?",
 
-	"Category": "Network",
-	"Tags": ["overrides"],
+	Category: "Network",
+	Tags: ["overrides"],
 
-	"Authors": ["@pankajparashar"],
-	"Related": ["override-response-body"],
-
-	"Chrome": {
-		"Share": "https://twitter.com/CanIDevTools/status/1668500380290891777",
-		"Video": "https://res.cloudinary.com/canidevtools/video/upload/v1686635865/override-response-headers-chrome_f46pbh.mp4",
-		"Notes": [
+	Authors: ["@pankajparashar"],
+	Chrome: {
+		Share: "https://twitter.com/CanIDevTools/status/1668500380290891777",
+		Video: "https://res.cloudinary.com/canidevtools/video/upload/v1686635865/override-response-headers-chrome_f46pbh.mp4",
+		Notes: [
 			"1. In the **Network** panel, right click on the request and select \"Override headers\". Select the path where the overrides will be saved > Allow permissions to access the path.",
 			"2. Under **Response headers** section, click \"Add header\" to add a custom key-value pair. Use the **header overrides** option to manage your custom headers across all domains.",
 			"3. Request with overriden headers are highlighted with purple dot next to the **Status** code.",
