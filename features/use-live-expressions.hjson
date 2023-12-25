@@ -30,12 +30,5 @@
 		]
 	},
 
-	"Opera": {
-		Notes: [
-			"1. In the **Console** panel, click the **Create live expression** icon. Input the expression in the text box and press `Enter`.",
-			"2. The value below the pinned expression is its result. The result updates every 250ms.",
-			"3. For a multi-line expression, start a new line using `Shift+Enter`.",
-			"4. To use multiple live expressions, click the same icon again to add a new expression. To remove the expression, click the `X` button next to it."
-		]
-	}
+	
 }

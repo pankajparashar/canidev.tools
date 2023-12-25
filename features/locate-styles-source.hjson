@@ -17,7 +17,5 @@
   Safari: {
     Notes: "1. Inspect element > Find the corresponding declaration in the styles section. \n2. Click the `<filename>:<lineno>` link adjacent to the declaration to locate the style in the source file.\n\n"
   },
-  "Opera": {
-    Notes: "1. Inspect element > Find the corresponding declaration in the \"Styles\" pane. \n2. Click the `<filename>:<lineno>` link adjacent to the declaration to locate the style in the source file.\n"
-  }
+  
 }

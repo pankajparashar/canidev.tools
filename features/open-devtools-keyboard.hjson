@@ -22,10 +22,6 @@
         Video: "https://res.cloudinary.com/canidevtools/video/upload/v1654919612/Videos/open-devtools-keyboard-safari_xzslhm.mp4",
         Notes: "In the menu bar, navigate to Safari > Preferences > Click on the **Advanced** tab, check \"Show Develop menu in menu bar\".\n\nPress `Option+Cmd+I` to open the devtools.\n"
     },
-    "Opera": {
-        
-        Notes: "1. Launch Opera > Press `F12`. Alternatively, you can also use `Cmd+Option+I` (on Mac) and `Ctrl+Shift+I` (on Windows/Linux) to open the last used panel.\n"
-    },
     Polypane: {
         Notes: "1. Press `Cmd/Ctrl+Shift+P` to toggle the devtools panel, `Cmd/Ctrl+Shift+I` to open the Element inspector directly and `F12` or `Cmd/Ctrl+Opt/Alt+I` to open the Chromium devtools directly.\n"
     }

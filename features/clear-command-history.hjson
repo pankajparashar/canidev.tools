@@ -15,8 +15,5 @@
         Notes: "In the **Console** tab, right click anywhere > select \"Clear console history\" to remove all the commands from its history.\n",
         Share: "https://twitter.com/CanIDevTools/status/1555394008456646656"
     },
-    "Opera": {
-        Share: "https://twitter.com/CanIDevTools/status/1555394008456646656",
-        Notes: "In the **Console** tab, right click anywhere > select \"Clear console history\" to remove all the commands from its history.\n"
-    }
+    
 }

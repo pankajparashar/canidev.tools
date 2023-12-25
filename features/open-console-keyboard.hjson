@@ -17,9 +17,7 @@
     Safari: {
         Notes: ["Use Cmd+Opt+C to directly open the **Console** tab.\n"]
     },
-    "Opera": {
-        Notes: ["1. Use `Cmd+Opt+J` or `Ctrl+Shift+J` to directly open the **Console** tab.\n"]
-    },
+  
     Polypane: {
         Notes: ["1. Use `Cmd+Opt+J` or `Ctrl+Shift+J` to directly open the **Console** tab.\n"]
     }

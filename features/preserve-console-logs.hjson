@@ -18,9 +18,7 @@
   Safari: {
     Notes: "1. In the **Console** tab, select the \"Preserve Log\" checkbox in the toolbar (top) to persist logs across page reloads.\n"
   },
-  "Opera": {
-    Notes: "1. Open console using `Cmd+Opt+J` or `Ctrl+Shift+J` > Click on the gear icon in top right to open \"Console settings\".\n2. Check \"Preserve log\" to preserve log statements between page reloads.\n"
-  },
+ 
   Polypane: {
     Notes: "1. Open console using `Cmd/Ctrl+Shift+J` > Click the checkbox next to \"Preserve\" to preserve log statements between page reloads.\n"
   }

@@ -17,9 +17,7 @@
   Safari: {
     Notes: "1. Use the `Up` arrow key to scroll through the list of previously executed commands and then press `Enter`.\n\n"
   },
-  "Opera": {
-    Notes: "1. Use the `Up` arrow key to scroll through the list of previously executed commands and then press `Enter`.\n"
-  },
+  
   Polypane: {
     Notes: "1. Use the `Up` arrow key to scroll through the list of previously executed commands and then press `Enter`.\n"
   }

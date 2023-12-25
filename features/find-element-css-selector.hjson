@@ -1,10 +1,11 @@
 {
   Name: "Find element with CSS selector",
-
   Description: "Can I find elements in the DOM tree using CSS selector?",
-  Category: "Elements",
-  
+
+  Category: "Elements",  
   Authors: ["@pankajparashar"],
+  Tags: ["chrome", "firefox", "edge", "safari"],
+  
   Chrome: {
     Notes: "1. Open devtools > Click the \"Elements\" panel > Press `Cmd+F` (on Mac) or `Ctrl+F` (on Windows/Linux/Chrome OS) to open the search bar.\n2. Enter the CSS selector to search an element in the DOM tree.\n"
   },

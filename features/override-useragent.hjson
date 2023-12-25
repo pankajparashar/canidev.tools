@@ -29,11 +29,7 @@
 		Video: "https://res.cloudinary.com/canidevtools/video/upload/v1658240814/override-useragent-safari_sjvc2m.mp4",
 		Notes: "1. In the **Menu Bar**, Developer > User Agent > Select the user agent. Choose \"Other...\" to use a custom user agent string.\n"
 	},
-	"Opera": {
-		Share: "https://twitter.com/CanIDevTools/status/1549716753059483653",
-		Video: "https://res.cloudinary.com/canidevtools/video/upload/v1658218233/override-useragent-opera_d1yhdc.mp4",
-		Notes: "1. Open **Command** **Menu** (`Cmd+Shift+P` or `Ctrl+Shift+P`) and Run > \"Show network conditions\". This will open the **Network** **conditions** drawer.\n2. In the **User** **agent** section, disable \"Use browser default\" and select the user agent from the list below or enter your own custom string.\n"
-	},
+	
 	Polypane: {
 		Notes: "1. Open the **Change Media and Emulations** settings of a pane\n2. Go to the \"Emulation\" tab.\n3. Enter the custom user agent string in the **User agent** input field.\n",
 		References: "1. \"Custom user agent\", [Polypane Docs](https://polypane.app/docs/emulation/#custom-user-agent)\n"

@@ -22,10 +22,7 @@
         Share: "https://twitter.com/CanIDevTools/status/1542518565508874240",
         Notes: "1. Inspect element > Right click on the node in the DOM tree > Copy > XPath.\n"
     },
-    "Opera": {
-        Share: "https://twitter.com/CanIDevTools/status/1542518884036911104",
-        Notes: "1. Inspect the element > Right click on the node in the DOM tree > Copy > Copy full XPath\n\n"
-    },
+  
     Polypane: {
         Notes: "In the **Elements** panel, click the \"Copy\" icon in the navigator, then select \"Copy Xpath\"\n"
     }

@@ -26,9 +26,5 @@
         Video: "https://res.cloudinary.com/canidevtools/video/upload/v1666528627/run-snippets-safari_p3udd4.mp4",
         Notes: "1. In **Sources** > Click the \"+\" button to **Create** **Resource** > \"Console Snippet...\". Input the name of the snippet and enter the script.\n2. Click the **Play** button next to the snippet name to execute the code in **Console**. \n"
     },
-    "Opera": {
-        Share: "https://twitter.com/CanIDevTools/status/1559191098836234242",
-        Video: "https://res.cloudinary.com/canidevtools/video/upload/v1660568831/run-snippets-opera_imc6za.mp4",
-        Notes: "1. **Sources** > In the left sidebar, open **Snippets** > Click \"+ New snippet\". This will open an empty file in the main view.\n2. Enter the snippet and press `Cmd+Enter` to run the code.\n3. Additionally, you can also save the snippet and run it directly from the **Command** **Menu** using `!<script>`.\n"
-    }
+  
 }

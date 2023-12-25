@@ -18,11 +18,7 @@
 		Video: "https://res.cloudinary.com/canidevtools/video/upload/v1679174753/ignore-scripts-debug-edge_evanbj.mp4",
 		References: "1. \"Ignore a script or a pattern of scripts\", by [Edge DevTools Docs](https://learn.microsoft.com/en-us/microsoft-edge/devtools-guide-chromium/javascript/reference#ignore-a-script-or-pattern-of-scripts).\n"
 	},
-	"Opera": {
-		Share: "https://twitter.com/CanIDevTools/status/1637174916431659010",
-		Video: "https://res.cloudinary.com/canidevtools/video/upload/v1679231438/ignore-scripts-debug-opera_xlt1uf.mp4",
-		Notes: "1. In **Sources** > Open **Page** (left sidebar) > Right click on the script to be ignored and select \"Add script to ignore list\". Debugger will omit this script from the call stack and gray out in the file tree.\n2. Alternatively, you can also add a script to the ignore list from the **Call** **Stack** pane by using the same option from the right click menu.\n3. To ignore multiple scripts using a pattern, open **Settings** (`F1`) > Ignore List > Enable Ignore Listing. Click the \"Add Pattern\" button and enter the regex pattern matching the scripts to be ignored.\n4. All the ignored scripts will be available under **Custom** **exclusion** **rules** section in **Ignore List**.\n"
-	},
+	
 	Safari: {
 		Notes: [
 			"1. In the **Sources** panel, right click on any script and select **Blackbox script** or click the eye icon next to the script name in the source tree.",

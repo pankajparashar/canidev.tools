@@ -17,7 +17,5 @@
   Safari: {
     Notes: "In the **Network** tab, right click on the request, \"Copy as cURL\" will copy the request with cURL command to the clipboard.\n"
   },
-  "Opera": {
-    Notes: "In the **Network** tab, right click on the request, Copy > Copy as cURL will copy the request with cURL command to the clipboard.\n"
-  }
+ 
 }

@@ -1,13 +1,13 @@
 {
 	Name: "Filter requests by domain",
-
 	Description: "Can I filter network requests by domain name?",
-	Category: "Network",
-	Tags: ["filter"],
 
+	Category: "Network",
 	Newsletter: "tips-tricks-17",
 
 	Authors: ["@pankajparashar"],
+	Tags: ["filter", "chrome", "firefox", "edge"],
+
 	Chrome: {
 		Share: "https://twitter.com/CanIDevTools/status/1572513134426071042",
 		References: "1. \"Filter requests\", by Chrome DevTools [Docs](https://developer.chrome.com/docs/devtools/network/reference/#filter)\n",
@@ -25,10 +25,5 @@
 		Share: "https://twitter.com/CanIDevTools/status/1572513134426071042",
 		Video: "https://res.cloudinary.com/canidevtools/video/upload/v1663745085/filter-requests-domain-edge_hyrti4.mp4",
 		References: "1. \"Network features reference\", by Edge Developer [Docs](https://learn.microsoft.com/en-us/microsoft-edge/devtools-guide-chromium/network/reference#filter-requests-by-properties)\n"
-	},
-	"Opera": {
-		Share: "https://twitter.com/CanIDevTools/status/1572513134426071042",
-		Video: "https://res.cloudinary.com/canidevtools/video/upload/v1663731188/filter-requests-domain-chrome_sr5dpw.mp4",
-		Notes: "1. In **Network** > Enter `domain:` in the \"Filter\" field followed by the domain to filter the network requests on.\n2. Filter field also suggests the list of domain names to choose from.\n\n"
 	}
 }

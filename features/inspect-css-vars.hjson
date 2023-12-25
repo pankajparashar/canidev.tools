@@ -16,9 +16,5 @@
         "1. In **Styles** pane, hover over the variable name to see the value in the tooltip. Click the link to jump to the section where the variable is defined.\n"
       ]
   },
-  "Opera": {
-    Notes: [
-        "1. In **Styles** pane, hover over the variable name to see the value in the tooltip. Click the link to jump to the section where the variable is defined.\n"
-    ]
-  }
+  
 }

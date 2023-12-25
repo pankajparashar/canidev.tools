@@ -17,9 +17,7 @@
   Safari: {
     Notes: "1. Open **Settings** (`Cmd+,`) > Elements > Enable \"Show page rulers and node border lines\"\n"
   },
-  "Opera": {
-    Notes: "1. Open Settings (`Shift+?` or `F1`) > Preferences > Scroll down to the Elements section, and enable \"Show rulers on hover\".\n\n"
-  },
+ 
   Polypane: {
     Notes: "1. Press `Cmd/Ctrl+G` to toggle rulers on the top and left sides of all panes.\n\n"
   }

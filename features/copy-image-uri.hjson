@@ -20,10 +20,5 @@
     References: "\"Convert images to data-urls\", [Devtools Tips](https://devtoolstips.org/tips/en/convert-image-to-data-url/)"
   },
   
-  "Opera": {
-    Notes: [
-      "1. In the **Network** panel, click the image request to open a side panel containing the request details. \n2. Open the **Preview** tab to preview the image and right click on the image > Copy image as data URI\n"
-    ],
-    References: "\"Convert images to data-urls\", [Devtools Tips](https://devtoolstips.org/tips/en/convert-image-to-data-url/)"
-  }
+
 }

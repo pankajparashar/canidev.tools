@@ -25,9 +25,7 @@
         References: "1. \"CSS Cascade Layer Demo\" - [Jecelyn Yeen](https://jec.fyi/demo/cascade-layer)\n\n",
         Notes: "1. Inspect the element that is part of the `@layer`. In the Styles pane, each layer and its corresponding styles are visible.\n"
     },
-    "Opera": {
-        Notes: "1. Inspect the element that is part of the `@layer`. In the **Styles** pane, each layer and its corresponding styles are visible.\n2. Clicking on the layer name will reveal the **CSS layers** section at the top which will contain the layer order, that drives the specificity.\n"
-    },
+   
     Polypane: {
         Notes: "1. Inspect the element that is part of the `@layer`. In the **Styles** pane, each layer and its corresponding styles are visible.\n"
     }

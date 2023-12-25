@@ -17,9 +17,7 @@
   Safari: {
     Notes: "1. Launch Safari → In the menu bar, navigate to Safari > Preferences → Click on the General tab, check \"Show Developer menu in menu bar\".\n2. Again in the menu bar, navigate to Develop > Show Web Inspector.\n"
   },
-  "Opera": {
-    Notes: "1. Launch Opera → Click on the vertical three dots icon (near top right of the window).\n2. Navigate to More Tools > Developer Tools.\n"
-  },
+  
   Polypane: {
     Notes: "1. Click the \"Panel\" Icon in the header, then in the panel go to to the \"Edit\" tab and then the \"Elements\" tab.\n"
   }

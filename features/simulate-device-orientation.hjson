@@ -13,9 +13,7 @@
 	Edge: {
 		Notes: "1. Open **Command** **Menu** (`Cmd+Shift+P` or `Ctrl+Shift+P`) > Run \"Show Sensors\" > Press `Enter`. This will open the **Sensors** drawer at the bottom of the Devtools panel.\n2. From the **Orientations** list, select a preset orientation or drag the device to set custom orientation.\n"
 	},
-	"Opera": {
-		Notes: "1. Open **Command** **Menu** (`Cmd+Shift+P` or `Ctrl+Shift+P`) > Run \"Show Sensors\" > Press `Enter`. This will open the **Sensors** drawer at the bottom of the Devtools panel.\n2. From the **Orientations** list, select a preset orientation or drag the device to set custom orientation.\n"
-	},
+	
 	Polypane: {
 		Notes: [
 			"1. Open **Change Media and Emulation** settings of a pane and go to the \"Emulation\" tab",

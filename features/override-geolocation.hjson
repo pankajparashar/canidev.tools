@@ -20,10 +20,5 @@
 		Video: "https://res.cloudinary.com/canidevtools/video/upload/v1663405444/override-geolocation-edge_jwuoee.mp4",
 		References: "1. \"Override geolocation with the Sensors tool\", by [Edge DevTools](https://learn.microsoft.com/en-us/microsoft-edge/devtools-guide-chromium/device-mode/geolocation)\n2. \"Simulate geolocation\", by [DevTools Tips](https://devtoolstips.org/tips/en/simulate-geolocation/).\n\n\n"
 	},
-	"Opera": {
-		References: "1. \"Simulate geolocation\", by [DevTools Tips](https://devtoolstips.org/tips/en/simulate-geolocation/).\n\n",
-		Share: "https://twitter.com/CanIDevTools/status/1571141196680142856",
-		Video: "https://res.cloudinary.com/canidevtools/video/upload/v1663405952/override-geolocation-opera_elpqnk.mp4",
-		Notes: "1. Open **Command** **Menu** (`Cmd+Shift+P` or `Ctrl+Shift+P`) > Run \"Show Sensors\". This will open the **Sensors** drawer.\n2. Select a location from the **Location** dropdown or choose **Other** to manually enter the Latitude/Longitude. \n3. Use the **Manage** button to add a new custom location.\n"
-	}
+	
 }

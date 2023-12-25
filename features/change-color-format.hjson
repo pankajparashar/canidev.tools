@@ -25,10 +25,5 @@
     Safari: {
         Notes: "1. In the **Styles** pane, hold the `Shift` key and click on the color preview box to cycle through the various color formats like `hex`, `rgb`, and `colors.`\n"
     },
-    "Opera": {
-        
-        Share: "https://twitter.com/CanIDevTools/status/1575491269878775811",
-        Video: "https://res.cloudinary.com/canidevtools/video/upload/v1664460672/change-color-format-chrome_p9wek7.mp4",
-        Notes: "1. In the **Styles** pane, hold the `Shift` key and click on the color preview box to cycle through the various color formats like `rgb`, `hsl`, and `hwb`.\n2. Alternatively, you can change the color format in the [color picker](https://developer.chrome.com/docs/devtools/css/reference/#color-picker) using the up-down arrow keys.\n"
-    }
+   
 }

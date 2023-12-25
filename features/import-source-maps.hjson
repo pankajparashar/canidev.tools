@@ -26,10 +26,5 @@
 		]
 	},
 	
-	"Opera": {
-		Notes: [
-			"1. In the **Sources** panel, open the script, right click in the Editor, and select **Add source map...** from the menu.",
-			"2. Enter the source map URL, click Add. On successful addition, the source map will appear in the **Developer Resources** drawer and the editor status bar."
-		]
-	}
+	
 }

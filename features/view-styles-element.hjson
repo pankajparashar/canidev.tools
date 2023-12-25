@@ -17,9 +17,7 @@
   Safari: {
     Notes: "1. Right click on the element and select \"Inspect Element\" (This will open the \"Elements\" panel in the devtools with selected element highlighted in the DOM tree).\n2. The CSS applied to the element is visible in the panel, adjacent to the DOM tree.\n"
   },
-  "Opera": {
-    Notes: "1. Right click on the element and select \"Inspect\" (This will open the Elements panel in the devtools with selected element highlighted in the DOM tree).  \n2. The CSS applied to the element is visible in the \"Styles\" tab, adjacent to the DOM tree.\n"
-  },
+
   Polypane: {
     Notes: "1. Right click on the element and select \"Inspect\" (This will open the Elements panel in the devtools with selected element highlighted in the DOM tree).  \n2. The CSS applied to the element is visible in the \"Styles\" tab, below the Element Navigator.\n"
   }

@@ -1,11 +1,11 @@
 {
     Name: "Find offset parent",
-
     Description: "Can I find the offset parent of an element?",
     Category: "CSS",
 
     Authors: ["@kilian"],
-
+    Tags: ["polypane"],
+    
     Polypane: {
         Notes: ["1. Inspect the element in the **Elements** panel. Open the **Debug** tab, scroll down to the **Context** section to find the offset parent of the element."],
         References: ["1. Offset parent, [Polypane Blog](https://polypane.app/blog/offset-parent-and-stacking-context-positioning-elements-in-all-three-dimensions/)"]

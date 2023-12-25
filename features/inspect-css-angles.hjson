@@ -11,7 +11,5 @@
   Edge: {
     Notes: "1. Inspect the element using CSS angle unit values > Styles > Click the icon next to the angle unit to open a visual editor to apply the angle value.\n\n"
   },
-  "Opera": {
-    Notes: "1. Inspect the element using CSS angle unit values > Styles > Click the icon next to the angle unit to open a visual editor to apply the angle value.\n\n"
-  }
+  
 }

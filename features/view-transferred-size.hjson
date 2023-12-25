@@ -17,7 +17,5 @@
   Safari: {
     Notes: "1. In the **Network** panel, the footer contains the size of the data transferred in Bytes. If a filter is applied, then it displays the size of the filtered resources.\n"
   },
-  "Opera": {
-    Notes: "1. In the **Network** panel, the footer contains the size of the data transferred in Bytes. If a filter is applied, then it displays the size of the filtered resources followed by all the resources.\n"
-  }
+  
 }

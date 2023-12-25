@@ -14,9 +14,7 @@
   Edge: {
     Notes: "1. In Network > Click the dropdown \"No Throttling\" and select a value to throttle the network speed.\n\n"
   },
-  "Opera": {
-    Notes: "1. In Network > Click the dropdown \"No Throttling\" and select a value to throttle the network speed.\n\n"
-  },
+  
   Polypane: {
     Notes: [
       "1. Open **Change Media and Emulation** settings of a pane and go to the \"Network\" tab",

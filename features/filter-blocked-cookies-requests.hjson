@@ -6,7 +6,7 @@
 	Tags: ["filter"],
 
 	Authors: ["@pankajparashar"],
-
+	Tags: ["chrome"],
 	Chrome: {
 		Notes: [
 			"1. In the **Network** panel, enable the **Has blocked cookies** option to only show requests with blocked response cookies."

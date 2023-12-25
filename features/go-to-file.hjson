@@ -18,8 +18,5 @@
     },
     Safari: {
         Notes: "1. Anywhere in the web inspector, press `Cmd+P` to search for files matching the filename.\n"
-    },
-    "Opera": {
-        Notes: "1. Open devtools using `Cmd+Opt+I` (on Mac) or `Ctrl+Shift+I` (on Windows/Linux) > Sources.\n2. Run Command menu using `Cmd+Shift+P` (on Mac) or `Ctrl+Shift+P` (on Windows/Linux) > Type filename to filter on the matching files > Press `Enter`.\n"
     }
 }

@@ -6,7 +6,7 @@
 	Tags: ["filter"],
 
 	Authors: ["@pankajparashar"],
-
+	Tags: ["chrome"],
 	Chrome: {
 		Notes: ["1. In the **Network** panel, enable the **Blocked requests** option to show only blocked requests."]
 	}

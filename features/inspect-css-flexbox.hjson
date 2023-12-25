@@ -19,7 +19,5 @@
   Safari: {
     Notes: "1. In the **Elements** tab, select the node with label \"flex\" from the DOM tree. \n2. From the right sidebar, select \"Layout\", and scroll down to the **Flexbox** section, that has few page overlay options to help visualize and debug flexbox containers.\n"
   },
-  "Opera": {
-    Notes: "1. When an HTML element on your page has `display: flex` or `display: inline-flex` applied to it, you can see a `flex` badge next to it in the Elements panel.\n2. In the Styles pane, you can see the flexbox editor button next to the `display: flex` declaration.\n3. Click on it to open the flexbox editor. The editor displays a list of flexbox properties. Each property's value options are displayed as icon buttons.\n"
-  }
+ 
 }
