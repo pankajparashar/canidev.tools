@@ -9,6 +9,7 @@
     Firefox: {
         Image: "https://res.cloudinary.com/canidevtools/image/upload/l_watermark,w_200,o_5/inspect-custom-element-firefox-img.png",
         Video: "https://res.cloudinary.com/canidevtools/video/upload/l_watermark,w_200,o_5/inspect-custom-element-firefox.mp4",
+        Share: "https://twitter.com/CanIDevTools/status/1739273098463990041",
         Notes:
             '''
             - Open the **Inspector** panel. Custom elements are decorated with the `custom` badge to make them easier to identify them in the Element tree.
