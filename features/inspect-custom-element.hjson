@@ -1,6 +1,6 @@
 {
-    Name: "Inspect custom element markup",
-    Description: "Can I inspect the markup of a custom element?"
+    Name: "Inspect custom element",
+    Description: "Can I inspect the source code of a custom element?"
 
     Category: "Elements",
     Authors: ["@pankajparashar"]

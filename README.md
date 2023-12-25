@@ -1793,10 +1793,10 @@ Can I inspect CSS variables?
 1. In **Styles** pane, hover over the variable name to see the value in the tooltip. Click the link to jump to the section where the variable is defined.
 
 
-## Inspect custom element markup
-Can I inspect the markup of a custom element?
+## Inspect custom element
+Can I inspect the source code of a custom element?
 
-[Firefox](https://canidev.tools/inspect-custom-element-markup/firefox): 
+[Firefox](https://canidev.tools/inspect-custom-element/firefox): 
 - In Firefox, when inspecting elements (in the Inspector panel), you can click on the custom badge to go straight to the custom element's JavaScript source code.
 
 ## Inspect devtools
