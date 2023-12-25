@@ -1797,7 +1797,11 @@ Can I inspect CSS variables?
 Can I inspect the source code of a custom element?
 
 [Firefox](https://canidev.tools/inspect-custom-element/firefox): 
-- In Firefox, when inspecting elements (in the Inspector panel), you can click on the custom badge to go straight to the custom element's JavaScript source code.
+- Open the **Inspector** panel. Custom elements are decorated with the `custom` badge to make them easier to identify them in the Element tree.
+- Click the badge to directly jump to the JavaScript source code in the **Debugger** panel.
+
+
+![](https://res.cloudinary.com/canidevtools/image/upload/l_watermark,w_200,o_5/inspect-custom-element-firefox-img.png)
 
 ## Inspect devtools
 Can I inspect the browser's developer tool?
