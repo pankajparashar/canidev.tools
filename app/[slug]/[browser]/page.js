@@ -13,6 +13,8 @@ import {
   Box,
   Text,
   Divider,
+  CopyButton,
+  Tooltip
 } from "@mantine/core";
 import { CodeHighlight } from "@mantine/code-highlight";
 import {
@@ -21,6 +23,7 @@ import {
   IconCode,
   IconBrandYoutube,
   IconNotes,
+  IconCheck
 } from "@tabler/icons-react";
 
 import { DataContext } from "../../../components/data-provider";
@@ -153,9 +156,19 @@ export default function Page({ params }) {
             >
               <Group justify="space-between" pr={"sm"}>
                 <Text fw={700}>Code</Text>
-                <ActionIcon variant={"subtle"}>
-                  <IconCopy size={20} stroke={1.5} />
-                </ActionIcon>
+                <CopyButton value={browser.Code} timeout={2000}>
+                  {({ copied, copy }) => (
+                    <Tooltip label={copied ? 'Copied' : 'Copy'} withArrow position="right">
+                      <ActionIcon color={copied ? 'teal' : ''} variant="subtle" onClick={copy}>
+                        {copied ? (
+                          <IconCheck size={20} stroke={1.5} />
+                        ) : (
+                          <IconCopy size={20} stroke={1.5} />
+                        )}
+                      </ActionIcon>
+                    </Tooltip>
+                  )}
+                </CopyButton>
               </Group>
             </Accordion.Control>
             <Accordion.Panel p={"md"}>

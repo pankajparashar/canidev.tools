@@ -20,6 +20,8 @@ import {
   SimpleGrid,
   Flex,
   ActionIcon,
+  CopyButton,
+  Tooltip
 } from "@mantine/core";
 import {
   IconStarFilled,
@@ -34,6 +36,7 @@ import {
   IconBrandFirefox,
   IconCirclesRelation,
   IconHash,
+  IconCheck
 } from "@tabler/icons-react";
 
 export default function Layout({ children, params }) {
@@ -80,9 +83,21 @@ export default function Layout({ children, params }) {
           >
             {feature.Category}
           </Badge>
-          <ActionIcon variant="subtle">
-            <IconCirclesRelation size={20} stroke={1.5} />
-          </ActionIcon>
+          
+          <CopyButton value={`https://canidev.tools/${feature.Slug}`} timeout={2000}>
+            {({ copied, copy }) => (
+              <Tooltip label={copied ? 'Copied' : 'Copy'} withArrow position="right">
+                <ActionIcon color={copied ? 'teal' : ''} variant="subtle" onClick={copy}>
+                  {copied ? (
+                    <IconCheck size={20} stroke={1.5} />
+                  ) : (
+                    <IconCirclesRelation size={20} stroke={1.5} />
+                  )}
+                </ActionIcon>
+              </Tooltip>
+            )}
+          </CopyButton>
+
         </Flex>
         <Flex align={"center"} gap="sm">
           <ActionIcon
