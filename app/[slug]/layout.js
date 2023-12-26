@@ -86,7 +86,7 @@ export default function Layout({ children, params }) {
           
           <CopyButton value={`https://canidev.tools/${feature.Slug}`} timeout={2000}>
             {({ copied, copy }) => (
-              <Tooltip label={copied ? 'Copied' : 'Copy'} withArrow position="right">
+              <Tooltip label={copied ? 'Copied' : 'Copy URL'} withArrow position="right">
                 <ActionIcon color={copied ? 'teal' : ''} variant="subtle" onClick={copy}>
                   {copied ? (
                     <IconCheck size={20} stroke={1.5} />
@@ -100,7 +100,7 @@ export default function Layout({ children, params }) {
 
         </Flex>
         <Flex align={"center"} gap="sm">
-          <ActionIcon
+          <Tooltip label={favorites.has(feature.Slug) ? "Remove Favorite" : "Set Favorite"} position="left" withArrow><ActionIcon
             variant="subtle"
             data-umami-event="favorites"
             onClick={() => {
@@ -118,7 +118,7 @@ export default function Layout({ children, params }) {
             ) : (
               <IconStar size={20} stroke={1.5} />
             )}
-          </ActionIcon>
+          </ActionIcon></Tooltip>
           <Button
             data-umami-event="edit"
             variant="default"
