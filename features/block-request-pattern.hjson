@@ -1,5 +1,5 @@
 {
-	Name: "Block request by URL pattern",
+	Name: "Block request pattern",
 	Description: "Can I block all network request matching a URL pattern?",
 
 	Category: "Network",

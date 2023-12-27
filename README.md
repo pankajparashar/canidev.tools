@@ -139,25 +139,6 @@ Can I autocomplete style declaration just using values?
 2. Click the "propety" field under the style you want to edit, and the devtools will automatically suggest appropriate style properties and values for the current element. 
 
 
-## Block request URL
-Can I block a network request?
-
-[Chrome](https://canidev.tools/block-request-by-url/chrome): 
-1. In the **Network** tab, right click on the request and select "Block request URL". This will open the "Network request blocking" drawer that will let you manage all your blocked requests.
-
-
-[Firefox](https://canidev.tools/block-request-by-url/firefox): 
-1. In the **Network** tab, right click on the request and select "Block URL". This will open the "Blocking" pane in the left sidebar to manage all the blocking requests.
-
-
-[Edge](https://canidev.tools/block-request-by-url/edge): 
-1. In the **Network** panel, right click on the request and select **Block request URL**. This will open the **Network request blocking** drawer that will let you manage all the blocked requests.
-
-[Safari](https://canidev.tools/block-request-by-url/safari): 
-1. In the **Network** tab, right click on the request **Name**, and select "Block Request URL".
-2. In the **Sources** tab, under the **Local Overrides** section in the left sidebar, you can manage the blocked request.
-
-
 ## Block request domain
 Can I block all network requests of a domain?
 
@@ -178,28 +159,47 @@ Can I block all network requests of a domain?
 2. Right click on the override and select "Edit Local Override...". Add the domain name in the URL pattern and use Status as `404: Not Found` to block all the network requests for that domain.
 
 
-## Block request by URL pattern
+## Block request pattern
 Can I block all network request matching a URL pattern?
 
-[Chrome](https://canidev.tools/block-request-url-pattern/chrome): 
+[Chrome](https://canidev.tools/block-request-pattern/chrome): 
 1. Open **Command** **Menu** (`Cmd+Shift+P` or `Ctrl+Shift+P`) > Run "Show Network request blocking". This will open the **Network request blocking** drawer.
 2. Click the "+" button and add the URL pattern > Add. Reload the page for the changes to take effect. Filter on **Blocked Requests** by enabling the checkbox in the toolbar.
 
 
-[Firefox](https://canidev.tools/block-request-url-pattern/firefox): 
+[Firefox](https://canidev.tools/block-request-pattern/firefox): 
 1. In the **Network** panel, click the **Request** **Blocking** icon in the toolbar, to open the **Blocking** pane in the left sidebar. 
 2. Input the URL pattern and press `Enter`. Reload the page to see the changes take effect.
 
 
-[Edge](https://canidev.tools/block-request-url-pattern/edge): 
+[Edge](https://canidev.tools/block-request-pattern/edge): 
 - Open **Command Menu** (`Cmd+Shift+P` or `Ctrl+Shift+P`) and Run \"Show Network request blocking\". Press `Enter` to open the **Network request blocking** drawer.
 - Click the **Add pattern** button and add the URL pattern > **Add**. Reload the page for the changes to take effect. 
 - The number of blocked network requests is indicated in the **Network request blocking** tool. In the **Network** panel, enable **Blocked Requests** to filter on the all the requests blocked by the DevTools in the Network table.
 - Hover on the URL pattern to either remove or edit the pattern. Click the **Remove all patterns** button to remove all the URL patterns.
 
-[Safari](https://canidev.tools/block-request-url-pattern/safari): 
+[Safari](https://canidev.tools/block-request-pattern/safari): 
 1. In the **Sources** panel, Add a new **Local** **Override** by clicking the "+" (Create Resource) button.
 2. Select the **Type** as "Block", and enter the regex for the URL pattern to override the network request for. Reload the page to see the changes take effect.
+
+
+## Block request URL
+Can I block a specific network request by URL?
+
+[Chrome](https://canidev.tools/block-request-url/chrome): 
+1. In the **Network** tab, right click on the request and select "Block request URL". This will open the "Network request blocking" drawer that will let you manage all your blocked requests.
+
+
+[Firefox](https://canidev.tools/block-request-url/firefox): 
+1. In the **Network** tab, right click on the request and select "Block URL". This will open the "Blocking" pane in the left sidebar to manage all the blocking requests.
+
+
+[Edge](https://canidev.tools/block-request-url/edge): 
+1. In the **Network** panel, right click on the request and select **Block request URL**. This will open the **Network request blocking** drawer that will let you manage all the blocked requests.
+
+[Safari](https://canidev.tools/block-request-url/safari): 
+1. In the **Network** tab, right click on the request **Name**, and select "Block Request URL".
+2. In the **Sources** tab, under the **Local Overrides** section in the left sidebar, you can manage the blocked request.
 
 
 ## Capture full page screenshot

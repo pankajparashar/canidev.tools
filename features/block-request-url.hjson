@@ -1,6 +1,6 @@
 {
 	Name: "Block request URL",
-	Description: "Can I block a network request?",
+	Description: "Can I block a specific network request by URL?",
 
 	Category: "Network",
 	Newsletter: "tips-tricks-5",
