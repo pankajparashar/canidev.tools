@@ -246,7 +246,7 @@ Can I capture a high definition screenshot of the page?
 
 
 
-![](https://res.cloudinary.com/canidevtools/image/upload/l_watermark,w_50,o_10/capture-hd-screenshot-firefox.png)
+![](https://res.cloudinary.com/canidevtools/image/upload/l_watermark,w_200,o_5/capture-hd-screenshot-firefox.png)
 
 [Edge](https://canidev.tools/capture-hd-screenshot/edge): 
 1. In Devtools, click the **Toggle device toolbar** icon (`Cmd+Shift+M` or `Ctrl+Shift+M`) to enter the responsive design mode.
