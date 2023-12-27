@@ -192,9 +192,10 @@ Can I block all network request matching a URL pattern?
 
 
 [Edge](https://canidev.tools/block-request-url-pattern/edge): 
-1. Open **Command** **Menu** (`Cmd+Shift+P` or `Ctrl+Shift+P`) > Run "Show Network request blocking". This will open the **Network** **request** **blocking** drawer.
-2. Click the "+" button and add the URL pattern > Add. Reload the page for the changes to take effect. Filter on **Blocked** **Requests** by enabling the checkbox in the toolbar.
-
+- Open **Command Menu** (`Cmd+Shift+P` or `Ctrl+Shift+P`) and Run \"Show Network request blocking\". Press `Enter` to open the **Network request blocking** drawer.
+- Click the **Add pattern** button and add the URL pattern > **Add**. Reload the page for the changes to take effect. 
+- The number of blocked network requests is indicated in the **Network request blocking** tool. In the **Network** panel, enable **Blocked Requests** to filter on the all the requests blocked by the DevTools in the Network table.
+- Hover on the URL pattern to either remove or edit the pattern. Click the **Remove all patterns** button to remove all the URL patterns.
 
 [Safari](https://canidev.tools/block-request-url-pattern/safari): 
 1. In the **Sources** panel, Add a new **Local** **Override** by clicking the "+" (Create Resource) button.

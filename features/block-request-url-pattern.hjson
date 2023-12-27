@@ -21,12 +21,20 @@
 	},
 
 	Edge: {
-		Notes: "1. Open **Command** **Menu** (`Cmd+Shift+P` or `Ctrl+Shift+P`) > Run \"Show Network request blocking\". This will open the **Network** **request** **blocking** drawer.\n2. Click the \"+\" button and add the URL pattern > Add. Reload the page for the changes to take effect. Filter on **Blocked** **Requests** by enabling the checkbox in the toolbar.\n",
 		Share: "https://twitter.com/CanIDevTools/status/1582354903963299840",
 		Video: "https://res.cloudinary.com/canidevtools/video/upload/v1666079035/block-request-url-pattern-edge_h9c5ig.mp4",
-		References: [
-			"1. Try the network request blocking tool, [Microsoft Edge DevTools Guide](https://learn.microsoft.com/en-us/microsoft-edge/devtools-guide-chromium/network-request-blocking/network-request-blocking-tool#try-the-network-request-blocking-tool)"
-		]
+		Notes:
+			'''
+			- Open **Command Menu** (`Cmd+Shift+P` or `Ctrl+Shift+P`) and Run \"Show Network request blocking\". Press `Enter` to open the **Network request blocking** drawer.
+			- Click the **Add pattern** button and add the URL pattern > **Add**. Reload the page for the changes to take effect. 
+			- The number of blocked network requests is indicated in the **Network request blocking** tool. In the **Network** panel, enable **Blocked Requests** to filter on the all the requests blocked by the DevTools in the Network table.
+			- Hover on the URL pattern to either remove or edit the pattern. Click the **Remove all patterns** button to remove all the URL patterns.
+			''',
+		References:
+			'''
+			1. Block a network request, [Microsoft Edge DevTools Guide](https://learn.microsoft.com/en-us/microsoft-edge/devtools-guide-chromium/network-request-blocking/network-request-blocking-tool#block-a-network-request).
+			2. Block requests, [Microsoft Edge DevTools Guide](https://learn.microsoft.com/en-us/microsoft-edge/devtools-guide-chromium/network/#block-requests).			
+			'''
 	},
 
 	Safari: {
