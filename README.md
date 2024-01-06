@@ -76,6 +76,9 @@ Can I add custom header columns to the Network requests table?
 2. In the **Manage Header Columns** popup window, click "Add Custom Header". Enter the custom header name, and click **Add** to add a new column to the Network requests table.
 
 
+
+![](https://res.cloudinary.com/canidevtools/image/upload/l_watermark,w_200,o_5/add-custom-header-columns-chrome-v1.png)
+
 [Edge](https://canidev.tools/add-custom-header-columns/edge): 
 1. In the **Network** panel, right click on the column headers > Response Headers > Manage Header Columns.
 2. In the **Manage Header Columns** popup window, click "Add Custom Header". Enter the custom header name, and click **Add** to add a new column to the Network requests table.
