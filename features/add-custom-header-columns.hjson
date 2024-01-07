@@ -6,6 +6,8 @@
 	Authors: ["@pankajparashar"],
 	
     Tags: ["chrome", "edge"],
+	Newsletter: "tips-and-tricks-45",
+	
 	Chrome: {
 		Video: "https://res.cloudinary.com/canidevtools/video/upload/l_watermark,w_200,o_5/add-custom-header-columns-chrome.mp4",
 		Image: "https://res.cloudinary.com/canidevtools/image/upload/l_watermark,w_200,o_5/add-custom-header-columns-chrome-v1.png",
@@ -17,6 +19,7 @@
 	},
 
 	Edge: {
+		Image: "https://res.cloudinary.com/canidevtools/image/upload/l_watermark,w_200,o_5/add-custom-header-columns-edge.png",
 		Notes: [
 			"1. In the **Network** panel, right click on the column headers > Response Headers > Manage Header Columns.",
 			"2. In the **Manage Header Columns** popup window, click \"Add Custom Header\". Enter the custom header name, and click **Add** to add a new column to the Network requests table."
