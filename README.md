@@ -421,14 +421,20 @@ Can I clear all the requests in the network log?
 [Firefox](https://canidev.tools/clear-network-log/firefox): 
 - In the **Network** panel, click the **Clear** button (trash icon) to clear all the network requests.
 
+
+![](https://res.cloudinary.com/canidevtools/image/upload/l_watermark,w_200,o_5/clear-network-log-firefox.png)
+
 [Edge](https://canidev.tools/clear-network-log/edge): 
 - In the **Network** panel, click the **Clear network log** button in the toolbar or press `Cmd+K` or `Ctrl+L` to clear all the network requests.
 
 
-![](https://res.cloudinary.com/canidevtools/image/upload/v1705270880/clear-network-log-edge-v1.png)
+![](https://res.cloudinary.com/canidevtools/image/upload/l_watermark,w_200,o_5/clear-network-log-edge-v1.png)
 
 [Safari](https://canidev.tools/clear-network-log/safari): 
 - In the **Network** panel, click the **Clear Network Items** button or press `Cmd+K` to clear all the network requests.
+
+
+![](https://res.cloudinary.com/canidevtools/image/upload/l_watermark,w_200,o_5/clear-network-log-safari.png)
 
 ## Copy cURL request
 Can I copy a network request as cURL?

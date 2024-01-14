@@ -4,6 +4,7 @@
 
     Category: "Network",
     Authors: ["@pankajparashar"],
+    Newsletter: "tips-and-tricks-46",
 
     Chrome: {
         Notes:
@@ -13,9 +14,9 @@
     },
 
     Edge: {
-        Share: "",
-        Video: "https://res.cloudinary.com/canidevtools/video/upload/v1705270881/clear-network-log-edge.mp4",
-        Image: "https://res.cloudinary.com/canidevtools/image/upload/v1705270880/clear-network-log-edge-v1.png",
+        Share: "https://twitter.com/CanIDevTools/status/1746660149941403967",
+        Video: "https://res.cloudinary.com/canidevtools/video/upload/l_watermark,w_200,o_5/clear-network-log-edge.mp4",
+        Image: "https://res.cloudinary.com/canidevtools/image/upload/l_watermark,w_200,o_5/clear-network-log-edge-v1.png",
         Notes:
             '''
             - In the **Network** panel, click the **Clear network log** button in the toolbar or press `Cmd+K` or `Ctrl+L` to clear all the network requests.
@@ -27,6 +28,7 @@
     },
 
     Firefox: {
+        Image: "https://res.cloudinary.com/canidevtools/image/upload/l_watermark,w_200,o_5/clear-network-log-firefox.png",
         Notes:
             '''
             - In the **Network** panel, click the **Clear** button (trash icon) to clear all the network requests.
@@ -34,6 +36,7 @@
     },
 
     Safari: {
+        Image: "https://res.cloudinary.com/canidevtools/image/upload/l_watermark,w_200,o_5/clear-network-log-safari.png",
         Notes:
             '''
             - In the **Network** panel, click the **Clear Network Items** button or press `Cmd+K` to clear all the network requests.
