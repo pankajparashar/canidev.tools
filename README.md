@@ -413,7 +413,7 @@ Can I clear the previous commands in the console?
 - Alternatively, you can run `console.clear()` in the console to clear the previous commands.
 
 ## Clear network log
-Can I clear the requests in the network log?
+Can I clear all the requests in the network log?
 
 [Chrome](https://canidev.tools/clear-network-log/chrome): 
 - In the **Network** panel, click the **Clear network log** button in the toolbar or press `Cmd+K` or `Ctrl+L` to clear all the network requests.
@@ -423,6 +423,9 @@ Can I clear the requests in the network log?
 
 [Edge](https://canidev.tools/clear-network-log/edge): 
 - In the **Network** panel, click the **Clear network log** button in the toolbar or press `Cmd+K` or `Ctrl+L` to clear all the network requests.
+
+
+![](https://res.cloudinary.com/canidevtools/image/upload/v1705270880/clear-network-log-edge-v1.png)
 
 [Safari](https://canidev.tools/clear-network-log/safari): 
 - In the **Network** panel, click the **Clear Network Items** button or press `Cmd+K` to clear all the network requests.
