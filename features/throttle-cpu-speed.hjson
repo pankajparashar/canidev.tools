@@ -1,6 +1,6 @@
 {
     Name: "Throttle CPU speed",
-    Description: "Can I throttle CPU speed to simulate slower machines?",
+    Description: "Can I throttle CPU speed to simulate slower devices?",
 
     Category: "Performance",
     Authors: ["@pankajparashar"],
@@ -8,7 +8,18 @@
     Chrome: {
         Notes: ["1. In the **Performance** panel, open **Settings** using the gear icon and select the \"CPU: No throttling\" dropdown to choose \"4x/6x slowdown\"."]
     },
+    
     Edge: {
-        Notes: ["1. In the **Performance** panel, open **Settings** using the gear icon and select the \"CPU: No throttling\" dropdown to choose \"4x/6x slowdown\"."]
+        Share: "",
+        Image: "https://res.cloudinary.com/canidevtools/image/upload/l_watermark,w_200,o_5/throttle-cpu-speed-edge-v1.png",
+        Video: "https://res.cloudinary.com/canidevtools/video/upload/l_watermark,w_200,o_5/throttle-cpu-speed-edge.mp4",
+        Notes:
+            '''
+            - In the **Performance** panel, open **Settings** using the gear icon and select the "CPU: No throttling" dropdown to choose "4x/6x slowdown."
+            ''',
+        References:
+            '''
+            1. Simulate a mobile CPU, [Microsoft Edge DevTools Guide](https://learn.microsoft.com/en-us/microsoft-edge/devtools-guide-chromium/evaluate-performance/#simulate-a-mobile-cpu).
+            '''
     }
 }

@@ -2769,13 +2769,16 @@ Can I target iframes while debugging from the Console panel?
 Can I test the Back/Forward cache of a web app?
 
 ## Throttle CPU speed
-Can I throttle CPU speed to simulate slower machines?
+Can I throttle CPU speed to simulate slower devices?
 
 [Chrome](https://canidev.tools/throttle-cpu-speed/chrome): 
 1. In the **Performance** panel, open **Settings** using the gear icon and select the "CPU: No throttling" dropdown to choose "4x/6x slowdown".
 
 [Edge](https://canidev.tools/throttle-cpu-speed/edge): 
-1. In the **Performance** panel, open **Settings** using the gear icon and select the "CPU: No throttling" dropdown to choose "4x/6x slowdown".
+- In the **Performance** panel, open **Settings** using the gear icon and select the "CPU: No throttling" dropdown to choose "4x/6x slowdown."
+
+
+![](https://res.cloudinary.com/canidevtools/image/upload/l_watermark,w_200,o_5/throttle-cpu-speed-edge-v1.png)
 
 ## Throttle CSS animation speed
 Can I throttle CSS animation playback speed?
