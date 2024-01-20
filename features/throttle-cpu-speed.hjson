@@ -10,7 +10,7 @@
     },
     
     Edge: {
-        Share: "",
+        Share: "https://twitter.com/CanIDevTools/status/1748811896281579929",
         Image: "https://res.cloudinary.com/canidevtools/image/upload/l_watermark,w_200,o_5/throttle-cpu-speed-edge-v1.png",
         Video: "https://res.cloudinary.com/canidevtools/video/upload/l_watermark,w_200,o_5/throttle-cpu-speed-edge.mp4",
         Notes:
