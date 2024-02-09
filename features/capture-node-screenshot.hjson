@@ -26,6 +26,7 @@
 			'''
 		Share: "https://twitter.com/CanIDevTools/status/1539621151215058945",
 		Video: "https://res.cloudinary.com/canidevtools/video/upload/v1675577844/capture-node-screenshot-edge_z4fpvx.mp4",
+		Thumbnail: "https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/capture-node-screenshot-edge_z4fpvx.png",
 		References:
 			'''
 			1. "Capture node screenshots using the Elements tool context menu", [Microsoft Edge DevTools Guide](https://learn.microsoft.com/en-us/microsoft-edge/devtools-guide-chromium/whats-new/2020/08/devtools#capture-node-screenshots-using-the-elements-tool-context-menu).
