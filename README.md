@@ -11,7 +11,7 @@ Can I add an audio breakpoint for debugging the source code?
 1. In **Sources** > Add a breakpoint by clicking the line number > Right click and select "Edit Breakpoint...".
 2. Click **Add Action** > Select "Play Sound" to hear a beep sound each time the statement is executed.
 
-
+[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/add-audio-breakpoint-safari_vqjryz.jpg)](https://res.cloudinary.com/canidevtools/video/upload/v1665212770/add-audio-breakpoint-safari_vqjryz.mp4)
 
 
 
@@ -22,23 +22,23 @@ Can I add an existing CSS class to an HTML element?
 1. Inspect the element > Look for ".cls" button in the Styles pane next to the Filter field.
 2. Click the button and search for the existing class names to add to the element.
 
-
+[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/add-class-element-chrome_vlzwkv.jpg)](https://res.cloudinary.com/canidevtools/video/upload/v1665291348/add-class-element-chrome_vlzwkv.mp4)
 
 [Firefox](https://canidev.tools/add-class-element/firefox): 
 1. Inspect the element > Look for ".cls" button in the styles section next to the Filter Styles field.
 2. Click the button and search for the existing class names to add to the element.
 
-
+[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/add-class-element-firefox_s2lp0w.jpg)](https://res.cloudinary.com/canidevtools/video/upload/v1665292235/add-class-element-firefox_s2lp0w.mp4)
 
 [Edge](https://canidev.tools/add-class-element/edge): 
 1. Select the element in the DOM tree. In the **Styles** pane, click **.cls** and search from the list of available class names in the **Add new class** textbox. Press `Enter` to add the class to the element.
-
+[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/add-class-element-edge_abosm6.jpg)](https://res.cloudinary.com/canidevtools/video/upload/v1665293114/add-class-element-edge_abosm6.mp4)
 
 [Safari](https://canidev.tools/add-class-element/safari): 
 1. Inspect the element > Look for "Classes" button in bottom row of the styles section next to the Filter field.
 2. Click the button and search for the existing class names to add to the element.
 
-
+[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/add-class-element-safari_r5xzwg.jpg)](https://res.cloudinary.com/canidevtools/video/upload/v1665293973/add-class-element-safari_r5xzwg.mp4)
 
 [Polypane](https://canidev.tools/add-class-element/polypane): 
 1. Inspect the element > Open the "attributes" tab 
@@ -53,16 +53,16 @@ Can I set a conditional breakpoint for debugging?
 1. In **Sources**, right click the line number and select "Add a conditional breakpoint..."
 2. Input the conditional expression on which the execution should pause, and press `Enter`.
 
-
+[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/add-conditional-breakpoint-chrome_jbfwrd.jpg)](https://res.cloudinary.com/canidevtools/video/upload/v1666587566/add-conditional-breakpoint-chrome_jbfwrd.mp4)
 
 [Firefox](https://canidev.tools/add-conditional-breakpoint/firefox): 
 1. In **Debugger**, right click the line number and select "Add condition"
 2. Input the conditional expression on which the execution should pause, and press `Enter`.
-
+[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/add-conditional-breakpoint-firefox_ynn6wb.jpg)](https://res.cloudinary.com/canidevtools/video/upload/v1666594638/add-conditional-breakpoint-firefox_ynn6wb.mp4)
 
 [Edge](https://canidev.tools/add-conditional-breakpoint/edge): 
 1. In the **Sources** panel, right click on the line number and select **Add conditional breakpoint...**. Enter the conditional expression and press `Enter`.
-
+[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/add-conditional-breakpoint-edge_s1vqzn.jpg)](https://res.cloudinary.com/canidevtools/video/upload/v1666589421/add-conditional-breakpoint-edge_s1vqzn.mp4)
 
 
 
@@ -75,18 +75,18 @@ Can I add a custom device for a responsive design mode?
 1. Open **Settings** (`F1` or `Shift+?`) > Devices > Click "Add custom device...". 
 2. Enter the "Device Name" and other details associated with the device. Click the "Add" button.
 
-
+[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/add-custom-device-chrome_g3ad70.jpg)](https://res.cloudinary.com/canidevtools/video/upload/v1659854384/add-custom-device-chrome_g3ad70.mp4)
 
 [Firefox](https://canidev.tools/add-custom-device/firefox): 
 1. Open **Responsive** **Design** **Mode** (`Cmd+Opt+M` or `Ctrl+Shift+M`) > Select "Edit List..." from the list of devices.
 2. In **Device** **Settings**, click "Add Custom Device..." > Enter the **Name** and other related details > Click "Save".
 
-
+[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/add-custom-device-firefox_uqwxrz.jpg)](https://res.cloudinary.com/canidevtools/video/upload/v1659856478/add-custom-device-firefox_uqwxrz.mp4)
 
 [Edge](https://canidev.tools/add-custom-device/edge): 
 1. Open **Settings** (`F1` or `Shift+?`) > Devices > Click **Add custom device...**.
 2. Enter the **Device Name** and other details associated with the device. Click **Add** to add the custom device.
-
+[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/add-custom-device-edge_gf1pjd.jpg)](https://res.cloudinary.com/canidevtools/video/upload/v1659856864/add-custom-device-edge_gf1pjd.mp4)
 
 
 
@@ -102,7 +102,7 @@ Can I add custom header columns to the Network requests table?
 1. In the **Network** panel, right click on the column headers > Response Headers > Manage Header Columns.
 2. In the **Manage Header Columns** popup window, click "Add Custom Header". Enter the custom header name, and click **Add** to add a new column to the Network requests table.
 
-
+[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/add-custom-header-columns-chrome.jpg)](https://res.cloudinary.com/canidevtools/video/upload/l_watermark,w_200,o_5/add-custom-header-columns-chrome.mp4)
 
 
 
@@ -122,22 +122,22 @@ Can I add inline styles to an HTML element?
 1. Inspect element > In the **Styles** pane, click "element.style" to input the inline style.
 
 
-
+[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/add-inline-styles-chrome_ljhuet.jpg)](https://res.cloudinary.com/canidevtools/video/upload/v1665378812/add-inline-styles-chrome_ljhuet.mp4)
 
 [Firefox](https://canidev.tools/add-inline-styles/firefox): 
 1. Inspect element > In the **Rules** pane, click "element​" to input the inline style.
 
-
+[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/add-inline-styles-firefox_oqgjhw.jpg)](https://res.cloudinary.com/canidevtools/video/upload/v1665379120/add-inline-styles-firefox_oqgjhw.mp4)
 
 [Edge](https://canidev.tools/add-inline-styles/edge): 
 1. Select the element in the DOM tree > In the **Styles** pane, click **element.style** and add the **property: value** declaration.
-
+[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/add-inline-styles-edge_vqgpfk.jpg)](https://res.cloudinary.com/canidevtools/video/upload/v1665379280/add-inline-styles-edge_vqgpfk.mp4)
 
 [Safari](https://canidev.tools/add-inline-styles/safari): 
 1. Inspect element > In the **Styles** pane, click inside "Style Attribute​" braces to input the inline style.
 
 
-
+[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/add-inline-styles-safari_u3jyaq.jpg)](https://res.cloudinary.com/canidevtools/video/upload/v1665383735/add-inline-styles-safari_u3jyaq.mp4)
 
 [Polypane](https://canidev.tools/add-inline-styles/polypane): 
 1. Inspect element > In the **Styles** pane, click "property" under "element.style" to input the inline style.
@@ -151,17 +151,17 @@ Can I add log points to source code for debugging?
 [Chrome](https://canidev.tools/add-logpoint/chrome): 
 1. In **Sources** > Right click on the line number and select "Add logpoint..." > Input the log statement to print in the **Console** without actually writing `console.log` statements.
 
-
+[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/add-logpoint-chrome_v2t0my.jpg)](https://res.cloudinary.com/canidevtools/video/upload/v1665473593/add-logpoint-chrome_v2t0my.mp4)
 
 [Firefox](https://canidev.tools/add-logpoint/firefox): 
 1. In **Debugger** > Right click on the line number and select "Add log" > Input the log statement to print in the **Console** without actually writing `console.log` statements.
 
-
+[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/add-logpoint-firefox_gxbla9.jpg)](https://res.cloudinary.com/canidevtools/video/upload/v1665473935/add-logpoint-firefox_gxbla9.mp4)
 
 [Edge](https://canidev.tools/add-logpoint/edge): 
 1. In **Sources** > Right click on the line number and select "Add logpoint..." > Input the log statement to print in the **Console** without actually writing `console.log` statements.
 
-
+[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/add-logpoint-edge_sdfglb.jpg)](https://res.cloudinary.com/canidevtools/video/upload/v1665492823/add-logpoint-edge_sdfglb.mp4)
 
 
 
@@ -174,7 +174,7 @@ Can I autocomplete style declaration just using values?
 1. Inspect an element > Navigate to the styles section (next to the DOM tree).
 2. Add new styles by directly entering the values like "bold", "italic" etc., and the devtools will automatically suggest the corresponding `<property>: <value>` pair for the given input.
 
-
+[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/autocomplete-styles-values-chrome_ubbzn4.jpg)](https://res.cloudinary.com/canidevtools/video/upload/v1665732492/autocomplete-styles-values-chrome_ubbzn4.mp4)
 
 
 
@@ -182,7 +182,7 @@ Can I autocomplete style declaration just using values?
 1. Inspect an element > Navigate to the styles section (next to the DOM tree).
 2. Add new styles by directly entering the values like "bold", "italic" etc., and the devtools will automatically suggest the corresponding `<property>: <value>` pair for the given input.
 
-
+[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/autocomplete-styles-values-edge_ato9gk.jpg)](https://res.cloudinary.com/canidevtools/video/upload/v1665732811/autocomplete-styles-values-edge_ato9gk.mp4)
 
 
 
@@ -198,23 +198,23 @@ Can I block all network requests of a domain?
 [Chrome](https://canidev.tools/block-request-domain/chrome): 
 1. In the **Network** panel, right click on the network request, and select "Block request domain". This will open the **Network request blocking** drawer that will let you manage blocked network requests. 
 
-
+[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/block-request-domain-chrome_fi7oxw.jpg)](https://res.cloudinary.com/canidevtools/video/upload/v1665901195/block-request-domain-chrome_fi7oxw.mp4)
 
 [Firefox](https://canidev.tools/block-request-domain/firefox): 
 1. In the **Network** panel, click the "Request Blocking" icon in the toolbar to open the **Blocking** pane in the left sidebar.
 2. Add the domain name in the input box to block all the matching requests for that domain.
 
-
+[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/block-request-domain-firefox_l8vozt.jpg)](https://res.cloudinary.com/canidevtools/video/upload/v1665901185/block-request-domain-firefox_l8vozt.mp4)
 
 [Edge](https://canidev.tools/block-request-domain/edge): 
 1. In the **Network** panel, right click on the network request, and select **Block request domain**. This will open the **Network request blocking** drawer that will let you manage the blocked network requests.
-
+[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/block-request-domain-edge_sbo8bn.jpg)](https://res.cloudinary.com/canidevtools/video/upload/v1665901192/block-request-domain-edge_sbo8bn.mp4)
 
 [Safari](https://canidev.tools/block-request-domain/safari): 
 1. In the **Network** panel, right click on the request and select "Create Response Local Override" to open the **Sources** panel, which contains the list of all local overrides.
 2. Right click on the override and select "Edit Local Override...". Add the domain name in the URL pattern and use Status as `404: Not Found` to block all the network requests for that domain.
 
-
+[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/block-request-domain-safari_hwx933.jpg)](https://res.cloudinary.com/canidevtools/video/upload/v1665901197/block-request-domain-safari_hwx933.mp4)
 
 
 
@@ -225,26 +225,26 @@ Can I block all network request matching a URL pattern?
 1. Open **Command** **Menu** (`Cmd+Shift+P` or `Ctrl+Shift+P`) > Run "Show Network request blocking". This will open the **Network request blocking** drawer.
 2. Click the "+" button and add the URL pattern > Add. Reload the page for the changes to take effect. Filter on **Blocked Requests** by enabling the checkbox in the toolbar.
 
-
+[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/block-request-url-pattern-chrome_u9vpbn.jpg)](https://res.cloudinary.com/canidevtools/video/upload/v1666076803/block-request-url-pattern-chrome_u9vpbn.mp4)
 
 [Firefox](https://canidev.tools/block-request-pattern/firefox): 
 1. In the **Network** panel, click the **Request** **Blocking** icon in the toolbar, to open the **Blocking** pane in the left sidebar. 
 2. Input the URL pattern and press `Enter`. Reload the page to see the changes take effect.
 
-
+[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/block-request-url-pattern-firefox_cfnvk3.jpg)](https://res.cloudinary.com/canidevtools/video/upload/v1666077757/block-request-url-pattern-firefox_cfnvk3.mp4)
 
 [Edge](https://canidev.tools/block-request-pattern/edge): 
 - Open **Command Menu** (`Cmd+Shift+P` or `Ctrl+Shift+P`) and Run \"Show Network request blocking\". Press `Enter` to open the **Network request blocking** drawer.
 - Click the **Add pattern** button and add the URL pattern > **Add**. Reload the page for the changes to take effect. 
 - The number of blocked network requests is indicated in the **Network request blocking** tool. In the **Network** panel, enable **Blocked Requests** to filter on the all the requests blocked by the DevTools in the Network table.
 - Hover on the URL pattern to either remove or edit the pattern. Click the **Remove all patterns** button to remove all the URL patterns.
-
+[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/block-request-url-pattern-edge_h9c5ig.jpg)](https://res.cloudinary.com/canidevtools/video/upload/v1666079035/block-request-url-pattern-edge_h9c5ig.mp4)
 
 [Safari](https://canidev.tools/block-request-pattern/safari): 
 1. In the **Sources** panel, Add a new **Local** **Override** by clicking the "+" (Create Resource) button.
 2. Select the **Type** as "Block", and enter the regex for the URL pattern to override the network request for. Reload the page to see the changes take effect.
 
-
+[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/block-request-url-pattern-safari_u8c6fj.jpg)](https://res.cloudinary.com/canidevtools/video/upload/v1666084565/block-request-url-pattern-safari_u8c6fj.mp4)
 
 
 
@@ -254,22 +254,22 @@ Can I block a specific network request by URL?
 [Chrome](https://canidev.tools/block-request-url/chrome): 
 1. In the **Network** tab, right click on the request and select "Block request URL". This will open the "Network request blocking" drawer that will let you manage all your blocked requests.
 
-
+[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/block-request-url-chrome_hrzmg8.jpg)](https://res.cloudinary.com/canidevtools/video/upload/v1665807339/block-request-url-chrome_hrzmg8.mp4)
 
 [Firefox](https://canidev.tools/block-request-url/firefox): 
 1. In the **Network** tab, right click on the request and select "Block URL". This will open the "Blocking" pane in the left sidebar to manage all the blocking requests.
 
-
+[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/block-request-url-firefox_tloii5.jpg)](https://res.cloudinary.com/canidevtools/video/upload/v1665811617/block-request-url-firefox_tloii5.mp4)
 
 [Edge](https://canidev.tools/block-request-url/edge): 
 1. In the **Network** panel, right click on the request and select **Block request URL**. This will open the **Network request blocking** drawer that will let you manage all the blocked requests.
-
+[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/block-request-url-edge_inumug.jpg)](https://res.cloudinary.com/canidevtools/video/upload/v1665811615/block-request-url-edge_inumug.mp4)
 
 [Safari](https://canidev.tools/block-request-url/safari): 
 1. In the **Network** tab, right click on the request **Name**, and select "Block Request URL".
 2. In the **Sources** tab, under the **Local Overrides** section in the left sidebar, you can manage the blocked request.
 
-
+[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/block-request-url-safari_nbxcu1.jpg)](https://res.cloudinary.com/canidevtools/video/upload/v1665811626/block-request-url-safari_nbxcu1.mp4)
 
 
 
@@ -280,25 +280,25 @@ Can I take full page screenshot of a website?
 1. Open **Command Menu** (`Cmd+Shift+P` or `Ctrl+Shift+P`) & Run > "Capture full size screenshot" and press `Enter`.
 2. This will save a PNG image with url as the filename in the **Downloads** directory.
 
-
+[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/capture-full-page-screenshot-chrome_dqi6a5.jpg)](https://res.cloudinary.com/canidevtools/video/upload/v1669922647/capture-full-page-screenshot-chrome_dqi6a5.mp4)
 
 [Firefox](https://canidev.tools/capture-full-page-screenshot/firefox): 
 1. In the **Inspector** panel, right click on the `html` node > select "Screenshot Node".
 2. This will save a PNG image with current date time as the filename in the **Downloads** directory.
 
-
+[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/capture-full-page-screenshot-firefox_hjns0z.jpg)](https://res.cloudinary.com/canidevtools/video/upload/v1668374467/capture-full-page-screenshot-firefox_hjns0z.mp4)
 
 [Edge](https://canidev.tools/capture-full-page-screenshot/edge): 
 1. Open **Command** **Menu** (`Cmd+Shift+P` or `Ctrl+Shift+P`) & Run > "Capture full size screenshot" and press `Enter`.
 2. This will save a PNG image with url as the filename in the **Downloads** directory.
 
-
+[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/capture-full-page-screenshot-edge_r873ce.jpg)](https://res.cloudinary.com/canidevtools/video/upload/v1668372196/capture-full-page-screenshot-edge_r873ce.mp4)
 
 [Safari](https://canidev.tools/capture-full-page-screenshot/safari): 
 1. In the **Elements** panel, right click on the `html` node and select "Capture Screenshot".
 2. This will save a PNG image with current date time as the filename in the **Downloads** directory.
 
-
+[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/capture-full-page-screenshot-safari_xrfv9z.jpg)](https://res.cloudinary.com/canidevtools/video/upload/v1669923062/capture-full-page-screenshot-safari_xrfv9z.mp4)
 
 [Polypane](https://canidev.tools/capture-full-page-screenshot/polypane): 
 1. Click the "Camera" icon above the pane you want to screenshot and select "Full page". This will open the screenshot in the screenshot editor.
@@ -313,12 +313,12 @@ Can I capture a high definition screenshot of the page?
 2. In the device toolbar, click **More options** (`⋮`) > **Add device pixel ratio**. In the action bar at the top of the viewport, select a DPR value from the new DPR drop-down menu.
 3. Click **More options** > select **Capture screenshot** for viewport or **Capture full size screenshot** for the entire page.
 
-
+[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/capture-hd-screenshot-chrome.jpg)](https://res.cloudinary.com/canidevtools/video/upload/l_watermark,w_200,o_5/capture-hd-screenshot-chrome.mp4)
 
 [Firefox](https://canidev.tools/capture-hd-screenshot/firefox): 
 1. In the **Console** panel, run the command `:screenshot --dpr 3` to take a high definition screenshot of the page with the device pixel ratio set to 3.
 
-
+[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/capture-hd-screenshot-firefox.jpg)](https://res.cloudinary.com/canidevtools/video/upload/l_watermark,w_200,o_5/capture-hd-screenshot-firefox.mp4)
 
 [Edge](https://canidev.tools/capture-hd-screenshot/edge): 
 1. In Devtools, click the **Toggle device toolbar** icon (`Cmd+Shift+M` or `Ctrl+Shift+M`) to enter the responsive design mode.
@@ -338,24 +338,24 @@ Can I take a screenshot of the DOM node?
 1. In the **Elements** panel, right click on the node and select "Capture node screenshot".
 2. It retains visible background colour of elements with no background colour applied.
 
-
+[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/capture-node-screenshot-chrome_wvdumf.jpg)](https://res.cloudinary.com/canidevtools/video/upload/v1675241512/capture-node-screenshot-chrome_wvdumf.mp4)
 
 [Firefox](https://canidev.tools/capture-node-screenshot/firefox): 
 1. In the **Inspector** panel, right click on the node, and select "Screenshot Node".
 2. Firefox does not retain background transparency of the element in the screenshot.
 
-[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/capture-node-screenshot-firefox_qmq5if.png)](https://res.cloudinary.com/canidevtools/video/upload/v1675241512/capture-node-screenshot-firefox_qmq5if.mp4)
+[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/capture-node-screenshot-firefox_qmq5if.jpg)](https://res.cloudinary.com/canidevtools/video/upload/v1675241512/capture-node-screenshot-firefox_qmq5if.mp4)
 
 [Edge](https://canidev.tools/capture-node-screenshot/edge): 
 - In the **Elements** panel, right click on the node and select "Capture node screenshot".
 - It retains visible background colour of the elements with no background colour applied."
-[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/capture-node-screenshot-edge_z4fpvx.png)](https://res.cloudinary.com/canidevtools/video/upload/v1675577844/capture-node-screenshot-edge_z4fpvx.mp4)
+[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/capture-node-screenshot-edge_z4fpvx.jpg)](https://res.cloudinary.com/canidevtools/video/upload/v1675577844/capture-node-screenshot-edge_z4fpvx.mp4)
 
 [Safari](https://canidev.tools/capture-node-screenshot/safari): 
 1. In the **Elements** panel, right click on the node in the DOM tree and click on "Capture Screenshot". 
 2. Safari preserves the transparency for the elements with no applied background colour.
 
-
+[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/capture-node-screenshot-safari_jg6eup.jpg)](https://res.cloudinary.com/canidevtools/video/upload/v1675241512/capture-node-screenshot-safari_jg6eup.mp4)
 
 [Polypane](https://canidev.tools/capture-node-screenshot/polypane): 
 1. Click the "Camera" icon above the pane you want to screenshot and select "Element". 2. Click the element you want to screenshot. 3. Alternatively, click the "Camera" icon in the Element inspector to screenshot the selected DOM node.
@@ -369,7 +369,7 @@ Can I capture node creation stack trace?
 1. Enable "Capture node creation stacks" in Settings (`F1`) > Experiments.
 2. In the **Elements** panel > Select the node > Open the **Stack Trace** pane in the side panel to show the stack trace of the node creation. 
 
-
+[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/capture-node-stacktrace-chrome_henchg.jpg)](https://res.cloudinary.com/canidevtools/video/upload/v1676218498/capture-node-stacktrace-chrome_henchg.mp4)
 
 
 
@@ -377,7 +377,7 @@ Can I capture node creation stack trace?
 1. Enable "Capture node creation stacks" in Settings (`F1`) > Experiments.
 2. In the **Elements** panel > Select the node > Open the **Stack** **Trace** pane in the side panel to show the stack trace of the node creation.
 
-
+[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/capture-node-stacktrace-edge_cqyzwu.jpg)](https://res.cloudinary.com/canidevtools/video/upload/v1676219451/capture-node-stacktrace-edge_cqyzwu.mp4)
 
 
 
@@ -397,7 +397,7 @@ Can I take screenshot of a web page from the console?
     :screenshot --selector .css-selector
 ```
 
-
+[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/capture-screenshot-console-firefox_sabddb.jpg)](https://res.cloudinary.com/canidevtools/video/upload/v1677707601/capture-screenshot-console-firefox_sabddb.mp4)
 
 
 
@@ -405,7 +405,7 @@ Can I take screenshot of a web page from the console?
 1. In Safari, you can capture screenshot of the viewport from the **Console** using `console.screenshot()`. 
 2. Alternatively, pass the target node to the function to capture screenshot of a specific node.
 
-
+[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/capture-screenshot-console-safari_tvuokk.jpg)](https://res.cloudinary.com/canidevtools/video/upload/v1677707601/capture-screenshot-console-safari_tvuokk.mp4)
 
 
 
@@ -415,22 +415,22 @@ Can I take a screenshot of the viewport?
 [Chrome](https://canidev.tools/capture-viewport-screenshot/chrome): 
 1. Open **Command** **menu** (`Cmd+Shift+P` or `Ctrl+Shift+P`) > Run "Capture screenshot" > Press `Enter`. By default, the screenshot will be saved in the `Downloads` directory.
 
-
+[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/capture-viewport-screenshot-chrome_bj2srr.jpg)](https://res.cloudinary.com/canidevtools/video/upload/v1681417211/capture-viewport-screenshot-chrome_bj2srr.mp4)
 
 [Firefox](https://canidev.tools/capture-viewport-screenshot/firefox): 
 1. In **Console**, use the built-in helper function `:screenshot` to capture screenshot of the current page. 
 
-
+[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/capture-viewport-screenshot-firefox_fzyd7m.jpg)](https://res.cloudinary.com/canidevtools/video/upload/v1681421456/capture-viewport-screenshot-firefox_fzyd7m.mp4)
 
 [Edge](https://canidev.tools/capture-viewport-screenshot/edge): 
 1. Open **Command** **menu** (`Cmd+Shift+P` or `Ctrl+Shift+P`) > Run "Capture screenshot" > Press `Enter`. By default, the screenshot will be saved in the `Downloads` directory.
 
-
+[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/capture-viewport-screenshot-edge_tmowvf.jpg)](https://res.cloudinary.com/canidevtools/video/upload/v1681422232/capture-viewport-screenshot-edge_tmowvf.mp4)
 
 [Safari](https://canidev.tools/capture-viewport-screenshot/safari): 
 1. In **Console**, use `console.screenshot()` to capture the screenshot of the viewport. 
 
-
+[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/capture-viewport-screenshot-safari_kmfbs2.jpg)](https://res.cloudinary.com/canidevtools/video/upload/v1681455678/capture-viewport-screenshot-safari_kmfbs2.mp4)
 
 [Polypane](https://canidev.tools/capture-viewport-screenshot/polypane): 
 1. Click the "Camera" icon above the pane you want to screenshot and select "Viewport". This will open the screenshot in the screenshot editor.
@@ -444,13 +444,13 @@ Can I change authored color format to other formats like hsl, hwb etc?
 1. In the **Styles** pane, hold the `Shift` key and click on the color preview box to cycle through the various color formats like `hex`, `rgb`, `hsl`, and `hwb`.
 2. Alternatively, you can change the color format in the [color picker](https://developer.chrome.com/docs/devtools/css/reference/#color-picker) using the up-down arrow keys.
 
-
+[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/change-color-format-chrome_p9wek7.jpg)](https://res.cloudinary.com/canidevtools/video/upload/v1664460672/change-color-format-chrome_p9wek7.mp4)
 
 [Firefox](https://canidev.tools/change-color-format/firefox): 
 1. In the **Rules** pane, hold the `Shift` key and click on any color preview to change the color format.
 2. It is also available as an [optional default](https://firefox-source-docs.mozilla.org/devtools-user/settings/index.html#inspector).
 
-
+[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/change-color-format-firefox_kakch4.jpg)](https://res.cloudinary.com/canidevtools/video/upload/v1664462075/change-color-format-firefox_kakch4.mp4)
 
 [Edge](https://canidev.tools/change-color-format/edge): 
 1. In the **Styles** pane, hold the `Shift` key and click on the color preview box to cycle through the various color formats like `rgb`, `hsl`, and `hwb`.
@@ -472,7 +472,7 @@ Can I change the language of developer tools?
 1. Open **Settings** (`F1` or `Shift+?`) > Preferences > Under **Languages**, select the language from the dropdown > Reload DevTools.
 2. Alternatively, Run **Command** (`Cmd+Shift+P` or `Ctrl+Shift+P`) > Input the language > select the language labelled "Appearance" > Reload DevTools. 
 
-
+[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/change-devtools-language-chrome_xlzgjw.jpg)](https://res.cloudinary.com/canidevtools/video/upload/v1680288722/change-devtools-language-chrome_xlzgjw.mp4)
 
 
 
@@ -492,7 +492,7 @@ Can I clear the command history of the console?
 [Chrome](https://canidev.tools/clear-command-history/chrome): 
 In the **Console** tab, right click anywhere > select "Clear console history" to remove all the commands from its history.
 
-
+[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/clear-command-history-chrome_vmlcs6.jpg)](https://res.cloudinary.com/canidevtools/video/upload/v1659669026/clear-command-history-chrome_vmlcs6.mp4)
 
 
 
@@ -511,7 +511,7 @@ Can I clear the previous commands in the console?
 [Chrome](https://canidev.tools/clear-console/chrome): 
 - Click the **Clear console** icon (top-left) or use the keyboard shortcut, `Ctrl+L` or `Cmd+K`.
 - Alternatively, you can run `console.clear()` in the console to clear the previous commands.
-
+[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/clear-console-chrome.jpg)](https://res.cloudinary.com/canidevtools/video/upload/v1697558232/clear-console-chrome.mp4)
 
 [Firefox](https://canidev.tools/clear-console/firefox): 
 - Click the **Clear the Web Console output** icon in the toolbar or use `Ctrl+L` or `Cmd+K` to clear the console.
@@ -546,7 +546,7 @@ Can I clear all the requests in the network log?
 
 [Edge](https://canidev.tools/clear-network-log/edge): 
 - In the **Network** panel, click the **Clear network log** button in the toolbar or press `Cmd+K` or `Ctrl+L` to clear all the network requests.
-
+[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/clear-network-log-edge.jpg)](https://res.cloudinary.com/canidevtools/video/upload/l_watermark,w_200,o_5/clear-network-log-edge.mp4)
 
 [Safari](https://canidev.tools/clear-network-log/safari): 
 - In the **Network** panel, click the **Clear Network Items** button or press `Cmd+K` to clear all the network requests.
@@ -615,12 +615,12 @@ Can I copy a node's path as a CSS selector?
 [Chrome](https://canidev.tools/copy-css-selector/chrome): 
 1. In the **Elements** tab, right click on the element in the DOM tree > Copy > Copy selector.
 
-
+[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/copy-css-selector-chrome_ddz9za.jpg)](https://res.cloudinary.com/canidevtools/video/upload/v1658655363/copy-css-selector-chrome_ddz9za.mp4)
 
 [Firefox](https://canidev.tools/copy-css-selector/firefox): 
 1. In the **Inspector** tab, right click on the element in the DOM tree > Copy > CSS Selector.
 
-
+[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/copy-css-selector-firefox_zr9o7h.jpg)](https://res.cloudinary.com/canidevtools/video/upload/v1658653910/copy-css-selector-firefox_zr9o7h.mp4)
 
 [Edge](https://canidev.tools/copy-css-selector/edge): 
 1. In the **Elements** tab, right click on the element in the DOM tree > Copy > Copy selector.
@@ -630,7 +630,7 @@ Can I copy a node's path as a CSS selector?
 [Safari](https://canidev.tools/copy-css-selector/safari): 
 In the **Elements** tab, right click on the element in the DOM tree > Copy > Selector Path.
 
-
+[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/copy-css-selector-safari_w2ncyn.jpg)](https://res.cloudinary.com/canidevtools/video/upload/v1658654528/copy-css-selector-safari_w2ncyn.mp4)
 
 [Polypane](https://canidev.tools/copy-css-selector/polypane): 
 1. In the **Elements** tab, right click on the element in the DOM tree > Copy > Copy selector.
@@ -671,7 +671,7 @@ Can I copy the image url as a background-image property to directly use in CSS?
 
 [Polypane](https://canidev.tools/copy-img-bgimg/polypane): 
 - Right-click on the image, select **Copy** > **Copy as background-image**.
-
+[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/copy-img-bgimg-polypane.jpg)](https://res.cloudinary.com/canidevtools/video/upload/l_watermark,w_200,o_5/copy-img-bgimg-polypane.mp4)
 
 ## Copy as JS expression
 Can I copy a node's path to be used as a JavaScript expression?
@@ -679,14 +679,14 @@ Can I copy a node's path to be used as a JavaScript expression?
 [Chrome](https://canidev.tools/copy-js-expression/chrome): 
 1. In the **Elements** tab, right click on the node in the DOM tree > Copy > Copy JS path. This will copy the query selector to the node that can be used in the JS code.
 
-
+[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/copy-js-path-chrome_yh3wvj.jpg)](https://res.cloudinary.com/canidevtools/video/upload/v1658651084/copy-js-path-chrome_yh3wvj.mp4)
 
 
 
 [Edge](https://canidev.tools/copy-js-expression/edge): 
 1. In the **Elements** tab, right click on the node in the DOM tree > Copy > Copy JS path. This will copy the query selector to the node that can be used in the JS code.
 
-
+[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/copy-js-path-edge_phl2db.jpg)](https://res.cloudinary.com/canidevtools/video/upload/v1658651680/copy-js-path-edge_phl2db.mp4)
 
 
 
@@ -730,7 +730,7 @@ Can I copy an object from console?
 [Chrome](https://canidev.tools/copy-object/chrome): 
 1. `copy(object)` copies a string representation of the specified object to the clipboard.
 
-
+[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/copy-object-chrome_pyxbyj.jpg)](https://res.cloudinary.com/canidevtools/video/upload/v1659762914/copy-object-chrome_pyxbyj.mp4)
 
 [Firefox](https://canidev.tools/copy-object/firefox): 
 1. `copy(object)` copies a string representation of the specified object to the clipboard.
@@ -837,7 +837,7 @@ Can I debug event listeners by setting a breakpoint on all or specific events?
 1. In the **Sources** tab, expand the **Event Listeners Breakpoints** section to see the list of event categories.
 2. Expand a category and enable the checkbox for the event that needs to be debugged.
 
-
+[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/debug-event-listeners-chrome_sjiedd.jpg)](https://res.cloudinary.com/canidevtools/video/upload/v1658474126/debug-event-listeners-chrome_sjiedd.mp4)
 
 [Firefox](https://canidev.tools/debug-event-listeners/firefox): 
 1. Open devtools > Debugger > Find and expand the Event Listener Breakpoints section in the right hand column.
@@ -849,7 +849,7 @@ Can I debug event listeners by setting a breakpoint on all or specific events?
 1. In the **Sources** tab, expand the **Event** **Listeners** **Breakpoints** section to see the list of event categories.
 2. Expand a category and enable the checkbox for the event that needs to be debugged.
 
-
+[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/debug-event-listeners-edge_fksnq6.jpg)](https://res.cloudinary.com/canidevtools/video/upload/v1658474944/debug-event-listeners-edge_fksnq6.mp4)
 
 [Safari](https://canidev.tools/debug-event-listeners/safari): 
 1. In the **Sources** tab, click the "+" button from the left sidebar in the **Breakpoints** section > Select "Events Breakpoint".
@@ -944,7 +944,7 @@ Can I debug container with scrollbars to identify the element causing it?
 
 [Polypane](https://canidev.tools/debug-scroll-overflow/polypane): 
 1. Use `Cmd+D` or `Ctrl+D` to turn on layout debugging. Elements causing a scrollbar are highlighted in red. There is also a **Horizontal overflow detector** icon in the bottom left of the page to quickly spot the element causing the scroll overflow.
-
+[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/debug-scroll-overflow-polypane.jpg)](https://res.cloudinary.com/canidevtools/video/upload/v1701936199/debug-scroll-overflow-polypane.mp4)
 
 ## Debug speculation rules
 Can I debug speculation rules for prefetch/prerender next page navigations?
@@ -1055,14 +1055,14 @@ Can I detect memory leaks in my web app using devtools?
 1. Open devtools using `Cmd+Opt+I` (on Mac) or `Ctrl+Shift+I` (on Windows/Linux) > Memory.
 2. Check memory usage > Memory going only ⬆️ is a bad sign! > Capture snapshot to preview memory allocation > Find redundant objects > Navigate to where you allocated them.
 
-
+[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/Videos/detect-memory-leaks-chrome_eoycbd.jpg)](https://res.cloudinary.com/canidevtools/video/upload/v1652111060/Videos/detect-memory-leaks-chrome_eoycbd.mp4)
 
 [Firefox](https://canidev.tools/detect-memory-leaks/firefox): 
 1. In the **Memory** tab, use the camera icon (top-left) titled, "Take snapshot" to capture the heap stack and establish a baseline.
 2. Perform any operation on the app that is suspected to leak memory, and then take another snapshot.
 3. To compare two snapshots, click the button that looks like a Venn diagram next to the camera icon. The diff shows you where memory was allocated or freed between the two snapshots, indicating potential candidates leaking the memory.
 
-
+[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/Videos/detect-memory-leaks-firefox_cc6tjf.jpg)](https://res.cloudinary.com/canidevtools/video/upload/v1656508300/Videos/detect-memory-leaks-firefox_cc6tjf.mp4)
 
 [Edge](https://canidev.tools/detect-memory-leaks/edge): 
 1. Open devtools using `Cmd+Opt+I` (on Mac) or `Ctrl+Shift+I` (on Windows/Linux) > Memory.
@@ -1093,7 +1093,7 @@ Can I detect the meta tags missing from the HTML?
 
 [Polypane](https://canidev.tools/detect-missing-meta-tags/polypane): 
 - Navigate to **Info** > **Meta** panel, under the **Site information** section, expand **Meta tags** to identify the required and optional missing meta tags on the page.
-
+[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/detect-missing-meta-tags-polypane.jpg)](https://res.cloudinary.com/canidevtools/video/upload/l_watermark,w_200,o_5/detect-missing-meta-tags-polypane.mp4)
 
 ## Disable cache
 Can I disable cache for the network requests?
@@ -1130,7 +1130,7 @@ Can I prevent the debugger from pausing at the debugger statement?
 
 [Firefox](https://canidev.tools/disable-debugger-statement/firefox): 
 1. In the **Debugger** panel, expand the **Breakpoints** pane, and unselect the **Pause on debugger statement** option to prevent the debugger from pausing at the `debugger` statement.
-
+[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/disable-debugger.statement-firefox.jpg)](https://res.cloudinary.com/canidevtools/video/upload/l_watermark,w_200,o_5/disable-debugger.statement-firefox.mp4)
 
 
 
@@ -1221,13 +1221,13 @@ Can I drag & drop nodes anywhere inside the DOM tree?
 1. Inspect element or Press `Cmd+Opt+I` (on Mac) or `Ctrl+Shift+I` (on Windows/Linux).
 2. Select the node and drag-n-drop to a different part of the DOM tree.
 
-
+[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/Videos/drag-drop-element-chrome_g9hfse.jpg)](https://res.cloudinary.com/canidevtools/video/upload/v1652021001/Videos/drag-drop-element-chrome_g9hfse.mp4)
 
 [Firefox](https://canidev.tools/drag-drop-element/firefox): 
 1. Right click > Inspect element or Press `Cmd+Opt+I` (on Mac) or `Ctrl+Shift+I` (on Windows/Linux).
 2. Select the node and drag-n-drop to a different part of the DOM tree.
 
-
+[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/Videos/drag-drop-element-firefox.jpg)](https://res.cloudinary.com/canidevtools/video/upload/v1654356748/Videos/drag-drop-element-firefox.mp4)
 
 [Edge](https://canidev.tools/drag-drop-element/edge): 
 1. Right click > Inspect element or Press `Cmd+Opt+I` (on Mac) or `Ctrl+Shift+I` (on Windows/Linux).
@@ -1301,7 +1301,7 @@ Can I emulate blurred vision on a page?
 1. Run **Command** (`Cmd+Shift+P` or `Ctrl+Shift+P`) > "Show Rendering" (Drawer).
 2. Navigate to the **Emulate vision deficiencies** section and choose "Blurred vision".
 
-
+[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/emulate-blurred-vision-chrome_aj62ff.jpg)](https://res.cloudinary.com/canidevtools/video/upload/v1678802960/emulate-blurred-vision-chrome_aj62ff.mp4)
 
 
 
@@ -1309,7 +1309,7 @@ Can I emulate blurred vision on a page?
 1. Run **Command** (`Cmd+Shift+P` or `Ctrl+Shift+P`) > "Show Rendering" (Drawer).
 2. Navigate to the **Emulate** **vision** **deficiencies** section and choose "Blurred vision".
 
-
+[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/emulate-blurred-vision-edge_muhj59.jpg)](https://res.cloudinary.com/canidevtools/video/upload/v1679160200/emulate-blurred-vision-edge_muhj59.mp4)
 
 
 
@@ -1327,7 +1327,7 @@ Can I emulate different color schemes for dark and light mode?
 1. Open devtools > Inside the "Styles" pane, right next to the "+" button, click the Icon "Toggle common rendering emulations".
 2. Choose the `prefers-color-scheme` option to emulate the corresponding color scheme.
 
-
+[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/Videos/emulate-color-schemes-chrome.jpg)](https://res.cloudinary.com/canidevtools/video/upload/v1649915966/Videos/emulate-color-schemes-chrome.mp4)
 
 [Firefox](https://canidev.tools/emulate-color-schemes/firefox): 
 1. Open devtools > Inspector > Next to the "Filter Styles" section, are the icons to toggle between light, dark color schemes.
@@ -1358,7 +1358,7 @@ Can I emulate devices to test responsiveness of a page?
 1. Open devtools using `Cmd+Opt+I` (on MacOS) or `Ctrl+Shift+I` (on Windows/Linux).
 2. Press `Cmd+Shift+M` (on MacOS) or `Ctrl+Shift+M` (on Windows/Linux) or click the devices icon in the top right to "Toggle device toolbar".
 
-
+[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/Videos/emulate-devices-chrome_tdr5f4.jpg)](https://res.cloudinary.com/canidevtools/video/upload/v1654448196/Videos/emulate-devices-chrome_tdr5f4.mp4)
 
 [Firefox](https://canidev.tools/emulate-devices/firefox): 
 There are three ways to toggle Responsive Design Mode:
@@ -1372,7 +1372,7 @@ There are three ways to toggle Responsive Design Mode:
 1. Open devtools using `Cmd+Opt+I` (on MacOS) or `Ctrl+Shift+I` (on Windows/Linux).
 2. Press `Cmd+Shift+M` (on MacOS) or `Ctrl+Shift+M` (on Windows/Linux) or click the devices icon in the top right to "Toggle device toolbar".
 
-
+[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/Videos/emulate-devices-edge_dilkky.jpg)](https://res.cloudinary.com/canidevtools/video/upload/v1654526481/Videos/emulate-devices-edge_dilkky.mp4)
 
 [Safari](https://canidev.tools/emulate-devices/safari): 
 1. From the menu bar: Develop > Enter Responsive Design Mode (or press `Ctrl+Cmd+R`).
@@ -1432,7 +1432,7 @@ Can I emulate print media query?
 
 [Polypane](https://canidev.tools/emulate-print-styles/polypane): 
 1. Click **Change Media and Emulations** from the top toolbar > **Media** (tab) > Select **print** to emulate the print media styles.
-
+[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/emulate-print-styles-polypane_pltycu.jpg)](https://res.cloudinary.com/canidevtools/video/upload/v1686315555/emulate-print-styles-polypane_pltycu.mp4)
 
 ## Emulate reduced transparency
 Can I emulate reduced transparency CSS media feature?
@@ -1440,7 +1440,7 @@ Can I emulate reduced transparency CSS media feature?
 [Chrome](https://canidev.tools/emulate-reduced-transparency/chrome): 
 1. Open **Command Menu** (`Cmd+Shift+P` or `Ctrl+Shift+P`) > Run "Show Rendering". Scroll down to the **Emulate CSS media** features section and select `prefers-reduced-transparency: reduce` to apply the effect.
 
-
+[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/emulate-reduced-transparency-chrome.jpg)](https://res.cloudinary.com/canidevtools/video/upload/l_watermark,w_200,o_5/emulate-reduced-transparency-chrome.mp4)
 
 
 
@@ -1452,7 +1452,7 @@ Can I emulate reduced transparency CSS media feature?
 1. In Developer Tools, click the **Change Media and Emulations** button in the toolbar to open the popup.
 2. In the **Media** tab, click the **reduce** toggle button to preview the page with reduced transparency effect. Revert the effect by clicking the **no-preference** button.
 
-
+[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/emulate-reduced-transparency-polypane.jpg)](https://res.cloudinary.com/canidevtools/video/upload/l_watermark,w_200,o_5/emulate-reduced-transparency-polypane.mp4)
 
 ## Expand DOM nodes recursively
 Can I expand DOM nodes recursively in the DOM tree?
@@ -1548,22 +1548,22 @@ Can I filter multiple resource types in the Network tab?
 [Chrome](https://canidev.tools/filter-multiple-resources/chrome): 
 1. Open devtools > Open the "Network" tab. Hold `Cmd` or `Ctrl` key while clicking on the Resource type.
 
-
+[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/Videos/filter-multiple-resources-chrome.jpg)](https://res.cloudinary.com/canidevtools/video/upload/v1648905592/Videos/filter-multiple-resources-chrome.mp4)
 
 [Firefox](https://canidev.tools/filter-multiple-resources/firefox): 
 1. In **Network** tab. Hold `Cmd` or `Ctrl` key while clicking on the Resource type.
 
-
+[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/filter-multiple-resources-firefox.jpg)](https://res.cloudinary.com/canidevtools/video/upload/v1648906779/filter-multiple-resources-firefox.mp4)
 
 [Edge](https://canidev.tools/filter-multiple-resources/edge): 
 1. Open devtools > Open the "Network" tab. Hold `Cmd` or `Ctrl` key while clicking on the Resource type.
 
-
+[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/Videos/filter-multiple-resources-edge.jpg)](https://res.cloudinary.com/canidevtools/video/upload/v1649059426/Videos/filter-multiple-resources-edge.mp4)
 
 [Safari](https://canidev.tools/filter-multiple-resources/safari): 
 1. Open devtools > Open the "Network" tab. Hold `Cmd` or `Ctrl` key while clicking on the Resource type.
 
-
+[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/filter-multiple-resources-safari.jpg)](https://res.cloudinary.com/canidevtools/video/upload/v1648915688/filter-multiple-resources-safari.mp4)
 
 
 
@@ -1574,19 +1574,19 @@ Can I filter network requests by domain name?
 1. In **Network** > Enter `domain:` in the "Filter" field followed by the domain to filter the network requests on.
 2. **Filter** field also suggests the list of domain names to choose from.
 
-
+[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/filter-requests-domain-chrome_sr5dpw.jpg)](https://res.cloudinary.com/canidevtools/video/upload/v1663731188/filter-requests-domain-chrome_sr5dpw.mp4)
 
 [Firefox](https://canidev.tools/filter-requests-domain/firefox): 
 1. In **Network** > Enter `domain:` in the "Filter URLs" field followed by the domain to filter the network requests on.
 2. Filter field also suggests the list of domain names to choose from.
 
-
+[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/filter-requests-domain-firefox_ycc2zr.jpg)](https://res.cloudinary.com/canidevtools/video/upload/v1663742255/filter-requests-domain-firefox_ycc2zr.mp4)
 
 [Edge](https://canidev.tools/filter-requests-domain/edge): 
 1. In **Network** > Enter `domain:` in the "Filter" field followed by the domain to filter the network requests on.
 2. **Filter** field also suggests the list of domain names to choose from.
 
-
+[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/filter-requests-domain-edge_hyrti4.jpg)](https://res.cloudinary.com/canidevtools/video/upload/v1663745085/filter-requests-domain-edge_hyrti4.mp4)
 
 
 
@@ -1673,7 +1673,7 @@ Can I find links on a page that return Error 404, 500?
 [Polypane](https://canidev.tools/find-broken-links/polypane): 
 1. Open DevTools panel (`Cmd/Ctrl+Shift+P`) > Info > Outline. Select "Links" from the dropdown menu at the top.
 2. Scroll through the list of links to identify broken links reporting status code with 404, 500.
-
+[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/find-broken-links-polypane_oer4vx.jpg)](https://res.cloudinary.com/canidevtools/video/upload/v1686418102/find-broken-links-polypane_oer4vx.mp4)
 
 ## Find by XPath
 Can I find elements in the DOM tree using xpath?
@@ -1783,7 +1783,7 @@ Can I find expensive CSS selectors?
 3. In the recorded profile, identify a long style recalculation and select it in the waterfall view (“Main” section).
 4. In the bottom tab bar, click **Selector Stats.** Sort the selectors based on Elapsed Time, Match Attempts etc., to identify expensive selectors.
 
-
+[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/find-expensive-selectors-edge_aue2fg.jpg)](https://res.cloudinary.com/canidevtools/video/upload/v1675600274/find-expensive-selectors-edge_aue2fg.mp4)
 
 
 
@@ -1796,7 +1796,7 @@ Can I find in files for a specific keyword?
 1. Open **Command Menu** (`Cmd+Shift+P` or `Ctrl+Shift+P`) > Run > "Show Search" (Drawer).
 2. Enter the search query in the text field and press `Enter` to search across all download resources.
 
-
+[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/find-in-files-chrome_ty4bkl.jpg)](https://res.cloudinary.com/canidevtools/video/upload/v1658465804/find-in-files-chrome_ty4bkl.mp4)
 
 [Firefox](https://canidev.tools/find-in-files/firefox): 
 1. In the **Debugger** tab, press `Cmd+Shift+F` or `Ctrl+Shift+F` to find in files for a specific keyword.
@@ -1807,7 +1807,7 @@ Can I find in files for a specific keyword?
 1. Open **Command** **Menu** (`Cmd+Shift+P` or `Ctrl+Shift+P`) > Run > "Show Search" (Drawer).
 2. Enter the search query in the text field and press `Enter` to search across all download resources.
 
-
+[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/find-in-files-edge_fs5y4c.jpg)](https://res.cloudinary.com/canidevtools/video/upload/v1658470540/find-in-files-edge_fs5y4c.mp4)
 
 [Safari](https://canidev.tools/find-in-files/safari): 
 1. Anywhere in the web inspector, press `Cmd+Shift+F` to find in files for a specific keyword.
@@ -1823,18 +1823,18 @@ Can I find inactive styles applied to an element?
 1. Enable authoring hints, by opening **Settings** (`F1`) > **Experiments** > Filter on "authoring hints" > Check "Enable CSS Authoring hints..."
 2. In **Elements** > Locate the authored styles in the **Styles** pane > Inactive declarations have an "i" icon, which on hover reveals a tooltip displaying more information.
 
-
+[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/find-inactive-styles-chrome_f0qouj.jpg)](https://res.cloudinary.com/canidevtools/video/upload/v1663480849/find-inactive-styles-chrome_f0qouj.mp4)
 
 [Firefox](https://canidev.tools/find-inactive-styles/firefox): 
 1. In **Inspector** > Locate the styles in the **Rules** pane. Inactive styles will have an "i" icon next to it, which on hover will reveal more information about it.
 
-
+[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/find-inactive-styles-firefox_ip5jow.jpg)](https://res.cloudinary.com/canidevtools/video/upload/v1663497088/find-inactive-styles-firefox_ip5jow.mp4)
 
 [Edge](https://canidev.tools/find-inactive-styles/edge): 
 1. Enable authoring hints, by opening **Settings** (`F1`) > **Experiments** > Filter on "authoring hints" > Check "Enable CSS Authoring hints..."
 2. In **Elements** > Locate the authored styles in the **Styles** pane > Inactive declarations have an "i" icon, which on hover reveals a tooltip displaying more information.
 
-
+[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/find-inactive-styles-edge_m0f4mc.jpg)](https://res.cloudinary.com/canidevtools/video/upload/v1663483151/find-inactive-styles-edge_m0f4mc.mp4)
 
 
 
@@ -1885,7 +1885,7 @@ Can I find unused JavaScript code on the page?
 1. Open **Command** Menu using `Cmd+Shift+P` or `Ctrl+Shift+P`. Search for "Show Coverage" and press `Enter`. (this will open the **Coverage** drawer next to the Console).
 2. Click the "Reload" button to see the unused JavaScript bytes per file. Clicking the row, will open the file in the **Sources** panel highlighting the unused lines with red colour.
 
-
+[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/Videos/find-unused-javascript-chrome_h5ow6g.jpg)](https://res.cloudinary.com/canidevtools/video/upload/v1656651888/Videos/find-unused-javascript-chrome_h5ow6g.mp4)
 
 
 
@@ -1899,7 +1899,7 @@ Can I find unused JavaScript code on the page?
 1. In the **Sources** panel, open the JS file from the left sidebar. Click the "C" icon in the toolbar (top-right) to fade unexecuted code. 
 2. Reload the page to fade unexecuted code.
 
-
+[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/find-unused-js-safari_zmtpjp.jpg)](https://res.cloudinary.com/canidevtools/video/upload/v1678134567/find-unused-js-safari_zmtpjp.mp4)
 
 
 
@@ -2003,23 +2003,23 @@ Can I get the last evaluated value in the console?
 [Chrome](https://canidev.tools/get-last-value/chrome): 
 1. `$_` returns the value of the most recently evaluated expression.
 
-
+[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/get-last-value-chrome_udgaci.jpg)](https://res.cloudinary.com/canidevtools/video/upload/v1659185438/get-last-value-chrome_udgaci.mp4)
 
 [Firefox](https://canidev.tools/get-last-value/firefox): 
 1. `$_` returns the value of the most recently evaluated expression.
 
-
+[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/get-last-value-firefox_u8azho.jpg)](https://res.cloudinary.com/canidevtools/video/upload/v1659187996/get-last-value-firefox_u8azho.mp4)
 
 [Edge](https://canidev.tools/get-last-value/edge): 
 1. `$_` returns the value of the most recently evaluated expression.
 
-
+[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/get-last-value-edge_gujpbg.jpg)](https://res.cloudinary.com/canidevtools/video/upload/v1659188555/get-last-value-edge_gujpbg.mp4)
 
 [Safari](https://canidev.tools/get-last-value/safari): 
 1. `$_` returns the value of the most recently evaluated expression.
 2. Additionally, Safari also lets you access past values in chronological order, using `$1, $2, $3`, ...
 
-
+[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/get-last-value-safari_ckgbub.jpg)](https://res.cloudinary.com/canidevtools/video/upload/v1659188866/get-last-value-safari_ckgbub.mp4)
 
 [Polypane](https://canidev.tools/get-last-value/polypane): 
 1. `$_` returns the value of the most recently evaluated expression.
@@ -2060,23 +2060,23 @@ Can I refer the currently selected node in the DOM tree from the console?
 [Chrome](https://canidev.tools/get-selected-node/chrome): 
 1. Use `$0` to access the currently selected node. Additionally, `$1`, `$2`, `$3`, ... will give you the last selected nodes in the reverse chronological order.
 
-
+[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/get-selected-node-chrome_uf5o4m.jpg)](https://res.cloudinary.com/canidevtools/video/upload/v1659243167/get-selected-node-chrome_uf5o4m.mp4)
 
 [Firefox](https://canidev.tools/get-selected-node/firefox): 
 1. Use `$0` to access the currently selected node.
 
-
+[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/get-selected-node-firefox_vrqglw.jpg)](https://res.cloudinary.com/canidevtools/video/upload/v1663600859/get-selected-node-firefox_vrqglw.mp4)
 
 [Edge](https://canidev.tools/get-selected-node/edge): 
 1. Use `$0` to access the currently selected node. Additionally, `$1`, `$2`, `$3`, ... will give you the last selected nodes in the reverse chronological order.
 
-
+[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/get-selected-node-edge_wefhlh.jpg)](https://res.cloudinary.com/canidevtools/video/upload/v1663602758/get-selected-node-edge_wefhlh.mp4)
 
 [Safari](https://canidev.tools/get-selected-node/safari): 
 1. Use `$0` to access the currently selected node.
 
 
-
+[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/get-selected-node-safari_ayqhwl.jpg)](https://res.cloudinary.com/canidevtools/video/upload/v1663669806/get-selected-node-safari_ayqhwl.mp4)
 
 [Polypane](https://canidev.tools/get-selected-node/polypane): 
 1. Use `$0` to access the currently selected node. Additionally, `$1`, `$2`, `$3` and `$4` will give you the last selected nodes in the reverse chronological order.
@@ -2112,7 +2112,7 @@ Can I jump to a file by searching with a filename?
 [Chrome](https://canidev.tools/go-to-file/chrome): 
 1. Run Command menu using `Cmd+Shift+P` (on Mac) or `Ctrl+Shift+P` (on Windows/Linux) > Type filename to filter on the matching files > Press `Enter`.
 
-
+[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/Videos/search-files-chrome.jpg)](https://res.cloudinary.com/canidevtools/video/upload/v1652108007/Videos/search-files-chrome.mp4)
 
 [Firefox](https://canidev.tools/go-to-file/firefox): 
 1. In the **Debugger** tab, use `Cmd+P` or `Ctrl+P` to open the search panel where you can type keyword to search for matching filenames.
@@ -2173,7 +2173,7 @@ Can I ignore scripts while debugging?
 3. To ignore multiple scripts using a pattern, open **Settings** (`F1`) > Ignore List > Enable Ignore Listing. Click the "Add Pattern" button and enter the regex pattern matching the scripts to be ignored.
 4. All the ignored scripts will be available under **Custom exclusion rules** section in **Ignore List**.
 
-
+[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/ignore-scripts-debug-chrome_dsg0yu.jpg)](https://res.cloudinary.com/canidevtools/video/upload/v1679166363/ignore-scripts-debug-chrome_dsg0yu.mp4)
 
 [Firefox](https://canidev.tools/ignore-scripts-debug/firefox): 
 1. In the **Debugger** panel, right click on the filename in the source list pane, and select "Ignore source" or ("Unignore source").
@@ -2186,7 +2186,7 @@ Can I ignore scripts while debugging?
 3. To ignore multiple scripts using a pattern, open **Settings** (`F1`) > Ignore List > Enable Ignore Listing. Click the "Add Pattern" button and enter the regex pattern matching the scripts to be ignored.
 4. All the ignored scripts will be available under **Custom** **exclusion** **rules** section in **Ignore** **List**.
 
-
+[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/ignore-scripts-debug-edge_evanbj.jpg)](https://res.cloudinary.com/canidevtools/video/upload/v1679174753/ignore-scripts-debug-edge_evanbj.mp4)
 
 [Safari](https://canidev.tools/ignore-scripts-debug/safari): 
 1. In the **Sources** panel, right click on any script and select **Blackbox script** or click the eye icon next to the script name in the source tree.
@@ -2202,7 +2202,7 @@ Can I ignore third-party scripts while debugging?
 
 [Firefox](https://canidev.tools/ignore-third-party-scripts/firefox): 
 1. In the **Debugger** panel, open **Debugger Settings** and select **Ignore Known Third-partyScripts** to ignore the third-party scripts defined in the [ignoreList](https://developer.chrome.com/articles/x-google-ignore-list/) sourcemaps extension.
-
+[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/ignore-third-party-scripts-firefox.jpg)](https://res.cloudinary.com/canidevtools/video/upload/l_watermark,w_200,o_5/ignore-third-party-scripts-firefox.mp4)
 
 
 
@@ -2216,24 +2216,24 @@ Can I import and export network activity to a HAR file?
 [Chrome](https://canidev.tools/import-export-har/chrome): 
 1. In the **Network** panel, use the **Up** (↑) and **Down** (↓) arrow buttons in the toolbar to **Import** and **Export** all the network activity into a HAR file.
 
-
+[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/import-export-har-chrome_u7mouu.jpg)](https://res.cloudinary.com/canidevtools/video/upload/v1666245808/import-export-har-chrome_u7mouu.mp4)
 
 [Firefox](https://canidev.tools/import-export-har/firefox): 
 1. In the **Network** panel, click the **Gear** icon to open the **Network** **Settings**.
 2. Click "Save All As HAR" to export the HAR file and "Import HAR File" to import the HAR file.
 
-
+[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/import-export-har-firefox_fzub67.jpg)](https://res.cloudinary.com/canidevtools/video/upload/v1666246865/import-export-har-firefox_fzub67.mp4)
 
 [Edge](https://canidev.tools/import-export-har/edge): 
 1. In the **Network** panel, use the **Up** (↑) and **Down** (↓) arrow buttons in the toolbar to **Import** and **Export** all the network activity into a HAR file.
 
 
-
+[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/import-export-har-edge_zvwlr2.jpg)](https://res.cloudinary.com/canidevtools/video/upload/v1666249898/import-export-har-edge_zvwlr2.mp4)
 
 [Safari](https://canidev.tools/import-export-har/safari): 
 1. In the **Network** panel, use the **Import** & **Export** buttons to import and export HAR file respectively.
 
-
+[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/import-export-har-safari_axrxre.jpg)](https://res.cloudinary.com/canidevtools/video/upload/v1666247499/import-export-har-safari_axrxre.mp4)
 
 
 
@@ -2267,7 +2267,7 @@ Can I inspect CSS box shadow using an editor?
     - **Blur**. Drag the slider or specify a value.
     - **Spread** (only for `box-shadow`). Drag the slider or specify a value.
 
-
+[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/inspect-box-shadow-chrome_xdo6e7.jpg)](https://res.cloudinary.com/canidevtools/video/upload/v1663767294/inspect-box-shadow-chrome_xdo6e7.mp4)
 
 
 
@@ -2279,7 +2279,7 @@ Can I inspect CSS box shadow using an editor?
     - **Blur**. Drag the slider or specify a value.
     - **Spread** (only for `box-shadow`). Drag the slider or specify a value.
 
-
+[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/inspect-box-shadow-edge_jnbhin.jpg)](https://res.cloudinary.com/canidevtools/video/upload/v1663775064/inspect-box-shadow-edge_jnbhin.mp4)
 
 [Safari](https://canidev.tools/inspect-box-shadow/safari): 
 1. Inspect Element with `box-shadow` property applied. Click the square icon before the box shadow value to open the box shadow editor.
@@ -2295,12 +2295,12 @@ Can I inspect and debug container queries in the devtools?
 1. Every element defined as a query container has a `container` badge next to it in the **Elements** panel. The badge toggles a dotted-line overlay of the container and its descendants.
 2. To find and select a container element that caused the query to take effect, hover over and click the element name above the `@container` declaration.
 3. When hovered over, the name turns into a link to the element in the **Elements** panel and the **Styles** pane displays the queried property and its current value.
-
+[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/Videos/inspect-container-queries-chrome_fiy7sn.jpg)](https://res.cloudinary.com/canidevtools/video/upload/v1656825850/Videos/inspect-container-queries-chrome_fiy7sn.mp4)
 
 [Firefox](https://canidev.tools/inspect-container-queries/firefox): 
 1. Elements with `container-type` as `inline-size` or `size` are decorated with the **container** badge in the **Inspector** panel.
 2. In the **Rules** view, `@container` declaration is underlined, on hover displays the container element. Click the crosshair icon to jump to the element in the Element tree.
-
+[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/inspect-container-queries-firefox-v1.jpg)](https://res.cloudinary.com/canidevtools/video/upload/v1701269339/inspect-container-queries-firefox-v1.mp4)
 
 
 
@@ -2340,7 +2340,7 @@ Can I inspect CSS animations & keyframes using the devtools?
 2. Trigger the animation to record it on the timeline. Now you can use the buttons in the **Controls** section to adjust the replay speed of the animation.
 3. Use the **Timeline** section to scrub the animation or jump to a specific point in animation. Use the **Details** section modify the timing & the delay of the animation.
 
-
+[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/inspect-css-animation-chrome_xz5w96.jpg)](https://res.cloudinary.com/canidevtools/video/upload/v1660375651/inspect-css-animation-chrome_xz5w96.mp4)
 
 [Firefox](https://canidev.tools/inspect-css-animation/firefox): 
 1. Inspect the element which uses CSS animation. Click on the **Animations** pane next to the DOM tree in the side panel.
@@ -2352,7 +2352,7 @@ Can I inspect CSS animations & keyframes using the devtools?
 2. Trigger the animation to record it on the timeline. Now you can use the buttons in the **Controls** section to adjust the replay speed of the animation.
 3. Use the **Timeline** section to scrub the animation or jump to a specific point in animation. Use the **Details** section modify the timing & the delay of the animation.
 
-
+[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/Videos/debug-css-animation-chrome.jpg)](https://res.cloudinary.com/canidevtools/video/upload/v1647789160/Videos/debug-css-animation-chrome.mp4)
 
 [Safari](https://canidev.tools/inspect-css-animation/safari): 
 1. Open devtools > Open the "Timelines" tab > Ensure that "Media and Animations" is enabled in the left panel.
@@ -2466,11 +2466,11 @@ Can I inspect CSS nesting rules applied to an element?
 
 [Chrome](https://canidev.tools/inspect-css-nesting/chrome): 
 1. Inspect the element that has CSS nesting rules applied. Nesting rules are available in the **Styles** pane to view and edit.
-
+[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/inspect-css-nesting-chrome.jpg)](https://res.cloudinary.com/canidevtools/video/upload/l_watermark,w_200,o_5/inspect-css-nesting-chrome.mp4)
 
 [Firefox](https://canidev.tools/inspect-css-nesting/firefox): 
 1. Inspect the element that has CSS nesting rules applied. Nesting rules are available in the **Rules** pane to view and edit.
-
+[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/inspect-css-nesting-firefox.jpg)](https://res.cloudinary.com/canidevtools/video/upload/l_watermark,w_200,o_5/inspect-css-nesting-firefox.mp4)
 
 [Edge](https://canidev.tools/inspect-css-nesting/edge): 
 1. Inspect the element that has CSS nesting rules applied. Nesting rules are available in the **Styles** pane to view and edit.
@@ -2480,7 +2480,7 @@ Can I inspect CSS nesting rules applied to an element?
 
 [Polypane](https://canidev.tools/inspect-css-nesting/polypane): 
 1. Inspect the element that has CSS nesting rules applied. Nesting rules are available in the **Style** pane to view and edit.
-
+[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/inspect-css-nesting-polypane.jpg)](https://res.cloudinary.com/canidevtools/video/upload/l_watermark,w_200,o_5/inspect-css-nesting-polypane.mp4)
 
 ## Inspect CSS Position
 Can I inspect & edit the absolutely positioned elements visually?
@@ -2523,7 +2523,7 @@ Can I inspect specificity of a CSS selector?
 
 [Chrome](https://canidev.tools/inspect-css-specificity/chrome): 
 1. In **Elements** > **Styles** pane, hover over the selector name to see the specificity in a tooltip.
-
+[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/inspect-css-specificity-chrome_exa4yc.jpg)](https://res.cloudinary.com/canidevtools/video/upload/v1686283557/inspect-css-specificity-chrome_exa4yc.mp4)
 
 
 
@@ -2531,12 +2531,12 @@ Can I inspect specificity of a CSS selector?
 
 [Safari](https://canidev.tools/inspect-css-specificity/safari): 
 1. Inspect element > In the **Styles** pane, hover over the selector to reveal a tooltip displaying the specificity of that selector.
-
+[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/inspect-css-specificity-safari_tphvrw.jpg)](https://res.cloudinary.com/canidevtools/video/upload/v1664018473/inspect-css-specificity-safari_tphvrw.mp4)
 
 [Polypane](https://canidev.tools/inspect-css-specificity/polypane): 
 1. Inspect element (`Cmd+Shift+C` or `Ctrl+Shift+C`) > In the **Style** pane, the specificity is shown adjacent to the selector under the file name.
 2. Click the specificity to open the CSS Specificity calculator in the **Browse** panel.
-
+[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/inspect-css-specificity-polypane_claqbw.jpg)](https://res.cloudinary.com/canidevtools/video/upload/v1685890182/inspect-css-specificity-polypane_claqbw.mp4)
 
 ## Inspect CSS Subgrid
 Can I inspect CSS subgrids?
@@ -2581,7 +2581,7 @@ Can I inspect the source code of a custom element?
 [Firefox](https://canidev.tools/inspect-custom-element/firefox): 
 - Open the **Inspector** panel. Custom elements are decorated with the `custom` badge to make them easier to identify them in the Element tree.
 - Click the badge to directly jump to the JavaScript source code in the **Debugger** panel.
-
+[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/inspect-custom-element-firefox.jpg)](https://res.cloudinary.com/canidevtools/video/upload/l_watermark,w_200,o_5/inspect-custom-element-firefox.mp4)
 
 
 
@@ -2596,19 +2596,19 @@ Can I inspect the browser's developer tool?
 1. Inside devtools, press `Cmd+Shift+I `or `Ctrl+Shift+I` to  inspect the devtools panel itself using new instance of devtools.
 2. Important to note, you can keep using this shortcut to inspecting new instance of devtools recursively.
 
-
+[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/inspect-devtools-chrome_zzawbc.jpg)](https://res.cloudinary.com/canidevtools/video/upload/v1670234069/inspect-devtools-chrome_zzawbc.mp4)
 
 [Firefox](https://canidev.tools/inspect-devtools/firefox): 
 1. Open Devtools **Settings** (`F1`) > Under **Advanced Settings**, enable "Enable browser ... toolboxes" and "Enable remote debugging".
 2. Open Firefox Menu (via hamburger icon) > More tools > Browser Toolbox. You’ll be able to inspect the browser’s chrome windows and see, and be able to debug, all the JavaScript files loaded by the browser itself and by any add-ons that are running.
 
-
+[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/inspect-devtools-firefox_yrpkig.jpg)](https://res.cloudinary.com/canidevtools/video/upload/v1671371544/inspect-devtools-firefox_yrpkig.mp4)
 
 [Edge](https://canidev.tools/inspect-devtools/edge): 
 1. Inside devtools, press `Cmd+Shift+I `or `Ctrl+Shift+I` to  inspect the devtools panel itself using new instance of devtools.
 2. Important to note, you can keep using this shortcut to inspecting new instance of devtools recursively.
 
-
+[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/inspect-devtools-edge_itdw2p.jpg)](https://res.cloudinary.com/canidevtools/video/upload/v1671373792/inspect-devtools-edge_itdw2p.mp4)
 
 
 
@@ -2621,7 +2621,7 @@ Can I inspect the network requests that were resolved with DoH (DNS over HTTPS)?
 
 [Firefox](https://canidev.tools/inspect-dns-over-https/firefox): 
 1. In the **Network** panel, open the request to see the details in the side pane. In the **Headers** tab, verify that the **DNS Resolution** property has the value **DNS over HTTPS**.
-
+[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/inspect-dns-over-https-firefox.jpg)](https://res.cloudinary.com/canidevtools/video/upload/l_watermark,w_200,o_5/inspect-dns-over-https-firefox.mp4)
 
 
 
@@ -2700,7 +2700,7 @@ Can I inspect the popup overlay elements like the Dropdown lists, menus, etc.,
 [Chrome](https://canidev.tools/inspect-popup-overlays/chrome): 
 1. Open the **Command Menu** (`Cmd+Shift+P` or `Ctrl+Shift+P`) > Run "Show Rendering" to open the **Rendering** drawer.
 2. Scroll down and select **Emulate a focused page** option to inspect the popup element in DevTools.
-
+[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/inspect-popup-overlays-chrome.jpg)](https://res.cloudinary.com/canidevtools/video/upload/l_watermark,w_200,o_5/inspect-popup-overlays-chrome.mp4)
 
 
 
@@ -2759,7 +2759,7 @@ Can I inspect the CSS @scope at-rules and the scoping root element?
 1. Inspect the element that has `@scope` rules applied. The ruleset will be visible in the **Style** pane under the `@scope` block declaration.
 2. Hover over the **scoping root element** to highlight the element on the page. Click the element to directly jump to the node in the **Element** tree.
 
-
+[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/inspect-scope-at-rules-polypane.jpg)](https://res.cloudinary.com/canidevtools/video/upload/l_watermark,w_200,o_5/inspect-scope-at-rules-polypane.mp4)
 
 ## Inspect CSS scroll snap
 Can I inspect & visualize CSS scroll snap layout?
@@ -2768,7 +2768,7 @@ Can I inspect & visualize CSS scroll snap layout?
 1. When an HTML element on your page (e.g. this [demo](https://mathiasbynens.github.io/css-dbg-stories/css-scroll-snap.html) page) has `scroll-snap-type` applied to it, you can see a `scroll-snap` badge next to it in the **Elements** panel. Click the badge to toggle the display of a scroll-snap overlay on the page.
 2. In the example above, you can see dot marks on snap edges. The scroll port has solid outlined while the snap items have dash outlines. The scroll padding is filled in green color while the scroll margin is filled in orange.
 
-
+[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/inspect-scroll-snap-chrome_viut9g.jpg)](https://res.cloudinary.com/canidevtools/video/upload/v1665629478/inspect-scroll-snap-chrome_viut9g.mp4)
 
 
 
@@ -2777,7 +2777,7 @@ Can I inspect & visualize CSS scroll snap layout?
 2. In the example above, you can see dot marks on snap edges. The scroll port has solid outlined while the snap items have dash outlines. The scroll padding is filled in green color while the scroll margin is filled in orange.
 
 
-
+[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/inspect-scroll-snap-edge_nmnbbb.jpg)](https://res.cloudinary.com/canidevtools/video/upload/v1665629994/inspect-scroll-snap-edge_nmnbbb.mp4)
 
 
 
@@ -2832,7 +2832,7 @@ Can I inspect the top layer elements like dialog, popover etc?
 1. Inspect the `<dialog>` element. Scroll down to the end of the DOM tree to the `#top-layer` section, to visualise the currently active dialog elements.
 2. In the case of multiple elements, they stack on top of each other, and the last one is on top. 
 
-
+[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/inspect-top-layer-chrome_fmmraa.jpg)](https://res.cloudinary.com/canidevtools/video/upload/v1674895109/inspect-top-layer-chrome_fmmraa.mp4)
 
 
 
@@ -2857,7 +2857,7 @@ Can I inspect web vital statistics like CLS, LCP, FIP, etc.,
 1. Open **App settings** > Under the **Settings** tab, select **Web Vitals Status**. This will add a tiny icon in the bottom left of the page.
 2. Click the icon to open a popup containing the various web vital statistics like CLS, LCP, FIP, etc.,
 3. Click the eye icon to inspect the stats directly on the page.
-
+[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/inspect-web-vitals-polypane.jpg)](https://res.cloudinary.com/canidevtools/video/upload/l_watermark,w_200,o_5/inspect-web-vitals-polypane.mp4)
 
 ## Jump to Id
 Can I jump to the target element with an id from the source element?
@@ -2868,7 +2868,7 @@ Can I jump to the target element with an id from the source element?
 1. Firefox links the element referencing the ID attribute to its target element in the same DOM, highlighted with an underline.
 2. Use `Cmd+Click` or `Ctrl+Click` to jump to the target element with the identifier.
 
-
+[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/jump-to-id-firefox_dwgjtu.jpg)](https://res.cloudinary.com/canidevtools/video/upload/v1674902630/jump-to-id-firefox_dwgjtu.mp4)
 
 
 
@@ -2929,23 +2929,23 @@ Can I prevent the debugger from pausing at exceptions?
 [Chrome](https://canidev.tools/never-pause-exceptions/chrome): 
 1. In **Sources**, right click on the line number that throws an exception and select "Never pause here".
 
-
+[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/never-pause-exceptions-chrome_ggwffv.jpg)](https://res.cloudinary.com/canidevtools/video/upload/v1675831371/never-pause-exceptions-chrome_ggwffv.mp4)
 
 [Firefox](https://canidev.tools/never-pause-exceptions/firefox): 
 1. In **Debugger**, right click on the line number that throws an exception and select "Never pause here".
 
-
+[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/never-pause-exceptions-firefox_r8a3ox.jpg)](https://res.cloudinary.com/canidevtools/video/upload/v1675831371/never-pause-exceptions-firefox_r8a3ox.mp4)
 
 [Edge](https://canidev.tools/never-pause-exceptions/edge): 
 1. In **Sources**, right click on the line number that throws an exception and select "Never pause here".
 
 
-
+[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/never-pause-exceptions-edge_vnytav.jpg)](https://res.cloudinary.com/canidevtools/video/upload/v1675836183/never-pause-exceptions-edge_vnytav.mp4)
 
 [Safari](https://canidev.tools/never-pause-exceptions/safari): 
 1. In **Sources**, right click on the line that throws exceptions, select "Edit Breakpoint..." > Enter the condition as `false`.
 
-
+[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/never-pause-exceptions-safari_cbobwh.jpg)](https://res.cloudinary.com/canidevtools/video/upload/v1676001264/never-pause-exceptions-safari_cbobwh.mp4)
 
 
 
@@ -2983,7 +2983,7 @@ Can I open developer tools with the keyboard?
 [Chrome](https://canidev.tools/open-devtools-keyboard/chrome): 
 1. Launch Chrome > Press `F12`. Alternatively, you can also use `Cmd+Option+I` (on Mac) and `Ctrl+Shift+I` (on Windows/Linux) to open the last used panel.
 
-
+[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/Videos/open-devtools-keyboard-chrome.jpg)](https://res.cloudinary.com/canidevtools/video/upload/v1647768584/Videos/open-devtools-keyboard-chrome.mp4)
 
 [Firefox](https://canidev.tools/open-devtools-keyboard/firefox): 
 1. Launch Firefox → Press `F12`.
@@ -2993,14 +2993,14 @@ Can I open developer tools with the keyboard?
 [Edge](https://canidev.tools/open-devtools-keyboard/edge): 
 1. Launch Edge → Press `F12`.
 
-
+[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/open-devtools-keyboard-chrome.jpg)](https://res.cloudinary.com/canidevtools/video/upload/v1647768584/open-devtools-keyboard-chrome.mp4)
 
 [Safari](https://canidev.tools/open-devtools-keyboard/safari): 
 In the menu bar, navigate to Safari > Preferences > Click on the **Advanced** tab, check "Show Develop menu in menu bar".
 
 Press `Option+Cmd+I` to open the devtools.
 
-
+[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/Videos/open-devtools-keyboard-safari_xzslhm.jpg)](https://res.cloudinary.com/canidevtools/video/upload/v1654919612/Videos/open-devtools-keyboard-safari_xzslhm.mp4)
 
 [Polypane](https://canidev.tools/open-devtools-keyboard/polypane): 
 1. Press `Cmd/Ctrl+Shift+P` to toggle the devtools panel, `Cmd/Ctrl+Shift+I` to open the Element inspector directly and `F12` or `Cmd/Ctrl+Opt/Alt+I` to open the Chromium devtools directly.
@@ -3060,7 +3060,7 @@ $ ./firefox -devtools</pre>
 Start-Process -FilePath "msedge" -ArgumentList "--auto-open-devtools-for-tabs</pre> 
 **MacOS**: <pre>/Applications/Microsoft\ Edge.app/Contents/MacOS/Microsoft\ Edge --auto-open-devtools-for-tabs</pre> 
  **Linux**: <pre>microsoft-edge --auto-open-devtools-for-tabs</pre>
-
+[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/open-devtools-new-tab-edge.jpg)](https://res.cloudinary.com/canidevtools/video/upload/l_watermark,w_200,o_5/open-devtools-new-tab-edge.mp4)
 
 
 
@@ -3154,7 +3154,7 @@ Can I override location to match a different geographic region?
 2. Select a location from the **Location** dropdown or choose **Other** to manually enter the Latitude/Longitude. 
 3. Use the **Manage** button to add a new custom location.
 
-
+[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/override-geolocation-chrome_ieverl.jpg)](https://res.cloudinary.com/canidevtools/video/upload/v1663333554/override-geolocation-chrome_ieverl.mp4)
 
 
 
@@ -3163,7 +3163,7 @@ Can I override location to match a different geographic region?
 2. Select a location from the **Location** dropdown or choose **Other** to manually enter the Latitude/Longitude. 
 3. Use the **Manage** button to add a new custom location.
 
-
+[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/override-geolocation-edge_jwuoee.jpg)](https://res.cloudinary.com/canidevtools/video/upload/v1663405444/override-geolocation-edge_jwuoee.mp4)
 
 
 
@@ -3211,7 +3211,7 @@ Can I override headers of the network response?
 2. Under **Response headers** section, click "Add header" to add a custom key-value pair. Use the **header overrides** option to manage your custom headers across all domains.
 3. Request with overriden headers are highlighted with purple dot next to the **Status** code.
 4. The **Network** panel has a **Has overrides** column and a corresponding `has-overrides:[content|headers|yes|no]` filter. To see the **Has overrides** column, right-click the table header and select it.
-
+[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/override-response-headers-chrome_f46pbh.jpg)](https://res.cloudinary.com/canidevtools/video/upload/v1686635865/override-response-headers-chrome_f46pbh.mp4)
 
 
 
@@ -3228,24 +3228,24 @@ Can I override the user agent to emulate different profiles?
 1. Open **Command Menu** (`Cmd+Shift+P` or `Ctrl+Shift+P`) and Run > "Show network conditions". This will open the **Network conditions** drawer.
 2. In the **User agent** section, disable "Use browser default" and select the user agent from the list below or enter your own custom string.
 
-
+[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/override-useragent-chrome.jpg)](https://res.cloudinary.com/canidevtools/video/upload/v1658217034/override-useragent-chrome.mp4)
 
 [Firefox](https://canidev.tools/override-useragent/firefox): 
 1. Open `about:config` from the address bar and **Accept the Risk and Continue**.
 2. Search for "useragent.override" in the preference pane. Select **String**, click the `+` button and paste the custom user agent string in the input field.
 
-
+[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/override-useragent-firefox_wxulyq.jpg)](https://res.cloudinary.com/canidevtools/video/upload/v1658239686/override-useragent-firefox_wxulyq.mp4)
 
 [Edge](https://canidev.tools/override-useragent/edge): 
 1. Open **Command** **Menu** (`Cmd+Shift+P` or `Ctrl+Shift+P`) and Run > "Show network conditions". This will open the **Network** **conditions** drawer.
 2. In the **User** **agent** section, disable "Use browser default" and select the user agent from the list below or enter your own custom string.
 
-
+[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/override-useragent-edge_q6q7y1.jpg)](https://res.cloudinary.com/canidevtools/video/upload/v1658238517/override-useragent-edge_q6q7y1.mp4)
 
 [Safari](https://canidev.tools/override-useragent/safari): 
 1. In the **Menu Bar**, Developer > User Agent > Select the user agent. Choose "Other..." to use a custom user agent string.
 
-
+[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/override-useragent-safari_sjvc2m.jpg)](https://res.cloudinary.com/canidevtools/video/upload/v1658240814/override-useragent-safari_sjvc2m.mp4)
 
 [Polypane](https://canidev.tools/override-useragent/polypane): 
 1. Open the **Change Media and Emulations** settings of a pane
@@ -3262,7 +3262,7 @@ Can I use the color picker to pick colors from outside the browser window?
 2. Check the "Enable color picking outside the browser window" option > Reload DevTools.
 3. In the **Styles** pane, click on any color preview to open a color picker. Use the eyedropper to pick color from anywhere.
 
-
+[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/Videos/color-picker-outside-window-chrome_gnwoe6.jpg)](https://res.cloudinary.com/canidevtools/video/upload/v1656654493/Videos/color-picker-outside-window-chrome_gnwoe6.mp4)
 
 
 
@@ -3271,12 +3271,12 @@ Can I use the color picker to pick colors from outside the browser window?
 2. Check the "Enable color picking outside the browser window" option > Reload DevTools.
 3. In the **Styles** pane, click on any color preview to open a color picker. Use the eyedropper to pick color from anywhere.
 
-
+[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/Videos/color-picker-outside-window-edge_e6pph0.jpg)](https://res.cloudinary.com/canidevtools/video/upload/v1656655355/Videos/color-picker-outside-window-edge_e6pph0.mp4)
 
 [Safari](https://canidev.tools/pick-color-outside-window/safari): 
 1. In the **Styles** pane, click on any color preview to open a color picker. Use the eyedropper to pick color from anywhere.
 
-
+[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/Videos/color-picker-outside-window-safari_nciqw1.jpg)](https://res.cloudinary.com/canidevtools/video/upload/v1656656002/Videos/color-picker-outside-window-safari_nciqw1.mp4)
 
 [Polypane](https://canidev.tools/pick-color-outside-window/polypane): 
 1. Click the **Color picker** in the address bar.
@@ -3374,7 +3374,7 @@ Can I preview the social media cards for websites like Facebook, X etc
 2. This also works with `localhost` while running the app locally. Use the **Overwrite domain** button to preview the card with production URL.
 3. Toggle the **light/dark** buttons to preview the card in the light and the dark mode respectively.
 
-
+[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/preview-social-media-cards-polypane.jpg)](https://res.cloudinary.com/canidevtools/video/upload/l_watermark,w_200,o_5/preview-social-media-cards-polypane.mp4)
 
 ## Record & replay user journey
 Can I record and replay all the user actions performed on the website?
@@ -3384,7 +3384,7 @@ Can I record and replay all the user actions performed on the website?
 
 2. Click "Start new recording" > Enter name > Click "Start a new recording" > Perform actions on the page > Click "End recording".
 3. Click the "Replay" button to replay the recorded user journey.
-
+[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/record-user-journey-chrome_mm57nb.jpg)](https://res.cloudinary.com/canidevtools/video/upload/v1658754413/record-user-journey-chrome_mm57nb.mp4)
 
 
 
@@ -3401,7 +3401,7 @@ Can I reorder tabs & panes in the devtools panel?
 1. In the main browser window, drag and drop tabs (or panes) anywhere across the tab-bar to reorder tabs (or panes) based on preference.
 2. Once re-ordered, the order will persist for future devtools sessions.
 
-
+[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/Videos/reorder-panes-chrome.jpg)](https://res.cloudinary.com/canidevtools/video/upload/v1656824829/Videos/reorder-panes-chrome.mp4)
 
 [Firefox](https://canidev.tools/reorder-tabs-panes/firefox): 
 1. In the main browser window, drag and drop tabs (or panes) anywhere across the tab-bar to reorder tabs (or panes) based on preference.
@@ -3456,7 +3456,7 @@ Use the following options to discuss the new features and changes in the docs, o
 3. Report Docs related bugs or issues on the Edge Developer [Github](https://github.com/MicrosoftDocs/edge-developer) repository.
 4. Microsoft Edge DevTools [documentation](https://docs.microsoft.com/en-us/microsoft-edge/devtools-guide-chromium/).
 
-
+[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/report-feedback-edge_ij5qao.jpg)](https://res.cloudinary.com/canidevtools/video/upload/v1658899044/report-feedback-edge_ij5qao.mp4)
 
 [Safari](https://canidev.tools/report-feedback/safari): 
 1. File Webkit Inspector related bugs on Webkit [Bugzilla](https://webkit.org/new-inspector-bug) or report issues on the [Github](https://github.com/WebKit/WebKit) repository.
@@ -3529,26 +3529,26 @@ Can I run snippet of code in devtools?
 2. Enter the snippet and press `Cmd+Enter` to run the code.
 3. Additionally, you can also save the snippet and run it directly from the **Command** **Menu** using `!<script>`.
 
-
+[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/run-snippets-chrome_jsjtiz.jpg)](https://res.cloudinary.com/canidevtools/video/upload/v1660547902/run-snippets-chrome_jsjtiz.mp4)
 
 [Firefox](https://canidev.tools/run-snippets/firefox): 
 1. Open **Console** (`Cmd+Opt+K` or `Ctrl+Shift+K`) > Switch to multi-editor mode (`Cmd+B` or `Ctrl+B`).
 2. This will open the editor next to the **Console**, where you can enter the snippet and click "Run" to execute.
 
-
+[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/run-snippets-firefox_lirpn4.jpg)](https://res.cloudinary.com/canidevtools/video/upload/v1660578613/run-snippets-firefox_lirpn4.mp4)
 
 [Edge](https://canidev.tools/run-snippets/edge): 
 1. **Sources** > In the left sidebar, open **Snippets** > Click "+ New snippet". This will open an empty file in the main view.
 2. Enter the snippet and press `Cmd+Enter` to run the code.
 3. Additionally, you can also save the snippet and run it directly from the **Command** **Menu** using `!<script>`.
 
-
+[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/run-snippets-edge_ez6fe5.jpg)](https://res.cloudinary.com/canidevtools/video/upload/v1660547899/run-snippets-edge_ez6fe5.mp4)
 
 [Safari](https://canidev.tools/run-snippets/safari): 
 1. In **Sources** > Click the "+" button to **Create** **Resource** > "Console Snippet...". Input the name of the snippet and enter the script.
 2. Click the **Play** button next to the snippet name to execute the code in **Console**. 
 
-
+[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/run-snippets-safari_p3udd4.jpg)](https://res.cloudinary.com/canidevtools/video/upload/v1666528627/run-snippets-safari_p3udd4.mp4)
 
 
 
@@ -3573,7 +3573,7 @@ Can I select one or more elements using XPath expression?
 [Chrome](https://canidev.tools/select-elements-xpath/chrome): 
 `$x(path [, startNode])` returns an array of DOM elements that match the given XPath expression. It has an optional second parameter, `startNode`, that specifies an element or Node from which to search for elements.
 
-
+[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/select-elements-xpath-chrome_lnndgt.jpg)](https://res.cloudinary.com/canidevtools/video/upload/v1659594580/select-elements-xpath-chrome_lnndgt.mp4)
 
 [Firefox](https://canidev.tools/select-elements-xpath/firefox): 
 1. `$x(path [, startNode])` returns an array of DOM elements that match the given XPath expression. It has an optional second parameter, `startNode`, that specifies an element or Node from which to search for elements.
@@ -3599,7 +3599,7 @@ Can I select one or more elements from the console?
 1. `$(selector [, startNode])` returns the reference to the first DOM element with the specified CSS selector. This command is equivalent to calling `document.querySelector()`.
 2. `$$(selector [, startNode])` returns an array of elements that match the given CSS selector. This command is equivalent to calling `document.querySelectorAll()`.
 
-
+[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/select-elements-chrome_fn3kde.jpg)](https://res.cloudinary.com/canidevtools/video/upload/v1659251749/select-elements-chrome_fn3kde.mp4)
 
 [Firefox](https://canidev.tools/select-elements/firefox): 
 1. `$(selector [, startNode])` returns the reference to the first DOM element with the specified CSS selector. This command is equivalent to calling `document.querySelector()`.
@@ -3637,7 +3637,7 @@ Can I set a custom keyboard shortcuts in devtools?
 1. Press `Cmd+Shift+P` or `Ctrl+Shift+P` to launch the **Command Menu** > Type "Shortcuts" > Press `Enter`.
 2. Click the "Edit" icon next to the shortcut. Apply the shortcut and Save.
 
-
+[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/Videos/set-keyboard-shortcuts-chrome_irlool.jpg)](https://res.cloudinary.com/canidevtools/video/upload/v1657729504/Videos/set-keyboard-shortcuts-chrome_irlool.mp4)
 
 
 
@@ -3645,7 +3645,7 @@ Can I set a custom keyboard shortcuts in devtools?
 1. Press `Cmd+Shift+P` or `Ctrl+Shift+P` to launch the **Command Menu** > Type "Shortcuts" > Press `Enter`.
 2. Click the "Edit" icon next to the shortcut. Apply the shortcut and Save.
 
-
+[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/Videos/set-keyboard-shortcuts-edge_yt8ze4.jpg)](https://res.cloudinary.com/canidevtools/video/upload/v1657729499/Videos/set-keyboard-shortcuts-edge_yt8ze4.mp4)
 
 
 
@@ -3715,7 +3715,7 @@ Can I simulate different color blindness conditions to test my web page?
 
 [Firefox](https://canidev.tools/simulate-color-blindness/firefox): 
 1. In the **Accessibility** panel, from the toolbar open the **Simulate** menu and select the type of deficiency to simulate the page for the users with that deficiency.
-
+[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/simulate-color-blindness-firefox.jpg)](https://res.cloudinary.com/canidevtools/video/upload/l_watermark,w_200,o_5/simulate-color-blindness-firefox.mp4)
 
 
 
@@ -3723,7 +3723,7 @@ Can I simulate different color blindness conditions to test my web page?
 
 [Polypane](https://canidev.tools/simulate-color-blindness/polypane): 
 1. Click the **Debug tools** icon to open the list of available debug tools. Switch to the **Simulators** tab to find various color blindness conditions like, **Red-green**, **Blue-yellow**, and **Full** color blindness. Toggle the conditions to simulate the deficiency on the page.
-
+[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/simulate-color-blindness-polypane.jpg)](https://res.cloudinary.com/canidevtools/video/upload/l_watermark,w_200,o_5/simulate-color-blindness-polypane.mp4)
 
 ## Simulate device orientation
 Can I simulate device orientation to mock built-in accelerometer, gyroscope & compass?
@@ -3840,12 +3840,12 @@ Can I target iframes while debugging from the Console panel?
 
 [Chrome](https://canidev.tools/target-iframe-console/chrome): 
 1. In the **Console** panel, click the "top" menu, and select the iframe to target in the **Console**.
-
+[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/target-iframe-console-chrome_jvujdn.jpg)](https://res.cloudinary.com/canidevtools/video/upload/v1686477542/target-iframe-console-chrome_jvujdn.mp4)
 
 [Firefox](https://canidev.tools/target-iframe-console/firefox): 
 1. In the **Console** panel, click the "iframe context picker button" (top right) to launch a popup listing all the iframes in the document (including the main document).
 2. Select the iframe to target in the Console. (Note: The button is only displayed if the page includes iframes!)
-
+[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/target-iframe-console-firefox_twgixt.jpg)](https://res.cloudinary.com/canidevtools/video/upload/v1686481349/target-iframe-console-firefox_twgixt.mp4)
 
 [Edge](https://canidev.tools/target-iframe-console/edge): 
 1. In the **Console** panel, click the "top" menu, and select the iframe to target in the **Console**.
@@ -3882,7 +3882,7 @@ Can I throttle CPU speed to simulate slower devices?
 
 [Edge](https://canidev.tools/throttle-cpu-speed/edge): 
 - In the **Performance** panel, open **Settings** using the gear icon and select the "CPU: No throttling" dropdown to choose "4x/6x slowdown."
-
+[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/throttle-cpu-speed-edge.jpg)](https://res.cloudinary.com/canidevtools/video/upload/l_watermark,w_200,o_5/throttle-cpu-speed-edge.mp4)
 
 
 
@@ -3967,12 +3967,12 @@ Can I switch to light or dark theme in devtools?
 [Chrome](https://canidev.tools/toggle-theme/chrome): 
 Open **Command** **Menu** (`Cmd/Ctrl+Shift+P`) & Run > "Switch to light/dark theme" (Appearance) > Press `Enter`.
 
-
+[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/toggle-theme-chrome_a0daev.jpg)](https://res.cloudinary.com/canidevtools/video/upload/v1659265856/toggle-theme-chrome_a0daev.mp4)
 
 [Firefox](https://canidev.tools/toggle-theme/firefox): 
 1. Open **Settings** (`F1`) > Under the **Themes** section, select "Dark" or "Light" to switch themes.
 
-
+[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/toggle-theme-firefox_q1tjns.jpg)](https://res.cloudinary.com/canidevtools/video/upload/v1659266448/toggle-theme-firefox_q1tjns.mp4)
 
 [Edge](https://canidev.tools/toggle-theme/edge): 
 Open **Command** **Menu** (`Cmd/Ctrl+Shift+P`) & Run > "Switch to light/dark theme" (Appearance) > Press `Enter`.
@@ -3982,7 +3982,7 @@ Open **Command** **Menu** (`Cmd/Ctrl+Shift+P`) & Run > "Switch to light/dark the
 [Safari](https://canidev.tools/toggle-theme/safari): 
 Open **Settings** (`Cmd+,`) > General > Appearance > Select "Dark" or "Light" to change the appearance.
 
-
+[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/toggle-theme-safari_gfmxlc.jpg)](https://res.cloudinary.com/canidevtools/video/upload/v1659266982/toggle-theme-safari_gfmxlc.mp4)
 
 [Polypane](https://canidev.tools/toggle-theme/polypane): 
 Press `Cmd/Ctrl+I` or select "Toggle Dark Mode" in the "View" Menu.
@@ -4003,7 +4003,7 @@ Can I use Display P3 color format?
 2. Click the color box to open the color swatch. The white line shows the edge of sRGB. Everything on its top right is **Display-P3** colors not available in sRGB.
 3. For fallback, right click on the color box, and select "Clamp to sRGB" to convert to the closest available color in the sRGB space.
 
-
+[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/convert-p3-color-safari_vse5nf.jpg)](https://res.cloudinary.com/canidevtools/video/upload/v1665993566/convert-p3-color-safari_vse5nf.mp4)
 
 
 
@@ -4075,7 +4075,7 @@ Can I view the accessibility tree?
 1. Inspect > Open the Accessibility pane on the right (Click the >> icon to show more tabs, if hidden) > Check "Enable full-page accessibility tree" > Reload Devtools.
 2. Click on the floating icon in the top right in the Elements panel which says, "Switch to Accessibility tree view".
 
-
+[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/Videos/view-accessibility-tree-chrome.jpg)](https://res.cloudinary.com/canidevtools/video/upload/v1649521456/Videos/view-accessibility-tree-chrome.mp4)
 
 [Firefox](https://canidev.tools/view-accessibility-tree/firefox): 
 1. Open devtools > Accessibility (Click >> icon to open more tabs if hidden).
@@ -4203,14 +4203,14 @@ Can I view and copy the CSS changes applied to an element?
 [Firefox](https://canidev.tools/view-copy-css-changes/firefox): 
 1. In the **Rules** pane, apply changes to the CSS declarations, and then click on the **Changes** pane to see the diff. Click "Copy All Changes" button to copy the modified styles, with previous declaration automatically commented.
 
-
+[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/view-copy-css-changes-firefox_fwo5gx.jpg)](https://res.cloudinary.com/canidevtools/video/upload/v1666325796/view-copy-css-changes-firefox_fwo5gx.mp4)
 
 
 
 [Safari](https://canidev.tools/view-copy-css-changes/safari): 
 1. In the **Styles** pane, apply changes to the CSS declarations, and then click on the **Changes** pane to see the diff.
 
-
+[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/view-copy-css-changes-safari_w6olze.jpg)](https://res.cloudinary.com/canidevtools/video/upload/v1666325795/view-copy-css-changes-safari_w6olze.mp4)
 
 
 
@@ -4242,7 +4242,7 @@ Can I view a web page in 3D?
     - Debug z-index stacking issues
     - Debug performance issues with composite layers
 
-
+[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/view-in-3d-chrome_ozpvar.jpg)](https://res.cloudinary.com/canidevtools/video/upload/v1658423755/view-in-3d-chrome_ozpvar.mp4)
 
 
 
@@ -4340,12 +4340,12 @@ Can I view the full URL path of the network requests?
 
 [Chrome](https://canidev.tools/view-url-path/chrome): 
 1. In the **Network** panel, open **Network settings** > Enable the **Big request rows** option to show the URL path under the resource name.
-
+[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/show-url-path-chrome_g5h3t8.jpg)](https://res.cloudinary.com/canidevtools/video/upload/v1684652792/show-url-path-chrome_g5h3t8.mp4)
 
 [Firefox](https://canidev.tools/view-url-path/firefox): 
 1. In the **Network** panel, right click on the column header, and select URL. This will add a new column in the grid, which contains the full URL of the resource.
 
-
+[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/show-url-path-firefox_gposlo.jpg)](https://res.cloudinary.com/canidevtools/video/upload/v1684652792/show-url-path-firefox_gposlo.mp4)
 
 [Edge](https://canidev.tools/view-url-path/edge): 
 1. In the **Network** panel, open **Network settings** > Enable the **Big request rows** option to show the URL path under the resource name.
@@ -4354,7 +4354,7 @@ Can I view the full URL path of the network requests?
 [Safari](https://canidev.tools/view-url-path/safari): 
 1. In the **Network** panel, right click on the column header, and select "Path" to add a new column showing the URL path for the resource.
 
-
+[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/show-url-path-safari_w2g2nv.jpg)](https://res.cloudinary.com/canidevtools/video/upload/v1684652792/show-url-path-safari_w2g2nv.mp4)
 
 
 
@@ -4366,25 +4366,25 @@ Can I zoom in and out of the devtools panel?
 2. Run > "Zoom out" or `Cmd-` or `Ctrl-` to decrease the zoom level.
 3. Run > "Reset zoom level" or `Cmd+0` or `Ctrl+0` to reset the zoom level.
 
-
+[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/zoom-inout-devtools-chrome_v6g3dn.jpg)](https://res.cloudinary.com/canidevtools/video/upload/v1658123783/zoom-inout-devtools-chrome_v6g3dn.mp4)
 
 [Firefox](https://canidev.tools/zoom-inout-devtools/firefox): 
 1. In **Web Developer Tools** > Use `Cmd+` or `Ctrl+` to increase the zoom level. Use `Cmd-` or `Ctrl-` to decrease the zoom level. To reset the zoom level, press `Ctrl+0` or `Cmd+0`.
 
-
+[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/zoom-inout-devtools-firefox_fnggcg.jpg)](https://res.cloudinary.com/canidevtools/video/upload/v1658124998/zoom-inout-devtools-firefox_fnggcg.mp4)
 
 [Edge](https://canidev.tools/zoom-inout-devtools/edge): 
 1. In **Developer** **Tools** > Open **Command** **Menu** (`Cmd+Shift+P` or `Ctrl+Shift+P`) and Run > "Zoom in" or `Cmd+` or `Ctrl+` to increase the zoom level.
 2. Run > "Zoom out" or `Cmd-` or `Ctrl-` to decrease the zoom level.
 3. Run > "Reset zoom level" or `Cmd+0` or `Ctrl+0` to reset the zoom level.
 
-
+[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/zoom-inout-devtools-edge_cdxubb.jpg)](https://res.cloudinary.com/canidevtools/video/upload/v1658123207/zoom-inout-devtools-edge_cdxubb.mp4)
 
 [Safari](https://canidev.tools/zoom-inout-devtools/safari): 
 1. In **Web Inspector** > Use `Cmd+` or `Ctrl+` to increase the zoom level. Use `Cmd-` or `Ctrl-` to decrease the zoom level. To reset the zoom level, press `Ctrl+0` or `Cmd+0`.
 2. (Or) **Settings** (`Cmd,`) > General > Zoom.
 
-
+[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/zoom-inout-devtools-safari_ybud7x.jpg)](https://res.cloudinary.com/canidevtools/video/upload/v1658125721/zoom-inout-devtools-safari_ybud7x.mp4)
 
 
 
