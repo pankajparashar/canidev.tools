@@ -264,7 +264,7 @@ Can I capture a high definition screenshot of the page?
 ![](https://res.cloudinary.com/canidevtools/image/upload/l_watermark,w_200,o_5/capture-hd-screenshot-edge.png)
 
 ## Capture node screenshot
-Can I take screenshot of a DOM node?
+Can I take a screenshot of the DOM node?
 
 [Chrome](https://canidev.tools/capture-node-screenshot/chrome): 
 1. In the **Elements** panel, right click on the node and select "Capture node screenshot".
@@ -277,9 +277,8 @@ Can I take screenshot of a DOM node?
 
 
 [Edge](https://canidev.tools/capture-node-screenshot/edge): 
-1. In the **Elements** panel, right click on the node and select "Capture node screenshot".
-2. It retains visible background colour of elements with no background colour applied.
-
+- In the **Elements** panel, right click on the node and select "Capture node screenshot".
+- It retains visible background colour of the elements with no background colour applied."
 
 [Safari](https://canidev.tools/capture-node-screenshot/safari): 
 1. In the **Elements** panel, right click on the node in the DOM tree and click on "Capture Screenshot". 
