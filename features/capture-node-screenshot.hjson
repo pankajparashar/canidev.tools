@@ -4,18 +4,21 @@
 
 	Category: "Elements",
 	Tags: ["screenshot"],
+	
 	Newsletter: "tips-tricks-37",
-
 	Authors: ["@pankajparashar", "@kilianvalkhof"],
+	
 	Chrome: {
 		Share: "https://twitter.com/CanIDevTools/status/1621023980206583809",
 		Notes: "1. In the **Elements** panel, right click on the node and select \"Capture node screenshot\".\n2. It retains visible background colour of elements with no background colour applied.\n",
 		Video: "https://res.cloudinary.com/canidevtools/video/upload/v1675241512/capture-node-screenshot-chrome_wvdumf.mp4"
 	},
+	
 	Firefox: {
 		Share: "https://twitter.com/CanIDevTools/status/1621025611530780673",
 		Notes: "1. In the **Inspector** panel, right click on the node, and select \"Screenshot Node\".\n2. Firefox does not retain background transparency of the element in the screenshot.\n",
-		Video: "https://res.cloudinary.com/canidevtools/video/upload/v1675241512/capture-node-screenshot-firefox_qmq5if.mp4"
+		Video: "https://res.cloudinary.com/canidevtools/video/upload/v1675241512/capture-node-screenshot-firefox_qmq5if.mp4",
+		Thumbnail: "https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/capture-node-screenshot-firefox_qmq5if.png"
 	},
 	
 	Edge: {

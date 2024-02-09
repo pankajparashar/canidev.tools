@@ -1,4 +1,3 @@
-![Alt](https://repobeats.axiom.co/api/embed/5265b69185b60c69748830b8d25bfd0214472e9c.svg)
 ## Add audio breakpoint
 Can I add an audio breakpoint for debugging the source code?
 
@@ -345,7 +344,7 @@ Can I take a screenshot of the DOM node?
 1. In the **Inspector** panel, right click on the node, and select "Screenshot Node".
 2. Firefox does not retain background transparency of the element in the screenshot.
 
-
+[![](https://res.cloudinary.com/canidevtools/video/upload/l_play,w_200,o_50/capture-node-screenshot-firefox_qmq5if.png)](https://res.cloudinary.com/canidevtools/video/upload/v1675241512/capture-node-screenshot-firefox_qmq5if.mp4)
 
 [Edge](https://canidev.tools/capture-node-screenshot/edge): 
 - In the **Elements** panel, right click on the node and select "Capture node screenshot".
