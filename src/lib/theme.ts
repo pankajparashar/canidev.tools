@@ -3,17 +3,17 @@
 import { Card, createTheme } from "@mantine/core";
 
 export let theme = createTheme({
-    /** Your theme override here */
-    fontFamily: "Geist Mono",
-    defaultRadius: "xs",
-    primaryColor: "dark",
+	/** Your theme override here */
+	fontFamily: "Neutral Mono",
+	defaultRadius: "sm",
+	primaryColor: "dark",
 
-    components: {
-        Card: Card.extend({
-            defaultProps: {
-                withBorder: true,
-                p: 0,
-            },
-        }),
-    },
+	components: {
+		Card: Card.extend({
+			defaultProps: {
+				withBorder: true,
+				p: 0,
+			},
+		}),
+	},
 });
