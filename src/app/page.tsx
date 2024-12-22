@@ -1,59 +1,81 @@
 "use client";
 
 import {
-	Box,
+	Anchor,
 	Card,
-	Divider,
+	Flex,
+	Loader,
 	ScrollArea,
 	SimpleGrid,
 	Stack,
 	Text,
 	TextInput,
+	Title,
 } from "@mantine/core";
 import { IconCornerDownLeft, IconWorld } from "@tabler/icons-react";
 import { Message, useAssistant } from "ai/react";
-import { marked } from "marked";
+import * as _ from "lodash";
+import { useSearchParams } from "next/navigation";
 import React from "react";
+import ReactMarkdown from "react-markdown";
 import { ReactTyped } from "react-typed";
+import remarkGfm from "remark-gfm";
+import { useScramble } from "use-scramble";
 
 export default function Chat() {
-	const { status, messages, input, submitMessage, handleInputChange } =
-		useAssistant({ api: "/api/assistant" });
+	const searchParams = useSearchParams();
+	const query = searchParams.get("q") || "Explain devtools like I am five?";
+
+	const {
+		status,
+		messages,
+		input,
+		submitMessage,
+		handleInputChange,
+		append,
+	} = useAssistant({ api: "/api/assistant" });
+
+	const viewport = React.useRef<HTMLDivElement>(null);
+	// hook returns a ref
+	const { ref } = useScramble({
+		text: "Devtools GPT",
+		speed: 0.25,
+		scramble: 20,
+	});
+
+	const scrollToBottom = () =>
+		viewport.current!.scrollTo({
+			top: viewport.current!.scrollHeight,
+			behavior: "smooth",
+		});
 
 	React.useEffect(() => {
-		window.scrollTo(0, document.body.scrollHeight);
-	}, [status, messages]);
+		scrollToBottom();
+	}, [messages]);
+
+	React.useEffect(() => {
+		if (query) {
+			append({
+				role: "user",
+				content: query,
+			});
+		}
+	}, [query]); // eslint-disable-line
 
 	return (
-		<SimpleGrid cols={{ base: 1, md: 2 }} p={"lg"}>
-			<Card>
-				<Text size="xl">
-					<ReactTyped strings={[""]} typeSpeed={40} />
-				</Text>
-			</Card>
-			<Card h={"100%"} component={Stack} gap={0}>
-				<Stack className="flex-1" component={ScrollArea}>
-					{messages.map((m: Message) => (
-						<Box key={m.id}>
-							<Stack key={m.id} p={"md"} gap={0}>
-								<Text fw={"bold"}>{`${m.role}: `}</Text>
-								<div
-									dangerouslySetInnerHTML={{
-										__html: marked.parse(m.content),
-									}}
-								/>
-							</Stack>
-							<Divider />
-						</Box>
-					))}
-				</Stack>
-
-				{status === "in_progress" && <div />}
-
-				<Divider />
-
-				<Stack p={"md"}>
-					<form onSubmit={submitMessage}>
+		<SimpleGrid cols={{ base: 1, md: 2 }} p={"xl"} w={"100%"} h={"100%"}>
+			<Flex
+				m={"auto"}
+				p={"md"}
+				w={"100%"}
+				h={"100%"}
+				maw={640}
+				justify={"center"}
+				align={"center"}
+			>
+				<form onSubmit={submitMessage} style={{ width: "100%" }}>
+					<Stack w={"100%"}>
+						<Title order={1} ref={ref} />
 						<ReactTyped
 							strings={[
 								"How to open devtools?",
@@ -66,20 +88,52 @@ export default function Chat() {
 							loop
 						>
 							<TextInput
+								w={"100%"}
 								autoComplete="off"
-								variant="unstyled"
 								disabled={status !== "awaiting_message"}
 								value={input}
 								placeholder="How to use the 3D view tool in Edge"
 								onChange={handleInputChange}
-								size={"md"}
+								size={"xl"}
 								leftSection={<IconWorld />}
 								rightSection={<IconCornerDownLeft />}
 							/>
 						</ReactTyped>
-					</form>
-				</Stack>
+						<Text size="md">
+							Your personal AI assistant to answer devtools
+							queries. It has the latest up-to-date knowledge
+							about all major browsers like Chrome, Firefox, Edge,
+							Safari and Polypane!
+						</Text>
+					</Stack>
+				</form>
+			</Flex>
+			<Card h={"100%"} p={"xl"} radius={"xs"} shadow="xl">
+				<ScrollArea
+					className="flex-1"
+					viewportRef={viewport}
+					offsetScrollbars
+				>
+					{messages.map((m: Message) =>
+						m.role === "user" ? (
+							<UserMessage key={m.id} m={m} />
+						) : (
+							<AgentMessage key={m.id} m={m} />
+						)
+					)}
+					{status === "in_progress" && <Loader type="dots" />}
+				</ScrollArea>
 			</Card>
 		</SimpleGrid>
 	);
 }
+
+let UserMessage = ({ m }: { m: Message }) => (
+	<Anchor href={`/?q=${m.content}`} target="_blank">
+		<ReactMarkdown>{_.capitalize(m.content)}</ReactMarkdown>
+	</Anchor>
+);
+
+let AgentMessage = ({ m }: { m: Message }) => (
+	<ReactMarkdown remarkPlugins={[remarkGfm]}>{m.content}</ReactMarkdown>
+);

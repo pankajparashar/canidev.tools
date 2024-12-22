@@ -1,18 +1,23 @@
 "use client";
 
-import { Card, createTheme } from "@mantine/core";
+import { Anchor, Card, createTheme } from "@mantine/core";
 
 export let theme = createTheme({
-	/** Your theme override here */
-	fontFamily: "Neutral Mono",
-	defaultRadius: "sm",
-	primaryColor: "dark",
+	fontFamily: "PP Supply Mono",
+	fontFamilyMonospace: "PP Supply Mono",
+	defaultRadius: "xs",
+	primaryColor: "violet",
 
 	components: {
 		Card: Card.extend({
 			defaultProps: {
 				withBorder: true,
-				p: 0,
+			},
+		}),
+
+		Anchor: Anchor.extend({
+			defaultProps: {
+				underline: "never",
 			},
 		}),
 	},
