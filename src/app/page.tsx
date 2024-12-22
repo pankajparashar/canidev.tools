@@ -1,6 +1,7 @@
 "use client";
 
 import {
+	ActionIcon,
 	Anchor,
 	Card,
 	Flex,
@@ -63,17 +64,21 @@ export default function Chat() {
 	}, [query]); // eslint-disable-line
 
 	return (
-		<SimpleGrid cols={{ base: 1, md: 2 }} p={"xl"} w={"100%"} h={"100%"}>
+		<SimpleGrid cols={{ base: 1, md: 2 }} w={"100%"} h={"100%"}>
 			<Flex
 				m={"auto"}
-				p={"md"}
 				w={"100%"}
 				h={"100%"}
 				maw={640}
+				p={{ base: "sm", md: "xl" }}
 				justify={"center"}
 				align={"center"}
 			>
-				<form onSubmit={submitMessage} style={{ width: "100%" }}>
+				<form
+					onSubmit={submitMessage}
+					style={{ width: "100%" }}
+					id="chat"
+				>
 					<Stack w={"100%"}>
 						<Title order={1} ref={ref} />
 						<ReactTyped
@@ -96,7 +101,18 @@ export default function Chat() {
 								onChange={handleInputChange}
 								size={"xl"}
 								leftSection={<IconWorld />}
-								rightSection={<IconCornerDownLeft />}
+								rightSection={
+									status === "in_progress" ? (
+										<Loader />
+									) : (
+										<ActionIcon
+											variant="subtle"
+											onClick={() => {}}
+										>
+											<IconCornerDownLeft />
+										</ActionIcon>
+									)
+								}
 							/>
 						</ReactTyped>
 						<Text size="md">
@@ -108,7 +124,12 @@ export default function Chat() {
 					</Stack>
 				</form>
 			</Flex>
-			<Card h={"100%"} p={"xl"} radius={"xs"} shadow="xl">
+			<Card
+				h={"100%"}
+				p={{ base: "xs", md: "xl" }}
+				radius={"xs"}
+				shadow="xl"
+			>
 				<ScrollArea
 					className="flex-1"
 					viewportRef={viewport}
