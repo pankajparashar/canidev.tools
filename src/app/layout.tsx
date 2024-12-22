@@ -4,6 +4,7 @@ import { theme } from "@/lib/theme";
 import { ColorSchemeScript, MantineProvider } from "@mantine/core";
 
 import "@mantine/core/styles.css";
+import { Suspense } from "react";
 import "./main.css";
 
 export const metadata = {
@@ -22,7 +23,9 @@ export default function RootLayout({
 				<ColorSchemeScript />
 			</head>
 			<body>
-				<MantineProvider theme={theme}>{children}</MantineProvider>
+				<MantineProvider theme={theme}>
+					<Suspense>{children}</Suspense>
+				</MantineProvider>
 			</body>
 		</html>
 	);
