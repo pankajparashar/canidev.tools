@@ -4,7 +4,9 @@ import {
 	ActionIcon,
 	Anchor,
 	Card,
+	Divider,
 	Flex,
+	Group,
 	Loader,
 	ScrollArea,
 	SimpleGrid,
@@ -121,6 +123,32 @@ export default function Chat() {
 							about all major browsers like Chrome, Firefox, Edge,
 							Safari and Polypane!
 						</Text>
+						<Group>
+							<Anchor
+								onClick={() => {
+									append({
+										role: "user",
+										content: "Who created Devtools GPT?",
+									});
+								}}
+							>
+								About the project
+							</Anchor>
+							<Divider orientation="vertical" />
+							<Anchor
+								onClick={() => {
+									append({
+										role: "user",
+										content:
+											"What is the source of your knowlegde?",
+									});
+								}}
+							>
+								Knowledge base
+							</Anchor>
+							<Divider orientation="vertical" />
+							<Anchor href="">Share</Anchor>
+						</Group>
 					</Stack>
 				</form>
 			</Flex>
