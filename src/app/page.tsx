@@ -80,7 +80,7 @@ export default function Chat() {
 					id="chat"
 				>
 					<Stack w={"100%"}>
-						<Title order={1} ref={ref} />
+						<Title order={1} ref={ref} className="sticky top-0" />
 						<ReactTyped
 							strings={[
 								"How to open devtools?",
@@ -93,17 +93,17 @@ export default function Chat() {
 							loop
 						>
 							<TextInput
+								size="lg"
 								w={"100%"}
 								autoComplete="off"
 								disabled={status !== "awaiting_message"}
 								value={input}
 								placeholder="How to use the 3D view tool in Edge"
 								onChange={handleInputChange}
-								size={"xl"}
 								leftSection={<IconWorld />}
 								rightSection={
 									status === "in_progress" ? (
-										<Loader />
+										<Loader size={"sm"} />
 									) : (
 										<ActionIcon
 											variant="subtle"

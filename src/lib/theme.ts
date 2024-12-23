@@ -3,7 +3,7 @@
 import { Anchor, Card, createTheme } from "@mantine/core";
 
 export let theme = createTheme({
-	fontFamily: "PP Supply Mono",
+	fontFamily: "ABC Prophet",
 	fontFamilyMonospace: "PP Supply Mono",
 	defaultRadius: "xs",
 	primaryColor: "violet",
