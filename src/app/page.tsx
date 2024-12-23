@@ -3,6 +3,7 @@
 import {
 	ActionIcon,
 	Anchor,
+	Box,
 	Card,
 	Divider,
 	Flex,
@@ -82,7 +83,7 @@ export default function Chat() {
 					id="chat"
 				>
 					<Stack w={"100%"}>
-						<Title order={1} ref={ref} className="sticky top-0" />
+						<Title order={1} ref={ref} />
 						<ReactTyped
 							strings={[
 								"How to open devtools?",
@@ -163,9 +164,9 @@ export default function Chat() {
 					viewportRef={viewport}
 					offsetScrollbars
 				>
-					{messages.map((m: Message) =>
+					{messages.map((m: Message, i: number) =>
 						m.role === "user" ? (
-							<UserMessage key={m.id} m={m} />
+							<UserMessage key={m.id} m={m} i={i} />
 						) : (
 							<AgentMessage key={m.id} m={m} />
 						)
@@ -177,10 +178,12 @@ export default function Chat() {
 	);
 }
 
-let UserMessage = ({ m }: { m: Message }) => (
-	<Anchor href={`/?q=${m.content}`} target="_blank">
-		<ReactMarkdown>{_.capitalize(m.content)}</ReactMarkdown>
-	</Anchor>
+let UserMessage = ({ m, i }: { m: Message; i: number }) => (
+	<Box className={`sticky top-0 bg-white z-${i}`}>
+		<Anchor href={`/?q=${m.content}`} target="_blank">
+			<ReactMarkdown>{_.capitalize(m.content)}</ReactMarkdown>
+		</Anchor>
+	</Box>
 );
 
 let AgentMessage = ({ m }: { m: Message }) => (
