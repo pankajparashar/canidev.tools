@@ -168,6 +168,7 @@ export default function Chat() {
 									Randomize
 								</Anchor>
 							</Group>
+							<Ad />
 						</Collapse>
 					</Stack>
 				</form>
@@ -215,3 +216,17 @@ let prompts = [
 	"How to change devtools theme?",
 	"How to use the 3D view tool in Edge",
 ];
+
+let Ad = () => {
+	const ref = React.useRef<HTMLDivElement>(null);
+
+	React.useEffect(() => {
+		ref.current!.innerHTML = "";
+		const s = document.createElement("script");
+		s.id = "_carbonads_js";
+		s.src = `//cdn.carbonads.com/carbon.js?serve=CEAIVKJJ&placement=wwwcanidevtools`;
+		ref.current!.appendChild(s);
+	}, []); // eslint-disable-line
+
+	return <div ref={ref} />;
+};
