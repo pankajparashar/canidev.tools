@@ -52,11 +52,6 @@ pre {
 	padding: 1em;
 }
 
-pre,
-code {
-	font-family: "Fire Code", monospace;
-}
-
 ::selection {
 	background-color: var(--mantine-primary-color-light);
 }
