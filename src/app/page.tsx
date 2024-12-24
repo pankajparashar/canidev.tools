@@ -1,5 +1,6 @@
 "use client";
 
+import { IconLoaderPinwheel } from "@/components/icon-pinwheel";
 import {
 	ActionIcon,
 	Anchor,
@@ -19,11 +20,7 @@ import {
 	useMantineTheme,
 } from "@mantine/core";
 import { useDisclosure, useMediaQuery } from "@mantine/hooks";
-import {
-	IconCornerDownLeft,
-	IconSelector,
-	IconWorld,
-} from "@tabler/icons-react";
+import { IconCornerDownLeft, IconSelector } from "@tabler/icons-react";
 import { Message, useAssistant } from "ai/react";
 import * as _ from "lodash";
 import { useSearchParams } from "next/navigation";
@@ -48,7 +45,7 @@ export default function Chat() {
 	let viewport = React.useRef<HTMLDivElement>(null);
 	let { ref: titleRef } = useScramble({
 		text: "Devtools GPT",
-		speed: 0.15,
+		speed: isMobile ? 1 : 0.15,
 		scramble: 0,
 		overflow: false,
 	});
@@ -96,7 +93,12 @@ export default function Chat() {
 				>
 					<Stack w={"100%"}>
 						<Group justify="space-between">
-							<Title order={1} ref={titleRef} />
+							<Group>
+								<Anchor href="/">
+									<IconLoaderPinwheel />
+								</Anchor>
+								<Title order={1} ref={titleRef} />
+							</Group>
 							<ActionIcon
 								variant="subtle"
 								color="gray"
@@ -121,7 +123,6 @@ export default function Chat() {
 								value={input}
 								placeholder={prompts[randomIdx]}
 								onChange={handleInputChange}
-								leftSection={<IconWorld />}
 								rightSection={
 									status === "in_progress" ? (
 										<Loader size={"sm"} />
