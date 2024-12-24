@@ -38,7 +38,8 @@ export default function Chat() {
 	let isMobile = useMediaQuery(`(max-width: ${theme.breakpoints.md})`);
 
 	let searchParams = useSearchParams();
-	let query = searchParams.get("q") || "Explain devtools like I am five?";
+	let randomIdx = React.useMemo(() => _.random(prompts.length - 1), []);
+	let query = searchParams.get("q") || prompts[randomIdx];
 
 	let [opened, { toggle, close }] = useDisclosure(true);
 	let { status, messages, input, submitMessage, handleInputChange, append } =
@@ -112,12 +113,13 @@ export default function Chat() {
 							loop
 						>
 							<TextInput
+								suppressHydrationWarning
 								size="lg"
 								w={"100%"}
 								autoComplete="off"
 								disabled={status !== "awaiting_message"}
 								value={input}
-								placeholder="How to use the 3D view tool in Edge"
+								placeholder={prompts[randomIdx]}
 								onChange={handleInputChange}
 								leftSection={<IconWorld />}
 								rightSection={
@@ -211,6 +213,7 @@ let AgentMessage = ({ m }: { m: Message }) => (
 );
 
 let prompts = [
+	"Explain devtools like I am five?",
 	"How to open devtools?",
 	"How to block network request?",
 	"How to change devtools theme?",
