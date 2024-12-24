@@ -69,7 +69,7 @@ code {
 
 .carbon-wrap {
 	display: flex;
-	gap: 10px;
+	gap: 1em;
 }
 
 .carbon-text {
