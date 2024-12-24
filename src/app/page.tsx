@@ -5,6 +5,7 @@ import {
 	Anchor,
 	Box,
 	Card,
+	Collapse,
 	Divider,
 	Flex,
 	Group,
@@ -15,8 +16,14 @@ import {
 	Text,
 	TextInput,
 	Title,
+	useMantineTheme,
 } from "@mantine/core";
-import { IconCornerDownLeft, IconWorld } from "@tabler/icons-react";
+import { useDisclosure, useMediaQuery } from "@mantine/hooks";
+import {
+	IconCornerDownLeft,
+	IconSelector,
+	IconWorld,
+} from "@tabler/icons-react";
 import { Message, useAssistant } from "ai/react";
 import * as _ from "lodash";
 import { useSearchParams } from "next/navigation";
@@ -27,31 +34,35 @@ import remarkGfm from "remark-gfm";
 import { useScramble } from "use-scramble";
 
 export default function Chat() {
-	const searchParams = useSearchParams();
-	const query = searchParams.get("q") || "Explain devtools like I am five?";
+	let theme = useMantineTheme();
+	let isMobile = useMediaQuery(`(max-width: ${theme.breakpoints.md})`);
 
-	const {
-		status,
-		messages,
-		input,
-		submitMessage,
-		handleInputChange,
-		append,
-	} = useAssistant({ api: "/api/assistant" });
+	let searchParams = useSearchParams();
+	let query = searchParams.get("q") || "Explain devtools like I am five?";
 
-	const viewport = React.useRef<HTMLDivElement>(null);
-	// hook returns a ref
-	const { ref } = useScramble({
+	let [opened, { toggle, close }] = useDisclosure(true);
+	let { status, messages, input, submitMessage, handleInputChange, append } =
+		useAssistant({ api: "/api/assistant" });
+
+	let viewport = React.useRef<HTMLDivElement>(null);
+	let { ref: titleRef } = useScramble({
 		text: "Devtools GPT",
-		speed: 0.25,
-		scramble: 20,
+		speed: 0.15,
+		scramble: 0,
+		overflow: false,
 	});
 
-	const scrollToBottom = () =>
+	let scrollToBottom = () =>
 		viewport.current!.scrollTo({
 			top: viewport.current!.scrollHeight,
 			behavior: "smooth",
 		});
+
+	React.useEffect(() => {
+		if (isMobile) {
+			close();
+		}
+	}, [isMobile]); // eslint-disable-line
 
 	React.useEffect(() => {
 		scrollToBottom();
@@ -83,13 +94,18 @@ export default function Chat() {
 					id="chat"
 				>
 					<Stack w={"100%"}>
-						<Title order={1} ref={ref} />
+						<Group justify="space-between">
+							<Title order={1} ref={titleRef} />
+							<ActionIcon
+								variant="subtle"
+								color="gray"
+								onClick={toggle}
+							>
+								<IconSelector />
+							</ActionIcon>
+						</Group>
 						<ReactTyped
-							strings={[
-								"How to open devtools?",
-								"How to block network request?",
-								"How to change devtools theme?",
-							]}
+							strings={prompts}
 							typeSpeed={40}
 							backSpeed={50}
 							attr="placeholder"
@@ -118,38 +134,41 @@ export default function Chat() {
 								}
 							/>
 						</ReactTyped>
-						<Text size="md">
-							Your personal AI assistant to answer devtools
-							queries. It has the latest up-to-date knowledge
-							about all major browsers like Chrome, Firefox, Edge,
-							Safari and Polypane!
-						</Text>
-						<Group>
-							<Anchor
-								onClick={() => {
-									append({
-										role: "user",
-										content: "Who created Devtools GPT?",
-									});
-								}}
-							>
-								About the project
-							</Anchor>
-							<Divider orientation="vertical" />
-							<Anchor
-								onClick={() => {
-									append({
-										role: "user",
-										content:
-											"What is the source of your knowlegde?",
-									});
-								}}
-							>
-								Knowledge base
-							</Anchor>
-							<Divider orientation="vertical" />
-							<Anchor href="">Share</Anchor>
-						</Group>
+						<Collapse in={opened} component={Stack}>
+							<Text size="md">
+								Your personal AI assistant to answer devtools
+								queries. It has the latest up-to-date knowledge
+								about all major browsers like Chrome, Firefox,
+								Edge, Safari and Polypane!
+							</Text>
+							<Group>
+								<Anchor
+									onClick={() => {
+										append({
+											role: "user",
+											content:
+												"Who created Devtools GPT?",
+										});
+									}}
+								>
+									About the project
+								</Anchor>
+								<Divider orientation="vertical" />
+								<Anchor
+									onClick={() => {
+										append({
+											role: "user",
+											content:
+												prompts[
+													_.random(prompts.length - 1)
+												],
+										});
+									}}
+								>
+									Randomize
+								</Anchor>
+							</Group>
+						</Collapse>
 					</Stack>
 				</form>
 			</Flex>
@@ -189,3 +208,10 @@ let UserMessage = ({ m, i }: { m: Message; i: number }) => (
 let AgentMessage = ({ m }: { m: Message }) => (
 	<ReactMarkdown remarkPlugins={[remarkGfm]}>{m.content}</ReactMarkdown>
 );
+
+let prompts = [
+	"How to open devtools?",
+	"How to block network request?",
+	"How to change devtools theme?",
+	"How to use the 3D view tool in Edge",
+];
