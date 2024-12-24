@@ -13,6 +13,7 @@
     "@mantine/core": "^7.14.0",
     "@mantine/hooks": "^7.14.0",
     "@tabler/icons-react": "^3.22.0",
+    "@vercel/analytics": "^1.4.1",
     "ai": "^3.4.33",
     "lodash": "^4.17.21",
     "marked": "^15.0.0",

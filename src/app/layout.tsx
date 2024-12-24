@@ -4,12 +4,14 @@ import { theme } from "@/lib/theme";
 import { ColorSchemeScript, MantineProvider } from "@mantine/core";
 
 import "@mantine/core/styles.css";
+import { Analytics } from "@vercel/analytics/next";
 import { Suspense } from "react";
 import "./main.css";
 
 export const metadata = {
 	title: "Devtools GPT",
-	description: "I have followed setup instructions carefully",
+	description:
+		"Your personal AI assistant to answer devtools queries. It has the latest up-to-date knowledge about all major browsers like Chrome, Firefox, Edge, Safari and Polypane!",
 };
 
 export default function RootLayout({
@@ -26,6 +28,7 @@ export default function RootLayout({
 				<MantineProvider theme={theme}>
 					<Suspense>{children}</Suspense>
 				</MantineProvider>
+				<Analytics />
 			</body>
 		</html>
 	);
