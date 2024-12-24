@@ -93,7 +93,7 @@ export default function Chat() {
 				>
 					<Stack w={"100%"}>
 						<Group justify="space-between">
-							<Group>
+							<Group gap={5}>
 								<Anchor href="/">
 									<IconLoaderPinwheel />
 								</Anchor>
