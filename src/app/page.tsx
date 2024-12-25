@@ -68,6 +68,7 @@ export default function Chat() {
 
 	React.useEffect(() => {
 		if (query) {
+			document.title = `Devtools GPT | ${query}`;
 			append({
 				role: "user",
 				content: query,
