@@ -68,13 +68,19 @@ export default function Chat() {
 
 	React.useEffect(() => {
 		if (query) {
-			document.title = `Devtools GPT | ${query}`;
 			append({
 				role: "user",
 				content: query,
 			});
 		}
 	}, [query]); // eslint-disable-line
+
+	React.useEffect(() => {
+		let q = searchParams.get("q");
+		if (q) {
+			document.title = `Devtools GPT | ${q}`;
+		}
+	}, [searchParams]);
 
 	return (
 		<SimpleGrid cols={{ base: 1, md: 2 }} w={"100%"} h={"100%"}>
