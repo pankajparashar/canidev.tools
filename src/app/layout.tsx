@@ -5,14 +5,17 @@ import { ColorSchemeScript, MantineProvider } from "@mantine/core";
 
 import "@mantine/core/styles.css";
 import { Analytics } from "@vercel/analytics/next";
+import { Metadata } from "next";
 import { Suspense } from "react";
 import "./main.css";
 
-export const metadata = {
-	title: "Devtools GPT",
-	description:
-		"Your personal AI assistant to answer devtools queries. It has the latest up-to-date knowledge about all major browsers like Chrome, Firefox, Edge, Safari and Polypane!",
-};
+export async function generateMetadata({}): Promise<Metadata> {
+	return {
+		title: "Devtools GPT",
+		description:
+			"Your personal AI assistant to answer devtools queries. It has the latest up-to-date knowledge about all major browsers like Chrome, Firefox, Edge, Safari and Polypane!",
+	};
+}
 
 export default function RootLayout({
 	children,
