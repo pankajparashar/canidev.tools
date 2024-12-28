@@ -21,6 +21,7 @@ import {
 } from "@mantine/core";
 import { useDisclosure, useMediaQuery } from "@mantine/hooks";
 import { IconCornerDownLeft, IconSelector } from "@tabler/icons-react";
+import { Redis } from "@upstash/redis";
 import { Message, useAssistant } from "ai/react";
 import * as _ from "lodash";
 import { useSearchParams } from "next/navigation";
@@ -31,6 +32,10 @@ import remarkGfm from "remark-gfm";
 import { useScramble } from "use-scramble";
 
 export default function Chat() {
+	const redis = new Redis({
+		url: "https://balanced-flea-53370.upstash.io",
+		token: "AdB6AAIjcDE0OTY4ZjY5MTZlZTE0NTFiYTAyNmJlM2EyODljYWZkNnAxMA",
+	});
 	let theme = useMantineTheme();
 	let isMobile = useMediaQuery(`(max-width: ${theme.breakpoints.md})`);
 
@@ -94,7 +99,13 @@ export default function Chat() {
 				align={"center"}
 			>
 				<form
-					onSubmit={submitMessage}
+					onSubmit={async (event) => {
+						event.preventDefault();
+
+						submitMessage();
+						await redis.set(new Date().toUTCString(), input);
+						console.log(new Date().toUTCString(), input);
+					}}
 					style={{ width: "100%" }}
 					id="chat"
 				>
