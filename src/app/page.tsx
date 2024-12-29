@@ -12,7 +12,6 @@ import {
 	Group,
 	Loader,
 	ScrollArea,
-	SimpleGrid,
 	Stack,
 	Text,
 	TextInput,
@@ -88,12 +87,11 @@ export default function Chat() {
 	}, [searchParams]);
 
 	return (
-		<SimpleGrid cols={{ base: 1, md: 2 }} w={"100%"} h={"100%"}>
+		<Flex w={"100%"} h={"100%"} direction={isMobile ? "column" : "row"}>
 			<Flex
 				m={"auto"}
-				w={"100%"}
-				h={"100%"}
 				maw={640}
+				w={"100%"}
 				p={{ base: "sm", md: "xl" }}
 				justify={"center"}
 				align={"center"}
@@ -197,6 +195,7 @@ export default function Chat() {
 			<Card
 				h={"100%"}
 				p={{ base: "xs", md: "xl" }}
+				w={{ base: "100%", md: "50%" }}
 				radius={"xs"}
 				shadow="xl"
 			>
@@ -215,7 +214,7 @@ export default function Chat() {
 					{status === "in_progress" && <Loader type="dots" />}
 				</ScrollArea>
 			</Card>
-		</SimpleGrid>
+		</Flex>
 	);
 }
 
