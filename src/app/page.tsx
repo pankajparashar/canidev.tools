@@ -12,6 +12,7 @@ import {
 	Group,
 	Loader,
 	ScrollArea,
+	Space,
 	Stack,
 	Text,
 	TextInput,
@@ -158,7 +159,7 @@ export default function Chat() {
 								Your personal AI assistant to answer devtools
 								queries. It has the latest up-to-date knowledge
 								about all major browsers like Chrome, Firefox,
-								Edge, Safari and Polypane!
+								Edge, Safari, Opera and Polypane!
 							</Text>
 							<Group>
 								<Anchor
