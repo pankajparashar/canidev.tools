@@ -12,6 +12,7 @@
     "@ai-sdk/openai": "^0.0.72",
     "@mantine/core": "^7.14.0",
     "@mantine/hooks": "^7.14.0",
+    "@phosphor-icons/react": "^2.1.7",
     "@tabler/icons-react": "^3.22.0",
     "@upstash/redis": "^1.34.3",
     "@vercel/analytics": "^1.4.1",

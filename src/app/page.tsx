@@ -220,7 +220,7 @@ export default function Chat() {
 
 let UserMessage = ({ m, i }: { m: Message; i: number }) => (
 	<Box className={`sticky top-0 bg-white z-${i}`}>
-		<Anchor href={`/?q=${m.content}`} target="_blank">
+		<Anchor href={`/?q=${m.content}`} target="_blank" className="prompt">
 			<ReactMarkdown>{_.capitalize(m.content)}</ReactMarkdown>
 		</Anchor>
 	</Box>

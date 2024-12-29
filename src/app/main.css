@@ -34,10 +34,18 @@ a {
 	color: var(--mantine-primary-color-filled);
 	text-decoration: none;
 	word-break: break-word;
+	border-bottom: 1px solid transparent;
 }
 
 a:hover {
 	background-color: var(--mantine-primary-color-light);
+}
+
+.prompt:hover p {
+}
+
+.prompt p {
+	display: inline;
 }
 
 code {

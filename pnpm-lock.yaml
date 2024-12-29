@@ -14,6 +14,9 @@ dependencies:
   '@mantine/hooks':
     specifier: ^7.14.0
     version: 7.14.0(react@19.0.0-rc-66855b96-20241106)
+  '@phosphor-icons/react':
+    specifier: ^2.1.7
+    version: 2.1.7(react-dom@19.0.0-rc-66855b96-20241106)(react@19.0.0-rc-66855b96-20241106)
   '@tabler/icons-react':
     specifier: ^3.22.0
     version: 3.22.0(react@19.0.0-rc-66855b96-20241106)
@@ -745,6 +748,17 @@ packages:
   /@opentelemetry/api@1.9.0:
     resolution: {integrity: sha512-3giAOQvZiH5F9bMlMiv8+GSPMeqg0dbaeo58/0SlA9sxSqZhnUtxzX9/2FzyhS9sWQf5S0GJE0AKBrFqjpeYcg==}
     engines: {node: '>=8.0.0'}
+    dev: false
+
+  /@phosphor-icons/react@2.1.7(react-dom@19.0.0-rc-66855b96-20241106)(react@19.0.0-rc-66855b96-20241106):
+    resolution: {integrity: sha512-g2e2eVAn1XG2a+LI09QU3IORLhnFNAFkNbo2iwbX6NOKSLOwvEMmTa7CgOzEbgNWR47z8i8kwjdvYZ5fkGx1mQ==}
+    engines: {node: '>=10'}
+    peerDependencies:
+      react: '>= 16.8'
+      react-dom: '>= 16.8'
+    dependencies:
+      react: 19.0.0-rc-66855b96-20241106
+      react-dom: 19.0.0-rc-66855b96-20241106(react@19.0.0-rc-66855b96-20241106)
     dev: false
 
   /@pkgjs/parseargs@0.11.0:
