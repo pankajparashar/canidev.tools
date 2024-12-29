@@ -12,7 +12,6 @@ import {
 	Group,
 	Loader,
 	ScrollArea,
-	Space,
 	Stack,
 	Text,
 	TextInput,
