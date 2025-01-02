@@ -32,19 +32,8 @@ import { ShortCrypt } from "short-crypt";
 import { useScramble } from "use-scramble";
 
 let key = "magickey";
-let plainText = "Hello, World!";
 const sc = new ShortCrypt(key);
 const utf8Decoder = new TextDecoder("utf-8", { fatal: true });
-
-const cipher1 = sc.encryptToURLComponent(plainText);
-const cipher2 = sc.encryptToQRCodeAlphanumeric(plainText);
-
-console.log(cipher1, cipher2);
-
-const result1 = sc.decryptURLComponent(cipher1);
-const result2 = sc.decryptQRCodeAlphanumeric(cipher2);
-
-console.log(result1, result2);
 
 export default function Chat() {
 	let redis = new Redis({
@@ -122,10 +111,8 @@ export default function Chat() {
 				<form
 					onSubmit={async (event) => {
 						event.preventDefault();
-
 						submitMessage();
 						await redis.set(new Date().toUTCString(), input);
-						console.log(new Date().toUTCString(), input);
 					}}
 					style={{ width: "100%" }}
 					id="chat"
