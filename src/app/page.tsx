@@ -46,12 +46,7 @@ export default function Chat() {
 
 	let searchParams = useSearchParams();
 	let randomIdx = React.useMemo(() => _.random(prompts.length - 1), []);
-	let query = prompts[randomIdx];
-
-	let qq = searchParams.get("q");
-	if (qq) {
-		query = utf8Decoder.decode(sc.decryptURLComponent(qq) as any, {});
-	}
+	let query = searchParams.get("q") || prompts[randomIdx];
 
 	let [opened, { toggle, close }] = useDisclosure(true);
 	let { status, messages, input, submitMessage, handleInputChange, append } =
@@ -93,7 +88,6 @@ export default function Chat() {
 	React.useEffect(() => {
 		let q = searchParams.get("q");
 		if (q) {
-			q = utf8Decoder.decode(sc.decryptURLComponent(q) as any, {});
 			document.title = `Devtools GPT | ${q}`;
 		}
 	}, [searchParams]);
@@ -232,7 +226,7 @@ let UserMessage = ({ m, i }: { m: Message; i: number }) => {
 	return (
 		<Box className={`sticky top-0 bg-white z-${i}`}>
 			<Anchor
-				href={`/?q=${sc.encryptToURLComponent(m.content)}`}
+				href={`/?q=${m.content}`}
 				target="_blank"
 				className="prompt"
 			>
