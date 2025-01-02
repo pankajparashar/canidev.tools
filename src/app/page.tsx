@@ -28,19 +28,41 @@ import React from "react";
 import ReactMarkdown from "react-markdown";
 import { ReactTyped } from "react-typed";
 import remarkGfm from "remark-gfm";
+import { ShortCrypt } from "short-crypt";
 import { useScramble } from "use-scramble";
 
+let key = "magickey";
+let plainText = "Hello, World!";
+const sc = new ShortCrypt(key);
+const utf8Decoder = new TextDecoder("utf-8", { fatal: true });
+
+const cipher1 = sc.encryptToURLComponent(plainText);
+const cipher2 = sc.encryptToQRCodeAlphanumeric(plainText);
+
+console.log(cipher1, cipher2);
+
+const result1 = sc.decryptURLComponent(cipher1);
+const result2 = sc.decryptQRCodeAlphanumeric(cipher2);
+
+console.log(result1, result2);
+
 export default function Chat() {
-	const redis = new Redis({
+	let redis = new Redis({
 		url: "https://balanced-flea-53370.upstash.io",
 		token: "AdB6AAIjcDE0OTY4ZjY5MTZlZTE0NTFiYTAyNmJlM2EyODljYWZkNnAxMA",
 	});
+
 	let theme = useMantineTheme();
 	let isMobile = useMediaQuery(`(max-width: ${theme.breakpoints.md})`);
 
 	let searchParams = useSearchParams();
 	let randomIdx = React.useMemo(() => _.random(prompts.length - 1), []);
-	let query = searchParams.get("q") || prompts[randomIdx];
+	let query = prompts[randomIdx];
+
+	let qq = searchParams.get("q");
+	if (qq) {
+		query = utf8Decoder.decode(sc.decryptURLComponent(qq) as any, {});
+	}
 
 	let [opened, { toggle, close }] = useDisclosure(true);
 	let { status, messages, input, submitMessage, handleInputChange, append } =
@@ -82,6 +104,7 @@ export default function Chat() {
 	React.useEffect(() => {
 		let q = searchParams.get("q");
 		if (q) {
+			q = utf8Decoder.decode(sc.decryptURLComponent(q) as any, {});
 			document.title = `Devtools GPT | ${q}`;
 		}
 	}, [searchParams]);
@@ -218,13 +241,19 @@ export default function Chat() {
 	);
 }
 
-let UserMessage = ({ m, i }: { m: Message; i: number }) => (
-	<Box className={`sticky top-0 bg-white z-${i}`}>
-		<Anchor href={`/?q=${m.content}`} target="_blank" className="prompt">
-			<ReactMarkdown>{_.capitalize(m.content)}</ReactMarkdown>
-		</Anchor>
-	</Box>
-);
+let UserMessage = ({ m, i }: { m: Message; i: number }) => {
+	return (
+		<Box className={`sticky top-0 bg-white z-${i}`}>
+			<Anchor
+				href={`/?q=${sc.encryptToURLComponent(m.content)}`}
+				target="_blank"
+				className="prompt"
+			>
+				<ReactMarkdown>{_.capitalize(m.content)}</ReactMarkdown>
+			</Anchor>
+		</Box>
+	);
+};
 
 let AgentMessage = ({ m }: { m: Message }) => (
 	<ReactMarkdown remarkPlugins={[remarkGfm]}>{m.content}</ReactMarkdown>

@@ -29,6 +29,9 @@ dependencies:
   ai:
     specifier: ^3.4.33
     version: 3.4.33(openai@4.72.0)(react@19.0.0-rc-66855b96-20241106)(svelte@5.1.16)(vue@3.5.12)(zod@3.23.8)
+  encriptorjs:
+    specifier: ^1.0.2
+    version: 1.0.2
   lodash:
     specifier: ^4.17.21
     version: 4.17.21
@@ -38,6 +41,9 @@ dependencies:
   motion:
     specifier: ^11.15.0
     version: 11.15.0(react-dom@19.0.0-rc-66855b96-20241106)(react@19.0.0-rc-66855b96-20241106)
+  ncrypt-js:
+    specifier: ^2.1.2
+    version: 2.1.2
   next:
     specifier: 15.0.3
     version: 15.0.3(react-dom@19.0.0-rc-66855b96-20241106)(react@19.0.0-rc-66855b96-20241106)
@@ -60,6 +66,9 @@ dependencies:
     specifier: ^2.0.12
     version: 2.0.12(react@19.0.0-rc-66855b96-20241106)
   remark-gfm:
+    specifier: ^4.0.0
+    version: 4.0.0
+  short-crypt:
     specifier: ^4.0.0
     version: 4.0.0
   txt-shuffle:
@@ -1795,6 +1804,10 @@ packages:
     resolution: {integrity: sha512-L18DaJsXSUk2+42pv8mLs5jJT2hqFkFE4j21wOmgbUqsZ2hL72NsUU785g9RXgo3s0ZNgVl42TiHp3ZtOv/Vyg==}
     dev: true
 
+  /encriptorjs@1.0.2:
+    resolution: {integrity: sha512-+gnlMVYUAWnmX60CPkyeCoBLiYOLgkbljATUpNFeIUHA6x8O6XdPRprCBc+cnfnqjCtSNA7ozgAHmukbXzaF+Q==}
+    dev: false
+
   /enhanced-resolve@5.17.1:
     resolution: {integrity: sha512-LMHl3dXhTcfv8gM4kEzIUeTQ+7fpdA0l2tUf34BddXPkz2A5xJ5L/Pchd5BL6rdccM9QGvu0sWZzK1Z1t4wwyg==}
     engines: {node: '>=10.13.0'}
@@ -3016,6 +3029,10 @@ packages:
     resolution: {integrity: sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==}
     dev: false
 
+  /long@5.2.3:
+    resolution: {integrity: sha512-lcHwpNoggQTObv5apGNCTdJrO69eHOZMi4BNC+rTLER8iHAqGrUVeLh/irVIM7zTw2bOXA8T6uNPeujwOLg/2Q==}
+    dev: false
+
   /longest-streak@3.1.0:
     resolution: {integrity: sha512-9Ri+o0JYgehTaVBBDoMqIl8GXtbWg711O3srftcHhZ0dqnETqLaoIK0x17fUw9rFSlK/0NlsKe0Ahhyl5pXE2g==}
     dev: false
@@ -3570,6 +3587,10 @@ packages:
   /natural-compare@1.4.0:
     resolution: {integrity: sha512-OWND8ei3VtNC9h7V60qff3SVobHr996CTwgxubgyQYEpg290h9J0buyECNNJexkFm5sOajh5G116RYA1c8ZMSw==}
     dev: true
+
+  /ncrypt-js@2.1.2:
+    resolution: {integrity: sha512-/rp7ybVMLA7Bjo+/aUN22m+JGNgW9AQcG9vQ/0rUIVUku1CojXRuSSRJG19oFDghSvqFMJtRQd09Oy4n4vYrLA==}
+    dev: false
 
   /next@15.0.3(react-dom@19.0.0-rc-66855b96-20241106)(react@19.0.0-rc-66855b96-20241106):
     resolution: {integrity: sha512-ontCbCRKJUIoivAdGB34yCaOcPgYXr9AAkV/IwqFfWWTXEPUgLYkSkqBhIk9KK7gGmgjc64B+RdoeIDM13Irnw==}
@@ -4252,6 +4273,10 @@ packages:
     engines: {iojs: '>=1.0.0', node: '>=0.10.0'}
     dev: true
 
+  /rfc4648@1.5.4:
+    resolution: {integrity: sha512-rRg/6Lb+IGfJqO05HZkN50UtY7K/JhxJag1kP23+zyMfrvoB0B7RWv06MbOzoc79RgCdNTiUaNsTT1AJZ7Z+cg==}
+    dev: false
+
   /rimraf@3.0.2:
     resolution: {integrity: sha512-JZkJMZkAGFFPP2YqXZXPbMlMBgsxzE8ILs4lMIX/2o0L9UBw9O/Y3o6wFw/i9YLapcUJWwqbi3kdxIPdC62TIA==}
     deprecated: Rimraf versions prior to v4 are no longer supported
@@ -4371,6 +4396,14 @@ packages:
     resolution: {integrity: sha512-7++dFhtcx3353uBaq8DDR4NuxBetBzC7ZQOhmTQInHEd6bSrXdiEyzCvG07Z44UYdLShWUyXt5M/yhz8ekcb1A==}
     engines: {node: '>=8'}
     dev: true
+
+  /short-crypt@4.0.0:
+    resolution: {integrity: sha512-gsb7k+5sq0OYbzxhVPwE0WtP5cvykUDWZYRZ/ZnbDUAFpK7AFzmrhktNx+iR+My+FuaJ8FjTfnPsy9M5IH4eSA==}
+    engines: {node: '>=20'}
+    dependencies:
+      long: 5.2.3
+      rfc4648: 1.5.4
+    dev: false
 
   /side-channel@1.0.6:
     resolution: {integrity: sha512-fDW/EZ6Q9RiO8eFG8Hj+7u/oW+XrPTIChwCOM2+th2A6OblDtYYIpve9m+KvI9Z4C9qSEXlaGR6bTEYHReuglA==}
