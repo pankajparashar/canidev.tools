@@ -28,12 +28,7 @@ import React from "react";
 import ReactMarkdown from "react-markdown";
 import { ReactTyped } from "react-typed";
 import remarkGfm from "remark-gfm";
-import { ShortCrypt } from "short-crypt";
 import { useScramble } from "use-scramble";
-
-let key = "magickey";
-const sc = new ShortCrypt(key);
-const utf8Decoder = new TextDecoder("utf-8", { fatal: true });
 
 export default function Chat() {
 	let redis = new Redis({
