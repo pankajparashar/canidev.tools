@@ -3,6 +3,13 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+	font-family: "Skia";
+	src: url("skia.ttf") format("ttf supports variations"),
+		url("skia.ttf") format("ttf-variations");
+	font-weight: 100 1000;
+}
+
 html,
 body {
 	height: 100%;
